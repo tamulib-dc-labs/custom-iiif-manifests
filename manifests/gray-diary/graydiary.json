@@ -7186,5 +7186,149 @@
       "@context" : "http://iiif.io/api/image/2/context.json",
       "@id" : "https://api.library.tamu.edu/iiif/2/71e3c41e-63a1-3321-a500-bda01356afdd"
     }
-  }
+  },
+  "structures": [
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r0",
+      "@type": "sc:Range",
+      "label": "Table of Contents",
+      "viewingHint": "top",
+      "ranges": [
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r1",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r2",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r1",
+      "@type": "sc:Range",
+      "label": "Coverpage",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_5"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r2",
+      "@type": "sc:Range",
+      "label": "Introductory Preface",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_7"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3",
+      "@type": "sc:Range",
+      "label": "Diary",
+      "ranges": [
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-1",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-2",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-3",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-4",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-5",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-6",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-7",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-8",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-9",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-10",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-11",
+        "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-12"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-1",
+      "@type": "sc:Range",
+      "label": "Volume 1",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_13"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-2",
+      "@type": "sc:Range",
+      "label": "Volume 2",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_27"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-3",
+      "@type": "sc:Range",
+      "label": "Volume 3",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_45"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-4",
+      "@type": "sc:Range",
+      "label": "[Volume 4]",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_66"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-5",
+      "@type": "sc:Range",
+      "label": "Volume 5",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_82"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-6",
+      "@type": "sc:Range",
+      "label": "Volume 6",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_104"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-7",
+      "@type": "sc:Range",
+      "label": "Volume 7",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_129"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-8",
+      "@type": "sc:Range",
+      "label": "Volume 8",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_154"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-9",
+      "@type": "sc:Range",
+      "label": "Volume 9",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_175"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-10",
+      "@type": "sc:Range",
+      "label": "Volume 10",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_198"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-11",
+      "@type": "sc:Range",
+      "label": "Volume B 1",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_206"
+      ]
+    },
+    {
+      "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/gray-diary/range/r3-12",
+      "@type": "sc:Range",
+      "label": "Volume B 2",
+      "canvases": [
+        "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/graydiary-saf_objects/2/pages/page_231"
+      ]
+    }
+  ]
 }
