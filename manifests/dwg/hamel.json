@@ -1,0 +1,1119 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/dwg/hamel.json",
+  "label": {
+    "none": [
+      "Interview with Jeanie Hamel"
+    ]
+  },
+  "behavior": [
+    "auto-advance"
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Interview with Jeanie Hamel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Date"
+        ]
+      },
+      "value": {
+        "none": [
+          "2025-03-26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Main contributor"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hamel, Jeanie"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributor"
+        ]
+      },
+      "value": {
+        "none": [
+          "Uchacz, Tianna"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Genre"
+        ]
+      },
+      "value": {
+        "none": [
+          "Interview"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Art",
+          "Painting",
+          "Drawing",
+          "Print"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Location"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas--Dallas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon.library.tamu.edu/collections/xp68kg37h\"\u003eDallas Women's Gallery\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Unit"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon.library.tamu.edu/collections?filter=Collections\"\u003eCollections\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Language"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Access Restrictions"
+        ]
+      },
+      "value": {
+        "none": [
+          "This item is accessible by: the public."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creation/Production Credits"
+        ]
+      },
+      "value": {
+        "none": [
+          "Richard Serrano (Video Production); Tianna Uchacz (Project Production); Sydney McDonald (Transcription Editing and Metadata Curation)"
+        ]
+      }
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://avalon.library.tamu.edu/media_objects/m326m195q",
+      "type": "Text",
+      "label": {
+        "none": [
+          "View in Repository"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/annotation_page/80e0a667-db30-4448-bb94-2c87c49feb9b/annotation/57c7a690-3382-4e43-84b3-df85c9fc4a56",
+              "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/8336h214z/auto.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 2979.56,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/8336h214z/high.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 2979.56,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/8336h214z/medium.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 2979.56,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/8336h214z/low.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 2979.56,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "low"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/annotation_page/80e0a667-db30-4448-bb94-2c87c49feb9b"
+        }
+      ],
+      "label": {
+        "none": [
+          "Interview with Jeanie Hamel: Part 1"
+        ]
+      },
+      "rendering": [
+        {
+          "type": "Text",
+          "format": "text/vtt",
+          "id": "https://avalon.library.tamu.edu/media_objects/8336h214z/supplemental_files/2985",
+          "label": {
+            "en": [
+              "Captions in English"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon.library.tamu.edu/master_files/8336h214z/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon.library.tamu.edu/master_files/8336h214z/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon.library.tamu.edu/master_files/8336h214z/supplemental_files/2985/captions",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_hamel_pt1.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/annotation_page/37c2476b-0970-4436-bded-d3f46235185e/supplementing/f229bd5f-3f4a-442c-b657-938add33b760",
+              "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z"
+            },
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon.library.tamu.edu/master_files/8336h214z/supplemental_files/2985/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_hamel_pt1.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/annotation_page/37c2476b-0970-4436-bded-d3f46235185e/supplementing/44043bab-8f7a-4851-8630-866808477c41",
+              "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z"
+            }
+          ],
+          "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/annotation_page/37c2476b-0970-4436-bded-d3f46235185e"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 2979.56,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon.library.tamu.edu/master_files/8336h214z/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/placeholder/annotation_page/8efe0ef5-a4f4-464f-894f-79a195d2d538/annotation/1fa54adf-0fe7-47ea-b718-4c89111cb99d",
+                "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/placeholder"
+              }
+            ],
+            "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z/placeholder/annotation_page/8efe0ef5-a4f4-464f-894f-79a195d2d538"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Canvas",
+      "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/annotation_page/579bb391-c518-4895-b4fa-c5470495d3dd/annotation/0e0a915f-fd5f-4807-a2c3-53e1dac081d4",
+              "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/v405s966r/auto.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 1240.823,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/v405s966r/high.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 1240.823,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/v405s966r/medium.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 1240.823,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon.library.tamu.edu/master_files/v405s966r/low.m3u8",
+                    "type": "Video",
+                    "height": 1080,
+                    "width": 1920,
+                    "duration": 1240.823,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "low"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/annotation_page/579bb391-c518-4895-b4fa-c5470495d3dd"
+        }
+      ],
+      "label": {
+        "none": [
+          "Interview with Jeanie Hamel: Part 2"
+        ]
+      },
+      "rendering": [
+        {
+          "type": "Text",
+          "format": "text/vtt",
+          "id": "https://avalon.library.tamu.edu/media_objects/v405s966r/supplemental_files/2986",
+          "label": {
+            "en": [
+              "Captions in English"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon.library.tamu.edu/master_files/v405s966r/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon.library.tamu.edu/master_files/v405s966r/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon.library.tamu.edu/master_files/v405s966r/supplemental_files/2986/captions",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_hamel_pt2.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/annotation_page/84b17f0e-ae49-4234-8f64-2c59f345c478/supplementing/9bb388ce-af9c-4cbb-85d3-4b8dd9fecfb1",
+              "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r"
+            },
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon.library.tamu.edu/master_files/v405s966r/supplemental_files/2986/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_hamel_pt2.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/annotation_page/84b17f0e-ae49-4234-8f64-2c59f345c478/supplementing/98ce69d7-7130-42f6-a0e5-89e763a50666",
+              "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r"
+            }
+          ],
+          "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/annotation_page/84b17f0e-ae49-4234-8f64-2c59f345c478"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 1240.823,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon.library.tamu.edu/master_files/v405s966r/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/placeholder/annotation_page/a0296e88-1cb2-4b39-a88e-acb5cab9031b/annotation/57f281c9-4ec8-4ed9-9403-5f9bc1fdb79b",
+                "target": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/placeholder"
+              }
+            ],
+            "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r/placeholder/annotation_page/a0296e88-1cb2-4b39-a88e-acb5cab9031b"
+          }
+        ]
+      }
+    }
+  ],
+  "structures": [
+    {
+      "type": "Range",
+      "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r407e6c6a-9767-4515-8a72-8d4727edfdee",
+      "label": {
+        "none": [
+          "Interview with Jeanie Hamel"
+        ]
+      },
+      "behavior": "top",
+      "items": [
+        {
+          "type": "Range",
+          "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rb840a2c2-2da5-4e1e-9581-045885912dc4",
+          "label": {
+            "none": [
+              "Interview with Jeanie Hamel: Part 1"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=0,2979.56"
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rd0e08bda-d3c0-4997-9f10-a79e20be6dcd",
+              "label": {
+                "none": [
+                  "What is your name?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=43.0,45.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r2501f61d-bde1-4441-a622-820af37705b1",
+              "label": {
+                "none": [
+                  "Where were you born? Where did you grow up?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=48.0,54.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rdf3b554e-b84a-4c19-95fb-d6def6e68c69",
+              "label": {
+                "none": [
+                  "What are your earliest memories of art?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=60.0,140.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r06545436-a793-4da8-b1e5-a3c5718f156d",
+              "label": {
+                "none": [
+                  "Who was supportive of the arts? Were your parents or elementary/high school supportive of the arts?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=146.0,278.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rd26291bc-4ac7-4e1d-9047-47304bae2e96",
+              "label": {
+                "none": [
+                  "Where did you go to college? What was your program? What was the program like? What was your medium at this time?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=299.0,518.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r1bf19d0b-ee5d-436a-9cfb-e582c598559d",
+              "label": {
+                "none": [
+                  "Did you have opportunities to show your work?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=525.0,554.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r51ac070b-dd73-47a7-958f-e127ba1765c8",
+              "label": {
+                "none": [
+                  "What was Dallas like? Did you get to see things in the city?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=568.0,755.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r458cc4fd-077e-48c4-8f44-c3086a8c6bcf",
+              "label": {
+                "none": [
+                  "What was your role in starting/running the gallery, if any? (p. 1)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=861.0,961.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rc222a711-6514-43a0-80b0-5e6b3d3a4d28",
+              "label": {
+                "none": [
+                  "What was your role in starting/running the gallery, if any? (p. 2)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1007.0,1014.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r0cd8356e-39bc-49d8-9abe-d77a01411f03",
+              "label": {
+                "none": [
+                  "What was your studio/working space like?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1044.0,1098.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r187e59f3-b912-4c6d-b283-884fd8d74373",
+              "label": {
+                "none": [
+                  "Outside of the co-op artists, who else helped? Who was supportive? (p. 1)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1106.0,1148.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rffc37900-c73b-4266-98f8-aa2c0ef27a95",
+              "label": {
+                "none": [
+                  "What did membership cost?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1158.0,1173.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r609fd973-9a55-40b5-b37c-44e0c9bebd0c",
+              "label": {
+                "none": [
+                  "Outside of the co-op artists, who else helped? Who was supportive? (p. 2)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1174.0,1194.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/raa56c783-d569-494f-adc4-dab27594606f",
+              "label": {
+                "none": [
+                  "What were some of the hardest things about running the gallery? Problems? How did you overome them? (Did you?)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1226.0,1249.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rb8b6b3f5-5859-4cbe-98df-02a3be4247e3",
+              "label": {
+                "none": [
+                  "How did the gallery work? Who was curating? Who did what? What did you do?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1328.0,1399.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r2e94734e-cad0-45b9-bbec-1327e5c8ce2e",
+              "label": {
+                "none": [
+                  "Who were the collectors?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1409.0,1472.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r2f1dca35-3e0c-4b46-a06b-20d38050dbc8",
+              "label": {
+                "none": [
+                  "Did you have much interaction with the museums? Museum staff, curators, directors?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=1489.0,1524.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rd7ba52e3-0656-45dd-9e14-a0520edb1fcf",
+              "label": {
+                "none": [
+                  "When and why did you move on? What was the importance of the co-op and gallery to you? What did you learn?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=2090.0,2127.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rb4156fef-604f-4c7d-b243-f8173fe7fbb1",
+              "label": {
+                "none": [
+                  "What experiences from this adventure were you able to use in the future? What lesson or insights have stayed with you?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=2173.0,2489.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rf3e35a3d-cbad-4a91-a6b7-43b91abb5c35",
+              "label": {
+                "none": [
+                  "How do you feel about this time period in your life?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/8336h214z#t=2661.0,2949.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r37addf4f-cecc-45ca-809f-60a6d9dab5af",
+          "label": {
+            "none": [
+              "Interview with Jeanie Hamel: Part 2"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=0,1240.823"
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r69fa11cd-6b83-4935-a8c4-64b9e4f011ea",
+              "label": {
+                "none": [
+                  "In the years since you left, what have you done? Where have you been?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=21.0,203.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r44acecef-f57a-4f2f-b2d1-dd0ef92a0a93",
+              "label": {
+                "none": [
+                  "What was it like when the gallery closed?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=211.0,221.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r8d2ccc36-cf82-4fef-bc04-a12d8d3e605b",
+              "label": {
+                "none": [
+                  "Do you feel like the gallery was successful?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=222.0,251.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r7cdae73b-7b57-41d1-8e60-3e4846b6e312",
+              "label": {
+                "none": [
+                  "The world is very different now, but what advice would you give artists coming out of college or starting their careers now?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=298.0,451.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/re7413142-c9f9-4127-9ca7-cc45ea153e9b",
+              "label": {
+                "none": [
+                  "Several of the artists that we've spoken to who were affiliated with SMU speak about time and summers spent in Taos as part of the program.  Can you tell us about your memories of that program?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=466.0,569.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rafffe03a-756e-45f3-a24e-019cfaddf688",
+              "label": {
+                "none": [
+                  "What do you remember about Linda Samuels?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=595.0,694.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r87e65719-e12c-4220-a1e9-a4d3d455fe2a",
+              "label": {
+                "none": [
+                  "What do you remember about Barbara Bell?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=695.0,727.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/ra6fa0a8f-ea61-4169-a514-9cfdabcb2cc5",
+              "label": {
+                "none": [
+                  "What do you remember about Norma McManaway? (P. 1)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=730.0,829.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rec0f54de-69f2-4ba2-a2d4-f0f72d542b8c",
+              "label": {
+                "none": [
+                  "What do you remember about Carole Scholder?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=833.0,885.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r5b5095cf-410a-4248-afe0-2c42bf055a53",
+              "label": {
+                "none": [
+                  "What do you remember about Juliana Heyne?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=887.0,890.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/ra13f7159-78a7-4980-81cf-cd62487a3965",
+              "label": {
+                "none": [
+                  "What do you remember about Linnea Glatt?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=993.0,1013.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/reb496d37-b42b-49ea-b964-f909f4b7a036",
+              "label": {
+                "none": [
+                  "What do you remember about Molly Terrill?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=1016.0,1083.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/r43311023-b8f9-4765-bb57-55cf65d509d4",
+              "label": {
+                "none": [
+                  "What do you remember about Susie Phillips?"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=1088.0,1129.0"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/range/rda4f063b-1753-42bc-8ae8-ca87d71778f6",
+              "label": {
+                "none": [
+                  "Human moments (screw-ups, breaking the ice, ect.)"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "https://avalon.library.tamu.edu/media_objects/m326m195q/manifest/canvas/v405s966r#t=1219.0,1227.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://avalon.library.tamu.edu/master_files/8336h214z/thumbnail",
+      "type": "Image"
+    }
+  ]
+}
