@@ -1,0 +1,942 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/dwg-test/glatt-test.json",
+  "label": {
+    "none": [
+      "Interview with Linnea Glatt"
+    ]
+  },
+  "summary": {
+    "none": [
+      "Interview with Linnea Glatt by Janelle Montgomery on September 23, 2024"
+    ]
+  },
+  "behavior": [
+    "auto-advance"
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Interview with Linnea Glatt"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Date"
+        ]
+      },
+      "value": {
+        "none": [
+          "2024-09-23 (Creation date: 2024-09-23)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Main contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Glatt, Linnea",
+          "Montgomery, Janelle"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Summary"
+        ]
+      },
+      "value": {
+        "none": [
+          "Interview with Linnea Glatt by Janelle Montgomery on September 23, 2024"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Serrano, Richard",
+          "Uchacz, Tianna",
+          "McDonald, Sydney"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Publisher"
+        ]
+      },
+      "value": {
+        "none": [
+          "Art This Week Productions"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Genres"
+        ]
+      },
+      "value": {
+        "none": [
+          "interview",
+          "oral history"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Sculpture",
+          "Art"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Time periods"
+        ]
+      },
+      "value": {
+        "none": [
+          "1970s",
+          "1980s"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Locations"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas",
+          "Dallas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon-pre.library.tamu.edu/collections/rv042t20t\"\u003eDWG Project Test Collection\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Unit"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon-pre.library.tamu.edu/collections?filter=Digital+Initiatives\"\u003eDigital Initiatives\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Language"
+        ]
+      },
+      "value": {
+        "none": [
+          "English"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Rights Statement"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"http://rightsstatements.org/vocab/InC/1.0/\"\u003eIn Copyright\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Terms of Use"
+        ]
+      },
+      "value": {
+        "none": [
+          "CC BY-NC-SA 4.0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Series"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon-pre.library.tamu.edu/catalog?f%5Bcollection_ssim%5D%5B%5D=DWG+Project+Test+Collection\u0026amp;f%5Bseries_ssim%5D%5B%5D=DWG+Project\"\u003eDWG Project\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Related Item"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://texasartproject.org/dwg/\"\u003eDWG Project Website\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Access Restrictions"
+        ]
+      },
+      "value": {
+        "none": [
+          "This item is accessible by: the public."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creation/Production Credits"
+        ]
+      },
+      "value": {
+        "none": [
+          "Serrano, Richard (Video Production)\r\nTianna Uchacz (Project Production)\r\nSydney McDonald (Metadata Curation)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Other Identifier"
+        ]
+      },
+      "value": {
+        "none": [
+          "Catalog Key: dwg-project_linea-glatt"
+        ]
+      }
+    }
+  ],
+  "rendering": [
+    {
+      "type": "Text",
+      "format": "application/pdf",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/supplemental_files/130",
+      "label": {
+        "en": [
+          "Part 2: PDF Transcript"
+        ]
+      }
+    },
+    {
+      "type": "Text",
+      "format": "application/pdf",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/supplemental_files/131",
+      "label": {
+        "en": [
+          "Part 1: PDF Transcript"
+        ]
+      }
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r",
+      "type": "Text",
+      "label": {
+        "none": [
+          "View in Repository"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/annotation_page/f2198d24-e2db-439e-b660-db8fd8120c35/annotation/7bd9b032-ac81-4eab-b014-df132f63a1df",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/auto.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 2863.728,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/high.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 2863.728,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/medium.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 2863.728,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/low.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 2863.728,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "low"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/annotation_page/f2198d24-e2db-439e-b660-db8fd8120c35"
+        }
+      ],
+      "label": {
+        "none": [
+          "Interview with Linnea Glatt: Part 1"
+        ]
+      },
+      "rendering": [
+        {
+          "type": "Text",
+          "format": "text/vtt",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/t148fh26w/supplemental_files/128",
+          "label": {
+            "en": [
+              "Captions in English"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/supplemental_files/128/captions",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_linea-glatt_pt1.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/annotation_page/ab92b303-18c1-4779-8091-fde7868af53e/supplementing/3b1c8a6e-14b3-4259-b4f1-43927eda919e",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w"
+            },
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/supplemental_files/128/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_linea-glatt_pt1.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/annotation_page/ab92b303-18c1-4779-8091-fde7868af53e/supplementing/89119916-58ac-4b17-b0e2-5c5b45ad809a",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w"
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/annotation_page/ab92b303-18c1-4779-8091-fde7868af53e"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 720,
+      "duration": 2863.728,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/placeholder/annotation_page/504ee7fb-e630-4828-a125-5fbc6431f3f4/annotation/19d4f800-8b60-4277-8c6f-976edd395c16",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w/placeholder/annotation_page/504ee7fb-e630-4828-a125-5fbc6431f3f4"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/annotation_page/db4a3907-01b2-45f8-9a1d-1c1291b477aa/annotation/af9ef5c3-cd56-459f-a29a-b7845dac8222",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/auto.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 3310.908,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/high.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 3310.908,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/medium.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 3310.908,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/low.m3u8",
+                    "type": "Video",
+                    "height": 720,
+                    "width": 1280,
+                    "duration": 3310.908,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "low"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/annotation_page/db4a3907-01b2-45f8-9a1d-1c1291b477aa"
+        }
+      ],
+      "label": {
+        "none": [
+          "Interview with Linnea Glatt: Part 2"
+        ]
+      },
+      "rendering": [
+        {
+          "type": "Text",
+          "format": "text/vtt",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/ms35t870p/supplemental_files/129",
+          "label": {
+            "en": [
+              "Captions in English"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/supplemental_files/129/captions",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_linea-glatt_pt2.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/annotation_page/e7864773-d20c-4d63-a930-bfa6e72ca618/supplementing/36b1c768-e36f-43e9-9e33-4e273895b098",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p"
+            },
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/supplemental_files/129/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "Captions in English"
+                  ],
+                  "none": [
+                    "dwg-project_linea-glatt_pt2.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/annotation_page/e7864773-d20c-4d63-a930-bfa6e72ca618/supplementing/660fcdc0-a5fe-4417-8143-f4dc2867fc26",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p"
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/annotation_page/e7864773-d20c-4d63-a930-bfa6e72ca618"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 720,
+      "duration": 3310.908,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/ms35t870p/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/placeholder/annotation_page/7e144126-7e8e-43d8-95b6-5305517c92de/annotation/d160d642-3ca0-41e8-abf7-5a8498de8e9b",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p/placeholder/annotation_page/7e144126-7e8e-43d8-95b6-5305517c92de"
+          }
+        ]
+      }
+    }
+  ],
+  "structures": [
+    {
+      "type": "Range",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/rc3690b9f-95eb-474e-8090-a57eaa725cba",
+      "label": {
+        "none": [
+          "Interview with Linnea Glatt"
+        ]
+      },
+      "behavior": "top",
+      "items": [
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r4547f4bc-8a67-438d-b307-ef13b67726e1",
+          "label": {
+            "none": [
+              "Interview with Linnea Glatt: Part 1"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=0,2863.728"
+            },
+            {
+              "type": "Range",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r46991b98-f77b-45fa-aac6-e5a485a60d36",
+              "label": {
+                "none": [
+                  "General Questions"
+                ]
+              },
+              "items": [
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/rdba90223-bc23-45c6-a030-483f5868bb11",
+                  "label": {
+                    "none": [
+                      "What is your name?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=27.0,28.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r86ba724c-5445-4674-a525-71387604cc74",
+                  "label": {
+                    "none": [
+                      "Where did you grow up?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=31.0,38.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r47366901-8930-4b06-b258-fad0a9198456",
+                  "label": {
+                    "none": [
+                      "What are your earliest memories of art, and what were your art influences?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=86.0,210.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/ra760e6c6-24e7-41d0-b3a3-b0f5286c6e03",
+                  "label": {
+                    "none": [
+                      "Was your elementary/high school supportive of the arts?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=211.0,236.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/rfd61f55c-000d-4a77-b826-f51ab763dcbe",
+                  "label": {
+                    "none": [
+                      "Was your family supportive of the arts? Supportive of you in the arts?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=237.0,254.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r6dfdac8c-501d-477e-98b5-17a64eaaeee8",
+                  "label": {
+                    "none": [
+                      "Where did you go to college, and what was your program?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=281.0,313.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/reea7611b-8843-4bdc-af8d-d2e43d62e821",
+                  "label": {
+                    "none": [
+                      "What brought you to that college and program?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=314.0,371.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r8e21060f-9e09-4add-add1-9c3d427f17df",
+                  "label": {
+                    "none": [
+                      "Who were the professors at that time?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=386.0,397.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/rf47009a3-1d69-453b-8c53-e5c2d921b88b",
+                  "label": {
+                    "none": [
+                      "What was the art scene like?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=414.0,542.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r3b9f9e71-87f7-409b-be19-948e5cb51a9e",
+                  "label": {
+                    "none": [
+                      "Did you get out to see things in the city?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=654.0,667.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r5b59908c-03bc-4d6f-b10b-aa182cbbc4ae",
+                  "label": {
+                    "none": [
+                      "Did you have any mentors in these years that pushed you to further your interest or career in art?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=736.0,801.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r53359948-4078-4dbf-b483-83866521a172",
+                  "label": {
+                    "none": [
+                      "What was the school like?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=816.0,946.0"
+                    }
+                  ]
+                },
+                {
+                  "type": "Range",
+                  "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/r993d83be-2f77-446f-828c-83e9a99d8fec",
+                  "label": {
+                    "none": [
+                      "What was your artistic medium, and how did your interest in the medium evolve?"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "type": "Canvas",
+                      "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/t148fh26w#t=1191.0,1356.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/range/rad1e9084-af54-4c7a-9212-5fd329587555",
+          "label": {
+            "none": [
+              "Interview with Linnea Glatt: Part 2"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/v118rd76r/manifest/canvas/ms35t870p#t=0,3310.908"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://avalon-pre.library.tamu.edu/master_files/t148fh26w/thumbnail",
+      "type": "Image"
+    }
+  ]
+}
