@@ -1,0 +1,876 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/spotlight-exhibits/london-collection-10.json",
+  "@type" : "sc:Manifest",
+  "attribution" : [ "Britton, John (1771-1857)", "London, J. Taylor", "DIGITAL: Cushing Memorial Library and Archives", "https://rightsstatements.org/page/NoC-US/1.0/?language=en" ],
+  "description" : "Two volumes published between 1825 and 1828; Added title-pages, engravings.",
+  "label" : "Illustrations of the public buildings of London",
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "creator",
+    "value" : "Britton, John (1771-1857)"
+  }, {
+    "label" : "subject",
+    "value" : [ "NA970 .B8 1825", "London (England)--Description and travel", "Architecture--England--London" ]
+  }, {
+    "label" : "rights",
+    "value" : "https://rightsstatements.org/page/NoC-US/1.0/?language=en"
+  }, {
+    "label" : "format",
+    "value" : "Reformatted digital"
+  }, {
+    "label" : "publisher",
+    "value" : [ "DIGITAL: Cushing Memorial Library and Archives", "London, J. Taylor" ]
+  }, {
+    "label" : "language",
+    "value" : "en"
+  }, {
+    "label" : "type",
+    "value" : "Map"
+  }, {
+    "label" : "title",
+    "value" : "Illustrations of the public buildings of London; with historical and descriptive accounts of each edifice"
+  }, {
+    "label" : "extent",
+    "value" : "2 volumes : illustrations, plates, map ; 23 centimeters"
+  }, {
+    "label" : "created",
+    "value" : "1825"
+  }, {
+    "label" : "medium",
+    "value" : "Electronic"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Stephen Powys Marks London Collection"
+  }, {
+    "label" : "context",
+    "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api.library.tamu.edu/iiif-service/fedora/sequence/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_1",
+      "@type" : "sc:Canvas",
+      "height" : 3579,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/175b9783-b884-3add-9406-bafc601f6243/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_1",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/175b9783-b884-3add-9406-bafc601f6243/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3579,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/175b9783-b884-3add-9406-bafc601f6243"
+          },
+          "width" : 2375
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_1",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_1"
+      } ],
+      "width" : 2375
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_2",
+      "@type" : "sc:Canvas",
+      "height" : 3612,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/e55ef428-9c5e-39bd-bd27-0bfdc50edde4/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_2",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/e55ef428-9c5e-39bd-bd27-0bfdc50edde4/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3612,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/e55ef428-9c5e-39bd-bd27-0bfdc50edde4"
+          },
+          "width" : 2398
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_2",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_2"
+      } ],
+      "width" : 2398
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_3",
+      "@type" : "sc:Canvas",
+      "height" : 2370,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/ffd7d434-da5d-3683-bf0b-53dd4199175a/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_3",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/ffd7d434-da5d-3683-bf0b-53dd4199175a/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2370,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/ffd7d434-da5d-3683-bf0b-53dd4199175a"
+          },
+          "width" : 3627
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_3",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_3"
+      } ],
+      "width" : 3627
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_4",
+      "@type" : "sc:Canvas",
+      "height" : 2350,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/f4268078-642a-3d2b-b551-d8939bcc0d73/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_4",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/f4268078-642a-3d2b-b551-d8939bcc0d73/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2350,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/f4268078-642a-3d2b-b551-d8939bcc0d73"
+          },
+          "width" : 3570
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_4",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_4"
+      } ],
+      "width" : 3570
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_5",
+      "@type" : "sc:Canvas",
+      "height" : 2337,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/aed03b81-f8ff-34a8-a876-f02e032a8b7a/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_5",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/aed03b81-f8ff-34a8-a876-f02e032a8b7a/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2337,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/aed03b81-f8ff-34a8-a876-f02e032a8b7a"
+          },
+          "width" : 3589
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_5",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_5"
+      } ],
+      "width" : 3589
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_6",
+      "@type" : "sc:Canvas",
+      "height" : 2355,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/4eca9083-7709-3eb3-93f8-bb1b6ea83843/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_6",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/4eca9083-7709-3eb3-93f8-bb1b6ea83843/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2355,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/4eca9083-7709-3eb3-93f8-bb1b6ea83843"
+          },
+          "width" : 3597
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_6",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_6"
+      } ],
+      "width" : 3597
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_7",
+      "@type" : "sc:Canvas",
+      "height" : 3581,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/07d574e9-0721-3755-9885-5f3ec56e5983/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_7",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/07d574e9-0721-3755-9885-5f3ec56e5983/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3581,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/07d574e9-0721-3755-9885-5f3ec56e5983"
+          },
+          "width" : 2380
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_7",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_7"
+      } ],
+      "width" : 2380
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_8",
+      "@type" : "sc:Canvas",
+      "height" : 2310,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/c7b01292-900a-3577-8305-83ec71486a30/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_8",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/c7b01292-900a-3577-8305-83ec71486a30/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2310,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/c7b01292-900a-3577-8305-83ec71486a30"
+          },
+          "width" : 3355
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_8",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_8"
+      } ],
+      "width" : 3355
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_9",
+      "@type" : "sc:Canvas",
+      "height" : 2370,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/e09415b8-1257-3816-8171-db8f698adbb6/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_9",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/e09415b8-1257-3816-8171-db8f698adbb6/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2370,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/e09415b8-1257-3816-8171-db8f698adbb6"
+          },
+          "width" : 3611
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_9",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_9"
+      } ],
+      "width" : 3611
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_10",
+      "@type" : "sc:Canvas",
+      "height" : 2370,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/4c1fdad6-438a-3f3a-b506-fb031989ed5e/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_10",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/4c1fdad6-438a-3f3a-b506-fb031989ed5e/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2370,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/4c1fdad6-438a-3f3a-b506-fb031989ed5e"
+          },
+          "width" : 3691
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_10",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_10"
+      } ],
+      "width" : 3691
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_11",
+      "@type" : "sc:Canvas",
+      "height" : 3611,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/0ab01432-467d-37be-9f3a-4dfddb7bd7d8/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_11",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/0ab01432-467d-37be-9f3a-4dfddb7bd7d8/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3611,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/0ab01432-467d-37be-9f3a-4dfddb7bd7d8"
+          },
+          "width" : 2400
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_11",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_11"
+      } ],
+      "width" : 2400
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_12",
+      "@type" : "sc:Canvas",
+      "height" : 2297,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/5976d93a-c882-31a3-b712-737396837de0/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_12",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/5976d93a-c882-31a3-b712-737396837de0/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2297,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/5976d93a-c882-31a3-b712-737396837de0"
+          },
+          "width" : 3723
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_12",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_12"
+      } ],
+      "width" : 3723
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_13",
+      "@type" : "sc:Canvas",
+      "height" : 2346,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/b1078e74-4b0a-32c5-840a-35ac334a6538/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_13",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/b1078e74-4b0a-32c5-840a-35ac334a6538/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2346,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/b1078e74-4b0a-32c5-840a-35ac334a6538"
+          },
+          "width" : 3695
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_13",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_13"
+      } ],
+      "width" : 3695
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_14",
+      "@type" : "sc:Canvas",
+      "height" : 2362,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/f4d7cf3b-610a-399f-9d7a-39bc9b995556/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_14",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/f4d7cf3b-610a-399f-9d7a-39bc9b995556/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2362,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/f4d7cf3b-610a-399f-9d7a-39bc9b995556"
+          },
+          "width" : 3636
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_14",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_14"
+      } ],
+      "width" : 3636
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_15",
+      "@type" : "sc:Canvas",
+      "height" : 2335,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/713c4724-7196-3811-ba36-9701be058c06/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_15",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/713c4724-7196-3811-ba36-9701be058c06/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2335,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/713c4724-7196-3811-ba36-9701be058c06"
+          },
+          "width" : 3627
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_15",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_15"
+      } ],
+      "width" : 3627
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_16",
+      "@type" : "sc:Canvas",
+      "height" : 3585,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/8ef4cb84-867e-32ab-bc37-05c251ac184f/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_16",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/8ef4cb84-867e-32ab-bc37-05c251ac184f/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3585,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/8ef4cb84-867e-32ab-bc37-05c251ac184f"
+          },
+          "width" : 2272
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_16",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_16"
+      } ],
+      "width" : 2272
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_17",
+      "@type" : "sc:Canvas",
+      "height" : 3596,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/2a1762f8-99b3-3a20-b180-b5ef4a6d338c/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_17",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/2a1762f8-99b3-3a20-b180-b5ef4a6d338c/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3596,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/2a1762f8-99b3-3a20-b180-b5ef4a6d338c"
+          },
+          "width" : 2295
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_17",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_17"
+      } ],
+      "width" : 2295
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_18",
+      "@type" : "sc:Canvas",
+      "height" : 2310,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/bdf3c0ae-cf2d-3cb4-ba95-d2a7129655da/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_18",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/bdf3c0ae-cf2d-3cb4-ba95-d2a7129655da/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2310,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/bdf3c0ae-cf2d-3cb4-ba95-d2a7129655da"
+          },
+          "width" : 3597
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_18",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_18"
+      } ],
+      "width" : 3597
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_19",
+      "@type" : "sc:Canvas",
+      "height" : 2326,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/23f874c8-f729-3133-a827-2d5d2eb704ad/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_19",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/23f874c8-f729-3133-a827-2d5d2eb704ad/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2326,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/23f874c8-f729-3133-a827-2d5d2eb704ad"
+          },
+          "width" : 3609
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_19",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_19"
+      } ],
+      "width" : 3609
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_20",
+      "@type" : "sc:Canvas",
+      "height" : 2367,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/a207f210-41cb-34e3-9bde-6e68d9b58aea/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_20",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/a207f210-41cb-34e3-9bde-6e68d9b58aea/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2367,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/a207f210-41cb-34e3-9bde-6e68d9b58aea"
+          },
+          "width" : 3618
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_20",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_20"
+      } ],
+      "width" : 3618
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_21",
+      "@type" : "sc:Canvas",
+      "height" : 3601,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/0d17c4d8-3448-3f30-9ecb-f420aea7afc8/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_21",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/0d17c4d8-3448-3f30-9ecb-f420aea7afc8/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3601,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/0d17c4d8-3448-3f30-9ecb-f420aea7afc8"
+          },
+          "width" : 2416
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_21",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_21"
+      } ],
+      "width" : 2416
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_22",
+      "@type" : "sc:Canvas",
+      "height" : 3609,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/13a7fd46-04e8-3053-a3d2-d87371260751/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_22",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/13a7fd46-04e8-3053-a3d2-d87371260751/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3609,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/13a7fd46-04e8-3053-a3d2-d87371260751"
+          },
+          "width" : 2380
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_22",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_22"
+      } ],
+      "width" : 2380
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_23",
+      "@type" : "sc:Canvas",
+      "height" : 2385,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/078fa46d-f37f-34ea-bd42-109679421004/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_23",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/078fa46d-f37f-34ea-bd42-109679421004/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2385,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/078fa46d-f37f-34ea-bd42-109679421004"
+          },
+          "width" : 3603
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_23",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_23"
+      } ],
+      "width" : 3603
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_24",
+      "@type" : "sc:Canvas",
+      "height" : 3604,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/d7096ebb-0945-378c-b1e9-46492271e567/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_24",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/d7096ebb-0945-378c-b1e9-46492271e567/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3604,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/d7096ebb-0945-378c-b1e9-46492271e567"
+          },
+          "width" : 2409
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_24",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_24"
+      } ],
+      "width" : 2409
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_25",
+      "@type" : "sc:Canvas",
+      "height" : 2376,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/d2f7a0c4-2dcc-31bb-9eb4-03873fc6b8ee/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_25",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/d2f7a0c4-2dcc-31bb-9eb4-03873fc6b8ee/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2376,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/d2f7a0c4-2dcc-31bb-9eb4-03873fc6b8ee"
+          },
+          "width" : 3636
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_25",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_25"
+      } ],
+      "width" : 3636
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_26",
+      "@type" : "sc:Canvas",
+      "height" : 2406,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/786f036e-9539-3d22-859a-fd62c60cee2d/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_26",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/786f036e-9539-3d22-859a-fd62c60cee2d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2406,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/786f036e-9539-3d22-859a-fd62c60cee2d"
+          },
+          "width" : 3634
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_26",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_26"
+      } ],
+      "width" : 3634
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_27",
+      "@type" : "sc:Canvas",
+      "height" : 3567,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/34139ad4-a35d-37db-970c-7ecea1fb69a0/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_27",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/34139ad4-a35d-37db-970c-7ecea1fb69a0/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 3567,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/34139ad4-a35d-37db-970c-7ecea1fb69a0"
+          },
+          "width" : 2377
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_27",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_27"
+      } ],
+      "width" : 2377
+    }, {
+      "@id" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_28",
+      "@type" : "sc:Canvas",
+      "height" : 2377,
+      "images" : [ {
+        "@id" : "https://api.library.tamu.edu/iiif/2/2005c2bc-ee67-330b-8804-eb417f996e92/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api.library.tamu.edu/iiif-service/fedora/canvas/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_28",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/2005c2bc-ee67-330b-8804-eb417f996e92/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 2377,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/2005c2bc-ee67-330b-8804-eb417f996e92"
+          },
+          "width" : 3631
+        }
+      } ],
+      "label" : "fedora:3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_28",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/london-collection_objects/10/pages/page_28"
+      } ],
+      "width" : 3631
+    } ],
+    "label" : "Illustrations of the public buildings of London; with historical and descriptive accounts of each edifice"
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api.library.tamu.edu/iiif/2/175b9783-b884-3add-9406-bafc601f6243/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api.library.tamu.edu/iiif/2/175b9783-b884-3add-9406-bafc601f6243"
+    }
+  }
+}
