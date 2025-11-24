@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/maps.json",
+  "type": "Collection",
+  "label": {
+    "none": [
+      "Maps Collections"
+    ]
+  },
+  "summary": {
+    "none": [
+      "This collection contains all digitized map collections from Texas A&M."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://api.library.tamu.edu/iiif-service/fedora/collection/3b/6f/c3/25/3b6fc325-f6ca-41d8-b91e-8c5db3be8c13/brazos-maps",
+      "type": "Collection",
+      "label": {
+        "none": [
+          "1940s Brazos County Aerial Photographs"
+        ]
+      },
+      "summary": {
+        "none": [
+          "1940s Brazos County Aerial Photographs are digitized and indexed, using a highway map from 1980. The three sections of the map can open a magnified index of the county."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://library.tamu.edu//assets/images/new_brazos_map_thumb.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ]
+}
