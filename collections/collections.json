@@ -1,0 +1,57 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/collections.json",
+  "type": "Collection",
+  "label": {
+    "none": [
+      "Texas A&M Cultural Heritage Collections"
+    ]
+  },
+  "summary": {
+    "none": [
+      "This collection contains all cultural heritage collections from Texas A&M."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/newspapers.json",
+      "type": "Collection",
+      "label": {
+        "none": [
+          "Newspapers"
+        ]
+      },
+      "summary": {
+        "none": [
+          "This collection contains all newspaper collections in OpenOni from Texas A&M University."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_batt_ver06%2Fdata%2Fsn86088544%2Fprint%2F1893100101%2F0001.jp2/full/360,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/oral-histories.json",
+      "type": "Collection",
+      "label": {
+        "none": [
+          "Interview and Oral History Collections"
+        ]
+      },
+      "summary": {
+        "none": [
+          "A collection containing all oral history and interview collections from Avalon."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://avalon.library.tamu.edu/collections/w3763676r/poster",
+          "type": "Image"
+        }
+      ]
+    }
+  ]
+}

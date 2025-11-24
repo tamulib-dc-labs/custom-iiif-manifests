@@ -1,0 +1,57 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/collections/newspapers.json",
+  "type": "Collection",
+  "label": {
+    "none": [
+      "Newspaper Collections"
+    ]
+  },
+  "summary": {
+    "none": [
+      "This collection contains various newspaper collections from Texas A&M."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://newspaper.library.tamu.edu/lccn/sn86088544.json",
+      "type": "Collection",
+      "label": {
+        "none": [
+          "The Battalion"
+        ]
+      },
+      "summary": {
+        "none": [
+          "The Battalion started production in 1893 as a monthly publication by the Stephen F. Austin and Calliopean Literary Societies until 1906 when publication was taken over by the Student Association. The Battalion is the longest running student newspaper at Texas A&M, having been continuously published since 1893 with the exception for a short period in 1918 during World War I."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_batt_ver06%2Fdata%2Fsn86088544%2Fprint%2F1893100101%2F0001.jp2/full/360,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "https://newspaper.library.tamu.edu/lccn/sn37020267.json",
+      "type": "Collection",
+      "label": {
+        "none": [
+          "The Daily Bulletin/Reveille."
+        ]
+      },
+      "summary": {
+        "none": [
+          "A student publication from Texas A&M University."
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://newspaper.library.tamu.edu/images/iiif/batch_txa_daily_ver001%2Fdata%2Fsn37020267%2Fprint%2F1916012901%2F0001.jp2/full/360,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ]
+}
