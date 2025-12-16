@@ -1,0 +1,275 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-papers-4.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to J. R. Cole from T. M. Scott, July 8, 1887"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1887-07"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "1887-07"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to J. R. Cole from T. M. Scott, July 8, 1887"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Folder 10 J. R. Cole Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "none": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "none": [
+        "1887-07"
+      ]
+    }
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa/full/!100,100/0/default.jpg",
+      "type": "Image",
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa",
+          "@type": "ImageService2",
+          "profile": "level0",
+          "label": "Fedora IIIF Image Resource Service"
+        }
+      ]
+    }
+  ],
+  "provider": [
+    {
+      "id": "http://example.org/provider",
+      "type": "Agent",
+      "label": {
+        "none": [
+          ""
+        ]
+      },
+      "logo": [
+        {
+          "id": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0",
+      "type": "Canvas",
+      "height": 4033,
+      "width": 3279,
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "context"
+            ]
+          },
+          "value": {
+            "none": [
+              "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa/info.json",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/tiff",
+                "height": 4033,
+                "width": 3279,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa",
+                    "@type": "ImageService2",
+                    "profile": "level0",
+                    "label": "Fedora IIIF Image Resource Service"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0/annotations/61pxqkifmns-mj7xova0",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "en",
+                "format": "text/plain",
+                "value": "State Agricultural and Mechanical College OF TEXAS. (TECHNICAL BRANCH OF THE UNIVERSITY.) TREASURER'S OFFICE.\n\nT. M. SCOTT, Agent of the Board. LOUIS L. McINNIS, Secretary and Treasurer.\n\nCollege Station, Texas, July 8th, 1887\n\nCol. J. R. Cole Abilene Ty. [Tx.]\n\nCol. After I came to the College the 1st of Oct. last, You wrote me a letter addressed to Melissa. The letter was not forwarded to me for several weeks as they were daily looking for me at home again. When I did receive the letter it was at a time when reports and returns were being made up for reports to the legislature, when these reports were ready I was called off to Austin in connection with matters of the College before the legislature, I was there and back several times working for the interest of the institution, writing, talking, defending attacks made and so absorbed that correspondence was neglected even with my own family, so that when the time came in which I could write, the time had grown into months since your letter was written and then for very shame, I still fur- ther neglected you, But when McInnis came back from his trip and told me you enquired"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1",
+      "type": "Canvas",
+      "height": 4033,
+      "width": 3279,
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "context"
+            ]
+          },
+          "value": {
+            "none": [
+              "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api-pre.library.tamu.edu/iiif/2/3b23ca01-cd1d-3fb9-a268-f80889681ff2/info.json",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3b23ca01-cd1d-3fb9-a268-f80889681ff2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/tiff",
+                "height": 4033,
+                "width": 3279,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3b23ca01-cd1d-3fb9-a268-f80889681ff2",
+                    "@type": "ImageService2",
+                    "profile": "level0",
+                    "label": "Fedora IIIF Image Resource Service"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0/annotations/61pxqkifqqs-mj7xova0",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1/annopage-2/anno-2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "en",
+                "format": "text/plain",
+                "value": "about me, and was uncertain as to whether I any longer cared for you I felt that I owed you the assurance that though I had so previously neglected you my feeling of esteem and liking for you had not changed. My whole intercourse with you had been the most pleasant I had always found you truthful, honest, capable hospitable intelligent and clever, and more than that I had stood up for and defended you when you were misrepresented and traduced, and that very act of defence made you still more endeared to me, and when I saw you wronged and I was power less to sustain you my sympathies were aroused and thus another cause to like you was brought to bear. And when I heard of your success I rejoiced at it, and when I learned that you were more congenially surrounded than when here, I was glad because of Dear Mrs Cole and the little ones were more pleasantly surround [sic] I was glad, and thus Col. all these years that have gone by, although I have not written, or you either, I have never ceased to remember you and yours most kindly, and Tillie and I have thousands of times talked about you all, and agreed how well we we [repeated] liked you and Mrs Cole, the two girls and all the little ones, Write to me please and may God bless you all\n\nYour friend T M Scott"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
