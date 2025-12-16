@@ -1,0 +1,777 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/ted-franklin.json",
+  "label": {
+    "none": [
+      "Ted E. Franklin"
+    ]
+  },
+  "behavior": [
+    "auto-advance"
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Ted E. Franklin"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Date"
+        ]
+      },
+      "value": {
+        "none": [
+          "2000-12-06"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Genres"
+        ]
+      },
+      "value": {
+        "none": [
+          "oral history",
+          "interview"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon-pre.library.tamu.edu/collections/jh343s37c\"\u003eCaitlyn Test Collection\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Unit"
+        ]
+      },
+      "value": {
+        "none": [
+          "\u003ca href=\"https://avalon-pre.library.tamu.edu/collections?filter=Digital+Initiatives\"\u003eDigital Initiatives\u003c/a\u003e"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Access Restrictions"
+        ]
+      },
+      "value": {
+        "none": [
+          "This item is accessible by: the public."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Other Identifier"
+        ]
+      },
+      "value": {
+        "none": [
+          "Catalog Key: 02_00078"
+        ]
+      }
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t",
+      "type": "Text",
+      "label": {
+        "none": [
+          "View in Repository"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/annotation_page/e92ebda3-1c66-4cba-b5be-dd50ba9ac947/annotation/f1633a68-d09a-444d-bb75-53cd01f50ad4",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/n583xv19s/auto.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1873.031,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/n583xv19s/high.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1873.031,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/n583xv19s/medium.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1873.031,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/annotation_page/e92ebda3-1c66-4cba-b5be-dd50ba9ac947"
+        }
+      ],
+      "label": {
+        "none": [
+          "02_00078-a_01.mp3"
+        ]
+      },
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/n583xv19s/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/n583xv19s/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://tamulib-dc-labs.github.io/vtts/02_00078-a_01.vtt",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "02_00078-a_01.vtt"
+                  ],
+                  "none": [
+                    "02_00078-a_01.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/annotation_page/95abb620-dd15-4ceb-9a8f-d5c2b6dc0f92/supplementing/86facb55-0ea1-4a03-93fb-1d9731037daf",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s"
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/annotation_page/95abb620-dd15-4ceb-9a8f-d5c2b6dc0f92"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 40,
+      "duration": 1873.031,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/n583xv19s/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/placeholder/annotation_page/a7681967-7ba6-4f7a-b3ea-b0e3e27d219b/annotation/321f5588-6eb3-4e62-8fe8-1b7f0db5b2fb",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s/placeholder/annotation_page/a7681967-7ba6-4f7a-b3ea-b0e3e27d219b"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/annotation_page/f3fb5a1d-8cdf-47a7-816e-654d6497e578/annotation/9faead45-85ff-4c93-8702-b70fba7edc25",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/auto.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1872.039,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/high.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1872.039,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/medium.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1872.039,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/annotation_page/f3fb5a1d-8cdf-47a7-816e-654d6497e578"
+        }
+      ],
+      "label": {
+        "none": [
+          "02_00078-a_02.mp3"
+        ]
+      },
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/supplemental_files/643/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "02_00078-a_02.vtt"
+                  ],
+                  "none": [
+                    "02_00078-a_02.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/annotation_page/f84c8365-8513-4716-91cd-174c8318b474/supplementing/d1b1e71b-b217-4e19-83da-0ebc8b0c7210",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437"
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/annotation_page/f84c8365-8513-4716-91cd-174c8318b474"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 40,
+      "duration": 1872.039,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/dv13zt437/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/placeholder/annotation_page/4038652f-d6a8-40a7-ad84-b79c4dbdac26/annotation/36a7557a-8096-4217-9532-8f4b028180c0",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437/placeholder/annotation_page/4038652f-d6a8-40a7-ad84-b79c4dbdac26"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/annotation_page/128f52f9-48fb-47d9-8f56-9222e03e7d49/annotation/31466c25-a2f8-4364-b7cd-d21230f2614e",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/auto.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1886.04,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/high.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1886.04,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/medium.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 1886.04,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/annotation_page/128f52f9-48fb-47d9-8f56-9222e03e7d49"
+        }
+      ],
+      "label": {
+        "none": [
+          "02_00078-b_01.mp3"
+        ]
+      },
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/supplemental_files/644/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "02_00078-b_01.vtt"
+                  ],
+                  "none": [
+                    "02_00078-b_01.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/annotation_page/e38eeacb-b722-461d-9e24-3ad9d6e73064/supplementing/b971b14f-b309-4445-8b9d-1b35b116e0fd",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t"
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/annotation_page/e38eeacb-b722-461d-9e24-3ad9d6e73064"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 40,
+      "duration": 1886.04,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/2227mp81t/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/placeholder/annotation_page/fcd9ae0a-a0fd-4965-a77a-e0307035b01f/annotation/e31d2e31-d2ef-4621-b7d5-f9e0ed90e012",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t/placeholder/annotation_page/fcd9ae0a-a0fd-4965-a77a-e0307035b01f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/annotation_page/8587ccbb-9b17-4fea-8b31-01df7e3f8ed1/annotation/e4bb1114-2564-4d0a-b7c3-7c2c5cebc338",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/auto.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 440.032,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/high.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 440.032,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/medium.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 440.032,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/annotation_page/8587ccbb-9b17-4fea-8b31-01df7e3f8ed1"
+        }
+      ],
+      "label": {
+        "none": [
+          "02_00078-b_02.mp3"
+        ]
+      },
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/search"
+        }
+      ],
+      "annotations": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/supplemental_files/645/transcripts",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "eng": [
+                    "02_00078-b_02.vtt"
+                  ],
+                  "none": [
+                    "02_00078-b_02.vtt"
+                  ]
+                },
+                "language": "eng"
+              },
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/annotation_page/787ef3e0-660d-4697-a7d4-5cb2f24a4140/supplementing/d032bbe1-cd15-4cb2-a29c-14a6ed3f9afd",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g"
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/annotation_page/787ef3e0-660d-4697-a7d4-5cb2f24a4140"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 40,
+      "duration": 440.032,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/cc08hf71g/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/placeholder/annotation_page/dba793dc-9ae5-4263-bb7b-e3432f1bf007/annotation/a2757fa9-66ed-41d9-bfc4-76e2d7d000b7",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g/placeholder/annotation_page/dba793dc-9ae5-4263-bb7b-e3432f1bf007"
+          }
+        ]
+      }
+    }
+  ],
+  "structures": [
+    {
+      "type": "Range",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/range/rb85aaa9a-b110-470f-80bd-37b1fb767ef4",
+      "label": {
+        "none": [
+          "Ted E. Franklin"
+        ]
+      },
+      "behavior": "top",
+      "items": [
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/range/r53dfe389-8a7d-4b10-bbc1-fe026dde3a81",
+          "label": {
+            "none": [
+              "02_00078-a_01.mp3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/n583xv19s#t=0,1873.031"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/range/r665f6f38-c2a2-4f9c-be99-003a8199f220",
+          "label": {
+            "none": [
+              "02_00078-a_02.mp3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/dv13zt437#t=0,1872.039"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/range/rbe1add2e-588b-4e42-97de-f5b5b26242b2",
+          "label": {
+            "none": [
+              "02_00078-b_01.mp3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/2227mp81t#t=0,1886.04"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/range/rb78b0866-0f07-4d62-ba2c-7d3e3781373c",
+          "label": {
+            "none": [
+              "02_00078-b_02.mp3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/bz60cw37t/manifest/canvas/cc08hf71g#t=0,440.032"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://avalon-pre.library.tamu.edu/assets/audio_icon-7782bcf9fd5d81f1e3e3f260ed569c24dea47d0a2a5bd0a4629328c76e8886c6.png",
+      "type": "Image"
+    }
+  ]
+}
