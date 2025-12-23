@@ -1,0 +1,167 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr/27.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter from Louis L. McInnis to an unknown recipient, Endorsement of Louis L. McInnis (for J. R. Cole), Chairman of Faculty, December 29, 1885"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "dc:source"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://api-pre.library.tamu.edu/iiif-service/fedora/presentation/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/27"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-12"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-12"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter from Louis L. McInnis to an unknown recipient, Endorsement of Louis L. McInnis (for J. R. Cole), Chairman of Faculty, December 29, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Folder 9 J. R. Cole Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/27"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter from Louis L. McInnis to an unknown recipient, Endorsement of Louis L. McInnis (for J. R. Cole), Chairman of Faculty, December 29, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Created On"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2025-12-19 17:19:55 UTC"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "In Scope"
+                ]
+            },
+            "value": {
+                "none": [
+                    "true"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/27/pages/page_0",
+            "type": "Canvas",
+            "height": 4318,
+            "width": 3279,
+            "items": [
+                {
+                    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr/27/canvas/0/anno-page/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr/27/canvas/0/anno-page/0/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/d2f8b0f8-f23d-3193-bcbf-bfcb7d6faabc/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3279,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d2f8b0f8-f23d-3193-bcbf-bfcb7d6faabc",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/27/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr/27/canvas/0/annotation/0",
+                    "label": {
+                        "none": [
+                            "Transcription"
+                        ]
+                    },
+                    "type": "AnnotationPage"
+                }
+            ]
+        }
+    ]
+}

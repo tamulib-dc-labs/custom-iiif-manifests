@@ -1,5 +1,6 @@
-from iiif_prezi3 import Manifest, config, KeyValueString
+from iiif_prezi3 import Manifest, config, KeyValueString, Canvas, AnnotationPage, AnnotationPageRefExtended, AnnotationPageRef
 import requests
+from pydantic import json
 
 
 class FromthePageCollection:
@@ -27,6 +28,7 @@ class ColeManifest:
     def __init__(self, item):
         self.item = item
         self.original_manifest = item.get('original')
+        self.item_id = self.original_manifest.split('/')[-1]
         self.base = f"https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr/{self.original_manifest.split('/')[-1]}"
         self.ftp = self.get_data(item.get('ftp'))
 
@@ -45,6 +47,7 @@ class ColeManifest:
             label=self.ftp.get("label"),
             metadata=metadata,
         )
+        manifest = self.make_canvases(manifest)
         return manifest
 
     def get_metadata(self):
@@ -58,9 +61,33 @@ class ColeManifest:
             )
         return all_metadata
 
+    def make_canvases(self, manifest):
+        i = 0
+        for item in self.ftp['sequences'][0]['canvases']:
+            page_id = f"{self.base}/canvas/{i}/annotation/{i}"
+            ref_extended = AnnotationPageRefExtended(
+                id=page_id,
+                label="Transcription",
+                type="AnnotationPage",
+            )
+            canvas = manifest.make_canvas_from_iiif(
+                id=item["@id"],
+                url=item['images'][0]['@id'],
+                anno_page_id=f"{self.base}/canvas/{i}/anno-page/{i}",
+                anno_id=f"{self.base}/canvas/{i}/anno-page/{i}/annotation/{i}",
+            )
+            canvas.annotations = [AnnotationPageRef(__root__=ref_extended)]
+            i+=1
+        return manifest
+
+
+
 if __name__ == "__main__":
     collection = "https://fromthepage.com/iiif/collection/handwritten-materials-from-j-r-cole"
     ftp_collection = FromthePageCollection(collection).find()
     for item in ftp_collection:
-        manifest = ColeManifest(item).create_manifest()
-        print(manifest)
+        manifest = ColeManifest(item)
+        manifest_data = manifest.create_manifest()
+        manifest_json = manifest_data.json(indent=4)
+        with open(f"manifests/cole-htr/{manifest.item_id}.json", "w") as f:
+            f.write(manifest_json)
