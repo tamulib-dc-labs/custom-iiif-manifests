@@ -64,19 +64,19 @@ class ColeManifest:
     def make_canvases(self, manifest):
         i = 0
         for item in self.ftp['sequences'][0]['canvases']:
-            page_id = f"{self.base}/canvas/{i}/annotation/{i}"
-            ref_extended = AnnotationPageRefExtended(
-                id=page_id,
-                label="Transcription",
-                type="AnnotationPage",
-            )
             canvas = manifest.make_canvas_from_iiif(
                 id=item["@id"],
                 url=item['images'][0]['@id'],
                 anno_page_id=f"{self.base}/canvas/{i}/anno-page/{i}",
                 anno_id=f"{self.base}/canvas/{i}/anno-page/{i}/annotation/{i}",
             )
-            canvas.annotations = [AnnotationPageRef(__root__=ref_extended)]
+            if 'otherContent'  in item:
+                ref_extended = AnnotationPageRefExtended(
+                    id=item['otherContent'][0]['@id'],
+                    label="Transcription",
+                    type="AnnotationPage",
+                )
+                canvas.annotations = [AnnotationPageRef(__root__=ref_extended)]
             i+=1
         return manifest
 
