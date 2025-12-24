@@ -1,0 +1,190 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/4.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to J. R. Cole from T. M. Scott, July 8, 1887"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "dc:source"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://api-pre.library.tamu.edu/iiif-service/fedora/presentation/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-07"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-07"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to J. R. Cole from T. M. Scott, July 8, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Folder 10 J. R. Cole Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to J. R. Cole from T. M. Scott, July 8, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Created On"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2025-12-19 17:19:52 UTC"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "In Scope"
+                ]
+            },
+            "value": {
+                "none": [
+                    "true"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0",
+            "type": "Canvas",
+            "height": 4033,
+            "width": 3279,
+            "items": [
+                {
+                    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/4/canvas/0/anno-page/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/4/canvas/0/anno-page/0/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4033,
+                                "width": 3279,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/69a81e04-3635-38e7-bdf3-5f26f94ef6aa",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1",
+            "type": "Canvas",
+            "height": 4033,
+            "width": 3279,
+            "items": [
+                {
+                    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/4/canvas/1/anno-page/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/4/canvas/1/anno-page/1/annotation/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3b23ca01-cd1d-3fb9-a268-f80889681ff2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4033,
+                                "width": 3279,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3b23ca01-cd1d-3fb9-a268-f80889681ff2",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/4/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

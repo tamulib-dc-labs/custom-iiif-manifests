@@ -1,0 +1,156 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/10.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to David Brooks Cofer from Grace D. Taylor, January 29, 1960"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "dc:source"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://api-pre.library.tamu.edu/iiif-service/fedora/presentation/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/10"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1960-01"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1960-01"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to David Brooks Cofer from Grace D. Taylor, January 29, 1960"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Folder 15 J. R. Cole Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/10"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to David Brooks Cofer from Grace D. Taylor, January 29, 1960"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Created On"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2025-12-19 17:19:57 UTC"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "In Scope"
+                ]
+            },
+            "value": {
+                "none": [
+                    "true"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/10/pages/page_0",
+            "type": "Canvas",
+            "height": 2738,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/10/canvas/0/anno-page/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/10/canvas/0/anno-page/0/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/06b7bf36-667f-3f7c-a30e-64d4760dfb54/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2738,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/06b7bf36-667f-3f7c-a30e-64d4760dfb54",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/10/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

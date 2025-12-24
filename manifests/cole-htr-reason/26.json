@@ -1,0 +1,156 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/26.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter from J. R. Cole to an unknown recipient, Action of the Faculty on receiving intelligence of the death of Lieutenant Governor E. B. Pickett, January 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "dc:source"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://api-pre.library.tamu.edu/iiif-service/fedora/presentation/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/26"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-01"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-01"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter from J. R. Cole to an unknown recipient, Action of the Faculty on receiving intelligence of the death of Lieutenant Governor E. B. Pickett, January 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Folder 8 J. R. Cole Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/26"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter from J. R. Cole to an unknown recipient, Action of the Faculty on receiving intelligence of the death of Lieutenant Governor E. B. Pickett, January 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Created On"
+                ]
+            },
+            "value": {
+                "none": [
+                    "2025-12-19 17:19:57 UTC"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "In Scope"
+                ]
+            },
+            "value": {
+                "none": [
+                    "true"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/26/pages/page_0",
+            "type": "Canvas",
+            "height": 4374,
+            "width": 3319,
+            "items": [
+                {
+                    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/26/canvas/0/anno-page/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cole-htr-reason/26/canvas/0/anno-page/0/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/5af5396a-7357-390a-9111-73e84bb53e0c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4374,
+                                "width": 3319,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5af5396a-7357-390a-9111-73e84bb53e0c",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/cole-papers_objects/26/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
