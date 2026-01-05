@@ -1,0 +1,139 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis-39-v3-htr.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. D. Lee, February 15, 1883"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-02-15"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. D. Lee, February 15, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/558c93e3-7fd3-388c-8114-08d20a9e47b0/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+        ]
+      },
+      "height": 4214,
+      "width": 3191,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/558c93e3-7fd3-388c-8114-08d20a9e47b0/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4214,
+                "width": 3191,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/558c93e3-7fd3-388c-8114-08d20a9e47b0",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/2",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "[Header]\nAgricultural and Mechanical College,\nOF MISSISSIPPI.\n[/Header]\n\n[Boxed Text Left]\nExecutive Department,\nS. D. LEE, PRESIDENT.\n[/Boxed Text Left]\n\nAgricultural College, Feb'y 15' 1883\n\nProf L. L. McInnis\nMy dear Sir\nAt your request, I sent to\nHonble Geo. Pfeuffer at Austin, a 1/2 dozen\ncopies of Report of Legislative Committee &\nwrote him to that effect - I do hope your\nLegislature will give you ample appro-\n-priations and that you may eminently\nsucceed as an industrial College - We\nfeel here that we are on the right road,\n- We modeled after the Michigan College\nand think we are an improvement\nWith best wishes,\n\nYours truly\nS. D. Lee",
+                "format": "text/plain",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I approached this transcription task:**\n\nAs a seasoned transcriptionist, my initial step was to meticulously analyze the request, ensuring I fully understood the role, task, guidelines, and expected output. My goal was clear: to accurately transcribe the handwritten text from the image, preserving the original layout and addressing any uncertainties with appropriate markings.\n\nNext, I delved into the image itself, identifying its type, the official letterhead of the \"Agricultural and Mechanical College OF MISSISSIPPI,\" the date line, the recipient (Prof. L.L. McInnis), the salutation, and the signature of S.D. Lee. I took note of the purple ink and cursive handwriting, which I recognized as potentially belonging to Stephen Dill Lee.\n\nFollowing this, I began a methodical, step-by-step transcription, starting with the header, then the date line (paying close attention to the abbreviated \"Feb'y\" and handwritten year), the recipient, the salutation, the body paragraphs, and finally, the signature. For each element, I carefully deciphered the handwriting, including the fraction (1/2), and phrases like \"Honble\" (for Honorable),  and recognized \"Pfeuffer\" as the likely last name, then reviewed context.\n\nA critical aspect of my process was constant self-correction and refinement. I scrutinized each line, paying attention to even the smallest details, such as punctuation, line breaks, and potential misspellings. Any uncertainties were flagged, and context was utilized to arrive at the most accurate transcription. I also double-checked the \"Legislature\" and other words, and the \"eminently\" spelling, and the \"road\" punctuation.\n\nI considered the visual layout and structure, placing the \"Executive Department\" box as it visually appeared in the letter. I also made sure that the line breaks were kept, and the handwritten parts like the \"Feb'y\" date, the \"1/2\", and words like \"eminently\" was carefully rendered. I kept the \"Honble\" form of writing in text format.\n\nI then conducted a final review against the image, ensuring that every detail, every character, and every mark was accurately represented. I also ensured that phrases like \"eminent\" was correctly captured despite a slight blurriness in the script. The entire process was one of constant refinement, ensuring a faithful and accurate transcription of the original document, which will be the output.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
