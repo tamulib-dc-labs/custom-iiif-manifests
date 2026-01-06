@@ -1,319 +1,352 @@
 {
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-356.json",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Charles Puryear, June 30, 1890"
-        ]
-    },
-    "context": "http://iiif.io/api/presentation/3/context.json",
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-06-30"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Charles Puryear, June 30, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/1e0b797d-463b-38f8-888c-1dbd45a76645/full/!100,100/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
-                ]
-            },
-            "height": 3055,
-            "width": 1929,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/1e0b797d-463b-38f8-888c-1dbd45a76645/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3055,
-                                "width": 1929,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/1e0b797d-463b-38f8-888c-1dbd45a76645",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>Box 183,<br>\nRichmond, Virginia,<br>\n30 June 1890</p>\n\n<p>Prof. L. L. M<sup>c</sup>Innis,<br>\nCollege Station, Texas;</p>\n\n<p>My dear Sir:</p>\n\n<p>Until today, I had<br>\nhad only a meagre account<br>\nof what had transpired at<br>\nthe College since I left.<br>\nI beg to assure you that I<br>\nam very sorry to learn<br>\nthe outcome, both in your<br>\nown account and for the</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, so I've got this handwritten letter in front of me. The first thing I'm doing is breaking down the image. I'm noting the standard letter format here, starting with the header: \"Box 183,\" \"Richmond, Virginia,\" and the date \"30 June 1890.\" Now the recipient's information: \"Prof. L. L. Mc<sup>c</sup>Innis,\" at \"College Station, Texas.\" The letter is addressed with the standard salutation \"My dear Sir:\".\n\nThe initial part of the letter reads: \"Until today, I had had only a meagre account of what had transpired at the College since I left.\" This is straightforward enough. Now I'm getting into the meat of it. The next part is tricky, specifically that one word. It's, \"I beg to assure you that I am very sorry to [verb] the outcome, both in your own account and for the...\"\n\nI'm zeroing in on this uncertain word. It's starts with a loop and appears to be 'l-e-a-r-n'. Looking closely at the \"e\", the \"a\", the \"r\", the \"n\", it all matches what I expect. I'm comparing it to other words in the letter such as \"left\" to confirm. I'm confident in \"learn\" now, and the context supports this. So the sentence reads: \"I beg to assure you that I am very sorry to learn the outcome, both in your own account and for the…\"\n\nNow I need to deal with formatting the text. I'm using HTML tags as requested. The dates, recipients and salutations are all standard. I think the rest is simple. I can clearly see all the words I need: \"meagre,\" \"transpired,\" \"College,\" \"outcome,\" \"in,\" \"account.\" Everything is clean. I need to note that \"M<sup>c</sup>Innis\" is correct with the raised \"c\". I will transcribe it accordingly. Also \"in\" with the dot above makes that clear as well.\n\nI feel confident in my transcription. Time to output the final text.\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
-                ]
-            },
-            "height": 3055,
-            "width": 1929,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/4ece35e7-10b6-314b-9467-b98ff41674e0/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3055,
-                                "width": 1929,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/4ece35e7-10b6-314b-9467-b98ff41674e0",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>\nbest interest of the College.<br>\nI inferred from my first in-<br>\nformation that your connect-<br>\nion was entirely severed.<br>\nAt any rate I can appreciate<br>\nthe fact that, under the cir-<br>\ncumstances, your first impulse<br>\nwould be seek another field.<br>\nI hope you will not consider<br>\nit presumption on my part<br>\nto suggest that, if at all practicable,<br>\nyou remain at the College as<br>\nProfessor and possibly matters<br>\nwill take another turn ere<br>\nlong. I have no idea what\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Final Thoughts Before Transcription**\n\nAlright, let's get down to brass tacks. I've got the image of the handwritten letter in front of me, and my mission is to extract the text as accurately as humanly possible. I'm going to approach this meticulously, line by line, wrestling with every cursive flourish and faded ink stroke. My goal is precision; I don't want to add my own interpretation or guess at what's intended.\n\nFirst, I assessed the overall impression: the handwriting is cursive, slanted, and the paper is creased, so this tells me the letter probably isn't very recent. The ink is faded but mostly legible, which is good.\n\nI'm starting at the top, line by line. I initially read \"best interests of the College,\" then immediately second-guessed the \"interests\" part. Looking closer, it's singular - \"interest\" - with the \"s\" either missing or just a tiny flick. Definitely singular. Got it. Now, onwards.\n\nAs I work my way down, I'm carefully transcribing each word, and immediately cross-checking. I run into a tricky bit with \"would be seek\" in line 8. It's grammatically odd. I'm trying to decide if it's a missing \"to,\" a strange stroke of \"seek,\" or a writer's error. I'm going back and forth, comparing \"seek\" to \"severed\" to ensure I'm reading the letters correctly. There's a tiny mark between \"be\" and \"seek\" but it doesn't look like \"to\". I've decided to transcribe exactly what is written, as \"would be seek\". The lack of a \"to\" is incorrect, but that is what is written.\n\nI'm doing a double-take at the word \"turn\" in line 14. It's a bit messy. The letters don't seem clear. I'm trying \"take another turn\", it's what makes the most sense. I'm carefully comparing the 't' in this word and comparing it to other 't' in the text. I'm also looking for a cross on the 't'. Then the second letter is a mystery. Is it \"time\", \"turn\", \"line\", \"hue\"? \"take another hue\" makes sense, and \"take another line\" makes sense, but given the rest of the letter, \"take another turn\" makes the most sense. That would also mean that the author is probably intending a change to happen \"ere long\". It is an older expression, but the meaning is clear: \"before long\".\n\nI'm now going back over the text one last time, checking for any inconsistencies, particularly with capitalization, and making sure the final transcription precisely mirrors the original. I'm paying extra attention to the grammar: \"best interest\", and \"would be seek\". Ready.\n\nHere's the result:\n\n```html\n<p>\nbest interest of the College.<br>\nI inferred from my first in-<br>\nformation that your connect-<br>\nion was entirely severed.<br>\nAt any rate I can appreciate<br>\nthe fact that, under the cir-<br>\ncumstances, your first impulse<br>\nwould be seek another field.<br>\nI hope you will not consider<br>\nit presumption on my part<br>\nto suggest that, if at all practicable,<br>\nyou remain at the College as<br>\nProfessor and possibly matters<br>\nwill take another turn ere<br>\nlong. I have no idea what\n</p>\n```\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
-                ]
-            },
-            "height": 3055,
-            "width": 1929,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/9ebb518f-bb76-3784-a2c2-df6ebc237857/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3055,
-                                "width": 1929,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/9ebb518f-bb76-3784-a2c2-df6ebc237857",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>will be done at the meeting<br/>\nthis week towards securing a<br/>\nchairman or Prest. I have often<br/>\nexpressed the opinion that I should<br/>\nnot like to see any one then at<br/>\nthe College occupying that position<br/>\nexcept yourself and I hope<br/>\nnow that they will go outside.<br/>\nI am sorry to see the evidence<br/>\nof so much influence in a<br/>\ncertain quarter there and I<br/>\ndo not think it forebodes an<br/>\nincrease of harmony.<br/>\nI would cheerfully have<br/>\nwaited at the College<br/>\nfor the action of the Board</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Transcription Summary**\n\nAlright, let's break this down. My primary goal here is to get an accurate transcription of this handwritten document. The text, obviously a letter, is in cursive, and it's generally readable, but there are a few quirks and areas that demand close attention. I'm going to take this step-by-step, meticulously going through each line.\n\nLine 1 seems straightforward enough: \"will be done at the meeting.\" No issues there.\n\nLine 2: \"this week towards securing a\" - \"towards\" looks a little scrawled, but it's clearly \"towards\". No major difficulties.\n\nLine 3: \"chairman or Prest I have often\" - \"chairman\" is a safe bet, and \"I have often\" is simple. But \"Prest\" — that's the one. It looks like \"Prest\" with a dot, very likely a standard abbreviation for President (\"Pres.\"). It could also be a \"!\" but is more probably a \".\" Let's stick with that.\n\nLine 4: \"expressed the opinion that I should\" - All good. Legible and direct.\n\nLine 5: Now, this is where it gets interesting. \"not like to see any one [word] at\". The question is the mysterious word in the middle. It looks like it is either \"then\" or \"there\" or \"them\". It could also be some other words. The most likely is \"then\", but it could also be \"there\" or even \"them\". Given the context, I think \"then\" makes the most sense.\n\nLine 6: \"the College occupying that position\". Clear and straightforward.\n\nLine 7: \"except yourself and I hope\" - Easy.\n\nLine 8: \"now that they will go outside.\" Okay, a period, simple.\n\nLine 9: \"I am sorry to see the evidence\" - No issues.\n\nLine 10: \"of so much influence in a\" - No issues.\n\nLine 11: \"certain quarter there and I\" - The \"there\" is clear, and the \"I\" is uppercase.\n\nLine 12: \"do not think it forebodes an\" - \"forebodes\" is a slightly uncommon word, but the handwriting is clear enough to render it correctly.\n\nLine 13: \"increase of harmony.\" Again, clear and straightforward, and a period.\n\nLine 14: \"I would cheerfully have\" - No issues.\n\nLine 15: \"waited at the College\" - Clear and easy.\n\nLine 16: \"for the action of the Board\" - It is written, so no issues here.\n\nI re-checked everything.\nNow, the transcription.\nI am happy with the transcription of the image.\n</p>\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
-                ]
-            },
-            "height": 3055,
-            "width": 1929,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/181d5ec3-f2e5-313e-a0fe-44997547a9e2/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3055,
-                                "width": 1929,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/181d5ec3-f2e5-313e-a0fe-44997547a9e2",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>had I seen any way<br/>\nin which I could have<br/>\nbeen of service to you but<br/>\nwith the lights before me<br/>\nand without the knowledge<br/>\nof any charges against you<br/>\nI did not see anything<br/>\nthat I could do.</p>\n<p>With kindest regards to Mrs.<br/>\nM<sup>c</sup>Innis and the little<br/>\ngirls and with best wishes,<br/>\nI am,<br/>\nVery truly your friend,<br/>\n[Signature] Charles Puryear<br/>\n1890</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Final Transcription**\n\nOkay, here's the transcription, as I see it, based on the image analysis:\n\n<p>had I seen any way<br/>\nin which I could have<br/>\nbeen of service to you but<br/>\nwith the lights before me<br/>\nand without the knowledge<br/>\nof any charges against you<br/>\nI did not see anything<br/>\nthat I could do.</p>\n\n<p>With kindest regards to Mrs.<br/>\nM<sup>c</sup>Innis and the little<br/>\ngirls and with best wishes,<br/>\nI am,<br/>\nVery truly your friend,</p>\n\n<p>[Signature] Charles Puryear</p>\n\n<p>1890</p>\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-356.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Charles Puryear, June 30, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-06-30"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Charles Puryear, June 30, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/1e0b797d-463b-38f8-888c-1dbd45a76645/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
+        ]
+      },
+      "height": 3055,
+      "width": 1929,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/1e0b797d-463b-38f8-888c-1dbd45a76645/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3055,
+                "width": 1929,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/1e0b797d-463b-38f8-888c-1dbd45a76645",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>\nBox 183,<br>\nRichmond, Virginia,<br>\n30 June 1890\n</p>\n\n<p>\nProf. L. L. M<sup>c</sup>Innis,<br>\nCollege Station, Texas;\n</p>\n\n<p>\nMy dear Sir:<br>\nUntil to-day, I had<br>\nhad only a meagre account<br>\nof what had transpired at<br>\nthe College since I left.<br>\nI beg to assure you that I<br>\nam very sorry to learn<br>\nthe outcome, both in your<br>\nown account and for the\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Output**\n\nAs an expert in the field, I've approached this transcription with meticulous attention to detail. My primary objective is to accurately render the handwritten content, adhering to the historical context and preserving the original style.\n\n1.  **Image Analysis:** The image showcases a handwritten letter on aged paper, indicative of late 19th-century cursive. The document includes a header, address, salutation, and body, which I will transcribe.\n\n2.  **Transcription Strategy:** My approach involves a line-by-line interpretation of the handwriting, paying particular attention to letter forms, punctuation, and potential ambiguities. I'm noting potential historical spelling variations (e.g., \"meagre\") and phrasing conventions (e.g., hyphenated \"to-day\").\n\n3.  **Ambiguity Resolution:** Some characters present challenges. The word following \"both\" in the body, while initially appearing as \"on,\" shows a clear dot. Upon closer inspection, the strokes suggest \"in,\" although the idiom \"on your own account\" is more common. I'm opting to transcribe \"in\" due to visual evidence, while noting the idiomatic deviation. The dot is very high and it might be a stray mark. Contextually, \"on\" might be better (\"on your own account\"), but \"in your own account\" is possible (e.g., in your own estimation/story). I've cross-referenced this with other instances of similar characters in the text (e.g., 'i' in \"since\") to solidify my interpretation. Another key word is \"learn\". The letters are l-e-a-r-n. It can also be \"bear\" but I will use the \"learn\" to match the text.\n\n4.  **Formatting and Structure:** The transcription will mirror the original layout, employing `<p>` tags for paragraphs and `<br>` for line breaks. I will use the `<sup>` tag to represent superscripted characters (e.g., the 'c' in \"M<sup>c</sup>Innis\").\n\n5.  **Final Transcription:** After several iterations, I am confident in the following transcription, which I believe is faithful to the original text.\n\n```html\n<p>\nBox 183,<br>\nRichmond, Virginia,<br>\n30 June 1890\n</p>\n<p>\nProf. L. L. M<sup>c</sup>Innis,<br>\nCollege Station, Texas;\n</p>\n<p>\nMy dear Sir:\n</p>\n<p>\nUntil to-day, I had<br>\nhad only a meagre account<br>\nof what had transpired at<br>\nthe College since I left.<br>\nI beg to assure you that I<br>\nam very sorry to learn<br>\nthe outcome, both in your<br>\nown account and for the\n</p>\n```\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
+        ]
+      },
+      "height": 3055,
+      "width": 1929,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4ece35e7-10b6-314b-9467-b98ff41674e0/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3055,
+                "width": 1929,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4ece35e7-10b6-314b-9467-b98ff41674e0",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>best interest of the College.<br/>\nI inferred from my first in-<br/>\nformation that your connect-<br/>\nion was entirely severed.</p>\n<p>At any rate I can appreciate<br/>\nthe fact that, under the cir-<br/>\ncumstances, your first impulse<br/>\nwould be seek another field.</p>\n<p>I hope you will not consider<br/>\nit presumption on my part<br/>\nto suggest that, if at all practicable,<br/>\nyou remain at the College as<br/>\nProfessor and possibly matters<br/>\nwill take another turn ere<br/>\nlong. I have no idea what</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Process: A Deep Dive into Transcribing a Handwritten Document**\n\nOkay, here's how I'm approaching this transcription. First, I’m analyzing the visual input – a handwritten letter fragment, likely from the late 19th or early 20th century. The script is cursive and pretty legible, though with the expected quirks of the period. Since this is only a section of a larger piece, I know I'm jumping into the middle of a thought.\n\nI'm taking this line by line.\n\n*   **Line 1:** \"best interest of the College.\" I'm looking closely. Is it \"interest\" or \"interests\"? The trailing stroke is ambiguous. Ah, there's a t-cross and no 's'. It has that dash-look. I will go with \"interest\".\n*   **Line 2:** \"I inferred from my first in-\". Straightforward, with a hyphen indicating a word break.\n*   **Line 3:** \"formation that your connect-\". \"Formation\" completes \"information\". The hyphen is clear.\n*   **Line 4:** \"ion was entirely severed.\" Looks complete.\n*   **Line 5:** \"At any rate I can appreciate\". Simple.\n*   **Line 6:** \"the fact that, under the cir-\". Hyphen to indicate word break.\n*   **Line 7:** \"cumstances, your first impulse\". Straightforward.\n*   **Line 8:** \"would be seek another field.\" Hmmm, \"seek\". Does this need a \"to\"? I look really closely. It's clearly \"seek\". It appears the writer omitted \"to\". I'll transcribe as written.\n*   **Line 9:** \"I hope you will not consider\". Clear.\n*   **Line 10:** \"it presumption on my part\". Plain.\n*   **Line 11:** \"to suggest that, if at all practicable,\" Easy.\n*   **Line 12:** \"you remain at the College as\". Capitalization is needed for College.\n*   **Line 13:** \"Professor and possibly matters\". Professor gets capitalized.\n*   **Line 14:** \"will take another turn ere\". \"Turn\" is the word. And \"ere\" is a bit archaic, but correct.\n*   **Line 15:** \"long. I have no idea what\". Done.\n\nNow, I'm thinking about formatting and tags. I will preserve line breaks. Since the guidelines say \"Preserve original... line breaks\", `<br>` seems appropriate. Also the guidelines state, \"Maintain paragraph structures.\" This is where I'll create distinct paragraphs using the `<p>` tags. Based on the handwriting, I've divided the text into three logical paragraph blocks, taking into account the spacing. I will re-examine \"best interest\" because there's that dash-like thing at the end. I will transcribe as \"interest\".\n\nHere's the structure I have:\n*   First paragraph: \"best interest... severed.\"\n*   Second paragraph: \"At any rate... field.\"\n*   Third paragraph: \"I hope... what.\"\n\nAfter reviewing specific words like \"would be seek\", \"turn\", \"ere\", etc., I made sure to double-check capitalization and punctuation. Then I'll meticulously read the transcription to ensure there are no errors.\n\nA final review ensures all the characters and line breaks are in place, the transcription is correct, and the formatting is complete. Ready to output the transcribed text!\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
+        ]
+      },
+      "height": 3055,
+      "width": 1929,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/9ebb518f-bb76-3784-a2c2-df6ebc237857/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3055,
+                "width": 1929,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/9ebb518f-bb76-3784-a2c2-df6ebc237857",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>will be done at the meeting<br/>\nthis week towards securing a<br/>\nchairman or Pres<sup>t</sup> I have often<br/>\nexpressed the opinion that I should<br/>\nnot like to see any one then at<br/>\nthe College occupying that position<br/>\nexcept yourself and I hope<br/>\nnow that they will go outside.<br/>\nI am sorry to see the evidence<br/>\nof so much influence in a<br/>\ncertain quarter there and I<br/>\ndo not think it forebodes an<br/>\nincrease of harmony.<br/>\nI would cheerfully have<br/>\nwaited at the College<br/>\nfor the action of the Board</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's the transcription, line by line, maintaining the original visual layout:**\n\nOkay, I'm going to start by taking a close look at this handwritten text, getting a sense of the flow and the general layout. The handwriting is cursive, a bit slanted to the right, and the ink is dark on that off-white paper. I can see some fold marks, which is interesting, adds character.\n\nI need to make sure I transcribe this accurately, capturing every detail of the original text. So, I will go line by line, starting with \"will be done at the meeting,\" and then on to \"this week towards securing a,\" and so on. I'm taking note that the word \"Prest\" looks like it has a raised \"t\" - likely an abbreviation for \"President\" as \"Pres<sup>t</sup>.\" I have often expressed my opinion that there should not be anyone currently at the College, except yourself. I hope now they will go outside. I am sorry to see the evidence of influence and don't think it forebodes any increase of harmony. I am sorry about this situation. I should cheerfully have waited for the action of the Board. Now, the ambiguous word, is it \"then\" or \"there\"? Examining the word in line 5. It *must* be \"then.\" Also, the \"t\" in Prest looks like `Pres<sup>t</sup>`. I'll be certain to preserve line breaks and any subtle details in the visual layout.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
+        ]
+      },
+      "height": 3055,
+      "width": 1929,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/181d5ec3-f2e5-313e-a0fe-44997547a9e2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3055,
+                "width": 1929,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/181d5ec3-f2e5-313e-a0fe-44997547a9e2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>had I seen any way<br/>\nin which I could have<br/>\nbeen of service to you but<br/>\nwith the lights before me<br/>\nand without the knowledge<br/>\nof any charges against you<br/>\nI did not see anything<br/>\nthat I could do.</p>\n<p>With kindest regards to Mrs.<br/>\nMcInnis and the little<br/>\ngirls and with best wishes,</p>\n<p>I am,</p>\n<p>[Signature]<br/>\nVery truly your friend,<br/>\nCharles Puryear<br/>\n1890<br/>\n[/Signature]</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Thought Process for Transcribing the Letter**\n\nOkay, here's how I'm going to approach this transcription. First, I need to understand the task. The instructions are clear: transcribe the text from the image, maintain the original spelling and punctuation, and respect the natural reading order. I need to be as accurate as possible and interpret handwriting where necessary. I also need to pay attention to the layout and identify structural elements like the header, footer, and signature. And, I can only use specific HTML tags.\n\nI'll start with a visual inspection. It's clearly the end of a letter, written in cursive, likely from the late 19th century. I'll read through the document, making a mental transcription as I go.\n\nI'm starting to read the lines, and the first word that stands out is \"ofany\" – or is it two words? I'll need to look closely at the handwriting. Okay, on closer inspection, it looks like it's written as \"of any\". I'll keep an eye on the context as it could be part of a single word.\n\nAlright, continuing with the mental transcription. I'm taking a close look at the name \"McInnis.\" The capital letter, in particular, is a bit tricky. Is it \"McInnis\"? \"McDavies\"? \"McGuire?\" I'll compare the individual letter shapes with other letters in the text, like the \"D\" in \"did\". Hmm, after some comparison, and based on the context of the historical figure, I'm confident that it is \"McInnis.\"\n\nNow I'm going through the transcription again, refining the text. That \"of any\" definitely looks like two words, even though they're joined. I'll separate them for clarity.\n\nI'm paying close attention to the formatting. The lines seem to form paragraphs, and I can use `<br/>` to maintain the line breaks. \"I am,\" and the signature form a separate visual section, so I need to account for that.\n\nOkay, let's think about HTML formatting now. Paragraphs should be wrapped in `<p>` tags, and line breaks within paragraphs with `<br/>`. The closing and signature block will need special handling. The date \"1890\" appears to be added separately, maybe as a footnote or annotation, so it should be separate too.\n\nOkay, let's look at formatting of the signature block. The guidelines said \"Label structural elements like [Header], [Footer], and [Signature] and wrap sections in HTML markup.\" So I'm thinking of doing this: putting the text \"[Signature]\" before the block itself. I'll look at similar tasks to make sure I am doing this correctly.\n\nI'm re-reading the guidelines to make sure I get the structural element labelling right. The prompt said to \"label\" and \"wrap\" sections of HTML markup. I'll make sure to put the brackets in the text to label the structure.\n\nA final check on that name: I think it is \"McInnis\". I will search for the name of Charles Puryear to verify. The context of Charles Puryear's Texas A&M colleagues confirms \"McInnis\".\n\nAlmost done. Let's make sure that everything is correct, and all the formatting is in place. I have to verify all the HTML elements, and the transcription. I'm confident with all the characters, words, and text. I double-checked line 6. The \"of\" is indeed there.\n\nOkay, time to construct the final output. I'll wrap the text in the appropriate `<p>` tags, use `<br/>` for line breaks, and add the signature label and wrap the signature block in `<p>`. The \"1890\" is distinct.\n\nI'll do one last check, just to make sure that the HTML formatting is all correct, and that the transcription is accurate. All set.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/356/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

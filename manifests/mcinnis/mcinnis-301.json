@@ -1,130 +1,139 @@
 {
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-301.json",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. J. Rose, February 12, 1890"
-        ]
-    },
-    "context": "http://iiif.io/api/presentation/3/context.json",
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-02-12"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. J. Rose, February 12, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 1 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/2891686c-b131-3cdf-887d-2dfdf2fc08cc/full/!100,100/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
-                ]
-            },
-            "height": 3992,
-            "width": 3247,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2891686c-b131-3cdf-887d-2dfdf2fc08cc/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3992,
-                                "width": 3247,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/2891686c-b131-3cdf-887d-2dfdf2fc08cc",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span>[Header]\n<b>State Agricultural and Mechanical College</b>\nOF TEXAS.\n(TECHNICAL BRANCH OF THE UNIVERSITY.)\n\n[Margin: A. J. ROSE, President Board of Directors, Salado Texas.\nT. M. SCOTT, Agent of the Board, College Station, Texas.\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.]\n\nSalado, Texas, Feb 12th 1880\n\nDear Prof McInnis\nYour favor of 8th came last eve,\nIn reply will say that I will meet you in\nAustin Wednesday 19th to sign up vouchers\ncan come down Tuesday night or Wednesday\nnight as you prefer I could come down\nmonday night 17th if you prefer this,\nI very much regretted at not being present\nat Sugar meeting, I hope it will be conve\nnient for you to have all the work for the Board\nredy when we do meet that will be necessary\nfor them to attend to before June,\nWith best wishes for your self & family\nand progress of the School\nI am Most Truly\nA. J. Rose\n\nP.S. Glad to hear that the work is\nrunning smoothly, sorry to hear\nof Capt Scotts Illness Hope he\nwill soon be up again</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**I've got a fascinating document here: a handwritten letter on official letterhead from the State Agricultural and Mechanical College of Texas, or what we now know as Texas A&M. I'm carefully transcribing it, paying close attention to every detail, from the letterhead layout to the nuances of the handwriting.**\n\nFirst, let's break down the header. It's got the formal \"State Agricultural and Mechanical College OF TEXAS\" in a bold font with \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\" underneath, in smaller, parenthetical text. Below that, I've got the usual contact information: A.J. Rose, who was President of the Board of Directors, T.M. Scott, as the Agent of the Board, and Louis L. McInnis, the Secretary and Treasurer.\n\nThe date line, that's where things get interesting. It reads \"Salado, Texas, Feb 12th 1880.\" Wait, the '0' is handwritten. Given A.J. Rose's tenure as president (1889-1896), the date is likely 1890, but the image shows 1880, so I'm transcribing it as is: **Salado, Texas, Feb 12th 1880**. I've checked and double-checked the handwriting, and it looks like a '0'. We must stay true to the image.\n\nNow, into the body of the letter itself, and I'm capturing everything exactly as it's written. Here's what's there:\n**Salado, Texas, Feb 12th 1880**\n\nDear Prof McInnis\nYour favor of 8th came last eve,\nIn reply will say that I will meet you in\nAustin Wednesday 19th to sign up vouchers\ncan come down Tuesday night or Wednesday\nnight as you prefer I could come down\nmonday night 17th if you prefer this,\nI very much regretted at not being present\nat Sugar meeting, I hope it will be conve\nnient for you to have all the work for the Board\nredy when we do meet that will be necessary\nfor them to attend to before June,\nWith best wishes for your self & family\nand progress of the School\nI am Most Truly\nA. J. Rose\n\nAnd then, a postscript. I'm seeing:\nP.S. Glad to hear that the work is\nrunning smoothly, sorry to hear\nof Capt Scotts Illness Hope he\nwill soon be up again\n\nThere is \"Wednesday 19th\" and \"Monday 17th\". This is likely 1890 if we are going by the context. However, the date line looks like \"1880\".\n\nAs I'm transcribing, I'm noting any unusual spellings or phrasing. \"Favor\" is clearly the intended word, even if the \"a\" looks more like an \"o\", and \"redy\" is simply a misspelling of \"ready\". The capital \"I\" in \"Illness\" is clear, and the lack of an apostrophe in \"Capt Scotts\" is deliberate.\n\nThis letter gives a glimpse into the communication of academics and administrators during this period in Texas history.\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-301.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. J. Rose, February 12, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-02-12"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. J. Rose, February 12, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 1 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/2891686c-b131-3cdf-887d-2dfdf2fc08cc/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
+        ]
+      },
+      "height": 3992,
+      "width": 3247,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2891686c-b131-3cdf-887d-2dfdf2fc08cc/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3992,
+                "width": 3247,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2891686c-b131-3cdf-887d-2dfdf2fc08cc",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"center\">\n<b>State Agricultural and Mechanical College<br>\nOF TEXAS.<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></b>\n</p>\n\n<p>\n<small>\nA. J. ROSE, President Board of Directors, Salado Texas.<br>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.\n</small>\n</p>\n\n<p align=\"right\">\nSalado, Texas, Feb 12<sup>th</sup> 1880\n</p>\n\n<p>Dear Prof McInnis</p>\n\n<p>\nYour favor of 8<sup>th</sup> came last eve,<br>\nIn reply will say that I will meet you in<br>\nAustin Wednesday 19<sup>th</sup> to sign up vouche[rs]<br>\ncan come down Tuesday night or Wednesday<br>\nnight as you prefer I could come down<br>\nmonday night 17<sup>th</sup> if you prefer this,\n</p>\n\n<p>\nI very much regretted at not being present<br>\nat sugar meeting, I hope it will be conve<br>\nnient for you to have all the work for the Board<br>\nredy when we do meet that will be necessary<br>\nfor them to attend to before June,\n</p>\n\n<p>\nWith best wishes for yourself & family<br>\nand progress of the School\n</p>\n\n<p>\nI am Most Truly<br>\n[Signature]<br>\nA. J. Rose\n</p>\n\n<p>\nP.S. Glad to hear that the work is<br>\nrunning Smoothly, Sorry to hear<br>\nof Capt Scotts Illness Hope he<br>\nwill soon be up again\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Alright, let's break down this transcription process. As an expert in my field, I approach this task with a methodical precision, ensuring accuracy and adherence to the specified guidelines. Here's how I'm thinking about it:**\n\n1.  **Understanding the Assignment**: I'm clear on my role as a transcriptionist and the immediate goal: to capture the text from this image faithfully. Key guidelines are paramount: maintain the top-to-bottom, left-to-right reading order; preserve original spelling, punctuation, and line breaks; and, critically, avoid any autocorrection. The goal is raw accuracy and visual fidelity, with notations for anything unclear. I will use HTML tags appropriately. The task is to give only the transcribed text.\n\n2.  **Image Analysis: Deep Dive**: This document is a handwritten letter on official letterhead. I need to be exact. It's from the \"State Agricultural and Mechanical College OF TEXAS\" with its \"TECHNICAL BRANCH OF THE UNIVERSITY.\" I note the listed officers: A. J. Rose, T. M. Scott, and Louis L. McInnis. The date and location are tricky. The printed part is \"Salado, Texas, Feb 12th 188__\". The year is where the real work begins. The last digit is handwritten and looks like a \"0\" or \"9.\" So I need to use the context. I know A&M opened in 1876, and the board has a President in A.J. Rose. The letter mentions \"Wednesday 19th\", so I will use a calendar for these dates. I check Feb 19, 1880, which was a Thursday, and then 1890, which was a Wednesday. 1890 fits better, and the handwritten mark looks like a zero, but that Wednesday is a clue. I have to make a choice. If I go by the visual mark, it's 1880, but the calendar fits 1890, but there's no way to know whether that is correct. As a transcriber, my job is to transcribe the text. I note the names again, T.M. Scott, Agent of the Board and A.J. Rose, President. This makes the date decision more clear: *I transcribe the visual.* It *looks* like \"1880\".\n\n3.  **Step-by-Step Transcription**:\n    *   I'll start with the header, accurately reproducing the fancy font of the College name, the \"OF TEXAS\" designation, and \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\". The officers get their own transcription block.\n    *   The dateline is next, with the printed \"Salado, Texas,\" the handwritten \"Feb 12th\" with the superscript \"th\", and the printed/handwritten year \"1880\".\n    *   The salutation reads \"Dear Prof McInnis.\"\n    *   The body paragraphs get my full attention. I'll meticulously transcribe the sentences, ensuring I get every detail. For example, \"Your favor of 8th came last eve,\" the potential split words like \"conve / nient,\" the spelling of \"redy\" (which appears to be distinct), and the cut-off word \"vouche[rs]\" (which I'll assume is intended). The line breaks must be preserved as well, so I need to pay extra care to where the line ends.\n    *   The closing is straightforward, with the \"With best wishes\" and the signature \"A. J. Rose.\" I note the postscript, too.\n\n4.  **Refining and Formatting**:\n    *   I use HTML tags. The header gets `<b>` for emphasis and `<small>` for the officer text. Superscripts get `<sup>`. Line breaks get `<br>`.\n    *   Spelling checks are essential: \"favor,\" \"eve,\" \"Wednesday,\" \"vouche[rs]\" (understanding the context but transcribing the cut-off word), \"conve / nient,\" and the intentionally misspelled \"redy,\" and, as visible on the paper, \"Capt Scotts\".\n    *   The cutting and ink smudges make the \"vouchers\" difficult. The edge of the page appears to have cut off the \"rs\". I'll be exact here.\n\n5.  **Drafting the Output (Mental & Scratchpad)**: I assemble the transcribed text into a draft using my notes and the visual clues. This is where I piece together all the pieces. I'm visualizing the final structure.\n\n6.  **Final Review**:\n    *   I verify the correct use of HTML tags and their order.\n    *   I double-check the structural elements (Header, Signature).\n    *   Spelling must be perfect. \"redy\"\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/301/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

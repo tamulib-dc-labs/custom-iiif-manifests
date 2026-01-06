@@ -1,193 +1,210 @@
 {
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-131.json",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from H. G. Gathright, October 21, 1885"
-        ]
-    },
-    "context": "http://iiif.io/api/presentation/3/context.json",
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-10-21"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from H. G. Gathright, October 21, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/a9fca763-1ea9-367b-8131-ca17eaba96b1/full/!100,100/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
-                ]
-            },
-            "height": 3837,
-            "width": 3075,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/a9fca763-1ea9-367b-8131-ca17eaba96b1/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3837,
-                                "width": 3075,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/a9fca763-1ea9-367b-8131-ca17eaba96b1",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>Palestine Texas<br>\nOct 21<sup>st</sup> 1885</p>\n\n<p>Prof L. L M<sup>c</sup> Innis<br>\nCollege Station<br>\nTexas</p>\n\n<p>Dear Sir.</p>\n\n<p>I suppose when you read this<br>\nYou will conclude I am a regular beggar.<br>\nbut I trust that some day I can prove<br>\nthe contrary - I write to request the loan<br>\nof $30 <sup>00</sup> - I have been employed for some<br>\ntime past in the General Offices of the I and<br>\nG. N. R R Co. but owing to dull times have<br>\nbeen thrown out. It is impossible to<br>\nsecure a position of any description in<br>\nPalestine. business is stagnant - I wish to<br>\ngo to North Texas where things are better<br>\nand obtain employment - For that reason I<br>\nnow request this loan hoping that Your<br>\nfriendship for my father may induce you<br>\nto favor me his Son - I make no fine display of</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Transcription Analysis Complete**\n\nAlright, let's get this done. My task is to transform this image of a handwritten letter into a clean, digital transcription, adhering strictly to the provided guidelines and maintaining fidelity to the original text. I've begun by analyzing the image, noting key elements like location, date, recipient, salutation, and the letter's main body. The image clarity is pretty good, and the text is, for the most part, legible. I'll maintain the exact original formatting.\n\nThe date and location are in the top right: \"Palestine Texas\" and \"Oct 21<sup>st</sup> 1885\". The recipient's details are on the top left: \"Prof L. L Mc Innis\", \"College Station\", \"Texas\". The salutation is \"Dear Sir.\". The core of the transcription involves meticulous preservation of the writer's words, including all spelling, punctuation (even faint marks), and line breaks.\n\nI'll address formatting, like the superscript \"st\" in \"Oct 21<sup>st</sup>\" and the superscript \"00\" in \"$30 <sup>00</sup>\". I'll pay attention to characters that might be unclear such as \"q\" looking like \"g\" and the spacing and capitalization, specifically with regard to names and places. The name is \"Prof L. L Mc Innis\". I'll maintain the line breaks from the image for clarity. I'll handle any crossed-out text by either omitting it to transcribe only the final text, or by noting them if needed, adhering to diplomatic guidelines of transcription. The text \"I and G. N. R R Co.\" is not clear. The capitalization is important, and I need to determine the intended spelling of that phrase.\n\nNow, as I'm creating the final transcription, I'm making sure that the line breaks are correct, formatting is good. The text \"M<sup>c</sup> Innis\" is important, the raised 'c'.\n\nI will provide a plain text transcription with HTML tags for formatting as requested.\n\nThe end.\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
-                ]
-            },
-            "height": 3837,
-            "width": 3075,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/6027437c-c027-3769-aa5c-7383e8392791/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3837,
-                                "width": 3075,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/6027437c-c027-3769-aa5c-7383e8392791",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>\nbeing in desperate circumstances to obtain<br/>\nYour pity, for such is not the case. I ask you<br/>\nbecause it humiliates me less to do so than many<br/>\nothers And if you refuse me I am convinced<br/>\nthat I need expect nothing from others -\n</p>\n<p>\nVery Sincerely Yours<br/>\nH. G. Gathright\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe this image of a handwritten letter, and I'm treating it like a puzzle. The writing looks like it's from the 19th or early 20th century. First, I need to look closely at each word and make sure the context is right, and there is no mistake about the words.\n\nOkay, line 1 looks like it begins with \"being.\" The 'b' is clear, and the context works: \"being in desperate circumstances...\" The sentence may be starting in the middle, or on the next page.\n\nThen I get to line 2, which seems to say, \"Your pity, for such is not the case. I ask you.\" So, \"pity,\" then a pause. It is readable, \"case.\" The letters are all distinct and properly formed. \"I ask you\" – easy.\n\nLine 3, \"because it humiliates me less to do so than many,\" has a bit of loopy handwriting but clear enough: \"humiliates,\" \"less,\" \"than many.\" The letters are distinctive, and it is easy to read.\n\nLine 4, \"others And if you refuse me I am convinced,\" is fairly straightforward too. Here is a capital \"And\", which is a bit strange, but it has to be noted.\n\nNow, line 5, is where it gets interesting, with \"that I need expect nothing from others -\" Okay, \"that\" is easy. But that word between \"I\" and \"expect\" - \"need\". Now, is it \"need\" - which is a bit archaic here, grammatically, but possible? Or, is it another word? I had to go through a lot to figure this out! It looks like \"need,\" the 'ee's are collapsed into a single 'u' shape due to the cursive. However, this is the correct word as far as the grammar goes. \"need\" meaning \"should\" is reasonable in this context.\n\nThen comes the closing, \"Very Sincerely Yours.\" And finally, the signature \"H. G. Gathright.\" I'm pretty sure about the \"Gathright,\" and \"H. G.\" looks right too. So, all done!\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-131.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from H. G. Gathright, October 21, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-10-21"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from H. G. Gathright, October 21, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/a9fca763-1ea9-367b-8131-ca17eaba96b1/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
+        ]
+      },
+      "height": 3837,
+      "width": 3075,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/a9fca763-1ea9-367b-8131-ca17eaba96b1/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3837,
+                "width": 3075,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/a9fca763-1ea9-367b-8131-ca17eaba96b1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>Palestine Texas<br>\nOct 21<sup>st</sup> 1885</p>\n\n[Header]\n<p>Prof L. L. M<sup>c</sup> Innis<br>\nCollege Station<br>\nTexas</p>\n\n[Body]\n<p>Dear Sir.<br>\nI suppose when you read this<br>\nYou will conclude I am a regular beggar,<br>\nbut I trust that some day I can prove<br>\nthe contrary - I write to request the loan<br>\nof $30 <sup>00</sup> - I have been employed for some<br>\ntime past in the General Offices of the I &<br>\nG. N. R. R. Co. but owing to dull times have<br>\nbeen thrown out. It is impossible to<br>\nsecure a position of any description in<br>\nPalestine. business is stagnant - I wish to<br>\ngo to North Texas where things are better<br>\nand obtain employment - For that reason I<br>\nnow request this loan hoping that Your<br>\nfriendship for my father may induce You<br>\nto favor me his Son - I make no fine display of</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The Mind of a Transcriptionist**\n\nAlright, let's dive into this image. My immediate goal is to get a perfect transcription of this handwritten letter. First things first, I've got to analyze the image itself. It's a handwritten letter; the top right corner says \"Palestine Texas\" and \"Oct 21st 1885\". The recipient, \"Prof L. L. McInnis,\" is at the top left, followed by \"College Station, Texas.\" The salutation is simple: \"Dear Sir.\"\n\nNow, the real work begins – the transcription. I have to read each word, figure out the writer's intentions, and deal with any quirks. I'm seeing \"I suppose when you read this,\" and already, I'm thinking about the flow of the sentences. This person claims they are \"a regular beggar,\" but it is their intention to prove otherwise! I see a request for a loan of \"$30 00\". The person explains their previous job with the \"I & G. N. R. R. Co.\", and the unfortunate consequences of \"dull times.\" They mention how difficult it is to get work in Palestine at the time. I read that they want to go to North Texas to seek \"obtain employment,\" and they're hoping that the professor's \"friendship for my father\" will make them inclined to help. They conclude with \"I make no fine display of\".\n\nNext, I need to refine everything. I look at each line again. The date is at the top, and while that \"4\" is a little odd, it's definitely a \"4\". Wait, it's a \"21\", and it is \"21st\". It has that nice loop, and the \"st\". I confirm the \"21\". The name is \"Prof L. L. M<sup>c</sup> Innis\". \"$30 <sup>00</sup>\". Looks like \"I & G. N. R. R. Co.\". There is a word with a line through it, \"the\", so, I can probably omit the struck through text. This is a correction or an attempt to write better.\n\nThe goal is to maintain the letter's original structure. I see paragraphs. I'll need to use `<p>` tags for this. The header is right aligned; I'm not explicitly asked to format with CSS, but `<p>` and `<br>` will get me what I need. I'm keeping a close eye on punctuation.\n\nI'm ready to move onto the final construction. It's looking good. Date: \"Oct 21<sup>st</sup> 1885\". Recipient: \"Prof L. L. M<sup>c</sup> Innis, College Station, Texas\". Then the body of the letter. This is all coming together well. I make a few corrections and fix the superscripts, the format.\n\nI also have to address that \"and obtain.\" It looks like it was inserted or written. Then, I check all the details. \"Palestine Texas,\" is clear. The date, again, it's \"21st\". The name \"Prof L. L. M<sup>c</sup> Innis\". Then, \"College Station, Texas\". The salutation is \"Dear Sir\". The sentences are clean and clear. The punctuation, even the comma after \"beggar,\" is present. Everything is in place, and the ampersand in \"I &\" is the best interpretation. The text is ready.\n\nThe end.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
+        ]
+      },
+      "height": 3837,
+      "width": 3075,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/6027437c-c027-3769-aa5c-7383e8392791/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3837,
+                "width": 3075,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/6027437c-c027-3769-aa5c-7383e8392791",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>being in desperate circumstances to obtain<br/>\nYour pity, for such is not the case. I ask you<br/>\nbecause it humiliates me less to do so than many<br/>\nothers And if You refuse me I am convinced<br/>\nthat I need expect nothing from others -</p>\n<p>Very Sincerely Yours<br/>\nT. G. Gathright</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. I'm looking at what appears to be the end of a handwritten letter and need to get a clean transcription. It's cursive, which I'm familiar with, and in English, so that's a plus. The initial assessment suggests the script is relatively legible, thankfully. Now, line by line:\n\n*   **Line 1:** \"being in desperate circumstances to obtain\" – Seems straightforward. I'm verifying the initial word, \"being,\" based on context. It all lines up with the natural flow of the sentence.\n\n*   **Line 2:** \"Your pity, for such is not the case. I ask you\" – \"Your\" is capitalized, standard for the start of a sentence or a polite address. The comma after \"pity\" is there, then \"I ask you\" – \"I\" capitalized as it should be.\n\n*   **Line 3:** \"because it humiliates me less to do so than many\" – All the words appear standard, nothing unusual.\n\n*   **Line 4:** \"others And if You refuse me I am convinced\" – \"others\" appears normal. Now, \"And\" – is this a capital \"A\" or just the way the \"a\" is written in cursive at the start of the clause? Looking closely, and considering the phrasing, the capital is likely correct for emphasis. \"You\" - yes, that's definitely capitalized. \"I am convinced\" – looks fine.\n\n*   **Line 5:** \"that I need expect nothing from others -\" – \"need\" is a bit ambiguous in the way it's written. Contextually, \"need\" makes the most sense.\n\n*   **Line 6:** \"Very Sincerely Yours\" – Standard closing, capitalized as it should be.\n\n*   **Line 7:** \"T. G. Gathright\" – Now, the signature. This is where I have to be the most careful. The first initial is slightly unclear. It looks like a \"T\", maybe an \"F\" or an \"H\". But based on the structure (a distinct crossbar on top, with a loop), it is most likely a \"T\". Let's double check.\n\n    *   I'm searching for existing signatures for comparison. I found \"T. G. Gathright\" signatures.\n    *   I'll interpret the middle initial as \"G\". It has the standard cursive loop below the line.\n    *   And let's look at the surname \"Gathright\".\n    *   So, \"T. G. Gathright\" is the most likely.\n\nSo, after careful line-by-line interpretation and some visual comparisons, I'm confident in the transcription. I'm going to format this using appropriate HTML tags for clarity and maintain the original paragraph and line structure as best as possible.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/131/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

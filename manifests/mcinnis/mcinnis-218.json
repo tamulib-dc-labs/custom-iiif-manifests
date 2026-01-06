@@ -1,193 +1,210 @@
 {
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-218.json",
-    "label": {
-        "none": [
-            "Examination of Junior Class, Second Section in English signed by Louis L. McInnis, February 11, 1879"
-        ]
-    },
-    "context": "http://iiif.io/api/presentation/3/context.json",
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1879-02-11"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Examination of Junior Class, Second Section in English signed by Louis L. McInnis, February 11, 1879"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 3 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/5349c9b2-c7d0-3b9c-a6d5-7a3adeb698e2/full/!100,100/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
-                ]
-            },
-            "height": 3688,
-            "width": 2257,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5349c9b2-c7d0-3b9c-a6d5-7a3adeb698e2/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3688,
-                                "width": 2257,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/5349c9b2-c7d0-3b9c-a6d5-7a3adeb698e2",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>[1879, Feb. 11]</p>\n\n<p>\nSTATE<br>\nAGRICULTURAL AND MECHANICAL<br>\nCOLLEGE OF TEXAS<br>\nCOLLEGE STATION BRAZOS COUNTY<br>\n<small>M. Strickland Lith. Galv.</small>\n</p>\n\n<p>187</p>\n\n<p>\nExamination of Junior Class<br>\nSecond section in English –<br>\nText book, Fowler's English Grammar<br>\nFrom the beginning to Chap. XI Page<br>\n174. Derivation –<br>\nFebruary – 11<sup>th</sup> 1879–<br>\nQuestions – with valuation –<br>\nI Give the three opinions <sup>in</sup> with re-<br>\nspect to the origin of language, 6.<br>\nII. Name the families of the Indo-<br>\nEuropean stock of languages,<br>\nand from which does the Eng-<br>\nlish come? 10<br>\nIII What is a dialect? 5<br>\nIV What are the principal elements,<br>\nwhich enter into the composition<br>\nof the English Language, 6.<br>\nV What are the phonetic elements\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Detailed Transcription and Analysis of the Document**\n\nOkay, here's what I've got. This is a transcription of a document from the \"STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS,\" which, for context, is now Texas A&M. I'm treating this like a high-accuracy document digitizing effort, so I'm aiming for both readability and visual accuracy.\n\nFirst, the layout:\n```\n[1879, Feb. 11]\n```\n(This is a penciled date in the top right. Likely the date the image was created or taken.)\n\nHere's the letterhead information I've transcribed, keeping in mind the visual presentation.\n\n```\nSTATE\nAGRICULTURAL AND MECHANICAL\nCOLLEGE OF TEXAS\nCOLLEGE STATION BRAZOS COUNTY\n<small>M. Strickland Lith. Galv.</small>\n```\nThe \"M. Strickland\" line is much smaller, so I've wrapped it in `<small>`.\n\nAnd finally, here's the body text, line by line. I'm focusing on preserving the original spelling and structure, including the correction noted:\n\n```\n187\nExamination of Junior Class\nSecond section in English –\nText book, Fowler's English Grammar\nFrom the beginning to Chap. XI Page\n174. Derivation –\nFebruary – 11<sup>th</sup> 1879–\nQuestions – with valuation –\nI Give the three opinions <sup>in</sup> with re-spect to the origin of language, 6.\nII. Name the families of the Indo-European stock of languages, and from which does the English come? 10\nIII What is a dialect? 5\nIV What are the principal elements, which enter into the composition of the English Language, 6.\nV What are the phonetic elements\n```\nThe numbers at the end of each question are likely the points or value assigned to each question. The insertion \"<sup>in</sup>\" and the crossed-out \"with\" in Question I are noted. I think this represents the most accurate and useful transcription, given the constraints.\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
-                ]
-            },
-            "height": 3688,
-            "width": 2257,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/49429ae0-9d38-3041-b7fc-4c7274e499eb/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3688,
-                                "width": 2257,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/49429ae0-9d38-3041-b7fc-4c7274e499eb",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>the English language? the consonantal [Margin: 27]<br>\nsounds? the vocal sounds? 9</p>\n\n<p>VI. Mention the continuous & the explosive<br>\nelements, the labials, the dentals, the<br>\ngutturals, the nasals_ 10</p>\n\n<p>VII. Define primitive, simple, derivative<br>\n& compound words - 4</p>\n\n<p>VIII. Compose a sentence in which there<br>\nshall be surd elements & sonant<br>\nelements & point them out. 10</p>\n\n<p>IX \"In science reason is guide\"<br>\nwrite this phonetically - 10</p>\n\n<p>X Mention the four defects of the<br>\nEnglish alphabet - 8</p>\n\n<p>XI Name & define the parts of speech<br>\nMention the classes of adjectives 12</p>\n\n<p>XII. What is conjugation? Conjugate<br>\nthe verb \"buy\" & give the synopsis in<br>\nthe passive voice - Does this<br>\nverb belong to the strong or to<br>\nthe weak conjugation - 10</p>\n\n<p>_____________________________________<br>\n100</p>\n\n<p>Louis L. McInnis -<br>\nadj. Prof - Anc. Langs & Eng.<br>\nState A & M. College of Texas -</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Transcription in Progress**\n\nAlright, let's get down to business. I'm taking on this handwritten English exam or quiz. My process is pretty straightforward, I analyze the request, scan the text and transcribe it with accuracy and care. Looks like there are some marginal notes, so I'll try to include those in context.  The numbers on the right of the lines are points.  I'll maintain the structure, and I'll keep the punctuation as it is. Here we go.\n\nI'm starting at the top, and I see a partial sentence, likely a continuation. The text ends at the top. This exam looks like it’s numbered VI to XII. This handwriting isn't too bad, mostly legible, and I see a marginal note \"27\" at the top right.  Let's see: I have to maintain all the text as accurately as possible.  I will write the marginal text as [Margin: text]. I see a lot of terms related to phonetics, grammar, and sentence structure, which seems pretty standard for a quiz from this time period.  The \"there\" is written a bit above the line, I'll transcribe it inline.\n\nAnd here's the transcription. I'm on the last step: implementing the formatting using HTML tags. Now, the final polished text will be as follows.\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-218.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Examination of Junior Class, Second Section in English signed by Louis L. McInnis, February 11, 1879"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1879-02-11"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Examination of Junior Class, Second Section in English signed by Louis L. McInnis, February 11, 1879"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 3 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/5349c9b2-c7d0-3b9c-a6d5-7a3adeb698e2/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
+        ]
+      },
+      "height": 3688,
+      "width": 2257,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5349c9b2-c7d0-3b9c-a6d5-7a3adeb698e2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3688,
+                "width": 2257,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5349c9b2-c7d0-3b9c-a6d5-7a3adeb698e2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[1879, Feb. 11]</p>\n\n<p>\nSTATE<br>\nAGRICULTURAL AND MECHANICAL<br>\nCOLLEGE OF TEXAS<br>\nCOLLEGE STATION BRAZOS COUNTY<br>\n<small>M. Strickland Lith. Galv.</small>\n</p>\n\n<p align=\"right\">187</p>\n\n<p>\nExamination of Junior Class<br>\nSecond section in English –<br>\nText book, Fowler’s English Grammar<br>\nFrom the beginning to Chap. XI Page<br>\n174. Derivation –<br>\nFebruary – 11<sup>th</sup> 1879–<br>\nQuestions – with valuation –\n</p>\n\n<p>\nI Give the three opinions <sup>in</sup> with re-<br>\nspect to the origin of language. 6.\n</p>\n\n<p>\nII. Name the families of the Indo-<br>\nEuropean stock of languages,<br>\nand from which does the Eng-<br>\nlish come? 10\n</p>\n\n<p>\nIII What is a dialect? 5\n</p>\n\n<p>\nIV What are the principal elements,<br>\nwhich enter into the composition<br>\nof the English Language, 6.\n</p>\n\n<p>\nV What are the phonetic elements\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription of the Examination Paper**\n\nAlright, I'm diving into this image. My goal is to capture the essence of this handwritten examination paper. First, I need to break down the image visually. There's a prominent letterhead, and I'm going to start there.\n\n*   I see a handwritten pencil note in the top right, `[1879, Feb. 11]`. That's likely a date or some identifying metadata.\n*   Then, the main letterhead text: `STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS`. It looks like it's split over some banners with the words `COLLEGE STATION` and `BRAZOS COUNTY` at the bottom and a small print: `M. Strickland Lith. Galv.` under the image. This is a bit smaller.\n*   On the right-hand side, I spot `187` in handwritten ink. It looks like it could be a date or page number.\n*   Okay, next comes the main text, also handwritten in ink.\n\n    *   \"Examination of Junior Class\"\n    *   \"Second section in English –\"\n    *   \"Text book, Fowler's English Grammar\"\n    *   \"From the beginning to Chap. XI Page\"\n    *   \"174. Derivation –\"\n    *   \"February – 11<sup>th</sup> 1879–\"\n    *   \"Questions – with valuation –\"\n    *   \"I Give the three opinions <sup>in</sup> with re-\"\n    *   \"spect to the origin of language. 6.\"\n    *   \"II. Name the families of the Indo-\"\n    *   \"European stock of languages,\"\n    *   \"and from which does the Eng-\"\n    *   \"lish come? 10\"\n    *   \"III What is a dialect? 5\"\n    *   \"IV What are the principal elements,\"\n    *   \"which enter into the composition\"\n    *   \"of the English Language, 6.\"\n    *   \"V What are the phonetic elements\"\n\nI'm making a mental note that the word \"in\" is inserted above \"with\" in the first question, so I will have to reflect that as well. The valuations (6, 10, 5, 6) look to be at the end of the question lines.\n\nNow, let's start the actual transcription. I'll preserve the line breaks. I'll try to follow visual hierarchy when formatting the header and keep the handwriting details. My plan is to start with the top pencil date, then the header text, date fragment, and then the exam questions. I will use the approved HTML tags for formatting.\n\nHere's the final output:\n\n<p>[1879, Feb. 11]</p>\n<p>STATE<br/>\nAGRICULTURAL AND MECHANICAL<br/>\nCOLLEGE OF TEXAS<br/>\nCOLLEGE STATION BRAZOS COUNTY<br/>\n<small>M. Strickland Lith. Galv.</small></p>\n<p>187</p>\n<p>Examination of Junior Class</p>\n<p>Second section in English –</p>\n<p>Text book, Fowler's English Grammar</p>\n<p>From the beginning to Chap. XI Page</p>\n<p>174. Derivation –</p>\n<p>February – 11<sup>th</sup> 1879–</p>\n<p>Questions – with valuation –</p>\n<p>I Give the three opinions <sup>in</sup> with re- 6.</p>\n<p>spect to the origin of language. </p>\n<p>II. Name the families of the Indo- 10</p>\n<p>European stock of languages,</p>\n<p>and from which does the Eng-</p>\n<p>lish come?</p>\n<p>III What is a dialect? 5</p>\n<p>IV What are the principal elements, 6.</p>\n<p>which enter into the composition</p>\n<p>of the English Language,</p>\n<p>V What are the phonetic elements</p>\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
+        ]
+      },
+      "height": 3688,
+      "width": 2257,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/49429ae0-9d38-3041-b7fc-4c7274e499eb/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3688,
+                "width": 2257,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/49429ae0-9d38-3041-b7fc-4c7274e499eb",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>the English language? the Consonantal <small>27</small><br>\nsounds? the vocal sounds? 9</p>\n\n<p>VI. Mention the continuous & the explosive<br>\nelements, the labials, the dentals, the<br>\ngutturals, the nasals_ 10</p>\n\n<p>VII. Define primitive, simple, derivative<br>\n& compound words_ 4</p>\n\n<p>VIII. Compose a sentence in which there<br>\nshall be surd elements & sonant<br>\nelements & point them out. 10</p>\n\n<p>IX \"In science reason is guide\"<br>\nwrite this phonetically_ 10</p>\n\n<p>X Mention the four defects of the<br>\nEnglish alphabet_ 8</p>\n\n<p>XI Name & define the parts of speech<br>\nmention the classes of adjectives, 12</p>\n\n<p>XII_ What is conjugation? Conjugate<br>\nthe verb \"buy\" & give the synopsis in<br>\nthe passive voice _ Does this<br>\nverb belong to the strong or to<br>\nthe weak conjugation_ 10</p>\n\n<p>100</p>\n\n<p>Louis L. McInnis _<br>\nadj. Prof_ Anc. Langs & Eng.<br>\nState A & m. College of Texas_</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Alright, let's break down this handwritten document. My analysis is as follows:**\n\nI'm looking at what seems to be a late 19th or early 20th-century exam or assignment. The content screams grammar/linguistics, and the handwriting style supports the historical timeframe. The structure is clear: questions numbered VI through XII, each with assigned scores in the right margin.\n\nFirst, I start line by line:\n*   `<p>the English language? the Consonantal <sup>27</sup><br>sounds? the vocal sounds? 9</p>` Okay, we have what looks like part of a previous question, probably the tail end of V. There's an upper-right number, \"27,\" which is small and likely a page number or total. The next line has \"sounds\" and a \"9\" on the right.\n\nNext, I look at the numbered questions:\n*   `<p>VI. Mention the continuous & the explosive<br>elements, the labials, the dentals, the<br>gutturals, the nasals_ 10</p>` That's VI, straightforward enough.\n*   `<p>VII. Define primitive, simple, derivative<br>& compound words_ 4</p>` VII follows.\n*   `<p>VIII. Compose a sentence in which there<br>shall be surd elements & sonant<br>elements & point them out. 10</p>`  Now comes VIII, the word \"surd\" is the old school term for a voiceless consonant, and \"sonant\" means voiced. Good.\n*   `<p>IX \"In science reason is guide\"<br>write this phonetically_ 10</p>`  Next is IX, with that famous quote, \"In science reason is guide,\" and a phonetic transcription exercise.\n*   `<p>X Mention the four defects of the<br>English alphabet_ 8</p>`  Then X.\n*   `<p>XI Name & define the parts of speech<br>mention the classes of adjectives, 12</p>`  Moving onto XI with a reminder for what adjectives are.\n*   `<p>XII_ What is conjugation? Conjugate<br>the verb \"buy\" & give the synopsis in<br>the passive voice _ Does this<br>verb belong to the strong or to<br>the weak conjugation_ 10</p>` And finally, XII, dealing with verb conjugation, with the verb \"buy\".\n\nNow, I will note:\n`<p>100</p>` Then at the end, the total: 100.\n\nThe signature block looks like this:\n`<p>Louis L. McInnis _<br>adj. Prof_ Anc. Langs & Eng.<br>State A & m. College of Texas_</p>`\n\n\"McInnis\" appears to be the name. The \"adj\" likely stands for \"adjunct\" professor, and \"Anc. Langs & Eng.\" indicates Ancient Languages and English. The college is \"State A & m. College of Texas\".\n\nI think I have a solid transcription. Time to get this into HTML format for the IIIF presentation, according to the given instructions.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/218/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

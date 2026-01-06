@@ -1,130 +1,139 @@
 {
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-91.json",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from R. H. Whitlock, December 28, 1884"
-        ]
-    },
-    "context": "http://iiif.io/api/presentation/3/context.json",
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1884-12-28"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from R. H. Whitlock, December 28, 1884"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 18 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/cf822cd6-8115-38c2-817c-642bfa25fa4b/full/!100,100/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0",
-            "label": {
-                "none": [
-                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
-                ]
-            },
-            "height": 3777,
-            "width": 2317,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/cf822cd6-8115-38c2-817c-642bfa25fa4b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3777,
-                                "width": 2317,
-                                "service": [
-                                    {
-                                        "id": "https://api-pre.library.tamu.edu/iiif/2/cf822cd6-8115-38c2-817c-642bfa25fa4b",
-                                        "type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "motivation": "transcribing",
-                            "body": {
-                                "value": "<span><p>\n<small>JAS. M. CARLISLE, PRES'T,<br>\nWhitesboro.<br>\nMISS NANNIE C. BREEDING,<br>\nV. Pres't, Houston.<br>\nROB'T F. SMITH, SEC'Y,<br>\nCollege Station.<br>\nMISS JOSIE L. WOOD,<br>\nAssistant Secretary, Brenham.</small>\n</p>\n\n<p>\nTEACHERS'<br>\n<b>New Orleans Excursion</b><br>\nASSOCIATION.\n</p>\n\n<p>\n<small>Executive Committee.<br>\nJ. M. CARLISLE,<br>\nWhitesboro.<br>\nR. F. SMITH,<br>\nCollege Station.<br>\nA. H. WILKINS,<br>\nHouston.</small>\n</p>\n\n<p>New-Orleans 12/28 1884.</p>\n\n<p>Dear Mc Innis,<br>\nI have been so<br>\nbusy that the time has fairly<br>\nfulfilled the old adage and actually<br>\n\"fuges\". We have been going round<br>\nthe city for a few days. The Expo<br>\nsition is way behind and I think<br>\nit will be at <i>least</i> a month<br>\nbefore things are ready in all<br>\ndepartments. Mother arrived all<br>\nright and feels very well apparent<br>\nly, and is enjoying herself to<br>\nthe \"full bent\". Our plans at<br>\npresent are to leave here Friday Jan<br>\n2nd, and expect to get to College Sta<br>\ntion the next day at 2. P.M. Will<br>\nwrite you again before that time.<br>\nRemember me to all. Mallory not<br>\nback from Jackson yet. R. H. Whitlock</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "motivation": "commenting",
-                            "body": {
-                                "value": "**Here's how I approached this transcription task:**\n\nFirst, I assessed the parameters: I'm a transcriptionist, my task is to transcribe this image of a letter, following the given guidelines. The key directives are to maintain natural reading order, ensure high accuracy (including original spelling and punctuation), interpret any handwriting, adhere to the specified HTML tags, and present lists in a Markdown table. Commentary is not requested.\n\nThen, I carefully examined the image, starting with the letterhead. I parsed the left side (officers and locations), the center (\"TEACHERS'…\"), and the right side (Executive Committee and locations). I took note of the handwritten date/location (\"New Orleans 12/28 1884\"), salutation (\"Dear McInnis\"), and the body of the letter itself, focusing on spelling (e.g., \"fuges\"), punctuation, and line breaks. I paid close attention to the emphasized words and phrases within the body of the letter. Finally, I examined the signature (\"R. H. Whitlock\").\n\nNext, I started drafting the transcription. I tackled the letterhead's structure, recognizing the need to replicate its layout. I used HTML tags to represent the side columns and centered title. Then, I transcribed the date, salutation, and body, accounting for any line breaks in the body. I meticulously transcribed the text, including the writer's idiosyncratic \"fuges\".\n\nAfter creating the draft, I refined the transcription's formatting. I ensured I adhered to the HTML tags, especially regarding the forbidden `<u>` tag. I opted for `<i>` to represent the emphasis/underlining for the word \"least\". I also considered the need to retain the visual layout with `<p>` and `<br>`. Then, I performed a final visual check on layout and spacing.\n\nI reevaluated the letterhead layout, aiming for a logical presentation based on the guideline \"Natural top-to-bottom, left-to-right\", and the reading hierarchy. I then made sure to arrange the left block, center title, and right block in order.\n\nI then did a detailed evaluation of each detail of the handwriting:\n\n*   \"New-Orleans\" included a dash.\n*   \"12/28\" - the 28 is slightly subscript but it's a fraction style.\n*   \"Mc Innis\" - there is a space.\n*   \"fuges\" - quotes are distinct.\n*   \"least\" - underlined. I'll use `<i>` as `<u>` is forbidden.\n*   \"full bent\" - quotes distinct.\n*   \"2. P.M.\" - dots used.\n*   \"R. H. Whitlock\" - Signature is at the bottom right.\n\nFinally, I assembled the final output, paying extra attention to the details of the handwriting and the required formatting. I double-checked the date and signature one last time before submitting the transcription, making sure it met all of the requirements.\n\n\n",
-                                "format": "text/plain",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-91.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from R. H. Whitlock, December 28, 1884"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1884-12-28"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from R. H. Whitlock, December 28, 1884"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 18 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/cf822cd6-8115-38c2-817c-642bfa25fa4b/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
+        ]
+      },
+      "height": 3777,
+      "width": 2317,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/cf822cd6-8115-38c2-817c-642bfa25fa4b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3777,
+                "width": 2317,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/cf822cd6-8115-38c2-817c-642bfa25fa4b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><small>JAS. M. CARLISLE, PRES'T,<br/>\nWhitesboro.<br/>\nMISS NANNIE C. BREEDING,<br/>\nV. PRES'T, Houston.<br/>\nROB'T F. SMITH, SEC'Y,<br/>\nCollege Station.<br/>\nMISS JOSIE L. WOOD,<br/>\nAssistant Secretary, Brenham.</small></p>\n\n<p><b>TEACHERS'<br/>\nNew Orleans Excursion<br/>\nASSOCIATION.</b></p>\n\n<p><small>Executive Committee.<br/>\nJ. M. CARLISLE,<br/>\nWhitesboro.<br/>\nR. F. SMITH,<br/>\nCollege Station.<br/>\nA. H. WILKINS,<br/>\nHouston.</small></p>\n\n<p>New-Orleans 12/28 1884.</p>\n\n<p>Dear Mc Innis,<br/>\nI have been so<br/>\nbusy that the time has fairly<br/>\nfulfilled the old adage and actually<br/>\n\"fuges\". We have been going round<br/>\nthe city for a few days. The Expo<br/>\nsition is way behind and I think<br/>\nit will be at least a month<br/>\nbefore things are ready in all<br/>\ndepartments. Mother arrived all<br/>\nright and feels very well apparent<br/>\nly, and is enjoying herself to<br/>\nthe \"full bent.\" Our plans at<br/>\npresent are to leave here Friday Jan<br/>\n2nd, and expect to get to College Sta<br/>\ntion the next day at 2.P.M. Will<br/>\nwrite you again before that time.<br/>\nRemember me to all. Mallory not<br/>\nback from Jackson yet. R.H. Whitlock</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, so I've got this handwritten letter in front of me. The first thing I see is the letterhead. It’s got a clear structure, almost like a business card or association information. I need to make sure I transcribe it accurately, so let’s break it down into sections.\n\nThe letterhead is split into three columns. The left column lists officers: *JAS. M. CARLISLE*, *MISS NANNIE C. BREEDING*, *ROB'T F. SMITH*, and *MISS JOSIE L. WOOD*, with their titles and locations. The center has a prominent graphic with the words *\"TEACHERS' New Orleans Excursion ASSOCIATION.\"* in a stylized font. The right column lists the *\"Executive Committee\"* members: *J. M. CARLISLE, R. F. SMITH, and A. H. WILKINS*, also with their locations. I'll make sure to preserve that layout.\n\nNext, the date. It's clearly \"New Orleans 12/28 1884.\" The \"12/28\" looks like a fraction. Good.\n\nNow the actual letter. It begins with \"Dear Mc Innis,\" followed by the body. I'll transcribe it carefully, line by line, paying attention to any unusual words or phrases. I have to capture everything: \"I have been so busy that the time has fairly fulfilled the old adage and actually 'fuges'. We have been going round the city for a few days. The Exposition is way behind and I think it will be at least a month before things are ready in all departments. Mother arrived all right and feels very well apparently, and is enjoying herself to the 'full bent.' Our plans at present are to leave here Friday Jan 2nd, and expect to get to College Station the next day at 2.P.M. Will write you again before that time. Remember me to all. Mallory not back from Jackson yet.\"\n\nI see a few potential areas for careful transcription. The word *\"fuges\"* looks a little unusual; a quick check confirms it. Also, the phrase *\"least a month\"* is underlined (I have to maintain emphasis). There are a few hyphenated words at the line breaks: \"Expo-sition\", \"apparent-ly\", and \"College Sta-tion\".\n\nFinally, the signature. It looks like *\"R. H. Whitlock\"* written at the bottom.\n\nNow, I'll put it all together. I'll use the permitted HTML tags to format this properly. I will preserve the layout as best as I can.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/91/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
