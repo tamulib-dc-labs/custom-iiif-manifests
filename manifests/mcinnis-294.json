@@ -1,0 +1,130 @@
+{
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis-294.json",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. N. Harris, September 19, 1881"
+        ]
+    },
+    "context": "http://iiif.io/api/presentation/3/context.json",
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-09-19"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. N. Harris, September 19, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/294"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/7cd941c8-fcf8-3e1f-86c5-cd6998ba1474/full/!100,100/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/294/pages/page_0",
+            "label": {
+                "none": [
+                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/294/pages/page_0"
+                ]
+            },
+            "height": 2457,
+            "width": 3055,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/7cd941c8-fcf8-3e1f-86c5-cd6998ba1474/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2457,
+                                "width": 3055,
+                                "service": [
+                                    {
+                                        "id": "https://api-pre.library.tamu.edu/iiif/2/7cd941c8-fcf8-3e1f-86c5-cd6998ba1474",
+                                        "type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/294/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "motivation": "transcribing",
+                            "body": {
+                                "value": "<span><p>Palo Alto, Miss,<br>\nSept. 12, 1881.</p>\n\n<p>Prof. McInnis<br>\nBryan Texas, 3</p>\n\n<p>Dear Sir, I write to<br>\nask whether any steps have been taken<br>\nby the friends of the late Pres. T. S.<br>\nGathright to place a monument over<br>\nhis grave. A number of his former<br>\npupils in Miss. think of proposing<br>\nto raise means for that purpose.<br>\nCol. Power advised to write to you<br>\nto learn the state of the case. He thought<br>\nperhaps it had been attended to by friends<br>\nin Texas. An early answer will<br>\noblige yours respectfully J. M. Harris, Palo Alto<br>\nMiss</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/294/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "motivation": "commenting",
+                            "body": {
+                                "value": "**Detailed Transcription of a Handwritten Letter**\n\nOkay, here's what I've got. I'm looking at this handwritten letter, and I need to get a clean transcription. It starts with the location and date, right-aligned, up in the top right corner. \"Palo Alto, Miss,\" and then \"Sept. 12, 1881.\" Looks like. Now, down in the left corner, it's addressed to \"Prof. McInnis / Bryan Texas, 3\". That \"3\" is just kind of floating there. Maybe a postal notation? I'll keep it as-is for now.\n\nThe body of the letter itself starts with a salutation, “Dear Sir, I write to...”, though there's an ink blotch over \"Dear\". And there's another ink spot on \"steps\". No problem, I can read through it. It seems to be asking if any action has been taken regarding a monument for the late President T. S. Gathright. Ah, yes, Thomas S. Gathright, the first president of Texas A&M. I recall that. It mentions some of his former pupils in Mississippi, abbreviated as \"Miss.\", are considering raising funds. Colonel Power advised writing to learn the situation, assuming friends in Texas might have already taken care of it. The letter ends with a standard closing, “oblige yours respectfully J. M. Harris, Palo Alto Miss”.\n\nSo, my transcription strategy is pretty straightforward. I'll maintain the right alignment for the header, leave the recipient on the left. The body is continuous and will follow suit, with inline signature. I'm going to look at the words closely. \"Prof. McInnis\" is clear. \"Bryan Texas,\" also. The \"3\" is puzzling, but I'll leave it. \"Dear Sir, I write to\" – the ink blotch is not an issue. Same for \"steps\". \"Col. Power\" is correct, and I'm familiar with Colonel J.L. Power, a Mississippi figure. \"Miss.\" is the abbreviation for Mississippi, and J. M. Harris appears to be the correct signature. The letter looks quite neat.\n\nI'll format it with `<p>` tags for paragraphs and `<br>` tags to preserve the line breaks. Keeping the letter's structure is important for accurate transcription. I am using the allowed HTML elements to ensure the output is well-formed.\n\nI've re-examined and double-checked the text, and I'm ready to produce the final transcription.\n\n\n",
+                                "format": "text/plain",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/294/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

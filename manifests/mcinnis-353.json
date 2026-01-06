@@ -1,0 +1,130 @@
+{
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis-353.json",
+    "label": {
+        "none": [
+            "Copy of letter to the Honorable Board of Directors from Louis L. McInnis, June, 1890"
+        ]
+    },
+    "context": "http://iiif.io/api/presentation/3/context.json",
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-06"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Copy of letter to the Honorable Board of Directors from Louis L. McInnis, June, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/353"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/becfb5da-a8a9-359c-8114-43cf0d3c3cce/full/!100,100/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/353/pages/page_0",
+            "label": {
+                "none": [
+                    "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/353/pages/page_0"
+                ]
+            },
+            "height": 3797,
+            "width": 3079,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/becfb5da-a8a9-359c-8114-43cf0d3c3cce/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3797,
+                                "width": 3079,
+                                "service": [
+                                    {
+                                        "id": "https://api-pre.library.tamu.edu/iiif/2/becfb5da-a8a9-359c-8114-43cf0d3c3cce",
+                                        "type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/353/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "motivation": "transcribing",
+                            "body": {
+                                "value": "<span>[Header]\n<p>Copy- of Letter to Board June 1890<br>\nCollege Sta June – 90</p>\n\n<p>To the Honorable Board of Directors<br>\nA. + M. College of Texas<br>\nGentlemen : I respectfully but earnestly<br>\nrequest that you will give to my vouchers<br>\nand books a searching investigation, in order<br>\nthat you may be able to testify to the correctness<br>\nwith which I have disbursed the funds of the<br>\nA + M College, P. V. Normal School, and<br>\nAgricultural Experiment Station –<br>\nI also respectfully request you to take im-<br>\nmediate steps to relieve me of my responsi-<br>\nbility to the United States Government for<br>\nthe Arms & accoutrements issued to the<br>\nCollege – and for the alcohol withdrawn<br>\nfrom bond for use in the Chemical Laboratory<br>\nSigned L. L. McInnis<br>\nChrn of Faculty</p>\n\n<p>“ As far as the record shows <i>no</i><br>\nnotice was taken of this respect-<br>\nful communication & as far as I<br>\nknow <i>no</i> action was taken ”</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/353/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "motivation": "commenting",
+                            "body": {
+                                "value": "**Okay, here's the transcription process, as I see it:**\n\nFirst, I had to figure out what was being asked of me. The task is to transcribe a document, with some specified HTML constraints. I'm acting as a transcriptionist, so I need to preserve the content and formatting as closely as possible, interpreting handwriting and making sure not to add any commentary.\n\nNext, it’s all about analyzing the image itself. I noted the date (June 1890) and the formal nature of the request, which seems to be from the Chairman of the Faculty regarding an audit of vouchers and some relief from responsibilities related to government arms and alcohol. The handwriting is pretty legible, but has its own historical flourishes, which I'll need to keep in mind. The note at the bottom needs attention as it’s separate.\n\nThen, line by line, I started dissecting the text. I looked at each word and symbol, making decisions about the transcription. For example: \"College Sta\" – I assumed it was \"College Station\". The \"A + M\" situation required close scrutiny. It could be \"A & M,\" but the handwriting looks like a plus sign, so I will stick with that, or the visual equivalent `A. + M.` in the official title. I'll need to double-check that across the document to be consistent. The ampersand situation, and even the \"Chrn\" for \"Chairman,\" needed consideration. Then I focused on formatting – the underlines, the quotations, all of it.\n\nAfter that, it was about refining the initial transcription and the HTML formatting. I went back and forth, making sure I was being accurate with spelling, punctuation, and layout. I had to look closely at the permitted HTML tags. I had to pay close attention to the prompt; it doesn't ban formatting, but only *explicitly* lists the tags, and I can't use anything *not* on that list. That meant the underlines would have to be handled another way. I noted that underlining seems to add emphasis, and the prompt asks to \"label structural elements,\" not strictly preserve underlines.\n\nSo, I re-examined the text, adjusting and correcting until it seemed right. I then organized the output with appropriate HTML tags: `br` for line breaks, `p` for paragraphs. The “no” underlined at the bottom was emphasized, so I used *i* to convey emphasis since it is allowed in HTML.\n\nI needed to be sure about \"A + M\" and \"Chrn.\" I also needed to keep in mind the meaning of symbols such as \"&\" – for the college's name, the visual cue is a small plus rather than a more typical ampersand.\n\nFinally, I did one last comprehensive review, going through it again, reading it aloud, checking every detail against the original image. \"Copy - of Letter\", should be \"Copy- of Letter\" since the dash connects the word \"Copy\" and \"of.\" \"Chemical Laboratory\" with a capital 'C' and 'L'. \"Accoutrements\". The final string is then produced, incorporating all these considerations and corrections.\n\n\n",
+                                "format": "text/plain",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/353/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

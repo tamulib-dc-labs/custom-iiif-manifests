@@ -1,0 +1,352 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis-241.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to O. M. Roberts from Rufus Burleson, November 20, 1879"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1879-11-20"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to O. M. Roberts from Rufus Burleson, November 20, 1879"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ce2413ba-c9a2-3dc0-8145-1b37e7c6fa33/full/!100,100/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_0"
+        ]
+      },
+      "height": 3147,
+      "width": 1952,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ce2413ba-c9a2-3dc0-8145-1b37e7c6fa33/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3147,
+                "width": 1952,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ce2413ba-c9a2-3dc0-8145-1b37e7c6fa33",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Stamp: HAMILTON]</p>\n\n<p>Machinist Texas<br/>\nNov 20. 1879</p>\n\n<p>Hon O. M. Roberts<br/>\nDear Sir,</p>\n\n<p>As an old Texan<br/>\nand and a life-long educator,<br/>\nI feel a deep interest in the<br/>\ntroubles of the A. & M. College.<br/>\nI have read with profound<br/>\nadmiration your letter in the<br/>\nNews on [crossed out: the] the general designs<br/>\nof the Agricultural and Mechanical<br/>\nCollege. I have seen nothing [crossed out: so]<br/>\nprofound or so perfectly in accord<br/>\nwith my own sentiments.<br/>\nIf the views you expressed<br/>\nhad been fully accepted by the<br/>\nfaculty and carried out the<br/>\nA. & M. College would have been</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Initial Thought Process for Transcribing the Letter**\n\nOkay, here's how I'm approaching this transcription. First, I'm going to carefully analyze the image. I'm noting the obvious things like that it's a handwritten letter on lined paper. The embossed stamp in the top left corner says \"HAMILTON,\" which I'll keep in mind. Then, I'm focusing on the date and location, which is \"Machinist Texas Nov 20. 1879.\" But I'm not immediately sure about \"Machinist.\" It's written in a cursive style where an 'M' can resemble a 'W,' so I'm comparing the first letter to others in the text, especially the 'M' in \"Mr.\" and \"Mechanical,\" which has a distinct form. I'm also considering likely Texas towns from the period, so I'm mentally running through options that start with \"M\" or \"W\" (like Waxahachie, Washington, and so on), checking each letter closely, because the goal is to transcribe as precisely as possible, while taking into account that the handwriting might be unusual or even a bit sloppy. \"Machinist\" seems to fit what I'm seeing visually, as weird as it is for a location, and while it might be a job title, it's placed where a city would usually be.\n\nI'm starting the transcription of the body with a stamp in the header, and then the location, date, salutation, and finally the text itself. In the text, I'm noting the double \"and\" ( \"and and\" ) and any crossed-out words to preserve the original writing, because accuracy is always key, but in this task, I am not allowed to use any strikethrough notation, or I would have. I'm also looking out for any variations, abbreviations, or potentially misunderstood words like \"A. & M. College\". I'm making sure to put in the formatting too, like paragraph markers and line breaks to match the handwritten style.\n\nI'm circling back to that location again because it still feels odd. I'm scrutinizing the first word and seeing if it could be something like \"Waxahachie\" or \"Washington,\" especially because the \"W\" can be written to look a lot like \"M.\" I'm also looking up towns from 1879, and even checking for \"Mechanicsville\". I'm examining the word structure and stroke count, because I'm looking for any logical connection, while also checking the style of \"Mechanical\" and \"Machinist.\" So I am stuck on \"Machinist Texas\".\n\nAfter multiple checks, and multiple re-reads, I've confirmed that \"Machinist\" is the best visual match for this text. I've considered that the writer might have written their profession rather than their location, but I'll write `Machinist Texas` as the word. I also will make certain to note if there are any crossed out texts in this letter.\n\nThen I'm going through the transcription line by line. I check for any additional errors. For example, the double \"and\". Finally, I've got the final text.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_1"
+        ]
+      },
+      "height": 3147,
+      "width": 1953,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4ab138e3-6205-3a18-a474-ef309ea4b29e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3147,
+                "width": 1953,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4ab138e3-6205-3a18-a474-ef309ea4b29e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nan incalculable blessing<br/>\nto Texas and a grand factor<br/>\nin the civilization of this age.<br/>\nBut I have been sadly im-<br/>\npressed that the Faculty of<br/>\nthe A. & M. College are incapa<br/>\nble of grasping the profound<br/>\nviews expressed by Your Excellency<br/>\nThey attach more importance<br/>\nto brass bottons and a little<br/>\nidle show and <sup>a captaincy of</sup> Cadets<br/>\nthan to the grand aims<br/>\nof an A. & M. College, as<br/>\nexplained in your letter.<br/>\nI am painfully confirmed<br/>\nin this opinion by their petty<br/>\nwranglings and unprofessional<br/>\nbickerings over little things<br/>\nthat great and dignified<br/>\nProfessors would never have<br/>\npermitted to extend beyond<br/>\na weekly Faculty meeting.\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analyzing and Transcribing a Handwritten Document**\n\nOkay, here's what I've got. The user wants me to transcribe this handwritten document. Based on the script and ink, I figure it's from the late 19th or early 20th century. The content is about Texas A&M College, specifically a criticism of the faculty. It's a letter, maybe to a high official, judging by phrases like \"Your Excellency.\"\n\nMy first step is to transcribe it line by line. The handwriting is a bit messy, cursive, but I think I can make it out. I'm going to pay close attention to the letter forms and make sure I get everything right. I'm seeing a lot of insertions and corrections as the writer was going along, so it's going to be a bit of a puzzle. Some of the language is a little formal, a little old-fashioned, like the phrase \"incalculable blessing.\" I'm looking at the words carefully. For example, line 1, it's starting with \"an\". Looks like it's saying the faculty is \"incapable of grasping.\"\n\nI’m paying especially close attention to the word \"Cadets\" in line 11, it's been edited a few times. It looks like \"a captaincy of\" has been inserted above the word \"Cadets\". \"Cadets\" is struck through, but is that the final intent? The guidelines don't cover strikethrough, so I'm not sure if I should include it. The guidelines say to \"Interpret handwritten text as accurately as possible\" and \"Preserve original spelling\" so I must transcribe the text as it is seen. I’m thinking, maybe I should use markup or something to show the edits but I’m looking at the guidelines. I can only use `sup` and a few others, and not strikethrough. I'll just write what is there: \"idle show and <sup>a captaincy of</sup> Cadets\".\n\nI’m working to make sure I transcribe this right. I'm making sure to verify everything and check against the guidelines so I get this right. I will deliver the text.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_2"
+        ]
+      },
+      "height": 3147,
+      "width": 1952,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/80596633-4fce-3ce9-a01d-c7e521d32585/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3147,
+                "width": 1952,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/80596633-4fce-3ce9-a01d-c7e521d32585",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nAs an Texas Educator I<br/>\nhave looked forward to<br/>\na great Agricultural and<br/>\nMechanical College <i>in fact</i><br/>\nand not in name, as an<br/>\nindespensible auxiliary<br/>\nto our greatness as a State.<br/>\nBut I have well nigh<br/>\ndespaired of its success<br/>\nunder such men as Messrs<br/>\nGathright Flagg and one <sup>or</sup> two<br/>\nothers I happen to know in<br/>\nthe faculty. I trust your<br/>\nexcellency and your Colaborers<br/>\nwill go to the bottom, sweep<br/>\naway the rubbish and lay the<br/>\nfoundation on a firm rock,<br/>\nand take your letter as the great<br/>\nsheet anchor of your action<br/>\nAll true Texans will stand<br/>\nby you in the end. Yours Truly<br/>\nRufus C Burleson<br/>\nsee over\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I approached this transcription task:**\n\nAs a seasoned transcriptionist, I began by deeply analyzing the request: to meticulously transcribe handwritten text while adhering to specific guidelines and constraints. I knew my role was to deliver a verbatim transcription, preserving the original form and intent of the writer.\n\nNext, I thoroughly examined the image itself. I noted the cursive style, the faded brown ink, and the lined paper. I observed that the handwriting suggested a 19th-century origin, with distinctive letter forms. I also identified key content elements: references to a \"Texas Educator,\" the Agricultural and Mechanical College, specific names (Gathright, Flagg), and a salutation to \"your excellency.\" I had to contend with ink blots and smudges, which I would need to interpret carefully.\n\nI then proceeded line by line. Each word required careful scrutiny. I paid particularly close attention to potential ambiguities, such as the initial word of the letter, which appeared to be \"Texas\" despite the odd grammar (\"an Texas\"). Context clues (the writer's signature, the historical background of Texas educators) helped solidify my interpretation, even when the grammar was irregular. I also had to double-check my spelling, noting that \"indespensible\" (with an \"e\") might have been the author's intention, even if not standard today. Similarly, I carefully reconstructed words that were unclear or smudged like \"success\" or \"rock,\" drawing on the overall meaning of the text. Special attention was given to the word \"Colaborers\" with an \"o\" for clarification.\n\nI made decisions about formatting, noting the underline on \"in fact\". I was constrained by the approved HTML tags and, as a result, marked up the emphasis with `<i>` . I inserted the \"or\" above the insertion \"two\" with sup tags.\n\nFinally, I reviewed the transcription against the instructions and constraints, double-checking for accuracy, formatting, and preservation of the original text. After several iterations of verification, I was confident in my transcription. I assembled the final output, paying attention to the overall presentation and organization, with line breaks and signature placement.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_3"
+        ]
+      },
+      "height": 3147,
+      "width": 1953,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/dc1e21cb-f4a4-3e26-b7eb-ab5f6110dc42/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3147,
+                "width": 1953,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/dc1e21cb-f4a4-3e26-b7eb-ab5f6110dc42",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>P. S I congratulate you highly<br/>\non your officering \"The Sam<br/>\nHouston State Normal School\"<br/>\nNo better selections could<br/>\nhave made than Profs Mellon, Cooper<br/>\nand Smith. If there is to be a<br/>\nreorganization of the Faculty<br/>\nat Bryan, I trust the same care<br/>\nwill be used. And not as before<br/>\nmake ourselves a but of ridicule<br/>\nto educators in other states for<br/>\ntaking up and putting in high<br/>\nplaces 3<sup>rd</sup> rate broken down men</p>\n<p>Men whose chief stock in<br/>\ntrade is cheek and wire-<br/>\npulling. I trust Your Excellency<br/>\nwill excuse these free expressions<br/>\nemanating in an ardent desire to<br/>\npromote the glory of Texas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R L B</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Image Analysis and Transcription: A Detailed Thought Process**\n\nAlright, let's dive into this transcription project. I've got a handwritten document here, a postscript (\"P.S.\") to a letter, judging by the context. The handwriting's cursive, a bit hurried but generally decipherable. I see brown or black ink on lined paper, and there's a faint watermark or something embossed at the top right, but it's useless for now.\n\nFirst, I'll transcribe line by line.\n\n*   **Line 1:** \"P. S I congratulate you highly\" - Hmm, that \"I\" looks more like a \"J\" or a \"T\" initially, but it's clearly \"I\" in context. The \"S\" is definitely distinct in \"P.S.\" The last word \"highly\", the 'g' and 'y' have a descending cursive style.\n*   **Line 2:** \"on your officering \"The Sam\"\" - Okay, \"officering\" seems the most likely word in that spot. I'm assuming it means staffing or appointing officers, given the context. \"The Sam\" is in quotes.\n*   **Line 3:** \"Houston State Normal School\"\" - Very straightforward. \"Houston,\" \"State,\" \"Normal,\" \"School.\" Easy. The quotes close.\n*   **Line 4:** \"No better selections could\" - This first word is a bit tricky. It looks like \"Ao\" or \"So\". Contextually, \"No\" makes the most sense. If it's \"No\", then grammatically, \"been\" is missing: \"No better selections could have [been] made\" – That construction is common, so I will add it as an implied meaning. I'll read it closer. The letters are loopy, but after looking at it closely it looks like \"No\". The entire sentence is \"No better selections could have made than...\". Or \"As\". \"As better selections could [not] have [been] made\"... No, that doesn't make sense. Let's compare handwriting of capital N with A in And (line 9) to see if the structure is the same. It is not. The first word is \"No\".\n*   **Line 5:** \"have made than Profs Mellon, Cooper\" - Okay, \"have,\" \"made,\" \"than\" are clear. The word \"Profs\" means Professors. The names here, are important: It might be \"Mallon\" or \"Mellon\". Let's trace it and see. The word looks like Mellon. The names likely refer to Bernard Mallon, Oscar Cooper, H.H. Smith.\n*   **Line 6:** \"and Smith. If there is to be a\" - Perfectly readable. \"and Smith\" is clear, \"If there is to be a\" is clear.\n*   **Line 7:** \"reorganization of the Faculty\" - \"Reorganization,\" the \"z\" is very defined, \"Faculty\" is capitalized.\n*   **Line 8:** \"at Bryan, I trust the same care\" - Referencing Texas A&M at Bryan, I'm guessing. \"I trust\", \"same care\". Clear.\n*   **Line 9:** \"will be used. And not as before\" - all clear.\n*   **Line 10:** \"make ourselves a but of ridicule\" - Okay, it looks like \"but,\" meaning \"make ourselves a butt of ridicule\". Let's get more context, the sentence \"make ourselves a but of ridicule to...\". Yes, it has to be \"butt\" since \"butt of ridicule\" is the expression. It looks like b-u-t.\n*   **Line 11:** \"to educators in other states for\" - Clear.\n*   **Line 12:** \"taking up and putting in high\" - Easy.\n*   **Line 13:** \"places 3rd rate broken down men\" - The \"rd\" in \"3rd\" is superscript. \"Broken\" is a little scrawled, but clear.\n*   **Line 14:** \"Men whose chief stock in\" - It's capitalized, implies a new paragraph. \"Men,\" \"whose,\" \"chief,\" \"stock,\" \"in.\" all clear.\n*   **Line 15:** \"trade is cheek and wire-\" - Now the word after \"cheek\" is the real puzzle. It looks like \"wire\", but it's very badly written. The word that follows is \"pulling\", so \"wire-pulling\" makes sense, and this is the important part of the text. It means political manipulation. But I must be accurate. Is it \"w-i-r-e\"? Let's compare to \"wire\" in the previous line\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/241/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
