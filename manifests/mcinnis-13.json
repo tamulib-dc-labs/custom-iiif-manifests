@@ -1,0 +1,222 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-13.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Postcard to Louis L. McInnis from J. N. Clark, December 15, 1881"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-12-15"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Postcard to Louis L. McInnis from J. N. Clark, December 15, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/c75efda1-cba3-3eaf-84a7-9cae3f37f748/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "page_0"
+        ]
+      },
+      "height": 1750,
+      "width": 3019,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/c75efda1-cba3-3eaf-84a7-9cae3f37f748/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1750,
+                "width": 3019,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/c75efda1-cba3-3eaf-84a7-9cae3f37f748",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><b>[Header: US POSTAL CARD]</b></p>\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n<p>[Stamp: US POSTAGE ONE CENT]</p>\n<p>[Postmark: NAVASO[TA] / JUL / 16 / TEX]</p>\n<br>\n<p>[Margin: Answered<br>\nJan 8/82]</p>\n<br>\n<p>Prof L. L. McInnis,</p>\n<p>College Station</p>\n<p>Tex.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analyzing and Transcribing a Vintage Postal Card**\n\nOkay, I'm ready to dive into this image. My goal is a faithful transcription of this old postal card, keeping in mind the visual layout and any interesting details. First, I'm noting the overall structure: a vintage US Postal Card, Liberty head design. The printed text starts with \"US POSTAL CARD,\" inside a banner, followed by the instruction \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" There's a stamp area, with \"US POSTAGE\" and \"ONE CENT\" visible. Then, there's a circular postmark; I can make out \"NAVASO...\" and \"JUL 16 TEX\" but the year is not fully clear. Now the handwriting. The address looks like \"Prof L. L. McInnis, College Station, Tex.\" In the left margin, vertically, it says \"Answered Jan 8/82\".\n\nI'm starting my transcription systematically. The banner reads \"US POSTAL CARD\". Beneath it, in smaller print, the instruction, \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" The stamp displays \"US POSTAGE\" and \"ONE CENT.\" The postmark is \"NAVASO[TA] / JUL / 16 / TEX\". The sideways text reads \"Answered / Jan 8/82\". I'm making sure to note its position since it's marginalia. I'm focusing on text, and only text.\n\nNow, I'm checking the postmark date. The main text says \"NAVASO...\", but with the help of context, I can infer that the city is Navasota. \"JUL 16\" is clear. I see \"TEX\" and I am confident in the reading, and the city. The year is faint. There's a \"7\" and maybe a \"6\" at the bottom. It could be 76, or 81. I am confident that the date is from the 1870's or 1880's. Considering that the sideways writing says \"Jan 8/82\", and the address is to a Texas A&M professor (L. L. McInnis), I'm reasonably confident in this reading.\n\nI need to confirm the name as a historical figure. Yes, L. L. McInnis was a professor at Texas A&M at this time. I am confident in the reading. This helps me confirm that the postmark year might be correct as 1881. However, I am transcribing the *visible* text and will stick with the most legible text only.\n\nThe transcription will include, in order: \"US POSTAL CARD\" along with the instruction, the stamp details \"US POSTAGE ONE CENT\", the postmark \"NAVASO[TA] / JUL / 16 / TEX\" and the marginal text \"Answered / Jan 8/82\", along with the address \"Prof L. L. McInnis, College Station Tex.\". I will format this as plain text. The only other formatting required is denoting the side margin, since it's vertical.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "page_1"
+        ]
+      },
+      "height": 1750,
+      "width": 3019,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7e7b90c5-2bce-347a-8f16-91da968b177c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1750,
+                "width": 3019,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7e7b90c5-2bce-347a-8f16-91da968b177c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Navasota, Texas.<br/>\nDec. 15, 1881.</p>\n\n<p>Dear Friend:<br/>\nWe will be<br/>\nup tomorrow, if<br/>\nweather continues pleasant.<br/>\nPlease meet us at Station.</p>\n\n<p>Your true friend<br/>\nT. W. Clarke.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis of the Handwritten Note Transcription**\n\nOkay, here's my read on this handwritten note. I've dissected it line by line, paying close attention to every nuance, every faded stroke, and every possible ambiguity. First, I analyzed the overall format: pencil or faded ink on a tan card, classic cursive, potentially late 19th-century. The faded nature and slight ghosting adds some complexity, but the writing is surprisingly legible.\n\nI started with the upper right, the location and date. \"Navasota, Texas\" is clear enough, the \"N\" and the \"Texas\" abbreviation are perfect. \"Dec. 15, 1881\" is equally unambiguous. This helps contextualize everything.\n\nNext, the salutation: \"Dear Friend:\" The \"D\" is a prominent loop, the \"Friend\" faint but discernible. I'm focusing on preserving the original feel. Then, the body of the note: \"We will be up tomorrow, if...\". Here's where it gets interesting. There's a crossed-out word at the end of the line, after the word \"if\". Looking closely, the crossed-out text is \"the\". This means the writer likely intended to write \"if the weather continues pleasant,\" but deleted the \"the\". On the next line, the word after the line break *could* be \"the weather\" or just \"weather\". It's messy and scrawled, but based on the context of the sentence, \"weather\" is the most logical interpretation. Thus, the text is best rendered as \"We will be / up tomorrow, if / weather continues pleasant.\"\n\nI'm making a judgment call here, prioritizing the intended reading. It's an easy call given the context and given that the strike through is heavy, indicating the intent to delete. The next line, \"Please meet us at Station\" is clear. I'm preserving any nuances like the capitalized \"Station\" but the word \"at\" is just \"at\".\n\nFinally, the closing: \"Your true friend\" and the signature: \"T. W. Clarke.\" The \"T\" is a standard cursive with loop, not an \"I\" (which is more direct). The \"Clarke\" is clear. I’m satisfied that this is a reliable transcription, accurate to the best of my ability.\n\n\n",
+                "format": "text/plain",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/13/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

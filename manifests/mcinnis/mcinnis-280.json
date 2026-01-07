@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-280.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, January 24, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-01-24"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, January 24, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/d109ff0d-4967-39a2-80e5-aa6c0c369eaa/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/d109ff0d-4967-39a2-80e5-aa6c0c369eaa/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d109ff0d-4967-39a2-80e5-aa6c0c369eaa",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">\nBrenham Texas.<br>\nJan 24th 1881.<br>\n</p>\n<p>\nMy Dear Professor -<br>\n\"Procrastination is the<br>\nthief of time\" - Your good letter reached<br>\nme by due course of mail -<br>\nHave been waiting for something to<br>\n\"turn up\" & it has - I mean our \"great<br>\ngood Governor\" has sent in his message -<br>\nWell it is unique - sui generis et al -<br>\nI read most of it - in sections - but there<br>\nwere more sections than I have had<br>\nspare time. The venerable Gov. <strike>exhibits</strike><br>\nreminds one of more than the Self Complacency<br>\nSelf-Sufficiency & Self-laudation of Mississippis<br>\ngreat Senator: \"It is I fellow citizens it is I\"<br>\nHe slaps Uncle Sam in the face and<br>\nproclaims himself the Moses who<br>\nhas lead us out of the wilderness -<br>\nThe mountains clap their hands & shout<br>\nfor joy - \"The rocks & the rills\" - Think we<br>\nblush? He feels that it is \"good to be here\"<br>\nPoor Coke & Hubbard Ought to read\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis of a Letter from 1881**\n\nAlright, let's break this down. It's addressed to a \"Professor,\" and seems to be dated January 24th, 1881, from Brenham, Texas.  The handwriting is...well, it's a bit of a challenge, but I'm ready for it.  The first lines dive right in with a quote about procrastination, and then some commentary on a recent \"message\" from the current Texas Governor.  It appears the writer is being quite critical.\n\nI've got the image of the letter and the initial impression is the writer isn't impressed by the Governor's speech.  He uses words like \"unique\" and \"sui generis,\" and it sounds like he read this message with a certain amount of sarcasm. There's a lot of name-dropping; he's comparing this governor to a \"great Senator\" from Mississippi, and even invokes the image of Moses leading folks out of the wilderness...which I can interpret is a mocking comment.\n\nThe writer also seems to be making a sly comparison to previous Texas governors, Richard Coke and Richard B. Hubbard.  He seems to be hinting that they would have something to say about this governor's self-laudatory style. I have spent time looking at what the last word is.  Given the context and the visual clues, I'm going with \"read\", but the handwriting at the end is a little odd, so it's a qualified interpretation.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a7772586-087f-3330-ad20-4672e8ca8c55/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a7772586-087f-3330-ad20-4672e8ca8c55",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">[Header] [1881, Jan. 24]</p>\n\n<p>\nCrookedness upon Texas, by their inefficient<br/>\nadministrations! Thanks to our stars -<br/>\nwe are out of the wilderness! -<br/>\nThe election for Senator, I presume will<br/>\ntake place tomorrow - You need not be<br/>\nsurprised if we lose our Gov -<br/>\nIf he fail of the Senatorship - you surmise<br/>\ncorrectly of future movements - looking<br/>\nto the law Dept of a State University -<br/>\nRepublics ought not to be \"ungrateful\" -\n</p>\n\n<p>\nWell we have not had more than 1/2 doz<br/>\nsunny days in 5 months - The weather<br/>\nhas received too much gratuitous abuse<br/>\nI forbear - I beg to state it has been<br/>\ncold wet & muddy - I wish you<br/>\nhad run by to see us on your late<br/>\ntrip down the Central - as you<br/>\nhad several days longer recess<br/>\nthan you anticipated -\n</p>\n\n<p>\nI am now rather inclined to go in to<br/>\nthe sheep business - How is your<br/>\nstock interest turning out?<br/>\nStock or lumber promises better than teaching.\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's get down to it. I've got this handwritten document in front of me, and my task is to provide the most accurate transcription possible. It's a letter, written on lined paper. The ink is faded, and I'd guess it's graphite or a light ink. The date in pencil at the top right, `[1881, Jan. 24]`, is interesting \u2013 looks like an annotation, but part of the content. The handwriting is cursive and a bit hurried, which adds to the fun! Some words are faint, but let's dive in.\n\nFirst, the `[Header] [1881, Jan. 24]` is an archival annotation. The letter begins. I'm going line by line.\n\n*   **Line 1:** \"Crookedness upon Texas, by their inefficient\". Okay, the first word is the key. Is it \"Crookedness\" or something else? After some consideration, I'm confident it's \"Crookedness\". \"Texas\" is perfectly clear, and the phrase \"inefficient administrations\" makes \"Crookedness\" fit well. No, \"Crookedness\" feels most correct, and the capital \"T\" in \"Texas\" is a great reference point.\n*   **Line 2:** \"administrations! Thanks to our stars -\". \"Administrations\" makes perfect sense, continuing from the previous line. And \"Thanks to our stars\" is crystal clear. Exclamation mark.\n*   **Line 3:** \"we are out of the wilderness! -\". I've got \"wilderness\" here, no doubt.\n*   **Line 4:** \"The election for Senator, I presume will\". \"The election\" and \"for Senator\" are straightforward.\n*   **Line 5:** \"take place tomorrow - You need not be\". \"Take place tomorrow\" is clear.\n*   **Line 6:** \"surprised if we lose our Gov -\". We're reading this as \"Governor\", and the dash makes sense here.\n*   **Line 7:** \"If he fail of the Senatorship - you surmise\". The word is \"fail\". Clear. \"Senatorship\" is also clear.\n*   **Line 8:** \"correctly of future movements - looking\". \"Correctly of future\" all check out.\n*   **Line 9:** \"to the law Dept of a State University -\". Ah, the abbreviation. It looks like \"Dept\". The context is clear, so \"Department\" is the intended meaning. \"University\" is easily readable.\n*   **Line 10:** \"Republics ought not to be \"ungrateful\" -\". The word \"ungrateful\" is in quotes.\n*   **Line 11:** \"Well we have not had more than 1/2 doz\". \"1/2 doz\" looks perfect and fits.\n*   **Line 12:** \"Sunny days in 5 months - The weather\". It seems to be the number \"5\".\n*   **Line 13:** \"has received too much gratuitous abuse\". All straightforward here.\n*   **Line 14:** \"& forbear - I beg to state it has been\". Now, this is where it gets interesting! At first glance, that symbol looks like an ampersand, or possibly \"I forbear\", given the style of \"I\". It looks as though it could mean \"I will stop complaining, but I must say...\". \"I forbear\" seems the most likely, and grammatically, this transition makes sense, meaning, \"I am going to stop talking about the weather\".\n*   **Line 15:** \"cold wet & muddy - I wish you\". The letter has \"cold\" then a scribbled word, then \"& muddy\". The word in the middle is probably \"wet\". With the context, and how it is written, it seems to be \"wet\".\n*   **Line 16:** \"had run by to see us on your late\". No issues here.\n*   **Line 17:** \"trip down the Central - as you\". I'm making a note here - \"Central\" probably refers to a railroad.\n*   **Line 18:** \"had several days longer recess\". \"Recess\" is perfect.\n*   **Line 19:** \"than you anticipated -\". Complete.\n*   **Line 20:** \"I am now rather inclined to go in to\". This is clear.\n*   **Line 21:** \"the sheep business - How is your\". \"Sheep business\" is clear.\n*   **Line 22:** \"stock interest turning out?\". The question mark is key.\n*   **Line \n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/d275399b-505d-3214-9b68-00245e4a0f7f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d275399b-505d-3214-9b68-00245e4a0f7f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[1881, Jan. 24]</p>\n<p>I saw a gentleman from Bryan<br>\nlast week - He reports the outlook rather<br>\ngloomy for Bryan as a business point -<br>\nI trust you are doing well -<br>\nMany matters I would like to talk<br>\nwith you about - that it is not<br>\nprofitable or prudent to write -<br>\nDeo volente we will meet next Summer<br>\nPlease see Dick Humphrey & collect $50<br>\nfor me - I am now sure he is playing<br>\nthe rascal & intends to dodge the<br>\nmatter - The claim is for a Chicken<br>\nhouse - worth twice that sum - & due<br>\nmore than a year ago - I dislike to<br>\ntrouble you with this matter - but I<br>\nneed the money & it is long past due -<br>\nAll well except Mrs. H who is suffering<br>\nfrom cold & Neuralgia -<br>\nYour letters are always welcome - & read<br>\nwith interest -</p>\n<p>Your friend<br>\nJ. T. Hand</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, there's a date at the top, seemingly added later and enclosed in brackets: `[1881, Jan. 24]`. I need to start with that for accuracy.\n\nNow, into the letter itself, it seems like the writer's just catching up. He saw a gentleman from Bryan last week, and the news isn't great, business-wise. He hopes I'm doing well. He mentions there are matters he wants to discuss in person, but not in a letter.\n\nHe's hoping we can meet next summer, \"Deo volente,\" of course, meaning \"God willing.\"\n\nThen, here's a request, \"Please see Dick Humphrey & collect $50\". Now, about that $50, it looks a bit messy in the original, but it's most likely $50 based on the notation, given the mention of a \"chicken house worth twice that sum.\" $5 or $500 is very different. If $5, it's a minor debt. The writer believes that the person owing is \"playing the rascal\" and avoiding payment. The claim is for a \"Chicken\" house \"worth twice that sum,\" which is past due for over a year. He dislikes bothering me with it, but he needs the money.\n\nEveryone is well, except Mrs. H, who's suffering from a cold and neuralgia. That's a common Victorian complaint.\n\nHe ends by saying my letters are always welcome and read with interest.\n\nThe signature is J. T. Hand. Seems like the writer is J. T. Hand. The writing style has a good flow, which I'll preserve. The line breaks are intentional, so I'll be sure to transcribe it line by line. I will be careful in my transcription, to reproduce what is presented.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/280/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

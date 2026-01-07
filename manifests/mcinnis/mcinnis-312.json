@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-312.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from T. D. Rowell, May 21, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-05-21"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from T. D. Rowell, May 21, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 1 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/3bf5047d-af6d-3b95-a06a-069572b60fd3/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4282,
+            "width": 3291,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3bf5047d-af6d-3b95-a06a-069572b60fd3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4282,
+                                "width": 3291,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3bf5047d-af6d-3b95-a06a-069572b60fd3",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n<small>IN Re</small><br/>\n................................................................................................................................................<br/>\n<small>V.</small><br/>\n................................................................................................................................................\n</p>\n<p>\n<small>GEO. T. TODD. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; T. D. ROWELL.</small><br/>\n<b>OFFICE OF</b><br/>\n<b>TODD & ROWELL,</b><br/>\n<small>Attorneys and Counselors at Law.</small><br/>\n<b>No. 91 Austin Street, Up-stairs in Todd Building.</b><br/>\n<small>Geo. T. Todd, Notary Public. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; T. D. Rowell, County Attorney.</small>\n</p>\n<p>\n<i>No</i>................................................................................................................................................\n</p>\n\n<p>\nJefferson, Texas, May 21 1890\n</p>\n\n<p>\nProf - L. L. McInnis -<br/>\nCollege Station Tex<br/>\nDear Sir:<br/>\nYou are aware of the fact of<br/>\ncourse - that I was an applicant<br/>\nfor the last vacancy on the Board of<br/>\nDirectors of A & M College which said<br/>\nvacancy was filled by the appoint<br/>\nment of Wm Adriance - who by the<br/>\nway is a most excellent gentleman &<br/>\nhas most likely done more in the capac<br/>\nity of Director than I could have done.<br/>\nHaving graduated at A & M C I<br/>\nhave a pride in wanting to be in the<br/>\nDirectory and shall be an applicant<br/>\nfor the next vacancy when ever it shall<br/>\ntake place, be it sooner or later. I have<br/>\nbeen informed that you opposed<br/>\nmy appointment before and I wish<br/>\nat this time to solicit your assis<br/>\ntance in getting the next vacancy and\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nAlright, let's break this down. First, I'm examining this letterhead: \"IN Re...GEO. T. TODD. T. D. ROWELL. OFFICE OF TODD & ROWELL, Attorneys and Counselors at Law. No. 91 Austin Street, Up-stairs in Todd Building. Geo. T. Todd, Notary Public. T. D. Rowell, County Attorney.\". It's pretty standard for the era, professional. Then the handwritten date: \"Jefferson, Texas, May 21 1890\". Good, we're grounded in time.\n\nNow, let's dig into the content. The letter is addressed to \"Prof. L. L. McInnis - College Station Tex\". The handwriting is a bit scrawled in places, but I can decipher it.  The salutation, \"Dear Sir:\". Right, here comes the meat.\n\nIt begins, \"You are aware of the fact of course - that I was an applicant for the last vacancy on the Board of Directors of A & M College which said vacancy was filled by the appointment of Wm Adriance - who by the way is a most excellent gentleman & has most likely done more in the capacity of Director than I could have done.\" I see some clear points, the writer applied for a directorship at \"A & M\". It looks like the \"A & M\" is a hasty ampersand. It seems Wm Adriance was appointed, and the writer acknowledges Adriance's likely superior qualifications.\n\nThe second paragraph continues, \"Having graduated at A & M C I have a pride in wanting to be in the Directory and shall be an applicant for the next vacancy when ever it shall take place, be it sooner or later. I have been informed that you opposed my appointment before and I wish at this time to solicit your assistance in getting the next vacancy and...\"  So, the writer is a graduate of \"A & M C\" (presumably the College), desires to be in the \"Directory\" (likely, in this context, the Board), and is seeking help for the *next* vacancy. The \"when ever\" is written as two words. It appears the recipient opposed the writer previously. The last line is cut off, but the sentiment is clear: help with the *next* vacancy. Looks like \"Directory\" as in the board.\n\nHere's my transcription, aiming to reflect the original as faithfully as possible:\n\n```html\n<p>\nIN Re &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GEO. T. TODD. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; T. D. ROWELL.<br/>\n.................................................................................................................................................. <b>OFFICE OF</b> ....................................................................................................<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. &\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4282,
+            "width": 3291,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/0b95a53e-c41f-356d-95a4-ebd8a243cee2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4282,
+                                "width": 3291,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0b95a53e-c41f-356d-95a4-ebd8a243cee2",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Margin: Rowell<br/>\nMay 21, 18[88]]\n\n<p>\nwrite this letter for the purpose<br/>\nof ascertaining, if possible, whether<br/>\nor not you will use your influ<br/>\nence for me - Of course it may<br/>\nbe said that you being under the<br/>\nJurisdiction of the Directors as well<br/>\nas the other members of the faculty, can't,<br/>\nfor that reason take any steps in ad-<br/>\nvocating the appointment of any par-<br/>\nticular person - But I do not suppose<br/>\nit will be seriously said that mem<br/>\nbers of the faculty have not joined<br/>\nin the advocacy or opposition of<br/>\ndifferent members of the Board of Direc<br/>\ntors - I do not look forward to<br/>\nany vacancy soon but simply wish<br/>\nto know how you will be toward me in<br/>\nregard to the matter when the time does<br/>\ncome -\n</p>\n\n<p>\nYours truly -<br/>\nJ. C. Rowell\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analyzing and Transcribing a Handwritten Document**\n\nOkay, here's what I've got. This is a handwritten letter, pretty clear cursive with some slant and speed to it, and on lined paper. My task is to accurately transcribe it. First, I need to check the format. The margin note at the top left says \"Rowell May 21, 18[...]\", likely a filing notation, and I think that date ends in '88' based on what's visible, though it could be 1881 or 1886. Next, I need to see what the letter is about. It seems to be a request for influence concerning an appointment, and it touches on the jurisdiction of directors and faculty. The signature looks like \"J. C. Rowell\". Considering that Joseph Cummings Rowell was a librarian, and that the text mentions faculty and directors, this fits an academic context, and this looks to me like the right person.\n\nI'm now going to transcribe this line by line, keeping to exactly what I see. The margin note reads \"Rowell / May 21, 18[88]\".\n\nThe main body of the text starts as:\n\"<p>\nwrite this letter for the purpose<br/>\nof ascertaining, if possible, whether<br/>\nor not you will use your influ<br/>\nence for me - Of course it may<br/>\nbe said that you being under the<br/>\nJurisdiction of the Directors as well<br/>\nas the other members of the faculty, can't,<br/>\nfor that reason take any steps in ad-<br/>\nvocating the appointment of any par-<br/>\nticular person - But I do not suppose<br/>\nit will be seriously said that mem<br/>\nbers of the faculty have not joined<br/>\nin the advocacy or opposition of<br/>\ndifferent members of the Board of Direc<br/>\ntors - I do not look forward to<br/>\nany vacancy soon but simply wish<br/>\nto know how you will be toward me in<br/>\nregard to the matter when the time does<br/>\ncome -\n</p>\n<p>\nYours truly -<br/>\nJ. C. Rowell\n</p>\"\n\nI have carefully made some refinements. \"influ\" is on a split line. The \"Jurisdiction\" and \"Directors\" and \"Board of Direc\" are capitalized. The word \"faculty\" is lowercase. The word \"advocating\" is split with \"ad-\" and \"vocating\". I will preserve any implied line break in line 3: \"influ\" and line 14: \"Direc\" but keep the text as it is. It should read as it is on the paper.\n\nI will also make sure the HTML is compliant, so I'll wrap the note in a tag. I will use `<br>` to preserve the line breaks.\n\nSo, here's the final output, using the format:\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/312/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

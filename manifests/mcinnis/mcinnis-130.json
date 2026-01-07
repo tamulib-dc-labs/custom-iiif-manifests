@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-130.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from George Pfeuffer, October 14, 1885"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-10-14"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from George Pfeuffer, October 14, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/130"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/2cf9bcef-b7be-35c3-98b2-102106b7e69e/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/130/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4366,
+            "width": 2145,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/2cf9bcef-b7be-35c3-98b2-102106b7e69e/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4366,
+                                "width": 2145,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2cf9bcef-b7be-35c3-98b2-102106b7e69e",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/130/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>\n<small>PFEUFFER.</small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small>OFFICE OF</small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small>FRITZ SCHOLL.</small><br>\n<b>GEO. PFEUFFER & CO.</b><br>\n<small>DEALERS IN</small><br>\n<b>General Merchandise.</b>\n</p>\n\n<p>\n<small>\nDRY GOODS,<br>\nGROCERIES,<br>\nCROCKERY,<br>\nTOBACCO and CIGARS,<br>\nHARDWARE.<br>\n<br>\nAgricultural Implements.<br>\nWagons and Carriages.<br>\nWm. Deering & Co.'s<br>\nHarvesting Machinery.<br>\n<br>\nBUYERS OF COTTON,<br>\nGRAIN AND<br>\nCOUNTRY PRODUCE.\n</small>\n</p>\n\n<p>\nNEW BRAUNFELS, TEXAS, <u>October 14th</u> 188<u>5</u>\n</p>\n\n<p>\nProf. Louis L. McInnis . Am.<br>\nDear Sir.<br>\nIn response to your<br>\nfavor of 11th inst. say:<br>\nI know of nothing now<br>\npreventing me from meeting you<br>\non Saturday 31st of this month<br>\n[si]gn the vouchers mentioned.<br>\n[In] case I should be prevented<br>\n[I w]ill let you know in time\n</p>\n\n<p>\nYours truly<br>\nGeo Pfeuffer\n</p>\n\n<p>\nP.S.<br>\nWith best regards to Mrs McI - from<br>\nMrs P and Susie in which I join<br>\nthem<br>\never yours<br>\nG P<br>\n<small>stands for Grand Pa<br>\nas well.</small>\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/130/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription: A Deep Dive**\n\nAlright, let's get down to brass tacks. I've been asked to transcribe this historical document, and I'm treating it like a puzzle box just waiting to be cracked. First, I'm going to meticulously analyze the layout and the individual words. I see a letterhead with the names \"PFEUFFER\", \"OFFICE OF\", and \"FRITZ SCHOLL\". The primary entity is clearly \"GEO. PFEUFFER & CO.\", with the subtitle \"DEALERS IN General Merchandise.\" The location is New Braunfels, Texas, and the date is October 14th, 1885 \u2013 that handwritten \"5\" is intriguing, and I've double-checked it against the other numbers to confirm. I'm also carefully noting the sidebar content: the types of goods sold, the agricultural implements, and the statement about buying cotton and grain.\n\nNext, I'm digging into the handwritten body of the letter. The addressee is \"Prof. Louis L. McInnis . Am\" \u2013 the \"Am\" seems a bit truncated. Given the context, I'm leaning toward an abbreviation of his affiliation with A&M College, or perhaps even his location, but I can't be certain. Then, I have the usual pleasantries: \"Dear Sir,\" and the response to a previous communication: \"In response to your favor of 11th inst. say:\". The date here is important, it's October 14th, and replying to the 11th means it is \"inst.\" and not \"ult.\". I'm looking at the handwriting of \"inst.\" and it matches perfectly. The core of the letter is about a meeting: \"I know of nothing now preventing me from meeting you on Saturday 31st of this month [to si]gn the vouchers mentioned.\". I have a bit of a tear in the paper obscuring the beginning of \"sign\" and \"In\" and \"I w]ill\". I am careful to only transcribe the legible pieces as requested, and indicate my best guess within the brackets. The letter closes with \"Yours truly\", the signature \"Geo Pfeuffer\" and a postscript with regards to \"Mrs McI - from Mrs P and Susie\".\n\nAs I move through the document, I\u2019m being extra careful with the words and their context. The \u201cinst.\u201d vs. \u201cult.\u201d debate is a prime example: the date context makes \u201cinst.\u201d the only logical choice. I\u2019m also making sure the tear is accurately represented and the word fragment \"sign\" is correctly interpreted. \"Mrs McI\" is the most logical choice given the recipient's name is McInnis. And let's not forget the extra little tidbit at the bottom: \"stands for Grand Pa as well.\"\n\nFinally, I\u2019m putting it all together in an HTML format. I will preserve all the original structure, even when it is damaged. I'll take a final look to make sure I've caught everything and that the formatting is consistent, and produce the requested output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/130/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

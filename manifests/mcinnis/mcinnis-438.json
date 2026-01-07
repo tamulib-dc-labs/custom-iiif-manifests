@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-438.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter 'to whomever it may concern' from A. C. Brietz, June 3, 1891"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter 'to whomever it may concern' from A. C. Brietz, June 3, 1891"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 7 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/438"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/6ee2d90c-31a8-3d0e-87bf-51c3324687a2/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/438/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4326,
+            "width": 3271,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6ee2d90c-31a8-3d0e-87bf-51c3324687a2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4326,
+                                "width": 3271,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6ee2d90c-31a8-3d0e-87bf-51c3324687a2",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/438/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"center\">OFFICE OF<br>\n<b>A. C. BRIETZ,</b><br>\n<i>Attorney at Law,</i></p>\n\n<p><small>Practices in the 20th Judicial District, in the<br>\nSupreme Court and Court of Appeals at<br>\nAustin and Galveston, and any-<br>\nwhere in the State when<br>\nspecially retained.</small></p>\n\n<p align=\"right\">Bryan, Texas, <i>June 3<sup>d</sup></i> 189<i>1</i></p>\n\n<p>To whom it may concern-</p>\n\n<p>At the request of Dr J. W. Howell. I make the<br>\nfollowing statement - While Prof L. L. McInnis<br>\nwas in Austin a few days before the appropiation<br>\nbill was taken up before the committee of the<br>\nwhole in the House- I had a conversation with<br>\nhim in relation to the appropiation for the A & M<br>\nCollege- I told him that I was going to make<br>\nan effort to get an increase of the amounts<br>\nreported in the Bill by the Finance Committee<br>\nand asked him, if I needed his services in<br>\nthe matter, if he would aid me in obtaining<br>\nincreased appropiations: He very readily con-<br>\n-sented to do so. and agreed to come to<br>\nAustin for this purpose, at any time I<br>\nmight telegraph him to come-</p>\n\n<p align=\"right\">A.C. Brietz</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/438/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Alright, let's get this transcription done right. I'm going to carefully dissect this request and turn it into a flawless output.** My task is clear: transcribe this handwritten text into a digital format, ensuring accuracy in every character and respecting the original layout. I see I'm working with a letter, likely from an attorney, given the letterhead. I need to make sure I represent this document faithfully, including any unusual elements like the small text on the side. I'll need to interpret the handwriting, preserve punctuation, and flag anything that isn't plain text. I'll take my time; details matter. It looks like I am going to have to use specific HTML tags, which is not difficult.\n\nI'm starting by analyzing the image itself. I'm noting the document type: It's a formal letter on letterhead, so I'll be careful to keep track of its layout. I can make out the letterhead now: \"OFFICE OF A. C. BRIETZ, Attorney at Law,\" with the location \"Bryan, Texas\" and the date \"June 3rd 1891.\" There's some small print on the left side of the letterhead, and I need to transcribe that accurately, too. This letter is written in cursive ink (purple/magenta) by the attorney, Mr. Brietz. I'm also looking at the signature \"A.C. Brietz\".\n\nNow it's time to begin the transcription itself. I'll break it down step-by-step. First, I'm working on the letterhead; It's central. I see \"OFFICE OF\" at the top, followed by \"A. C. BRIETZ,\" and then \"Attorney at Law,\" written in a somewhat script font. The small text on the side is important as well; it details his legal practice areas and is important to include. Finally, I'll transcribe the date line: \"Bryan, Texas, June 3d 1891.\" Now, the actual body text comes next. I will take this line by line: \"To whom it may concern-\", \"At the request of Dr J. W. Howell. I make the\", \"following statement - While Prof L. L. McInnis\", \"was in Austin a few days before the appropiation\", \"bill was taken up before the committee of the\", \"whole in the House- I had a conversation with\", \"him in relation to the appropiation for the A & M\", \"College- I told him that I was going to make\", \"an effort to get an increase of the amounts\", \"reported in the Bill by the Finance Committee\", \"and asked him, if I needed his services in\", \"the matter, if he would aid me in obtaining\", \"increased appropiations: He very readily con-\", \"-sented to do so. and agreed to come to\", \"Austin for this purpose, at any time I\", \"might telegraph him to come-\". The last step is the signature. I will check for any mistakes. It's \"A.C. Brietz\".\n\nNow, time for the fun: formatting with HTML! Reading order matters, so I'll preserve the intended reading order. I'll use the HTML tags specified. The letterhead will get its own set of `<p>` tags with the `align` attribute to position it correctly. The \"Attorney at Law\" part will be italicized (printed script), while the main body handwriting should be plain text. The small text in the header will be wrapped in `<small>` tags. The date is a bit tricky, since the \"June 3d\" has a superscript \"d\", so I'll use the `<sup>` tag. I will use the `<p>` tag for each paragraph and preserve the original punctuation. The original spelling errors, such as missing \"r\" in \"appropiation\", will be preserved. I must maintain accuracy. I'll ensure hyphens are also reproduced. For clarity, the signature will be right-aligned or at the end.\n\nI'm now going to refine the transcription by checking for things like spelling errors, especially in those slightly difficult words. I'll also check proper nouns, any potentially ambiguous cursive letters, and confirm my interpretations of the handwriting. For example, \"Dr J. W. Howell\" looks correct. I see a consistent spelling error in \"appropiation\" where the second \"r\" is missing. I have to make sure to transcribe it exactly as written; I can't correct it. I see an \"A & M,\" which needs to be transcribed as it appears. I will check for the capital letters. I also notice a hyphenation in a word, so I must reproduce this. I've re-examined the layout to ensure that everything is positioned in the correct place, in the correct order. The small\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/438/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

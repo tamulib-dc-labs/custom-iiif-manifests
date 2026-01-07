@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-49.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from George Pfeuffer, July 16, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-07-16"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from George Pfeuffer, July 16, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/49"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8ba1cbeb-85f6-3f74-aaff-08ece16d1fb7/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/49/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4274,
+            "width": 3271,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8ba1cbeb-85f6-3f74-aaff-08ece16d1fb7/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4274,
+                                "width": 3271,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8ba1cbeb-85f6-3f74-aaff-08ece16d1fb7",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/49/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"center\"><small>--- OFFICE OF ---</small><br>\n<b>R. M. Castleman,</b><br>\n<small>DEALER IN</small><br>\nSTAPLE AND FANCY DRY GOODS, CLOTHING, ETC.,<br>\n<small>CONGRESS AVENUE.</small></p>\n\n<p align=\"right\">Austin, Texas, July 16 1883</p>\n\n<p>My Dear Mr Paris -</p>\n\n<p>Your P.C reached<br>\nme at New Braunfels yesterday<br>\nevening - I shall stay at Old<br>\nBrunswick until this evening & train<br>\nfor Galveston via Houston . &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Would be<br>\npleased to see you before leaving<br>\nI saw Wiggin who goes back<br>\nat the same time.</p>\n\n<p align=\"right\">Yours tru[ly]<br>\nC. M. Pfeiffer</p>\n\n<p>PS<br>\nIf you prefer to go back via<br>\nNew Braunfels the folks<br>\nwould be pleased to see<br>\nyou<br>\n<span style=\"float:right;\">Pf</span></p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/49/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Detailed Walkthrough**\n\nAlright, let's break this down. My task is to transcribe this image, so I need to be precise.  First, I'm a professional transcriptionist, so I'm focusing on accuracy, following the given guidelines: top-to-bottom, left-to-right, preserving the original format, interpreting handwriting, maintaining the layout (paragraphs), labeling structural elements, and using Markdown tables for data. I also need to use specific HTML tags. I must output ONLY the transcribed text.\n\nI'm starting by analyzing the image itself. It's a letterhead from \"R. M. Castleman,\" dated July 16, 1883, in Austin, Texas. The recipient is addressed as \"My Dear Mr. [Name]\". The first task is figuring out who the recipient is. It looks like it could be \"Davis\" or maybe \"Paris.\" I'm carefully comparing the first letter to 'D's and 'P's in the text and the signature. After re-evaluating, the P in P.C. and in \"Pfeiffer\" looks the same. I'm going with \"Paris.\"  The body of the letter mentions \"New Braunfels,\" \"Old Brunswick,\" and \"Galveston via Houston.\"  There's a dark tape stain across the middle, obscuring some text.\n\nNow, it's transcription time. I will focus on accurate transcription. The text under the tape says \"Would be pleased to see you before leaving.\" The closing is \"Yours tru\" with a flourish, which likely means \"truly\". The signer looks like \"C. M. Pfeiffer.\" The \"PS\" at the bottom is followed by initials \"Pf.\" Now I'm refining my interpretation of the handwriting. The recipient is \"Mr. Paris.\" The signature is \"C. M. Pfeiffer.\" I'm going to look at each word carefully. \"Old Brunswick.\" The word is clear. I'm looking at \"evening & train\" \u2013 that symbol looks like \"&\". Also, \"Wiggin\" is clear. I'll read and think this through again, but for now, I will transcribe what I see. \n\nI'm making a draft. I'm building it as a letter in markdown. I am going to format the letter, but follow the line breaks and format as best I can. It's clear that the 'P' in the recipient name is the same as the 'P' in \"P.C.\" and the 'P' in the signature. I'm going to put the sender as \"Paris\". Now I'm transcribing carefully.\n\nLet's refine the handwriting interpretation. \"Your P.C.\" - the P looks like a 'P.' Then, the first letter is a large loop, with a sharp point. \"Pfeiffer\" - the 'P' looks clear. \"Old Brunswick\" is clear. \"evening & train\" - the 's' is small. It might be \"&\". Let's stick with the grammar. \"evening & train\". The tape area is tricky, and the phrase is \"Would be/pleased\". But the \"Would be\" is on the right side. I am going to have the words run together \"via Houston. Would be.\"\n\nI'm re-reading and re-evaluating.  Is it possible to interpret it differently? No. The writing is clear. Is it \"Old Brunswick\"? Yes. The mark is a sloppy loop for \"&\" and not \"s\". Is it \"time\" or \"home\"? It's time; there's an uncrossed \"t\". Is it Davis or Paris? Based on the 'P's, it's Paris. \"Pfeiffer.\" The last name is \"Pfeiffer\" and starts with \"Pf\".  \n\nThe formatting. I am going to preserve the line breaks. I am going to put the header in lines, because the prompt says to maintain the layout. The text in the tape section is a new sentence. The reading flow must be preserved, and the letter must be rendered exactly as written.\n\nThen, there is the \"Old Brunswick\" again. I want to make sure it is not \"Hotel Brunswick.\" \"Hotel\" does not match. There is \"Wiggin.\" Is it \"tru[ly]\" or \"tru\"?  Yes, it is \"tru[ly].\" The PS signature is \"Pf.\"\n\nLet's look at the markdown. The header is centered. Now I am going to transcribe, as per my instructions. I must be precise and accurate. The text under the tape must be clear. Is \"Old Brunswick\" \"Club Brunswick\" ? No. I will assume it's \"time\" and not \"home.\" Is the writing \"clear\", or does it have \"fuzzy areas?\" Yes. I will follow the plan and transcribe\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/49/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

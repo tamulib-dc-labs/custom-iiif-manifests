@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-193.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from C. S. Mitchell, January 2, 1888"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1888-01-02"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from C. S. Mitchell, January 2, 1888"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 26 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/d3272656-43f4-35eb-a6d7-685cb2a9ce41/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4362,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/d3272656-43f4-35eb-a6d7-685cb2a9ce41/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4362,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d3272656-43f4-35eb-a6d7-685cb2a9ce41",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n<small>COPYRIGHT THIS IS TO CERTIFY<br>\nPRICE MONUMENT ASSOCIATION<br>\nGEN'L STERLING PRICE, C.S.A.<br>\nDIRECTORS OFFICERS<br>\nFAC-SIMILE OF THE LARGE CERTIFICATE<br>\nPORTRAIT OF GEN'L PRICE, SIZE 25 X 31 IN.</small>\n</p>\n\n<p align=\"center\">\n<b>PRICE MONUMENT ASSOCIATION</b><br>\nOF MISSOURI.<br>\n<small>UNITED WE STAND DIVIDED WE FALL<br>\nSALUS POPULI SUPREMA LEX ESTO</small>\n</p>\n\n<p align=\"center\">\n<small>OFFICE OF</small><br>\nVICE-PRESIDENT FOR TEXAS.<br>\n<small>C. S. MITCHELL,<br>\nVICE-PRES'T.</small>\n<small>J. L. WILLIAMS,<br>\nTREAS.</small>\n</p>\n\n<p>\nDALLAS, TEX. <i>Jan. 2<sup>nd</sup></i> 188<i>8</i>\n</p>\n\n<p>\n<i>Prof. M<sup>c</sup>Innis,</i><br>\n<i>My dear Sir:</i>\n</p>\n\n<p>\n<i>I beg to assure you, I am<br>\npleased with the general improvement<br>\nof my Son, during his stay thus far,<br>\nat the A. & M. College. I am fully aware<br>\nof his capacity & I have ample confi-<br>\ndence in the opportunities your College<br>\ngive him, for satisfactory progress.<br>\nThere are two points however, you must<br>\nkindly permit me to call your attention<br>\nto. I believe you feel I am a zealous<br>\nfriend of the A. & M. College; but duty to<br>\nmy Son, compells me to say, I am satis-<br>\nfied from what I learn from Gentle<br>\nmen who have sons with you, that<br>\nduring Night Study hours, the boys<br>\n\"visit,\" & very greatly interfere with their<br>\nstudies at that time. From my College</i>\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Detailed Breakdown**\n\nAlright, let's get down to brass tacks. I've got an image of a letterhead with handwritten text, and the task is to transcribe it faithfully, top to bottom, left to right, preserving all the original nuances \u2013 spelling, punctuation, line breaks, even the little quirks of the handwriting. HTML tags are my tools here; no commentary, just the facts.\n\nFirst, I scrutinized the image: letterhead from the \"Price Monument Association of Missouri\" with a handwritten letter below. The letterhead itself is elaborate, with a portrait on the left, the main title in the center, and the Missouri state seal on the right. Below the seal are a date line and the body of a letter.\n\nNow, I'm breaking this down step by step. First, the letterhead: I'm meticulously transcribing the text, from the small print under the portrait of General Sterling Price \u2013 \u201cCOPYRIGHT THIS IS TO CERTIFY / PRICE MONUMENT ASSOCIATION / GENL STERLING PRICE, C.S.A. / DIRECTORS / OFFICERS / FAC-SIMILE OF THE LARGE CERTIFICATE / PORTRAIT OF GENL PRICE, SIZE 25 X 31 IN.\u201d \u2013 to the bold title, \"PRICE MONUMENT ASSOCIATION\" / \"OF MISSOURI\", and the state motto inside the seal, \"UNITED WE STAND DIVIDED WE FALL / SALUS POPULI SUPREMA LEX ESTO.\" I'll use `<b>` for the significant title elements to show their importance. I see the office location, \"OFFICE OF / VICE-PRESIDENT FOR TEXAS.\", and then the names of the folks involved, \"C. S. MITCHELL, VICE-PRES'T. / J. L. WILLIAMS, TREAS.\"\n\nNext, the date line: \"DALLAS, TEX. Jan. 2nd 1888.\" I'll be sure to represent the superscript \"nd\" accurately with HTML. The handwritten text has a flourished slash through the last digit of the year, but it\u2019s still clearly \"1888,\" so I'm not going to add it as that is not a change.\n\nFinally, the body of the letter. This is where I'll pay closest attention to the handwriting. The salutation, \"Prof. M<sup>c</sup>Innis, My dear Sir:\" I can tell from the historical context that this is likely a letter to Professor McInnis at A&M College in Texas. I see the text of the letter carefully:\n\"I beg to assure you, I am\"\n\"pleased with the general improvement\"\n\"of my Son, during his stay thus far,\"\n\"at the A. & M. College. I am fully aware\"\n\"of his capacity & I have ample confi-\"\n\"dence in the opportunities your College\"\n\"give him, for satisfactory progress.\"\n\"There are two points however, you must\"\n\"kindly permit me to call your attention\"\n\"to. I believe you feel I am a zealous\"\n\"friend of the A. & M. College; but duty to\"\n\"my Son, compells me to say, I am satis-\"\n\"fied from what I learn from Gentle\"\n\"men who have sons with you, that\"\n\"during Night Study hours, the boys\"\n\"\"visit,\" & very greatly interfere with their\"\n\"studies at that time. From my College\"\n\nI am taking care to identify and correct for minor errors, but am not changing the overall message. I am keeping the double \"l\" in compells as it is original text. I have confirmed that the \"c\" in M\u1d9cInnis is a small superscript. The double \"Gentle\" and \"men\" with an end-of-line space are preserved. The hyphenated \"satis-\" / \"fied\" must remain. The quotation marks around \"visit\" and double \"A. & M.\" are clearly visible and need to be rendered faithfully.\n\nI will use HTML's `<p>` tag for paragraphs and `<br>` for line breaks, ensuring I capture the visual structure of the original document. I can't apply CSS, so I am using the allowed tags `<small>`, `<b>`, and `<sup>` only.\n\nFinally, I'm checking that the output follows all instructions and is a faithful, unadulterated transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4362,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/34e89936-3c04-3a27-8f67-a1cf1034d7a9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4362,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/34e89936-3c04-3a27-8f67-a1cf1034d7a9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>experience, I know the value of these<br/>\nhours, & a few idle visiting boys<br/>\non the same floor, will at such<br/>\na time, do irreparably injury.<br/>\nIf the rules require two hours study<br/>\nby the boys at night in their rooms,<br/>\nI want my son to <i>strictly</i> observe<br/>\nthem, and I will be glad, if it is<br/>\npossible, to have my son room<br/>\nwith a student, whose example, in<br/>\nthis particular, cannot be questioned.<br/>\nI have no objection to young Crawford<br/>\nso far as respectability is concerned,<br/>\nbut I do not consider his habits<br/>\nstudious \u2013 hence if you can make<br/>\na change for the better, without<br/>\ngiving offence, or the purpose known<br/>\nI will be very glad. It is my purpose<br/>\nto keep my son with you until he<br/>\nconcludes this course, & I hope you will<br/>\nappreciate the keen solicitude I feel<br/>\nfor his proficiency. I can accept<br/>\nno excuse for his not standing high<br/>\nin his reports \u2013 He has uncommon<br/>\ncapacity, and ample opportunity \u2013<br/>\nNow my dear Sir, I shall be greatly</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Generation**\n\nOkay, here's the deal. I've been tasked with transcribing this handwritten document, and it's pretty clear what's expected: accuracy, preservation of the original formatting (as best as possible with the HTML constraints), and careful interpretation of handwriting. My primary concerns are reading order, high accuracy, and following the HTML guidelines.\n\nFirst, I assessed the document. It's an old letter, probably late 19th or early 20th century, given the script. The handwriting is cursive, slanted, and consistent, but some letterforms are tricky \u2013 the 's', 'r', and 't' are a bit fuzzy. There's some ink fading in places, which I had to take into consideration. I could tell it\u2019s the middle of the letter, missing an opening.\n\nNext, I went through it line by line. I had to pay *very* close attention to each word. I spent a lot of time deciphering individual letters. For example, the first word looked like \"experince,\" or \"experiemce,\" but after careful inspection, I transcribed it as \"experience\".  There were plenty of instances where a particular letter was unclear, or the writer missed a letter, or used strange formatting. For instance, the ending of the fourth line was unclear. It ended with a descender that was definitely a 'y' (irriparably injury). I will stay faithful to this original 'y' rather than assume an error.\n\nEach decision was weighed, considering context, letter shape, and grammar. I had to look at nearby words or even other lines to figure out ambiguous characters.\n\nI made sure to capture the underlining (using `<i>`), the line breaks (`<br/>`), and considered each word carefully. I used my skills to discern words, even if they were written poorly. I had to look for spelling mistakes and ensure proper words were selected. I double-checked the spacing and the placement of punctuation to ensure accuracy.\n\nI reviewed my initial draft and refined the transcript, and went over each line looking for anything missed. It's imperative that every single detail be correct.\n\nThe most challenging word was \"irriparably\", which looked like the writer used the adverb form and made a grammatical error. \"irreparably\" would have been expected.\n\nThe word \"hence\" also was not written clearly, but the context made it obvious.\n\nI've ensured every word is transcribed, and the format is accurate. After multiple reviews, I'm confident in the transcription. I'm ready to produce the output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 4362,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/0c1b18e1-86dc-3d6d-a5b7-bb2fb9c68894/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4362,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0c1b18e1-86dc-3d6d-a5b7-bb2fb9c68894",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Margin: [1888, Jan. 2]]\n\n<p>\n<b>PRICE MONUMENT ASSOCIATION</b><br>\nOF MISSOURI.<br>\n<small>OFFICE OF</small><br>\nVICE-PRESIDENT FOR TEXAS.\n</p>\n\n<p>\nC. S. MITCHELL,<br>\n<small>VICE-PRES'T.</small>\n</p>\n\n<p>\nJ. L. WILLIAMS,<br>\n<small>TREAS.</small>\n</p>\n\n<p>\n<small>FAC-SIMILE OF THE LARGE CERTIFICATE<br>\nPORTRAIT OF GEN<small>L</small> PRICE, SIZE 25 X 31 IN.</small>\n</p>\n\n<p>\nDALLAS, TEX. ........................................1887.\n</p>\n\n<p>\nobliged to you, if you will take<br>\nthis matter in hand, and use<br>\nyour excellent judgement in this<br>\nbehalf. We were both surprised &<br>\ndisappointed you were not called<br>\nto fill the Chair of the Late<br>\nProf. Dinwiddie.\n</p>\n\n<p>\nSincerely & Truly Yours<br>\n[Signature] C. S. Mitchell\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcription Project: Deep Dive**\n\nOkay, so I've got this handwritten letter on some intriguing stationery, and my task is to produce a clean transcription. Let's break this down systematically. First, a thorough analysis of the stationery itself is crucial. The top right corner has a penciled-in annotation: \"[1888, Jan. 2]\", which is likely a later addition, but important to note. The letterhead boldly proclaims \"PRICE MONUMENT ASSOCIATION OF MISSOURI\" in a stylized font, immediately followed by the \"OFFICE OF VICE-PRESIDENT FOR TEXAS.\" The Missouri state seal is prominently displayed, which also has a motto, \"SALUS POPULI SUPREMA LEX ESTO\" and \"UNITED WE STAND DIVIDED WE FALL\". There's also a portrait of a man, likely General Price based on the caption. Office details, and the names of the officers: C.S. Mitchell, Vice-President, and J.L. Williams, Treasurer. The dateline at the bottom reads \"DALLAS, TEX. ... 1887,\" but the annotation is 1888. I'll need to keep that in mind \u2013 the printed year versus the handwritten annotation. I also have to keep in mind the stylized formatting, mimicking the layout.\n\nNext, it's time to wrestle with the handwriting itself. It's cursive and slightly sloped, and I can start to decipher the text. The first line initially appeared ambiguous, particularly that first word. After much deliberation, including looking at the word \"truly\" and other usages of \"t\", I'm confident it's the word \"take\" (the handwriting is a little unclear on the cross-bar for the 't'). It looks like this: \"obliged to you, if you will take this matter in hand, and use your excellent judgement in this behalf. We were both surprised & disappointed you were not called to fill the Chair of the Late Prof. Dinwiddie.\" The \"excellent\" looks a little sloppy as \"excellrut\" but context clarifies the meaning. I believe, through careful comparison, it is \"Prof. Dinwiddie.\" The closing reads \"Sincerely & Truly Yours, C.S. Mitchell\". I will transcribe it this way.\n\nNow for the refining. I've got a framework, with the header data: the annotation, the association name, office details, names, and location information. I should note the image caption. The body is the message itself. There are minor imperfections. For example, the `&` symbol is like a Greek Gamma and the signature reads `Suicrnly`, but the context is clear.\n\nI have decided to render it to make it clear.\n`[Margin: [1888, Jan. 2]]`\n\n<p>\nPRICE MONUMENT ASSOCIATION\nOF MISSOURI.<br>\nOFFICE OF<br>\nVICE-PRESIDENT FOR TEXAS.<br>\nC. S. MITCHELL,<br>\nVICE-PRES'T.<br>\n</p>\n<p>\nJ. L. WILLIAMS,<br>\nTREAS.<br>\n</p>\n<p>\nDALLAS, TEX. .............................. 1887.<br>\nFAC-SIMILE OF THE LARGE CERTIFICATE<br>\nPORTRAIT OF GENL PRICE, SIZE 25 X 31 IN.\n</p>\n\n<p>\nobliged to you, if you will take this matter in hand, and use your excellent judgement in this behalf. We were both surprised & disappointed you were not called to fill the Chair of the Late Prof. Dinwiddie.\n</p>\n\n<p>\nSincerely & Truly Yours<br>\nC. S. Mitchell\n</p>\n\nNow I think the Transcription is complete. The handwriting is clear with some minor cursive quirks, and historical context aligns perfectly.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/193/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

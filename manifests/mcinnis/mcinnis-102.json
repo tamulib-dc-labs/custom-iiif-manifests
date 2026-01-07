@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-102.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from L. J. Storey, May 28, 1885"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-05-28"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from L. J. Storey, May 28, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/102"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/c7bce51e-56de-3fc2-aad4-32c3689c4539/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/102/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4214,
+            "width": 3199,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/c7bce51e-56de-3fc2-aad4-32c3689c4539/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4214,
+                                "width": 3199,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c7bce51e-56de-3fc2-aad4-32c3689c4539",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/102/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><small>W. Strickland & Co. Lith. Galveston.</small>\n<p>Office of<br>\nNix, Storey & [illegible]orey<br>\nAttorneys & Counsellors at Law,<br>\n<b>AND LAND AGENTS.</b></p>\n\n[Margin: Jonathan Nix.<br>\nL. J. Storey.<br>\nA. B. Storey.]\n\n<p>Lockhart, Texas May 28<sup>th</sup> 1885</p>\n\n<p>Prof L L McInnis<br>\nCollege Station Tex<br>\nDr Sir, We want a<br>\ngood man to put at the head<br>\nof our School here, a man<br>\nwho is able to build up a good<br>\nSchool We have a good house<br>\nand about 150 to 175 Students<br>\nIf you know of any Competent<br>\nperson tell them We are ready<br>\nto Contract with such a person<br>\nPlease do me the favor to reply<br>\nYours &c<br>\nL. J. Storey</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/102/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analyzing this letter is proving to be quite the exercise!** I'm looking at this handwritten letter and trying to piece together every detail. It's addressed to Professor L.L. McInnis at College Station, Texas \u2013 a known figure. The letterhead is from Nix, Storey & Storey, Attorneys & Counsellors at Law, in Lockhart, Texas, and I'm noting the fine details like the lithography firm's name tucked away in the top left corner: W. Strickland & Co. Lith. Galveston. The date is May 28th, 1885.\n\nI'm starting to transcribe the text, and there's this recurring visual issue. The writer\u2019s capital \"W\" often looks like an \"M\". However, the context is clear. \"We\" makes the only sense, so I'm rendering it as intended. The writer is asking Professor McInnis if he knows of a \"good man\" to lead their school. It appears they have a good facility and around 150-175 students. The letter is requesting that if McInnis knows \"of any Competent person tell them We are ready to Contract with such a person, Please do me the favor to reply\". It's a standard business request of that era. I\u2019m confirming each word and scanning for ambiguous characters, especially at the end of lines or words, where the handwriting gets a bit rushed. The signature at the end is L.J. Storey, which matches the printed name on the letterhead.\n\nThe format is traditional for the era. The date is placed below the letterhead, and the body of the letter is indented. The letter includes formal language and standard abbreviations, like \"Dr Sir\" for \"Dear Sir\", and \"Yours &c\". Even with a tear in the paper obscuring part of the header, I\u2019m reconstructing what's legible. The transcription is ready!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/102/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

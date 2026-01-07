@@ -1,0 +1,494 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-340.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from W. A. Alexander, August 26, 1872"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1872-08-26"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from W. A. Alexander, August 26, 1872"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 13 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/bc342584-df94-3ede-967b-7852cc36e8c9/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4350,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/bc342584-df94-3ede-967b-7852cc36e8c9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4350,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bc342584-df94-3ede-967b-7852cc36e8c9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/20",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/19",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Kosciusko, Miss, August 26<sup>th</sup>:-72</p>\n\n<p>Dear Friend Louis..</p>\n\n<p>I received a letter<br/>\nfrom Ellie Bingham. this evening.<br/>\nin which he stated that you were<br/>\nsojourning in Forest &nbsp;&nbsp;&nbsp;&nbsp;Hoping<br/>\nthat this may find you still<br/>\nthere, and enjoying good health, I<br/>\nwill indulge myself for a little<br/>\nwhile in writing to you.</p>\n\n<p>This leaves me well. The<br/>\ncommunity, as a general thing, enjoys<br/>\ngood health.</p>\n\n<p>I have not the least doubt, but<br/>\nthat you properly attended to our books.</p>\n\n<p>Well, my Greek and Mathematics<br/>\ncame out very satisfactorily to me,<br/>\nbeing 97 & 100, respectively.</p>\n\n<p>I hope you did well in your ex-<br/>\namination on Saturday, the 29<sup>th</sup> & that</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/21",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Handwritten Letter Transcription: A Step-by-Step Thought Process**\n\nAlright, let's break this down. First, I need to get a handle on the structure. Okay, it looks like this is a letter, and I need to transcribe it. The guidelines say to preserve the original format, so I'll need to pay close attention to line breaks and indentation. The HTML tags are a constraint, so I'll keep those in mind.\n\n1.  **Image Analysis & Deconstruction:** I'm starting by taking a look at the image and figuring out what I see. First, the header: \"Kosciusko, Miss, August 26<sup>th</sup>-72\". I see \"Miss\" - that's Mississippi, probably. The date is a bit tricky, but it's clearly August and then `26<sup>th</sup>-72`. Okay, the salutation: \"Dear Friend Louis..\". Simple enough. The body looks like separate paragraphs. I'll need to figure out the line breaks.\n\n    *   Okay, paragraph 1: I've got \"I received a letter... Ellie Bingham... sojourning in Forest...\" Got it.\n    *   Paragraph 2: \"...This leaves me well... the community... good health.\" Straightforward.\n    *   Paragraph 3: \"...I have not the least doubt... books.\" Alright.\n    *   Paragraph 4: \"...Well, my Greek and Mathematics... 97 & 100...\" Nice.\n    *   Paragraph 5: \"...I hope you did well in your ex- ... amination...\". The sentence gets cut off at the bottom.\n\n2.  **Detailed Analysis & Verification:** Now, I'm going to zoom in and double-check everything. Let's start from the top. \"Kosciusko, Miss,\" - the \"ss\" looks like a long s and short s. \"August 26<sup>th</sup>-72\". The \"th\" is superscript. The \"72\" is small. \"Ellie Bingham\". The \"E\" looks a little loopy but it's most likely an \"E\". The second name is \"Bingham\". \"sojourning in Forest\" - \"Forest\" is capitalized. Good to note. \"Hoping\" - also capitalized. \"indulge myself\" - clear. \"This leaves me well.\" - clear. \"The community, as a general thing, enjoys good health.\" Clear. \"I have not the least doubt, but that you properly attended to our books.\" Clear. \"Well, my Greek and Mathematics came out very satisfactorily to me, being 97 & 100, respectively.\" Got it. The line cut-off: \"I hope you did well in your ex-\". The hyphen is there. \"amination on Saturday, the 29<sup>th</sup> & that\" - Superscript \"th\", and the ampersand \"&\".\n\n3.  **Formatting and Structure:** Now, according to the guidelines, I need to use the `p` tags to maintain paragraphs, and `br` for line breaks. I have a format I need to follow. I will create paragraphs based on the indentation. It looks like \"Dear Friend Louis..\" is its own paragraph. I'll make sure to preserve all line breaks.\n\n4.  **Drafting the Transcription:** I'll use the analysis from the previous step and write it out.\n\n    *   Okay, here's what I have:\n    ```html\n    <p>Kosciusko, Miss, August 26<sup>th</sup>-72</p>\n    <p>Dear Friend Louis..</p>\n    <p>I received a letter<br/>\n    from Ellie Bingham this evening,<br/>\n    in which he stated that you were<br/>\n    sojourning in Forest Hoping<br/>\n    that this may find you still<br/>\n    there, and enjoying good health, I<br/>\n    will indulge myself for a little<br/>\n    while in writing to you.</p>\n    <p>This leaves me well. The<br/>\n    community, as a general thing, enjoys<br/>\n    good health.</p>\n    <p>I have not the least doubt, but<br/>\n    that you properly attended to our books.</p>\n    <p>Well, my Greek and Mathematics<br/>\n    came out very satisfactorily to me,<br/>\n    being 97 & 100, respectively.</p>\n    <p>I hope you did well in your ex-<br/>\n    amination on Saturday, the 29<sup>th</sup> & that</p>\n    ```\n\n5.  **Refinement:** Now, time for the fine-tooth comb.\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4350,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/66171d6e-1d4c-32ad-b93d-571ed389ef48/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4350,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/66171d6e-1d4c-32ad-b93d-571ed389ef48",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/23",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/22",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nyour report gave you satisfaction.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I have heard from Hays once or<br/>\ntwice. At last accounts, he was in<br/>\nSt. Paul, Minn. and expected to be here about<br/>\nthe 1<sup>st</sup> of Sept.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Since I have gotten home, I have not<br/>\ndone anything in particular. I hunted<br/>\nand fished a little when I first got<br/>\nhome, but soon found out that it did<br/>\nnot pay. I have not studied any,<br/>\neither. I picked up my G. Prose and<br/>\nwrote off two sentences of the 8<sup>th</sup> exercise;<br/>\nI took up a Homer and read the 1<sup>st</sup><br/>\nline, which is the amount of my study-<br/>\n-ing during vacation. At the present,<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I am reading Macauley.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I have begun to wish vacation to be<br/>\nover with, for I want to get back to<br/>\nthe University. There will be no<br/>\nnew fellows from this County who will go<br/>\nback to Oxford this coming term,<br/>\nthough there will be several next term.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I understand that J.L. Dodd has<br/>\nbeen offered one of the $500 tutorships.\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/24",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Transcription: My Thought Process**\n\nAlright, let's get to work. The task is to transcribe this handwritten letter, and I need to be precise. I\u2019ll go through it line by line, paying close attention to every detail, especially since the guidelines say to preserve line breaks, spelling, punctuation, capitalization and any original quirks in the writing. The style suggests it's from the late 19th or early 20th century. I'm noting mentions of places like St. Paul, Minn., and names like Macaulay, Homer, and Oxford, which helps frame the context. I have to remember allowable HTML tags are `a, b, br, i, img, p, small, span, sub, sup`.\n\nFirst line: \"your report gave you satisfaction.\" Seems straightforward. Next line...\n\nLine 2, \"I have heard from Hays once or...\" Now the fun begins! Is it Hays, Hayes, or maybe something else? I'm examining this name closely, looking at the letter formations to decode it. At first, it looks like \"Hayo\". I have to consider the context of the word and the general context of the words in the sentence. Given that this is a name, \"Hays\" or \"Hayes\" seems more plausible, but that final letter is a bit looped. I have to compare it to other 's' letters in the text, to the 'o's, the 'y' and look at the \"fellows\". Ok, the 'y' looks like a 'y', the looped 's' is likely an 's'. So, tentatively \"Hays.\"\n\nLine 3, \"twice. At last accounts, he was in...\" The first part sounds like the end of the previous sentence. Period. Then the new sentence begins with \"At\".\n\nOkay, now into the letter's body:\n\nLine 6, \"Since I have gotten home, I have not...\" I notice the implied paragraph, the indentation. I'll maintain that.\n\nMoving on, I'm noting possible Greek studies, \u201cG. Prose\u201d (that\u2019s likely Greek Prose), and using proper superscript `<sup>` tags for the \"1st\", \"8th\" lines.\n\nLine 15 \"-ing during vacation. At the present,\"... The end of line 15 is tricky. It seems that \"I am reading Macauley\" continues in the next line, but visually starts on a new line and indented! The layout is a little ambiguous here, so I'll follow the formatting as closely as possible.\n\nLine 16, \"I am reading Macauley\" The name looks unusual. Is it Macauley or Macaulay? Checking the handwriting, it appears to be Macauley. I double-check \"Macaulay\" is often misspelled. The handwriting *does* look like \"Macauley\" but it's probably Macaulay. Let's stick with Macaulay. Yes, standard.\n\nThe \"J.L. Dodd\" looks straightforward and I have to choose. J.L. seems right, and Dodd has a clear 'd'. Looking at the image, I have to be sure. It could be J.S. so I check again. No, L. Like \"Last\" earlier. The loop goes up, then down, then crossed by the line. So L is clear.\n\nI have to carefully assess if \"County\" is being used, or if it is \"Country\". Checking, no the letters are County. \"County\".\n\nNow I am ready to transcribe:\n\n<p>\nyour report gave you satisfaction.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I have heard from Hays once or<br/>\ntwice. At last accounts, he was in<br/>\nSt. Paul, Minn. and expected to be here about<br/>\nthe 1<sup>st</sup> of Sept.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Since I have gotten home, I have not<br/>\ndone anything in particular. I hunted<br/>\nand fished a little when I first got<br/>\nhome, but soon found out that it did<br/>\nnot pay. I have not studied any,<br/>\neither. I picked up my G. Prose and<br/>\nwrote off two sentences of the 8<sup>th</sup> exercise;<br/>\nI took up a Homer and read the 1<sup>st</sup><br/>\nline, which is the amount of my study-<br/>\n-ing during vacation. At the present,<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I am reading Macauley.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;I have begun to wish vacation to be<br/>\nover with, for I want to get back to<br/>\nthe University. There will be no<br/>\nnew fellows from\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 4350,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/67f6ea90-18b2-3596-b2ce-163ad40653de/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4350,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/67f6ea90-18b2-3596-b2ce-163ad40653de",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/26",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/25",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n[Margin: T.B.]<br/>\nat Oxford. I do not know whether he<br/>\nwill accept. or not, as he is not here,<br/>\nbut absent in Kentucky. John<br/>\nThompson is up here spending the summer.<br/>\nHe has turned out his whiskers, and<br/>\nI reckon that means his going to marry.<br/>\nKosciusko is improving at this time.<br/>\nSeveral dwellings and stores are in the<br/>\ncourse of erection, and a good many more<br/>\nwill be begun, when ever the lumber can<br/>\nbe obtained.<br/>\nBingham writes to me that he sees<br/>\nRichmond frequently. I suppose he is<br/>\nin Newton. I hope that he will return<br/>\nto O & take up his old quarters. Give<br/>\nhim my kindest regards when you<br/>\nsee him. If you see any fellow<br/>\nproposing to go to Oxford, whom you<br/>\nwould take for a real good fellow. do you<br/>\njust inform me, for I want to set <sup>(on)</sup><br/>\nhim. I hope that our<br/>\nSophomore year will pass off as pleasantly<br/>\nas the departed Fresh. & that we will<br/>\nall sustain ourselves well, both as a<br/>\n[Margin: My father is here with me & tells me to leave the Un[?]]\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/27",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I approached this transcription task. First, I locked into the requirements: a professional transcription, preserving everything \u2013 spelling, punctuation, even the line breaks \u2013 and using HTML markup where necessary. No chitchat, just the text.\n\nThe image presented a handwritten letter, that was clear enough for the task. The initial scan revealed text in the main body, and a vertical text strip in the left margin. I recognized the handwriting as typical 19th-century cursive.\n\nNow, the methodical transcription began: each line, carefully dissected. Uncertainty gets a `[?]`, and I meticulously maintained the original formatting. I treated each line of text and each break, as written. I did several passes, and often went back to refine the transcription of an uncertain word. I was extremely careful to render precisely what was seen.\n\nThe main body transcription was fairly straightforward. I had to look closely at details like the \"O\" in \"to O\" (Oxford?) and the \"set (on)\". The ampersand also, the punctuation after the sentence, after \"fellow\". My understanding of idiom and word placement helped interpret the handwriting, but I transcribed as I saw it. I wanted to balance precision and legibility.\n\nThen came the margin text. This was the trickier part. It\u2019s written vertically (bottom to top), the text starts near the end of the image. The phrase \u201cMy father is here with me\u201d became the key. I carefully analyzed the last word which was unclear. At first, I went with `[?]` to be accurate. Then, I looked at \"My father...tells me to leave the...\". Contextually, \"open\" made sense. But I saw the *letters* on the page. I took into account the box-like structure and \"T.B.\" at the very top of the page. Then I went back to re-analyze, to accurately transcribe what I saw. I went with \"Un[?]\" as the best rendering of the visual.\n\nFinally, I formatted the output, placing the margin text at the beginning or end \u2013 it\u2019s a side note. The final formatting decision was to place it at the end, at the most appropriate place to avoid breaking the flow.\n\nPrecision, that\u2019s my job. The output reflects that.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 4350,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/c2f1addc-0bab-30e2-9e96-8ec48af93aa6/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4350,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c2f1addc-0bab-30e2-9e96-8ec48af93aa6",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/29",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/28",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>class and personally.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I write to you<br/>\nat Forest hoping that you are still there,<br/>\nand having a fine time.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But should<br/>\nyou leave ere this reaches you.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I guess<br/>\nit will merely have to go to the Defact Letter<br/>\nOffice.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stir around and get as<br/>\nfat and strong as possible before Oct., in<br/>\norder that the laborious Soph. year may not<br/>\nbe too much for you.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be sure to write<br/>\nto me .\n\n<p>As ever. Your true & affectionate friend<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wm A Alexander,</p>\n\n<p>L. L. McInnis,<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forest,<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Miss.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/30",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, here's the deal. I've got this handwritten letter, and my task is to transcribe it *exactly* as it is, while keeping in mind some HTML formatting restrictions. No extra chat, just the text. The goal is accuracy, and that means capturing every stroke, even the quirks. First, I'm analyzing the provided instructions. I need to handle all the unusual elements, like an archaic \"ere,\" and abbreviations, while staying true to the format of the original.\n\nNow, I'm giving the image a good once-over. It's a cursive letter on lined paper. The handwriting is pretty clear, but, it's old and there are going to be those oddities common to older documents. It looks like it's the end of the letter. I can see the closing, the signature, and an address. Okay, let's dive into this line by line.\n\n*Line 1:* \"class and personally. I write to you.\" \"Class\" is fine. \"personally.\" - period. And then there's a huge gap before \"I\". The writer definitely intended that space.\n\n*Line 2:* \"at Forest hoping that you are still there,\" Forest is capitalized. And I see a comma at the end there.\n\n*Line 3:* \"and having a fine time. But should\". The period is faint, but there's a capital \"B\".\n\n*Line 4:* \"you leave ere this reaches you. I guess\". \"Ere\" is clear and has a period. And \"I guess\", is a little messy, but I can read it.\n\n*Line 5:* \"it will merely have to go to the Defact Letter\" - Now, here's where it gets interesting. \"Dead Letter Office\" is the idiom, but that word. It looks like \"Defact\". I'm looking at it hard, really hard, and even when I squint, I see \"Defact.\" D-e-f-a-c-t, even if it might be a weird \"Dead\". I'm really looking at the image here, and yes it is D-e-f-a-c-t. And I need to transcribe what I *see*.\n\n*Line 6:* \"Office. Stir around and get as\". Okay, comma after \"Office\". \"Stir\" is capitalized.\n\n*Line 7:* \"fat and strong as possible before Oct., in\". \"Oct.\" abbreviation, and a comma.\n\n*Line 8:* \"order that the laborious Soph. year may not\". \"Soph\" is capitalized, abbreviation for Sophomore, I suppose.\n\n*Line 9:* \"be too much for you. Be sure to write\". Period at the end. The \"to\" is a bit squashed, but \"Be sure to write\" is the sentence.\n\n*Line 10:* \"to me.\" Period.\n\n*Line 11 (Closing):* \"As ever. Your true & affectionate friend\". Looks like a period. And an ampersand.\n\n*Signature:* \"Wm A Alexander,\" Abbreviation of William, and then the last name.\n\n*Addressee (Bottom Left):* \"L. L. McInnis,\" Initials and surname. \"Forest,\" place name. Then, \"Miss.\" - This abbreviation, as in Mississippi. The last letter, the double \"s\", it's very distinct and it looks like \"Mifs.\" I think, with the old style \"s\", or a long \"s\". I need to follow instructions and record what is visible.\n\nI am checking the structure of the document: body text, closing, signature, and then the addressee. The body text will be a single paragraph.\n\nRight, so to make it presentable with HTML, I'll use paragraph tags (<p>) for the main text, the signature, and the address, and the line breaks (<br>) as needed. Non-breaking spaces will be used for spacing to preserve the indentation. The instructions say to maintain paragraph structures.\n\nOkay, here's how I see it.\n\nclass and personally. \u00a0 \u00a0 \u00a0 I write to you\nat Forest hoping that you are still there,\nand having a fine time. \u00a0 \u00a0 \u00a0 But should\nyou leave ere this reaches you. \u00a0 I guess\nit will merely have to go to the Defact Letter\nOffice. \u00a0 \u00a0 \u00a0 Stir around and get as\nfat and strong as possible before Oct., in\norder that the laborious Soph. year may not\nbe too much for you. \u00a0 \u00a0 \u00a0 Be sure to write\nto me.\n\u00a0 \u00a0 \u00a0 As ever. Your true & affectionate friend\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_4",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 4"
+                ]
+            },
+            "height": 4350,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/10",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ccbcb0bc-2f1c-3b20-a184-d8b94a868c0f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4350,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ccbcb0bc-2f1c-3b20-a184-d8b94a868c0f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_4"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/32",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/31",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><i>Envelope was stationery of: Office of County Superintendent of Education, Attala County, Kosciusko, Miss.<br/>\npostmarked Forest, Miss, 8/30/72 - stamped \"Missent and Forwarded\" -- addressed to Forest, but<br/>\nForwarded on to Newton Miss.</i></p>\n\n<p><i>[Margin: checked]</i></p>\n\n<p>Kosciusko, Miss, August 26th, 72.</p>\n\n<p>Dear Friend Louis.</p>\n\n<p>I received a letter from Ellie Bingham this evening,<br/>\nin which he stated that you were sojourning in Forest. Hoping that this may<br/>\nfind you still there, and enjoying good health, I will indulge myself for a<br/>\nlittle while in writing to you.</p>\n\n<p>This leaves me well. The community, as a general thing, enjoys good health.</p>\n\n<p>I have not the least doubt, but that you properly attended to our books.</p>\n\n<p>Well, my Greek and Mathematics came out very satisfactorily to me, be-<br/>\ning 97 and 100, respectively.</p>\n\n<p>I hope you did well in your examination on Saturday, the 29th, &amp; that your re-<br/>\nport gave you satisfaction.</p>\n\n<p>I have heard from Hays once or twice. At last accounts, he was in St.<br/>\nPaul, Minn. and expected to be here about the 1st of Sept.</p>\n\n<p>Since I have gotten home, I have not done anything in particular. I<br/>\nhunted and fished a little when I first got home, but soon found out that it<br/>\ndid not pay. I have not studied any, either. I picked up my G. Prose and wrote<br/>\noff two sentences of the 8th exercise; I took up a Homer and read the 1st line,<br/>\nwhich is the amount of my studying during vacation. At the present, I am<br/>\nreading Macauley.</p>\n\n<p>I have begun to wish vacation to be over with, for I want to get back to<br/>\nthe University. There will be no new fellows from this County who will go<br/>\nback to Oxford this coming term, though there will be several next term.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_4"
+                        },
+                        {
+                            "id": "http://example.org/iiif/33",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcription Process: A Thoughtful Reconstruction**\n\nOkay, so I'm looking at this image, and my primary goal is a faithful transcription of this document. It looks like a personal letter, quite possibly from the late 19th or early 20th century, given the style of the typewriter and the handwriting. My initial assessment is that the document's structure is a combination of handwritten annotations and a typed body. My priority here, and I cannot stress this enough, is absolute accuracy. I have to reproduce the text exactly as it appears, even the idiosyncrasies.\n\nI've carefully examined the handwritten top section. I've noted the content of this seemingly envelope-related note, which appears to describe the mailing information. \"Envelope was stationery of: Office of County Superintendent of Education, Attala County, Kosciusko, Miss.\" Then, \"postmarked Forest, Miss, 8/30/72 - stamped 'Missent and Forwarded' -- addressed to Forest, but\" and finally, \"Forwarded on to Newton Miss.\" I've captured the punctuation, and even those little marks that look like imperfections from the stamp. The \"8/30/72\" date looks clear. In addition, there is a pencil marking on the left side: \"checked\".\n\nI've confirmed that the date line is positioned at the right margin. The format \"Kosciusko, Miss, August 26th, 72.\" is clear. Then we have the salutation \"Dear Friend Louis.\"\n\nNow I turn to the body of the letter. I need to reproduce the typed text exactly, preserving line breaks, indentations, and any unusual spacing. This is the core of this task. I see distinct paragraphs and those visual line breaks must be maintained for accurate representation.\n\n*   \"I received a letter from Ellie Bingham this evening,<br>\n    in which he stated that you were sojourning in Forest. Hoping that this may<br>\n    find you still there, and enjoying good health, I will indulge myself for a<br>\n    little while in writing to you.\"\n\n*   \"This leaves me well. The community, as a general thing, enjoys good health.\"\n\n*   \"I have not the least doubt, but that you properly attended to our books.\"\n\n*   \"Well, my Greek and Mathematics came out very satisfactorily to me, be-<br>\n    ing 97 and 100, respectively.\"\n\n*   \"I hope you did well in your examination on Saturday, the 29th, & that your re-<br>\n    port gave you satisfaction.\"\n\n*   \"I have heard from Hays once or twice. At last accounts, he was in St.<br>\n    Paul, Minn. and expected to be here about the 1st of Sept.\"\n\n*   \"Since I have gotten home, I have not done anything in particular. I<br>\n    hunted and fished a little when I first got home, but soon found out that it<br>\n    did not pay. I have not studied any, either. I picked up my G. Prose and wrote<br>\n    off two sentences of the 8th exercise; I took up a Homer and read the 1st line,<br>\n    which is the amount of my studying during vacation. At the present, I am<br>\n    reading Macauley.\"\n\n*   \"I have begun to wish vacation to be over with, for I want to get back to<br>\n    the University. There will be no new fellows from this County who will go<br>\n    back to Oxford this coming term, though there will be several next term.\"\n\nNow, formatting. I will use appropriate HTML tags to structure the transcription. I have to preserve the layout, so I'll wrap everything in `<p>` for paragraphs. I'll use `<br>` to maintain the line breaks within each paragraph, exactly as they appear in the original document. I can use the `<i>` tag to enclose the handwritten sections. I will be sure to mark the notes. I will maintain the margin mark \"checked\" on the top left. I will also make sure to write the date on the far right.\n\nThis is all about careful observation and precise reproduction. The aim is to make the content accessible while retaining the original document's integrity. It is important to transcribe and format with meticulous care and attention to detail.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_5",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 5"
+                ]
+            },
+            "height": 4350,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/12",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/11",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8474698e-09b1-3ae7-87de-f562c89b51f4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4350,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8474698e-09b1-3ae7-87de-f562c89b51f4",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_5"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/35",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/34",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>L</p>\n\n[Margin: My father's brother who had to<br>\nleave the Univ. with T.B.<br>\n<small>[written in<br>\nred<br>\npencil<br>\nlater]</small>]\n\n<p>I understand that J. L. Dodd has been offered one of the $500 tutorships<br>\nat Oxford. I do not know whether he will accept or not, as he is not here,<br>\nbut absent in Kentucky. John Thompson is up here spending the summer.</p>\n\n<p>He has turned out his whiskers, and I reckon that means he's going to marry.<br>\nKosciusko is improving at this time. Several dwellings and stores are<br>\nin the course of erection, and a good many more will be begun, when ever the<br>\nlumber can be obtained.</p>\n\n<p>Bingham writes to me that he sees <i>Richmond</i> frequently. I suppose he is<br>\nin Newton. I hope that he will return to O. & take up his old quarters. Give<br>\nhim my kindest regards when you see him. If you see any fellow proposing to<br>\ngo to Oxford, whom you would take for a real good fellow, do you just inform<br>\nme, for I want to <i>set (on)</i> him. I hope that our Sophomore year will pass off<br>\nas pleasantly as the departed Fresh. & that we will all sustain ourselves well,<br>\nboth as a class and personally. I write to you at Forest hoping that you are<br>\nstill there, and having a fine time. But should you leave ere this reaches<br>\nyou, I guess it will merely have to go to the <i>Dead Letter Office</i>. Stir a-<br>\nround and get as fat and strong as possible before Oct., in order that the<br>\nlaborious Soph. year may not be too much for you. Be sure & write to me.</p>\n\n<p>As ever your true & affectionate friend<br>\nWm. A. Alexander,</p>\n\n<p>L. L. McInnis,<br>\nForest,<br>\nMiss.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_5"
+                        },
+                        {
+                            "id": "http://example.org/iiif/36",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Transcription Strategy for this Typed Document**\n\nAlright, let's break this down. My goal is to create a faithful transcription of this typed document, considering all the nuances. First, I analyzed the image. It\u2019s a typed letter, and right away, I notice corrections and marginalia. Specifically, the \"J. S. Dodd\" line has a handwritten 'L' above the typed 'S' with a slash through the 'S', which signals a clear correction. I will have to decide how to handle the \"L\" correction. There's also some underlined text \u2013 \"Richmond\", \"set (on)\", and \"Dead Letter Office\" \u2013 indicating emphasis, and a vertical handwritten margin note. I see a faint pencil note below the vertical text.\n\nNow, I'll strategize the transcription. The guidelines are clear: capture everything. I'll read the main text and insert the marginalia where it makes sense. The key is to insert the annotations logically, noting the vertical margin note at the start. Since there is a clear intention to correct \"J. S. Dodd\" to \"J. L. Dodd\", I will proceed with that corrected version of the name. If the 'L' hadn't been so distinct, I might have given different weight. But this is the final intention, given the clear handwritten insertion. I'll preserve all line breaks. The underline will be represented by *italics*.\n\nNext, I need to transcribe the content meticulously. I see the main body concerns university matters, social gossip, and local news from Kosciusko. I must ensure the formatting reflects the original, including the addressee and closing.\n\nI've examined the margin note and identified it as \"My father's brother who had to leave the Univ. with T.B.\" with a handwritten annotation below \"[written in red pencil later]\". The vertical text is in ink (black) and the note below is in pencil (faint), perhaps red pencil? That's what it looks like, and the note itself says \"red pencil\". I will transcribe it all, and it should be first.\n\nI will use `<p>` tags for paragraphs. Also, I will render the marginal notes with `[Margin: ...]` or `<small>` where appropriate. For underlined text, I will use `<i>` tags as underlines are rendered with italics. I will also transcribe that lone typed \"L\" at the top as a stand-alone line.\nAs a final step, I will re-read and double-check to be sure I've been completely faithful to the original, including the abbreviations and the punctuation.\n\nI am ready.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/340/pages/page_5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

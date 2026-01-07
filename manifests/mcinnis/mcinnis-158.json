@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-158.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Scottie, December 25, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-12-25"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Scottie, December 25, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/158"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/776836b3-58a3-307a-905b-ee64c2db8379/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/158/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1968,
+            "width": 1964,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/776836b3-58a3-307a-905b-ee64c2db8379/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1968,
+                                "width": 1964,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/776836b3-58a3-307a-905b-ee64c2db8379",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/158/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Dear Mr Innis.</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have long<br/>\nrecognized your native ability,<br/>\nadmired the thoroughness with<br/>\nwhich that ability has been cul-<br/>\ntivated, I now desire to contribute<br/>\na trifle to another quality you<br/>\nposses, no matter how smart a<br/>\nman may be, it <i>is</i> <i>always</i> <i>a</i><br/>\n<i>good</i> <i>thing</i> to be smarter, therefore<br/>\nI contribute this Bottle of Horse<br/>\nRadish.</p>\n\n<p>[Footer]<br/>\nRoslyn.<br/>\nChristmas 1886</p>\n\n<p>[Signature]<br/>\nScottie</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/158/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis**\n\nAlright, let's break this down. My goal here is to get a clean transcription of this handwritten letter from the image. It looks like we've got a letter dated Christmas 1886. The main challenges are deciphering the handwriting, which is cursive and a bit faded, and making sure I'm capturing all the nuances of the text.\n\nFirst, I identified the main parts: the handwritten body of the letter, the salutation \"Dear Mr Innis.\", the location \"Roslyn\", the date \"Christmas 1886\", and the signature \"Scottie\".\n\nLet's dive into the core text. The hardest part is, of course, the name. I needed to carefully analyze that first letter, which initially looked like a few possibilities (I, D, F). Analyzing this cursive style letter, I had to compare the letter shape with examples. I compared the 'I' in \"I have\" to the start of the name and the loops to chart out what the first letter could be. After comparing a few examples of capital letters it was an \"I\" or \"Innis\". The loops and general shape were like \"Innis\". Also, \"Innes\" is a valid name. Considering the name and then cross-referencing to the rest of the text, \"Innis\" makes the most sense.\n\nNext, I needed to make sure I got all the other words right. \"posses\" looks like it's missing a letter or misspelt, and \"cultivated\" has a hyphen that I needed to capture. I compared each letter to letter charts to make sure I selected the correct word. The underlines were a detail, as I couldn't use HTML, so I used `<i>` to represent emphasis, which is how you'd emphasize in italics in a transcription. It's a standard practice. I then had to re-check the words around the underlines to make sure I understood the underlining structure, which was easy.\n\nThen, there were a few formatting rules to adhere to: line breaks (`<br/>`), paragraph marks (`<p>`), and emphasizing words as instructed by underlining. The user instructions say \"Label structural elements like [Header], [Footer], and [Signature]\". The letter itself is not labeled. There's also the location and date.\n\nI've put this all together, and I have produced the following transcription.\n\n```html\n<p>Dear Mr Innis.</p>\n<p> &nbsp; &nbsp; I have long<br/>\nrecognized your native ability,<br/>\nadmired the thoroughness with<br/>\nwhich that ability has been cul-<br/>\ntivated, I now desire to contribute<br/>\na trifle to another quality you<br/>\nposses, no matter how smart a<br/>\nman may be, it <i>is</i> <i>always</i> <i>a</i><br/>\n<i>good</i> <i>thing</i> to be smarter, therefore<br/>\nI contribute this Bottle of Horse<br/>\nRadish.</p>\n<p>[Footer]<br/>\nRoslyn.<br/>\nChristmas 1886</p>\n<p>[Signature]<br/>\nScottie</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/158/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

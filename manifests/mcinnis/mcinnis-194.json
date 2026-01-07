@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-194.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Frank E. Adams, July 5, 1888"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1888-07-05"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Frank E. Adams, July 5, 1888"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 26 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8f338033-15c0-3032-9c4e-a7389b4b78ed/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 2113,
+            "width": 3251,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8f338033-15c0-3032-9c4e-a7389b4b78ed/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2113,
+                                "width": 3251,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8f338033-15c0-3032-9c4e-a7389b4b78ed",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Office of<br>\nCounty Judge of Johnson County,<br>\nF. E. Adams,<br>\nJUDGE<br>\nCleburne, Texas. July 5, 1888.</p>\n\n<p>Prof. Louis L. McInnis,<br>\nCollege Station, Texas.<br>\nMy dear Sir:- I am in receipt of your<br>\ncircular postal.<br>\nAre you the son of Rev. Richmond McInnis,<br>\nlate of Mississippi? I knew him very well<br>\nwhen I was a young man. More than twenty<br>\nyears ago, he received me into the Communion<br>\nof the Presbyterian Church. I saw him frequently<br>\nboth at my mother's and Judge McCallum's<br>\nin Jasper Co. You will please excuse me. I will try to send<br>\nyou some students.</p>\n\n[Closing]\n<p>Very truly yours,<br>\nFrank E Adams</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Analysis and Transcription of the Handwritten Letter**\n\nOkay, I'm ready to dive into this transcription. I see a handwritten letter and my job is to get a clean, accurate rendition of its contents, while respecting all the formatting and visual cues.\n\nFirst, I'm analyzing the header: it's a bit complex! I see \"Office of\" and \"County Judge of Johnson County\" in a somewhat formal gothic script, centered on the page. Then, to the right, in printed text, is \"F. E. Adams\" and his title, \"JUDGE.\" Finally, there's a line that appears to be pre-printed, \"Cleburne, Texas,\" followed by the handwritten date \"July 5, 1888.\" I'm carefully noting how each element is presented, as this is part of the letter's overall design.\n\nNext, I move to the body. The letter is addressed to \"Prof. Louis L. McInnis,\" and the location is \"College Station, Texas.\" I'm scrutinizing \"Texas,\" as the handwriting here is a little scrawled, but it definitely looks like \"Texas.\" The salutation is \"My dear Sir:-\" and the body begins with \"I am in receipt of your circular postal.\" It seems like a standard business letter.\n\nThe interesting part starts on the third line: \"Are you the son of Rev. Richmond McInnis,\" followed by an inquiry about the recipient's connection to someone the writer knew. There's a mention of the Presbyterian Church, and a location, \"Jasper Co.\" I'm keeping a close eye on any potential ambiguities in the writing.\n\nI'm making a point to get the location \"College Station, Texas.\" correct. Is it \"Tex.\" or \"Texas.\" The handwritten 's' at the end of \"Texas\" is a little ambiguous, but after close examination, it looks like \"Texas.\" Then, there is the line \"You will please excuse me. I will try to send\" - and I'm noting the phrasing, as it suggests the writer may be a bit constrained or perhaps responding briefly. This is followed by \"you some students.\"\n\nFinally, there is a closing \"Very truly yours,\" followed by the signature \"Frank E Adams.\" The signature is somewhat scrawled, so I will double check it. I'm noting the clear \"F. E.\" and the ending, \"Adams,\" which seems legible enough, given the rest of the handwriting in the signature.\n\nNow, as per instructions, I will generate the transcription. I'm keeping the original spelling, punctuation, and capitalization. I'm using the requested HTML tags to structure the document.\n\nThe goal is a faithful, readable, and accurately formatted transcription of this letter.\nHere's the detailed transcription:\n\n[Header]\n<p>Office of<br>\nCounty Judge of Johnson County,</p>\n<p align=\"right\">F. E. Adams,<br>\nJUDGE</p>\n<p align=\"right\">Cleburne, Texas. July 5, 1888.</p>\n\n[Body]\n<p>Prof. Louis L. McInnis,<br>\nCollege Station, Texas.<br>\nMy dear Sir:- I am in receipt of your<br>\ncircular postal.<br>\nAre you the son of Rev. Richmond McInnis,<br>\nlate of Mississippi? I knew him very well<br>\nwhen I was a young man. More than twenty<br>\nyears ago, he received me into the Communion<br>\nof the Presbyterian Church. I saw him frequently<br>\nboth at my mother's and Judge McCallum's<br>\nin Jasper Co. You will please excuse me. I will try to send<br>\nyou some students.</p>\n\n[Closing]\n<p>Very truly yours,<br>\nFrank E Adams</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 2113,
+            "width": 3251,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6643a1c9-92b1-35cf-975c-cd0526f1c2ed/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2113,
+                                "width": 3251,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6643a1c9-92b1-35cf-975c-cd0526f1c2ed",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>This was wrong<br/>\nCharge of 7 Cents<br/>\n[Signature] G A K</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Thoughts on Transcription**\n\nAlright, let's get down to brass tacks. The goal is to transcribe the handwritten note on this image, keeping it accurate and adhering to all the instructions. It looks like we have a document that's been folded, docketed if you will, with the handwritten text on the reverse. My initial approach is to mentally rotate the image 90 degrees clockwise to read it.\n\nFirst, I identified the main content to transcribe: a cursive note. Then, I decided to decipher it line by line.\n\n*   **Line 1:** \"This was wrong\". Clear enough.\n*   **Line 2:** This is the most challenging. The initial word is hard to read. There's a debate between \"Charge\" or \"Change\". After a close inspection, I think I'm leaning toward \"Charge.\" The context, the faint bleed-through from the \"County Judges Office,\" all seem to suggest a financial or legal context. Plus, examining the letter 'r' shape. The 'g' loops. It all seems to make sense. It will say, \"Charge of 7 Cents\".\n*   **Line 3:** A signature, likely. It looks like \"G A K\".\n\nI'm thinking I'll use a `<p>` tag and appropriate line breaks for formatting. I will transcribe the text as it is, maintaining the line breaks.\n\nI reviewed the \"Charge\" vs. \"Change\" to make sure the transcription is correct. Considering the letter shape and the context it is likely a \"Charge.\"\n\nAlso, I checked on any additional text. It's just a bleed-through text from the \"County Judge's Office,\" but since the instruction is to transcribe all of the \"text on this image\" I will ignore.\n\nI'll finalize the formatting to `<p>This was wrong<br/>Charge of 7 Cents<br/>[Signature] G A K</p>`.\n\nI am making sure that the handwriting is not a \"2\" or anything else. It is clear that the \"7\" is correct. The Bleed-through confirms the context is a legal document.\n\nLet's look over the \"Charge\" versus \"Change\" one last time. Given that the image suggests some type of legal document, it is best fit.\n\nThe text will look like the following code:\n```html\n<p>This was wrong<br/>\nCharge of 7 Cents<br/>\n[Signature] G A K</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/194/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

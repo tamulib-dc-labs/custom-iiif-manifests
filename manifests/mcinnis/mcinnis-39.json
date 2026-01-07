@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-39.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. D. Lee, February 15, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-02-15"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. D. Lee, February 15, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/558c93e3-7fd3-388c-8114-08d20a9e47b0/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4214,
+            "width": 3191,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/558c93e3-7fd3-388c-8114-08d20a9e47b0/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4214,
+                                "width": 3191,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/558c93e3-7fd3-388c-8114-08d20a9e47b0",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Agricultural and Mechanical College,<br>\nOF MISSISSIPPI.</p>\n\n<p>Executive Department,<br>\nS. D. LEE, PRESIDENT.</p>\n\n<p>Agricultural College, Feb'y 15\" 1883</p>\n\n<p>Prof L. L. McInnis<br>\nMy dear Sir<br>\nAt your request, I sent to<br>\nHonble Geo. Pfeuffer at Austin, a 1/2 dozen<br>\ncopies of report of Legislative Committee &<br>\nwrote him to that effect - I do hope your<br>\nLegislature will give you ample appro-<br>\npriations and that you may eminently<br>\nsucceed as an Industrial College - We<br>\nfeel here that we are on the right road.<br>\nWe modeled after the Michigan College<br>\nand think we are an improvement<br>\nWith best wishes,</p>\n\n[Signature]\n<p>Yours truly<br>\nS. D. Lee</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcriptionist's Process**\n\nAlright, let's break this down. First, I need to understand the ask: transcribe, sticking to the original spelling and layout, and using HTML, following IIIF v3. No problem. This looks like a handwritten letter on official letterhead, so I will approach this like any historical document.\n\nI'm seeing a header for \"Agricultural and Mechanical College, OF MISSISSIPPI,\" with an \"Executive Department\" sub-header that includes \"S.D. LEE, PRESIDENT.\" There's a dateline reading \"Agricultural College, Feb'y 15\" 1883.\" The letter is addressed to \"Prof L.L. McInnis.\" The handwriting is cursive, a little hurried, which I'll keep in mind.\n\nNow I'm making a draft transcription. I'm noting the layout:\n*   Header: \"Agricultural and Mechanical College, OF MISSISSIPPI.\"\n*   Box: \"Executive Department, S.D. LEE, PRESIDENT.\"\n*   Dateline: \"Agricultural College, Feb'y 15\" 1883\"\n*   Recipient: \"Prof L. L. McInnis\"\n*   Salutation: \"My dear Sir\"\n*   Body: \"At your request, I sent to Honble Geo. Pfeuffer at Austin, a 1/2 dozen copies of report of Legislative Committee & wrote him to that effect - I do hope your Legislature will give you ample appro- priations and that you may eminently succeed as an Industrial College - We feel here that we are on the right road. We modeled after the Michigan College and think we are an improvement With best wishes Yours truly S. D. Lee\"\n\nI'm cross-referencing this to confirm the people and places mentioned. \"L.L. McInnis\" was a professor at Texas A&M. \"Honble Geo. Pfeuffer\" was a Texas legislator and A&M regent. This helps. Okay, the words look right. I'm noting that \"appro-priations\" is split over two lines, which must be preserved. And \"Michigan College\" likely refers to Michigan State, a model for these land-grant colleges.\n\nFor formatting, I'll use `<p>` for paragraphs. The ornate header content isn't critical, so I can use standard text. I'll use `<br>` to maintain the original line breaks in the letter body. The double quotes next to the date are probably just stylistic (superscript), so I'll render that as 15\". I want to be as faithful as possible.\n\nMy simulated output would look like this (at a glance):\n\nAgricultural and Mechanical College, OF MISSISSIPPI.\n\nExecutive Department, S. D. LEE, PRESIDENT.\n\nAgricultural College, Feb'y 15\" 1883\n\nProf L. L. McInnis\nMy dear Sir\nAt your request, I sent to\nHonble Geo. Pfeuffer at Austin, a 1/2 dozen\ncopies of report of Legislative Committee &\nwrote him to that effect - I do hope your\nLegislature will give you ample appro-\npriations and that you may eminently\nsucceed as an Industrial College - We\nfeel here that we are on the right road.\nWe modeled after the Michigan College\nand think we are an improvement\nWith best wishes,\nYours truly\nS. D. Lee\n\nNow I check for the HTML constraints: a, b, br, i, img, p, small, span, sub, sup. I am following those guidelines. Structure: Header, Date, Body, Signature. \"Honble,\" \"Feb'y,\" and \"appro-priations\" are all as they should be.\n\nNow I will output the final string, making the necessary structural formatting, which should be:\n```html\n<p>Agricultural and Mechanical College,<br>\nOF MISSISSIPPI.</p>\n\n<p>Executive Department,<br>\nS. D. LEE, PRESIDENT.</p>\n\n<p>Agricultural College, Feb'y 15\" 1883</p>\n\n<p>Prof L. L. McInnis<br>\nMy dear Sir<br>\n&nbsp;&nbsp;&nbsp;&nbsp;At your request, I sent to<br>\nHonble Geo. Pfeuffer at Austin, a 1/2 dozen<br>\ncopies of report of Legislative Committee &<br>\nwrote him to that effect - I do hope your<br>\nLegislature will give you ample appro-<br>\npriations and that you may eminently<br>\nsucceed as an Industrial College - We<br>\nfeel here that we are on the right road.<br>\nWe modeled after the Michigan College<br>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/39/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

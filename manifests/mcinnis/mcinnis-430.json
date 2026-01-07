@@ -1,0 +1,198 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-430.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from E. B. Cushing, March 27, 1891"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from E. B. Cushing, March 27, 1891"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 6 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/bf8dca1b-e695-34e0-8359-5fdd350a1dfd/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4346,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/bf8dca1b-e695-34e0-8359-5fdd350a1dfd/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4346,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bf8dca1b-e695-34e0-8359-5fdd350a1dfd",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><small>G. H.) M. 18\u00bd.</small><br>\nGALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.<br>\nTEXAS & NEW ORLEANS RAILROAD CO.</p>\n\n<p>Subject......................................................<br>\n<span style=\"color:red\">Resident Engineer</span><br>\nOffice of......................................................</p>\n\n<p>To...................................................... HOUSTON March 27 1891</p>\n\n[Body]\n<p>My dear Sir:-<br>\nYour favor 21<sup>st</sup> reached me to day.<br>\nI will gladly do anything in my power<br>\nto assist you \u2013 and I believe that you<br>\nCan Count on the friendly assistance of<br>\na large number of the old Cadets.<br>\nMy acquaintance and influence \u2013 if I have<br>\nany influence \u2013 would be confined to<br>\nthose of the Cadets who attended<br>\nSchool prior to 1879. but these being now<br>\nin business life might have more<br>\nweight = My idea would be to have<br>\ntype written petitions made and sent to<br>\nsome leading Cadets in all the large Towns<br>\nSay Houston \u2013 Galveston. Ft Worth \u2013 Austin \u2013 Dallas<br>\nSan Antonio Sherman Tyler &c &c and have<br>\nthese returned when signed to me or some<br>\nother party and by him presented to the<br>\nGovernor. There will be no trouble in obtaining<br>\nthe signatures of all the \u201cold boys\u201d in this<br>\ntown in a short while. There are four of<br>\nthe boys now in the Legislature towit:<br>\nRogan \u2013 King \u2013 Shaw & Clegg. and I<br>\nthink it would be a good idea to have<br>\none of them present the petitions \u2013 Say Rogan \u2013 whom<br>\nI think is friendly is he not?</p>\n\n[Footer]\n<p>2</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcriptionist's Internal Thought Process: A Deep Dive**\n\nOkay, here's the deal. I'm looking at this request, and my brain immediately snaps into \"transcriptionist mode.\" I've got to extract the information from this image, ensuring accuracy and adhering to a very specific set of guidelines. It's like a code I have to execute, and here's how I break it down:\n\nFirst, I need to understand the mission. The parameters are clear: *transcribe*, keeping the original mechanics (spelling, capitalization, punctuation), and preserving the layout as best as possible. The client wants me to interpret the handwriting, not change it. This means I'm not correcting grammar or cleaning up any perceived errors. I need to spot and tag any structural elements. And of course, I must utilize only the permitted HTML tags. I must produce nothing but the text.\n\nI need to view the image as if I were there. It looks like a letter, likely a business communication given the railway company letterhead. There's a form number at the top left. The railway company name and the usual \"To,\" \"Subject,\" and \"Office of\" fields, all typical. I see a stamped \"Resident Engineer\" and what looks like a date. I will use the available information to produce the output.\n\nI'm analyzing the handwriting style \u2013 cursive, a little loopy, and unmistakably late 19th-century. The writing flows continuously; this will require careful attention to line breaks and paragraph structure. The content seems to revolve around helping someone, perhaps a former cadet, with a petition or some kind of influence campaign. The writer is mentioning specific towns in Texas and names of people in the legislature.\n\nNow, step-by-step, I will construct the transcription. I'm going to take the elements and then build it into the correct format.\n\n*   Form number: I will use `<small>` for the form number.\n\n*   Letterhead: I am going to organize and write all the header information correctly, but there are no visible tags. There is not a format for a header on the required tags list.\n\n*   I transcribe the stamped text.\n\n*   I see the date \"March 27 1891\". The 21st has superscript.\n\n*   I recognize the salutation \"My dear Sir:-\".\n\n*   I will note that in body paragraph 1 that \"21st\" uses a superscript for \"st\".\n\n*   I interpret an unclear scribble \"made [scribble] sent\". I will transcribe that the word \"and\" is written over the word \"out\". I'll use \"and\" as it appears to be the final intent, but I'll make sure to note that the image has an original overwritten text.\n\n*   I check for all the listed towns in Texas and note that this uses \"&c &c\".\n\n*   The text is flowing, so I'm paying attention to the sentence structure as well.\n\n*   There are four of the people present in the state legislature mentioned.\n\n*   I will look at formatting: Using `<p>` and `<br>`. Then, I will note the Header section. The \"Subject\" is quite high. \"Resident Engineer\" is stamped. The \"Resident Engineer\" is faintly red.\n\n*   Now I will review the transcription to the image to look for any mistakes.\n\n*   I am now checking the final version: \"towit\" vs \"to wit\", \"&c &c\", Rogan, Clegg, type written, old boys, favor 21st, 1/2.\n    *   \"towit\" has a connection.\n    *   \"&c &c\" is standard.\n    *   I will write the names exactly as they are.\n    *   The \"favor\" uses superscript on the \"21st\"\n\n*   I construct the output:\n\n*   I will build the Header first. I must keep the layout of this section in mind, keeping these lines together.\n\n*   The body flows, so I need to create the paragraphs.\n\n*   The word \"and\" is written over.\n\n*   The names are clear.\n\n*   I review \"made [scribble] sent\". And write it as \"made and sent\".\n\n*   The instructions list are correct.\n\n*   I will write the Header:\n    *   `<small>G. H.) M. 18\u00bd.</small>`\n    *   GALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.\n    *   TEXAS & NEW ORLEANS RAILROAD CO.\n    *   Subject......................................................\n    *   Resident Engineer\n    *   Office of......................................................\n    *   To...................................................... HOUSTON March 27\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4346,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/20902498-1235-3263-a92a-ca352b5fcdfa/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4346,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/20902498-1235-3263-a92a-ca352b5fcdfa",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><small>(G. H.) M. 18 1/2.</small><br>\n<b>GALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.<br>\nTEXAS & NEW ORLEANS RAILROAD CO.</b><br>\n<span style=\"float: right;\">[Margin: [1891, March 27]]</span><br>\nSubject ........................................................................<br>\nTo J G M ........................................................................ Office of ........................................................................<br>\n........................................................................ 189</p>\n\n<p>I do not think that this form of petition<br>\nunsupported would avail much but<br>\nif it can be backed with personal<br>\nletters from men in position it may<br>\ncarry the point. I regret that<br>\nmy political opposition to Capt Hatcheson<br>\nplaces me in bad light to approach<br>\nhim on the subject but might do so<br>\nthrough others. I will however<br>\nsee Major Looscan who is a close friend<br>\nof the Governor and see what he<br>\ncan & will do. My business keeps me<br>\naway so much from home that I<br>\ncannot give the case the time which<br>\none should who attempts to look<br>\nafter it but will do the best I<br>\ncan. I leave to night for El Paso<br>\nwill be on the field for next two<br>\nweeks. Please write me your<br>\nviews as fully as you can & let<br>\nme know who you consider <sup>one of</sup> your<br>\nClosest friends among the old boys<br>\nin the large cities. Pls look over<br>\nInclosed sample which after writing strikes me<br>\nas somewhat weak - Return it with any remarks<br>\nOur correspondence will of course be strictly confidential</p>\n\n<p>Yours truly<br>\nE. B. Cushing</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Okay, let's break down this transcription. It's time to pull up my sleeves and get to the core of this image. I am going to analyze this document and extract its information.**\n\nFirst, I see a handwritten letter on what looks like Galveston, Harrisburg & San Antonio Railway Co. and Texas & New Orleans Railroad Co. letterhead. There is a pencil annotation in the top right that looks like \"[1891, March 27]\", which should be recorded. The printed date is \"189\". The addressee appears to be \"To J G M\" followed by something illegible. It could be \"Esq\" or a flourish, but I should stick to the clear text and render as \"To J G M [?]\". The subject and office fields are blank.\n\nNext, it's time to tackle the body of the text. I will take this line by line:\n\n*   **Header:**\n    *   `(G. H.) M. 18 1/2.` (Small print at the top)\n    *   `GALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.`\n    *   `TEXAS & NEW ORLEANS RAILROAD CO.`\n    *   `Subject` .................................\n    *   `To J G M` [?] ................................ Office of .................................\n    *   ................................................ 189\n\n*   **Body Text:**\n    *   \"I do not think that this form of petition\" (I initially thought the handwriting was \"donor\", but the context is \"do not\", which is correct.)\n    *   \"unsupported would avail much but\"\n    *   \"if it can be backed with personal\"\n    *   \"letters from men in position it may\"\n    *   \"carry the point. I regret that\"\n    *   \"my political opposition to Capt Hutcheson\" (Or rather, the name \"Hatcheson\", given the handwriting)\n    *   \"places me in bad light to approach\"\n    *   \"him on the subject but might do so\"\n    *   \"through others. I will however\"\n    *   \"see Major Looscan who is a close friend\"\n    *   \"of the Governor and see what he\"\n    *   \"can & will do. My business keeps me\"\n    *   \"away so much from home that I\"\n    *   \"cannot give the case the time which\"\n    *   \"one should who attempts to look\"\n    *   \"after it but will do the best I\"\n    *   \"can. I leave to night for El Paso\"\n    *   \"will be on the field for next two\"\n    *   \"weeks. Please write me your\"\n    *   \"views as fully as you can & let\"\n    *   \"me know who you consider ^one of^ your\"\n    *   \"Closest friends among the old boys\" (I had to carefully look at that one; initially, it looked like \"Clrest\", but contextually, it is \"Closest\". The handwriting is messy, but it's \"C\" \"l\" \"o\" \"s\" \"e\" \"s\" \"t\")\n    *   \"in the large cities. Pls look over\" (\"Pls\" is the abbreviation, not \"Ple\".)\n    *   \"Inclosed sample which after writing strikes me\" (The word is \"Inclosed,\" the older spelling of \"Enclosed\", though it looked a bit like \"luclosed\" in the handwriting)\n    *   \"as somewhat weak - Return it with any remarks\" (The word \"Return\" has an uppercase R. It's written as two words.)\n    *   \"Our correspondence will of course be strictly confidential\"\n\n*   **Signature:**\n    *   \"Yours truly\"\n    *   \"E. B. Cushing\"\n\nI am going to use HTML and structure it logically: `<p>` for paragraphs, `<span>` or `<small>` for smaller header text, and `<br>` for line breaks. I should transcribe the pencil date. I'm going to preserve the original spelling, punctuation, capitalization, and line breaks.\n\nSo, let's put it all together to create an accurate and structured transcription of this letter.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/430/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-448.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Henry Alvord, May 16, 1892"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Henry Alvord, May 16, 1892"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 9 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/448"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/237b90ac-5405-39a3-b1bc-240b92a23765/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/448/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3592,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/237b90ac-5405-39a3-b1bc-240b92a23765/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3592,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/237b90ac-5405-39a3-b1bc-240b92a23765",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/448/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><small>EXPRESS AND TELEGRAPH ADDRESS :<br>\nCOLLEGE STATION, MARYLAND,<br>\nON BALTO. & OHIO R. R.,<br>\nEIGHT MILES FROM WASHINGTON.</small></p>\n\n<p>\u2014MARYLAND\u2014<br>\nAGRICULTURAL EXPERIMENT STATION,<br>\n<small>HENRY E. ALVORD, DIRECTOR.</small></p>\n\n<p>College Park, Md.<br>\nMonday, May 16<sup>th</sup>, 1892.</p>\n\n<p>L. L. M<sup>c</sup>Innis Esq.<br>\nFirst National Bank of Bryan, Texas.</p>\n\n<p>My dear Sir:- Please accept my most<br>\nsincere thanks for your letter of the 10th inst.<br>\nIt is what I wanted, - needed, - and will do<br>\nthis College and myself, a real service</p>\n\n<p>The letter shows conservatism, - self-restraint,<br>\nand that there is a good reserve of ammunition<br>\nwhich might be used! A great deal can be<br>\nread \"between the lines\"</p>\n\n<p>Again I thank you, and shall certainly<br>\nfollow your suggestions and write to Dr. Read<br>\nand to Prof Haring.</p>\n\n<p>If I can at any time be of any assistance, or<br>\nconvenience to you, - at Wash'<sup>n</sup>, - anywhere, - pray<br>\ncommand me</p>\n\n<p>Yours very truly</p>\n\n[Signature]\n<p>Henry E. Alvord.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/448/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Transcriptionist's Thought Process**\n\nAlright, let's break this down. My goal is to transcribe this text accurately, maintaining its original form as much as possible, while adhering to specific HTML tag requirements. First, I need to understand the source material: a handwritten letter on official letterhead. The instructions are clear: preserve the natural reading order, ensure high accuracy in spelling and punctuation, and interpret any handwriting present. I must also maintain the layout, especially paragraphs, and label any non-text elements like the header and signature. Crucially, I have to use *only* the approved IIIF-compliant HTML tags.\n\nI begin by examining the letterhead. The top left contains an \"EXPRESS AND TELEGRAPH ADDRESS,\" and the top center reads \"\u2014MARYLAND\u2014 AGRICULTURAL EXPERIMENT STATION.\" These are in smaller typefaces, so I will likely use `<small>` tags to reflect this. I note the location and date, handwritten, and the recipient information. The salutation is standard. Now, for the body of the letter, I'm paying close attention to sentence structure, line breaks, and any unusual punctuation, especially the dashes. The name \"Haring\" is interesting; it looks like \"Harring\" initially, but after closer inspection, it seems to be \"Haring.\" I will stick with the most probable interpretation, documenting my reasoning for the sake of accuracy. Finally, the closing and the signature.\n\nI start drafting the transcription. I'm using `<p>` tags for paragraphs and `<br>` tags to preserve line breaks as I see them. The line break preservation is explicitly stated so I must use these. I insert the `<small>` tags for the header lines as appropriate. I'm noting any elements that might require special treatment, like the superscript \"th\" in the date. The dashes in the text will be replicated as standard dashes since a long decorative dash isn't standard in output.\n\nRe-evaluating the draft, I ensure that every line break is accounted for with a `<br>` tag. I double-check the placement of the paragraph tags and the use of the `<small>` tag in the headers.\n\nNow, I'm refining the transcription. I'm meticulously checking the spelling, punctuation, and capitalization. I verify the transcription of the handwritten date and recipient. I pay special attention to the names, especially \"Haring.\" I confirm the use of quotation marks and any unusual phrasing. I'm ensuring all the formatting aligns with the visual representation of the text. I've noted that the \"Mc\" in the recipient\u2019s name appears as a small character, so I'll render that as  `M<sup>c</sup>Innis`. Also the 'n' in Washington is in superscript, so `Wash'<sup>n</sup>`. I reconfirm \"Haring\" looks like Haring.\n\nFinally, I'm applying the specific HTML tags. I'm using `<p>` for blocks of text, `<br>` for line ends within blocks, `<small>` for the header text, and `<sup>` for the \"th\" and 'n' in \"16th\" and \"Wash'n\" respectively. As I'm labeling structural elements, I'll add `[Header]` and `[Signature]` to appropriately label those sections. The goal is a clean, accurate, and properly formatted output that fully reflects the original document within the given constraints, and I'm very confident I've achieved that.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/448/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

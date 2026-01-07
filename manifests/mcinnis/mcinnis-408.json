@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-408.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to A. J. Rose from L. L. Foster and John Adriance, August 23, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to A. J. Rose from L. L. Foster and John Adriance, August 23, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 4 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/408"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/714ca378-84f6-3070-a758-e01706b45fcc/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/408/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4358,
+            "width": 3331,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/714ca378-84f6-3070-a758-e01706b45fcc/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4358,
+                                "width": 3331,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/714ca378-84f6-3070-a758-e01706b45fcc",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/408/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Agricultural and Mechanical College of Texas.<br/>\nPRESIDENT\u2019S OFFICE.</p>\n\n<p>College Station, Tex. Aug 23<sup>d</sup> 1890.</p>\n\n<p>Report of the Finance Committee.</p>\n\n<p>To the Hon. A. J. Rose.<br/>\nPresident Board Directors.</p>\n\n<p>We beg leave to<br/>\nreport that we have examined the books and<br/>\naccounts of the Agent and Secretary of the<br/>\nBoard, as follows:-</p>\n\n<p>Prairie View Normal School Account from<br/>\nJune 1, 1889 to July 1. 1890.<br/>\nCollege Account from June 1, 1889. to June 30, 1890.<br/>\nExperiment Station Account from July 1, 1889<br/>\nto June 30, 1890.<br/>\nand found them correct.</p>\n\n<p>Signed<br/>\nL. L. Foster,<br/>\nJohn Adriance } Finance<br/>\nCommittee.</p>\n\n<p>A true Copy.<br/>\nW. L. Bringhurst<br/>\nV. Pres.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/408/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, so the task at hand is transcription. My initial assessment focuses on the requirements: I'm a professional transcriber, my job is to convert the image into text, following specific guidelines. First, I have to ensure top-to-bottom, left-to-right transcription, maintaining all original spelling and punctuation, and I must make an educated guess about the handwriting. I need to keep the original layout, and I have to identify the structural elements of the document such as the header, footer, and signature. Finally, I'm limited to using only a specific list of IIIF-compliant HTML tags which is an important constraint.\n\nNext, I need to analyze the image itself. I can tell this is an official letter or report, likely from the late 19th century based on the font and the embossed seal, which also helps to establish authenticity. I identify the header: \"Agricultural and Mechanical College of Texas\" and \"PRESIDENT'S OFFICE.\" There's the location and date: \"College Station, Tex., Aug 23d 1890,\" noting that \"d\" is a superscript. The document's title is \"Report of the Finance Committee.\" The addressee is \"To the Hon. A. J. Rose. / President Board Directors.\"\n\nThe body text appears to be handwritten. It starts with \"We beg leave to report that we have examined the books and accounts of the Agent and Secretary of the Board, as follows:-\" followed by a list of accounts with corresponding dates. Then, there are signatures: \"L. L. Foster\" and \"John Adriance,\" grouped as \"Finance Committee.\" There's a certification or copy-related stamp at the bottom: \"A true Copy / W. L. Bringhurst / V. Pres.\" And finally, there's an embossed seal, partially visible, likely from the A&M College of Texas.\n\nNow it's time to mentally draft the transcription. I'm visualizing the layout: the header, dateline, title, salutation, body text with the indented list, signatures, and footer. I'll make sure to note all line breaks to preserve the visual structure. I'm carefully transcribing each line, including the handwritten date, the names, and the structure of the list.\n\nThe next step is refining and formatting. I need to convert my mental notes into proper HTML. I apply the relevant tags: `<p>` for paragraphs and `<br/>` for line breaks, as requested. The header requires specific formatting: first line printed script, the second in small caps. So `<p>Agricultural and Mechanical College of Texas.<br/>PRESIDENT\u2019S OFFICE.</p>` is what I have decided to use. I pay attention to the dateline \"Aug 23d 1890,\" using `<sup>` for the superscript \"d\". I apply these tags throughout the rest of the text, correctly representing the structure, indentation, and groupings within the document. I also focus on the visual format of the signatures: \u201cSigned\u201d L. L. Foster, then another line \"John Adriance } Finance Committee.\" I will handle the layout by using breaks and careful placement of the closing curly brace.\n\nI then review my transcription against the original image for accuracy. I verify that every element, from the header to the seal, is represented correctly. I double-check spelling (Adriance, Bringhurst), punctuation, and layout, ensuring a match. I make sure my text matches the handwritten items.\n\nFinally, I combine everything into the requested output format. I focus on creating a well-formatted HTML document that is accurate and easy to read.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/408/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

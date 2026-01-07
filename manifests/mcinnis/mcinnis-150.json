@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-150.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. P. Woolridge, December 21, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-12-21"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. P. Woolridge, December 21, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3732,
+            "width": 2325,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3732,
+                                "width": 2325,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><small>A. P. WOOLDRIDGE,<br>\nPresident.</small>\n<small>EDWARD CHRISTIAN,<br>\nVice Pre<sup>st</sup></small>\n<small>M. C. MILLER,<br>\nCashier.</small></p>\n\n<p><b>THE CITY NATIONAL BANK</b></p>\n\n<p>Austin, Texas. Dec. 21 1886</p>\n\n<p>Prof. J. L. M<sup>c</sup>Ginnis<br>\nBryan Texas</p>\n\n<p>My Dear Sir :<br>\nYour<br>\nesteemed favor 15<sup>th</sup> inst [?] to<br>\nhand, and while it was mark<br>\ned Personal. I deemed it<br>\na proper thing to communicate<br>\nto two of the University Regents<br>\nwho were here at the time<br>\nas it was not the subject<br>\nfor official consideration I<br>\ncan only say that the kind<br>\n& friendly feelings expressed<br>\nby you towards us are most<br>\ncordially reciprocated.</p>\n\n<p>Our Board<br>\nmeets on Jany 20- and if</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Alright, here's what I'm thinking:** I'm starting with this handwritten letter and want to transcribe it accurately. First, I need to break down the letterhead. I see the names: A.P. Wooldridge, Edward Christian, and M.C. Miller, all in small print, with their titles - President, Vice Prest, and Cashier, respectively. And the big bold text in the center clearly says \"THE CITY NATIONAL BANK.\"\n\nNext, I'm focusing on the date. It's Austin, Texas, and the year looks like either 1881 or 1886. I'm leaning towards 1886 because of the loop at the end of the last digit. I'm confident with this based on the letterhead style.\n\nI need to nail the addressee. It's \"Prof. J. L. McGinnis\" in \"Bryan Texas\". The last name is a bit swirly, but I'm pretty sure it's McGinnis. The \"J. L.\" is legible as the middle initials.\n\nNow comes the salutation: \"My Dear Sir:\". Easy enough.\n\nThen the body. This is where it gets interesting. There's this large \"Your\" at the end of the salutation line. It's written in big, slanted script \u2013 definitely part of the next section. Okay, here's what the body says, as best as I can read it:\n\n\"esteemed favor 15th inst [?]\" This looks like \"to hand,\" but there's a scribble or maybe a shorthand character in between. It's not clear. The next part reads clearly as \"hand, and while it was mark-ed Personal. I deemed it a proper thing to communicate to two of the University Regents who were here at the time, as it was not the subject for official consideration I can only say that the kind & friendly feelings expressed by you towards us are most cordially reciprocated.\"\n\nThere's more text at the bottom: \"Our Board meets on Jany 20- and if\".\n\nI want to make sure I transcribe this perfectly. So the structure must be:\n\n*   Header with names and the bank.\n*   The Date.\n*   The Addressee (name and location).\n*   Salutation (My Dear Sir:).\n*   The Body.\n\nI'm keeping an eye out for special characters - superscript \"th\" for the date, and \"st\" for \"Vice Prest\". There's also that ampersand in \"kind & friendly\". I'm making sure to copy the line breaks and placement as accurately as possible. I'm going to make sure to transcribe it so it looks exactly as the text. No corrections.\n\nI also need to mark where things are uncertain, like that squiggle after \"inst\" as [?]. And, I'll transcribe \"mark-ed\", splitting the word because of the hyphen. I'm reading the text carefully.\n\nOkay, I'm going to set it up in HTML now. And, the header must be marked `[Header]` to indicate it's the header.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3732,
+            "width": 2325,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b36349f6-9848-3ee7-bcab-65bc8ba8be34/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3732,
+                                "width": 2325,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b36349f6-9848-3ee7-bcab-65bc8ba8be34",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>A. P. WOOLDRIDGE,<br/>\nPresident.</p>\n<p>EDWARD CHRISTIAN,<br/>\nVice Pres<sup>t</sup></p>\n<p>M. C. MILLER,<br/>\nCashier.</p>\n<p style=\"text-align: right;\">[1886, Dec. 21]</p>\n\n<p><b>THE CITY NATIONAL BANK</b></p>\n\n<p>Austin, Texas ________________ 188__</p>\n\n<br/>\n\n<p>your President M. Cavett<br/>\nwere here at that time I<br/>\nthink a personal interview<br/>\nwould be productive of<br/>\nmuch good to all parties.<br/>\nYours Truly,<br/>\nA. P. Wooldridge<br/>\nPr.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Formatting Plan**\n\nOkay, here's the plan. I'm looking at this document image, and my primary goal is to produce an accurate transcription. I'm an expert in this, so accuracy is paramount. This document appears to be a letterhead or a form from the City National Bank. The initial step is a complete visual scan, noting down all the elements: the header information, any handwritten annotations, the dateline, the body text (handwritten), the closing, and the signature block.\n\nThe initial analysis reveals:\n\n1.  **Header:** It clearly spells out the bank's leadership. I need to be exact with the titles: A.P. Wooldridge, President; Edward Christian, Vice Pres't; M.C. Miller, Cashier. Also, there's the bank name itself and a handwritten date \"[1886, Dec. 21]\", which could be important for context. I must ensure these details get transcribed precisely. I also need to be meticulous with the date, and the brackets look like they are part of the original annotation.\n\n2.  **Dateline:** It's a standard format with a location (Austin, Texas) and a line for a date. The blank line for the year requires attention, as I'll need to figure out how to represent the line.\n\n3.  **Body Text:** This is the core of the document, and it's handwritten. This is where careful reading comes in. The sentence appears to start abruptly. The main handwritten body text is the key. Initially, I will transcribe what I see and re-examine the ambiguous first sentence later. The main part of the task is to ensure the text is right.\n\n4.  **Closing and Signature:** I'll note the \"Yours Truly,\" and then the signature of A.P. Wooldridge and the title. There seems to be a title - Pt., Pr., or Prest? I will analyze the signature for any possible inconsistencies or corrections.\n\nThe second part focuses on handling the specific formatting elements and potential ambiguities.\n\nI will use HTML for the structure.\n\n1.  **Layout & Formatting:** I'll format the header elements using HTML. The layout is important, so I will ensure the spacing of each component is maintained. The handwritten date will be transcribed as is, within brackets. The dateline line should be shown as an underscore line.\n\n2.  **Handwriting Considerations:** I need to look closely at the handwriting for anything that could be misinterpreted. \"Vice Pres't\" with the apostrophe and the handwritten date. The body is the most critical part, it has some ambiguous areas.\n\n3.  **Specific Challenges:**\n\n    *   The faint \"your\" and \"you\" on the start of the paragraph. It's difficult to be certain about the author's initial intention, if I don't know the full context. Based on this image, I'll transcribe the final text written, which I need to get the \"your\" from the original text into the transcription.\n    *   The smudged character near \"productive\". It looks like \"Sir\", or \"pro\" is corrected. I will check for the clearest representation of the intent. I will transcribe it as \"productive\".\n    *   \"Pr.\" or \"Pt.\". This part requires a detailed look at the signature. I will need to look at the other 'P's in the document.\n\nThe draft transcription plan is to transcribe each line exactly as it appears.\n\nI need to confirm the key details:\n\n*   \"Vice Pres't\" - apostrophe is confirmed.\n*   \"Cashier.\" - confirmed.\n*   \"President.\" - confirmed.\n*   \"THE CITY NATIONAL BANK\" - all caps.\n\nNow, I'll transcribe and refine. I'll read each word, each letter, paying close attention to any corrections or ambiguities. The critical task is an accurate transcription.\n\nI will render the final text as an HTML block.\n\nI am re-evaluating the beginning of the text: \"your President M. Cavett\"\nThere are words written to the left of these words.\nThe word \"your\" is faint.\nThe word \"you\" is written above the word \"were\".\nI will transcribe what is there.\nAfter re-reading the text, I've confirmed that the correct word to use is \"your\".\nThe text reads, \"your President M. Cavett were here...\"\nI must include the \"your\" in the transcription because it is clear that is the intention of the writer.\n\nThe \"Pt\" is the signature line.\nThe \"Pt\" or \"Pr\" - It looks like the signature is \"Pt\". It can also be \"Pr\". I will write both, using \"Pt.\". I will use both.\nI am re-reading\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
