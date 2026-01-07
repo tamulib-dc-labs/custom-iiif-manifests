@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-384.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Rose, July 11, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-07-11"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Rose, July 11, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/384"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/941786c4-08e3-36a5-866b-cce888d02cf3/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/384/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4041,
+            "width": 3243,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/941786c4-08e3-36a5-866b-cce888d02cf3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4041,
+                                "width": 3243,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/941786c4-08e3-36a5-866b-cce888d02cf3",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/384/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p style=\"text-align: center;\"><b>State Agricultural and Mechanical College</b><br>\nOF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n\n<p><small>A. J. ROSE, President Board of Directors, Salado Texas.<br>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small></p>\n\n[Dateline]\n<p>Salado, Texas, July 11<sup>th</sup> 1880</p>\n\n[Address]\n<p>Louis L McInnis<br>\nCollege Station Txas</p>\n\n[Salutation]\n<p>Dear prof</p>\n\n[Body]\n<p>at 2<sup>30</sup> P.M, I open and read<br>\nyours of the 8<sup>th</sup> I Write hurriadly. Can say<br>\nthat if I can not come will wire you Tuesday<br>\nmorning better set Widesday to meet you<br>\nI am worked down though my appearance does<br>\nnot show it and have more on hand than<br>\nseems possible for me to get through with<br>\nnow and during this and next month.<br>\nnow if I dont wire you Tuesday and nothing<br>\ngets in my way I will meet you at<br>\nDriskal Hotel Tuesday evening, I<br>\nam Yours Truly</p>\n\n[Signature]\n<p>A. J. Rose</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/384/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Text Generation**\n\nOkay, here's what I've got, breaking down this document meticulously. This is a letter, and it looks like I need to make a full transcription. First, I have to analyze the overall structure. It's on some official stationery, which is fun.\n\n[Header]\n\n*   The header is a big deal, of course. It's the \"State Agricultural and Mechanical College\" and then \"OF TEXAS.\" with some flourish, and then \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\". There is a small printed block of names and titles: A. J. Rose (President), T. M. Scott (Agent of the Board), and Louis L. McInnis (Secretary and Treasurer), all with locations. It\u2019s pretty standard for the time.\n\n[Dateline]\n\n*   The dateline is \"Salado, Texas,\" and then \"July 11th\" is handwritten. And then the year. The printed part is \"18__\", but the handwritten part is tricky, the handwritten part has a loop, definitely looks like \"80\" at first, though also like \"90\". Let's think. The letterhead looks old. Let's compare \"80\" with the '8' in \"8th\". The '8' is formed similarly. So 1880, I'll transcribe as \"1880\".\n\n[Address]\n\n*   The addressee is Louis L McInnis, and the location is \"College Station Txas\". Looks like \"Txas\" not \"Texas\".\n\n[Salutation]\n\n*   The salutation is \"Dear prof\". \"prof\" is lowercase.\n\n[Body]\n\n*   The body is handwritten and full of cursive. I need to transcribe it carefully, word by word.\n\n    *   \"at 2 <sup>30</sup> P.M, I open and read\"\n    *   \"yours of the 8<sup>th</sup> I Write hurriadly. Can say\"\n    *   \"that if I can not come will wire you Tuesday\"\n    *   \"morning\" is inserted above \"Tuesday\". \"better set Widesday to meet you\" - This is where the core of the letter's intent comes out. It also looks like \"Wensday\" or \"Widerday\". Given context, It *means* \"Wednesday\", but it *looks like* \"Widesday\" and the instructions are to be accurate.\n    *   \"I am worked down though my appearance does\"\n    *   \"not show it and have more on hand than\"\n    *   \"seems possible for me to get through with\"\n    *   \"now and during this and next month.\"\n    *   \"Now if I dont wire you Tuesday and nothing\"\n    *   \"gets in my way I will meet you at\"\n    *   \"Driskal Hotel Tuesday evening, I\"\n    *   \"am Yours Truly\"\n    *   \"A. J. Rose\"\n\n[Signature]\n\n*   The closing is \"Am Yours Truly\" and \"A. J. Rose.\"\n*   Okay, I'll put it all together while maintaining the structure of the letter. This is like a very literal, textual representation.\n\nHere is the resulting transcription of the letter:\n\n[Header]\n<b>State Agricultural and Mechanical College</b><br>\nOF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)<br>\n<small>A. J. ROSE, President Board of Directors, Salado Texas.<br>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small>\n\n[Dateline]\nSalado, Texas, July 11<sup>th</sup> 1880\n\n[Address]\nLouis L McInnis<br>\nCollege Station Txas\n\n[Salutation]\nDear prof\n\n[Body]\nat 2<sup>30</sup> P.M, I open and read<br>\nyours of the 8<sup>th</sup> I Write hurriadly. Can say<br>\nthat if I can not come will wire you Tuesday<br>\nmorning better set Widesday to meet you<br>\nI am worked down though my appearance does<br>\nnot show it and have more on hand than<br>\nseems possible for me to get through with<br>\nnow and during this and next month.<br>\nNow if I dont wire you Tuesday and nothing<br>\ngets in my way I will meet you at<br>\nDriskal Hotel Tuesday evening, I<br>\nam Yours Truly\n\n[Signature]\nA. J. Rose\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/384/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

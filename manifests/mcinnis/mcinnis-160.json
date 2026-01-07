@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-160.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from T. M. Scott, September 15, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-09-15"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from T. M. Scott, September 15, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/160"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/4fb92b6f-f71d-3c91-be9d-7476d3d665bd/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/160/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3947,
+            "width": 3151,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4fb92b6f-f71d-3c91-be9d-7476d3d665bd/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3947,
+                                "width": 3151,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4fb92b6f-f71d-3c91-be9d-7476d3d665bd",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/160/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Melissa, Texas.<br>\nSept. 15<sup>th</sup> 1886</p>\n\n<p>Prof. L. L. M<sup>c</sup>Innis.<br>\nCollege Station Texas.</p>\n\n<p>Dear Prof. \u2013 Your two<br>\nletters, One convening the Board and the<br>\nother postponding it received. I see from the<br>\nBryan Special, that the number of students<br>\npresent at the College is equal to the capa-<br>\ncity to accomodate them, I am glad of this.</p>\n\n<p>Has the new Ag\u2019rl Prof arrived and<br>\nwhat do you think of him, Can he speak<br>\nintelligible English? I understand he is a<br>\nScotchman, and does he call a road, a wood,</p>\n\n<p>Has the new Commandant put in his appear<br>\nance and how do you like him?</p>\n\n<p>How is Sbisa, I don\u2019t know how to spell his name,<br>\ngetting on with his hen house? and tell me<br>\nabout all that would interest me.</p>\n\n<p>What business is to come before the Board,<br>\nthat requires the attendance of every member,<br>\nand when will they be able to meet, I would<br>\nlike to know some time before they do, if you<br>\ncan tell, Take 15 minnets and write me and One<br>\nminnet and give my kind regards to Mrs M<sup>c</sup> and<br>\na kiss for the little One. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Your friend T. M. Scott.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/160/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. The task is to transcribe a handwritten letter, paying close attention to every detail of its presentation and wording. First, I've identified the basic elements: the location (Melissa, Texas), the date (September 15th, 1886), the addressee (Prof. L. L. McInnis, College Station, Texas), the salutation (\"Dear Prof.\"), and the body of the letter itself, which I'll have to render in individual paragraphs.\n\nI started by looking at the addressee's name. It looks like it could be \"L. L. McInnis\" or possibly \"S. S. McInnis.\" I did a little digging and \"L. L. McInnis\" (likely Louis L. McInnis) seems more probable based on historical context, particularly Texas A&M. The cursive strokes favor the \"L\"s over the \"S\"s when compared to the way 'S' is written elsewhere in the text. I'll stick with \"L. L.\" for now.\n\nThen, I went through the body of the letter carefully. There are a few things that jump out: the crossing out of the word \"two\", the insertion of \"other\" above \"postponding\", the reference to the *Bryan Special* (likely a newspaper column), and the name \"Sbisa\" (possibly referring to Bernard Sbisa, a well-known figure at Texas A&M). I'm carefully taking down the misspellings, like \"minnets\" for \"minutes\" and \"accomodate\" instead of \"accommodate\". The name \"Ag'rl\" Prof is clear (Agricultural Professor)\n\nI'm keeping my eyes on any textual variations. The writer seems concerned about the students, the new agricultural professor, the commandant, and \"Sbisa\" and his hen house.\n\nThere's the sign-off, \"Your friend,\" and then the signature, which appears to be \"T. M. Scott.\" I've confirmed this \"T. M. Scott\" was a Texas A&M Board of Directors member.\n\nI'm now focusing on formatting: how the letter is laid out on the page. I'll maintain the paragraph breaks, line breaks within paragraphs, and the overall structure, with the address on the right and the signature block on the bottom right. I have to avoid HTML tags that are not approved. It appears `u` is not allowed, so no underlining.\n\nSo, the first thing I'll render the header:\n<p>Melissa, Texas.<br>\nSept. 15<sup>th</sup> 1886</p>\n\nThen the addressee block:\n<p>Prof. L. L. M<sup>c</sup>Innis.<br>\nCollege Station Texas.</p>\n\nThen the body.\n\nHere is what the transcribed text will look like:\n\n<p>Dear Prof. \u2013 Your two<br>\nletters, One convening the Board and the<br>\nother postponding it received. I see from the<br>\nBryan Special, that the number of students<br>\npresent at the College is equal to the capa-<br>\ncity to accomodate them, I am glad of this.</p>\n\n<p>Has the new Ag\u2019rl Prof arrived and<br>\nwhat do you think of him, Can he speak<br>\nintelligible English? I understand he is a<br>\nScotchman, and does he call a road, a wood,</p>\n\n<p>Has the new Commandant put in his appear<br>\nance and how do you like him?</p>\n\n<p>How is Sbisa, I don\u2019t know how to spell his name,<br>\ngetting on with his hen house? and tell me<br>\nabout all that would interest me.</p>\n\n<p>What business is to come before the Board,<br>\nthat requires the attendance of every member,<br>\nand when will they be able to meet, I would<br>\nlike to know some time before they do, if you<br>\ncan tell, Take 15 minnets and write me and One<br>\nminnet and give my kind regards to Mrs M<sup>c</sup> and<br>\na kiss for the little One. &nbsp;&nbsp;&nbsp;&nbsp; Your friend T. M. Scott.</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/160/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
