@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-136.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from W. J. Swain, September 18, 1885"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-09-18"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from W. J. Swain, September 18, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/136"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/e05503ae-020f-310c-bbcc-d700aea25313/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/136/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3997,
+            "width": 3139,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e05503ae-020f-310c-bbcc-d700aea25313/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3997,
+                                "width": 3139,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e05503ae-020f-310c-bbcc-d700aea25313",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/136/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Seal_of_Texas.svg/150px-Seal_of_Texas.svg.png\" alt=\"Seal of the State of Texas\" /><br/>\n<small>EXECUTIVE DEPARTMENT</small><br/>\nOffice of Comptroller,<br/>\n<small>W. J. SWAIN, COMPTROLLER.<br/>\nJOHN D. McCALL, CHIEF CLERK.</small><br/>\nAustin, Sept 18 1885\n</p>\n[/Header]\n\n<p>Prof L. L. McInnis<br/>\nCollege. Station.<br/>\nTexas</p>\n\n<p>Dear Sir:<br/>\nYour letter came yesterday<br/>\nand I enclose Drft on N.Y. for<br/>\nAmt your 1st Qr - $55.00 -</p>\n<p>Glad to hear Hal is moving<br/>\noff well. I have written<br/>\nhim to go to you for his in<br/>\nstruction and advice -</p>\n<p>Many thanks for kind interest<br/>\nyou have manifested. He writes<br/>\nthat you have been especially<br/>\nkind to him -</p>\n\n[Signature]\n<p>Truly -<br/>\nW. J. Swain</p>\n[/Signature]</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/136/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I approached this transcription, step by step:**\n\nFirst, I assessed the task: a professional transcription, preserving details from an image, using specific HTML. I broke down the image: official letterhead, 1885, Texas Comptroller, and the sender/recipient. This gave me context. I then tackled the transcription piece by piece.\n\nThe header was straightforward, noting the seal, printed text, and handwritten date. The address was tricky. \"College Station\" was clear in context, but the handwriting was messy, almost like \"O Tolin\" or \"Colly\". I re-examined the strokes, going back and forth, but ultimately transcribed what was logically and visually the best fit. Same with the word under \"College Station,\" which could have been almost anything if not for the \"Texas\" Comptroller context - it looked almost like \"Me\" or \"Md\" but it's \"Texas\" in a stylized scrawl.\n\nThe salutation, \"Dear Sir,\" was simple. The body of the letter was next. I had to decipher the handwriting, like \"Drft on N.Y.\" (Draft on New York) and \"Amt\" (Amount). The word \"Hal\" caused some debate. At first, it looked like a poor 't' without a cross, but considering the context \"Glad to hear...\" and the next sentence referring to \"him,\" it clearly looks like \"Hal.\" I re-read the strokes, and it became clear that \"Hal\" was the intent, a nickname for a son or student. I made a final check on the word, which confirmed it was \"Hal\".\n\nI kept refining, making sure the \"Texas\" line under the address was consistent. The use of \"in\" vs. \"for\" after \"N.Y.\" was another area of analysis. Although it looked like \"in\", \"for\" was most contextually appropriate.\n\nThe final HTML formatting required specific tags, which I used, labeling sections. I chose not to use bolding or italics for the body. The goal was an accurate transcription and presentation. I reread the text multiple times. Each word, each line and the general intent. I had to review the meaning multiple times. I re-formatted the output, using the defined structure. I kept refining the output until I felt it was the best possible rendition of the image.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/136/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

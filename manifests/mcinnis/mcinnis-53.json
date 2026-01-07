@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-53.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Irene Gartner, July 5, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-07-05"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Irene Gartner, July 5, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/e24fa70c-ed09-3bda-ae90-b3f3dcb633a1/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 994,
+            "width": 1917,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e24fa70c-ed09-3bda-ae90-b3f3dcb633a1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 994,
+                                "width": 1917,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e24fa70c-ed09-3bda-ae90-b3f3dcb633a1",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Margin: Mrs Gartner<br/>\nrc / July 8 / 83<br/>\nansd<br/>\nJuly 22 1884]</p>\n\n<p>[Stamp: Postmark HUNTSVILLE TEX JUL 8]<br/>\n[Stamp: US Postage Three Cents]</p>\n\n<p>Prof. L. L. M<sup>c</sup>Innis<br/>\nCollege Station<br/>\nTexas. \u2014</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription of Envelope Image**\n\nOkay, here's what I've got. I'm looking at this image of an envelope and I need to transcribe it carefully. First, I'm analyzing the image's layout and content. I need to make sure I don't miss anything.\n\nThe user wants me to start by analyzing the image, and then summarizing. Let's start with a general breakdown. There's a main address, a postmark, a stamp, and some handwritten notes on the side. I'll need to go through each of these elements systematically, paying close attention to any details that might be unclear. Then, I'll transcribe and format my findings in a structured, easy-to-read way. Let's go.\n\nOkay, now let's go into it!\n\nMy primary goal here is accuracy. It appears that the goal is to fully transcribe the contents. Therefore I will include all of the characters in the image, even if some of them are hard to read.\n\nHere's my thought process as I go through this. I can see the main address is for \"Prof. L. L. McInnis, College Station, Texas.\" The postmark says \"HUNTSVILLE JUL 8 TEX.\" I also see a stamp that reads \"US Postage, 3 Cents.\" I can make out a green color and a profile of Washington on the stamp.\n\nThen, there's some text written vertically on the left side of the envelope. I'll tackle this marginalia first.\n\nIt seems to read \"Mrs Gartner\" in red pencil at the top. The rest of the text is in black ink. It looks like \"rc / July 8 / 83,\" then \"ansd,\" and finally \"July 22 1884.\" Hmm, that date \"July 22 1884.\" Why is that year different? I'm going to transcribe exactly what I see.\n\nOkay, let's look at the letters. I think this first section is pretty clear. I can clearly read \"rc / July 8 / 83\".\n\nThe last digit in the two dates is critical. Is that a '3' or a '4'? Okay, focusing really hard, it looks like \"3\" and \"4.\"\n\nOkay, let's start writing it out.\n\nI think I'll use a `p` tag with line breaks inside.\n\nHere is the transcription:\n\n<p>[Margin: Mrs Gartner<br/>\nrc / July 8 / 83<br/>\nansd<br/>\nJuly 22 1884]</p>\n<p>[Stamp: Postmark HUNTSVILLE TEX JUL 8]<br/>\n[Stamp: 3 cents US Postage]</p>\n<p>Prof. L. L. M<sup>c</sup>Innis<br/>\nCollege Station<br/>\nTexas. \u2014</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3002,
+            "width": 1870,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/5add9577-a39e-351e-a585-b8cddb3fad60/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3002,
+                                "width": 1870,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5add9577-a39e-351e-a585-b8cddb3fad60",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p align=\"right\">Huntsville Tex<br>\nJuly 5<sup>th</sup> 1883.</p>\n\n<p>Prof. L. L. McInnis;<br>\nDear Sir:</p>\n\n<p>Your letter with<br>\nenclosed voucher, I received yesterday.<br>\nPlease settle the Miss Hall bill<br>\nfor me; I will be so glad when<br>\nit is paid. &mdash; It was quite a<br>\nsurpise to me, that M<sup>r</sup> Gardner<br>\nwas allowed $ 38 for improvements<br>\nI did not expect it at all. &mdash;&mdash;<br>\nI thank you very, very much<br>\nM<sup>r</sup> McInnis, for the kind<br>\ninterest you take in my affairs.<br>\nWe all hope to see you this summer.<br>\nI am again suffering with chills,<br>\n+ of course feel lowspirited + discouraged;<br>\nI had a very hard one yesterday, it seems<br>\nimpossible for me, to get well.<br>\nAre you going North this Summer?<br>\nI hope you will have a pleasant<br>\nvacation, + get thoroughly rested.<br>\nMother + Sister join me in kind<br>\nwishes</p>\n\n[Signature]\n<p align=\"right\">Sincerely,<br>\nIrene Gardner.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My current thinking is focused on accurately transcribing this handwritten letter, paying close attention to the details and nuances of the original text while adhering to the user's specific guidelines.** I begin by breaking down the task: I need to interpret the handwritten text, preserve the original spelling and punctuation, and maintain the document's layout using specific HTML tags. I'm operating as a professional transcriptionist, so accuracy is paramount.\n\nI carefully examine the document. It's a letter from Irene Gardner in Huntsville, Texas, dated July 5th, 1883, addressed to Professor L. L. McInnis. The handwriting is typical of the 19th century\u2014cursive, generally legible, but with certain stylized letterforms that require careful consideration.\n\nI proceed step-by-step. First, I transcribe the header, noting that \"Tex\" might have a superscript flourish and that the date uses a superscript \"th.\" I then transcribe the salutation, followed by the body paragraphs, paying close attention to each word, character, and punctuation mark. I note the stylized dollar sign, the use of dashes, and the potential for a missing or compressed letter in \"surpise.\" Also, the \"&\" is a plus sign; I have to determine how best to represent this character to make it accurate to the prompt. I'm keeping the original line breaks in mind and making sure to preserve all layout information.\n\nAs I work, I'm constantly refining and formatting the transcription. I use the appropriate HTML tags: `<p>` for paragraphs, `<br>` for line breaks, and `<sup>` for superscripts. I double-check the spelling, punctuation, and HTML to ensure I'm adhering to the prompt.\n\nI'm making sure that the final transcription meets the user's requirements for layout, spelling, and markup. I verify \"Miss Hall\", \"$38\", \"surpise\", \"lowspirited\", \"North\", and \"Summer\". I analyze the ambiguous \"+\" and determine how best to represent this handwritten symbol. While the conventional transcription is \"&\", the instructions are to \"Interpret handwritten text as accurately as possible\" and the symbol is visually a plus sign, so I use `+` to maintain faithfulness to the glyph. I make sure I am keeping all line breaks in mind. I go back to see if I should transcribe the \"+\" as the symbol, and decide to make that a design decision.\n\nI re-examine the ambiguous word at the start of the fourth paragraph to ensure my interpretation of \"Are\" is correct, comparing it with other letters. I conclude it is \"Are\" as this fits the context. I then look at \"surpise\" and will transcribe that based on its appearance.\n\nFinally, I meticulously review the entire transcription, ensuring that every detail is captured accurately. I carefully organize the transcription to fit the request. I'm now certain that the transcription is complete, accurate, and properly formatted, ready to be provided as output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/53/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

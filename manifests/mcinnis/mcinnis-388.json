@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-388.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Rose, July 28, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-07-28"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Rose, July 28, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/388"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/e87bd691-72a8-3517-8fb7-3d6f58525ef6/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/388/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4258,
+            "width": 3291,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e87bd691-72a8-3517-8fb7-3d6f58525ef6/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4258,
+                                "width": 3291,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e87bd691-72a8-3517-8fb7-3d6f58525ef6",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/388/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><small>WHOLESALE DEALERS<br/>\nAND IMPORTERS IN<br/>\nGROCERIES, DRY GOODS,<br/>\nNOTIONS,<br/>\nBOOTS, SHOES<br/>\nAND HATS.</small></p>\n\n<p>OFFICE OF<br/>\nTEXAS CO-OPERATIVE ASSOCIATION,<br/>\n<small>P. of H.</small><br/>\nCorner Strand and 20th Streets.</p>\n\n<p><small>Chartered July 5th, 1878.<br/>\nCOTTON FACTORS,<br/>\nGENERAL<br/>\nCOMMISSION AND PURCHASING<br/>\nAGENCY.<br/>\nJ. S. ROGERS, MANAGER.</small></p>\n\n<p>Galveston, Texas, July 28<sup>th</sup> 1890</p>\n\n<p>Louis L McInnis<br/>\nCollege Station Texas<br/>\nDear Prof</p>\n\n<p>In reply to yours of 27<sup>th</sup> will<br/>\nsay that the Board understands that<br/>\nyou are relieved from the College,<br/>\nI [illegible] wish you well, and great<br/>\nsuccess, I would write more but<br/>\nam pressed for time<br/>\nYours most Truly<br/>\nA. J. Rose</p>\n\n<p>P.S. In regard to your Bond<br/>\nthe Board should make you<br/>\na sufficient guarantee untill<br/>\nyour Bonds can be transferd.<br/>\nA. J. Rose</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/388/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I approached this transcription task, using my expertise in document analysis and transcription:**\n\nFirst, I assessed the directive. The goal is a faithful rendering of the document's content, prioritizing accuracy and visual fidelity while adhering to the specified HTML and Markdown guidelines. My role is to act as a transcriptionist, focusing solely on the output and not commentary.\n\nNext, I thoroughly examined the image, taking note of its structural components: letterhead, handwritten sections (date, recipient, body, closing, and postscript), and signature. I needed to decipher the handwriting, paying close attention to unclear characters or potential ambiguities. Historical context, like the association of \"Louis L. McInnis\" with Texas A&M, proved essential in resolving uncertainties. I needed to stick to what I visually saw, but where there were ambiguous letters (L/G/J) based on context, I would use the one supported by handwriting and cross-reference with historical figures.\n\nMy initial transcription process involved drafting the text, organizing it into the specified HTML structure, and interpreting the layout of the letterhead. I had to make crucial decisions about line breaks, character interpretations, and the use of HTML elements to mirror the visual presentation of the text. Because there was no column HTML tag, and no markdown, I used breaks to delineate the left/center/right.\n\nI then refined the transcription iteratively. I re-evaluated my initial readings, particularly the handwritten parts (e.g., the \"will/inst\" ambiguity after \"27th\"). I also double-checked punctuation, capitalization, and the spelling of words like \"guarantee\" and \"transferd.\" I looked up the historical figure to confirm the likely middle initial of the recipient.\n\nThe prompt specified that author-deleted text or markings should be noted or omitted, but didn't say how. Since the HTML tags were limited, I handled the \"crossed out\" text as if the text had been deleted and not present in the final version of the document.\n\nThe challenge of representing the letterhead's layout within the constraints of HTML and Markdown was tackled by prioritizing the visual hierarchy of information. I decided that a structured top-to-bottom reading would best communicate the document's design and intent, recognizing that tables could not be used and columns were not easily achievable.\n\nI focused on a clear HTML rendering and accurate character transcription, taking into account context. I included all of the text, but the crossed out text.\n\nFinally, I performed a careful and complete final review, ensuring all requested tags were used correctly and that the output accurately reflects the original document's content and structure.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/388/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

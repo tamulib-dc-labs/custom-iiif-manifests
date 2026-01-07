@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-87.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from H. H. Dinwiddie, August 8, 1884"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1884-08-08"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from H. H. Dinwiddie, August 8, 1884"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 18 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/2bdcf434-170c-3815-a24e-4f8c54b51074/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3592,
+            "width": 2157,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/2bdcf434-170c-3815-a24e-4f8c54b51074/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3592,
+                                "width": 2157,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2bdcf434-170c-3815-a24e-4f8c54b51074",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>STATE AGRICULTURAL AND MECHANICAL COLLEGE<br>\n&mdash; OF TEXAS &mdash;<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p><small>H. H. DINWIDDIE,<br>\nChairman of the Faculty.</small></p>\n\n<p><i>College Station, Texas,</i> Aug. 8 <i>188</i>4.</p>\n\n<p>My dear McInnis</p>\n\n<p>Yours of the 4<sup>th</sup> is before<br>\nme. I got home Wednesday.<br>\nTuesday I spent at a large<br>\nGrange meeting near Reagan.<br>\nAt 11 oclock I addressed<br>\nthem on the subject of the<br>\nCollege. I struck out boldly<br>\nwithout M.S. and talked<br>\nfor an hour and ten minutes.<br>\nThey gave me the closest<br>\nattention during the entire time<br>\nI think they took to the<br>\nCollege finely. From every<br>\nquarter come the most cheerin</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analyzing and Transcribing the Handwritten Letter**\n\nOkay, here's what I've got. I'm looking at this handwritten letter and breaking it down. First, I see the header: \"STATE AGRICULTURAL AND MECHANICAL COLLEGE,\" then a line that says \"-- OF TEXAS --,\" and then \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\" which is smaller text. Below that, I see \"H. H. DINWIDDIE,\" also in smaller text, and below that \"Chairman of the Faculty.\" Alright, then there's the dateline: \"College Station, Texas, Aug. 8 1884.\" The \"188\" part is printed, and the \"4\" looks like it was written in. Then, the salutation: \"My dear McInnis\". The body of the letter is next.\n\nI need to make sure I get the transcription perfect. The letter says, \"Yours of the 4th is before me. I got home Wednesday. Tuesday I spent at a large Grange meeting near Reagan. At 11 oclock I addressed them on the subject of the College. I struck out boldly without M.S. and talked for an hour and ten minutes. They gave me the closest attention during the entire time I think they took to the College finely. From every quarter come the most cheerin\".\n\nNow, time to make sure I transcribe everything correctly. The handwriting is fairly clear, but I want to be 100% accurate. Okay, \"Aug. 8\" is clear, and the \"4\" in \"1884\" is definitely handwritten. The \"McInnis\" handwriting is clear, \"M\" is distinct and capital, \"c\" is small, the \"I\" is large and clear, \"nnis\". The \"4\" in \"4th\" has a superscript \"th\". The text \"Wednesday\" is clear. \"Tuesday\" is clear. \"Grange\" in \"Grange meeting\" is capitalized. \"Reagan\" is clear. \"11 oclock\" - the words \"o\" and \"clock\" are connected as \"oclock\". \"M.S.\" has two periods. \"finely\" is clear. And, oh, \"cheerin\" is cut off at the edge of the page. So I must stop where the text stops: \"cheerin\".\n\nLet's make a draft with the HTML allowed tags.\nOkay, first let's transcribe the letter:\n\n[Header]\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE<br>\n&mdash; OF TEXAS &mdash;<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small>\n<small>H. H. DINWIDDIE,<br>\nChairman of the Faculty.</small>\n\n[Dateline]\n<i>College Station, Texas,</i> Aug. 8 <i>188</i>4.\n\n[Body]\nMy dear McInnis\n<br>\nYours of the 4<sup>th</sup> is before<br>\nme. I got home Wednesday.<br>\nTuesday I spent at a large<br>\nGrange meeting near Reagan.<br>\nAt 11 oclock I addressed<br>\nthem on the subject of the<br>\nCollege. I struck out boldly<br>\nwithout M.S. and talked<br>\nfor an hour and ten minutes.<br>\nThey gave me the closest<br>\nattention during the entire time<br>\nI think they took to the<br>\nCollege finely. From every<br>\nquarter come the most cheerin\n\nNow for a refined version, incorporating all the guidelines. It doesn't look like I need to format font except `<small>`, and the text is not fully centered, so I will stick with line breaks. The dateline will go after the header. I need to make sure I use `<p>` for paragraphs. I am making it all text. I am not using the `<i>` to distinguish font except for the italics in the letter transcription. I will use the `<p>` format everywhere. Let's make sure I preserve the line breaks. I should include the structural labels, e.g. `[Header]`.\n\n[Header]\n<p>STATE AGRICULTURAL AND MECHANICAL COLLEGE<br>\n&mdash; OF TEXAS &mdash;<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n<p><small>H. H. DINWIDDIE,<br>\nChairman of the Faculty.</small></p>\n\n<p><i>College Station, Texas,</i> Aug. 8 <i>188</i>4.</p>\n\n<p>My dear McInnis</p>\n\n<p>Yours of the 4<sup>th</sup> is before<br>\nme. I got home Wednesday.<br>\nTuesday I spent at a large<br>\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3592,
+            "width": 2157,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4a9db497-a685-3c30-ad87-d2560300b8e0/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3592,
+                                "width": 2157,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4a9db497-a685-3c30-ad87-d2560300b8e0",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>reports of our prospects and<br>\nI think we will be crowded<br>\nnext year. Profs. Bringhurst<br>\nand Whipprecht are now her[e]<br>\nDr. Read and Col. Cole are a[t]<br>\nthe Confed. reunion in Dallas.<br>\nSmith is travelling in Central<br>\nTexas. Mrs. D. did not return<br>\nwith me. I go to Galveston<br>\nTuesday. Kind regards to<br>\nMrs. M.S. They are getting<br>\nup all sorts of attractions at<br>\nPhiladelphia. Exasperating<br>\nthat we cant go.</p>\n[Signature]\n<p>Ever Truly Yours -<br>\nL. L. McInnis</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, here's my interpretation of this handwritten letter. My initial thought is to tackle this methodically, breaking down each element.\n\n1.  **Analyze the Image:** It's an old letter, handwritten in cursive. The paper is aged, with stains and some tears, especially along the right edge. That tear is important, I need to account for any words or letters potentially lost there.\n\n2.  **Transcription:** Now, to transcribe this, line by line.\n\n    *   **Line 1:** \"reports of our prospects and\" \u2013 Easy enough, it appears to be \u201creports of our prospects and.\u201d\n    *   **Line 2:** \"I think we will be crowded\" \u2013 Clear: \u201cI think we will be crowded.\u201d\n    *   **Line 3:** \"next year. Profs. Bringhurst\" \u2013 \"next year.\" is clear. Then \"Profs.\" which is likely an abbreviation of \u201cProfessors.\u201d And the surname is \u201cBringhurst.\u201d I'm familiar with a \"Prof. Bringhurst\" from Texas A&M history, which, given the context mentioning \"Dr. Read\", \"Col. Cole\", and locations like \"Dallas\" and \"Galveston,\" seems very likely to be a fit.\n    *   **Line 4:** \"and Whipprecht are now her[e]\" \u2013 \"and\" is clear. The name looks like \u201cWhipprecht.\u201d I also recall a Professor Whipprecht at Texas A&M. Now, the end of the line is problematic because of the paper tear. It looks like \u201cher[e],\u201d the 'e' being cut off.\n    *   **Line 5:** \"Dr. Read and Col. Cole are a[t]\" \u2013 \"Dr. Read\", \"and\", \"Col. Cole\" all straightforward. The end of the line, again, is torn. \"a[t]\" looks correct as a best fit for the cut-off letter.\n    *   **Line 6:** \"the Confed. reunion in Dallas.\" \u2013 \"the,\" \"Confed.\" (likely for Confederate), \"reunion\", \"in\", and \"Dallas.\" are all clear and make sense.\n    *   **Line 7:** \"Smith is travelling in Central\" \u2013 \"Smith\", \"is\", \"travelling\" (note the double \"l\"), \"in\", and \"Central\" are all standard.\n    *   **Line 8:** \"Texas. Mrs. D. did not return\" \u2013 \u201cTexas.\u201d is the first, the \"Mrs. D.\" is clear. The word \u201creturn\u201d is a bit messy, the \u201ct\u201d is uncrossed which is very common in fast cursive, so despite that, It does read: \"r-e-t-u-r-n\".\n    *   **Line 9:** \"with me. I go to Galveston\" \u2013 \"with me.\" is clear. \"I go to Galveston\" is also clear.\n    *   **Line 10:** \"Tuesday. Kind regards to\" \u2013 \u201cTuesday.\u201d And \"Kind regards to\" is very easy.\n    *   **Line 11:** \"Mrs. M.S. They are getting\" \u2013 The \"Mrs.\" is clear. Then, \"M.S.\". It looks like it could be \"M.S.\" or \"M.J.\". Let's look closely - the shape. It does appear to be an \"S\".\n    *   **Line 12:** \"up all sorts of attractions at\" \u2013 \"up all sorts of attractions at\" (attractions is written \"attractios\" or similar, looks like \"attractions\").\n    *   **Line 13:** \"Philadelphia. Exasperating\" \u2013 \u201cPhiladelphia.\u201d And \"Exasperating\" (is spelled correctly).\n    *   **Line 14:** \"that we cant go.\" \u2013 \"that we can't go.\" is clear.\n    *   **Line 15:** \"Ever Truly Yours -\" \u2013 \"Ever Truly Yours -\". It looks as though \"Yours\" is followed by a dash.\n\n3.  **Signature:**\n\n    *   The signature is \"L. L. McInnis\". The name fits with the historical context of A&M.\n\n4.  **Formatting and Structure:** The format will be: Paragraphs for the main text, using `<br>` for line breaks, and labeling the signature section.\n\n**Here\u2019s the transcribed text, with HTML for structure:**\n\n```html\n<p>reports of our prospects and<br>\nI think we will be crowded<br>\nnext year. Profs. Bringhurst<br>\nand Whipprecht are now her[e]<br>\nDr. Read and Col. Cole are a[t]<\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/87/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

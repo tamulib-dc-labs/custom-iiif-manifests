@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-29.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, June 4, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-06-04"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, June 4, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/42f1f422-dda2-382e-98d3-a8bf1c74d514/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/42f1f422-dda2-382e-98d3-a8bf1c74d514/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/42f1f422-dda2-382e-98d3-a8bf1c74d514",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Bonham Texas.<br/>\nJune 4<sup>th</sup> 1882.</p>\n\n<p>My Dear Professor:<br/>\nYour good letter<br/>\nrecd read & enjoyed. I fear that<br/>\nI shall be unable to meet you<br/>\nat Hempstead on Friday 16<sup>th</sup>.<br/>\nOur Trustees will hold, - according<br/>\nto custom - their Annual meeting<br/>\nat 10 A.M. Saturday 17<sup>th</sup>. My Annual<br/>\nreport will be due & called for at<br/>\nthat hour. I could return at<br/>\n12 M. on Saturday. If possible I<br/>\nwill meet you at place suggested<br/>\nbut the chances are against<br/>\nme. Besides, our sermon will<br/>\nbe preached on Sabbath & I shall<br/>\nbe full of business until<br/>\nthe close of the public Exercises.<br/>\nNothing but dire necessity<br/>\nwill prevent me from seeing you -<br/>\nI was so much in hopes to<br/>\nsee you at Tyler. I have<br/>\nsome business matters there &<br/>\nexpect to leave for Tyler via</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Comprehensive Transcription of Handwritten Letter**\n\nAlright, let's break down this task. My immediate goal is to accurately transcribe this handwritten letter from Bonham, Texas, June 4th, 1882. It's in cursive, the ink is purple/blue, and it's on lined paper, although the lines are faint. I'll need to capture the exact words while paying close attention to the formatting, capitalization, and any peculiar letter formations \u2013 because those details often carry historical significance. I'll need to use the permitted HTML tags as the instructions dictate.\n\nFirst, I'll identify and label structural elements like the header, salutation, and body, being mindful of the formatting (right-aligned header, etc.) and line breaks, using allowed HTML tags. I'll meticulously transcribe the body, noting any potential ambiguities. For instance, the word after \"letter\" looks like \"recd,\" but the last letter looks like \"u\", so I must read it within the context, so this must be \"recd\". The abbreviation \"12 M.\" for noon and will be written as \"12. M.\" with a period as it is clearer from the image. Superscripts like \"th\" will be preserved using `<sup>`.\n\nI'll check the transcription against the image multiple times for accuracy, paying close attention to any potentially unusual letter formations or scribbles. I'll deal with any possible contractions, and abbreviations that were common in the late 19th century. Then, I'll review and double-check, looking for any inconsistencies or errors and ensuring all instructions are followed. I need to be precise, I can't guess!\n\nThen, I'll finalize the transcription, incorporating the formatting as required by the guidelines. \"My Dear Professor:\" seems to be the salutation. The letter's content seems to be about the writer's inability to meet the professor at a specific time, due to trustees' meetings and other commitments. There's a mention of Hempstead, Friday 16th, Tyler, and a Sabbath sermon, which gives the impression of a busy schedule. The tone is apologetic, conveying regret at the missed opportunity to meet. Overall, it's a courteous letter with practical content that needs a careful and thorough transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/41559cc6-1e85-3b36-a5df-1619a0d65537/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/41559cc6-1e85-3b36-a5df-1619a0d65537",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n[1882, June 4] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2\n</p>\n<p>\nCorsicana on Thursday eve 22\u2013<br/>\nI want to see Gov. Hubbard &<br/>\nother friends in Eastern Texas<br/>\nrelative to my making application<br/>\nfor Chair of Ancient Languages<br/>\nin the University \u2013 I see that<br/>\nDr Rambaut A M. D.D. LL.D. was<br/>\nin Austin some days ago.<br/>\nProspecting no doubt. I learn<br/>\nalso that Gen. D. H Hill wishes<br/>\na place \u2013 Our quondam Prof. H.<br/>\nof course will go to Austin & camp<br/>\nabout 1<sup>st</sup> of Aug. If Hubbard<br/>\nwere on the Board I should<br/>\nmake application with but<br/>\nlittle hesitancy \u2013 as it is, I am<br/>\nwithout a personal acquaintance<br/>\nin the Regency \u2013 At your<br/>\nCommencement you will have<br/>\nan opportunity to gather some<br/>\nfacts & surmises. If you can<br/>\ngather any thing favorable or un-<br/>\nfavorable to my aspirations, let<br/>\nme have it with your advise.<br/>\nI do not think that a full faculty\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription and Analysis of a Letter Fragment**\n\nAlright, let's break this down. It appears I'm looking at a handwritten letter, page two judging by the \"2\" at the top, dated June 4, 1882, according to the penciled annotation. The writing is in faded purple ink, a clear cursive style of the late 19th century.\n\nThe main content seems to be a continuation of a prior letter, as indicated by the \"2\". The writer, presumably me, is planning a trip, or already made a trip, to Corsicana on Thursday evening, the 22nd. The date is a possible future plan, as the letter is marked June 4, 1882 and the 22nd of June, 1882 was a Thursday. The primary focus of this letter is on pursuing a position, specifically the \"Chair of Ancient Languages in the University.\"\n\nThe plan is to meet with Governor Hubbard and other connections in Eastern Texas. This is \"relative to my making application\" for that \"Chair.\" Apparently, I'm aware of Dr. Rambaut being in Austin recently, and am speculating on his activities. I also gather that General D. H. Hill is also interested in a position. Furthermore, it seems that our \"quondam Prof. H.\" (meaning \"former,\" a Latin term commonly used in those circles) will be headed to Austin \"about 1st of Aug,\" presumably around August 1st. I observe that if Hubbard was on the \"Board\" (likely the Board of Regents), I would apply without hesitation. However, since I lack personal connections within the \"Regency\" (the governing body), I need some assistance.\n\nI'm hoping to get some information. The recipient is attending a \"Commencement\" and I am asking them to gather any \"facts & surmises\" on how I would be viewed as an applicant, for either \"favorable or un-favorable\" details that might help my \"aspirations,\" so that you can offer me your \"advise.\" My implication is that a full faculty are currently missing.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/75904a30-fc19-32fa-a8ef-7538ff44220f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/75904a30-fc19-32fa-a8ef-7538ff44220f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[1882, June 4] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3\n\nCan or will be provided for at\nthe opening of the Univ. - but certainly\nthe Chain of Ancient Languages\nwill be among the first provided for.\nI suppose no changes are contemplated\nin your Faculty. For the next two\nweeks I shall be oppressed with\nwork + responsibility + before the close\nI expect I shall long for a \"Cot\nin a vast wilderness\".\nNat. Teachers Association, I think,\nwill meet at Saratoga a 10th July.\nIs Prof. J. H. Ranton mentioned in\nHollingsworths Journal for May -\nthe J. H. Ranson we knew at U. M. C.?\nIf so he is now at Colgates N.Y.\nJudge Leland - I suppose - will\nbe our next Gov. As far as I\nknow he is a good & pure man.\nI shall hear from you again before\nyour Commencement Closes - if I am\nunable to see you at H.\nThe phenomenal weather has kept me\nalmost sick for some weeks.\nLet me hear from you soon Your friend\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; J. T. Hand</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription & Interpretation of a Handwritten Letter**\n\nOkay, here's what I've got from the image. It's a handwritten letter, looks like from around 1882, written in purple ink on lined paper, with a pencil date at the top: `[1882, June 4]` and page number `3`. I'm treating it like a technical task, going line by line, trying to figure out all the words, preserving the original spelling and punctuation, even when it\u2019s a bit unusual. My primary focus is on accuracy here.\n\nSo, let's start:\n\n<p>[1882, June 4] 3</p>\n<p>Can or will be provided for at<br/>\nthe opening of the Univ. - but certainly<br/>\nthe Chain of Ancient Languages<br/>\nwill be among the first provided for.<br/>\nI suppose no changes are contemplated<br/>\nin your Faculty. For the next two<br/>\nweeks I shall be oppressed with<br/>\nwork + responsibility + before the close<br/>\nI expect I shall long for a \"Cot<br/>\nin a vast wilderness\".</p>\n<p>Nat. Teachers Association, I think,<br/>\nwill meet at Saratoga a 10th July.<br/>\nIs Prof. J. H. Ranton mentioned in<br/>\nHollingsworths Journal for May -<br/>\nthe J. H. Ranson we knew at U. M. C.?<br/>\nIf so he is now at Colgates N.Y.<br/>\nJudge Leland - I suppose - will<br/>\nbe our next Gov. As far as I<br/>\nknow he is a good & pure man.<br/>\nI shall hear from you again before<br/>\nyour Commencement Closes - if I am<br/>\nunable to see you at H.<br/>\nThe phenomenal weather has kept me<br/>\nalmost sick for some weeks.<br/>\nLet me hear from you soon Your friend<br/>\nJ. T. Hand</p>\n \nSo, line by line, I see a bit of a discussion about university staffing, and specifically, the \"Chain of Ancient Languages\". This is a bit unusual. Then, there's a mention of the \"Nat. Teachers Association\" meeting in Saratoga in July. After that, the writer asks about Professor J. H. Ranton in \"Hollingsworths Journal\" - and whether he is the same person they knew at \"U.M.C.\" The reference to \"U.M.C.\" is intriguing. It's followed by a statement that he is now at \"Colgates N.Y.\" This is the Colgate University.  \n\nThe letter then moves on to politics, with a comment about \"Judge Leland\" becoming the next Governor. Seems the writer is located somewhere where Cyrus Leland was influential. The letter ends with typical friendly sentiments and a signature. \"J. T. Hand\".\n\nNow, some of the details are a bit tricky. The handwriting is a little faded and stylized. For instance, the name \"Ranton\" in line 13 looks slightly different from \"Ranson\" in line 15, but it could just be handwriting style. Similarly, there is a reference to a `Chain` and `Chair` of languages, this may refer to a sequence or department. The most interesting aspect of the note is the reference to \"Colgates N.Y.\" This is a key detail. The writer seems connected to education.\n\nMy final analysis of the words is reflected above, preserving the idiosyncrasies of the original.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/29/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

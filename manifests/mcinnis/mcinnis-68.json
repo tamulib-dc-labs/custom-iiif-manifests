@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-68.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Irene Gartner, April 7, 1884"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1884-04-07"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Irene Gartner, April 7, 1884"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 16 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/aed1b40e-fb26-3eff-8316-fa30d1bf42d2/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3167,
+            "width": 1950,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/aed1b40e-fb26-3eff-8316-fa30d1bf42d2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3167,
+                                "width": 1950,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/aed1b40e-fb26-3eff-8316-fa30d1bf42d2",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">Huntsville, Tex.,<br/>\nApr., 7<sup>th</sup>, 1884.-</p>\n\n<p>Prof. M<sup>c</sup>Innis;<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir:</p>\n\n<p>Will you<br/>\nplease ascertain from the<br/>\nPost Master, at College,<br/>\nif a German Magazine<br/>\nfrom Berlin, \"Philologische<br/>\nWochenschrift\", came to Prof.<br/>\nGartners address, during the<br/>\nyear 1883? I did not know<br/>\nthat the Magazine had been<br/>\nsubscribed for, until the bill<br/>\nwas sent to me, & thought<br/>\nperhaps the books might still<br/>\nbe lying in the Post Office, at<br/>\nCollege. - I will be under many<br/>\nobligations, if you will find out,</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription and Analysis of a Handwritten Letter**\n\nOkay, here's what I've got. This letter is a pretty straightforward request, but the handwriting has a few quirks that I want to make sure I'm capturing accurately. It appears to be a handwritten letter, on lined paper, sent from Huntsville, Texas on April 7th, 1884. The addressee seems to be \"Prof. M<sup>c</sup>Innis\". The superscript \"c\" is noticeable; let's transcribe it correctly.\n\nThe letter begins with a simple \"Dear Sir:\". The writer is requesting the addressee to ascertain from the \"Post Master\" at \"College\" (likely College Station, TX, near Texas A&M) if a German magazine, \"Philologische Wochenschrift\" (which is a real publication, I should note) from Berlin, was sent to \"Prof. Gartners\" address during the year 1883. It looks like the writer is unsure if the magazine subscription was renewed and the bill arrived recently. Given the \"Prof. McInnis\" context, and the German journal, it's very likely the Professor is involved with Texas A&M.\n\nI'm making a note of the slight flourish after the word \"Gartners\". Is there an apostrophe, indicating possession? The writer doesn't seem to be consistent with the apostrophe usage in other places. After careful consideration, I'm going to assume this is meant to be a possessive \"Gartners address\". The \"s\" at the end of \"Gartners\" has a small tail or cross-stroke, similar to other 's' endings in the text. I'm choosing to render it exactly as it appears. I will be sure to maintain the line breaks from the original document. Also, I'm noting the capitalization of several key words: \"Post Master\", \"College\", \"German\", \"Magazine\", \"Berlin\", \"Philologische\", and \"Wochenschrift\". The writer also used an ampersand, which I will maintain.\n\nHere's the final transcription, adhering to IIIF-compatible formatting guidelines:\n\n```html\n<p>\nHuntsville, Tex.,<br/>\nApr., 7th, 1884.-\n</p>\n<p>\nProf. M<sup>c</sup>Innis;<br/>\nDear Sir:\n</p>\n<p>\nWill you<br/>\nplease ascertain from the<br/>\nPost Master, at College,<br/>\nif a German Magazine<br/>\nfrom Berlin, \"Philologische<br/>\nWochenschrift\", came to Prof.<br/>\nGartners address, during the<br/>\nyear 1883? I did not know<br/>\nthat the Magazine had been<br/>\nsubscribed for, until the bill<br/>\nwas sent to me, & thought<br/>\nperhaps the books might still<br/>\nbe lying in the Post Office, at<br/>\nCollege. - I will be under many<br/>\nobligations, if you will find out,\n</p>\n```\nI've reviewed this a few times to make sure it's accurate, capturing all the details of the original as precisely as I can.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3167,
+            "width": 1950,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/32593bac-5d50-3306-8295-454a9e50d539/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3167,
+                                "width": 1950,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/32593bac-5d50-3306-8295-454a9e50d539",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>& let me know, as soon as<br>\npossible. \u2013<br>\nVery Respectfully,<br>\n[Signature] Irene G\u00e4rtner.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, here's how I'm approaching this. First, I need to understand what I'm looking at. The image is of the bottom part of a handwritten letter \u2013 lined paper, folded horizontally, and the handwriting is cursive, elegant, and slanting slightly. It looks like a formal closing.\n\nI need to transcribe this line by line. Let's start with the first line: \"& let me know, as soon as\". The ampersand, or plus sign, at the beginning is crucial; it's likely part of a sentence continued from a previous page. I can make that out clearly and then it's \"let me know\" and \"as soon as\".\n\nLine two is \"possible. \u2013\". The \"possible\" is clear, and the punctuation looks like a period followed by a dash.\n\nLine three is \"Very Respectfully,\". Both words are capitalized, and there's a comma at the end.\n\nThe final line is the signature: \"Irene G\u00e4rtner.\". The first name is \"Irene\" -- a stylized capital 'I' followed by the other letters. Then, I see \"G\u00e4rtner\". It's a 'G' followed by an '\u00e4' (umlaut is visible as two dots over the 'a'), and then the 'r', 't', 'n', 'e', and 'r'. A period ends the signature.\n\nNow, according to the guidelines, I need to format this for presentation, using HTML. Top to bottom, preserving spelling and punctuation. The image specifies line breaks. And I have to label certain elements. The markup should use only the allowed IIIF tags, which are a, b, br, i, img, p, small, span, sub, and sup.\n\nSo, for the body of the text, I'll use `<p>`. I see there's a `<br>` tag for line breaks, which is ideal here. I'll need to wrap the whole thing in a single `<p>` tag. I can use simple text for the signature. I will need the label [Signature].\n\nOkay, the structure is:\n`& let me know, as soon as`<br>\n`possible. \u2013`<br>\n`Very Respectfully,`<br>\n`[Signature] Irene G\u00e4rtner.`\n\nLet's look at the signature again. \"Irene\" looks correct. And \"G\u00e4rtner\" is clearly \"G\u00e4rtner\", that's the correct spelling with the umlaut. The first symbol is an ampersand.\n\nThe indentation, I can\u2019t preserve the exact indentation with the limited HTML tags. I will just stick to line breaks, to preserve the visual structure as closely as possible.\n\nThe first character: It's a cross, likely a plus sign or an ampersand, and based on the other characters and context, it is `&`.\n\nFinal Transcription:\n<p>& let me know, as soon as<br>\npossible. \u2013<br>\nVery Respectfully,<br>\n[Signature] Irene G\u00e4rtner.</p>\n\nI've double-checked that it matches the image, and I think I'm ready to submit.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/68/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
