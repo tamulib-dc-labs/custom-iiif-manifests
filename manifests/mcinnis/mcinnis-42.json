@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-42.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, January 30, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-01-30"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, January 30, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f4db9043-2450-3707-aaff-26ac227fdb04/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3728,
+            "width": 2337,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f4db9043-2450-3707-aaff-26ac227fdb04/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3728,
+                                "width": 2337,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f4db9043-2450-3707-aaff-26ac227fdb04",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Supt's Office<br>\nCorsicana Tex, Jany 30<sup>th</sup> 1883.</p>\n<p>My Dear Professor:<br>\nYour welcome Postal<br>\nof 28<sup>th</sup> inst just recd & I hasten to reply.<br>\nI recd your letter of December last &<br>\nwrote you just before the holidays.<br>\nbut my letter failed to reach you &<br>\nhence may be termed the \"missing link\".<br>\nOur schools are moving on & up I trust.<br>\nOur enrollment I think, at the end<br>\nof present week will reach 700.<br>\nWe have excellent equipments but<br>\nour grades are all too large for<br>\nefficient satisfactory work; & our<br>\nteaching force can not be increased<br>\nfor want of buildings. I am now<br>\nengaged in preparing a \"Graded<br>\nCourse of Study\" from the A B.C. to<br>\nthe high School Course & find it no<br>\neasy \"job\" \u2013 even after years of<br>\nexperience \u2013 It is more difficult<br>\nto arrange than the College Curriculum.<br>\nFor some months past I have found it<br>\ndifficult to throw as much \"heart\" into</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Thought Process for Transcription**\n\nOkay, here's how I'm going to approach this transcription. First, I need to understand the task. I'm a transcriptionist, so my job is to accurately reproduce the text from the image, following these specific guidelines:  I need to stick to the original reading order, be highly accurate with spelling and punctuation, and interpret the handwriting. I can't add any commentary, and I'm limited to specific HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`. Also, Markdown tables are fine if needed.\n\nNext, I'll take a good look at the image itself. It's a handwritten letter on lined, slightly yellowed paper, which suggests it's older. The ink is dark, and it's written in cursive, which I would describe as being in a late 19th-century style. It looks a bit slanted, and some of the letters run together. From what I can tell, it's a letter from a Superintendent's office in Corsicana, Texas, dated January 30th, 1883. It seems to be about school enrollment, grades, equipment, and curriculum planning.\n\nNow, I'll go through the image line by line. I'll start with the top left, which is \"Supt's Office\" (underlined). On the top right, it says \"Corsicana Tex, Jany 30<sup>th</sup> 1883.\"  \"th\" is superscripted there. Then comes the salutation: \"My Dear Professor:\".  I'll continue, analyzing each word and phrase:\n\n*   \"Your welcome Postal\"\n*   \"of 28<sup>th</sup> inst just recd & I hasten to reply.\" \"inst\" is the current month, and \"recd\" means \"received\". \"th\" is superscripted.\n*   \"I recd your letter of December last &\"\n*   \"wrote you just before the holidays.\"\n*   \"but my letter failed to reach you &\"\n*   \"hence may be termed the 'missing link'.\"\n*   \"Our schools are moving on & up I trust.\"\n*   \"Our enrollment I think, at the end\"\n*   \"of present week will reach 700.\"\n*   \"We have excellent equipments but\"\n*   \"our grades are all too large for\"\n*   \"efficient satisfactory work; & our\"\n*   \"teaching force can not be increased\"\n*   \"for want of buildings. I am now\"\n*   \"engaged in preparing a 'Graded\"\n*   \"Course of Study' from the A B.C. to\"\n*   \"the high School Course & find it no\"\n*   \"easy 'job' \u2013 even after years of\"\n*   \"experience \u2013 It is more difficult\"\n*   \"to arrange than the College Curriculum.\"\n*   \"For some months past I have found it\"\n*   \"difficult to throw as much 'heart' into\" (This sentence cuts off)\n\nNow I'll refine and format the transcription using the permitted HTML tags. I'll use `<p>` tags for paragraphs and try to maintain the visual flow of the original letter, even though I can't use CSS. Superscripts need `<sup>` tags (like the \"th\" in dates), and I'll use `<br>` tags for line breaks. Abbreviations like \"recd,\" and \"Supt's\" are acceptable and clearly indicated. Punctuation like dashes, ampersands, and quotation marks must be preserved.\n\nNow I have to go through the text again with a fine-tooth comb and correct anything that might need it. For instance, I'm checking that \"Supt's Office\" looks like what it's supposed to be and that \"Jany\" is clear for January. Also, I will check \"recd\". \"of 28th inst just recd...\" - Is it \"recd\"? Yes, it is. The 'd' is written a bit oddly, but it's clearly \"recd\" as a standard abbreviation. I'll double-check specific spellings, such as \"equipments,\" \"satisfactory,\" \"Curriculum\" and \"School\" (capitalization).\n\nFinally, I'll re-evaluate the text for any ambiguity. The word \"up\" is underlined, but since I can't use the `<u>` tag, I'll transcribe the text as it is, plain. Also, the writer uses periods in \"A B.C.\" I'll check that.\n\nOkay, everything looks good. I'm ready to output the final transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3728,
+            "width": 2337,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/987cebfc-bc8a-3142-bdf2-8f3558413181/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3728,
+                                "width": 2337,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/987cebfc-bc8a-3142-bdf2-8f3558413181",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>2~</p>\n\n<p>School work and desire. I feel that<br/>\nTexas talent skill & scholarship<br/>\nare at a heavy discount with<br/>\nthe powers that be in high places.<br/>\nI have had ambition to connect my<br/>\nservices & my name with the<br/>\nhigher Educational Enterprises of Tex,<br/>\nbut now see no prospect of ever<br/>\nrealizing hopes I have cherished &<br/>\nlabored for in Texas for 24 years.<br/>\nHaving failed to make money and<br/>\nfailing in this, it seems my<br/>\nlife-work has been - in large part -<br/>\na failure. We may moralize as we<br/>\nplease & derive what comfort we<br/>\nmay from even as great a heathen<br/>\nphilosopher as Horace when he said,<br/>\nNon, si male nunc, et olim,<br/>\nSic erit. Facts are stubborn logic<br/>\n& men of my age can't wait<br/>\nfor revolutions in administrations<br/>\npolicies or tastes. As it was two<br/>\nor perhaps six centuries ago. \"A prophet<br/>\nis not without honor save in his<br/>\nown country!\"</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here's how I'm approaching this transcription, given my expertise in this domain. First, I break down the instructions. I'm a professional transcriptionist, and the goal is to reproduce the text from an image of a handwritten document. Accuracy is paramount, adhering to original spelling and punctuation, and I need to interpret the handwriting as accurately as possible, maintaining the layout, and using HTML tags (a, b, br, i, img, p, small, span, sub, sup) where necessary. The *only* output should be the transcribed text itself.\n\nNext, I delve into the image. It's a handwritten letter, very likely from the late 19th or early 20th century judging from the style of the script and paper. The script is cursive, fluid but mostly legible. I'm noting specific letter formations; like \"t\" crosses and the particular shape of the \"s\". I see a page number \"2\" in the top right corner.\n\nNow, line by line, I draft the transcription. I'm starting with what appears to be a page number, \"2\", possibly with a flourish. The first line starts with \"School work and desire.\" Looking closely, \"School,\" \"work,\" and \"desire\" are all legible. The next line, \"Texas talent skill & scholarship\" looks clear. I go line by line, carefully transcribing: \"are at a heavy discount with,\" \"the powers that be in high places,\" \"I have had ambition to connect my,\" \"services & my name with the,\" \"higher Educational Enterprises of Tex,\" \"but now see no prospect of ever,\" \"realizing hopes I have cherished &,\" \"labored for in Texas for 24 years,\" \"Having failed to make money and,\" \"failing in this, it seems my,\" \"life-work has been - in large part -,\" \"a failure. We may moralize as we,\" \"please & derive what comfort we,\" \"may from even as great a heathen,\" \"philosopher as Horace when he said,\" and the Latin quote \"Non, si male nunc, et olim,\". I'm checking the words again and again because the handwritten letters are not as clear as the other handwritten letters. Here's where it gets interesting, especially that Latin phrase. The initial letter in the quote *looks* like \"t\" instead of \"s\" but context suggests \"si\".  I have to re-evaluate it carefully, cross-referencing with other instances of those letters in the document and comparing against what the writer meant. Looking at the word after \"male\", it's \"nunc\". The word after \"et\" looks like \"olim\". It looks like \"Non si\", with a tall-looped 's'. It looks like \"Non si\". But I confirm with the source quote (Horace, Odes II, 10, 17) to ensure accuracy. The rest is relatively straightforward: \"Sic erit. Facts are stubborn logic,\" \"& men of my age can't wait,\" \"for revolutions in administrations,\" \"policies or tastes,\" \"As it was two,\" \"or perhaps six centuries ago. 'A prophet,\" \"is not without honor save in his,\" and finally, \"own country!\"\".\n\nFrom there, I'm refining and formatting the text. I'm carefully considering how to represent the header \"2\" given the constraints of the allowable HTML tags and the need to preserve layout. I need to format it at the top-right. I'll put it in a `<p>`. I am formatting the text: \"School work and desire.\" The ampersand is clear. The 'E' in \"Educational\" and \"Enterprises\" looks capitalized. The \"Tex,\" has a comma. I am checking the quote's punctuation carefully. Is there a comma after \"olum\"? Yes. Line 25: \"country!'\" - is the ending an exclamation mark or something else? I check the Latin quote again. It has a comma after \"nunc\" and \"olim.\" I have read it to make sure that the punctuation, is correct. I am reading each line, again to make sure that the punctuation and content is correct.\n\nI need to make sure the quote marks are there, and that I'm correctly parsing any ambiguities. I'm now putting it all together.\n\n*   \"Texas, skill\" - I confirm it as Texas and not Texes.\n*   \"country\" The last character looks like an exclamation point and quotation mark. I double-check again.\n*   \"life-work\" - The letters are very close.\n*   \"Non, si\" and other ambiguous text: The \"ti\" or \"si\". I'm making sure. It looks like it.\n\nNow, I'll assemble the final HTML output.\n\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/42/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

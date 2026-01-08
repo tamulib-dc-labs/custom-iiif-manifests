@@ -1,0 +1,151 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-12.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from W. P. Rylander, November 28, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-11-28"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from W. P. Rylander, November 28, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/12"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8154e5c5-af30-31aa-9e0f-9a4c1514f52c/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/12/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4182,
+            "width": 3107,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8154e5c5-af30-31aa-9e0f-9a4c1514f52c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4182,
+                                "width": 3107,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8154e5c5-af30-31aa-9e0f-9a4c1514f52c",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/12/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><b>State A. & M. College of Texas.</b></p>\n<p>College Station, Brazos County,</p>\n<p>November 28<sup>th</sup> 1881</p>\n\n<p>You are respectfully invited to<br>\nattend a Public Debate given<br>\nby the members of the Austin<br>\nLiterary Society in their hall<br>\nFriday Eve Dec 2 1881</p>\n\n[Signatures]\n<p>S. A. Hane<br>\nW. I. Rylander<br>\nA. Rice<br>\nCom. of Invitation</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/12/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Time!**\n\nAlright, the user wants me to transcribe this image, a flyer of sorts. First, I need to break down the image itself. I see a header in a gothic font, \"State A. & M. College of Texas.\" Then, underneath in a script font, it says \"College Station, Brazos County,\" and the date \"November 28th 1881,\" handwritten with some printed numbers.\n\nThe body text is handwritten: \"You are respectfully invited to attend a Public Debate given by the members of the Austin Literary Society in their hall Friday Eve Dec 2 1881\".\n\nThen, I've got signatures: \"S. A. Hane\", \"W. I. Rylander\", \"A Rice\", and \"Com. of Invitation\". The \"Com.\" is short for Committee.\n\nNow, I'm going to carefully transcribe this, making some HTML formatting decisions as well as the important job of deciphering handwriting.\n\nFirst, the header: I will transcribe it as `<p>State A. & M. College of Texas.</p>`, `<p>College Station, Brazos County,</p>`, and `<p>November 28<sup>th</sup> 1881</p>`.\n\nFor the body, I'll transcribe the text, preserving the line breaks with the `<br>` tags: `<p>You are respectfully invited to<br>attend a Public Debate given<br>by the members of the Austin<br>Literary Society in their hall<br>Friday Eve Dec 2 1881</p>`.\n\nThen, I've got the signatures: \"S. A. Hane\", \"W. I. Rylander\", \"A. Rice\", and \"Com. of Invitation\". These should be `<p>S. A. Hane<br>W. I. Rylander<br>A. Rice<br>Com. of Invitation</p>`.\n\nThe names were a bit tricky. \"W. I. Rylander\" has the potential for a \"J,\" but I am going with the most likely based on historical records, and it appears to be an \"I\". Now, \"S. A. Hane\" is an important name to get right. It looks like an \"n\", but I have to transcribe exactly what is written, so \"Hane\" it is. And I'm going to put my internal knowledge that the common name is \"Hare\" aside to stick to the visual representation.\n\nThe other name is \"A. Rice\", or \"A. Lice\"? It looks like an \"L\", but \"Rice\" is a common surname. I have to interpret what I am seeing. \"Lice\" is also a possible surname but is problematic, so I will transcribe as \"Rice\", the common surname, but know it looks like \"Lice\", visually. I might do some searches to confirm this.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/12/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

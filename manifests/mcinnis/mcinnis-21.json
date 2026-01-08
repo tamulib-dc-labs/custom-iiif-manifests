@@ -1,0 +1,293 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-21.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, January 25, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-01-25"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, January 25, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/a437c2e0-07da-3485-aa64-44b9f31b06e0/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3753,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a437c2e0-07da-3485-aa64-44b9f31b06e0/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3753,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a437c2e0-07da-3485-aa64-44b9f31b06e0",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">\nBrenham Texas<br>\nJan 25 - 1882\n</p>\n\n<p>\nMy Dear Professor;<br>\nFor two weeks I<br>\nhave been suffering from cold -<br>\nin fact sick - hence my delay<br>\nin replying to your kind letter.<br>\nDr. A. T. Spalding is pastor of First<br>\nBaptist Church Galveston - Dr G. W.<br>\nRogers is pastor in Austin.<br>\nDr Clopton, you know is bishop<br>\nin Brenham - \"no mean city\".<br>\nMy impression is that Roberts<br>\nwill again be Gov. of Texas.<br>\nShould the next Democratic Conven-<br>\ntion fail to nominate him, he<br>\nwill be eliminated from Texas<br>\npolitics, & think his chances for<br>\nU.S. Senatorship will be greatly<br>\nimpaired; & he is astute enough<br>\nto know it. Coke is a hard<br>\nman to unhorse & he knows <i>that</i>.<br>\nIn confidence I want to say to<br>\nyou that his Excellency is the most<br>\nweird wizened apotheosis of\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Transcription Process: A Detailed Analysis**\n\nOkay, here's the deal. I've got this image of a handwritten letter, and my goal is to produce an accurate transcription. First things first: I'm breaking down the image and analyzing its components. I need to nail down the origin (Brenham, Texas), the date (Jan 25, 1882), and the salutation (\"My Dear Professor\"). From there, I'm diving into the body of the text.\n\nI'm decoding the text line by line, paying attention to every word and symbol. There are some key individuals mentioned, like A. T. Spalding (pastor), G. W. Rogers (another pastor), and Dr. Clopton (the \"bishop\" of Brenham\u2014that's interesting, might need to look into that title). Also, there are political figures, Governor Oran M. Roberts, and former Governor/Senator Richard Coke.\n\nSo, I\u2019m working up my transcription strategy. My strategy is to reproduce the text exactly, line by line, respecting line breaks, and using the right HTML tags: I'll put headers first. I need to format it appropriately, using `<br>` to maintain the line breaks as they are in the image. I have to avoid using `<u>`, so I'm using `<i>` for emphasis, which is how I\u2019ll handle the underlined word \"that.\"\n\nI'm also paying close attention to words that might be tricky, like \"wizened\" and \"apotheosis,\" especially considering the letter's historical context. The phrase \"weird wizened apotheosis of\" is a bit ambiguous, but with some educated guesses, I think I'm getting the right sense of it. I want to respect the visual layout to the best of my ability, which includes line breaks and paragraph structure.\n\nThere\u2019s some back-and-forth about whether to use plus signs (+) or ampersands (&) for \"and.\" I\u2019m trying to be accurate to the original handwriting as much as possible, but where the symbol is ambiguous, I'm opting for the more likely intent. I'm also double-checking my HTML knowledge to be sure that I'm only using allowed tags. I need to be exact, so periods and punctuation marks are important.\n\nI'm checking spelling and names, like Clopton, Spalding, Rogers, Roberts, and Coke. Double-checking abbreviations like \"Gov.\" and \"U.S.\" Checking punctuation. I'm getting there.\n\nFinally, I\u2019m ready to present the final, transcribed version. I've re-read it to catch any mistakes. The focus is always on accuracy and respecting the original document's structure and layout.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3753,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f5c090b0-d6dd-34a7-bce3-47866e72299f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3753,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f5c090b0-d6dd-34a7-bce3-47866e72299f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[1882, Jan. 25]</p>\n<p>\nDemagoguism in Texas.<br/>\nBy the by, you see there is a \"muss\" in<br/>\nthe Executive family - Why don't the<br/>\n\"Siftings\" man suggest a Commission<br/>\nto harmonize the Gov. & his Cabinet?<br/>\nPerhaps the \"easiest way out\" - without<br/>\nregard to justice, honesty, manhood<br/>\nor decency would be to declare<br/>\nall the offices of the State government<br/>\nvacant. It is quite another ox<br/>\nthat is being \"gored\". O that<br/>\nGathright were alive. Do you<br/>\nknow that but little of any of the<br/>\ncloud that has oppressed me for<br/>\nmore than two years, has rifted<br/>\naway - I may be oversensitive<br/>\nbut my heart often bleeds -<br/>\nI try not to rejoice in the \"death<br/>\nof the wicked\", but Dixon is<br/>\ngone - Pickett is gone & others,<br/>\nwho sought or acquiesced in the<br/>\nprofessional assassination of<br/>\ninnocent men - uncharged unheard<br/>\nunarraigned will go. Perhaps I<br/>\nought not to think or write about this matter\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Analysis and Transcription: A Deep Dive**\n\nOkay, here's what I've got. This looks like a fascinating piece of 1882 Texas history, likely a letter or journal entry. The date's clear: [1882, Jan. 25], and it's all in that familiar, slightly loose cursive of the era. The ink is a lovely purple-blue.\n\nFirst, I had to make sure the \"Executive family\" word was \"Executive,\" even though the handwriting was a bit messy. Initially, I thought it might have been \"Redemption family,\" which would have fit the political context of the \"Redeemers\" in post-Reconstruction Texas, but \"Executive\" fits with the \"Cabinet\" and \"Gov.\" Later in the document.\n\nThe handwriting had me second-guessing myself with that first letter on line 12 as well. I considered, \"Latimer\", \"Cartwright\", \"Garfield\" and even \"Gatling\" and \"Sutwright\" before realizing it had to be a \"Gathright.\" This Thomas S. Gathright was the first president of Texas A&M and died in 1880, which perfectly aligns with the writer's complaint about oppression \"for more than two years\" and the lament, \"O that Gathright were alive.\" This confirmed the political context.\n\nThere's a definite political slant here, a strong sense of grievance. The writer is clearly concerned about \"demagoguism in Texas\" and mentions a \"muss\" in the Executive branch. The author also makes references to the \"Siftings\" newspaper, and the desire to see a \"Commission\" started to fix the situation in the state of Texas.\n\nThe language is loaded. Phrases like \"professional assassination\" and \"death of the wicked\" point to a deep-seated anger and possibly a sense of betrayal. The writer seems to be lamenting the passing of Gathright. The \"Dixon\" and \"Pickett\" figures mentioned were probably political figures the writer disliked, and references to \"uncharged unheard unarraigned\" men add a layer of legal commentary. It gives the impression of a writer involved in the system who is now deeply disillusioned. I went over the transcription many times and have provided it as accurately as possible. The line breaks have also been preserved.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3753,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3b17f067-8c61-3aa3-ba04-ddacddf9a347/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3753,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3b17f067-8c61-3aa3-ba04-ddacddf9a347",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p style=\"text-align: right;\">[1888, Jan 25]</p>\n\n<p>You see from the papers that a<br/>\n\"Crum from the masters table\"<br/>\nhas fallen to Prof. H. When I read<br/>\nthe paragraph I could but exclaim;<br/>\n\"O Judgment thou art fled to brutish beasts\"<br/>\nI never wished to see you so much<br/>\nas now - While the world is cold &<br/>\nselfish I feel that there are some<br/>\nwarm hearts in it.<br/>\nRumor has it that our friend<br/>\nMoore will make a new departure<br/>\nsoon - His health has been feeble<br/>\nfor some months - A long letter<br/>\nfrom you & some genial sunshine<br/>\nwould do me much good.<br/>\nYour friend<br/>\nHana</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Analysis and Transcription Thoughts**\n\nOkay, here we go. I'm looking at this handwritten document. It appears to be a letter. First, I need to get a handle on the overall structure and any distinguishing features. The top right corner has a penciled date: [1888, Jan 25]. That's likely an archival addition, but it's important context. The body is in purple ink, which is interesting. I will go through the image and think aloud as I perform a transcription.\n\nThe handwriting is cursive. Let's see... Line 1: \"You see from the papers that a\". Ok, no major issues there. Line 2: \"Crumb from the masters table\". That's a quote, so I need to preserve the quotation marks. The word \"masters\" is written as such, no apostrophe before the s. On to line 3. Line 3: \"has fallen to Prof. H. When I read\". Prof. H. is probably a person. We'll have to see if we can identify them later. Line 4: \"the paragraph I could but exclaim;\". Another easy one. Now the next line, Line 5: \"O Judgment thou art fled to brutish beasts\". Another quote, it seems. I should enclose that in quotation marks. Line 6: \"I never wished to see you so much\". Ok, no issue. Line 7: \"as now - While the world is cold &\". Okay, a dash and then the ampersand. Good. Line 8: \"selfish I feel that there are some\". Nothing extraordinary so far. Line 9: \"warm hearts in it.\". Okay.\n\nLet's keep going. Line 10: \"Rumor has it that our friend\". Line 11: \"Moore will make a new departure\". Moore is probably another person, or a proper noun. I should note the word new because it is legible, Line 12: \"soon - His health has been feeble\" Okay, so \"Moore\" is probably related to this letter's contents. Okay, health: legible. Line 13: \"for some months - A long letter\". Okay. Now the interesting line, Line 14: \"from you & some genial sunshine\". Genial... that's the word. Hmm, the handwriting gets a little scrawly there. It looks like it is `g-e-n-i-a-l` then something after that? The next word after some is likely two words that are cramped together, let's see, it is most probably: genial sunshine. The letters are a bit blurred. But contextually, I am sure that is what it is. I'll need to double check that, but that's my interpretation for now. A long letter from you and some genial sunshine would fit this context, with a cold world and warm hearts. Line 15: \"would do me much good.\". Then there is a closing. Line 16: \"Your friend\". And the signature, Line 17: \"Hana\". Or \"Hand\". Looks like Hana. Let me make a good determination based on how this handwritten letter forms the letters and characters.\n\nLet's look more closely at the signature. I'm going to look at the 'H' in the signature compared to the 'H' in \"His\" (line 12). Looks similar. The end character loops over the top. Could be an \"a\" or a \"d\", but given how most signatures are first names, it's likely Hana. Let me confirm some other letter formations like the 'd' in \"good\" and \"world.\"\n\n\"Hand\" is a weird name. \"Hana\" seems better, it's also a more common name. I will proceed with \"Hana\".\n\nNow, let's look at that word \"genial sunshine\". It's a bit hard to read. Hmm, the start looks like `g e n i a l` then `s u n s h i n e`. The second word is `s u n s h i n e`. The `n` in genial is a little messy, but I'm confident that it is the intended word based on the overall tone of the letter. I will make a good judgement, given that Shakespeare is referenced in the text. I think \"genial sunshine\" fits the context very well. The `s` at the start of \"sunshine\" has a little loop on top. Looks like the `s` in \"see\". I am re-examining it now, `g e n i a l s u n s h i n e`. I'm confident.\n\nNow, I'll transcribe this draft.\n\nAfter drafting, I will need to ensure that the document has these formatting elements:\n\n*   The\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/21/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

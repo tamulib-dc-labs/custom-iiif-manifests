@@ -1,0 +1,352 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-30.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, May 22, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-05-22"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, May 22, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/0b9714b7-94f5-3e51-8d70-ff454a79a5a3/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/0b9714b7-94f5-3e51-8d70-ff454a79a5a3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0b9714b7-94f5-3e51-8d70-ff454a79a5a3",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nBonham May 22 - 1882,<br>\nMy Dear Professor;\n</p>\n\n<p>\nYour welcome<br>\nletter recd some days ago. &<br>\nI embrace my first leisure<br>\nmoment to reply. Wednesday,<br>\nThursday & Friday of last week<br>\nwere occupied by our last<br>\n\"Monthly Examination\". This morning<br>\nwe enter the list on our \"home<br>\nstretch\". How I dread it!<br>\nThese miserable public examinations<br>\n& public parades, where you<br>\nmust do a thing every year<br>\nto show the public that you can<br>\ndo it - \"Who will deliver me<br>\nfrom this way of death!\"\n</p>\n\n<p>\nYour information - as to time<br>\n& place of meeting of Teachers<br>\nAssociation is Correct.<br>\nI do trust you will go.<br>\nThe A & M. C has never been<br>\nrepresented in that body<br>\nbut once - You remember<br>\ntime, place & circumstances.\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Letter Transcription Analysis: A Deep Dive**\n\nOkay, here we go. The task is to transcribe this handwritten letter, and I need to be as accurate as possible. First, the date and location are at the top: \"Bonham May 22 - 1882.\"  That's straightforward. Then comes the salutation: \"My Dear Professor,\" \u2013 a comma, not a semicolon! I'm making a mental note because I need to be exact here.\n\nNow, into the body of the letter.  The initial phrases are: \"Your welcome letter recd some days ago. & I embrace my first leisure moment to reply.\" The word \"recd\" looks like an abbreviation for \"received.\" Then, \"Wednesday, Thursday & Friday of last week were occupied by our last 'Monthly Examination'.\" Okay, jotting that down. Now we have something more interesting: \"This morning we enter the list on our 'home stretch'.\" I need to look closely at that word \"list\". The context of \"home stretch\" suggests it\u2019s a racing metaphor, so perhaps \"enter the lists\"? But the handwriting... it looks more like \"list.\"  I'll transcribe it as \"list\" for now but revisit this. \n\nThe author then laments, \"How I dread it! These miserable public examinations & public parades, where you must do a thing every year to show the public that you can do it - \" Now, this is where it gets interesting:  \"Who will deliver me from this way of death!\" This is a biblical quote, but the writer has changed \"body\" to \"way\". The original quote is \"body\". That looks like \"way\". Let\u2019s analyze this.  I need to be certain about the transcription. The word begins with a letter. It's either \"b\" (as in \"body\") or \"w\". It looks like the \"w\" in \"week\" (line 7). The context of \"way of death!\" is strange. There's a slight possibility this is a misquote. Let's look again. The 'w' in \"will\", \"welcome\", and \"week\" is consistent with the initial letter here, so it is the letter \"w\", not \"b\". So I will use the word, \"way\".\n\nNext, \"Your information - as to time & place of meeting of Teachers Association is Correct.\" The word \"Correct\" is capitalized. Okay.  The writer goes on to say, \"I do trust you will go. The A & M. C has never been represented in that body but once - You remember time, place & circumstances.\" Note the period after \"M\" in \"A & M. C\". I'm making sure to be precise and include all the punctuation. Also, \"A & M. C\" likely refers to the Agricultural and Mechanical College. So this is historical context to consider. I've re-checked every line, especially the words that are less clear. I will be sure to capture the visual layout by using line breaks. The transcription is ready!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e928cb4f-8f52-3771-b593-e92aed6a8083/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e928cb4f-8f52-3771-b593-e92aed6a8083",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p style=\"text-align: right;\">[1882, May 22] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</p>\n\n<p>If private axes can be kept<br>\nout of the Association, I see<br>\nno reason why it may not<br>\nbe made an important<br>\nfactor in our educational<br>\nenterprises. I would state<br>\nby way of parenthesis - that<br>\nI have consented to prepare &<br>\nread a paper before the<br>\nAssociation on the subject<br>\nof \"Reading the Bible in Public<br>\nSchools\". On investigation, I<br>\nfind the subject one of<br>\ntoo grave a responsibility<br>\nto admit of embellishment.<br>\nOur Session Closes here on 21st<br>\nJune - same time of your close.<br>\nIt does seem that Texas ought<br>\nto furnish some one who would<br>\nbe willing to perform the<br>\nlabor of preparing & delivering<br>\nyour Annual Address.<br>\nMen who expect to rise in the<br>\nworld must be willing to<br>\nperform mental drudgery -</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Output**\n\nOkay, so I've got this handwritten document, and my task is to produce a transcription. Let's break this down systematically. First, I need to analyze the image. The top right says \"[1882, May 22] 2\" in pencil. That seems to be an archival date and a page number, and I'll keep that information in mind. The ink is purple, and the handwriting is cursive, definitely English. From the context and what I can make out, it looks like it's likely a letter dealing with an educational association, possibly in Texas. It\u2019s moderately legible \u2013 a bit scrawly, but manageable.\n\nNext, I'll do a line-by-line transcription, being careful to preserve the formatting. I'm noting the header: `[1882, May 22]     2` \u2013 that gives us some temporal context.\n\nHere's my transcription:\n\n```html\n<p>[Header]<br>\n[1882, May 22] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</p>\n\n<p>If private axes can be kept<br>\nout of the Association, I see<br>\nno reason why it may not<br>\nbe made an important<br>\nfactor in our educational<br>\nenterprises. I would state<br>\nby way of parenthesis - that<br>\nI have consented to prepare &<br>\nread a paper before the<br>\nAssociation on the subject<br>\nof \"Reading the Bible in Public<br>\nSchools\". On investigation, I<br>\nfind the subject one of<br>\ntoo grave a responsibility<br>\nto admit of embellishment.<br>\nOur Session Closes here on 21st<br>\nJune - same time of your close.<br>\nIt does seem that Texas ought<br>\nto furnish some one who would<br>\nbe willing to perform the<br>\nlabor of preparing & delivering<br>\nyour Annual Address.<br>\nMen who expect to rise in the<br>\nworld must be willing to<br>\nperform mental drudgery -</p>\n```\n\nI checked my HTML tags and made sure I am staying within the set of allowed tags.\n\nI reviewed specific words, paying close attention to potentially ambiguous characters. I've gone back and double-checked several words: \"axes,\" \"out,\" \"enterprises,\" \"consented,\" \"admit,\" \"embellishment,\" \"Session,\" \"Closes,\" \"Texas,\" and the ampersand.\n\nThe final output is formatted with the header at the top, a line break for the date and a space before the page number.\n\nI've ensured to preserve line breaks and spacing. The writing is clear, and the context is preserved through the text. I am very confident with this.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ee8c2150-98aa-36ef-add1-cf7f61c952fd/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ee8c2150-98aa-36ef-add1-cf7f61c952fd",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/20",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/19",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p align=\"right\">[1883, May 22]<br>\n3</p>\n\n<p>I was not aware of his last<br>\nfeat until I recd your letter.<br>\nHe is certainly a weird<br>\napotheosis of deadbeatism.<br>\nWill he get a place in the<br>\nUniversity after his book<br>\non sheep culture in Asia?<br>\nGov. Brown must be a \"scholar<br>\n& a gentleman\" \u2013 By the by, what<br>\ndo you think now of the<br>\noutlook & outcome of the<br>\nUniversity? \u2013 I see it suggested<br>\nthat a faculty will be elected<br>\nin July next. I know not<br>\nwhat foundation there may<br>\nbe for the surmise.<br>\nRecent events at W. M. C.,<br>\nmake me timid & I am<br>\nyet undecided whether<br>\nI shall ask for a place<br>\nin the University or not.<br>\nCooper is being coached<br>\nat Yale for the Chair of<br>\nAncient Languages & Col Ashbel<br>\nSmith is a strong Yale Man.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/21",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Refinement**\n\nOkay, here's what I've got. I'm looking at a handwritten document, and my task is to meticulously transcribe it. First, I need to analyze the image. The top right corner has \"[1883, May 22] 3\" written in pencil, which I'll keep in mind. The main body of text is cursive in purple ink; I need to make sure I get every line right.\n\nI'm approaching this line by line. I start with the header, `[1883, May 22]` and then the number `3`. The first line is \"I was not aware of his last\". Then \"feat until I recd your letter.\" I see an abbreviation, \"recd\" for \"received,\" which I will make sure to note. \"He is certainly a weird\". \"apotheosis of deadbeatism.\" That's a fascinating term; I'll transcribe it precisely. \"Will he get a place in the\" and \"University after his book.\" I want to note the capitalization here because it might indicate something specific. It is \"on sheep culture in Asia?\". \"Gov. Brown must be a 'scholar\" I note this, and then \"& a gentleman\". - By the by, what\" followed by \"do you think now of the\". Then \"outlook & outcome of the\". Then \"University? - I see it suggested\". This is followed by \"that a faculty will be elected\" followed by \"in July next. I know not\" followed by \"what foundation there may\" followed by \"be for the surmise.\" There are \"Recent events at W M C,\". Now \"make me timid & I am\" and \"yet undecided whether\" and \"I shall ask for a place\" and \"in the University or not.\" \"Cooper is being coached\" and \"at Yale for the Chair of\". \"Ancient Languages & Col Ashbel\" and \"Smith is a strong Yale Man.\"\n\nI need to go back and refine. \"aware\" \u2013 that looks fine. \"recd\" \u2013 yes, that's clear. \"certainly\" and \"weird\" \u2013 readable. \"apotheosis\" and \"deadbeatism\" \u2013 those words are clear. \"University\" \u2013 capitalized. \"sheep culture\" \u2013 spot on. \"Gov. Brown\" \u2013 abbreviated. \"gentleman\" \u2013 quoted with an ampersand, \"By the by\" is just a phrase, nothing too special. \"University\" capitalized again. \"suggested\" \u2013 a little hurried, but readable. \"foundation\" \u2013 slightly squashed, but there. \"surmise\" \u2013 it's all good. \"W M C\" \u2013 ah, this could be tricky, it looks like a W.  Here is where the history knowledge comes in: It is likely `W M C` since the history is likely a good fit with Texas and the founding of UT. The word is `timid`. It is `undecided`. `University`. `Cooper`. `Yale`. `Chair`. It is `Col Ashbel`. It is `Yale`.\n\nThe trickiest part is `W M C` It looks like a `W` but could easily be a `U` in that cursive. But contextually, I think the letters match and there is a \"W\". I need to be as faithful as possible to the shape and context. Is it `W. M. C.` with dots? The crop is not super clear but a faint mark seems to exist after W and M and C, so I'll put a dot to clarify.\n\nI have to use the given HTML format and make sure all line breaks are retained.  I'm also paying close attention to punctuation. The \"recd\" abbreviation is a standard contraction for \"received\", I am good to put this in as is. The word \"deadbeatism\" does look strange, but it is accurate. The word is `recd` with a lower-cased 'd' with a hint of a period. The phrase `Gov. Brown` does have a period. Is the period inside the quotes? I check. The punctuation after the quote looks like \"gentleman\" - . There are two quotes inside the sentence. This word is in the middle. The context clues point towards an abbreviation.\n\nSo, I think I have it. I need to make a transcription:\n\n```html\n[Header]\n<p>[1883, May 22]<br>\n3</p>\n\n<p>I was not aware of his last<br>\nfeat until I recd your letter.<br>\nHe is certainly a weird<br>\napotheosis of deadbeatism.<br>\nWill he get a place in the<br>\nUniversity after his book<br>\non sheep culture in Asia?<br>\nGov\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 3724,
+            "width": 2341,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/90c8872a-2452-3546-972c-00a4cd20087c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3724,
+                                "width": 2341,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/90c8872a-2452-3546-972c-00a4cd20087c",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/23",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/22",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p style=\"text-align: right;\">[1882?]<br/>\nMay 22</p>\n\n<p>Moreover I am without a<br/>\nsingle personal acquaintance<br/>\non the Board of Regents.<br/>\nCould I see you I could<br/>\nmake up my mind - some<br/>\nthings I want to say - that<br/>\nit would not be prudent to write<br/>\nI must see you before you go<br/>\nNorth - Will you go to Tyler?</p>\n\n<p>The withdrawal of the O.M. from<br/>\nthe political arena surprises<br/>\nme much. What can it mean?<br/>\n<i>Timeo Danaos et dona ferentes.</i><br/>\nI hope to see Judge Henry of<br/>\nDallas our next Gov. He is one<br/>\nof the purest & strongest men<br/>\nin the State - My first choice<br/>\nof course would be Hubbard -<br/>\nbut he adheres to his determination<br/>\nto keep aloof from State politics.<br/>\nHow I dread the next months<br/>\nwork! What is Prof. H. doing now?<br/>\nWrite me any chance you<br/>\nget -</p>\n\n<p style=\"text-align: right;\">Your friend<br/>\nHand</p>\n\n<p>[Margin: P.S. Just before mailing this scrawl, I see that Dr. Rambaut is in Austin. Where are the Eagles gathered together? Suppose he is University prospecting - Was told he was Prof of Lat & Greek at Geo, when I was at College - Heavy timber may be looked for - for Pres. of Univ. on Rams back at present J T H]</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/24",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My approach here is quite methodical.** I start by dissecting the request. I need to act as a transcriptionist, focusing on accuracy, handwriting interpretation, layout preservation, and specific HTML tags. The constraint is to only provide the transcribed text.\n\nI then move on to analyzing the image. I see a handwritten letter with some interesting elements: vertical text in the top margin, a pencil-written date, and the main body text. The handwriting is a cursive style.\n\nI'll transcribe in a step-by-step fashion. First, I tackle the date, noting the brackets around the year. Then, I focus on the vertical text in the top margin, which is the Post Script (P.S.). I carefully read the P.S., making my best guesses on the more ambiguous words. I'll read through it multiple times, refine it, and check for historical accuracy. I'll also try to match what's visible on the page. I'll identify names, like Dr. Rambaut, figure out any uncertain text, and identify any proper names or phrases. I then move to the main body, ensuring each word is clear, interpreting any potential ambiguities, and looking for Latin phrases or proper names.\n\nThroughout this process, I refine the transcription based on my readings. I pay attention to context, such as who \"O.M.\" refers to. Then, I check for the right HTML tags, the correct reading order, and whether any information needs markup. I am using the guidelines as a rubric.\n\nNext, I'll go through the text and determine paragraph breaks. I will check for any indentation. I then re-read the top margin text for accuracy.\n\nI pay close attention to the requirement for line breaks and preservation. I need to figure out the right HTML tags. After that, I double-check all my work. I analyze the line breaks within the top margin text and make my final adjustments to make sure everything matches. I will perform one last look to make sure the final output is perfect.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/30/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

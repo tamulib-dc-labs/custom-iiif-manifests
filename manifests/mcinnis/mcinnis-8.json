@@ -1,0 +1,293 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-8.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, October 2, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-10-02"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, October 2, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/559a970a-6f97-3e77-be32-23a9b28e08dc/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3757,
+            "width": 2365,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/559a970a-6f97-3e77-be32-23a9b28e08dc/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3757,
+                                "width": 2365,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/559a970a-6f97-3e77-be32-23a9b28e08dc",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Brenham Texas<br>\nOct 2 - 1881.</p>\n\n<p>My Dear Professor:</p>\n\n<p>Your kind letter<br>\nwas received by due course of mail<br>\nWas glad to hear from you & trust<br>\nyou had a \"good time\" out West.<br>\nThis unpretending epistle will find<br>\nyou at A & M C in medias res.<br>\nWe are \"toiling on\" - Closed our<br>\nfirst month on Friday last with<br>\n370, and still they come.<br>\nQuantus adest viris sudor!<br>\n\"Misery loves company\" - I was<br>\nat the depot a few evenings<br>\nsince & saw quite a number<br>\nof Cadets for your College.<br>\nI scanned them closely &<br>\npredict that a similar sudor<br>\nis just at hand for you.<br>\nJudging from the Specimens<br>\nthat I Saw I infer that<br>\nyou will have much Elementary<br>\nwork to do.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Transcription Workflow**\n\nAlright, here's how I'm approaching this transcription task, broken down step-by-step. First, I\u2019m zeroing in on the *task itself* \u2013 transcribing from an image, keeping the text exactly as it appears. That means preserving everything: spelling, punctuation, capitalization, handwriting style (no autocorrect!). If I hit a snag, I'll use `[?]` or `[illegible]` to mark it. I'm focusing on the structural elements too; headers, paragraphs and so on, using HTML tags, specifically `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup` as requested. No editorializing, just the text.\n\nNext, I'm analyzing the image. It's a handwritten letter from Brenham, Texas, dated October 2, 1881. The handwriting is cursive, a bit flowing, and definitely 19th-century. The content seems to be personal but touches on professional matters, mentioning \u201cA&MC\u201d (likely Texas A&M), student enrollment numbers, \u201ccadets,\u201d and even some Latin phrases: \u201cin medias res\u201d and \u201cQuantus adest viris sudor\u201d.\n\nNow, let's get into the transcription itself:\n\n1.  **Header:** Starting with the upper-right corner. It's \u201cBrenham Texas\u201d followed by \u201cOct 2 - 1881.\u201d I\u2019m setting up the HTML with `<p>` tags for paragraphs and `<br>` for line breaks and I'll work from there.\n\n2.  **Salutation:** \u201cMy Dear Professor:\u201d (simple enough).\n\n3.  **Body Paragraph 1:** This is where the detective work begins. I'm taking it line by line:\n    *   \u201cYour kind letter was received by due course of mail\u201d\n    *   \u201cWas glad to hear from you & trust\u201d\n    *   The phrase \"good ____\". I spent some time really analyzing this word, trying to make out the letters. The letters are definitely \"t...i...m...e\". It seems to make sense within the context. I'm confident about \"good time\".\n    *   \"This unpretending epistle will find\"\n    *   \"you at A & M C in medias res.\"\n    *   \"We are \"toiling on\" - Closed our\"\n    *   \"first month on Friday last with\"\n    *   \"370, and still they come.\"\n    *   \"Quantus adest viris sudor!\" (The Latin phrase is perfectly clear).\n    *   \" \"Misery loves company\" - I was\"\n    *   \"at the depot a few evenings\"\n    *   \"since & saw quite a number\"\n    *   \"of Cadets for your College.\"\n    *   \"I scanned them closely &\"\n    *   \u201cpredict that a similar sudor\u201d is just at hand for you.\" Ok, this one gave me pause. The word here is difficult to decipher. It looks like it starts with T, or maybe even L. I'm going back and forth, comparing handwriting styles, and considering Latin phrases. Initially, my first reading was \"T i m i l a n\". Taking everything into consideration, I'm going with \"similar\" because it makes the most sense semantically, given the letter's content, but I'm mentally making a note that it's the trickiest word in the whole piece and the handwriting is definitely messy. I'm confident it's Latin, so the phrase is likely to be comparing to the \"hard work\" in the Latin phrase.\n    *   \"is just at hand for you.\"\n    *   \"Judging from the Specimens\"\n    *   \"that I Saw I infer that\"\n    *   \"you will have much Elementary\"\n    *   \"work to do.\"\n\nI've been going through multiple analyses of individual words and phrases, which I've logged. The trickiest word had been transcribed. It's ready for a final review.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3757,
+            "width": 2365,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/bef08416-5411-3fec-9a7e-508a9d0c3509/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3757,
+                                "width": 2365,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bef08416-5411-3fec-9a7e-508a9d0c3509",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n[1881, Oct. 2]\n</p>\n<p>\nI do not indulge this remark<br/>\nin the spirit of criticism of the<br/>\nchanged order of affairs at<br/>\nyour College. A College should<br/>\ndo College work &amp; not the work<br/>\nof a mere Academy. A College<br/>\nProfessor should not be required<br/>\nto do the work of the \"Common School<br/>\nMaster\", but should have time<br/>\n&amp; facilities to bring out things<br/>\n\"both new &amp; old\", that may<br/>\nequip young men for the<br/>\nresponsible duties of life.<br/>\nI would not write so freely<br/>\nto any other School man in<br/>\nthe State. Students at College<br/>\nshould have some age &amp;<br/>\nsome adequate mental<br/>\ntraining before admission.<br/>\nYou have seen from the News<br/>\nthat no man this side of<br/>\nBaltimore or Halifax could be<br/>\nfound for the Superintendency<br/>\nof Galveston Schools.\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My transcription task is clear: I need to convert this handwritten letter into a digital format. Let's break it down.**\n\nFirst, I need to understand the visual information. The date, `[1881, Oct. 2]`, is in pencil, which I'll add at the top. The handwriting is cursive, slightly faded ink, but generally legible. I note that the language is English.\n\nNow, line by line, I will transcribe:\n\n*   `[1881, Oct. 2]` (at the top).\n*   `I do not indulge this remark`\n*   `in the spirit of criticism of the`\n*   `changed order of affairs at`\n*   `your College. A College should` (capital \"C\").\n*   `do College work & not the work` (using '&' symbol as written).\n*   `of a mere Academy. A College`\n*   `Professor should not be required`\n*   `to do the work of the \"Common School`\n*   `Master\", but should have time`\n*   `& facilities to bring out things`\n*   `\"both new & old\", that may`\n*   `equip young men for the`\n*   `responsible duties of life.`\n*   `I would not write so freely`\n*   `to any other School man in`\n*   `the State. Students at College` (after close examination, the word looks like 'Students').\n*   `should have some age &`\n*   `some adequate mental`\n*   `training before admission.`\n*   `You have seen from the News`\n*   `that no man this side of`\n*   `Baltimore or Halifax could be` (the \"a\" in Halifax looks like a closed 'a', but given the context of place, this is Halifax).\n*   `found for the Superintendency`\n*   `of Galveston Schools.`\n\nI carefully reviewed each word. I made sure to identify the ampersand, capitalizations (like \"College\", \"Professor\", and \"School\"), and quotation marks. \"equip\" is how it is spelled, with the 'e' distinct from 'quip'. I have also confirmed it is `Students` in line 16. The `&` symbol is present. The `of` in line 2.\n\nThe letter's format is simple. It is one block of text, so I will output a single paragraph `<p>` with `<br>` line breaks to maintain the original layout. I'll preserve the date at the top, but it isn't part of the main text, so that can be a separate line, outside the paragraph. No special formatting is required.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3757,
+            "width": 2365,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/db7004f8-f37e-3365-ab22-a47b40bf9651/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3757,
+                                "width": 2365,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/db7004f8-f37e-3365-ab22-a47b40bf9651",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p style=\"text-align: right;\">[1881, Oct 2]</p>\n\n<p>I feel most keenly my defeat<br/>\nHogg defeated me in urging<br/>\nhis own claims in person and<br/>\nsecuring a meager support for himself<br/>\nI sent to the Board an application<br/>\nfor the place - giving some testimonials<br/>\n& references & there rested my<br/>\nclaims. Hogg was on the ground<br/>\nyou know how he can work.<br/>\nLoties letter to Fisher was<br/>\ndamaging to any Southern<br/>\nMan & had its influence on<br/>\ncertain members of the Board.<br/>\nI had a letter from Col Denton<br/>\nwho supported me - expressing<br/>\nregret at the action of the Board.<br/>\nI return the Clarion to-day -<br/>\nread Judge A's address with<br/>\nmuch interest. Some other<br/>\nmatters I'll reserve for another<br/>\ntime - I send a letter from Capt.<br/>\nBoren - don't delay in writing as I have<br/>\ndone - I know you can not work<br/>\nbesides. I have been rather blue for<br/>\nsome time - Our little Granddaughter at<br/>\nPlantersville has been quite sick.<br/>\nYour friend Hand</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I approached this transcription, step by step.**\n\nFirst, I assessed the task: transcribing a handwritten letter with high accuracy, adhering to specific HTML tags, interpreting handwriting, and handling layout nuances. The primary focus was on precision and fidelity to the original text.\n\nNext, a quick scan of the image revealed the details. I saw the image was a handwritten letter with a pencil-written date at the top, a cursive style of handwriting, faded ink, and some crossed-out words. It looked like a single block of text with a signature at the bottom.\n\nAfter this initial scan, I moved into detailed transcription, line by line. I started with the header. For each line, I analyzed individual words, paying attention to potential ambiguities in the cursive script and any editorial changes. I checked the spelling and punctuation, and I made note of layout issues. Where words looked unusual, I compared letters to other instances of similar letters within the letter. I also made sure to follow the formatting guidelines and add the specified HTML tags. I kept a running note of all changes and ambiguities.\n\nI worked methodically, transcribing each word. I used the context of the letter to guide my interpretations. For instance, knowing \"Hogg\" was likely a person's name helped me identify the word, even if it was written messily. I paid attention to crossed-out words. I also made sure to handle the insertion of the \"I have been rather blue...\" text. I took note of \"Loties\", \"Fisher\", \"Hand\", \"Judge A's\", and other names and words that might be difficult to understand. As I transcribed, I looked for patterns and used these to make decisions about ambiguous characters. After reading \"Hogg\", I checked on this person in relation to Texas. I confirmed all this.\n\nThroughout the process, I checked my work, verifying each word, especially those that were unclear or potentially misspelled. Where I had doubts, I re-examined the original image, sometimes enlarging or adjusting it to get a better view. I gave special attention to the layout of the inserted text \"I have been rather blue for / some time\" and incorporated it logically. I carefully reviewed the final transcription to make sure that I had captured the essence and meaning of the original, while still adhering to the required formatting. I made sure to meet the user's specific guidelines, and output *only* the transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/8/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

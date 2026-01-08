@@ -1,0 +1,222 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-6.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from C. P. Estill, October 20, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-10-20"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from C. P. Estill, October 20, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f0f4e3b5-ed8c-3513-849d-3913b4f3de74/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3853,
+            "width": 3047,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f0f4e3b5-ed8c-3513-849d-3913b4f3de74/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3853,
+                                "width": 3047,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f0f4e3b5-ed8c-3513-849d-3913b4f3de74",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Huntsville, Texas<br>\nOct. 20<sup>th</sup>, 1881</p>\n\n<p>Prof. L. L. McInnis<br>\nCollege Station,<br>\nDear Sir,</p>\n\n<p>I sent you by to-day's<br>\nmail, a Book belonging to the College Library,<br>\ndiscovered among my own a few days since.<br>\nHume's Hist. of England, Vol. I. I do not think you<br>\nwill find it charged on the Book. I suppose you<br>\nare still Librarian, & if you are not, please re-<br>\nturn it to its proper place.</p>\n\n<p>I hope everything is going on harmonious-<br>\nly, & lovingly \u2013 I was glad to hear that your numbers<br>\nwere so encouraging \u2013 It was much better than<br>\nI expected, at the opening \u2013 I hope the President<br>\ndoes not feel overwhelmed with the sudden in<br>\nflux \u2013 How is my friend Gartner, & the \"Optional<br>\nDepartment\"? I hope he has nothing to annoy him<br>\nsuch as we both had last year \u2013</p>\n\n<p>I suppose you are enjoying yourself along<br>\nwith Van Winkle in my old mansion \u2013</p>\n\n<p>We have a large school here \u2013 and things<br>\nare going very harmoniously so far, and</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process - Expert Review**\n\nAlright, let's break this down. As a seasoned professional, I've approached this transcription with a methodical process. First, I analyzed the request, defining the transcriptionist role and understanding the task: transcribing an image, maintaining top-to-bottom reading order, high accuracy, and interpreting the handwriting. The guidelines are specific: maintain layout, use HTML tags (`a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`), Markdown tables for data, and label structural elements. The final crucial constraint: ONLY the transcribed text.\n\nThe image is a handwritten letter, late 19th-century cursive, and I've noted the location (Huntsville, Texas) and the date (Oct. 20th, 1881) at the top right, and the recipient is Prof. L. L. McInnis, College Station. The key here is the content: returning a library book (\"Hume's Hist. of England, Vol. I\"), questions about the college (\"Gartner\", \"Optional Department\"), and mentioning \"Van Winkle\" and an \"old mansion\". I'm also looking for references to the college situation.\n\nI'm transcribing section by section. The header, with the date and location, will be transcribed as `<p>Huntsville, Texas<br>Oct. 20<sup>th</sup>, 1881</p>`. I'm using `<sup>` for the \"th\" because the guidelines permit it and not `<u>`. Next, the salutation `<p>Prof. L. L. McInnis<br>College Station,<br>Dear Sir,</p>`.\n\nThe first body paragraph: `<p>I sent you by to-day's<br>mail, a Book belonging to the College Library,<br>discovered among my own a few days since.<br>Hume's Hist. of England, Vol. I. I do not think you<br>will find it charged on the Book. I suppose you<br>are still Librarian, & if you are not, please re-<br>turn it to its proper place.</p>`. \"Hist.\" is an abbreviation and \"&\" is \"and,\". I'm noting the hyphenation \"re-turn.\"\n\nParagraph 2: `<p>I hope everything is going on harmonious-<br>ly, & lovingly \u2013 I was glad to hear that your numbers<br>were so encouraging \u2013 It was much better than<br>I expected, at the opening \u2013 I hope the President<br>does not feel overwhelmed with the sudden in<br>flux \u2013 How is my friend Gartner, & the \"Optional<br>Department\"? I hope he has nothing to annoy him<br>such as we both had last year \u2013</p>`. I'm careful with the strikethrough at the start of the line and omitting it to stick to the allowed tags. \"Gartner\" and \"Optional Department\" (quoted) are crucial. \"harmonious-\" breaks across the line.\n\nNext, Paragraph 3: `<p>I suppose you are enjoying yourself along<br>with Van Winkle in my old mansion \u2013</p>`. I'm keeping \"Van Winkle\" and \"old mansion\" as they appear.\n\nFinally, the partial fourth paragraph: `<p>We have a large school here \u2013 and things<br>are going very harmoniously so far, and</p>`.\n\nI've reviewed this meticulously: line breaks, capitalization (I'm using proper nouns from the original), punctuation (dashes are common), and I'm double-checking those tricky words: \"McInnis\", \"Hume's Hist.\", \"since\", \"harmonious-ly\", and \"Gartner\", and \"Optional Department\", \"Van Winkle\", and \"mansion\". Each of these is checked for clarity.\n\nI've double-checked the final formatting. I must wrap the sections in HTML and format the \"th\" properly.  I'm using `<p>` for paragraphs and `<br>` for line breaks. Because the guidelines say \"Label structural elements like [Header]... and wrap sections in HTML Markup Property values\", I'm interpreting this as: the date and place are the header. The rest is the body. The date is a P tag.\n\nAfter more re-reading, it is better to provide the sections (Header and Body) in their proper HTML format. The labels help structure the understanding.\n\nOne final check on \"Optional Department\"? The quote looks after the Department? Context is everything.\n\nI am now generating the output, making sure to stick to the constraint: ONLY the transcribed text.\n\nHere is the final structure, ready for delivery:\n\n```html\n[Header]\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3853,
+            "width": 3047,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f184c67f-6230-3a1c-b4a8-31ad03edc616/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3853,
+                                "width": 3047,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f184c67f-6230-3a1c-b4a8-31ad03edc616",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nI apprehend nothing else \u2013 My Colleagues are<br>\nall very pleasant and the work very agreea-<br>\nble so far \u2013 Was Craig elected to the Missis<br>\nsippi Professorship? I have never seen any-<br>\nthing in the Religious papers in regard to it.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;Have the Beads- & Georgeson adopted the<br>\nGovernor's Book, as a text-Book in Agricultu<br>\nral matters? If they do not, why not? I think<br>\nof suggesting its adoption here as a text on<br>\nthe Physical Geography of Texas \u2013 Don't you<br>\nthink it would be a good move for me, to<br>\nsay nothing of what it might be for the Nor-<br>\nmal Institute? But, excuse all this \u2013<br>\n&nbsp;&nbsp;&nbsp;&nbsp;I shall be glad to hear from you, when you<br>\nfeel like writing \u2013 Mrs Estill begs to be remem-<br>\nbered to you \u2013 Very Sincerely, Your Friend\n</p>\n\n<p>\n[Signature]<br>\nC. P. Estill.\n</p>\n\n<p>\nP. S _ Have just received a note from \"Van Winkle\"<br>\nwhich informs me of the terrible march George-<br>\nson has stolen upon you \u2013 I would not stand<br>\nit, McInnis, I would fight \u2013 Get a corporal's<br>\nguard & run him out \u2013 It is too bad \u2013\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Initial Assessment and Transcription Plan**\n\nAlright, let's break this down. My task is to transcribe a handwritten document image. The instructions are clear: read top-to-bottom, preserve everything\u2014spelling, punctuation, capitalization\u2014and use specific tags for formatting. I have to flag uncertainty with `[?]` and unreadable text with `[illegible]`. The primary focus is accuracy and strict adherence to the visual form, though context is key when there are ambiguous elements. It's a letter, likely from the 19th century, with cursive script. The content seems to be personal correspondence, likely academic or institutional matters given the mentions of \"Professorship,\" \"Governor's Book,\" and \"Normal Institute.\" I'll need to carefully verify names like \"Craig,\" \"Beads & Georgeson,\" \"Estill,\" \"Van Winkle,\" and \"McInnis.\"\n\n**Detailed Line-by-Line Transcription and Analysis**\n\nThe process here is to read the document line by line and start thinking about the form that the rendered text will take. I'm taking the words as they appear, line by line.\n\n*   *Line 1*: \"I apprehend nothing else \u2013 My Colleagues are\"\n*   *Line 2*: \"all very pleasant and the work very agreea-\"\n*   *Line 3*: \"ble so far \u2013 Was Craig elected to the Missis\"\n*   *Line 4*: \"sippi Professorship? I have never seen any-\"\n*   *Line 5*: \"thing in the Religious papers in regard to it.\"\n*   *Line 6*: \"Have the [Beads?] & Georgeson adopted the\"\n\n    At this point, I've had to pause on the sixth line. The word \"[Beads?]\" has become a point of careful consideration. The handwriting is not completely clear, and \"Beads\" could be interpreted in several ways. The word is possibly \"Heads\", \"Board\", \"Peards\", \"Reads\", or even a specific name, but after scrutinizing the letters, especially how the \"B\" is formed in \"Book\" in line seven, it looks most like \"Beads\". I considered \"Board\" because that would fit the \"adopted the Governor's Book\" context better, but I've elected to just transcribe what I *see*. It is important to avoid guessing. I'm going to transcribe the word as \"Beads\".\n\n*   *Line 7*: \"Governor's Book, as a text-Book in Agricultu\"\n*   *Line 8*: \"ral matters? If they do not, why not? I think\"\n*   *Line 9*: \"of suggesting its adoption here as a text on\"\n*   *Line 10*: \"the Physical Geography of Texas \u2013 Don't you\"\n    \n    The words \"Physical Geography\" are struck through with a single wavy line. Given the instructions, I'll transcribe the words, even though they have been crossed out, as there is no way to include a strikethrough in my transcription.\n*   *Line 11*: \"think it would be a good move for me (to\"\n\n    The text \"to\" is at the end of the line, which could make it look like \"me, to\".\n\n*   *Line 12*: \"say nothing of what it might be for the Nor-\"\n*   *Line 13*: \"mal Institute? But, excuse all this \u2013\"\n*   *Line 14*: \"I shall be glad to hear from you, when you\"\n*   *Line 15*: \"feel like writing \u2013 Mrs Estill begs to be remem-\"\n*   *Line 16*: \"bered to you \u2013 Very Sincerely Your Friend\"\n\n**Signature and Postscript**\n\n    *Signature*: \"C. P. Estill.\"\n\n    It's likely this is C.P. Estill of Sam Houston Normal Institute.\n\n    *Postscript:*\n*   *Line 1*: \"P. S _ Have just received a note from \"Van Winkle\"\"\n*   *Line 2*: \"which informs me of the terrible march George-\"\n*   *Line 3*: \"son has stolen upon you \u2013 I would not stand\"\n*   *Line 4*: \"it, McInnis, I would fight \u2013 Get a corporal's\"\n*   *Line 5*: \"guard & run him out \u2013 It is too bad \u2013\"\n\n**Formatting and Tagging Considerations**\n\nI will use `<p>` for paragraphs and `<br>` for line breaks.\n\nI can't use strikethrough tags. I will transcribe the struck-through text. The prompt says \"Preserve...\". If I can't use `\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/6/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

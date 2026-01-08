@@ -1,0 +1,151 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-20.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, February 6, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-02-06"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, February 6, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/20"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/eba049df-6516-3d69-8eb2-9a8a15c11c66/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/20/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3765,
+            "width": 2373,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/eba049df-6516-3d69-8eb2-9a8a15c11c66/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3765,
+                                "width": 2373,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/eba049df-6516-3d69-8eb2-9a8a15c11c66",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/20/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Brenham Feb. 6<sup>th</sup> 1882.</p>\n\n<p>My dear Professor:</p>\n\n<p>I spent some<br/>\ntime with our mutual friend<br/>\nMoore this P.M. He is still on<br/>\nhis <i>back</i> & is likely to be there for<br/>\nsome time - I call to see him<br/>\nalmost every day - He speaks so<br/>\noften & so kindly of you - I know<br/>\nhe would enjoy a letter from you<br/>\njust now - Poor fellow, he will<br/>\nget well this time, but for the next<br/>\nattack I have most serious<br/>\napprehensions - Moore has a<br/>\ntelescopic view just before him<br/>\nwhich occupies much of his thoughts<br/>\nyet he has time & heart to think of<br/>\nother friends - As soon as he<br/>\ncan <i>stand</i> on his feet I think<br/>\nhe will marry - Write him<br/>\na good long letter - It will<br/>\ndo him good - I am still<br/>\nalmost sick from a fearful<br/>\ncold - If I escape Neumonia I<br/>\nshall be thankful - Your friend</p>\n\n[Signature]\n<p>Hand</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/20/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I approached this transcription, step by step.**\n\nFirst, I assessed the task. It's my job as a transcriptionist to accurately reproduce the text from this image, following specific guidelines: a top-to-bottom reading order, preserving the original spelling and punctuation, and carefully interpreting the handwriting. I'm also tasked with maintaining the original layout, identifying structural elements, and using specific HTML tags to format the output. The output must be the transcribed text only.\n\nNext, I analyzed the image. It's a handwritten letter in purple ink on lined paper. The handwriting is cursive, a bit slanted and looping, which means I'll need to pay close attention to each letter. The date and location are in the top right, the salutation in the top left, the main body of the letter is in the center, and the signature is at the bottom right.\n\nThen, I began transcribing the text line by line. I started with the header. The writing looks like \"Brenham Feb 6th 1882.\" \"Brenham\" seems the most likely, probably in Texas. The \"th\" in the date is superscript. The salutation is \"My dear Professor:\".\n\nI carefully deciphered each word in the body, paying attention to any possible ambiguities. I've noted that certain words are underlined, which suggests emphasis, so I will denote those with *italics*. I encountered \"Neumonia\" (Pneumonia without the \"P\"), which is a phonetic spelling. I had to look closely at \"telescopic\", re-examining it many times to confirm it\u2019s the most plausible word, given the context and the letter forms. The signature initially gave me pause. I considered \"Hand\" or perhaps \"Dana\", but after careful letter comparisons, the \"H-a-n-d\" signature appears the most likely. I also noted the use of dashes, which I'll be sure to reproduce.\n\nAs I proceeded, I re-evaluated individual words within their context (such as \"Brenham\" and \"telescopic\"), and examined the signature in depth. I confirmed \"Neumonia\" (phonetic spelling) and \"Moore\" (friend's name). I also made sure that \"next\" was correct.\n\nFinally, I focused on the formatting. The instructions specified the permitted HTML tags. I ensured that the date was superscripted, and underlined words were in italics. I decided to use br tags for line breaks and organize the sections using descriptive tags: [Header], [Body], and [Signature]. The date, salutation, and signature were accurately placed, according to the image layout. I had to pay close attention to the guidelines to be certain that I was only using the permitted tags to ensure that the output was correct, and that the text was faithful to the original, while still adhering to the guidelines. I then re-checked everything.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/20/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

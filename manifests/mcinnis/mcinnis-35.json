@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-35.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from A. P. Stewart, October 12, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-10-12"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from A. P. Stewart, October 12, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8bcc26e0-7d3d-3726-8496-d6af52f93bc4/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1756,
+            "width": 3001,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8bcc26e0-7d3d-3726-8496-d6af52f93bc4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1756,
+                                "width": 3001,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8bcc26e0-7d3d-3726-8496-d6af52f93bc4",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><b>POSTAL CARD.</b></p>\n\n<p>[Stamp: OXFORD / OCT / 2 / MISS.]</p>\n\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n\n<p>[Margin: 1881<br/>\nOct<br/>\n21<br/>\nAns]</p>\n\n<p>Prof. L. L. McInnis<br/>\nA. & M. College of Texas.<br/>\nCollege Station,<br/>\nTexas.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Analysis and Transcription: A Postcard from Oxford, Mississippi**\n\nAlright, let's break this down. First, the obvious: it's a U.S. Postal Card. The header's in that decorative banner, \"POSTAL CARD.\" The postmark says \"OXFORD / OCT / 2 / MISS.\" and there's a cancelled one-cent stamp \u2013 \"U.S. POSTAGE.\" \u2013 right there. The printed instruction, `<small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small>`, is a good reminder. Now, the address: \"Prof. L. L. McInnis\" at \"A. & M. College of Texas.\" in \"College Station, Texas.\" That's the main point.\n\nThen there's the margin note. It looks like filing information. The date definitely looks like 1881, not 1887 or 1882. I can see the \"Oct\" clearly, then \"21,\" and what looks like \"Ans,\" short for \"Answered.\" The first digit of the top number really looks like a \"2,\" but given the context of a date, I think it's just a sloppy \"1\". It's a bit scrawled, but contextually it's the most likely explanation.\n\nSo, here's my transcription in the proper format:\n\n`<p><b>POSTAL CARD.</b></p>`\n`<p>[Stamp: OXFORD / OCT / 2 / MISS.]</p>`\n`<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>`\n`<p>[Margin: 1881 / Oct / 21 / Ans]</p>`\n`<p>Prof. L. L. McInnis<br/>`\n`A. & M. College of Texas.<br/>`\n`College Station,<br/>`\n`Texas.</p>`\n\nThe \"A. & M.\" is a bit messy, but that's just how the handwriting is. The key thing is that it represents \"Agricultural and Mechanical College,\" and \"A. & M.\" is the standard abbreviation. It would be a useful thing to add in any metadata, as that would enhance the information presented.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1756,
+            "width": 3001,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/1c71110f-a883-3be9-a9d8-079f31d9cf95/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1756,
+                                "width": 3001,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/1c71110f-a883-3be9-a9d8-079f31d9cf95",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Univ. of Miss. Oct 12 82</p>\n\n<p>Prof. McInnis<br/>\nI have just been talk-<br/>\ning with Dr. Little & another<br/>\nmember of the Faculty in<br/>\nreference to your need.<br/>\nThey told me to recommend<br/>\nto you my nephew, Chas. S.<br/>\nStewart, Jr., of Amite City, Lou-<br/>\nisiana. Graduated June last -<br/>\na good scholar - very conscien-<br/>\ntious & faithful. He was to have<br/>\ntaken a place in a school in<br/>\nMemphis but was prevented<br/>\nby the death of his mother<br/>\n& illness of his father. I do<br/>\nnot know whether he could<br/>\naccept the position - (pass'd<br/>\nby records & moral), if there<br/>\nbe a prospect of permanence<br/>\n& of promotion. I will write<br/>\nto him - & you can learn all<br/>\nabout him by writing to<br/>\nsome of the members of our<br/>\nFaculty -</p>\n\n<p>Truly yours,</p>\n\n[Signature]\n<p>A. P. Stewart</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Analysis and Transcription of a Handwritten Letter**\n\nOkay, here's what I've got. This image is a letter, and it's been rotated 90 degrees clockwise, so I need to mentally re-orient it. The handwriting looks like 19th-century cursive, and it seems to be in ink. The header says \"Univ. of Miss. Oct 12 82,\" and the salutation is \"Prof. McInnis.\" The letter writer is A.P. Stewart, and he's recommending his nephew, Charles S. Stewart, Jr., to Professor McInnis for a position, likely a teaching one.\n\nThe task is to get a perfect transcription of it. Mentally rotating the letter, I can see the lines running vertically now. Let's see... the handwriting is a bit tricky, but I'll focus on each word carefully, starting with the header. After the header, it's the salutation, then the body. I will rotate mentally to read the text.\n\nFirst, I need to transcribe the text. I need to be exact, so let's start at the top and go line by line.\n\n*   **First Transcription:** \"Univ. of Miss. Oct 12 82\"\n*   **Next:** \"Prof. McInnis\"\n*   **Next:** \"I have just been talk-\"\n*   **Next:** \"ing with Dr. Little & another\"\n*   **Next:** \"member of the Faculty in\"\n*   **Next:** \"reference to your need.\"\n*   **Next:** \"They told me to recommend\"\n*   **Next:** \"to you my nephew, Chas. S.\"\n*   **Next:** \"Stewart, Jr., of Amite City, Lou-\"\n*   **Next:** \"isiana. Graduated June last -\"\n*   **Next:** \"a good scholar - very conscien-\"\n*   **Next:** \"tious & faithful. He was to have\"\n*   **Next:** \"taken a place in a school in\"\n*   **Next:** \"Memphis but was prevented\"\n*   **Next:** \"by the death of his mother\"\n*   **Next:** \"& illness of his father. I do\"\n*   **Next:** \"not know whether he could\"\n*   **Next:** \"accept the position - (pass'd\"\n*   **Next:** \"by records & moral), if there\"\n*   **Next:** \"be a prospect of permanence\"\n*   **Next:** \"& of promotion. I will write\"\n*   **Next:** \"to him - & you can learn all\"\n*   **Next:** \"about him by writing to\"\n*   **Next:** \"some of the members of our\"\n*   **Next:** \"Faculty -\"\n*   **Next:** \"Truly yours,\"\n*   **Next:** \"A. P. Stewart\"\n\nI have to be careful with the handwriting. Let's look at the \"pass'd by records & moral\" part again. Is it really \"pass'd\" or something else like \"poss'd\" or \"press'd\"? Or even a completely different word? It looks like the word starts with \"p...\".\n\nOkay, now rechecking the crucial phrase: \"accept the position - (pass'd by records & moral)...\". I keep going over it. The context seems to be about the nephew's qualifications and the conditions of the job offer.\n\nI'm thinking that it likely contains a description of the nephew's qualifications. \"pass'd by records and moral\" makes the most sense.\n\nI'll check the structure.\n\n**Final Format**\n\n[Header]\n<p>Univ. of Miss. Oct 12 82</p>\n\n<p>Prof. McInnis<br/>\nI have just been talk-<br/>\ning with Dr. Little & another<br/>\nmember of the Faculty in<br/>\nreference to your need.<br/>\nThey told me to recommend<br/>\nto you my nephew, Chas. S.<br/>\nStewart, Jr., of Amite City, Lou-<br/>\nisiana. Graduated June last -<br/>\na good scholar - very conscien-<br/>\ntious & faithful. He was to have<br/>\ntaken a place in a school in<br/>\nMemphis but was prevented<br/>\nby the death of his mother<br/>\n& illness of his father. I do<br/>\nnot know whether he could<br/>\naccept the position - (pass'd<br/>\nby records & moral), if there<br/>\nbe a prospect of permanence<br/>\n& of promotion\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/35/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

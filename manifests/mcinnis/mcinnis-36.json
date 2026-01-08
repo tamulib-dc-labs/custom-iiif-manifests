@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-36.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from C. Graves, January 10, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-01-10"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from C. Graves, January 10, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f8b12fa7-298e-35a9-aa3d-8619d44007d4/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4262,
+            "width": 3203,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f8b12fa7-298e-35a9-aa3d-8619d44007d4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4262,
+                                "width": 3203,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f8b12fa7-298e-35a9-aa3d-8619d44007d4",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Header]</p>\n\n<p>\n[Image: Building facade with text]<br>\n<b>MADDOX BRO'S.<br>\nAND<br>\nANDERSON. 509.<br>\nLAND OFFICE.</b>\n</p>\n\n<p>\n<small>JNO. W. MADDOX. &nbsp;&nbsp;&nbsp;&nbsp; F. M. MADDOX.</small> &nbsp;&nbsp;&nbsp;&nbsp; <small>C. E. ANDERSON.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Formerly of the General Land Office</small><br>\n<b>MADDOX BROS. & ANDERSON<br>\nGENERAL LAND AGENTS</b><br>\n509 CONGRESS AVE.<br>\n<small>GEO. D. BARNARD & CO. ST. LOUIS.</small>\n</p>\n\n<p>Austin Tex. Jan 10<sup>th</sup> 1883</p>\n\n<p>\nProf. McInnis<br>\nCollege Station, Tex.<br>\nDear Friend;<br>\nI wrote<br>\nyou a letter while you were North<br>\nlast Summer but did not receive a reply.<br>\nOf course, Professor, I could not ex-<br>\npect you to carry on a correspondence<br>\nwith me. It would take too much of your<br>\ntime from your duties, but I would<br>\nlike to hear from you once in a while.<br>\nI spent my happiest days while I was<br>\nunder your instruction and the remem<br>\nbrance of them will always be a<br>\npleasure. Life has but few charms<br>\nfor me and my pleasantest moments<br>\nare when I get a few spare moments<br>\nto continue my studies in mathematics<br>\nand take my mind from the cares of<br>\nthe world. This language may sound\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I'm approaching this transcription:**\n\nAs a seasoned professional, I've got a clear plan. My primary goal is to reproduce this text faithfully. Accuracy is key, so I'll be meticulous with spelling, punctuation, capitalization, and interpreting the handwriting. I'll maintain the original layout, including line breaks and paragraph structure, as requested. The use of HTML tags is required for formatting, particularly the header elements.\n\nFirst, I examined the image, taking careful note of every detail. The header is complex, with a building illustration, names, and the firm's title. I observed the handwritten date, the cursive style of the body text, and any potential ambiguities in the handwriting. I noted that the \"I\" in \"I wrote\" is a stylized, oversized letter, and that the word \"remembrance\" is split across lines. Also that the \"mathematics\" might be an ambiguous character. I\u2019ve carefully examined the \u201cMcInnis\u201d and \u201cCollege Station, Tex\u201d portions to ensure accurate transcription.\n\nI drafted a preliminary transcription, essentially creating a plain-text version of what I saw. This served as a base to refine.\n\nThen, I focused on formatting and structuring the transcription using HTML tags. I'm using `br` and `p` tags to preserve the line breaks and paragraph structure, honoring the visual layout of the original text. I used `small` tags for the printer info and `sup` for the \"th\" in the date. I'm ensuring the header elements are properly formatted within the specified HTML structure.\n\nI'm double-checking any tricky words, such as \"remembrance\", \"mathematics\", and \"expect\", making sure the transcription accurately reflects what's on the page. I'm ensuring \"North\" and \"Summer\" and \"Professor\" are capitalized according to the source.\n\nFinally, I'm re-reviewing my work, making sure I haven't missed anything. I'm confirming line breaks, and that \"Dear Friend;\" and \"I wrote\" are formatted correctly.\n\nIn essence, I'm combining my transcription skills with a methodical approach to deliver a high-quality reproduction of the text, paying close attention to every detail of the original.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4262,
+            "width": 3203,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8d218279-093d-37a9-9136-7e1ef194dad5/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4262,
+                                "width": 3203,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8d218279-093d-37a9-9136-7e1ef194dad5",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p style=\"text-align: right;\">[1883, Jan. 10]</p>\n<p>\n<img src=\"building_icon\" alt=\"Building labeled MADDOX BRO'S. AND ANDERSON. 509 LAND OFFICE.\">\n<small>JNO. W. MADDOX.<br/>\nF. M. MADDOX.<br/>\nC. E. ANDERSON.<br/>\nFormerly of the General Land Office.</small>\n<br/>\n<b>MADDOX BROS. & ANDERSON</b><br/>\n<b>GENERAL LAND AGENTS</b><br/>\n509 CONGRESS AVE. <i>Austin, Tex.</i> 188_<br/>\n<small>GEO. D. BARNARD & CO. ST. LOUIS.</small>\n</p>\n\n[Body]\n<p>Strange from a person as young as my\nself but it is the truth.\nSince the 25<sup>th</sup> of August I have been\nemployed with Maddox Bros and An-\nderson. Have spent about one half\nthe time in the field surveying. I spent\nChristmas week running a connect-\ning line from Horsehead Crossing in Pecos\nCo. to the mouth of Toyah Cr. I have\nbeen all over that western country.\nI wish to calculate the length of a degree\non the 32<sup>nd</sup> Parrallel of Latitude un-\nless I can get it already calculated.\nCould you please give me a little assist-\nance or instruction? The work must\nbe very accurate to within 20 vrs.\nIf you will please grant this request\nyou will confer a great favor on</p>\n\n[Signature]\n<p>Your Old Student<br/>\nJ. C. D. Graves</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Deep Dive into a Texas Surveyor's Letter**\n\nOkay, here's the transcription. I'm taking on this handwritten letter, and I need to be precise. Let's break this down.\n\nFirst, the image. The header is a bit busy. There's a building illustration on the left labeled \"MADDOX BRO'S. AND ANDERSON. 509 LAND OFFICE.\". Then there's the main letterhead in the center and right. Top right, in pencil, the date: `[1883, Jan. 10]`. Then comes the formal letterhead with the names \"JNO. W. MADDOX.\", \"F. M. MADDOX.\", \"C. E. ANDERSON. Formerly of the General Land Office.\" in boxes, and below, the main title \"MADDOX BROS. & ANDERSON\" in a banner. Under that: \"GENERAL LAND AGENTS\". Below, the address \"509 CONGRESS AVE.\", then \"Austin, Tex.\", and the printed date \"188_\" (blank at the end). There's also tiny text: \"GEO. D. BARNARD & CO. ST. LOUIS.\" at the bottom. The visual layout needs to be respected.\n\nNow, into the handwritten body. The script is the loose, youthful style common in those times. I'm reading:\n\n```html\n<p>[Header]</p>\n<p>[Image of building on left with text: MADDOX BRO'S. / AND / ANDERSON. / 509 / LAND OFFICE.]</p>\n<p>[Right: Pencil text] [1883, Jan. 10]</p>\n<p>[Banner graphic]</p>\n<p>JNO. W. MADDOX. </p>\n<p>F. M. MADDOX. </p>\n<p>C. E. ANDERSON. </p>\n<p>Formerly of the General Land Office.</p>\n<p>MADDOX BROS. & ANDERSON</p>\n<p>GENERAL LAND AGENTS</p>\n<p>509 CONGRESS AVE. Austin, Tex. 188_</p>\n<p>GEO. D. BARNARD & CO. ST. LOUIS.</p>\n\n<p>[Body]</p>\n<p>Strange from a person as young as my</p>\n<p>self but it is the truth.</p>\n<p>Since the 25<sup>th</sup> of August I have been</p>\n<p>employed with Maddox Bros and An-</p>\n<p>derson. Have spent about one half</p>\n<p>the time in the field surveying. I spent</p>\n<p>Christmas week running a connect-</p>\n<p>ing line from Horsehead Crossing in Pecos</p>\n<p>Co. to the mouth of Toyah Cr. I have</p>\n<p>been all over that western country.</p>\n<p>I wish to calculate the length of a degree</p>\n<p>on the 32<sup>nd</sup> Parrallel of Latitude un-</p>\n<p>less I can get it already calculated.</p>\n<p>Could you please give me a little assist-</p>\n<p>ance or instruction? The work must</p>\n<p>be very accurate to within 20 vrs.</p>\n<p>If you will please grant this request</p>\n<p>you will confer a great favor on</p>\n\n<p>[Signature]</p>\n<p>Your Old Student</p>\n<p>J. C. D. Graves</p>\n```\n\nLet's dive deeper.\n\n*   I've got a young man, J. C. D. Graves, writing to someone in the surveying field, likely an instructor or mentor. He starts by saying it's unusual for someone as young as himself to say it, but the truth is he's working for Maddox Bros and Anderson since August 25th. He's been spending about half his time surveying.\n*   He mentions a Christmas week trip, connecting a line from Horsehead Crossing in Pecos Co. to the \"mouth of Toyah Cr.\" - That \"Toyah Cr.\" has me thinking. Is it \"Toyah River\"? Or a similar name. No, the context suggests it's Toyah Creek (\"Cr.\") and that's the only geographic fit.\n*   He's asking for help calculating the length of a degree on the 32nd Parallel of Latitude, because he needs accuracy within 20 varas. That\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/36/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

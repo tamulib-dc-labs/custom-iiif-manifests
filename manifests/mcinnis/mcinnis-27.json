@@ -1,0 +1,222 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-27.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. E. Van Winkle, December 26, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-12-26"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. E. Van Winkle, December 26, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/a46539e9-a9bb-3b6c-9e7e-27464c504b0e/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4210,
+            "width": 3235,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a46539e9-a9bb-3b6c-9e7e-27464c504b0e/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4210,
+                                "width": 3235,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a46539e9-a9bb-3b6c-9e7e-27464c504b0e",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>\n<span style=\"float: right;\">PRIVATE REFERENCES.</span><br>\n<br>\nPrice of Improved No. 2 Machine, $400.<br>\n\u201c &nbsp;&nbsp;&nbsp;&nbsp;\u201c &nbsp;&nbsp;&nbsp;&nbsp;\u201c &nbsp;&nbsp;&nbsp;&nbsp;\u201c &nbsp;&nbsp;&nbsp;&nbsp;\u201c &nbsp;&nbsp;1 &nbsp;&nbsp;\u201c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$300.<br>\nJ. E. VAN WINKLE.\n</p>\n\n<p>\nJohn Cooke,<br>\nRobert S. Hughes, &nbsp;} PATERSON, N. J.<br>\nJ. C. Todd.\n</p>\n\n<p>\nS. Munn, Son & Co., }<br>\nE. Boudinot Colt. &nbsp;&nbsp;&nbsp;&nbsp;} NEW YORK CITY.\n</p>\n\n<p>Paterson Dec 26, 1882</p>\n\n<p>Mr M. Innis Dr Sir</p>\n\n<p>Not having heard from you at all<br>\nsince your return to your institution you will<br>\nplease excuse my familiarity but as my Machine<br>\nwas somewhat of a speculation or so thought<br>\nby my own people when you were here I am<br>\nhappy to inform you that it seems to be successful<br>\neven beyond my expectation I have made and sold<br>\nsome twenty of them already mostly to people in<br>\nthe State of New York! - I hope you are in<br>\ngood health and spirits and enjoying the holidays<br>\ntell Frank, we are all well and I will write<br>\nhim a letter with my new pen which I receved<br>\nfor my Christmas present perhaps this will reach<br>\nyou by Monday next and I hereby wish you a<br>\nhappy New Year</p>\n\n<p>Respectfully Yours<br>\nJ E VanWinkle</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcriptionist's Process**\n\nOkay, here's my line of thinking as I get ready to transcribe this text. First, I'm taking on the role of a professional transcriptionist, and the primary task is to get this image into a text format. I have to be incredibly accurate, maintaining the original spelling and punctuation, and I need to handle any structural elements like headers or signatures using the HTML tags I'm given, which are rather limited, by the way. This includes Markdown tables for things like lists or accounts. I\u2019m starting by analyzing the image. It\u2019s a handwritten letter on what looks like a printed letterhead. Based on the date, it seems to be from December 26, 1882, and it\u2019s likely from Paterson, New Jersey, based on the letterhead, although that is implied. The author seems to be J. E. Van Winkle, and the recipient is probably Mr. M. Innis.\n\nSo, I\u2019m working through the transcription step by step. I start with the header, which is printed. There\u2019s a \"PRIVATE REFERENCES\" at the top, followed by a price list on the left and a list of names on the right side. I notice the \u201cditto marks\u201d which I'll have to replicate somehow, maybe with spaces or more quotes. I am going to organize this into logical blocks. I will transcribe the header text first, then deal with the handwriting.\n\nI then move onto the handwritten text. There's the date and location \"Paterson Dec 26, 1882,\" a salutation, \"Mr. M. Innis Dr Sir,\" and then the body of the letter. I'll read each word, making sure I\u2019m getting it just right. I\u2019ll note anything like potential misspellings or odd punctuation, which are more apparent in cursive writing. I also have to pay attention to capitalizations, and the general flow of sentences. There are also a few specific pieces of handwriting that I\u2019ll need to make sure I get right.\n\nNext, I'll go back through what I have and double-check everything. I\u2019ll make sure that everything is correct, checking for any details I may have missed. I'll also use this phase to make sure that the proper HTML tags have been used. I will carefully consider those ditto marks, and the layout of the header. I need to get the \"Paterson, N. J.\" and \"New York City\" sections right, and how those names are grouped.\n\nAs I\u2019m refining the transcription, I'm paying extra attention to details like whether words are spelled correctly or if it is just a cursive writing element. I\u2019m thinking about how the spacing and layout should look. The header is interesting: the prompt requests Markdown tables. I\u2019m thinking that the \"Price of Improved\" section and the list of names are like tabular data, so that seems like the place for a table. I\u2019m also making sure I have the HTML elements correct, which are limited to the allowed tags, no inline styles are allowed. I am also checking on the spacing around those \u201cditto marks\u201d to get the visual cadence of the original just right.\n\nNow, I\u2019m drafting the output, using the Markdown tables for the header as requested. I\u2019m starting to get the flow, but it's important to make sure I am preserving all of the original.\n\nFinally, a last polish. Before I submit, I\u2019m going through every detail again. I\u2019m confirming my decisions about the header, spelling errors (like `receved`), capitalization, and how to best represent the visual aspects. I\u2019m double-checking everything and making sure that I have the layout and punctuation correct. I have to preserve everything from the original. Now, I have checked all the text and will render the final transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4210,
+            "width": 3235,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/c3b5c8f1-7b31-3291-a365-4d5511e4de60/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4210,
+                                "width": 3235,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c3b5c8f1-7b31-3291-a365-4d5511e4de60",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>VAN WINKLE\u2019S PATENT<br>\nOPENER AND CLEANER</p>\n\n<p>IMPROVED No. 2.</p>\n\n<p>Improvements of 1879, 1880 and 1881. Patent applied for through BROWN & BROWN, ATY\u2019S , N. Y. CITY.</p>\n\n<p>IMPROVEMENTS CONSIST OF THE FOLLOWING :<br>\n*First.\u2014Radius Bar for Doffing Roll.<br>\n*Second.\u2014Self Feed Box and Improved Rolls.<br>\nThird.\u2014Driving with One Belt.<br>\n*Fourth.\u2014Reversible Scutching Blade.<br>\nFifth.\u2014Improved Grid.<br>\nSixth.\u2014Driving Screen and Apron separate, and saving the use of continuous gearing.<br>\n*Seventh.\u2014Improved Scientifically constructed Vacuum Fan.<br>\nEighth.\u2014Four varieties of Beaters, as described on opposite page.</p>\n\n<p>MANUFACTURED EXCLUSIVELY BY<br>\n<b>J. E. VAN WINKLE,</b></p>\n\n<p>*<small>NOT IN</small> No. 1 <small>MACHINE</small>.<br>\nPATERSON, N. J.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and HTML Rendering**\n\nAlright, let's break this down. The task is to take an image, presumably a vintage advertisement or document for \"VAN WINKLE'S PATENT OPENER AND CLEANER,\" and transcribe it into HTML, paying close attention to formatting, capitalization, and layout. The image seems to contain an engraving of a large industrial machine, which I will represent by transcribing the text and including appropriate line breaks to mimic the visual layout. I need to use `<p>`, `<br>`, `<b>`, `<i>`, `<small>`, `<span>` and preserve the structure.\n\nFirstly, the header, \"VAN WINKLE'S PATENT,\" and the decorative \"OPENER AND CLEANER,\" are followed by the detailed illustration, and then the main body of the advertisement. There are a series of improvements listed, patent information, manufacturing details, and a note at the end. The goal is to accurately represent this.\n\nI'm starting with the header: `<p>VAN WINKLE'S PATENT<br>OPENER AND CLEANER</p>`. The \"OPENER AND CLEANER\" is decorative so I'll render the text as normal font.\n\nThen there is the sub-header: `<p>IMPROVED No. 2.</p>`. The \"No.\" with a dot.\n\nNext, I'll transcribe the patent information: `<p>Improvements of 1879, 1880 and 1881. Patent applied for through BROWN & BROWN, ATY'S , N. Y. CITY.</p>`. Here, I'm noting the capitalization (and the space before the comma) of \"ATY'S\" and \"N. Y. CITY.\". It appears \"ATY'S\" is correct, and I will maintain the capitalization throughout.\n\nNext comes the list of \"IMPROVEMENTS CONSIST OF THE FOLLOWING :\". I will render the text as such.\nFor the list items, I'll use paragraph breaks to maintain formatting, keeping asterisks and em-dashes intact as they appear:\n`<p>IMPROVEMENTS CONSIST OF THE FOLLOWING :<br>`\n`*First.\u2014Radius Bar for Doffing Roll.<br>`\n`*Second.\u2014Self Feed Box and Improved Rolls.<br>`\n`Third.\u2014Driving with One Belt.<br>`\n`*Fourth.\u2014Reversible Scutching Blade.<br>`\n`Fifth.\u2014Improved Grid.<br>`\n`Sixth.\u2014Driving Screen and Apron separate, and saving the use of continuous gearing.<br>`\n`*Seventh.\u2014Improved Scientifically constructed Vacuum Fan.<br>`\n`Eighth.\u2014Four varieties of Beaters, as described on opposite page.</p>`.\n\nThen comes the manufacturing details: `<p>MANUFACTURED EXCLUSIVELY BY<br><b>J. E. VAN WINKLE,</b></p>`. The name \"J. E. VAN WINKLE,\" will be bolded.\n\nFinally, the note and location: `<p>*NOT IN No. 1 MACHINE.<br>PATERSON, N. J.</p>`. The asterisk will be preserved.\n\nThe final HTML markup looks like this:\n\n```html\n<p>VAN WINKLE'S PATENT<br>\nOPENER AND CLEANER</p>\n\n<p>IMPROVED No. 2.</p>\n\n<p>Improvements of 1879, 1880 and 1881. Patent applied for through BROWN & BROWN, ATY'S , N. Y. CITY.</p>\n\n<p>IMPROVEMENTS CONSIST OF THE FOLLOWING :<br>\n*First.\u2014Radius Bar for Doffing Roll.<br>\n*Second.\u2014Self Feed Box and Improved Rolls.<br>\nThird.\u2014Driving with One Belt.<br>\n*Fourth.\u2014Reversible Scutching Blade.<br>\nFifth.\u2014Improved Grid.<br>\nSixth.\u2014Driving Screen and Apron separate, and saving the use of continuous gearing.<br>\n*Seventh.\u2014Improved Scientifically constructed Vacuum Fan.<br>\nEighth.\u2014Four varieties of Beaters, as described on opposite page.</p>\n\n<p>MANUFACTURED EXCLUSIVELY BY<br>\n<b>J. E. VAN WINKLE,</b></p>\n\n<p>*NOT IN No. 1 MACHINE.<br>\nPATERSON, N. J.</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/27/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

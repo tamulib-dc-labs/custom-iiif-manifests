@@ -1,0 +1,293 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-9.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, October 31, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-10-31"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, October 31, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/889f9b9c-bf40-3c2a-8baa-9e3b119a1f40/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3740,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/889f9b9c-bf40-3c2a-8baa-9e3b119a1f40/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3740,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/889f9b9c-bf40-3c2a-8baa-9e3b119a1f40",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p style=\"text-align: right;\">Brenham Oct 31 - 1881</p>\n\n[Body]\n<p>My dear Professor:<br/>\nYour welcome letter<br/>\ncame to hand in due course of<br/>\nmail. You remember our<br/>\ninjunction suit was called in<br/>\nrecess of the Court last summer<br/>\n& Judge McFarland dissolved<br/>\nthe injunction. The case was<br/>\ncalled last week in the District<br/>\nCourt on its merits & the injunction<br/>\nagain dissolved. The case now<br/>\ngoes to the Supreme Court.<br/>\nWe hope to get it before the<br/>\nGalveston term in January next.<br/>\nIf the Supreme Court affirms<br/>\nthe decision of the lower Court<br/>\nwe will have a house.<br/>\nI was surprised at the statement<br/>\nof Col. Finlay to you relative<br/>\nto the Galveston Superintendency.<br/>\nMy information, & it comes very<br/>\ndirect is that Col. F & Mr Lance<br/>\nwere the staunch supporters of Prof. Hogg</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription Process**\n\nOkay, here's how I approached this transcription task. First, I put myself in the role of a professional transcriptionist, which means carefully following instructions, maintaining accuracy, and being mindful of the image's characteristics. I have to make sure to stick to the rules about HTML.\n\nI started by looking over the request: it wanted me to accurately transcribe a handwritten letter, paying attention to the layout. The guidelines specified keeping the original spelling, punctuation, capitalization, and *line breaks*, and to preserve the format of the handwriting. The most important thing here is to remain faithful to the original text. I need to be exact, so my approach has to be systematic.\n\nNext, I examined the image itself. I noted that it was a handwritten letter, written with faded ink, that the paper had folds, and that the handwriting was cursive, and tough to read in some places. I saw the date \"Brenham Oct 31 - 1881\" and the salutation \"My dear Professor:\". The content concerned legal matters, specifically injunctions, Judge McFarland, the District Court, and the Supreme Court. I also noted the mention of \"Col. Finlay,\" and a \"Mr. Lance\" or similar name.\n\nWith that information in mind, I began the painstaking work of transcribing line by line. I focused on each word, slowly making out the shapes of the letters and comparing them to create a draft. I went top to bottom. I also was careful about what each word *might* be if something was hard to read. Each line was its own world.\n\n*   **Date and Salutation**: I put the date to the right and made sure to put the salutation on the left.\n*   **Text Analysis**: I carefully deciphered each word, taking into account the legal context to interpret words, such as \"injunction\" and \"Supreme Court\" in context. I knew that it needed to make sense.\n*   **Names and Places**: The handwriting was difficult to read in spots. I paid special attention to names such as McFarland, Finlay, Hogg and Lance/Lane/Lauve. I used the cursive letter shapes to carefully render the names. I double-checked the final name \"Lance\", and determined it fit. I paid special attention to each letter's structure (loops, humps, descenders), and used my knowledge to make educated guesses. I used prior knowledge that \"Hogg\" was a person, as well.\n\nI had to be careful with the text flow, and the text said \"maintain paragraph structures\". I decided to preserve the line breaks with HTML `<br>`. My goal was to create an accurate and readable transcription.\n\nWith a good draft in place, I then refined the transcription. I looked for HTML formatting. I double-checked tricky parts (names, obscure words), and then I made sure that the line breaks are correct. I knew to keep paragraphs, so the text read logically. I focused on names, and made sure they made sense. I double-checked the final text for spelling, punctuation, and capitalization. It should be perfect.\n\nNow it's time to build the HTML. I used HTML tags as requested. The date goes to the right with a style attribute. I started making the text blocks.\n\nFinal step: Double check. Okay, time to proofread it. Make it sound correct! The formatting is done. Now to render.\n\nMy final transcription, with all of the requested formatting and line breaks, and using HTML, is:\n\n```html\n<p style=\"text-align: right;\">Brenham Oct 31 - 1881</p>\n<p>My dear Professor:<br/>\nYour welcome letter<br/>\ncame to hand in due course of<br/>\nmail. You remember our<br/>\ninjunction suit was called in<br/>\nrecess of the Court last summer<br/>\n& Judge McFarland dissolved<br/>\nthe injunction. The case was<br/>\ncalled last week in the District<br/>\nCourt on its merits & the injunction<br/>\nagain dissolved. The case now<br/>\ngoes to the Supreme Court.<br/>\nWe hope to get it before the<br/>\nGalveston term in January next.<br/>\nIf the Supreme Court affirms<br/>\nthe decision of the lower Court<br/>\nwe will have a house.<br/>\nI was surprised at the statement<br/>\nof Col. Finlay to you relative<br/>\nto the Galveston Superintendency.<br/>\nMy information, & it comes very<br/>\ndirect is that Col. F & Mr Lance<br/>\nwere the staunch supporters of Prof. Hogg</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3740,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e92579b2-b854-3283-bc5d-4f250cea0c37/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3740,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e92579b2-b854-3283-bc5d-4f250cea0c37",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[1881, Oct. 31]\n\nfrom first to last. I am not\nvain enough to challenge their\nright to support it. or any other\ngentleman - but I am informed\nthat their votes alone defeated me.\nI feel quite keenly the defeat.\nYou see from the News that the\nUniversity location is likely\nto get into a muddle.\nBy the by, have you seen the Gov's\n\"Texas\" - I know you have.\nIt is a perfect little \"Daisy\".\nNothing like it so pure in style,\nelegant in diction, redolent of\ninstruction - filled with beautiful\n& artistically finished pictorial\nillustrations of early life in Texas\nBesides, its orthography is perfect\n& its well-rounded periods\nare not excelled by Cicero's best.\nHave you seen any thing like\nthe mule-rabbit? No wonder the\nbold victioneer trembles\nin the distance with his</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis Complete**\n\nAlright, let's break this down. My goal here is a clean and accurate transcription of this handwritten document. I'm focusing on preserving the original text, as best as possible, while navigating the quirks of 19th-century cursive and any faded ink.\n\nFirst, the date: I'm pretty sure it's October 31st, 1881. The handwriting style and general context suggest a letter. I'm seeing a direct, almost combative tone in the initial lines. It feels like someone expressing a grievance or offering a sardonic opinion.\n\nThe opening lines are pretty clear: some sort of disagreement or defeat, which is a bit vexing. The writer's not claiming total superiority but feels their right to speak is somehow challenged. There\u2019s a mention of votes, so it\u2019s likely about a political setback, or some sort of election. The writer feels the sting of defeat keenly. Then something about a university location getting \"into a muddle\". I also see mention of news regarding the location.\n\nNow for the tougher spot. There's this mention of \"Gov's 'The Texas'\" which really grabs my attention. I spent a fair bit of time trying to resolve that. Originally I had \"O.H's\", which felt wrong. Checking the date and context for potential figures in Texas history, I settled on \"Gov's\" and, given \"Texas\", I'm pretty certain this refers to Governor Oran Milo Roberts and his book, \"A Description of Texas.\" The sarcastic edge suggests the writer might be critiquing the book's style or content.\n\nThe rest of the letter is fairly straightforward to transcribe. The text seems to be sarcastic, as the writer notes a \"perfect little 'Daisy'\", with \"pure in style\". \"Orthography is perfect\" is another sarcastic comment. It's a clear critique, almost mocking, the style, the descriptions, and the idealized view of early Texas life.\n\nThen comes the problematic word. I'm seeing \"the mule-rabbit? No wonder the bold [???] trembles\". The letter is clearly \"v\" and then something that looks like \"i\" \"c\" \"t\". I searched for every possible word beginning with \"v\" and something \"t\". Looking at every single letter, and its characteristics and its loops and angles. Then comes this word which looks a bit like \"Victioneer\". However, this is not a word. The writer is probably making a term. So, given the context, the best transcription I came up with is \"victioneer\". I'm thinking, given the sarcastic tone, \"victioneer\" might be some made-up word, mocking the \"pioneers,\" or the tone of the book, in general. Maybe an auctioneer or volunteer or something, that fits the \"bold\" and \"trembles\".\n\nThe final transcription:\n\n[1881, Oct. 31]\nfrom first to last. I am not\nvain enough to challenge their\nright to support it. or any other\ngentleman - but I am informed\nthat their votes alone defeated me.\nI feel quite keenly the defeat.\nYou see from the News that the\nUniversity location is likely\nto get into a muddle.\nBy the by, have you seen the Gov's\n\"Texas\" - I know you have.\nIt is a perfect little \"Daisy\".\nNothing like it so pure in style,\nelegant in diction, redolent of\ninstruction - filled with beautiful\n& artistically finished pictorial\nillustrations of early life in Texas\nBesides, its orthography is perfect\n& its well-rounded periods\nare not excelled by Cicero's best.\nHave you seen any thing like\nthe mule-rabbit? No wonder the\nbold victioneer trembles\nin the distance with his\n\nThe words that were analyzed heavily were `victioneer` (is the key term), `Gov's` (is a key term), and `Daisey`.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3740,
+            "width": 2333,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8486538f-e4ec-3f8f-8cfe-b1f01d81e11f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3740,
+                                "width": 2333,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8486538f-e4ec-3f8f-8cfe-b1f01d81e11f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n[1881, Oct 31]\n</p>\n<p>\ndouble barrel of largest Caliber<br>\nbehind a tree. He was a bold<br>\nNimrod to risk himself on<br>\nterra firma - Confronting<br>\nsuch a giant. I had rather<br>\nbe a school teacher than a<br>\nNimrod in the early days of<br>\nTexas - How glad I am that<br>\nthe race of big rabbits was<br>\nexterminated by the bold<br>\n& hardy pioneers of Texas. Had we such<br>\nrabbits now I would go back<br>\nto Georgia - Rabbits, you know, are<br>\nafraid of water & if I could<br>\nget the Father of waters<br>\nbetween them & me, how<br>\ncomfortable I would feel.<br>\nTrust you are well & happy<br>\nWrite me a long letter - I've<br>\nbeen \"blue\" for weeks.<br>\nYour Friend<br>\nJ. Hand\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Transcriptionist's Thoughts**\n\nAlright, let's break this down. My primary role is to transcribe this text accurately, maintaining all the nuances of the original while adhering strictly to the given guidelines. First, the task itself: a handwritten letter. I've got to transcribe it top-to-bottom, left-to-right, preserving every spelling and punctuation mark, and any layout features like paragraphs or marginalia. I'm given specific HTML tags to work with, which I'll use to structure the output. I need to handle insertions, and the image contains a strikethrough that needs special attention because I can't use the standard `<s>` tag. The final result should be the *transcription only*.\n\nNow, analyzing the image itself, it's a handwritten letter on lined paper, with some folds. The handwriting style seems to be cursive, from the late 19th century, which I am familiar with. There's a date in pencil in the top right corner: \"[1881, Oct 31]\". I'll handle that carefully, including the brackets.\n\nThe letter's content looks interesting. I'm noting key phrases and proper nouns: \"double barrel of largest caliber,\" \"bold Nimrod,\" \"terra firma,\" and the crossed-out \"Father of waters.\" The letter mentions Texas, rabbits, Georgia, and someone named J. Hand, who signed the letter.\n\nI'm starting my line-by-line transcription. I'm reading and typing the text, paying careful attention to capitalizations and punctuation. I need to make sure the words are clear, even with the cursive nature of the lettering. I'm noting the insertion of \"pioneers\" above the word \"of\" in the phrase \"hardy pioneers of Texas.\" I'm also carefully transcribing the crossed-out text \"Father of waters\" within the sentence. Since I can't use a strikethrough tag, and omitting the text would be a loss of data, I have to find a workaround for indicating the deletion. The image suggests that a river was meant to go there.\n\nRegarding the HTML, I'll use `<p>` for the main body of the text and `<br>` for line breaks to capture the line breaks that are in the text. I am going to have to decide how to handle the \"Father of waters\" strikethrough since I can't use the allowed tag `<del>`.\n\nI'm double-checking capitalizations, proper nouns (\"Caliber\", \"Nimrod\", \"Texas\", \"Georgia\"). The \"blue\" is in quotes, so I'll preserve that. I'm paying close attention to the signature, \"J. Hand,\" which is written in a loopy cursive style. I am also checking the general layout, including the date placement in the top right.\n\nThe text \"Father of waters\" has a clearly defined strikeout through the text. I am also considering the layout and placement of the text. I am carefully re-reading the image to ensure the layout of the letters is correct.\n\nAfter reviewing the image, I have made the determination to transcribe the crossed-out text. It is part of the image, and a scholarly output is probably expected. I am now proceeding with that.\n\nI'm now generating the final HTML output. I'm double-checking everything one last time to make sure that everything matches the image, the instructions, and all the formatting requirements. Here goes.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/9/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

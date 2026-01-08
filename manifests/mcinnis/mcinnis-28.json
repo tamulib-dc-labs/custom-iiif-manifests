@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-28.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, June 19, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-06-19"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, June 19, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/48c1842e-c36e-3d51-870a-9997ec03bb50/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3740,
+            "width": 2337,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/48c1842e-c36e-3d51-870a-9997ec03bb50/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3740,
+                                "width": 2337,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/48c1842e-c36e-3d51-870a-9997ec03bb50",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Header: Bonham June 19 - 88]</p>\n\n<p>My Dear Professor:<br>\nIt was impossible<br>\nfor me to go down to Hempstead<br>\nNecessity is a hard Master - if not cruel.<br>\nOur Examinations closed Friday<br>\nwith I trust rather satisfactory results.<br>\nMost excellent sermon by Eld. Riggs<br>\nyesterday - one of the best I have ever<br>\nheard - To night we have our<br>\nclosing exercises - with Lit.<br>\naddress - graduating Essays &c.<br>\nI must try today to think of<br>\nsomething to say to the graduating<br>\nclass - two young ladies -<br>\nD. V. I shall pass up the Central<br>\non Wednesday night - en route<br>\nto Corsicana - Have had some<br>\nletters which urge me to come<br>\nat earliest moment -<br>\nAfter Teachers Association<br>\nat Tyler I shall go to New Braunfels<br>\nfor six weeks - I am quite<br>\nbroken down now & in poor<br>\ncondition to enter upon another</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of the Handwritten Letter**\n\nAlright, let's get down to it. I see a handwritten letter here, probably from the late 19th century\u2014the \"88\" in the date is a solid clue. The location is Bonham, Texas, on June 19th, 1888. The salutation is \"My Dear Professor,\" which gives me some context. It's written in cursive, somewhat slanted, and the legibility is moderate, nothing too challenging.\n\nI'll transcribe this line by line, capturing every nuance, every stroke.\n\n*   Bonham June 19 - 88\n*   My Dear Professor:\n*   It was impossible\n*   for me to go down to Hempstead\n*   Necessity is a hard Master - if not cruel.\n*   Our Examinations closed Friday\n*   with I trust rather satisfactory results.\n*   Most excellent sermon by Eld. Riggs\n*   yesterday - one of the best I have ever\n*   heard - To night we have our\n*   closing exercises - with Lit.\n*   address - graduating Essays &c.\n*   I must try today to think of\n*   something to say to the graduating\n*   class - two young ladies -\n*   D. V. I shall pass up the Central\n*   on Wednesday night - en route\n*   to Corsicana - Have had some\n*   letters which urge me to come\n*   at earliest moment -\n*   After Teachers Association\n*   at Tyler I shall go to New Braunfels\n*   for six weeks - I am quite\n*   broken down now & in poor\n*   condition to enter upon another\n\nThe text flows nicely, making contextual sense, nothing obscure.\n\nNow let's clean it up a bit. The \"Bonham\" is a city in Texas, fits with the context, and Hempstead is also a Texas town. The handwriting makes \"Eld. Riggs\" apparent, and that's Elder Riggs. It is clearly literary and the abbreviation is \"Lit.\" and I read \"D.V.\" as \"Deo Volente\" and is common for the time. And \"&c.\" means \"et cetera.\" The writer is going \"up the Central\" (Houston and Texas Central Railway) towards Corsicana. \"Tyler,\" and \"New Braunfels\" fit right in, these are also Texas towns.\n\nI will format this with the date at the top and the salutation and body.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3740,
+            "width": 2337,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/71359548-dd11-35fc-be5a-f5ce12e121d1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3740,
+                                "width": 2337,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/71359548-dd11-35fc-be5a-f5ce12e121d1",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">[1883, June 19]</p>\n\n<p>Six weeks stretch \u2013 The position<br/>\ntendered me at New Braunfels<br/>\nwas unsought & I did not feel<br/>\nat liberty to decline it, though<br/>\nit tax my physical & mental<br/>\nenergies \u2013 I know you will have<br/>\na \"good time\" North \u2013 especially<br/>\nat Saratoga Wish I could go \u2013<br/>\nBut from the fact that you expect<br/>\nto leave on Thursday next &<br/>\nwill be busy, I would ask you<br/>\nto go as far (at least as Hearne<br/>\n& return next morning \u2013 I fear<br/>\nI shall not see you soon & I regret<br/>\nit much \u2013 Wish you have<br/>\nhad a successful Commencement<br/>\nI am much occupied with<br/>\npreporation for the exercises this P.M.<br/>\nat Opera-house \u2013 Good cheer to you \u2013<br/>\nI think your star is in the ascendent.<br/>\nWrite me what you see & hear North<br/>\nWish we could catch more of the spirit<br/>\nof that people \u2013</p>\n\n<p align=\"right\">Your friend<br/>\nJ. T. Hand</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Detailed Walkthrough**\n\nOkay, here's the transcription, from my perspective. I start by internalizing the task: I'm a transcriptionist, my goal is to transcribe this image of text, following specific guidelines. Top-to-bottom, left-to-right, preserving everything exactly as it is, even the flaws. I need to note any uncertainties, illegible sections, or marginal notes using specific tags. Formatting is key, and I have to use the given HTML tags for structure. The final output is *only* the transcription, nothing more.\n\nFirst, a quick visual sweep. It's a handwritten letter, purple ink on lined paper. Cursive, a bit hurried but generally readable. A pencil-written date at the top right, in brackets\u2014maybe it's `[1883, June 19]`. The signature looks like \"J. T. Hand\".\n\nNow, the detailed work begins, line by line:\n\n*   **Top Right (Pencil):** `[1883, June 19]`\n*   *Line 1:* \"Six weeks stretch \u2013 The position\"\n*   *Line 2:* \"tendered me at New Braunfels\"\n*   *Line 3:* \"was unsought & I did not feel\"\n*   *Line 4:* \"at liberty to decline it, though\"\n*   *Line 5:* \"it tax my physical & mental\"\n*   *Line 6:* \"energies \u2013 I know you will have\"\n*   *Line 7:* \"a \"good time\" North \u2013 especially\"\n*   *Line 8:* \"at Saratoga Wish I could go \u2013\"\n*   *Line 9:* \"But from the fact that you expect\"\n*   *Line 10:* \"to leave on Thursday next &\"\n*   *Line 11:* \"will be busy, I would ask you\"\n*   *Line 12:* \"to go as far (at least as Hearne\" (Pause. Checking 'Hearne'. Texas context. It *is* Hearne.)\n*   *Line 13:* \"& return next morning \u2013 I fear\"\n*   *Line 14:* \"I shall not see you soon & I regret\"\n*   *Line 15:* \"it much \u2013 Wish you have\" (The \"Wish\" is clear. I see no \"I\")\n*   *Line 16:* \"had a successful Commencement\"\n*   *Line 17:* \"I am much occupied with\"\n*   *Line 18:* \"preporation for the exercises this P.M.\" (Correction/overwriting in this word; I will transcribe as written).\n*   *Line 19:* \"at Opera-house \u2013 Good cheer to you \u2013\"\n*   *Line 20:* \"I think your star is in the ascendent.\"\n*   *Line 21:* \"Write me what you see & hear North\" (The last word\u2026 it's North. Context fits. Reviewing).\n*   *Line 22:* \"Wish we could catch more of the spirit\"\n*   *Line 23:* \"of that people \u2013\"\n*   **Signature:** \"Your friend\" and \"J. T. Hand\"\n\nNow, refining and formatting. I need to make sure the date is correctly placed, and use HTML for line breaks and structure.\n\nI double-check specific words: \"Six\", \"New Braunfels\", \"Hearne\", and the spelling of \"preporation\". I confirm the \"exercises\" word is written over something, so I will ensure the spelling is transcribed. I analyze the word at the end of line 21, and decide that it is indeed \"North\". It's the only word that makes sense.\n\nI confirm the signature format.\n\nNow, a final polish. Using `p` tags to separate sections, `<br>` for line breaks.\n\nChecking Line 12 parens and re-reading the text. It's 'at least as', it looks grammatically awkward.\n\nReview Line 15. Confirm \"Wish\". \"Twish\" is unlikely.\n\nReview Line 18: \"preporation\". That spelling is clear.\n\nReview \"ascendent\" spelling. I will transcribe as I see it.\n\nReview \"Hearne\". Confirmed.\n\nReview Date. Pencil and brackets.\n\nFinal check of all words to see that they are transcribed correctly.\n\nConfirm again: \"tax\", \"Thursday next\", \"preparation\", \"Hearne\", \"exercises\", \"spirit\", \"ascendent\".\n\nLast read through.\n\nIt's ready.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/28/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

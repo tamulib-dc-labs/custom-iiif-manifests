@@ -1,0 +1,151 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-23.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from L. R. Cravens, A. Gillean, and E. C. Smith, March 4, 1882"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1882-03-04"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "rights"
+                ]
+            },
+            "value": {
+                "none": [
+                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from L. R. Cravens, A. Gillean, and E. C. Smith, March 4, 1882"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/23"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f9c9b9d5-3461-39e9-a3fe-8696cd926bb7/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/23/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4318,
+            "width": 3299,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f9c9b9d5-3461-39e9-a3fe-8696cd926bb7/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3299,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f9c9b9d5-3461-39e9-a3fe-8696cd926bb7",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/23/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>CALLIOPEAN LITERARY SOCIETY,<br>\nA. & M. C.</p>\n\n<p align=\"right\">College Station, Texas, March 4<sup>th</sup> 1882.</p>\n\n<p>You are respectfully invited<br>\nto attend a Public Debate given by<br>\nthe members of the Calliopean Literary<br>\nSociety in their Hall, Friday March 17<sup>th</sup> /82<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 <sup>30</sup> P. M.</p>\n\n[Signatures]\n| | |\n| :--- | :--- |\n| A. R. Cravens | |\n| H. A. Gillean | } Committee |\n| E. C. Smith | &nbsp;&nbsp;&nbsp;&nbsp;of<br>&nbsp;&nbsp;&nbsp;&nbsp;Invitation. |</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/23/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Thinking Process for Transcribing the Document**\n\nOkay, here's how I'm approaching this transcription task. First, I'm carefully examining the image. I'm focusing on identifying distinct sections: the header, the date, the main body text, and the signatures. I'm noting the general layout and any unusual features in the handwriting or the typography.\n\n*   **Initial Breakdown:** I see a \"CALLIOPEAN LITERARY SOCIETY\" header, followed by \"A. & M. C.\" Then there's the date: \"College Station, Texas, March 4th 1882.\" The body of the text is an invitation to a public debate. And then, importantly, there's a list of names under the title \"Committee of Invitation.\"\n\n*   **Detailed Analysis:** I'm zooming in to make sure I get the text right. The header is printed. The date is handwritten, and I'm paying attention to the superscript \"th\" and the slightly squashed \"1882.\" The main body text is cursive. I need to make sure I'm reading the individual words correctly, especially those that might be less common. \"Respectfully,\" \"Calliopean,\" these are key.\n\n*   **Signature Dilemma:** The biggest area of focus is on the signatures. I'm looking closely at each letter. The first name is \"A. R. Cravens\" (or possibly A. K. Cravens), but the cursive R/K is a bit ambiguous. Let's make sure that's correct. I will focus on the visual representation of the letters. I need to get the spelling of all the names right and also figure out exactly how the \"Committee of Invitation\" is connected to these names. I need to represent the brace that links the signatures and the committee title, but this is a graphical element.\n\n*   **Formatting Constraints:** I need to format the transcribed text with allowed HTML elements only. The formatting needs to closely approximate the original visual layout, including line breaks and indentations. I need to figure out the best way to represent the signature block using Markdown, as requested.\n\n*   **Refinement and Transcription:** I have to make decisions, especially on the 'R' or 'K' in Cravens. Based on the visual analysis, I've decided it looks like an R in a very particular cursive style. Then, I am transcribing the text using the permitted HTML tags and, where specified, Markdown for the table. I'm double-checking everything: the spelling of words like \"Calliopean,\" the correct use of superscript for \"th,\" and the layout of the signatures and the committee information. The double-check is crucial to make sure I've captured everything accurately.\n\n*   **Final Verification:** I'm making a final pass, ensuring that the transcription faithfully reflects the visual arrangement, including spacing, capitalization, and punctuation. The goal is a clear and accurate rendering of the original document.\n\n*   **Final Output:**\n    *   **Header:** `<p>CALLIOPEAN LITERARY SOCIETY,<br>A. & M. C.</p>`\n    *   **Date:** `<p>College Station, Texas, March 4<sup>th</sup> 1882.</p>`\n    *   **Body:** `<p>You are respectfully invited<br>to attend a Public Debate given by<br>the members of the Calliopean Literary<br>Society in their Hall, Friday March 17<sup>th</sup> /82<br>7 <sup>30</sup> P. M.</p>`\n    *   **Signatures:**\n        ```\n        | | |\n        | :--- | :--- |\n        | A. R. Cravens | |\n        | H. A. Gillean | } Committee |\n        | E. C. Smith | &nbsp;&nbsp;&nbsp;&nbsp;of<br>&nbsp;&nbsp;&nbsp;&nbsp;Invitation. |\n        ```\n    *   **Final Result** I will put together the final output by putting all the parts together and verifying one last time that I have met all requirements.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/23/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
