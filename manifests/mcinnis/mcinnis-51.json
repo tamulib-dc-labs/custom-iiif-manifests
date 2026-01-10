@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-51.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from H. H. Dinwiddie, July 30, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-07-30"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from H. H. Dinwiddie, July 30, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/ddc0f49c-19dc-37b0-a009-6abd53015b8b/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4105,
+            "width": 3091,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ddc0f49c-19dc-37b0-a009-6abd53015b8b/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4105,
+                                "width": 3091,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ddc0f49c-19dc-37b0-a009-6abd53015b8b",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">College Station July 30 - 1883</p>\n<p>My dear McInnis -</p>\n<p>Your letter was brought by<br/>\ntodays mail and heartily welcomed. It finds<br/>\nus like Mark Tapley in \"Eden\", only sustained<br/>\nby what each has of the Talent \"for coming out<br/>\nstrong under difficulties\". Mark would be up=<br/>\nroariously cheerful here now. Fannie is in bed<br/>\nwith the fashionable \"remittent\", Bessie looking<br/>\nsad and wan is crawling feebly about from<br/>\none ward to another of our hospital. I am at<br/>\nmy old combined occupations of nurse, cook,<br/>\nhousekeeper, general messenger and man of all<br/>\nwork. Bringhurst is very helpful and kind.<br/>\nYou may congratulate yourself on being anywhere<br/>\nbut here at this time. However Mrs. D. is better<br/>\nthis morning and I hope to get all hands up to<br/>\nthe traveling point in a few days and then<br/>\naway they go to higher lands. If I can keep on<br/>\nmy feet a week longer you may expect me to be<br/>\non hand at the Lindell when you step from the<br/>\n'bus on the 9<sup>th</sup>.<br/>\nGirardeau gave you a splendid send off in the<br/>\nissue following your visit. I have the article<br/>\nand will try in town to get some extra copies.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, I need to understand what I'm looking at. It's a handwritten letter on either lined or plain paper \u2013 might be faint lines there. The date and location are at the top right: \"College Station July 30 - 1883\". The salutation is \"My dear McInnis -\". Now for the body. The letter mentions someone's letter being welcomed, and that the writer is in a difficult situation, like \"Mark Tapley in 'Eden',\" making reference to Dickens. There's talk of someone named Fannie being sick with \"remittent fever\" (likely malaria), and another person, Bessie, is also ill, and the writer is doing everything from nursing to housework. There is help from someone named Bringhurst. The writer suggests McInnis is lucky to be elsewhere, but things will improve soon. The writer hopes to meet McInnis at the Lindell on the 9th, and mentions a good send-off from Girardeau, which may be a person or a newspaper, after a visit. I need to get copies of the article.\n\nSo, here's my plan. The HTML needs to be according to the parameters. I'll need to use `<p>` for paragraphs, `<br/>` for line breaks within a paragraph, and align the date to the right. I'll need to be accurate with the spelling and punctuation and maintain the format of the handwriting.\n\nI'll start with the header, right-aligned: `College Station July 30 - 1883`. Then the salutation: `My dear McInnis -`. Now the body. I'll transcribe each line carefully, paying close attention to punctuation and formatting as per the instructions, particularly making sure to use line breaks as needed to replicate the layout. I'll look closely at words like \"todays,\" \"Talent,\" the hyphens in lines, and names like \"Bringhurst,\" \"Lindell,\" and \"Girardeau\". It appears \"Mrs. D.\" is written and there is no reason to think it is \"Dr.\" or \"Mrs. P.\" The letter indicates 'D'.\n\nThe draft HTML will look like this, preserving line breaks.\n\n```html\n<p align=\"right\">College Station July 30 - 1883</p>\n<p>My dear McInnis -</p>\n<p>Your letter was brought by<br/>\ntodays mail and heartily welcomed. It finds<br/>\nus like Mark Tapley in \"Eden\", only sustained<br/>\nby what each has of the Talent \"for coming out<br/>\nstrong under difficulties\". Mark would be up=<br/>\nroariously cheerful here now. Fannie is in bed<br/>\nwith the fashionable \"remittent\", Bessie looking<br/>\nsad and wan is crawling feebly about from<br/>\none ward to another of our hospital. I am at<br/>\nmy old combined occupations of nurse, cook,<br/>\nhousekeeper, general messenger and man of all<br/>\nwork. Bringhurst is very helpful and kind.<br/>\nYou may congratulate yourself on being anywhere<br/>\nbut here at this time. However Mrs. D. is better<br/>\nthis morning and I hope to get all hands up to<br/>\nthe traveling point in a few days and then<br/>\naway they go to higher lands. If I can keep on<br/>\nmy feet a week longer you may expect me to be<br/>\non hand at the Lindell when you step from the<br/>\n'bus on the 9th.<br/>\nGirardeau gave you a splendid send off in the<br/>\nissue following your visit. I have the article<br/>\nand will try in town to get some extra copies.</p>\n```\n\nI will check the formatting, paying special attention to capitalization and punctuation. The spelling looks good for words like \"remittent,\" \"Lindell\", \"Bringhurst\", and \"Girardeau\" and for names like \"Fannie\", and \"Bessie\". Line breaks must preserve the visual format of the letter. This looks correct. The HTML formatting should be exactly as the code is drafted above. And I think that should be it.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4105,
+            "width": 3091,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ab71667b-640a-399c-9b5c-25d7b258bf95/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4105,
+                                "width": 3091,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ab71667b-640a-399c-9b5c-25d7b258bf95",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">[1883, July 30]</p>\n<p>I think you got the kinks out of the Post. I<br>\nam anxious to hear how they got into it. This<br>\nwe may discuss over the foaming tankard at Mr.<br>\nAnheuser's very headquarters.</p>\n<p>All is quiet here so far as business is concerned.<br>\nGen. Hardeman takes hold quietly but energeti=<br>\ncally. He has had workmen inspecting the prem=<br>\nises and promises to put the ball in motion<br>\nin a few days. Nothing definite from Austin<br>\nyet. Applications for Catalogues coming in.</p>\n<p>We have a catalogue to be proud of this time (?)<br>\nNile green cover &ndash; kiss-me-quick-and-treat-me-to-<br>\nstrawberry-ice-cream tinted \"innards\". It is<br>\ntoo-too-too, and the rosy hues of the paper were<br>\neminently fitted to prepare the mind of the<br>\nreader for the rhetoric inside, which however<br>\nthe ruthless hand of the vandal chemist struck<br>\nwith partial oblivion. It may pass, but is still<br>\nsomething of a mess. May it be the last relic<br>\nof the most fearful blunder in our history!</p>\n<p>You will not expect a longer letter than this<br>\nnow. I will bring your letters. The kitchen and<br>\nthe hospital call for me. The ladies appreciate<br>\nyour kind remembrance and send regards.</p>\n<p>Even Norrell looks depressed today and puts</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcribing a Handwritten Letter**\n\nOkay, here's what I'm thinking. First, I need to understand what's being asked of me. It's transcription, so I'm aiming for accuracy above all else, but I also need to preserve the layout, which means line breaks and any paragraph structure are crucial. HTML tags are allowed, so that'll help. I can see the image is a handwritten letter from the late 19th century, so I'll expect some cursive and maybe some unusual phrasing. I'll need to interpret the handwriting and use bracketed question marks for anything uncertain, and [illegible] if something is totally unreadable. I should also keep an eye out for any formatting elements, like tables, as mentioned in the instructions.\n\nSo, here's how I'll approach this image: I'll start from the top and work my way down, line by line, really looking at each word. I'm going to carefully read each paragraph, making sure I transcribe it correctly, and keeping the line breaks.\n\nFirst thing, there's a date in the top right: `[1883, July 30]`. Then I have the first paragraph. I see \"Post\" in the first line. Then, there's \"Anheuser's\". It must be a reference to the brewery.\n\nNext paragraph: Seems to be about business and a General Hardeman. I see those hyphens at the end of some lines. I'll keep those.\n\nThe third paragraph talks about a catalogue. There's a curious color description \u2013 \"Nile green cover - kiss-me-quick-and-treat-me-to- strawberry-ice-cream tinted 'innards'\". I\u2019ll have to transcribe that exactly as written, even if it's a bit odd. I\u2019m guessing it is a quote, so I will note that. The \"vandal chemist\" phrase is odd as well. I think the reference is to the printing process, given the context.\n\nThe fourth paragraph is pretty straightforward, the writer is wrapping things up, mentions a kitchen and a hospital.\n\nIn the last line, I see a name. Looks like \"Norrell\" or possibly \"Harrell\". Going with \"Norrell\", as it\u2019s consistent with a clear \u2018N\u2019.\n\nNow it is time to formalize the transcription, making sure it follows all the guidelines, and checking it against the image. HTML tags: definitely going with `<p>` for paragraphs, and `<br>` to maintain the line breaks. Since I need to preserve the line breaks as they are, I am setting up the text as is.\n\nI'm ready to present the final result.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 4105,
+            "width": 3091,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6319fb20-dbfa-323d-aa08-da5cbc631c05/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4105,
+                                "width": 3091,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6319fb20-dbfa-323d-aa08-da5cbc631c05",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>his hand on his stomach and shakes his head<br>\nsadly at the mention of ice and things.<br>\nAuf Wiedersehen!</p>\n\n<p>Faithfully Yours -<br>\n[Signature]<br>\n[H.H. Dinwiddie]</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Output**\n\nAlright, let's get this done. The task is a transcription from an image of a handwritten letter, and I need to summarize my thought process for an expert. It's on lined paper, looks like late 19th or early 20th-century script. The challenge is to preserve the exact text, following some given formatting guidelines for HTML and uncertain characters.\n\nFirst, I need to look at the text as a whole. It\u2019s in lines: \"his hand on his stomach and shakes his head,\" then something about ice and goodbye (in German), and finally, a formal closing with initials and what looks like an identifying note.\n\nI'm starting by transcribing the lines as I see them. Spelling and punctuation are key; I'll use the HTML tags as directed: `<p>` for paragraphs, and `<br>` for line breaks within a paragraph. Uncertainties get brackets with a question mark. Unreadable parts get `[illegible]`.\n\nI'm focused on accuracy, and I'll revisit any ambiguous elements. For the German, I checked the spelling of \"Auf Wiedersehen\". I'm making sure to preserve any stylistic quirks. The handwriting is clear enough for most parts.\n\nNow, the signature is a stylized monogram. I'll represent it as `[Signature]`. Below, in pencil, is `[H.H. Dinwiddie]`. Those brackets are definitely *part* of the handwritten addition. I will render as it's written. The period at the end of \"things\" is faint, but it does look like it is there. I'll include it.\n\nThe final transcription, using the format:\n<p>his hand on his stomach and shakes his head<br>\nsadly at the mention of ice and things.<br>\nAuf Wiedersehen!</p>\n<p>Faithfully Yours -<br>\n[Signature]<br>\n[H.H. Dinwiddie]</p>\n\nLooks good. Final check:\n<p>his hand on his stomach and shakes his head<br>\nsadly at the mention of ice and things.<br>\nAuf Wiedersehen!</p>\n<p>Faithfully Yours -<br>\n[Signature]<br>\n[H.H. Dinwiddie]</p>\nReady to output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/51/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

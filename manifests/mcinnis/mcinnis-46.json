@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-46.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from J. T. Hand, April 27, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-04-27"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from J. T. Hand, April 27, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/89d9a75c-dc65-33b7-9fd4-d77d9bf08829/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1744,
+            "width": 3013,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/89d9a75c-dc65-33b7-9fd4-d77d9bf08829/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1744,
+                                "width": 3013,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/89d9a75c-dc65-33b7-9fd4-d77d9bf08829",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><b>POSTAL CARD.</b></p>\n<p>[Stamp: U.S. POSTAGE ONE CENT]<br/>\n[Postmark: CORSICANA 16 APR TEX]</p>\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n\n<p>[Margin: Hand]</p>\n\n<p>[Margin: Answered<br/>\nApril 27 / 83]</p>\n\n<p>Prof: L. L. McInnis<br/>\nCollege Station<br/>\nTexas</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription Thought Process**\n\nAlright, let's get down to it. As a professional transcriptionist, I need to extract the text from this image of a vintage postal card with utmost accuracy, preserving its original format and layout to the best of my ability. I'm operating under specific guidelines, so the first step is a meticulous analysis of the request.\n\nFirst, I identified the image as a US Postal Card, with a \"POSTAL CARD.\" banner at the top, along with a US Postage One Cent stamp depicting Liberty or Columbia. The postmark reads \"CORSICANA / 16 / APR / [Year illegible] / TEX.\" There's a directive printed, \u201cNOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" And, of course, there's handwriting to contend with. The address reads \"Prof: L. L. McInnis / College Station / Texas.\" There's also some marginalia on the left, a vertical text: \"Answered / April 27 / 83,\" along with a red pencil mark, looking like \"Hand\" scrawled near the top. Some brown stains mar the right side of the card, but they won't affect the text.\n\nNow, my strategy is to approach this in sections. I'll start with the header, which includes the \u201cPOSTAL CARD.\u201d banner, stamp, and postmark. Then, there's the instruction line, the main handwritten address, and finally, the marginalia.\n\nThe postmark is a bit tricky, the year is faint, practically illegible. The \"TEX\" is clearer at the bottom.\n\nI begin to draft the transcription mentally, almost like a scratchpad. I'm keeping a running list: \"POSTAL CARD,\" the stamp, the postmark elements, the instruction, the address: \"Prof: L. L. McInnis, College Station, Texas\", and the vertical marginalia \"Hand\" (in red), and \u201cAnswered / April 27 / 83\u201d.\n\nNow, formatting is next. I am mindful of the allowed HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`. I\u2019ll use these to structure the transcription, trying to keep it as close to the original layout as possible. The header elements are grouped. For the address, I'll use line breaks (`<br/>`) within a paragraph (`<p>`). The margin text needs careful handling, and since it\u2019s vertical, I'll denote it as `[Margin: ...]` or add a line break.\n\nThe red text \"Hand\" will need special attention. I can't use style attributes to indicate color, so I\u2019ll just transcribe the text and if absolutely necessary, note that the original is red, but my focus is on pure accuracy, not color representation. Usually I won\u2019t transcribe the color. But, the guidelines say \"preserve original spelling\". It's not clear.\n\nAfter scrutinizing the handwriting, I'm pretty certain that the address belongs to Prof. L.L. McInnis, a known figure from Texas A&M, fitting with \"College Station\". The \"Answered\" margin entry appears to confirm the year as 1883.\n\nOkay, let's refine and format it now. I'm structuring this from top to bottom, including header elements like the banner and stamp, the postmark, instruction, main address, and the marginalia. I'm deciding that, according to the instructions, the marginalia goes *before* the main address because it's closest to the top of the image (even if on the left).\n\nI\u2019m revisiting the HTML, using `<p>` for paragraphs and `<br/>` for line breaks. I have to make sure to clearly label the [Margin] elements. The \"Hand\" note on the upper left, very scribbled, seems the most likely, even if it could be something else.\n\nRereading the text, the layout is going to be something like this: The header information, instruction, margin and then the address. I am grouping all those.\n\nI am finalizing the draft:  I need to use HTML tags to capture the layout, like the paragraphs, line breaks, and labeling of the marginalia. The layout is all important here to show the vintage style. I\u2019m also triple-checking the spelling and punctuation, and finally double-checking the allowed HTML tags. I have checked for \"Prof:\" as colon and not a full word. I see all the i-dots. The final draft is coming together. The final HTML is:\n\n```html\n<p><b>POSTAL CARD.</b></p>\n<p>[Stamp: U.S. POSTAGE ONE CENT]<br/>\n[Postmark: CORSICANA\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1744,
+            "width": 3013,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e7a4ef72-456f-3223-9329-2f9130c351ae/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1744,
+                                "width": 3013,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e7a4ef72-456f-3223-9329-2f9130c351ae",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Prob. A father left 4 sons, whose ages at the time of <sup>his</sup> death<br/>\nwere 9, 13, 15 + 17 years. His estate, which was valued<br/>\nat $6425 was to be divided among them so that<br/>\ntheir shares, at 5 per cent simple interest, should<br/>\namount to equal sums when the children<br/>\nbecame 21 years of age. Find share of each.<br/>\nPlease send solution by Arithmetic at<br/>\nyour leisure. Our Counsellors are divided<br/>\non [this] Prob which appears in an examinati[on]<br/>\nfor teachers in Pub Schools.<br/>\nI am looking for a letter from you.</p>\n<p>Yours sincere<br/>\nHand</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analyzing and Transcribing the Handwritten Document**\n\nOkay, so I've got this handwritten note here, and it looks like a math word problem. My immediate task is to get a clean transcription of it. Let's break this down. First, I need to look at the handwriting: It's cursive, a little faded in places, and there are some ink blots. The layout is pretty standard \u2013 a paragraph of text. Key elements are pretty clear, for the most part, but I need to make sure I don't miss anything. Things to really look at, the symbols. I need to note where there are likely errors, or unclear handwriting.\n\nSo, I'll go line by line, really digging into the details. I see a \"Prob.\" or possibly \"No.\" at the beginning. The word that's inserted is \"his\". Let's start with \"Prob. A father left 4 sons, whose ages at the time of <sup>his</sup> death\" Then the ages listed, looks like \"9, 13, 15 + 17\". The symbol there looks like a plus sign but could be an ampersand. It could also just be a mistake. But, let's keep it as is, \"+\" for now. \"His estate, which was valued at $6425 was to be divided among them so that\". \"So\" is clear. \"their shares, at 5 per cent simple interest, should amount to equal sums when the children\". \"Became\" on the next line is partially obscured by a blot. \"became 21 years of age. Find share of each.\" \"Please send solution by Arithmetic at your leisure. Our Counsellors are divided\". \"Counsellors\" is capitalized. \"on [this] Prob which appears in an examinati[on] for teachers in Pub Schools.\" The smudge is covering part of the word before \"Prob\". It looks like \"this\". Pub is capitalized too. The word after that is incomplete. I need to be exact. It runs off the page. The word is \"examination.\"\nThe signature looks like \"Hand\" or maybe \"Ward\". It looks like \"Hand\" to me.\n\nI need to decide the approach. I will maintain line breaks and paragraph structure. Use \"<sup>\" for the insertion and use brackets \"[?]\" for unknown letters. The formatting should be simple, just using the HTML paragraph tags, as requested.\n\nNow, let's refine and polish this. Check specific words like \"so that\" and \"examinati[on]\" \u2013 \"so that\" is clear and fits the grammar. The signature, I will choose \"Hand\". The insertion is just \"his\".\nThe Plus sign is distinct. I will transcribe it as a plus sign.\nMy first draft. I have to re-evaluate it to make sure I get this exactly right. I will check the punctuation and capitalization again.\n\nLet me look closely at those obscure words and ink blots:\n\n*   The blot covers the start of lines.\n    *   Line 6: \"became\". The 'b' and 'e' are under the blot but visible.\n    *   Line 7: \"Please\". 'P' and 'l' are under blot.\n    *   Line 8: \"your\". 'y' is under blot.\n    *   Line 9: \"on the\". 'on' is visible. 'the' is mostly covered.\n    *   Line 10: \"for\". 'f' is covered.\n    *   Line 11: \"I am\". 'I' is covered.\n    *   Line 9: It looks like \"this\".\n\nOkay, here is my final transcription of the document:\n\n`<p>Prob. A father left 4 sons, whose ages at the time of <sup>his</sup> death<br/>\nwere 9, 13, 15 + 17 years. His estate, which was valued<br/>\nat $6425 was to be divided among them so that<br/>\ntheir shares, at 5 per cent simple interest, should<br/>\namount to equal sums when the children<br/>\nbecame 21 years of age. Find share of each.<br/>\nPlease send solution by Arithmetic at<br/>\nyour leisure. Our Counsellors are divided<br/>\non [this] Prob which appears in an examinati[on]<br/>\nfor teachers in Pub Schools.<br/>\nI am looking for a letter from you.</p>\n<p>Yours sincere<br/>\nHand</p>`\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/46/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

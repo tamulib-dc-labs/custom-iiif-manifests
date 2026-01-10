@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-52.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Irene Gartner, July 24, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-07-24"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Irene Gartner, July 24, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/9aa312fb-8a3d-3daf-9e10-01d584026072/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3007,
+            "width": 1878,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/9aa312fb-8a3d-3daf-9e10-01d584026072/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3007,
+                                "width": 1878,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9aa312fb-8a3d-3daf-9e10-01d584026072",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Huntsville, Tex.,<br>\nJuly. 24.<sup>th</sup> 1883.</p>\n\n[Recipient]\n<p>Prof. L. L. M<sup>c</sup>Innis;<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir:</p>\n\n[Body]\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I received<br>\nyour letter & the check yesterday;<br>\nam under many obligations to<br>\nyou, for attending to things<br>\nfor me. You have been a good<br>\nfriend to me, M<sup>r</sup> M<sup>c</sup>Innis,<br>\nI can never forget your kindness<br>\n&nbsp;&nbsp;&nbsp;&nbsp;I hope you will have a<br>\npleasant summer.<br>\nMother & Sister join me<br>\nin kind regards.</p>\n\n[Closing]\n<p>Very Sincerely</p>\n\n[Signature]\n<p>Irene Gartner</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Output**\n\nAlright, let's get this done. The task is clear: transcribe this handwritten letter into HTML, preserving the layout and content precisely. The image is the source, and I'm treating it like a primary document. I will focus on visual fidelity. I need to make sure I am following the instructions. No commentary, just transcription.\n\n1.  **Image Breakdown:**\n    *   I'm starting by identifying the key structural elements: the date and location, the recipient, the salutation, the body of the letter (the main text), the closing, and the signature. I will look at the image for how each of those are arranged on the page.\n    *   **Date/Location:** Top right. \"Huntsville, Tex., July. 24.<sup>th</sup> 1883.\" Looks like \"Tex.\" from the script.\n    *   **Recipient:** Left aligned. \"Prof. L. L. McInnis;\". Pay close attention to the way \"McInnis\" is written. It has a raised \"c\". I will check if this is consistent.\n    *   **Salutation:** \"Dear Sir:\".\n    *   **Body:**\n        *   \"I received your letter & the check yesterday;\" - Note the ampersand.\n        *   \"am under many obligations to you, for attending to things for me.\"\n        *   \"You have been a good friend to me, Mr McInnis, & I can never forget your kindness\" - I see a comma and a maybe-ampersand. Look closely.\n        *   \"I hope you will have a pleasant summer.\" - I see an underline under \"pleasant summer\".\n        *   \"Mother & Sister join me in kind regards.\" - Ampersand again.\n    *   **Closing:** \"Very Sincerely\" - Should go right-aligned.\n    *   **Signature:** \"Irene Gartner\" (or very similar). The name is important, so I need to make sure I get it right. There might be a swirl at the end of the name.\n\n2.  **HTML Formatting:**\n    *   I need to pay attention to these HTML tags: `a, b, br, i, img, p, small, span, sub, sup`. That's it. Nothing else is allowed.\n    *   Line breaks are essential for maintaining the visual layout.\n    *   I should keep the spelling, punctuation, capitalization, and any line breaks exactly as they appear in the letter.\n    *   No interpretation or commentary.\n\n3.  **Initial Transcription Draft:**\n\n```html\n[Header]\n<p>Huntsville, Tex.,<br>\nJuly. 24.<sup>th</sup> 1883.</p>\n\n[Recipient]\n<p>Prof. L. L. M<sup>c</sup>Innis;<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir:</p>\n\n[Body]\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I received<br>\nyour letter & the check yesterday;<br>\nam under many obligations to<br>\nyou, for attending to things<br>\nfor me. You have been a good<br>\nfriend to me, M<sup>r</sup> M<sup>c</sup>Innis,<br>\nI can never forget your kindness<br>\n&nbsp;&nbsp;&nbsp;I hope you will have a<br>\npleasant summer.<br>\nMother & Sister join me<br>\nin kind regards.</p>\n\n[Closing]\n<p>Very Sincerely</p>\n\n[Signature]\n<p>Irene Gartner</p>\n```\n\n4.  **Refining and Checking:**\n\n    *   **Header:** Looks like \"Tex.\" as the location. \"July. 24.<sup>th</sup> 1883.\" The \"th\" is definitely superscript. The period is correct.\n    *   **Recipient:** \"Prof. L. L. M<sup>c</sup>Innis;\". The \"c\" is raised in the letter. The \"r\" is raised. Check for this. \"McInnis\" is how it looks. The semicolon is important.\n        *   The recipient is on its own line.\n        *   The salutation starts on the second line after the recipient. It might be vertically centered under the name.\n    *   **Body:**\n        *   \"I received\" begins a new line,\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1832,
+            "width": 3356,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6b76a284-fd81-3852-8cea-3bb7e06f85e9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1832,
+                                "width": 3356,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6b76a284-fd81-3852-8cea-3bb7e06f85e9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p style=\"text-align: right;\">[1883, July 24]</p>\n\n<p>Estate G. Gartner &nbsp;&nbsp;&nbsp;&nbsp; In acc't with<br/>\n<span style=\"display: block; text-align: center; font-size: large;\">A. & M. College of Texas</span></p>\n\n| | | | | |\n| :--- | :--- | :--- | :--- | :--- |\n| 1883 | | | | |\n| Feb. 23, | To amt of acct | | By Improvements | 30 |\n| | to date | 55 70 | \" Cash | 166 25 |\n| | | | | 196 25 |\n| | | | amt of acct \u2014 | 55 70 |\n\n<p>Bal. Due Mrs. G. Gartner \u2014 &nbsp;&nbsp;&nbsp;&nbsp; $ 140 55</p>\n\n<p>Rec'd Payment<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ilene Gartner.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of the Gartner Estate Ledger**\n\nOkay, here's what I've got from this handwritten document. First, there's a pencil note in the top right, dated \"[1883, July 24]\"\u2014looks like it was added later. The heading is split: \"Estate G. Gartner\" on the left, with \"In acc't with\" centered on the line, and \"A. & M. College of Texas\" right below, also centered.\n\nIt's set up like an account ledger. I see columns for Date, Description, a Debit side (left), and a Credit side (right). The main entry is dated \"1883 Feb. 23,\" with \"To amt of acct\" and \"to date\" listed in the description, and \"55 70\" in the debit amount. On the credit side, there are \"By Improvements\" for \"30,\" and then \"\" Cash\" for \"166 25.\" The total credit sum, written below, is \"196 25.\" There's a deduction entry for \"amt of acct -\" with a credit of \"55 70,\" which is the \"amt of acct\" debit. From the calculation I can tell is the the same value as the debit.\n\nBelow this, there is a line that says, \"Bal. Due Mrs. G. Gartner - $ 140 55\" written as a single line on the bottom of the column. Below that is \"Rec'd Payment\" on the left, and the signature \"Ilene Gartner.\" or possibly Irene Gartner. I'm going with \"Ilene Gartner\" for the signature because it looks like a tall cursive 'I' with a tall 'l' and a standard 'e', 'n', and 'e'.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 1832,
+            "width": 3356,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/6",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/5",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a5ad42cb-4a00-3d85-8b4a-d5bd15a52801/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1832,
+                                "width": 3356,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a5ad42cb-4a00-3d85-8b4a-d5bd15a52801",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>| | |\n| :--- | :--- |\n| /////<br><br>10800<br><u>1500</u><br>12300<br><u>1300</u><br>13600<br><br>//// | <p>1200<br>222<br>150<br>1572</p><p>10800<br>2<br>1<br>104</p><p>10800<br>20<br>1<br>1040</p><p>1800<br>6<br>10800<br>2000<br>2046<br>14840</p><p>10800<br>2000<br>1000</p><p>1200<br>44<br>256<br>1200<br>12800<br>1400<br>13800</p><p>256<br>800<br>480</p> |</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Transcription: Ledger Paper with Handwritten Calculations**\n\nAlright, let's break this down. We've got a typical accounting ledger here, landscape orientation, but the numbers are definitely columnar. It's time to extract the data.\n\nFirst, let's tackle this image and break down the contents into digestible chunks. The image shows handwritten calculations on lined paper. My goal is to capture the numbers and their spatial arrangement as accurately as possible, and present it in a way that respects the original visual layout. I'm going to transcribe the numbers, noting any strikethroughs (though I can't use the standard markup). I will attempt to interpret the structure, since the prompt requests that lists and accounts be organized in tables.\n\nHere's how I'm thinking about organizing this, starting with the image as a whole:\n\n**Layout and Structure**\n\nI will divide the page into sections, trying to represent what's left and right of the vertical blue line. I need to balance preserving the visual layout with presenting it in a structured way that makes sense. I will create a two-column markdown table: one column for the left side of the page and one for the right side of the page. This is a practical, semantic way to capture the distinct areas. I'm going to use markdown tables for any lists or accounts, since that's what's been requested.\n\n**Left Side Analysis:**\n\n*   I'll start with the stuff on the left. Top left, we have what looks like faint tally marks, or maybe just a mark. I will transcribe it as \"/////\", as it seems to be the least ambiguous character. The bottom left has a calculation column. The numbers seem to be arranged as an account, with sums and subtractions.\n\n**Right Side Analysis:**\n\n*   This is where things get a bit messier. There are distinct blocks.\n*   First, some numbers in the top right.\n*   Then a couple of columns of calculations.\n*   Then, a heavily scribbled section in the bottom right, with some numbers that are clearer than others.\n*   Finally, there's a smaller block of legible numbers at the bottom right.\n\n**Transcription Strategy:**\n\nI am going to transcribe the numbers as they appear.\n\n**Finalized Transcription**\n\nSo, here's my interpretation in a two-column table:\n\n| Left Side | Right Side |\n| :-------- | :--------- |\n| ///// <br> 10800 <br> 1500 <br> 12300 <br> 1300 <br> 13600 <br> ////  | 1200 <br> 222 <br> 150 <br> 1572 <br> <br> 10800 <br> 2 <br> 1 <br> 104 <br> <br> 10800 <br> 20 <br> 1 <br> 1040 <br> <br> 1800 <br> 6 <br> 10800 <br> 2000 <br> 2046 <br> 14840 <br> <br> 10800 <br> 2000 <br> 1000 <br> <br> 1200 <br> [illegible calculations] <br> 13800 <br> <br> 256 <br> 800 <br> 480 |\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/52/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
