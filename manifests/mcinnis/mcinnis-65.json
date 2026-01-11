@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-65.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Chas Stewart, May 12, 1884"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1884-05-12"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Chas Stewart, May 12, 1884"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 16 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/65"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/edc0e2c1-30cd-3dbd-91ae-6ba658925914/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/65/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3765,
+            "width": 2914,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/608",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/607",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/edc0e2c1-30cd-3dbd-91ae-6ba658925914/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3765,
+                                "width": 2914,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/edc0e2c1-30cd-3dbd-91ae-6ba658925914",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/65/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/611",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/610",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>House of Representatives,<br>\nWashington, D. C., May 12, 1884.</p>\n\n<p>Prof Louis L McInnis<br>\nA & M College<br>\nCollege Station<br>\nTexas</p>\n\n<p>My Dear Sir<br>\nI am in rept of your favor<br>\nof the 7<sup>th</sup> inst, and I herewith return<br>\nto you the requisition on Smithsonian<br>\nInstitute duly approved by me,<br>\nI am Very truly<br>\nYr Obt Svt</p>\n\n[Signature]\n<p>Chas Stewart</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/65/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/612",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis of the Document**\n\nOkay, here's what I've got. The user wants the text from this House of Representatives letter transcribed. Let's break it down:\n\n*   **Header**: The letterhead reads \"House of Representatives,\" and \"Washington, D. C.,\" in two different fonts (one gothic, one script). Then the date \"May 12, 1884\" is handwritten.\n\n*   **Address**: This one's a little tricky. It's addressed to \"Prof Louis L McInnis\" \u2013 I think it's an \"L\", despite the writing style maybe suggesting a cursive \"S\". It could be \"Louis L\" or \"Louis S,\" historically there was a Louis L. McInnis who was a professor at Texas A&M, so \"L\" is very likely. This \"Prof\" guy is at \"A & M College,\" in \"College Station,\" \"Texas\".\n\n*   **Salutation**: \"My Dear Sir\" \u2013 pretty standard.\n\n*   **Body**: I've got, \"I am in rept of your favor of the 7<sup>th</sup> inst, and I herewith return to you the requisition on Smithsonian Institute duly approved by me,\". I think \"rept\" is the abbreviation, \"of the 7<sup>th</sup>\" has the superscript \"th\", and \"inst\" means \"instant,\" or current month. The \"Smithsonian Institute\" is pretty clear.\n\n*   **Closing**: It ends with, \"I am Very truly Yr Obt Svt,\" followed by the signature \"Chas Stewart\". \"Yr Obt Svt\" means \"Your Obedient Servant.\"\n\n**Transcription:**\n\n```markdown\n[Header]\n<p>House of Representatives,<br>\nWashington, D. C., May 12, 1884.</p>\n\n<p>Prof Louis L McInnis<br>\nA & M College<br>\nCollege Station<br>\nTexas</p>\n\n<p>My Dear Sir</p>\n\n<p>I am in rept of your favor<br>\nof the 7<sup>th</sup> inst, and I herewith return<br>\nto you the requisition on Smithsonian<br>\nInstitute duly approved by me,</p>\n\n[Closing]\n<p>I am Very truly<br>\nYr Obt Svt</p>\n\n[Signature]\n<p>Chas Stewart</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/65/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

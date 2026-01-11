@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-265.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, December 20, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-12-20"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, December 20, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 7 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/fef47761-e573-34ba-9a3c-a72ba63fa7ba/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/284",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/283",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/fef47761-e573-34ba-9a3c-a72ba63fa7ba/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fef47761-e573-34ba-9a3c-a72ba63fa7ba",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/293",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/292",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Brenham Tex.<br>\nDec 20 - 1880</p>\n\n[Salutation]\n<p>My dear Professor</p>\n\n<p>Your excellent letter came<br>\nto \"hand\" by due course of mail -<br>\nAlways glad to hear from you -<br>\nI thought at one time I would \"strain<br>\na point\" & run down to Galveston during<br>\nthe holidays - but it is a pleasure I must<br>\nforego - Impecuniosity - What a terrible<br>\ndisease! has made \"Countless thousands<br>\nmourn\" - We close on Friday eve<br>\nnext for one week - Wish I could<br>\njoin you - Disappointments - sink<br>\nthe heart of man, but the renewal<br>\nof hope gives consolation - But the<br>\n\"renewal\" - will it ever come?<br>\nNot in my time - Trust you will<br>\nhave a good time - \"Let the cat rest<br>\nin peace\", is the most I can hope for -<br>\nWhat would I give tonight to have<br>\n<u>again</u> the only place I ever coveted<br>\nin the State!</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/294",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Formatting Strategy**\n\nAlright, let's break this down. The task is to transcribe a handwritten letter and, importantly, maintain the structural nuances present in the original. We're dealing with a letter on lined paper, seemingly from December 20, 1880 (or possibly 1882, though I'm leaning heavily towards the former based on the loop of the '0'). The location is Brenham, Texas.\n\nI've identified the key elements: the header with date and location, the salutation (\"My dear Professor\"), and the body text. The lines will need to be preserved exactly as they are. There is no signature visible.\n\nThe biggest challenge is ensuring accurate transcription of the text, while simultaneously capturing any implied structure. For instance, I need to look closely at the formatting, including line breaks, indentations, and the use of quotes. It's crucial to identify if something is quoted, or italicized (which is unlikely in handwritten script from this era), or a special character.\n\nA close read shows that this isn't just a simple block of text. This individual clearly structured thoughts in lines and paragraphs, so I need to translate these thoughts with all of the original quirks. We have quotations (single and double), possible idioms or misquotes, as well as a great number of dashes.\n\nHere is the transcription plan:\n\n*   **Structure:** Break the document into distinct, formatted HTML elements. I'll maintain line breaks with `<br>` tags within paragraphs `<p>`. The \"Your excellent letter came\" line appears to be indented, so I'll need to encode this with a new paragraph, even though the visual effect is on the right-hand side of the text.\n\n*   **Formatting:** I will label the structural elements such as the location/date as a \"Header\" and the salutation as a \"Salutation\".\n\n*   **Accuracy:** Ensuring correct spelling, especially for less common words (e.g., \"Impecuniosity\") is a high priority. I also need to make sure I don't misread any words. It is especially important to look closely at ambiguous letters (like the \"sink/sick\" instance).\n\n*   **HTML Structure:** The HTML structure will be used to maintain the letter's visual integrity. I will follow the user's requested formatting.\n\n*   **Final Check:** A final meticulous check of the transcription against the image will be performed for consistency and accuracy.\n\nHere's the plan in action.\n\n[Header]\n<p>Brenham Tex.<br>\nDec 20 - 1880</p>\n\n[Salutation]\n<p>My dear Professor</p>\n\n<p>Your excellent letter came<br>\nto \"hand\" by due course of mail -<br>\nAlways glad to hear from you -<br>\nI thought at one time I would \"strain<br>\na point\" & run down to Galveston during<br>\nthe holidays - but it is a pleasure I must<br>\nforego - Impecuniosity - What a terrible<br>\ndisease! has made \"Countless thousands<br>\nmourn\" - We close on Friday eve<br>\nnext for one week - Wish I could<br>\njoin you - Disappointments sink<br>\nthe heart of man, but the renewal<br>\nof hope gives consolation - But the<br>\n\"renewal\" - will it ever come?<br>\nNot in my time - Trust you will<br>\nhave a good time - \"Let the cat rest<br>\nin peace\", is the most I can hope for -<br>\nWhat would I give tonight to have<br>\n<u>again</u> the only place I ever coveted<br>\nin the State!</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/286",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/285",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/5c9a70b1-1877-32ad-89db-3507dff2351a/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5c9a70b1-1877-32ad-89db-3507dff2351a",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/296",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/295",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[1880, Dec. 20]\n\nWell there is a state of future punishment\nsome people may look out -\nCertainly, I scan Dr. S's big I & little\ndiction in Joseph - So characteristic\nof the man! Our genius fails\nto express it - In a former note he spoke\nof our \"great & good Gov\" - I think that\nSomething will \"turn up\" some where -\nMark my prediction - Gen L is lecturing\non the \"Noachic Flood\" - The earthquake\nshock of Nov 22 - 1879 came closer home -\nI suggest that he take the latter subject\nfor his next theme - Southern pedagogues\nhas been in a state of vassalage\nto the North from time immemorial -\nI feel that we ought to come up like\n\"Little Men\" - with our hands upon our\nmouths & both in the dust & acknowledge\nour inability - to manage our own\naffairs & have guardians appointed\nto look after our intellectual moral\nspiritual & financial interests \"according\nto law\"</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/297",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Transcription of the Letter's Contents**\n\nAlright, let's dive into this intriguing piece of history. My initial focus is on capturing the essence of this handwritten letter, dating it to [1880, Dec. 20], and then translating the sentiments. First, I read that the writer begins with a proposition, \"Well there is a state of future punishment,\" which sets a critical tone. He mentions that \"some people may look out -,\" suggesting a warning or concern about consequences. My attention then goes to the author's critical note on someone's writing, \"Certainly, I scan Dr. S's big I & little diction in Joseph -,\" this line is intriguing, the word \"diction\" might be a harsh commentary, perhaps a critique of someone's writing or speaking style, which is characteristic.\n\nThere is a sense of the author's disappointment as he continues his thoughts, saying, \"So characteristic of the man! Our genius fails to express it - In a former note he spoke of our \"great & good Gov\" -,\" suggesting a critical attitude towards a public official. The writer also conveys some predictions, \"I think that Something will 'turn up' some where - Mark my prediction - Gen L is lecturing on the \"Noachic Flood\" -.\" Now, this reference to the \"Noachic Flood\" adds a layer of intellectual reflection, I find it fascinating, as it connects to broader themes of historical reflection, perhaps linked to a specific lecture, and the writer's remark, \"The earthquake shock of Nov 22 - 1879 came closer home -,\" might have influenced the writer's view.\n\nFurthermore, he suggests that someone, \"take the latter subject for his next theme - Southern pedagogues has been in a state of vassalage to the North from time immemorial -.\" I sense the writer expressing concerns about the quality of education in the South. This continues, \"I feel that we ought to come up like \"Little Men\" - with our hands upon our mouths & both in the dust & acknowledge our inability -,\" as if the writer is calling for humility or a change. And the call to \"have guardians appointed to look after our intellectual moral spiritual & financial interests 'according to law'.\" Perhaps the writer feels a need to acknowledge shortcomings and accept guidance. I'm noting the interesting contrasts between the themes of punishment, intellectual discourse, and societal observations.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/288",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/287",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6a37037a-6026-3fa6-b2bf-46df0364c12c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6a37037a-6026-3fa6-b2bf-46df0364c12c",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/299",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/298",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p align=\"right\"><small>[1880, Dec. 20]</small></p>\n\n<p>\nOur people did not lose their manhood<br>\nin the struggle from 61 to 65. Oh no. Just<br>\nlost their spirit that's all - What is<br>\nHamlet with Hamlet left out? -<br>\nI move we sneeze when our masters<br>\ntake snuff - How do you vote - \"I\"<br>\nI's have it - I move to make it<br>\nunanimous - Carried - Cela -<br>\nNo news here - Hear much talk of<br>\nX mas trees - festivals - suppers &c -<br>\nI have no disposition to engage in<br>\nthese merry scenes - \"Logan remained<br>\nidle in his cabin\" - May I not?<br>\nGive me a sketch of your trip to the<br>\nIsland City - I know you will have<br>\na \"good time\" - All is dark to me<br>\nnow - No light this side the clouds<br>\n& they lower - it may be dark there too<br>\nMay we both answer \"present\"<br>\nat that last roll-call\n</p>\n\n[Signature]\n<p>\nYour friend<br>\nJ. T. Hand\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/300",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Okay, here's the transcription process, as I see it, step-by-step:**\n\nFirst, I need to understand the task. I'm a transcriptionist, so my job is to accurately reproduce the text from this image. I need to pay close attention to the original spelling, punctuation, and layout. I have to interpret handwriting, which is a bit of a challenge, especially with older scripts, and I'm constrained to use specific HTML tags for formatting. No commentary, just the transcription.\n\nNext, I'll start by taking a good look at the image itself. I see it's a handwritten letter on lined paper. The date is a pencil annotation at the top right: \"[1880, Dec. 20]\". The handwriting is cursive, probably from the late 19th century. The ink has faded a bit, which can make things tricky.\n\nThen, I'll start transcribing line-by-line, trying to decipher each word. It's a bit like detective work, really.\n\n*   **Date:** That \"[1880, Dec. 20]\" date is easy enough, it's just a matter of including it.\n*   **Line 1:** \"Our people did not lose their manhood\" seems straightforward.\n*   **Line 2:** \"in the struggle from 61 to 65. Oh no. Just\" - that \"61 to 65\" is likely referring to the Civil War, so I'll make sure to get that right. The \"Just\" is legible, though maybe a little stylized.\n*   **Line 3:** \"lost their spirit that's all - What is\" - Nothing too confusing so far.\n*   **Line 4:** \"Hamlet with Hamlet left out? -\" is a direct reference to the play.\n*   **Line 5:** \"I move we sneeze when our masters\" - I can pick up on this parliamentarian language.\n*   **Line 6:** \"take snuff - How do you vote - 'I'\" This is interesting. \"Take snuff\" is an idiom, and the \"I\" suggests a response in a vote.\n*   **Line 7:** \"I's have it - I move to make it\" is tricky. \"I's\" implies \"Ayes\". This is the tricky part!\n*   **Line 8:** \"unanimous - Carried - Cela -\" is clear. \"Cela\" might be a French reference, meaning \"that\" or \"that's it\".\n*   **Lines 9-10:** \"No news here - Hear much talk of X mas trees - festivals - suppers &c -\" Christmas references are clear.\n*   **Lines 11-13:** \"I have no disposition to engage in these merry scenes - 'Logan remained idle in his cabin' - May I not?\" The quote is \"Logan remained idle in his cabin\", which is a common phrase. I will use the modern word, \"idle\", to transcribe the word in the original text, which is somewhat unclear.\n*   **Lines 14-20:** Straightforward. \"Give me a sketch of your trip to the Island City\". \"I know you will have a 'good time'\". \"All is dark\". \"May we both answer 'present'\" \"at that last roll-call\".\n*   **Signature:** \"Your friend J. T. Hand\" or possibly \"J. F. Hand\".\n\nNow comes the formatting. The instructions say to maintain line breaks and paragraph structure using specified HTML tags. I'll use `<br>` to preserve line breaks and `<p>` for paragraphs. I'll need to figure out how to add the date and signature in the correct place.\n\nI also have to resolve some ambiguities:\n\n*   **\"I's\" or \"Dos\" or \"So's\"**: That line about \"I's have it\" needs extra checking. The \"I's\" are likely \"Ayes\". After closer inspection, I will transcribe \"I's\". The original letter shape looks like a capital \"I\" with an apostrophe and \"s\".\n*   **\"Cela\"**: The word looks like \"Cela\". \"Cela\" fits the meaning.\n*   **\"Idle\"**: Looking at the handwriting and the quote, \"idle\" is the right word.\n\nI'll put the text together, using the HTML tags as instructed, and then review everything, paying close attention to any possible errors. I'll double-check spelling, especially those tricky cursive letters.\n\nFinally, I'll carefully check my work against the instructions to make sure I followed all the guidelines, especially the allowed HTML tags and the format requested. I should double check everything. It looks correct, and I'm ready to render\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/265/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

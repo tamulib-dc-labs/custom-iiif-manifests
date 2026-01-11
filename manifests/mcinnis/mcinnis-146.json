@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-146.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from T. M. Scott, February 4, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-02-04"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from T. M. Scott, February 4, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/146"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8f468831-47d0-3635-997d-568f24373b59/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/146/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3143,
+            "width": 1980,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/80",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/79",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8f468831-47d0-3635-997d-568f24373b59/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3143,
+                                "width": 1980,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8f468831-47d0-3635-997d-568f24373b59",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/146/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/83",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/82",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Melissa Texas<br/>\nFebry 4<sup>th</sup> 1886</p>\n<p>Prof. S. S. McInnis<br/>\nSectry B. D.<br/>\nCollege Station</p>\n<p>Dear Prof. \u2014 I<br/>\nhave been away from home ac-<br/>\ncounts for not sooner answering<br/>\nYour note of Feb 1<sup>st</sup></p>\n<p>I can meet the Board<br/>\nat anytime between the days<br/>\nnamed 10 or 20<sup>th</sup> but would<br/>\nsuggest Monday the 15<sup>th</sup>, then<br/>\nI could go down Sunday<br/>\nmorning, but any time will<br/>\ndo that best suits a majority of<br/>\nthe Board. Let me know the<br/>\nday set to meet as early as possible<br/>\nRegards to Mrs M<sup>c</sup></p>\n<p>Your friend G. M. Scott.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/146/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/84",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcription Process: A Deep Dive**\n\nAlright, let's break this down. My goal is to create an accurate transcription of this handwritten letter, treating it like a puzzle with several tricky pieces. First, I'm carefully analyzing the image, taking notes on everything: format, date, location (Melissa, Texas, February 4th, 1886), recipient, salutation, the body of the letter, the closing, and the signature.\n\nA few things immediately grab my attention. There's some broken grammar, and words have been skipped. I can meet the Board at anytime\u2026 accounts for not sooner\u2026 But that's common in this period. The name and signature are especially interesting. The recipient is addressed as \"Prof. S. S. McInnis\" or is it \"L.L. McInnis?\" I have to do some historical context here and check for cursive 'L' vs 'S'. Thomas M. Scott (T.M. Scott) was on the Board, but the signature really looks like \"G. M. Scott\". So I'll be transcribing what I see.\n\nI'm making a draft transcription as I go, then a refined transcription with more attention to detail. I'm focusing on the superscripts, the underlining, and how words are presented visually in the handwritten letter. I'll need to review the signature, re-reading the text, and making corrections on the initials.\n\nThe initials in the letter are crucial. The history says 'L.L.', but the handwriting has a sharp top, not a loop. I can't be sure, so I need to check the letter 'L' compared with an 'S' in this handwriting style. It looks like \"S. S.\" The 'L' in the letter has a clear loop. So I'll go with \"S. S.\" unless history trumps handwriting.\n\nI'm having a similar issue with the signature. \"G. M. Scott\" doesn't make any sense historically, but that's what's written. This is problematic, so I'm doing research on \"G. M. Scott\" and verifying the shape of the letter. Thomas M. Scott's name has a vertical bar for 'T', but this seems like a loop, or a 'G'. And that's a \"T. M. Scott\" signature. But there's a reference to \"G. M. Scott\". Maybe that's a clue. I'm checking T.M. Scott signature examples. No help. Again, the 'Y' in \"Your\" looks nothing like this. In the end, I go with \"G. M. Scott\" unless it's obviously a T.\n\nAs a final note, I'm checking the formatting, any superscripts, hyphens, underlining, letter spacing, and punctuation as I perform a detailed line-by-line review. The transcription must be accurate to what is being said, to provide an easy and understandable reading of the information. Finally, the letter is ready for final transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/146/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

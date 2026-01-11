@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-149.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from George Curtis, June 15, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-06-15"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from George Curtis, June 15, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/9fcc4793-23b1-3650-94ee-908c8dd693f8/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1762,
+            "width": 3031,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/410",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/409",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/9fcc4793-23b1-3650-94ee-908c8dd693f8/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1762,
+                                "width": 3031,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9fcc4793-23b1-3650-94ee-908c8dd693f8",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/416",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/415",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>UNITED STATES<br>\nPOSTAL CARD</p>\n<p>[Postmark: CEDAR RAPIDS IOWA JUN 15 8 PM 86]</p>\n<p>Nothing but the address to be on this side.</p>\n<p>[Stamp: ONE CENT]</p>\n<p>[Margin: Curtis]<br>\nProf. Louis L. McInnis<br>\nForest<br>\nMiss.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/417",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Image's Secrets Revealed**\n\nOkay, here's my thought process as I delve into this fascinating image. First, I'm zeroing in on the task: transcribing the text from this vintage postal card. The guidelines are clear - accurate transcription, preserving the original formatting, and using specific HTML tags. No problem. I can handle this.\n\nI start by systematically scanning the image from top to bottom, left to right. I note the prominent features: the \"UNITED STATES POSTAL CARD\" header, the instructional text below, the postmark from Cedar Rapids, Iowa (which looks like June 15, 1886 \u2013 that matches the card design), the Jefferson portrait, and the handwritten address.\n\nThe handwriting is the real challenge, as usual. Let's see: \u201cProf. Louis L. McInnis, Forest, Miss.\" - The name \u201cLouis\u201d is flowing, but I've decoded it! And there's a marginal notation in red, \"Curtis.\" I also note that the \"L\" in Louis actually overlaps the printed text. \n\nNow, time to draft the transcription. I start mentally, or on a scratchpad \u2013 getting all the elements down. Then, I refine it, paying close attention to the guidelines, especially the allowed HTML tags. I'm focusing on clean formatting, and logical grouping. I make sure to include the postmark, the stamp details, and the marginal note. The stamp says \"ONE CENT.\"\n\nI\u2019m meticulously checking the readings, the date, and the address. I'm cross-referencing to confirm the spelling of \u201cMcInnis\u201d (it could be \u201cMcGinnis\u201d, but I'm reasonably certain it is McInnis). I note that the \"L\" in \"Louis\" is quite large, overlapping the instructions, but it's clearly part of the name.\n\nFinally, I'm formatting it, making a final polish, double-checking everything: \u201cUNITED STATES POSTAL CARD\u201d, the postmark, the stamp, the instructions, the marginal note, and the address. It needs to be clear and concise.\n\nI double-check again on the handwriting. The \"L\" in Louis, the small \"c\" in McInnis, the spacing in \"Forest\". I ensure the structure is correct. I note, the \"Curtis\" is pencil, reddish/orange and is likely a filing notation.\n\nFinally, I assemble the HTML, clean, ready, and I'm done.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1762,
+            "width": 3031,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/412",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/411",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/01ce75e5-f5fe-37a2-baa0-513db3f65035/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1762,
+                                "width": 3031,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/01ce75e5-f5fe-37a2-baa0-513db3f65035",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/419",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/418",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Cedar Rapids Iowa<br>\nJune 15/06</p>\n\n<p>[Margin: We leave for Anamosa<br>\nat 6:40 this eve -]</p>\n\n<p>Dear Brof. Here we are - almost<br>\nhome as Mrs Curtis says. and we<br>\nhave had the most pleasant trip<br>\nwe have ever taken so far. Left all<br>\nthe rest in St L - or rather they left<br>\nus - as they went at 8. PM while we<br>\npulled out 15 minutes later. Tell Mrs<br>\nWest that Mab. got a lovely dress (material)<br>\nin St L - Love to all from both<br>\n<small>Yours truly</small> WC</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/420",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here\u2019s how I\u2019m approaching this. First, I\u2019m zeroing in on the task: a transcription job, pure and simple. I\u2019m playing the role of a professional, focused on accuracy, maintaining original spelling and punctuation, and carefully interpreting the handwriting. The instructions are clear \u2013 stick to the original, don\u2019t add commentary, and use the specified HTML tags. No Markdown tables here, so I can skip that part.\n\nI'm dealing with what looks like a handwritten letter fragment. Based on the style, it seems like something from the early 1900s. I need to handle this in a landscape orientation. I know I need to be ready to grapple with cursive and potentially interpret any tricky handwriting. I'm taking the instructions to heart: natural reading order, preserve the layout. I'm not making assumptions, I'm analyzing. There's a date and location header, body text, a signature, and some vertical text in the margin.\n\nNow, step-by-step:\n\n*   **Header:** It reads \"Cedar Rapids Iowa, June 15/06\" (I will interpret the date as 1906). I will put the header at the top, since I don't see another obvious place to put it.\n\n*   **Body Text:** This is where the real work begins. I'm focusing on each line, carefully transcribing it as is. Right away I hit a possible stumbling block with the first word in the body text: \"Dear Brof.\" Or maybe \"Braf,\" \"Brop,\" or \"Prof\"? Let's look closely at the \"o\" and the final letter. The descender is looping left and down. \"Brop\" makes a lot of sense, but \"Brof\" is the simplest visual interpretation of the letters in cursive. I'm leaning towards \"Brof.\" I need to be thorough. I'll stick to it. I'll read through the entire body text. There is \"Mab.\", I will need to interpret that as Mabel. I'm noting any potentially ambiguous sections. I'm looking for clues in the surrounding words. The signature looks like \"Yours truly WC\". This might be \"W C\". I'll be certain.\n\n*   **Margin Text:** This will need to be inserted in context, and it's written vertically on the left. The text reads: \"We leave for Anamosa at 6:40 this eve -\". Since it seems related to the first line, I'll place it at the beginning.\n\nNow, I'm refining the transcription. I'm formatting it in HTML, using `<p>` for paragraphs, and `<br>` for line breaks. I have to adapt the lack of `align=\"right\"` - I could use `&nbsp;` to format, or just depend on `br`.\n\nI'm back to \"Brof\". Let's think it through. It might be \"Bro.\", or \"Prof.\", or \"Brop.\" The \"Prof\" seems unlikely. The loops on other letters seem to eliminate a capital P. I'm checking it, but this likely isn't it. The loops on the F vs the P are consistent with the \"Brof\" interpretation. There's a flourish on the \"f\". I can see it. Is there a similar letter elsewhere? The 'f' in \"for\" (line 4) loops right. No, the handwriting is distinct. After the o, there's a loop that turns down. That's a 'y', or 'g'. \"Bro.\" makes the most sense.\n\nI'm looking at \"Yours truly\" and the initials again. It's written very small. The second initial in the name definitely looks like a \"C\".\n\nThe letter contains \"Mab.\" - which I can infer is \"Mabel\". I check that there is an existing town of \"Anamosa\" near Cedar Rapids - which there is! This solidifies my understanding of the setting.\n\nLet's do the final assembly and formatting:\n\nI'm putting the date on the top right.\n\nI will put the margin text in the first line.\n\nI'm inserting line breaks as needed.\n\nMy final HTML transcription looks correct and matches the instructions. All the tags are correct. The order is correct. It's all there!\n\nAlright, double-checking, ensuring everything is as accurate as possible, I am going to review the salutation. I am going to double down on \"Brof\" because the strokes lead me there. The guidelines say to \"Interpret as accurately as possible\" and \"Brof\" is the most literal. Is there a letter missing?\nThe strokes are right for f. But the person probably means \"Bro\". But I have to stick with the\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/149/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,352 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-255.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, circa June 7, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-06 (circa)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, circa June 7, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8ca1930e-ed7e-35f3-a4eb-be522a6b6580/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3548,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/32",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/31",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8ca1930e-ed7e-35f3-a4eb-be522a6b6580/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3548,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8ca1930e-ed7e-35f3-a4eb-be522a6b6580",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/44",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/43",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>\n[1880, June 7?]\n<span style=\"float:right\">2</span>\n</p>\n\n<p>\nState Teachers' Association meets<br>\nin San Antonio 24<sup>th</sup> inst. I do<br>\ntrust your Commencement<br>\nexercises will close in time<br>\nfor you to go to San Antonio.<br>\nI shall go Galveston about 4<sup>th</sup> or 5<sup>th</sup><br>\nJuly - Will leave home likely about<br>\n22 inst & not return until Aug 3<sup>rd</sup><br>\nSo you must go to San Antonio, or I<br>\nfear I shall not have the<br>\npleasure of seeing you this<br>\nSummer. I should like so<br>\nmuch to meet Mrs. McK.<br>\nWell, I shall appreciate her much<br>\non your account - but doubt<br>\nnot I should appreciate her<br>\nmuch more on her own account<br>\nhad I the pleasure of knowing her\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/45",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Digital Archaeologist's Transcription**\n\nAlright, let's get to work. First, I have to analyze this image. We have pencil markings at the top: \"[1880, June 7?]\" and a \"2\" on the right. Judging by the cursive and the somewhat hasty style, this letter looks like it's from the late 19th century. The brownish ink on off-white paper gives it that authentic antique feel. The letter itself discusses a State Teachers' Association meeting in San Antonio, some travel plans to Galveston, and an expressed hope to meet a \"Mrs. McK.\"\n\nNow, to get this into a digital form, I have to go through it line by line:\n\n*   **Top:** The pencil markings read \"[1880, June 7?]\" with a \"2\" on the right.\n*   **Line 1:** \"State Teachers' Association meets\"\n*   **Line 2:** \"in San Antonio 24th inst. I do\". \"inst.\" is short for \"instante mense,\" meaning \"of the current month,\" and there's a superscript \"th\" over the 24.\n*   **Line 3:** \"trust your Commencement\"\n*   **Line 4:** \"exercises will close in time\" - that \"exercises\" is a bit scrawled, but clear enough.\n*   **Line 5:** \"for you to go to San Antonio.\"\n*   **Line 6:** \"I shall go Galveston about 4th or 5th\" - There's a subtle mark between \"go\" and \"Galveston\" that *might* be a shortened \"to\", but it's not clear. The image doesn't explicitly have the word 'to', so I won't infer it.\n*   **Line 7:** \"July - Will leave home likely about\" - Nothing unusual here.\n*   **Line 8:** \"22 inst & not return until Aug 3rd\" - the letters after \"22\" are clearly \"inst,\" just like in line 2.\n*   **Line 9:** \"So you must go to San Antonio, or I\"\n*   **Line 10:** \"fear I shall not have the\"\n*   **Line 11:** \"pleasure of seeing you this\"\n*   **Line 12:** \"Summer. I should like so\" - The word \"Summer\" has a line through it, or an underline. Given context, I think it is an underline for emphasis.\n*   **Line 13:** \"much to meet Mrs. McK.\" - Definitely \"Mrs. McK.\"\n*   **Line 14:** \"Well, I shall appreciate her much\" - Definitely \"Well\".\n*   **Line 15:** \"on your account - but doubt\"\n*   **Line 16:** \"not I should appreciate her\"\n*   **Line 17:** \"much more on her own account\"\n*   **Line 18:** \"had I the pleasure of knowing her\"\n\nNow, the formatting. I'll use HTML tags like `<br>`, `<sup>`, and `<span>` for that. The pencil text goes at the top. The date, with question mark, and the number. Line breaks and superscripts are next. The text itself is in a single paragraph `<p>` tag.\n\nThe final result looks like:\n\n[Header]\n<p>\n[1880, June 7?] <span style=\"float:right\">2</span>\n</p>\n\n<p>\nState Teachers' Association meets<br>\nin San Antonio 24<sup>th</sup> inst. I do<br>\ntrust your Commencement<br>\nexercises will close in time<br>\nfor you to go to San Antonio.<br>\nI shall go Galveston about 4<sup>th</sup> or 5<sup>th</sup><br>\nJuly - Will leave home likely about<br>\n22 inst & not return until Aug 3<sup>rd</sup><br>\nSo you must go to San Antonio, or I<br>\nfear I shall not have the<br>\npleasure of seeing you this<br>\nSummer. I should like so<br>\nmuch to meet Mrs. McK.<br>\nWell, I shall appreciate her much<br>\non your account - but doubt<br>\nnot I should appreciate her<br>\nmuch more on her own account<br>\nhad I the pleasure of knowing her\n</p>\n\nReady to go.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3548,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/34",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/33",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6d3fa07a-14bb-39cc-8cf3-593c4e097bfb/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3548,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6d3fa07a-14bb-39cc-8cf3-593c4e097bfb",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/47",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/46",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header: [1880, June 7?] 3.]\n\n<p>\nI learn Gen. L. contemplates<br/>\nmoving to Dallas. With what<br/>\nintent I know not. Do you<br/>\nsuppose for the purpose of<br/>\norganizing a new or resurrecting<br/>\nthe same old quick cage Select<br/>\nSchool that has been sleeping<br/>\nsince the winter of 1879-80?<br/>\nWell, wish I could see you to talk<br/>\nabout many matters. Have a<br/>\nPostal this week from the irrepressible<br/>\nProf. H. He aspires to a tutorship<br/>\nin the University. That reminds<br/>\nme of my good friend who<br/>\nwanted a Professorship - but<br/>\naccepted the place of Steward.<br/>\nAfter all, that is in harmony with<br/>\nthe good book: \"I had rather be a doorkeeper\"\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/48",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, here's my read on this document. I'm presented with a handwritten letter that I need to transcribe. Right away, I see a penciled note and a number at the top. I need to keep that in mind. The handwriting style appears to be late 19th-century cursive, generally legible, but some words might be tricky. The letter seems to discuss a \"Gen. L.\", a move to Dallas, the organization of a school, a \"Prof. H.\", and the story of a friend who took a steward position instead of a professorship. I see a quote from the \"good book\" (likely the Bible) at the end. I\u2019ll start line-by-line, and tackle any uncertainties with care, double-checking words and phrases for the right context and the writer\u2019s intent.\n\nThe date is penciled, and the top right number is \"3.\".\n\nI start transcribing the lines: I read, \"I learn Gen. L. contemplates moving to Dallas. With what intent I know not. Do you suppose for the purpose of organizing a new or resurrecting the same old...\". This is where it gets interesting, and I've spent considerable time with the words, analyzing the letter forms and the possible context. I can read \"quick cage Select School\" clearly. I am reasonably sure of this. This is where I can apply my expertise. The line continues: \"...that has been sleeping since the winter of 1879-80? Well, wish I could see you to talk about many matters. Have a Postal this week from the irrepressible Prof. H. He aspires to a tutorship in the University. That reminds me of my good friend who wanted a Professorship - but accepted the place of Steward. After all, that is in harmony with the good book: \"I had rather be a doorkeeper\".\n\nI had to double-check \"quick cage\" a lot. I considered alternative options. It is visually accurate as it stands, even though it appears strange. The context is odd, and it might be a known term or slang, but that will require further research.\n\nI need to keep the structure clear. I see no explicit paragraphs, but a clear shift after \"since the winter of 1879-80?\". I will mark that.\n\nI'm ready with the plain text transcription, with some markdown to denote the structure.\n\n**Final Transcription**\n\n```text\n[Header: [1880, June 7?] 3.]\nI learn Gen. L. contemplates\nmoving to Dallas. With what\nintent I know not. Do you\nsuppose for the purpose of\norganizing a new or resurrecting\nthe same old quick cage Select\nSchool that has been sleeping\nsince the winter of 1879-80?\nWell, wish I could see you to talk\nabout many matters. Have a\nPostal this week from the irrepressible\nProf. H. He aspires to a tutorship\nin the University. That reminds\nme of my good friend who\nwanted a Professorship - but\naccepted the place of Steward.\nAfter all, that is in harmony with\nthe good book: \"I had rather be a doorkeeper\"\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3592,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/36",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/35",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3d061e3d-dd1d-3bf1-b9ec-9e9b9d2584f0/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3592,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3d061e3d-dd1d-3bf1-b9ec-9e9b9d2584f0",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/50",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/49",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Margin: [1880, June 17?]]\n[Margin: 4]\n\nI think with you that Baker has\nthe inside track & will likely\nhold it - even on the \"home stretch\" -\nHe is making an extensive canvass\nby letter - Many letters have been\nwritten to Corsicana in his interest.\nIn one written last week were\nthese words: \"Hare is the man I\nhave to beat\". Baker is a clever\nfellow & I trust he will not vex\nhimself over much. If the office\ncome to me, it must come unsolicited\nas for as I am concerned -\nIn this preventive age officers never\ncome that way. Witness the great\nunwashed pow wow at Chicago\nto-day - for the highest office in\nthe gift of the people -\n(over)</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/51",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Deep Dive into a Political Letter**\n\nAlright, let's break this down. My initial instinct is to get a handle on the text itself. There's a date penciled in \u2013 \"[1880, June 17?]\" \u2013 and a page number \"4.\" The handwriting is... well, it's cursive, a bit slanted, with some idiosyncratic letter formations. This is going to be fun. My goal is an accurate transcription.\n\nFirst, I'm noting the mention of a political game between \"Baker\" and someone whose name is a little fuzzy. \"Hana,\" maybe? Let's zoom in. Okay, the third letter looks like it could be an \"n\" *or* an \"r\". Context is key here. Corsicana is mentioned, which suggests Texas. And 1880? Elections, definitely.\n\nThe letter begins with a clear statement about Baker having the advantage. The phrase \"extensive canvass\" seems to be in the middle of a correction or a strike-through. Let's look closer. It's written as `extensive` and there is a line going through the word. Is there a replacement? No. Is there an underline for emphasis? Maybe. The letters are clear. The word is there. Let's transcribe the word.\n\nThen, the letter goes on about letters written to Corsicana in Baker's interest, a quote that is very relevant: \"Hare is the man I have to beat.\" \"Hare\" it is! It fits the handwriting and the Texas political scene better. Silas Hare, a Texas politician, is clearly the man in question.\n\nThe writer also expresses trust in Baker and comments on how the \"office,\" by which they mean a political position, should be secured in an honest fashion. Next, I see a bit of a head-scratcher: \"In this preventive age...\" What's the word? The word begins with a \"p\" and trails off and needs more inspection.\n\nI am re-examining the word again. It looks like it is composed of p-r-e-v-e-n-t-i-n. I will transcribe it as \"preventive\". If I'm wrong, so be it, but let's go with \"preventive.\"\n\nThe \"great unwashed pow wow at Chicago\" immediately grabs my attention. That phrase is definitely about a political convention, and the date would fit with either the Republican (June 2-8) or, but less likely, the Democratic (June 22-24) conventions. This remark is almost certainly about the Republican, but the date raises a small question.\n\nNow I am going back to that word. I'm checking it again. It's the key. I am checking the letter formation. After the 'p-r-e-v-e' sequence I am quite confident I can make it out. It is p-e-r-v-e-n-t-i-n.\n\n\"In this preventive age\". It could mean that you have to take the office, otherwise you won't get it. \"perverted\" also seems possible. But \"preventive\" is better. Let's stay with that, if only because it's the most literal.\n\n\"as for as\" vs \"as far as\". This is easy. It's clearly \"as for as,\" but that's obviously an error for \"as far as.\" I am transcribing it as is. It appears to be an error but it's what's written.\n\nSo, I'm doing a final check of all the details. \"Hana\" vs \"Hare\" (it's Hare). The struck-through \"extensive\" (it's there). The puzzling word (it's preventive). \"perverted\" vs \"preventive\". The dot on the \"i\" is clearly there.\n\nNow let's go for it. I will get it done in a proper format.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 3592,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/38",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/37",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3e3da89d-6ac4-3843-b9ce-eab3eb4a6402/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3592,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3e3da89d-6ac4-3843-b9ce-eab3eb4a6402",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/53",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/52",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nGrown men hollering, howling-<br>\nbellowing- Spoils! Spoils!!<br>\nWhere are we drifting? O tempora<br>\nO mores- Give me the innocence<br>\nof childhood & the beautiful<br>\nsentiment: \"Put me in my little<br>\ntrundle Mother, and rock me to<br>\nsleep- rock me to sleep\"<br>\nWrite me a long letter soon-<br>\nSend me a copy of your program-<br>\nYour friend<br>\n<br>\n[Signature] J. T. Hand\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/54",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here's how I'm approaching this transcription, given my expertise and the task at hand. First, I'm setting the stage. I'm a transcription professional, not a machine, so I'm treating this as a nuanced challenge, not just a simple data entry task. The goal is to produce the *exact* text as it appears in the image, preserving all oddities, but also making it readable and following the given instructions, particularly the use of HTML tags and handling of handwritten text.\n\nMy initial analysis focuses on understanding the source. I see a handwritten letter, likely the end of one, given the signature and closing salutation. The handwriting style suggests a late 19th or early 20th-century aesthetic; it's cursive, a bit loose, and I'm prepared for variations in letter forms. The age of the paper and the ink intensity are also contextual cues to consider during interpretation.\n\nI'm now going line-by-line, and very deliberately, to transcribe and make interpretations. Each word is scrutinized. For example, in the first line, \"Grown\" and \"men\" are clear. \"Hollering\" and \"howling\" are not perfectly formed, but the context and shape imply these words. The hyphen at the end is noted. The second line \"Spoils! Spoils!!\" requires attention to punctuation; the exclamation points are present.\n\nNow, as I'm progressing, I'm already anticipating potential ambiguities. Line 3, \"Where are we drifting? O tempora\" presents challenges. \"Where\" and \"we\" are easy. \"Are\" is a bit messy, possibly \"ask\" or \"ark\", but context favors \"are.\" And here, I know \"O tempora\" is a Latin phrase, so I'm looking for the standard cursive formation of the \"O\". Next, I recognize \"O mores,\" completing the Latin phrase, and I take into account the context of the prior line \"where are we drifting?\".\n\nThen, there's the symbol for \"and\" in the line, \"of childhood & the beautiful\". It *looks* like a plus sign, which was a common shorthand, but I'll use `&` as it's the more common modern equivalent, unless told otherwise. In the seventh line, I'm grappling with \"trundle Mother\". Is it \"trundle bed\"? The famous phrase \"Put me in my little trundle bed\" resonates, but the handwriting is very clear; it says \"trundle Mother\". I will document the visual evidence, preserving the writer's intent, while noting the phrase's familiarity.\n\nNow, I am carefully refining. I'm double-checking the words. This includes the signature. \"J. T. Hand\". It's a clear \"H\" and the rest of the letters are legible.\n\nI'm starting to apply HTML now. Given the requirement to use `<p>`, `<br>`, and potentially `<span>`, I'm structuring the output. The body of the letter goes into paragraphs (`<p>`) with line breaks (`<br>`) to maintain the layout of the original text. The signature, however, is a key structural element, as a closing salutation, and I'm labeling it within the HTML.\n\nNow it's time to generate the output, keeping in mind the details. I see that there are hyphens and I will replace the hyphens with hyphens. The \"trundle Mother\" is \"trundle Mother\" visually. The signature \"J. T. Hand\" is clear. I'm double-checking the Latin for correctness. The HTML is being applied, one line at a time. The signature is separated. I'm re-examining the \"and\" symbol for the last time. It *is* a plus sign, but given the guidelines, I will use `&` for the transcription.\n\nFinally, I am ready to submit, and I have produced the output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/255/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

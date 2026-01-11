@@ -1,0 +1,707 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-350.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from W. A. Alexander, July 4, 1877"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1877-07-04"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from W. A. Alexander, July 4, 1877"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 18 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/443737cc-30dd-3142-972e-378849e60387/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/230",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/229",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/443737cc-30dd-3142-972e-378849e60387/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/443737cc-30dd-3142-972e-378849e60387",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/257",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/256",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><b>J. A. VANDEGRIFT & CO.</b><br/>\n(SUCCESSORS TO GEO H. HOLLIS.)<br/>\nDEALER IN<br/>\n<b>Stoves, Tin-ware, Hardware, Hollow-ware</b><br/>\nAND HOUSE FURNISHING GOODS,</p>\n\n<p><i>Crisfield, Md. July 4 1877</i></p>\n\n<p>Mr L. L. McInnis. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dear Mac Your card came<br/>\nto hand to day. & I will reply by letter as my hand is in &<br/>\nI am not disposed to be ceremonious about replies. I suppose you<br/>\nthought I had gotten away from this part of the country. No. Crisfield<br/>\nis my general headquarters for all summer, & if I go elsewhere<br/>\nmy mail is forwarded from this place. I heard from Bigger today.<br/>\nAll of a sudden, he run upon his Presbytery and was licensed<br/>\nlast week \u2014 Now Parson Bigger. I guess Old Ray will persist still<br/>\nmore now that his fiddle be thrown away. He is at home. I<br/>\nheard from Lewis Green, who is passing his summer at leisure, awaiting<br/>\nthe winter season for Cotton Trade. Story is preaching at Madison C.H.<br/>\nVa. My work progresses moderately, \u2014 is monotonous & affords<br/>\nbut little subject for Comment. Furthermore it is hard, I go on<br/>\nfoot from house to house to look up those destitute of the Holy Scrip<br/>\nture. Hence my work is among the lower classes. But they<br/>\nhave to be reached & the work devolves upon me. I am learning<br/>\nmuch country slang, & meet a dozen times a day persons who<br/>\n\"haint got no larnin\", \"not-high larnt, but larnt a little\".<br/>\nI long for the time when I get back to my office & my books at P.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/258",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I approached this transcription, breaking down each stage:\n\nFirst, I assessed the task. I needed to transcribe text from an image of a handwritten letter, maintaining its original spelling and punctuation, and preserving the layout, including paragraphs, marginalia, and the use of specific HTML tags. I also had to interpret the handwriting, making a note of any uncertainties, which I marked with a `[?]`. And I was *only* to transcribe the text itself, no commentary was permitted.\n\nNext came the image analysis. The letter was on pre-printed business stationery from J.A. Vandegrift & Co., successors to Geo H. Hollis. The printed header was in several fonts, including a large serif font for the company name, smaller serifs for the \"successors\" and \"dealer in\" lines, and an ornate Gothic/Blackletter style for the product list (\"Stoves...\"). This was important because I had to decide how to handle the capitalization and font styles in the HTML. The handwritten date and location were \"Crisfield, Md. July 4 1877.\" The salutation was \"Mr L. L. McInnis. Dear [word]\". The body was dense, cursive, and a bit cramped, with ink that contrasted reasonably well but wasn\u2019t always crystal clear. I took note of the content \u2013 the writer received a card, mentioned being in Crisfield, and relayed news about \"Bigger,\" \"Old Ray,\" \"Lewis Green,\" and \"Story,\" who were all people known to the writer. The writer also described their work: visiting houses looking for people lacking the Holy Scripture, dealing with the \"lower classes,\" and learning \"country slang\".\n\nThen, I meticulously transcribed the text, step-by-step. The header was straightforward. The company name and \"dealer in\" lines were in standard capitalization; the \"Stoves...\" line needed to be in bold and capitalized because it was in an ornate font. I decided to make it bold as I couldn't replicate the specific font style. The date was \"Crisfield, Md. July 4 1877.\"\n\nThe trickiest part was the salutation. It started with \"Mr L. L. McInnis.\" The handwriting after \"Dear\" was unclear. I carefully compared letters like \"r\" and \"c\" in other words in the text. I initially read it as \"Dear Mac\" (likely a nickname for McInnis). But, re-examining the cursive, the squiggle could be anything. Given the recipient's name, \"Dear Mac\" seemed most logical. Still, I noted my uncertainty and that the squiggle could also be a \"c\" or even an \"r\", forming \"Dear Mc\" or \"Dear Mr\". It seems to read \"Dear Mr\". But it's odd \"Dear Mr. Your card\" without an actual name attached. So I stuck with \"Dear Mac\".\n\nThe body was transcribed bit by bit, paying close attention to unclear letters or punctuation. I made decisions based on context. \"Run upon\" seemed more likely than \"ran upon,\" and \"be thrown\" was chosen over \"is thrown\" based on the handwriting. The hyphenation was marked for words like \"Holy Scrip-ture\". Quotes were carefully transcribed, ensuring I understood their usage for colloquialisms like \"'haint got no larnin'\".\n\nI refined the interpretations iteratively. I re-checked the salutation, and, more and more, it looked like \"M [squiggle]\", and, again, \"Mac\" seemed the only contextually likely choice, despite how ambiguous it looked. I looked closely at \"ceremonious about replies &c\" and the ampersand symbol was more like an `&c` (et cetera).\n\nI considered formatting the HTML. I bolded the header and used paragraph tags (`<p>`) to structure the text. I used line break tags (`<br>`) to match the visual letter structure.\n\nI drafted the transcript, applying the HTML tags, and then double-checked everything. I revisited the salutation, the \"replies &c\", the quotes, the hyphenated words, the use of quotes, and the letter structure, to make the rendering consistent.\n\nThe formatting and layout were a primary focus, especially in getting the addressee name.\n\nI revisited \"Stoves...\" again. It was a slightly trickier font, but I was confident in my capitalization.\n\nThe \"1877\" was printed \"187_\" with a hand-written \"7\" after. I decided to write out \"1877\".\n\nI re-checked all quotes, punctuation, abbreviations, and any handwriting interpretation.\n\nI checked everything again, specifically \"Dear Mac\", the word \"replies\", the word \"run\", \"fiddle be\", and again re-evaluated \"Madison\" and \"Story\". I've\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/232",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/231",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/0cde3851-69e9-3d57-86db-bab77a8546af/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0cde3851-69e9-3d57-86db-bab77a8546af",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/260",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/259",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nHave no opportunity- to read, that little to write. I hope you are<br/>\nwell & prosperous. What are are you Grinding, How is your<br/>\nschool. What studies do you pursue. How are Josh & Rich.<br/>\nI am glad Your Father is on his old path again. He is much<br/>\nliked among the week churches of our State. Dont fail to send<br/>\nhim & Mrs Allsworth my regards when you write. My father has<br/>\njust written me an account of Commencement. Many Speakers<br/>\ndidnt know their parts. Gray (Dont know him) Got 1st medal<br/>\n& Sullivan the 2<sup>nd</sup>. The Alumni Part seems to have<br/>\nfailed - or collapsed. Genl Woodford - ex Gov. of<br/>\nN York was orator. It was through my efforts that<br/>\nhe was brought down. I met him at the \u0394.\u03a8. Reunion<br/>\nin N Y Xmas, of wh. he is a member. Coming as a<br/>\nNorthern man he attracted large crowds & I hear an<br/>\nunusual no of visitors, (prominent men) were on hand<br/>\ndrawn by him. I regarded it as a dubious experiment to<br/>\nget him down, but it seems to have taken mightily among<br/>\nthem, Though snubbed, I still cherish our institution.<br/>\nHe made a most excellent Speech, so the writer<br/>\nsays. Charlton made they say a Splendid<br/>\nVal - which he is capable of doing, if he tries.<br/>\nGood. Good. The board read Gen Sears a lecture<br/>\non how to teach Math. They arraigned him for<br/>\nbeing Snobbish & a drag to aspiring boys. Many<br/>\ntrue friends of the Univ. have been working to this end<br/>\nfor some time\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/261",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/234",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/233",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/eb558078-f9ae-324e-923c-049c3037aa6d/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/eb558078-f9ae-324e-923c-049c3037aa6d",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/263",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/262",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><b>J. A. VANDEGRIFT & CO.</b><br>\n<small>(SUCCESSORS TO GEO. H. HOLLIS.)</small><br>\n<small>DEALER IN</small><br>\n<b>Stoves, Tin-ware, Hardware, Hollow-ware</b><br>\n<small>AND HOUSE FURNISHING GOODS,</small><br>\n<i>Crisfield, Md.,</i>...................................................187\n\n<p>\nD.D. was given to Craig of Holy Springs & J.S.<br>\nMoore of Texas, Presbyterians & 1 or two, to Meths, &<br>\n1 to Darnell of Lebanon. Creighton is preaching at Butler Pa. His bro. will<br>\nbe at Princeton Sem. next term - from Tenn. perhaps A.E. also. As to day<br>\nis the 4th I am going to an ice cream festival, near, & cooling-<br>\nself internally, with cream. They have started the law<br>\ndepartment again at Ox. Judge Warren as prof.<br>\nI swapped a testament for a Telemaque in French<br>\nthe other day & have been reading in it a little. which<br>\n- the blame lie on old Jerry - is a little slow without<br>\na lexicon. As it is near train time<br>\nplease excuse my not filling this page<br>\nI have an aversion to leaving unwritten paper<br>\nin a letter, also to using a pencil, unless suddenly<br>\ndeprived of a pen as is my case at present<br>\nWrite soon As Ever Your<br>\nTrue friend<br>\nW. A. Alexander.\n</p>\n\n<p>\nDr Mo. I missed the train & will add more\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/264",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of Handwritten Letter**\n\nOkay, here's what I've got. I'm looking at this image, and first, the letterhead grabs my attention. It's a bit of a classic, right? The letterhead reads:\n\n<p><b>J. A. VANDEGRIFT & CO.</b></p>\n<p><small>(SUCCESSORS TO GEO. H. HOLLIS.)</small></p>\n<p><small>DEALER IN</small></p>\n<p><b>Stoves, Tin-ware, Hardware, Hollow-ware</b></p>\n<p><small>AND HOUSE FURNISHING GOODS,</small></p>\n<p><i>Crisfield, Md.,</i> ..............................187</p>\n\nNow, the handwriting. It's pencil, and a little faded, which makes it a touch tricky to decipher. Looks like someone making a list, or taking notes. Here's what I've made out, line by line:\n\n<p>D.D. was given to Craig of Holy Springs & J.S.<br>\nMoore of Texas, Presbyterians & 1 or two, to Meths, &<br>\n1 to Darnell of Lebanon. Creighton is preaching at Butler Pa. His bro. will<br>\n[be] at Princeton Sem. next term - from Tenn. perhaps A.E. also. As to day<br>\nis the 4th I am going to an ice cream festival, near, & cooling-<br>\nself internally, with cream. They have started the law<br>\ndepartment again at Ox. Judge Warren as prof.<br>\nI swapped a testament for a Telemaque in French<br>\nthe other day & have been reading in it a little. Which<br>\n- the blame lie on old Jerry - is a little slow without<br>\na lexicon. As it is near train time<br>\nplease excuse my not filling this page<br>\nI have an aversion to leaving unwritten paper<br>\nin a letter, also to using a pencil, unless suddenly<br>\ndeprived of a pen as is my case at present<br>\nWrite soon As Ever Your<br>\nTrue friend<br>\nW. A. Alexander.<br>\nDr Mo. I missed the train & will add more</p>\n\nIt's a jumble of thoughts, but here's my read. It looks like he's recounting the distribution of Doctor of Divinity degrees (D.D.) to various people: Craig of \"Holy Springs\" (Holly Springs, Mississippi?), Moore from Texas (likely a Presbyterian connection), Darnell of Lebanon (Tennessee maybe, or Lebanon PA? It's not clear where Darnell is from), and then some Methodists. Then a note about Creighton preaching, his brother at Princeton Seminary. It looks like he mentions the 4th of July and an ice cream social. Then an academic feel with the law department starting again in Oxford, maybe Oxford Mississippi since he also mentions Holy Springs? Or maybe Oxford, England! I have to be careful not to make assumptions. It sounds like he swapped a testament for a book called \"Telemaque\" in French, and that he is reading it without a lexicon (dictionary). He ends apologetically due to being short on time before a train, and he hates leaving empty space on a letter. Then a signature \"W.A. Alexander\" and a postscript addressed to \"Dr Mo\". (Likely \"Dear Mo\" or a \"Dr Mo\"?) I've assumed \"Dr Mo.\" is the most accurate reading, given the context.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/236",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/235",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/12cfcc7e-8374-3108-95f9-129d4be23255/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/12cfcc7e-8374-3108-95f9-129d4be23255",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/266",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/265",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Traveling by RR is no trouble to me as I have a pass ticket<br/>\nSent me by a U.S. Senator. With such men I corres-<br/>\npond & you should feel honored to receive a letter from<br/>\nme, considering my associations. Do you ever<br/>\nsee any of your Miss friends \u2013 Hayes Finch &c?<br/>\nI dont ever visit here, my travelling job is<br/>\nopposed to it. and the ladies generally have no<br/>\nculture. Where I stop in this town is one nice<br/>\nyoung lady, though I have just discovered it, for<br/>\nI never cultivated her acquaintance until<br/>\nrecently. I have come to the conclusion that<br/>\na cultured lady is a rara avis,</p>\n\n<p>I went a week or two out to an adjoining<br/>\nisland, & while there preached an extempore sermon, on<br/>\n5 minuts notice to the Methodist emotional illiterate people<br/>\nWhat got me was that there was lots of shouting, clapping<br/>\nholy laugh &c & a calling of mourners & their suffocating<br/>\n& crowding them until I got almost disgusted. I must<br/>\ndisparage the Meth. doctrine that the anxious seat<br/>\nis the place to make terms of peace with God. The excitement<br/>\nof the place is opposed to the consideration the subject<br/>\ndemands. Yet many will maintain that this is the wicket-gate<br/>\nthrough which one must needs pass. I was much delighted with<br/>\ntheir Waterman-habits. They have no buggies wagons roads<br/>\n& but a few horses for plowing on the island, They go in Canoes<br/>\n[Margin: or Cunners as they call them]</p>\n\n<p>[Margin: studied much, salt water swimming & going to church in Canada]</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/267",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Okay, here's the transcription process, as I see it, with all the careful consideration I've put into each decision:**\n\nFirst, I had to figure out what was being asked of me: take this image of a handwritten letter and turn it into a perfectly accurate transcript, warts and all, including those little marginal notes. I needed to keep the original formatting (like paragraph breaks), the spelling, the punctuation, and handle any tricky spots with the proper notation. I knew this was older handwriting, so deciphering would be the key.\n\nSo, I started with a good look at the image. It's cursive, a bit tilted, but mostly readable. There was also this vertical text in the margin, which looked like it might be just as important as the main body. It seemed like personal correspondence from the late 1800s or early 1900s, with travel, social stuff, and a church service on an island being the main topics.\n\nThe plan was to go line-by-line.\n\nI started at the top. The first line was a challenge. That initial word, it looked like \"franking,\" but I had to re-read it. Contextually, I thought \"Traveling by RR\" (Railroad) made the most sense. Then there was this word, ending in \"ticket.\" I kept seeing \"Justicket,\" \"freeticket,\" even \"passticket.\" It was tricky, but I finally realized it was most likely \"pass ticket,\" given the context of a Senator and travel, I needed to make that 'p' connection.\n\nThen I moved to the next lines. \"Sent me by a U.S. Senator.\" Okay, now the \"pass\" made sense because I remembered that Senators give railroad passes. I saw phrases like \"rara avis,\" and \"wicket-gate,\" and \"extempore sermon,\" and it all started to come together. In the margins, there was \"or Cunners as they call them\". That had to do with the \"Canoes\" mentioned earlier. The other marginal text I made out to be \"studied much, salt water swimming & going to church in Canada.\" I had to think how that related.\n\nThen, line by line, I reviewed individual words. \"job\" vs. \"gab\". After lots of squinting, I settled on \"job\" because the sentence made sense in the context of travel, and the \"j\" seemed clearer than the \"g.\" Also, I checked \"Sent\" in the second line. Even though it looked like \"Lent\", \"Sent\" makes more sense, grammatically, and contextually. The writing was a bit sloppy. \"Pass\" ticket kept tripping me up. The \"p\" loop was faint. The word looked like \"free\". I also checked the marginalia. I decided to make \"or Cunners as they call them\" part of the sentence about canoes, but to leave \"studied much\" at the end, as a general note. I had to look at \"minuts\" - misspelled - and \"Waterman-habits.\" It looked like \"U.S. Senator,\" and \"Hayes Finch.\"\n\nFinally, I got to the formatting. HTML and line breaks. Paragraphs. It was pretty easy after all that careful reading. I wrapped things up, and double-checked against the image to make sure I hadn't missed anything. Then, I was finally ready to share my final transcript.\n\n<p>Traveling by RR is no trouble to me as I have a pass ticket<br/>\nSent me by a U.S. Senator. With such men I corres-<br/>\npond & you should feel honored to receive a letter from<br/>\nme, considering my associations. Do you ever<br/>\nsee any of your Miss friends - Hayes Finch &c?<br/>\nI dont ever visit here, my travelling job is<br/>\nopposed to it. and the ladies generally have no<br/>\nculture. Where I stop in this town is one nice<br/>\nyoung lady, though I have just discovered it, for<br/>\nI never cultivated her acquaintance until<br/>\nrecently. I have come to the conclusion that<br/>\na cultured lady is a rara avis,<br/>\nI went a week or two out to an adjoining<br/>\nisland, & while there preached an extempore sermon, on<br/>\n5 minuts notice to the Methodist emotional illiterate people<br/>\nWhat got me was that there was lots of shouting, clapping<br/>\nholy laugh &c & a calling of mourners & their suffocating<br/>\n& crowding them until I got almost disgusted. I must<br/>\ndisparage the Meth. doctrine that the anxious seat<br/>\nis the place to make terms of peace with God. The excitement<br/>\nof\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_4",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 4"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/238",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/237",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3502b874-ad51-3696-8bca-0fc180b8a449/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3502b874-ad51-3696-8bca-0fc180b8a449",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_4"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/269",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/268",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>If it will cause no irreverent smile, I will tell you of my<br>\nfix, that Sunday, weather warm, so that by Thursday my clothes are<br>\ndirty, collar, sh. bosom, pants, all dilapidated. A chance presented<br>\nitself for me to go over to Smith's (<sup>Capt</sup>John) Island suddenly & I had no time to<br>\nchange garb, I worked Friday & Sat & Sunday went 3 miles in a<br>\nCanoe to church, Sitting on the edge of the vessel a big wave wet<br>\nmy seat, my undersitting (not standing) My coat was of the Seymour<br>\ncut, (the one I was bumped in). Torn & sowed in back, & torn a little<br>\n& not sewed under arm, not shaved in 2 or 3 weeks. When they were about<br>\nto start, the old exhorter (preacher not there) eyed me in the Amen Corner &<br>\ntook me, will or nil, into the pulpit to do the sermon. He took<br>\na quarter of an hour talking money matters to the people & in the<br>\nmeantime I decided to talk on what Jack Wheat lectured<br>\nto us one day \u2014 The comparison Paul makes between the Races<br>\nat Olympic games & the Christian life. I believe that I<br>\nwas acceptable to them & made them understand<br>\nthe points of analogy. For in the experience meeting which<br>\nfollowed, the old Class leader kept rehashing my points<br>\nshowing that he had imbibed them None could tell<br>\ntheir experience without dissolving into tears.</p>\n\n<p>The less intelligence prevails among a people,<br>\nthe more the sensibilities come into play, in<br>\nplace of intellect \u2014 in Religion. Doubtless<br>\nyour observation with has shown the same thing to<br>\nyou \u2014 It is observably so in the case of Negroes.<br>\nBut I must stop this time for good.</p>\n\n<p>Yrs Truly<br>\nW. A. Alexander</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_4"
+                        },
+                        {
+                            "id": "http://example.org/iiif/270",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcriptionist's Mindset: Analyzing and Crafting a Handwritten Letter's Digital Twin**\n\nAlright, here's how I'm going to approach transcribing this handwritten letter. First, I need to understand what's being asked of me: I'm acting as a transcriptionist, charged with taking an image of a handwritten text and rendering it as accurately as possible. That means preserving the original text, including any oddities or quirks, using HTML tags as requested, and maintaining the original paragraph structure and visual layout. I need to be as true to the original as I can, while keeping it readable.\n\nI see it's a personal letter, likely from the 19th century, written in cursive. It seems to describe a situation, a specific event involving going to church, and the writer's physical state during that visit. The letter has a main body in one paragraph, followed by a closing observation, and then the signature. I'm noting these details so I can maintain the intended structure in the HTML.\n\nNow, let's transcribe, line by line. I will be very meticulous about this! The first line is straightforward, but \"sh. bosom\" needs to be transcribed as it appears, even if the meaning isn't immediately obvious. The phrase \"Capt John\" looks like a correction or insertion, with \"Capt\" above \"John\", so I'll need to use superscript HTML for that. I'm seeing \"sowed\" which could be a misspelling of \"sewed\", but I need to transcribe it as it looks unless it's obviously illegible. There are a few words that seem crossed out: \"highly\" in line 16, and some words on line 17. The instructions say to interpret accurately, which includes these additions, deletions, corrections, and modifications to the original text. I must include these and not take the interpretation out of the original text. On \"Line 24\" it's a bit unclear. It reads \"will has\". This is grammatically incorrect, but I must transcribe exactly what I see. \"Observably\" looks like it might be misspelled but I must stick to the original, if legible.\n\nI'm now refining the transcription. Double-checking \"sh. bosom\", it's clear as day. \"Undersitting\" is a bit playful, but very legible. I had to look closely at \"sowed\". It does look like \"sowed\" from the visual, not \"sewed\". The name \"Jack Wheat\" is likely correct. \"Will has\" on line 24. It does not look like \"hath\". I have to transcribe \"will has\", even if it reads incorrectly. The text is in a clear hand. I'm going to omit deleted words in my rendering, if that can be shown. It's legible but still crossed out.\n\nI need to format the final transcription with HTML tags. I'll use `<p>` tags for paragraphs. Line breaks within the paragraphs will be represented by `<br>`. Superscript for \"Capt\" above \"John\". Then I will do a final polish for spelling accuracy. Now, I have to be extremely rigorous. Spelling, capitalization, and the preservation of the original layout, but must be readable. This means \"sh. bosom\" stays as is, along with \"Seymour cut.\" \"Will or nil\" for willy-nilly and so on.\n\nLet's read the text line 16 and 17. The word \"highly\" is clearly struck, but legible. The text needs to be faithful to the original, so the word will be excluded. Also, the word before \"experience\" is illegible, and heavily crossed out.\n\nI am re-reading line 24: \"Your observation with has shown\". I'm convinced the visual is \"with has\" and it reads as such.\n\nI have double checked the signature and it seems correct: \"W. A. Alexander\".\n\nOk, finally, I'm ready to generate the final output. The format should be clear and organized with the formatting tags.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_5",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 5"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/240",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/239",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/61a6ff38-57d1-3482-84f1-82350831502f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/61a6ff38-57d1-3482-84f1-82350831502f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_5"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/272",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/271",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">Crisfield, Md., July 4, 1877</p>\n\n<p>Mr. L. McInnis &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dear Mc</p>\n\n<p>Your card came to hand today. & I will reply by<br>\nletter as my hand is in & I am not disposed to be ceremonious about replies etc.<br>\nI suppose you thought I had gotten away from this part of the country. No. Cris-<br>\nfield is my general head quarters for all summer, & if I go elsewhere, my mail is<br>\nforwarded from this place. I heard from Bigger today. All of a sudden, he<br>\nrun upon his presbytry and was licensed, last week - Now Parson Bigger. I gues O. W.<br>\nRay will persist still more now that his fiddle be thrown away. He is at home.<br>\nI heard from Lewis Green, who is passing his summer at leisure, awaiting the<br>\nwinter season for cotton trade. Story is preaching at Madison & Va. My<br>\nwork progresses moderately - is monotomous & affords butlittle subject for comment.<br>\nFurthermore it is hard, I go on foot from house to house to look up those destitute<br>\nof the Holy Scripture, Hence my work is among the lower classes. But they have<br>\nto be reached & the work devolves upon me. I am learning much country slang &<br>\nmeet a dozen times a day persons who \"hain't got no larnin'\" \"Not high larnt,<br>\nbut larnt a little.\" I long for the time when I get back to my office & my books<br>\nat P/rinceton/. I have no opportunity to read, & but little to write. _ I hope<br>\nyou are well & prosperous. What axe are your grinding. How is your school.<br>\nWhat studies do you pursue. How are Josh & Rich. I am glad your Father is on<br>\nhis old path again. He is much beliked among the week churches of our State.<br>\nDon't fail to send him & Mrs.Alsworth my regards when you write. My father<br>\nhas just written me an account of Commencement. Many speakers didn't know their<br>\nparts. Gray (don't know him) got 1st medal & Sullivan the 2nd. The Alumni part<br>\nseems to have failed or collapsed. Genl. Woodford - ex Gov. of N. York was<br>\norator. It was through my efforts that he was brought down. I met him at the<br>\n&#9651; 4's Reunion in N. Y. Xmas. of wh/ich/ he is a member. Coming as a Northern man<br>\nhe attracted large crowds & I hear an unusual no of visitors.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_5"
+                        },
+                        {
+                            "id": "http://example.org/iiif/273",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's the transcription, as I see it:**\n\nAlright, I'm diving into this transcription request. The goal is clear: capture the essence of this typewritten letter, paying meticulous attention to every detail, especially those handwritten additions.\n\nFirst up, the header. It's right-aligned and reads:\n\n<p align=\"right\">Crisfield, Md., July 4, 1877</p>\n\nThen we have the salutation:\n\n<p>Mr. L. McInnis &nbsp;&nbsp;&nbsp;&nbsp; Dear Mc</p>\n\nNow, the main body of the letter, here we go:\n\n<p>Your card came to hand today. & I will reply by<br>\nletter as my hand is in & I am not disposed to be ceremonious about replies etc.<br>\nI suppose you thought I had gotten away from this part of the country. No. Cris-<br>\nfield is my general head quarters for all summer, & if I go elsewhere, my mail is<br>\nforwarded from this place. I heard from Bigger today. All of a sudden, he<br>\nrun upon his presbytry and was licensed, last week - Now Parson Bigger. I gues O. W.<br>\nRay will persist still more now that his fiddle be thrown away. He is at home.<br>\nI heard from Lewis Green, who is passing his summer at leisure, awaiting the<br>\nwinter season for cotton trade. Story is preaching at Madison & Va. My<br>\nwork progresses moderately - is monotomous & affords butlittle subject for comment.<br>\nFurthermore it is hard, I go on foot from house to house to look up those destitute<br>\nof the Holy Scripture, Hence my work is among the lower classes. But they have<br>\nto be reached & the work devolves upon me. I am learning much country slang &<br>\nmeet a dozen times a day persons who \"hain't got no larnin'\" \"Not high larnt,<br>\nbut larnt a little.\" I long for the time when I get back to my office & my books<br>\nat P/rinceton/. I have no opportunity to read, & but little to write. _ I hope<br>\nyou are well & prosperous. What axe are your grinding. How is your school.<br>\nWhat studies do you pursue. How are Josh & Rich. I am glad your Father is on<br>\nhis old path again. He is much beliked among the week churches of our State.<br>\nDon't fail to send him & Mrs.Alsworth my regards when you write. My father<br>\nhas just written me an account of Commencement. Many speakers didn't know their<br>\nparts. Gray (don't know him) got 1st medal & Sullivan the 2nd. The Alumni part<br>\nseems to have failed or collapsed. Genl. Woodford - ex Gov. of N. York was<br>\norator. It was through my efforts that he was brought down. I met him at the<br>\n\u25b3 4's Reunion in N. Y. Xmas. of wh/ich/ he is a member. Coming as a Northern man<br>\nhe attracted large crowds & I hear an unusual no of visitors.</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_6",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 6"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/242",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/241",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/7a54aa7d-6476-3ac7-8b60-62d3654a27ab/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7a54aa7d-6476-3ac7-8b60-62d3654a27ab",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_6"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/275",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/274",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>(prominent men) were on hand, drawn by him. I regarded it as a dubious experi-<br/>\nment to get him down, but it seems to have taken mightily among them. Though<br/>\nsnubbed, I still cherish our institution. He made a most excellent speech, so the<br/>\nwriter says. Charlton made they say a splendid val. - which he is capable of doing,<br/>\nif he tries. Good. Good. The board read Gen. Sears a lecture on how to teach<br/>\nMath. X They arraigned him for being toc snarlish & a drag to aspiring boys. Many<br/>\ntrue friends of the Univ. have been working to this end for some time. D. D. was<br/>\ngiven to Craig of Holy Springs & J. S. Moore of Texas, presbyterians & 1 or two, to<br/>\nMeth. & 1 to Darnell of Lebanon. Creighton is preaching at Butter, Pa. His bro.<br/>\nwill be at Princeton Sem. next term - from Tenn. perhaps A. E. also. As today is<br/>\nthe 4th I am going to an iceXXXXXXX cream festival, , & cooling self internally<br/>\nwith cream. They have started the law department again at Ox/ford/. Judge Harmen as<br/>\nprof.</p>\n\n<p>I swapped a testament for a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in French the Xother day & have been<br/>\nreading in it a little. which the blame lies on aX old Juny - is a little slow<br/>\nXKA without a lexicon.</p>\n\n<p>As it is near train time please excuse my not filling this page. I have an<br/>\naversion to leaving unwritten paper in a letter, also to using a pencil unless<br/>\nsuddenly deprived of a pin as is my case at present.</p>\n\n<p>Write soon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As ever your</p>\n\n<p>True friend</p>\n\n<p>[Signature]<br/>\nW. A. Alexander</p>\n\n<p>Dear Me. I missed the train & will add more. Traveling by RR is no trouble to<br/>\nme as I have a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ticket lent me by a U. S. Senator, with such men I correspond<br/>\n& you should feel honored to receive a letter from me considering my associations.<br/>\nDo you ever see any of our Miss friends Hayes , Finch etc? I don't ever visit<br/>\nhere, my &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; is opposed to it and the ladies generally have no</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_6"
+                        },
+                        {
+                            "id": "http://example.org/iiif/276",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I'm approaching this transcription:**\n\nI see a typed letter, and my initial goal is to reproduce the text as accurately as possible, including any corrections or unusual formatting. I'm focusing on preserving the original \"feel\" of the document. I'll maintain the line breaks, try to reflect spacing as best as I can, and explicitly represent any struck-out text using the X's. I'll also pay close attention to any spelling variations and preserve them. I am going to attempt to reproduce the formatting of the document. I will use the `<p>` tags to separate paragraphs, as requested.\n\nHere's the transcription:\n\n<p>(prominent men) were on hand, drawn by him. I regarded it as a dubious experi-\nment to get him down, but it seems to have taken mightily among them. Though\nsnubbed, I still cherish our institution. He made a most excellent speech, so the\nwriter says. Charlton made they say a splendid val. - which he is capable of doing,\nif he tries. Good. Good. The board read Gen. Sears a lecture on how to teach\nMath. X They arraigned him for being toc snarlish & a drag to aspiring boys. Many\ntrue friends of the Univ. have been working to this end for some time. D. D. was\ngiven to Craig of Holy Springs & J. S. Moore of Texas, presbyterians & 1 or two, to\nMeth. & 1 to Darnell of Lebanon. Creighton is preaching at Butter, Pa. His bro.\nwill be at Princeton Sem. next term - from Tenn. perhaps A. E. also. As today is\nthe 4th I am going to an iceXXXXXXX cream festival, , & cooling self internally\nwith cream. They have started the law department again at Ox/ford/. Judge Harmen as\nprof.</p>\n\n<p>I swapped a testament for a        in French the Xother day & have been\nreading in it a little. which the blame lies on aX old Juny - is a little slow\nXKA without a lexicon.</p>\n\n<p>As it is near train time please excuse my not filling this page. I have an\naversion to leaving unwritten paper in a letter, also to using a pencil unless\nsuddenly deprived of a pin as is my case at present.</p>\n\n<p>Write soon            As ever your</p>\n\n<p>[Signature]\nTrue friend\n\nW. A. Alexander</p>\n\n<p>Dear Me. I missed the train & will add more. Traveling by RR is no trouble to\nme as I have a            ticket lent me by a U. S. Senator, with such men I correspond\n& you should feel honored to receive a letter from me considering my associations.\nDo you ever see any of our Miss friends Hayes , Finch etc? I don't ever visit\nhere, my                    is opposed to it and the ladies generally have no</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_7",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 7"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/244",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/243",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/9709a3d1-6f53-3772-ac08-8d128fc4cdeb/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9709a3d1-6f53-3772-ac08-8d128fc4cdeb",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_7"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/278",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/277",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>culture. Where I stop in this town is one nice young lady, though I have just<br>\ndiscovered it, for I never cultivated her adquaintance until recently. I have<br>\ncome to the conclusion that a cultivated lady is a <i>rara avis</i>.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I went a week or two out to an adjoining island & while there preached an<br>\nextempore sermon on 5 minutes notice to the Methodist emotional illerate people.<br>\nWhat got me was that there was lots of shouting, clapping, holy laugh etc & a<br>\ncalling of mourners & than suffociating & crowding them until I got almost dis-<br>\ngusted. I must disparage the Meth. doctrine that the anxious seat is the place<br>\nto make terms of peace with God. The excitement of the place is opposed to the<br>\nconsideration the subject demands. Yet many will maintain that this is the<br>\nwicket-gate through which one must needs pass. I was much delighted with their<br>\nwaterman habits. They have no XXXXXXX <sup>Buggies</sup>, wagons, roads, & but a few horses for<br>\nplowing on the island. They go in canoes or cunners as they call them. I liked much<br>\nsalt water swimming & going to church in canoes. If it will cause no irreverent<br>\nsmile, I will tell you of my fix that Sunday. Weather warm so that by Thursday<br>\nmy clothes are dirty, collar, sh/irt/ bosom, pants all dilapidated. A chance pre-<br>\nsents itself for me to go over to Smith's Capt. <sup>(John)</sup> Island suddenly & I had no<br>\ntime to change garb. I worked Friday & Sat. & Sunday went 3 miles in a canoe to<br>\nchurch, sitting on the edge of the vessel a big wave wet my seat, my undersitting<br>\n(not standing) my coat was of the Seymour cut, (the one I was bumped in), torn and<br>\nsewed in back & torn a little & not sewed under arm, not shaved in 2 or 3 weeks.<br>\nWhen they were about to start the old exhorter (preacher not there) eyed me in<br>\nAmen Corner & took me, will or nil, into the pulpit to do the sermon. He took<br>\na quarter of an hour talking money matters to the people & in the meantime I<br>\ndecided to talk on what Jack Wheat lectured to us one day - the comparison Paul<br>\nmakes between the Races at Olumpic games & the Christians life. I believe that</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_7"
+                        },
+                        {
+                            "id": "http://example.org/iiif/279",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription in Progress**\n\nAlright, let's get down to it. I'm looking at this typed document and my mission is clear: transcribe this thing faithfully. I'll be keeping a close eye on every little detail. I'm going to follow the instructions to the letter, wrapping things in the HTML tags they've given me. I'll maintain the line breaks because it's part of the text's original structure.\n\nHere's how I'm approaching this:\n\nFirst, I'm typing out the text line by line, exactly as it appears. I'm seeing a few corrections and insertions, which I'll be sure to represent. It's all about preserving the original \"feel\" of this document.\n\nFor example, on line 3, there's a crossed-out \"I\". I'll be sure to just transcribe the intended text, but I'm mentally making a note of it. Similarly, \"rara avis\" is underlined which usually means italics, so I'll render that as `<i>rara avis</i>` which is an allowed HTML tag. Line 13 has an insertion of \"Buggies\" over \"XXXXXXX\". I will capture that. On line 17, the forward slashes in \"sh/irt/\" are typed, so I transcribe that faithfully.\n\nI've examined each line, and made a plan to deal with potential issues:\n\n*   **Line Breaks and Paragraphs:** I'm keeping those in mind. I will use `<p>` tags for paragraphs.\n*   **Corrections:** I will note handwritten insertions. The word \"Buggies\" is above the word XXXXXXXX, so I'll write that into the text as `XXXXXXX <sup>Buggies</sup>`. The 'e' over the 'a' on line 20, in \"e dge\", I am keeping as is.\n*   **The Big Picture:** Accuracy is key. This isn't just about typing; it's about making sure I get every character, every edit, down just as it appears on the image.\n\nThe image has been thoroughly assessed. I've considered all the rules. It's time to generate the output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_8",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 8"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/246",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/245",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/1e5b0974-33f4-3346-a39c-65d2e2842fd9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/1e5b0974-33f4-3346-a39c-65d2e2842fd9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_8"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/281",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/280",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>I was highly acceptable to them & made them understand the points of analogy,<br>\nfor in the Experience Meeting which followed, the old classleader kept rehashing<br>\nmy points showing he had imbibed them. None could tell their experience without<br>\ndissolving into tears.</p>\n\n<p>The less intelligence prevails among a people the more the sXXXXXXXXXX<br>\nsensibilities come into play in place of intellect in Religion. Doubtless your<br>\nobservation has shown the same thing to you - It is &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; so in the case<br>\nof Negroes.</p>\n\n<p>But I must stop this time for good.</p>\n\n[Signature]\n<p>Yours Truly<br>\n<br>\nW. A. Alexander</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_8"
+                        },
+                        {
+                            "id": "http://example.org/iiif/282",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcribing the Letter**\n\nI'm focusing on accurately transcribing this typed letter, paying close attention to every detail. It looks like a letter, likely typed on a typewriter, and I need to be meticulous in capturing the content. I'm starting by analyzing the image, making sure I understand the type of document, its overall content (religious experiences, intelligence, and the controversial mention of \"Negroes\"), and any visual features like crossed-out text.\n\nMy plan is to read line by line, preserving the original line breaks using `<br>` tags and also maintaining paragraph breaks with `<p>`. The guidelines say to \"Preserve original spelling, punctuation, capitalization, and line breaks\" so I'm making sure I do exactly that. The crossed-out section is key; it looks like a word was typed and then overwritten with \"X\" characters, I will transcribe it carefully. I'm also watching out for any spacing inconsistencies that might be present in the original document, which I'll preserve in the output. I'll make sure to use only the allowed HTML tags: `a, b, br, i, img, p, small, span, sub, sup`.\n\nI'll start with the first paragraph and note that the original wording is:\n\"I was highly acceptable to them & made them understand the points of analogy,<br>\nfor in the Experience Meeting which followed, the old classleader kept rehashing<br>\nmy points showing he had imbibed them. None could tell their experience without<br>\ndissolving into tears.\"\n\nThen the second paragraph:\n\"The less intelligence prevails among a people the more the sXXXXXXXXXX<br>\nsensibilities come into play in place of intellect in Religion. Doubtless your<br>\nobservation has shown the same thing to you - It is       so in the case<br>\nof Negroes.\"\nI'll take special care with the crossed-out text. It seems like the typist started to type a word and then backspaced and covered it with \"x's\". Looking closely, I think I can make it out that it starts with an \"s\" and then it's all \"X\"s.\n\nI'm making a note of the gap in the line \"observation has shown the same thing to you - It is       so in the case\".\n\nThen the third paragraph:\n\"But I must stop this time for good.\"\n\nFinally, the signature which I'll label as `[Signature]`.\n\"Yours Truly<br>\n<br>\nW. A. Alexander\"\nI'll remember the double spacing there.\n\nNow I am double-checking that the transcription is complete and correct and double-checking that I am not violating any rules. I'll look again at the crop. It looks like the crossed out word is `sXXXXXXXXXX`. \"sensibilities\" is on the next line.\nSo the `s` is visible. The rest is `x`s. So `sXXXXXXXXXX`.\n\nI'm keeping in mind that I can't do any alignment; I just have to transcribe the text as it is, maintaining the original spacing as best I can with HTML.\n\nAlso, the double-spacing gap between the signature lines is intentional. I'll include it.\n\nI'm checking the output.\n\nI'm going through it again to make sure I followed the guidelines carefully.\nI will check again the crossed-out word: It looks like `sXXXXXXXXXX`. It's definitely a strike-through. The characters are `sXXXXXXXXXX`.\n\nI will use `<p>` tags for paragraphs and `<br>` for line breaks and I am ready.\n\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/350/pages/page_8"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

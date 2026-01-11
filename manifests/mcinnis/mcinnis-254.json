@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-254.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. Crisp, July 21, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-07-21"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. Crisp, July 21, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/741c01da-a8ea-3cda-8361-55b14cd27550/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3580,
+            "width": 2133,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/116",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/115",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/741c01da-a8ea-3cda-8361-55b14cd27550/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3580,
+                                "width": 2133,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/741c01da-a8ea-3cda-8361-55b14cd27550",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/122",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/121",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Margin: r]\n\n<p>Columbus, July 21\" 1880.</p>\n\n<p>Prof. L. L. M<sup>c</sup>Innis<br/>\nCollege Station<br/>\nTexas.</p>\n\n<p>Dear Sir,<br/>\nI am desi-<br/>\nrous of securing a school for the<br/>\nFall term or, a situation as<br/>\nassistant in some high-<br/>\nschool or academy; and should<br/>\nbe under obligations to you<br/>\nfor a testimonial that would<br/>\nenable me to secure such a<br/>\nsituation. You are well<br/>\nacquainted with my record at<br/>\nthe College and if you deem<br/>\nany part of it important you<br/>\ncan send it also.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/123",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe this letter accurately, paying close attention to every detail and maintaining the original formatting as best as possible. The first thing I see is a possible marginal note, a mark in the top right corner that looks like a lowercase \"r\" \u2013 could be a filing mark or something. I'll make sure to note that in the transcription. Then there's an embossed stamp in the top left, a \"CHEQUE\" inside an oak leaf, which I'll likely ignore, as these are typically paper brand identifiers and not part of the letter's content, unless specifically told to include it, though the prompt says to \"Transcribe all text from the attached image\".\n\nNext, the date. It reads \"Columbus, July 21\" 1880.\", and the \"21\" seems to have double quotes or primes after it. I'll keep that exactly. Then the recipient's address: \"Prof. L. L. McInnis / College Station / Texas.\" \"Texas\" is a bit loopy, but definitely \"Texas.\"\n\nThe salutation is \"Dear Sir,\" which is straightforward.\n\nNow, the body of the letter. This is where I'll be meticulously checking each word, paying close attention to line breaks and any punctuation. Hyphens at the end of the line are important.\nI am desi-\nrous of securing a school for the\nFall term or, a situation as\nassistant in some high-\nschool or academy; and should\nbe under obligations to you\nfor a testimonial that would\nenable me to secure such a\nsituation. You are well\nacquainted with my record at\nthe College and if you deem\nany part of it important you\ncan send it also.\n\nThe comma after \"or\" in \"Fall term or, a situation\" needs to be transcribed, the semi-colon after \"academy\" too. Also, I'll pay attention to the capitalization of \"Fall\" and \"College\". The \"Mc\" in \"McInnis\" seems slightly superscript, and may have dots underneath it (contraction). I'll transcribe it carefully.\n\nI'll use `p` tags for paragraphs and `br` tags for line breaks to structure the transcription. I will ignore the white embossed paper maker's stamp.\n\nI'll double check the handwriting again, make sure I am getting every single mark correct and preserving the author's intent. Then I'll check my transcription again for accuracy. It appears that the letter ends abruptly, and no signature is provided. This could mean it is on the next page, but I'll only transcribe what's provided. The line ends with \"can send it also.\", and I assume there is more text on the next page.\nLet's make sure I'm capturing all the details accurately. I am ready to transcribe.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3580,
+            "width": 2133,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/118",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/117",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b0260899-7d27-37db-a0de-418ff70dc5e1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3580,
+                                "width": 2133,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b0260899-7d27-37db-a0de-418ff70dc5e1",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/125",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/124",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>I want a situation<br>\nwhere I can pursue my<br>\nstudies, review what I have<br>\nbeen over and, at the same<br>\ntime be self sustaining.<br>\nI have been \"roughing it\" on<br>\nmy father's farm by way of<br>\nrestoring my constitutional<br>\nvigor and have found it ex-<br>\ncellent medicine.</p>\n\n<p>All of our family are en-<br>\njoying splendid health and,<br>\nI hope this will find you<br>\nlikewise blest.</p>\n\n<p>Remember me to all my<br>\nfriends and believe me,</p>\n\n<p>As ever Your pupil and friend<br>\n[Signature] Jno. C. Craig</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Deep Dive into a Faded Letter**\n\nAlright, let's get down to brass tacks. I've got a handwritten document here, a letter judging from the structure, and the goal is to get a clean transcription. First, I need to understand the visual context. It's cursive, likely from the late 19th or early 20th century. The ink has faded to a brown hue, which adds a certain historical charm but also makes the letters trickier to decipher. There's an embossed stamp in the top right corner, probably a manufacturer's mark, but it's illegible for our purposes. It's not part of the core text anyway.\n\nNow, it's time to tackle this line by line. Let's start with the first word: \"I\". It looks a little stylized but clearly is an \"I\" and the text begins, \"I want a situation\". I'm making sure to go back and forth and review the word, the letter, the surrounding context. Then, line 2 \"where I can pursue my\" \"where\" is the correct reading, though \"when\" isn't out of the question either, grammatically. \"studies, review what I have been over and, at the same time be self sustaining\". I'm reading and deciphering all the words. Let's look at the letter \"been\". Looks like \"been\", \"run\", \"bin\" were possible, but reading the whole line and using the context, it is \"been\". It makes sense. It's the only word which fits.\n\nNow onto the next block: \"I have been \"roughing it\" on my father's farm by way of restoring my constitutional vigor and have found it excellent medicine.\" \"Fathers\" vs \"father's\". There is a speck, but it's very faint. There is no apostrophe in the source. I'll read it both ways and make it \"father's\" if I see a speck. I see a speck, the speck is the apostrophe. \"father's\" it is. The writer is expressing being on their \"father's farm\" for the \"medicine\" to restore his \"constitutional vigor\".\n\nNext: \"All of our family are enjoying splendid health and, I hope this will find you likewise blest.\" There's a comma after \"and,\". I'm noting the word \"enjoying\" is hyphenated with the second part of the word on the next line. There's an enthusiastic hope that the person is well.\n\nAnd finally, the closing: \"Remember me to all my friends and believe me, As ever Your pupil and friend [Signature] Jno. C. Craig\". This is the standard letter structure. A closing, a signature, and the signature itself. \"Jno. C. Craig\". A very common abbreviation for \"John\". \n\nI'm keeping it all in HTML form, using the markup and preserving the line breaks, but using a paragraph where necessary. There's a bit of an older style in the words used, \"blest\" instead of \"blessed\". This is expected for the era. I'm carefully reviewing the words and punctuation. It's clear and unambiguous for the most part, but I'm checking, rechecking, and using my expertise to make sure the transcription is as faithful to the source as possible. So: \"Jno.\" is \"Jno.\" It's standard, and I'll make the transcription exact. All of it is looking good. The writing's a little flowery, but the meaning is clear. Now for the output!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/254/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

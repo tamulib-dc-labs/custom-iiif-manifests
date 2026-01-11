@@ -1,0 +1,352 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-145.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Robert F. Smith, July 7, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-07-07"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Robert F. Smith, July 7, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/81f728f2-aea7-3e67-a535-d39b48517707/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 2850,
+            "width": 1732,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/158",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/157",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/81f728f2-aea7-3e67-a535-d39b48517707/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2850,
+                                "width": 1732,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/81f728f2-aea7-3e67-a535-d39b48517707",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/170",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/169",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Orange New Jersey<br>\nJuly 7. 86.</p>\n\n<p>Prof. L. L. McInnis,<br>\nForest<br>\nMiss.</p>\n\n<p>Dear Prof.:<br>\nI am taking a<br>\nrest today and am spend-<br>\ning part of the time writ-<br>\ning letters. Have been<br>\nHaving rather a quiet<br>\ntime since I got here.<br>\nHave not been around<br>\nvery much yet. Went<br>\nthrough the Produce Exch.<br>\nbuilding, through a large</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/171",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Thought Process: Transcribing a Handwritten Letter**\n\nOkay, so I've got this handwritten letter and the task is to transcribe it. First, I need to analyze the image to identify key elements. There's a floral design at the top left, which I'll note but won't be transcribing. Then there's the location and date, \"Orange New Jersey / July 7. 86.\" - clearly 1886. The recipient is \"Prof. L. L. McInnis, / Forest / Miss.\", and the salutation is \"Dear Prof.:\".\n\nNext, I'll move on to a detailed transcription strategy. I'll note down the date, \"July 7. 86.\", and confirm the \"86\" is clear. I see the name is \"Prof. L. L. McInnis\" and I'll confirm the middle initial as L, and the last name starting with Mc, then I, n, n, i, s. The location is \"Forest / Miss.\" (Mississippi). Then, I'll transcribe each line of the body text.\n\nNow, let's think about formatting. I'll use `<p>` tags for paragraphs and `<br>` tags to preserve the line breaks from the original letter, maintaining the visual structure. The floral image is a non-text element, so I will focus on transcribing the text.\n\nI need to refine my reading of the handwriting. \"Orange New Jersey\" is straightforward. \"July 7. 86.\" is clear, and the 86 seems to be underlined. \"Prof. L. L. McInnis,\" has a comma. \"Forest\" is underlined, as is \"Miss.\", both with no trailing punctuation. \"Dear Prof.:\" has a colon at the end, and the body begins indented. I need to note the hyphens in \"spend-\" and \"writ-\". There's the tricky word \"Having\" versus \"having.\" In the script, the letter \"H\" appears to be capitalized, but it looks like grammatically it is lowercase. Looking closely at the letter, however, the looped ascender of the 'h' matches the looped ascender of the \"H\" in \"Have\", thus I'll transcribe \"Having.\" The letter ends abruptly with \"through a large\". And \"Produce Exch.\" is clearly an abbreviation.\n\nI'll double-check my work against the guidelines: the transcription should be top-to-bottom, I'll preserve spelling and punctuation, use `[?]` when unsure, and keep to allowed HTML tags. I've noted \"Forest\" has a flourish at the end. \"Miss.\" ends with a period. The \"Dear Prof.:\" has a colon. And there are hyphens in \"spend-\" and \"writ-\". I am confident that the \"H\" in \"Having\" is capitalized in the original script. Finally I'll check \"Exch\" which has a period.\n\nAfter thorough analysis, I can produce the following HTML rendering:\n\n```html\n<p>Orange New Jersey<br>\nJuly 7. 86.</p>\n<p>Prof. L. L. McInnis,<br>\nForest<br>\nMiss.</p>\n<p>Dear Prof.:</p>\n<p>I am taking a<br>\nrest today and am spend-<br>\ning part of the time writ-<br>\ning letters. Have been<br>\nHaving rather a quiet<br>\ntime since I got here.<br>\nHave not been around<br>\nvery much yet. Went<br>\nthrough the Produce Exch.<br>\nbuilding, through a large</p>\n```\n\nThe transcription appears to be complete and faithful to the original handwritten letter.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 2850,
+            "width": 1732,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/160",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/159",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/797864f7-c2e3-3eb7-b0d1-605be47d8aab/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2850,
+                                "width": 1732,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/797864f7-c2e3-3eb7-b0d1-605be47d8aab",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/173",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/172",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>steam ship, across the<br>\nsuspension bridge to Brook-<br>\nlyn and there visited<br>\nProspect Park. This is about<br>\nall I have seen of N.Y.<br>\nWill begin systematically<br>\nto \"paint\" the town in a<br>\nfew days. Called at Van<br>\nWinkle's office one day;<br>\nbut he was out. At<br>\nCleveland, and Dunkirk<br>\nN.Y. we stopped two weeks<br>\nand it was a perpetual<br>\npicnic all the time.</p>\n<p>At the latter place, we were<br>\non the lake a great deal\u2014<br>\nfishing, rowing and picnic<br>\ning. Met lots of lively girls<br>\nat both places. I have met<br>\nseveral here; but have been</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/174",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Deep Dive into Textual Transcription: My Thought Process**\n\nAlright, let's break this down. The task is clear: I need to transform this handwritten document into a clean, digital format. First, I'm assessing the source. It's a page from a letter, judging by the cursive handwriting, which has that classic late 19th or early 20th-century feel. The ink is faded, a sepia-toned brown \u2013 not the crispest image, but the lines are still discernible on the lined paper.\n\nNow, it's transcription time. I'm going line by line, ensuring accuracy. I'm noting potential ambiguities, like that initial word \"steam ship,\" and making sure I'm capturing everything exactly as it's written. I'm paying close attention to punctuation: are those periods or commas? And is that an em-dash at the end of line 16? I am cross-referencing to previous lines, or to common phrases. I am checking the spacing to ensure correct line breaks as well.\n\nI keep reviewing my transcription, checking for idioms like \"paint the town\" and common phrases. I'm verifying the capitalization and punctuation, especially with abbreviations like \"N.Y.\". I'm also ensuring the meaning is correct with context in mind (is \"rowing\" the right word, or did they mean \"waving\"? In this case, \"rowing\" on the lake makes sense, so I will select it). I will focus on proper nouns, so I get the spelling right. \"Cleveland\" has that distinctive curly C, and it makes sense contextually, so I verify that. I'm even checking for any implied paragraphs based on indentation. Line 15, \"At the latter place...\", is clearly indented, and a new paragraph makes the most sense there. I then check again to make sure all is correct.\n\nI am now doing the final layout, using HTML `<br>` tags for line breaks and `<p>` tags for paragraph structure, preserving any subtle indentation that might be present. In this case, I will split the text into two paragraphs: One running from the start, and the second one starts with the indented line 15 (\"At...\").\n\nAnd there it is: a faithful digital reproduction of the handwritten text, ready for use!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 2850,
+            "width": 1732,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/162",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/161",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ee02d7dc-654a-3ff5-830b-4a10f57fd2d9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2850,
+                                "width": 1732,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ee02d7dc-654a-3ff5-830b-4a10f57fd2d9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/176",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/175",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>out very little. I expect<br/>\nto visit Coney Island <sup>Long Branch</sup> and<br/>\nAsbury Park in a week<br/>\nor two. While at Dunk,<br/>\nI took a trip up to Chau-<br/>\ntauqua. It was well worth<br/>\na visit, but I was some-<br/>\nwhat disappointed in the<br/>\nbuildings at Chautauqua.<br/>\nThe lake is beautiful,<br/>\nand there are a number of<br/>\npretty little villages along<br/>\nits banks. \u2013 principally hotels<br/>\nand summer residences.</p>\n<p>From D. we went to Niaga-<br/>\nra Falls. Of course, I enjoyed<br/>\nthe sights there. I think I found<br/>\nevery thing about as I expected<br/>\nit. Was only there one after-<br/>\nnoon. We came across to</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/177",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "Okay, let's break this down. My primary task is to create a transcription of the handwritten letter, taking into account the formatting, potential corrections, and style of the original. I'll need to pay close attention to the cursive handwriting, which looks like it's from the late 19th or early 20th century, and the way the text is laid out.\n\nFirst, I will read it line by line. I need to make the output as accurate as possible, preserving the original spelling, punctuation, and capitalization, as instructed. I have to deal with the insertion, which is crucial. Looks like \"Long Branch\" is inserted between \"Island\" and \"and\" in the second line. The guidelines tell me to use HTML, so I'll wrap the transcription in HTML tags and use `<br>` to preserve line breaks and `<p>` to maintain paragraph structure. I'll need to figure out where the paragraphs are, it seems like there might be a new paragraph beginning with \"From D.\" in line 15.\n\nThe cursive can be tricky. Words like \"Dunk,\" in line 4 and \"Was\" in line 19 require careful scrutiny. I see a connection between the shape of the letters and context of the text, particularly for the potential words \"Was\", \"It Was\", \"We was\".\n\nI need to confirm the corrections: \"Long Branch\" inserted in line 2. This appears to be a common format for letters of this era. I'm going to follow the instructions and format the insertion, placing it in the correct visual location in the output. I also need to be mindful of words like \"Dunk\" (likely Dunkirk) and the \"Niaga-\" / \"ra\" split in lines 15/16. I'll also check my work to preserve the original letter's formatting, and style. Specifically, I must verify that \"Was\" in line 19 is not something else.\n\nFinally, I'll go through the text and ensure the HTML formatting is accurate and that I've maintained the paragraph structure, line breaks, insertions, spelling, and punctuation. The goal is to accurately represent the original text's appearance and content as closely as possible, using the correct HTML formatting.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 2850,
+            "width": 1732,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/164",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/163",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/1f1768ec-2622-3bc8-b8b0-821c087c47c2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2850,
+                                "width": 1732,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/1f1768ec-2622-3bc8-b8b0-821c087c47c2",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/179",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/178",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Albany by rail and<br/>\nthen took the day boat<br/>\nto New York. I enjoyed<br/>\nthe scenery along the Hud-<br/>\nson, especially the High-<br/>\nlands and Palisades be-<br/>\nlow West Pt. I want to<br/>\nget to W. Pt. and up the<br/>\nCatskills before I go back.<br/>\nVery likely I'll take them<br/>\nin on my return trip.<br/>\nMrs. W. and E. are both well;<br/>\nbut complain of being<br/>\ntired still. They send love<br/>\nto Mrs. M<sup>c</sup>L. and Miss M<sup>c</sup>L.<br/>\nE. is very anxious for you<br/>\nto bring them with you<br/>\nwhen you come East.<br/>\nKindest regards to all.</p>\n<p>[Signature]<br/>\nYour friend Robt P. Smith.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/180",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/145/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

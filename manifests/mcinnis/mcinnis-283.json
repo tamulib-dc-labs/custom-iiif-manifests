@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-283.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Spencer Baurd, May 6, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-05-06"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Spencer Baurd, May 6, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/3fdc7293-165d-37f9-b829-26dca930a328/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3933,
+            "width": 3151,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/476",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/475",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3fdc7293-165d-37f9-b829-26dca930a328/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3933,
+                                "width": 3151,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3fdc7293-165d-37f9-b829-26dca930a328",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/482",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/481",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Margin: Sent separately]\n\n[Header]\n<p>SMITHSONIAN INSTITUTION,<br>\nWASHINGTON, D. C., May 6<sup>th</sup> 1881</p>\n\n<p>Sir:</p>\n\n<p>Yours of April 23<sup>d</sup> has been received, and<br>\nin order to have your application for<br>\npublications for the \"Agricultural & Me-<br>\nchanical College of Texas\" in proper form,<br>\nwe enclose a blank which will ex-<br>\nplain itself. When this is filled in<br>\nand returned to us through your mem-<br>\nber of Congress it will receive due<br>\nconsideration.</p>\n\n<p>With reference to \"specimens\" I would<br>\nstate that the great mass of minerals<br>\n& ores brought from the Centennial Expo-<br>\nsition is now being arranged and<br>\nthe duplicates eliminated. From these<br>\nsets will be made up and distributed<br>\nto public Educational establishments;<br>\nbut the distribution will not take<br>\nplace for several months to come.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/483",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Transcription Strategy for the Smithsonian Letter**\n\nOkay, here's the plan. I'm looking at a handwritten letter on Smithsonian Institution stationery, dated May 6th, 1881. The date has a mix of printed and handwritten characters: \"18\" is printed, \"81\" is written. I see \"Sent separately\" in the top left, handwritten diagonally \u2013 that's marginalia. There's also a little \"x\" near the header and one over the word \"enclose\".\n\nMy goal is to provide a very accurate transcription, preserving the layout and any relevant visual cues. I'll be mindful of the \"IIIF presentation version3\" HTML tag constraints. I'm going to use `<p>` tags for paragraphs and `<br>` tags to preserve line breaks where needed.\n\nFor the header, it's: \"SMITHSONIAN INSTITUTION, WASHINGTON, D.C.\" Then \"May 6th, 1881\". I'll use `<sup>` for the \"th\" in \"6th\" and \"d\" in \"23d\". I\u2019ll transcribe the margin note: `[Margin: Sent separately]`. I will need to render the text as a block. I will use the `<p>` tag and preserve the line breaks.\n\nThe main text begins with the salutation \"Sir:\".\n\nThe first paragraph concerns an application from the \"Agricultural & Mechanical College of Texas\". There's an asterisk or an \"x\" mark above the word \"enclose\", which I'll transcribe. The marginalia \"Sent separately\" likely refers to the \"blank\" mentioned, which was not enclosed with the letter.\n\nThe second paragraph discusses mineral specimens from the \"Centennial Exposition\". I'll note that \"Exposition\" is split across two lines as \"Expo- / sition\". And, \"Educational\" is capitalized.\n\nI'll maintain all paragraph structures and line breaks, paying close attention to any minor details. The original letter has line breaks.\nI'll pay close attention to the use of ampersand (&), hyphens and capitalization. I need to make the transcription is accurate and readable.\n\nNo styling tags outside of approved tags are allowed.\n\nI've checked for any obscured text. It's clean. The signature isn't present in this cropped image. I'm ready to transcribe now.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3933,
+            "width": 3151,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/478",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/477",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ba687c10-e1eb-378b-95c5-20f519f6352b/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3933,
+                                "width": 3151,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ba687c10-e1eb-378b-95c5-20f519f6352b",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/485",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/484",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Meanwhile if you will make a<br/>\nformal application through your<br/>\nmember of Congress, reminding us,<br/>\nat the time, of our promise in this<br/>\nrespect, it will give us pleasure<br/>\nto place your college on the list<br/>\nfor a donation.</p>\n\n<p>Meantime<br/>\nI am very truly yours<br/>\nSpencer F Baird<br/>\nSecretary</p>\n\n<p>Louis L. M<sup>c</sup>Innis,<br/>\nLibrarian of a. & m. College of Texas,<br/>\nCollege Station,<br/>\nTexas.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/486",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Refinement**\n\nOkay, here's what I've got. I've been asked to transcribe a handwritten letter, and I need to be as accurate as possible while adhering to the specified formatting rules.\n\nFirst, I examined the body of the letter. I was able to make out the content line by line, focusing on each word, and then refined the \"Meanwhile\" at the end of the letter. It looks like it is \"Meantime.\"\n\nThen I worked through the closing, the signature, and the secretary information. The signature presented a challenge because the middle initial is a bit unclear, but it seems to be an \"F.\" Looking at the historical context, that makes the most sense. I also analyzed a red annotation over the signature (likely a filing note) and decided to omit it to maintain focus on the original content, as the instructions stated. I'm choosing to transcribe only the black ink content unless explicitly instructed to include all archival details.\n\nNext, the address section. The name \"McInnis\" includes a superscript \"c\", so I will use the appropriate HTML tags to render that accurately. The A. & M. College presents a question as I see lowercase \u201ca. & m.\" but I realize this is the name of a College, so I will transcribe it as \"a. & m.\" as that is how it appears, while being aware of the possible convention on capitalisation.\n\nThen I double-checked the \"Meanwhile\" at the end, and yes, it looks more like \"Meantime\". I also checked the signature, confirming \"Spencer F Baird.\" I will use `<p>` for paragraphs, and `<br>` for line breaks.\n\nFinally, I reviewed the text for accuracy and consistency, comparing letters. I looked at the form of letters, and made sure there were no errors. I'm ready to present the final output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/283/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

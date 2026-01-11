@@ -1,0 +1,352 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-279.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, February 20, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-02-20"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, February 20, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/627fa59a-1ad4-3eee-99d0-e2fde7028fd8/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/56",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/55",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/627fa59a-1ad4-3eee-99d0-e2fde7028fd8/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/627fa59a-1ad4-3eee-99d0-e2fde7028fd8",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/68",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/67",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">Bonham Texas.<br>\nFeb 20<sup>th</sup> 1881.</p>\n\n<p>My Dear Professor</p>\n\n<p>Your welcome letter of<br>\n6<sup>th</sup> inst reached me by due course of mail -<br>\nI regret to hear that your father is no more<br>\nMy heart feels for you in your sad loss -<br>\nI too have lost a father We can only<br>\nderive comfort in the thought, that<br>\nour fathers now rest from their labors -<br>\nThey are at rest with Jesus - safe - happy -<br>\nBlessed thought! We can go to them - though<br>\nthey cannot come to us - unless it be as<br>\nministering angels - The memory of<br>\nyour father is a rich legacy to you -<br>\nWhat is more grand than a well rounded<br>\nlife - spent in service to God - in meeting<br>\n& relieving the wants & the woes of fallen<br>\nman - The influence of such a life is<br>\na rich aroma in the moral & religious<br>\natmosphere of this area, that goes on<br>\n& on to the utmost verge of time, & even<br>\npenetrates to the eternal world - gathering</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/69",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My transcription task begins with a handwritten letter, and my goal is to produce an accurate HTML-formatted transcription.** I start by carefully examining the image. First, I identify the location and date in the top right corner: \"Bonham Texas. / Feb 20th 1881.\" The salutation is \"My Dear Professor.\" Then, I carefully read the body text line by line. I note how the sentences unfold, trying to capture the author's meaning and nuance. I am careful to spot any minor ambiguities or potential misreadings in the writing.\n\nI note the instructions to use specific HTML tags, such as `p`, `br`, `sup`, and maintain the original reading order, spelling, and punctuation. I begin to structure my transcription and pay attention to elements like indentations. I decide to right-align the header. I make sure to render the header's date correctly, using `<sup>th</sup>` for the superscript \"th\". I make a note of the salutation as a separate line.\n\nI start reading the body and notice the indentation and carefully transcribe each word. As I progress, I pay close attention to the characters that might be unclear. For instance, I carefully scrutinize the word \"inst\" (short for \"instant\") and ensure it's accurately rendered. I examine each letter of the writing in detail. I look at each word to see if there are any faded areas or potentially ambiguous characters. I am careful to distinguish between different punctuation marks.\n\nI note the author's choice of an ampersand (&) for \"and\" and decide to use this standard ASCII representation, or use the exact character from the original image (it looks like a plus sign, but for common readability, I will use an ampersand. It's best to maintain consistency.)\n\nI note an interesting ambiguity in the word \"rounded\". The 'r' looks like an 'o', and I check the letters again and make a judgment. The word is 'rounded', as in \"well rounded life.\" I continue transcribing, noting any nuances of the writing.\n\nOne of the key challenges appears with the word in line 21. \"atmosphere of this [X], that goes on...\" The handwriting is a little unclear, and I consider \"world,\" \"area,\" and other options. I use the parallel structure (area, eternal world), contextual clues, and a detailed examination of the letter shapes to come to a definitive decision. After a lot of careful inspection, I settle on **\"area\"** as the most plausible reading.\n\nAs I go through, I note the correct usage of the superscript for \"6th\" as \"6<sup>th</sup>\". I also pay close attention to preserving the indentation and paragraph structure.\n\nI note the distinction between the plus sign and the ampersand, and the convention of using ampersands in transcription for historical documents (although I note it's a plus sign and am considering keeping it).\n\nI examine each letter, each word, and the overall context, and I perform multiple cross-checks. I ensure that the final result reflects the original as accurately as possible, and I use HTML to maintain the intended layout. After all this scrutiny, I complete the HTML transcription, with the final line including the word \"gathering\".\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/58",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/57",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/5f73b27a-749f-3f1f-8762-a7e61e260db3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5f73b27a-749f-3f1f-8762-a7e61e260db3",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/71",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/70",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header: [1881, Feb 20]]\n\n<p>\nvolume & force through eternity \u2013<br>\nMy young friend \u2013 Emulate the sterling<br>\nvirtues of a departed father; & may thine<br>\n& mine \u2013 You & I meet beyond the River<br>\n& beyond the clouds, \"Where the wicked<br>\ncease from troubling and the weary<br>\nare at rest\" \u2013\n</p>\n\n<p>\nDuring the past ten days I have had<br>\nsome rough places in school \u2013 some<br>\nperplexing cases of discipline \u2013<br>\nAt times how I long for a \"Cot in the<br>\nWilderness\"! \u2013 I have sent some boys<br>\nfrom school, and the blow falls in \"high<br>\nplaces\" \u2013 An appeal will be taken to the<br>\n\"Authorities\" \u2013 I propose to \"fight it out on this<br>\nline if it take me all the summer \u2013\n</p>\n\n<p>\nWish I could see you to night \u2013 \"The<br>\nwhitish foam dances on the blackish billow\"<br>\nI have read Peeler's \"last official act\"<br>\nIt is tame & [untrue?] \u2013 Peeler is a busy<br>\nman & I will just turn him over<br>\nto Lewis \u2013 Rogan called to see me last<br>\nevening \u2013 Looks quite natural \u2013\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/72",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process for Handwritten Letter**\n\nOkay, here's how I approached this transcription task. First, I analyzed the instructions \u2013 the need for accuracy, the allowed HTML tags, and the emphasis on preserving the original format, including handwriting interpretation. I'm aiming for a professional-level transcript.\n\nNext, I examined the image of the letter itself. I noted the cursive style, which seemed to be from the late 19th century, along with the lined paper. It appeared generally legible, though some words would require careful deciphering. The first thing I encountered was the pencil annotation at the top, which looked like \"[1881, Feb 30]\". \"Feb 30\"? That's impossible, so my immediate thought was to investigate.\n\nI looked closely. The initial digit was a '2' or '3', the second digit was clearly '0'. My initial thought was that it had to be February 20th, since February does not have 30 days. However, looking at the crop, it looked like a '3'. But it had to be a '2'. In my thought process, the word should be transcribed as it appears to preserve accuracy, even if incorrect. So, I will transcribe `[1881, Feb 20]`. Now, the pencil marks, I decided, are from the person who wrote the archival data. The `[?]` will mark my doubt. I then will transcribe it.\n\nFrom there, I went line by line. I started with the pencil annotation at the top right, marking my transcription with a note as `[1881, Feb 20]`. Then I proceeded to transcribe the rest of the text.\n\nI began drafting the transcription, line by line. I focused on identifying words and sentence structure, carefully considering the handwritten characters. I encountered a few difficult words, particularly in Line 4 where I had trouble with \"[?] & I meet\". I tried different letters. I was looking for the word that fit in the context.\n\nI then went through line 4 and looked at the words and phrase. After several attempts at deciphering the word between, I decided that the best word was `You`, or a very closed loop. That made the most sense.\n\nNext, I re-evaluated `line 20` where I had to transcribe `tame & [?]`. I started out by trying the word to see if it makes sense. I looked for options that fit with the handwriting style, such as 'untrue' which seemed to make sense with the critique. I then decided that the word was likely \"untrue\".\n\nI also tried to think what the author meant by the words, and what would make sense. I went back and forth, I kept looking at each letter and decided on `untrue`, `inane`, and `canting` as my three options.\n\nI went back again, as a final check to confirm that my interpretation of `You` and `untrue` was correct. I made these corrections to finalize the transcription.\n\nFinally, I reviewed the entire draft, checking for any formatting inconsistencies, line breaks, correct spelling (bellow vs billow, take vs takes), and the use of the required HTML tags. I ensured that all the line breaks were appropriate and that there was no conversational filler. I took the notes to make sure that the transcription and the interpretation were as accurate as I could make them.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/60",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/59",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f251eeb9-94a0-31d8-a0dd-250b193f825c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f251eeb9-94a0-31d8-a0dd-250b193f825c",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/74",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/73",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[1881, Feb. 20]</p>\n<p>I see the University bill has passed \u2014<br/>\nYou bet that O M R will be law Prof & \u2014<br/>\nBurleson is in trouble \u2014 he is a great<br/>\nold sinner \u2014 I remember his<br/>\nefforts to rock the bottom out of a<br/>\nchair I once occupied \u2014 He now<br/>\ncries \"Help Cassius or I perish\" \u2014<br/>\nWell perish \u2014 better for the educational<br/>\ninterests of Texas had he perished long<br/>\nago \u2014 Had the pleasure of a call from<br/>\nyour Prof. Georgson on his recent visit<br/>\nto Brenham \u2014 He is a genial pleasant<br/>\nman & impressed me favorably \u2014 Give<br/>\nhim my compliments \u2014 I see you<br/>\nhave recently had the rare luxury<br/>\nof a \"visiting Committee\" \u2014 Look out \u2014<br/>\nmore retrenchment just a head of<br/>\nyou \u2014 not altogether a guess \u2014<br/>\nThe 19th Century is full of surprises<br/>\n& I look for them some day<br/>\nI told you more than 2 1/2 years ago<br/>\nthat the C. A. \"never lets up\" \u2014 He renews<br/>\nhis recommendation limiting your</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/75",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of a Handwritten Document**\n\nOkay, here's what I've got. The user wants a transcription of this handwritten document, and my job is to make it as accurate as possible, letter for letter, while still making sense. First, I\u2019m analyzing the visual details. It's a letter, cursive ink on lined paper. The handwriting is a bit rough in places, and there's a date \u2013 `[1881, Feb. 20]` \u2013 in brackets, which looks like it was added later. Let\u2019s work line by line.\n\n*   Top right: We\u2019ve already covered the date.\n*   Line 1 seems straightforward, a reference to a University bill.\n*   Line 2 is where it gets interesting. There\u2019s an `O M R` mentioned. Considering the context of Texas history, it\u2019s most likely Oran Milo Roberts, who was both Governor and a law professor. \"You bet that O M R will be law Prof & \u2014.\"\n*   Line 3: \"Burleson\" is in trouble. This is likely Rufus Burleson, the President of Baylor/Waco University given the Texas setting.\n*   Line 7: A quote from *Julius Caesar* is used. The handwriting has \"C-a-s-s-i-u-s.\"\n*   Line 11: I had to work hard to figure out a name, it looks like \"Georgson\", which matches Charles Georgeson, a Texas A&M professor in the early 1880s, which is perfect for the timeframe.\n*   Line 17: \"visiting Committee\" \u2013 and the word, \"ahead,\" or \"a head.\" The spacing indicates `a head`, and context suggests \"ahead.\" I'll transcribe this cautiously.\n*   Line 20: \"some day\" vs \"every day\"? Looking at it closely. The loops point at \"some\" so I'm writing `some day`.\n*   Line 22: \"that the C. A. 'never lets up' \u2013 He renews.\" Now, this is a tricky one. Who is \"C. A.\"? Is it `G. A.`? `O. A.`? From a shape perspective, it looks like an open \"C\" and then \"A.\" I am assuming initials, given the earlier `O M R`. And \"He renews\" indicates a person.\n\nI\u2019ve gone back and checked things like \"Georgson\" and \"O M R\". The letters check out. I have considered a *lot* of options. There is some ambiguity. But I am transcribing the *image* with a faithful effort at interpretation, not attempting to reconstruct something else. I keep going back to it, double-checking, checking shapes. Let's provide what the user asked for.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 3849,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/62",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/61",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a3981de8-6d29-3ab7-b01b-928feaac48db/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3849,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a3981de8-6d29-3ab7-b01b-928feaac48db",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/77",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/76",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[1881, Feb. 20]</p>\n<p>To repeal the law limiting your $14000<br/>\ninterest to the pay of Professors\u2014<br/>\nIf you will give him a \"Third term\"<br/>\nhe will 'Knock [?] you into [?] pi'<br/>\n\"We shall see what we shall see\"<br/>\nThat \"diagnosis\"\u2014 I want it\u2014 [crossed out: How]<br/>\nCan it wait until next summer!<br/>\nWhat do you think of the University!<br/>\nI had a letter from May B. a short<br/>\ntime since\u2014 She has just gotten<br/>\nmad over his treatment in No. 79\u2014<br/>\nLarge bodies \"move slow\"\u2014<br/>\nYour letters are always welcome\u2014</p>\n<p>Your friend<br/>\nHand</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/78",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. My task is to produce an accurate transcription of this handwritten letter, noting any ambiguities or potential editorial changes. The initial task is to read the image and try to read the document. I see a piece of handwritten text on what looks like lined paper, the date written in pencil at the top: `[1881, Feb. 20]`. This addition suggests it may have been recorded for archival purposes. The handwriting is cursive, it looks to be an older letter with faded ink, and this paper has blue lines.\n\nI will proceed line by line.\n\n*   The penciled date gets transcribed first, as it appears in the image. I will record the image here and take this to be the primary image as described.\n*   Line 1: \"to repeal the law limiting your $14000\". I note the superscripted dollar sign and the number, which looks like fourteen thousand. Is this money, or perhaps interest? The word 'interest' does appear on the following line.\n*   Line 2: \"interest to the pay of Professors\u2014\" - Now it makes sense.\n*   Line 3: \"If you will give him a \"Third term\"\" - I observe the use of quotation marks around \"Third term.\"\n*   Line 4: \"he will 'Knock K you into K pi'\" - A puzzle! There are characters before \"you\" and before \"pi.\" These are the troublesome parts! Is this a typo? A correction? The phrase \"knock into pi\" is a printing term, it means jumbling the type. I think that the letter may be in shorthand, perhaps \"h\" for \"hell\". But I'm instructed to transcribe what is visible. The original character is illegible and probably a correction. I will transcribe it as `[?]`.\n*   Line 5: \"\"We shall see what we shall see\"\" - I note the repetition of the saying, which is a quote.\n*   Line 6: \"That \"diagnosis\"\u2014 I want it\u2014 [crossed out: How]\" - I see \"How\" crossed out. It appears again on the next line.\n*   Line 7: \"Can it wait until next summer!\" - This contains a question.\n*   Line 8: \"What do you think of the University!\" - It continues. I note that this contains an exclamation point.\n*   Line 9: \"I had a letter from May B. a short\" - The name is `May B.`.\n*   Line 10: \"time since\u2014 She has just gotten\" - The sentence continues.\n*   Line 11: \"mad over his treatment in No. 79\u2014\" - A number is noted.\n*   Line 12: \"Large bodies \"move slow\"\u2014\" - Another phrase, which is a quote.\n*   Line 13: \"Your letters are always welcome\u2014\" - This is a simple phrase.\n*   Line 14: \"Your friend\" - The sentence ends.\n*   Line 15: The signature. Looks like \"Hand\".\n\nI re-examine some of the troublesome characters. There is no other apparent meaning in the image of \"K\" as a substitute for another letter. I shall transcribe the document as accurately as I can while not adding extraneous information. There are no clear indicators of which corrections are of importance.\n\nI see no other apparent errors.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/279/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

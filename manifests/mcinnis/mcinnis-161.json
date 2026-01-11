@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-161.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from W. L. Bringhurst, August 22, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-08-22"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from W. L. Bringhurst, August 22, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/161"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/34aa38ed-27e2-3a1c-a37e-b0e83f938acf/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/161/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3921,
+            "width": 3163,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/470",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/469",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/34aa38ed-27e2-3a1c-a37e-b0e83f938acf/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3921,
+                                "width": 3163,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/34aa38ed-27e2-3a1c-a37e-b0e83f938acf",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/161/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/473",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/472",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><small>[Header]<br>\nG. W. NORRELL<br>\nDRUGGIST<br>\nBRYAN, TEXAS.</small></p>\n\n<p>College, Aug. 22<sup>d</sup> 1886,</p>\n\n<p>My dear Professor:</p>\n\n<p>I have just<br>\nheard of your great misfortune.<br>\nYou have my sincerest sympathy.</p>\n\n<p>No news here - We<br>\nhave just survived a terrible storm -<br>\nthe same that threatened Galveston<br>\nwith extinction -</p>\n\n<p>The prospects for the college<br>\nare good - if we can allay the<br>\nunpleasantness between the Agent<br>\nof the Board & the Judge -</p>\n\n<p>When will you be with us?</p>\n\n<p>Yours truly<br>\nW. L. Bringhurst</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/161/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/474",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of the Letter**\n\nOkay, here's the transcription. I've taken this handwritten letter and meticulously broken it down. First, the visual information. I see a stamp in the top left corner, faded but readable:\n\n<p><small>[Header]<br>G. W. NORRELL<br>DRUGGIST<br>BRYAN, TEXAS.</small></p>\n\nThen, up top on the right, the date:\n\n<p>College, Aug. 22<sup>d</sup> 1886,</p>\n\nNow, the body of the letter, which I'll render as a series of paragraphs to reflect the original layout:\n\n<p>My dear Professor:</p>\n\n<p>I have just<br>heard of your great misfortune.<br>You have my sincerest sympathy.</p>\n\n<p>No news here - We<br>have just survived a terrible storm -<br>the same that threatened Galveston<br>with extinction -</p>\n\n<p>The prospects for the college<br>are good - if we can allay the<br>unpleasantness between the Agent<br>of the Board & the Judge -</p>\n\n<p>When will you be with us?</p>\n\n<p>Yours truly<br>W. L. Bringhurst</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/161/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

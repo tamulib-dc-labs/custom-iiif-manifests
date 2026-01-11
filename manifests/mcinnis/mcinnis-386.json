@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-386.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Rose, July 18, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-07-18"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Rose, July 18, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/386"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/53a1e812-1d74-3705-9b61-f64fa5a6b714/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/386/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4029,
+            "width": 3243,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/302",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/301",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/53a1e812-1d74-3705-9b61-f64fa5a6b714/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4029,
+                                "width": 3243,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/53a1e812-1d74-3705-9b61-f64fa5a6b714",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/386/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/305",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/304",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><b>State Agricultural and Mechanical College</b><br>\nOF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n\n<p><small>A. J. ROSE, President Board of Directors, Salado Texas.<br>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small></p>\n\n<p>Salado, Texas, July 18\" 1890</p>\n\n<p>Louis L McInnis<br>\nCollege Station Txas<br>\nDear Prof</p>\n\n<p>I write to day to inform you<br>\nthat I cant now say when I can go to<br>\nAustin. I had intended to go next week<br>\nbut there is considerable sickness here<br>\nand two of my family have been sick,<br>\nI will say to you that there is no chance<br>\nfor you to remain at the College as I believe<br>\nyou remember what I said to you at first as<br>\nwe walked from the Mess Hall to the office,<br>\nthere has been no change favorable to your<br>\nremaining, I wrote you a few days ago asking<br>\nwhat you expected of the Board. Now I believe<br>\nthat they will deal fairly, <sup>and honestly</sup> with you, and now<br>\nif you will but inform me in answer to<br>\nmy letter to you a few days ago, as you<br>\nknow our association has been pleasant.<br>\nWith kindest regards for you and<br>\nfamily I am yours Truly</p>\n\n[Signature]\n<p>A. J. Rose</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/386/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/306",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Document**\n\nAlright, let's break this down. My primary goal here is to get a perfect transcription of this document, and that means capturing everything accurately, including those messy handwriting details and any crossed-out text. The instructions are clear: transcribe *everything*, and the provided IIIF tool is relatively limited in formatting. My focus is on absolute fidelity to the original.\n\nHere's my thought process. The document is divided into: a header, addressee details, the body of the letter, and the signature.\n\nFirst, the header: I see the official title of the \"State Agricultural and Mechanical College\", with its \"Technical Branch of the University\" subtitle. I'll represent the hierarchical structure with `<p>` tags for lines and `<br>` for line breaks within the header. There is a secondary block on the left with A.J. Rose's details. The problem is the strikethrough lines on \"T.M. Scott\" and \"Louis L. McInnis\". I cannot use the `<s>` tag or similar formatting. So I must transcribe *all* of the names, struck or not. I will indicate they are header details and include the printed date.\n\nNext, I identify the date. It's written as \"July 18th 1890\". I'll use the proper superscript for \"18\"\". The year looks like it was printed as \"18__\" and the writer filled in \"90\" over it. Therefore the date is clearly \"July 18\" 1890\".\n\nThen, I'll transcribe the addressee details: \"Louis L McInnis\", \"College Station Txas\", and \"Dear Prof\". The handwritten \"Txas\" might be \"Texas\" written hurriedly. However, it *looks* like \"Txas\". So I'll transcribe it exactly as written.\n\nNow, for the body: I will start transcribing the body text line-by-line, being careful about capitalization, spelling, and any insertions or deletions. There is an insertion of the words \"and honestly\" that need to be captured. I will use the superscript `<sup>` tag. There are some unclear portions, particularly \"said to ~~you~~ at first\". Looking closely at the strokes, the \"you\" looks crossed out and therefore removed? However, reading it as \"said to at first\" makes the sentence incomplete. The natural reading of the words *is* \"said to you at first\". I will transcribe it as written: \"said to you at first\".\n\nNow, the final text: Transcribe the closing and the signature.\n\nHere is the transcription:\n\n```html\n<p><b>State Agricultural and Mechanical College</b><br>\nOF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n<p><small>A. J. ROSE, President Board of Directors, Salado Texas.<br>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small></p>\n\n<p>Salado, Texas, July 18\" 1890</p>\n\n<p>Louis L McInnis<br>\nCollege Station Txas<br>\nDear Prof</p>\n\n<p>I write to day to inform you<br>\nthat I cant now say when I can go to<br>\nAustin. I had intended to go next week<br>\nbut there is considerable sickness here<br>\nand two of my family have been sick,<br>\nI will say to you that there is no chance<br>\nfor you to remain at the College as I believe<br>\nyou remember what I said to you at first as<br>\nwe walked from the Mess Hall to the office,<br>\nthere has been no change favorable to your<br>\nremaining, I wrote you a few days ago asking<br>\nwhat you expected of the Board. Now I believe<br>\nthat they will deal fairly, <sup>and honestly</sup> with you, and now<br>\nif you will but inform me in answer to<br>\nmy letter to you a few days ago, as you<br>\nknow our association has been pleasant.<br>\nWith kindest regards for you and<br>\nfamily I am yours Truly</p>\n<p>A. J. Rose</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/386/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

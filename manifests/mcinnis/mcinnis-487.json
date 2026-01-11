@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-487.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "James, John G. September 23, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "James, John G. September 23, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/487"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/cd90202f-c7ce-3720-af41-820347fec429/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/487/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1126,
+            "width": 1916,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/398",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/397",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/cd90202f-c7ce-3720-af41-820347fec429/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1126,
+                                "width": 1916,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/cd90202f-c7ce-3720-af41-820347fec429",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/487/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/401",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/400",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>James, John G., 1880, Sept. 23,</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/487/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/402",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analyzing and Transcribing Handwritten Text**\n\nOkay, let's break this down. First, I need to analyze the image. It's a handwritten line, likely an index card or label. The script is cursive or semi-cursive, and there's a black dot which could be a hole punch or mounting mark at the bottom. The core task: transcribe the text.\n\nSo, first word: \"James\". Capital 'J', clear enough. Then a comma. Next \"John.\" Another capital 'J', easy. Followed by an initial, \"G.\" I have to be careful with this \u2013 cursive initials can be tricky. It's followed by a period, and another comma. The year is \"1880\", straightforward. Comma. The month is \"Sept.\", and it's abbreviated. Period. Finally, the day is \"23\". And, importantly, there's a final comma.\n\nCombining it all, it looks like \"James, John G., 1880, Sept. 23,\".\n\nNow, I'm going to run through some checks to make sure everything's spot-on. Reading order is obviously left-to-right, top-to-bottom. Accuracy is paramount. \"James\" is fine. \"John\" is fine. \"1880\", \"Sept.\", and \"23\" are clear. The punctuation, let's confirm the commas. After James, after G., after 1880, and after 23. It's all there.\n\nThe layout should be a single line. I'll use `<p>` tags for that. Now, let's re-examine that initial \"G\". The shape is a loop that curls left at the bottom and crosses the stem, which is a fairly strong indicator of a cursive \"G\". It could *possibly* be an \"S\" or an \"I\", but \"G\" is the most likely, particularly in the context of a middle initial. \"S\" typically curves right or terminates without crossing the stem, and \"I\" wouldn't have that looping tail. Let's make that call.\n\nDouble-checking, the text is: \"James, John G., 1880, Sept. 23,\".\n\nLet's do some very close analysis.\n\nI'll check against crop images.\nCrop 1: \"James, John\"\nCrop 2: \"John G., 1880\"\nCrop 3: \"1880, Sept.\"\nCrop 4: \"Sept. 23,\"\nCrop 5: black dot.\nCrop 6: \"23,\"\nThis clarifies the reading order.\nThe comma after 23 is clear. The period after Sept is clear. The comma after 1880 is clear. The comma after G. is clear. The comma after James is clear.\nThe initial is classic cursive 'G'. The handwriting is quite legible. It could be a \"T\" but likely a \"G\" given the context. The loop goes to the left.\n\"G\" is the correct choice here.\n\nNow, final formatting, let's use the `<p>` tags as I specified earlier.\n\nSo, here's the final answer:\n\n`<p>James, John G., 1880, Sept. 23,</p>`\n\nThere it is. I'm satisfied.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/487/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

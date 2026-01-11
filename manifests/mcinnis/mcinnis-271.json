@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-271.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from G. G., September 19, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-09-19"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from G. G., September 19, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 7 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/5c25ad65-82c1-3df7-a9a7-614c021f6d66/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1766,
+            "width": 3055,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/614",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/613",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/5c25ad65-82c1-3df7-a9a7-614c021f6d66/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1766,
+                                "width": 3055,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5c25ad65-82c1-3df7-a9a7-614c021f6d66",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/620",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/619",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><b>POSTAL CARD.</b></p>\n\n<p>[Postmark: SAN ANTONIO SEP 20 [illegible]] [Stamp: U.S. POSTAGE ONE CENT]</p>\n\n<p><small>WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER</small></p>\n\n<p>Prof Louis L McInnis<br>\n[Margin: No answer]<br>\nCollege Station<br>\nTex.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/621",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Vintage Postal Card**\n\nOkay, here we go. I've got a vintage postal card image, and the goal is to provide a clean transcription. Let's break this down systematically. First, I see the header \"POSTAL CARD\" in a decorative banner. Easy enough, let's make that bold. The stamp is a \"U.S. POSTAGE ONE CENT,\" which I'll put in brackets to identify it as metadata. The postmark is the tricky part; it's circular and a bit smudged. I can see \"SAN ANTONIO SEP 20,\" but the bottom portion is partially obscured. Based on what I can make out and what's logically possible, there's a time \"103.\", but the year is missing. So I'll transcribe \"SAN ANTONIO SEP 20 [illegible]\". The instruction line is straightforward: \"WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER\". I will use the `<small>` tag for that.\n\nNow for the address. It looks like \"Prof Louis L McInnis, College Station, Tex.\" The middle initial is an \"L,\" and the surname is \"McInnis.\" The text \"No answer\" is written diagonally across the right side, so it's marginalia. I will place it after the recipient's name within the address block and note that it's marginalia.\n\nI want to use IIIF v3 compliant HTML formatting, so I need to stick to the approved tags. This includes `<b>`, `<br>`, `<p>`, `<small>`, and brackets for structuring items.\n\nI'm aiming for a clear and accurate transcription. Let's make the text look like this:\n\n```html\n<p><b>POSTAL CARD.</b></p>\n<p>[Postmark: SAN ANTONIO SEP 20 [illegible]] [Stamp: U.S. POSTAGE ONE CENT]</p>\n<p><small>WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER</small></p>\n<p>Prof Louis L McInnis<br>\n[Margin: No answer]<br>\nCollege Station<br>\nTex.</p>\n```\n\nThat keeps the transcription and metadata organized. The `br` tags add line breaks where needed. This is the final layout. Let's stick with that.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1766,
+            "width": 3055,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/616",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/615",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/cd5c6b27-846d-3691-8941-18cde7397273/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1766,
+                                "width": 3055,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/cd5c6b27-846d-3691-8941-18cde7397273",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/623",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/622",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>San Antonio, Sept<sup>br</sup>. 19<sup>th</sup> '80\n\nDear friend:\nLeave San Antonio to-night and will arrive Tuesday\nnight at the station. Please send Fred down. I am longing\nfor work and hope we will have a large number of cavats.\nYours truly\nWSS</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/624",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis & Interpretation**\n\nOkay, here's the deal. My primary goal here is to get a clean transcription of this handwritten note, paying close attention to every detail. It's a letter or note, handwritten, and I'm treating it like a puzzle that needs deciphering. I'm starting by establishing a basic structure: date, salutation, body, and closing.\n\n1.  **Analyze the Image:** I zeroed in on the date in the top right, it looks like \"San Antonio, Septbr. 19th '80\" or \"1880\", which would be late 19th-century. I'm pretty sure it says 1880, based on the script style.\n\n    I noted the salutation \"Dear friend:\" and now I'm working on the main body of text. So, here's where it gets interesting. I'm reading \"Leave San Antonio to-night and will arrive Tuesday night at the station. Please send Fred down. I am longing for work and hope we will have a large \\[crossed out] of...\" And it's that last word that's causing me some trouble. I see \"c-a-v-a-t-s,\" I first wrote it down and then questioned it.\n\n    I started really comparing the letters. The letters in other words are all distinct, particularly those that are likely to be used for the letter in question. I compared it to the 'r' in words like \"arrive\" and \"Fred\", and \"v\" in other words. The letter in this word looks like a 'v'. It looks most like a v! So is it a v? Or is it an r? If it's r, is this person's r different?\n\n    Then I got a little distracted by the words. I tried a lot of things. Maybe it's \"carats\"? If the 'r' is written as a 'v'. Maybe \"cravats\"? Maybe \"cadets\"?\n\n    I came up with a list of \"cavats\", \"cavals\", \"cadets\". I looked at each letter and confirmed.\n\n    I thought about the signature at the end. I can make out that it's \"W. S. S.\"\n\n    Now back to this tricky word! I did a bunch of cross-referencing against similar letters in the document, like the 'v' in \"Leave\" and \"have\". And the letter looks identical! So, it is \"cavats\"? I did a google search \"San Antonio 1880 send Fred down\" and got no results.\n\n    Now, I considered the context: \"longing for work.\" Is the word \"carats\" or \"cadets\" or \"cases\"? Is \"cavats\" a word? What is this person's profession? I'm going to look at each letter. The \"c\" and the \"a\" are very clear. The \"v\" is a point, not a hump. The letter after that, it's a \"t\" and \"s\"! So: c - a - v - a - t - s.\n\n    My first transcription is that it reads \"cavats\". That's just what it *looks* like. The only problem is that I've never heard that word. Could it be a misspelling of something like \"cravats\" (ties)? Or maybe \"carats\" (gems)?\n\n    I tried to search for the letters: \"c - a - v - a - t - s\". And I found nothing.\n\n    I'm going to transcribe the word, as best as I can, letter by letter. It's a \"c\", and then an \"a\". Then the next letter looks just like a v! Then an \"a\", then a \"t\". Then an \"s\". That is the best I can do. If I have to chose a valid word. I will choose \"carats\".\n    I'll check the signature, which I think is \"W. S. S.\"\n\n    Let's come back to this. Back to the *cavats* word. I'll search on Google for it. I found nothing. That leads me to conclude that this might be an obscure word, a typo, or a nickname.\n\n    Since the word *cavats* is so hard to find, I'll transcribe it but check if it could be a misspelling of \"carats\". It could be \"cravats\".\n\n    I then did more checking of the letters. I am looking more closely to match the shape of a word with what I see on the page.\n\n    I came up with \"carats\" for the best plausible, though the writer may have written 'v' instead of an 'r' shape.\n\n    I'm going\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/271/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

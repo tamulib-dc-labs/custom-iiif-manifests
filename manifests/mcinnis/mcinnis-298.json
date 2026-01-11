@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-298.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from G. G., August 11, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-08-11"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from G. G., August 11, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/6baaf28f-81be-3791-a634-e1b435bc7057/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1768,
+            "width": 3055,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/68",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/67",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6baaf28f-81be-3791-a634-e1b435bc7057/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1768,
+                                "width": 3055,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6baaf28f-81be-3791-a634-e1b435bc7057",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/74",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/73",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><b>POSTAL CARD.</b><br>\n<small>WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER</small></p>\n\n[Stamp]\n<p>U.S. POSTAGE<br>\nONE CENT</p>\n\n[Postmark]\n<p>HOUSTON<br>\nAUG<br>\n11<br>\nTEX.</p>\n\n[Postmark]\n<p>AUSTIN<br>\nAUG<br>\n12</p>\n\n[Margin: Ans Aug 13 / 1881]\n\n<p>Prof L. Louis Mc Innis.<br>\nc/ M. Mc Innis, Esqr.<br>\nAustin.<br>\nTex.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/75",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Summary of my Transcription Process**\n\nOkay, here we go. I'm looking at this postcard image and I need to get this right. First, I need to break it down. It\u2019s a vintage U.S. Postal Card, which means it\u2019s old, and the handwriting is probably tricky.\n\n1.  **Image Analysis:** I started by identifying the obvious features. \"POSTAL CARD\" is the main header inside of the decorative banner, and there's a pre-printed \"U.S. POSTAGE ONE CENT\" stamp with Liberty on it. I see the postmarks: Houston, August 11, and Austin, August 12. There's some cancellation on the stamp.\n\n2.  **Transcription Strategy:** I decided to tackle this piece by piece. I need the main \"POSTAL CARD\" header, of course. Then the small text below it saying \"WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER.\" I need to be careful with punctuation. I\u2019ll make sure to note the postmarks and the marginalia (the purple writing) and fit that into the transcription. And then there's the address itself.\n\n3.  **The Address:** The address is the main event here. I'll read it carefully line by line. It starts with \"Prof L. Louis Mc Innis.\" Okay, \"Prof\" is clear. I see an \"L.\" followed by \"Louis,\" then \"Mc Innis.\" The \"Mc\" is a standard initial here, so I'll write it out. Next line: \"c/ M. Mc Innis, Esqr.\" \"c/\" \u2013 that's \"care of.\" The \"M.\" and \"Mc Innis\" are clear. There's \"Esqr.\" (Esquire) that is clear too. Then \"Austin, Tex\". I'll format each line for clarity.\n\n4.  **The Marginalia:** The purple handwriting on the side \u2013 this is the tricky bit. At first glance, it looks like a name but something feels off. So let's look closer. I\u2019m seeing vertical text. The top word looks like \"Ans,\" short for \"Answered.\" The word below that is \"Aug\" for August and then numbers. But what is that number? It looks like \"13\" or maybe \"15\". And then \"1881\" is clear at the bottom. The postmarks are Aug 11 and Aug 12, so Aug 13 makes sense for an answer date. After careful consideration, I\u2019m confident that it reads \"Ans Aug 13 / 1881.\"\n\n5.  **Refining the Details:** I had to be absolutely sure about everything. The \"L. Louis\" part: the initial L and the Louis are very clear. \"Mc Innis\" \u2013 standard. The \"c/\" symbol is a bit ambiguous. It could be \"c/o,\" or \"of\". Contextually, \"care of\" makes the most sense so I will keep with the \"c/\" notation for this one.\n\n6.  **Formatting and Layout:** I\u2019ll use HTML tags. The header goes first. The Postmarks, then I will insert the marginalia. And then write the address, breaking up the lines appropriately.\n\n7.  **Final Check and Verification**: It\u2019s important to make a final check. Double-checking every letter and number to make sure I got everything right. This card says \"L. Louis Mc Innis,\" not \"S. Louis\" or \"J. Louis.\" The postmark is \"TEX.\" not \"TEXAS.\" I need to double-check my work one last time.\n\n8.  **Output:** So here is what I have...\n\n[Header]\n<p><b>POSTAL CARD.</b><br>\n<small>WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER</small></p>\n\n[Stamp]\n<p>U.S. POSTAGE<br>\nONE CENT</p>\n\n[Postmark]\n<p>HOUSTON<br>\nAUG<br>\n11<br>\nTEX.</p>\n\n[Postmark]\n<p>AUSTIN<br>\nAUG<br>\n12</p>\n\n[Margin: Ans Aug 13 / 1881]\n\n<p>Prof L. Louis Mc Innis.<br>\nc/ M. Mc Innis, Esqr.<br>\nAustin.<br>\nTex.</p>\n\nI'm ready to move on.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1768,
+            "width": 3055,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/70",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/69",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/753b6029-c0b3-3fbe-b424-01c76712b409/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1768,
+                                "width": 3055,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/753b6029-c0b3-3fbe-b424-01c76712b409",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/77",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/76",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Header]</p>\n<p>Houston, August 11<sup><u>th</u></sup> >81.</p>\n<p>[Margin: 50]<br>\n[Margin: 1343]</p>\n<p>Dear friend.</p>\n<p>Your favor of the 6<sup><u>th</u></sup> inst. was received in Huntsville. As regards<br>\nour western trip I cannot give you anything definite until I<br>\nhave heard from Col. James. I wish I could be with you as I feel<br>\nvery lonely here, and Austin is for various reasons to be preferred<br>\nto H. Give my kindest regards to Col. Peeler and Mr Mc Innis<br>\nand family, and be sure that I will write as soon as orders have<br>\nbeen received from head-quarters.</p>\n<p>[Signature]</p>\n<p>Your true friend P.G.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/78",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Deep Dive into a Handwritten Letter**\n\nAlright, let's break this down. My goal is to capture the essence of this handwritten letter, preserving its nuances. First, the visual analysis. The handwriting is clear enough, though some of the flourishes add a layer of intrigue. Top right: \"Houston, August 11<sup>th</sup> >81.\" The year seems to be 1881, indicated by a peculiar mark \u2013 I'll render it as \">81\" for now. [Margin: 50] [Margin: 1343] - these numbers are intriguing, written perpendicular to the main text. Note that \"50\" is circled. I'll need to remember those for later.\n\nNext, the salutation: \"Dear friend.\" A simple yet personal greeting. The body of the letter follows, and I'll keep the original line breaks for fidelity. It begins with acknowledging a previous communication: \"Your favor of the 6<sup>th</sup> inst. was received in Huntsville.\" It seems like Huntsville is where the writer *received* the letter, but they are writing *from* Houston. There's mention of a \"western trip,\" which is contingent upon hearing from \"Col. James.\" The writer expresses a desire to be with the recipient, feeling \"very lonely here,\" which, given the header, most likely means Houston. Austin is mentioned as a preferred location \"for various reasons.\"\n\nThe letter continues with regards to \"Col. Peeler and Mr Mc Innis and family,\" indicating a sense of familiarity and connection. The writer assures that a further communication will be sent \"as soon as orders have been received from head-quarters.\" Finally, the closing is straightforward: \"Your true friend P.G.\" Now, about that signature... it looks like \"P.G.\" \u2013 the \"P\" has a distinct loop, and the \"G\" is clearly a G. Although there might be an argument for \"G.G.\" I am certain that it's \"P.G.\" after reviewing the distinctive loop of the first letter.\n\nI've made sure to note all line breaks. The letter's structure seems pretty standard. There are two numbers in the marginalia, and that will need to be rendered using the bracket notation. The year marker is a \"greater than sign\" followed by \"81\". I think I've captured everything. Let's make sure I preserve the layout. With these details noted, I believe I can generate a good transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/298/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

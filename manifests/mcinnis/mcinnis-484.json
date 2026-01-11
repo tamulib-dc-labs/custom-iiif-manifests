@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-484.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Gartner, George August 10, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Gartner, George August 10, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/484"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/4a765dbe-09c9-3201-acf4-cf35d2d781fd/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/484/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1126,
+            "width": 1916,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/110",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/109",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4a765dbe-09c9-3201-acf4-cf35d2d781fd/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1126,
+                                "width": 1916,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4a765dbe-09c9-3201-acf4-cf35d2d781fd",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/484/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/113",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/112",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Gartner, George 1880, Aug. 10,</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/484/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/114",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Transcription Thought Process**\n\nOkay, here's what I'm thinking. The task is to transcribe text from an image, which appears to be a handwritten index card or similar document. My goal is to capture the text accurately, adhering to any provided guidelines.\n\nFirst, I examine the image. I see \"Gartner, George\" on the left and \"1880, Aug. 10,\" on the right. There's a black dot, probably a hole punch, but it's not text so I won't transcribe it. I will read left to right.\n\nNext, I need to transcribe the text. I note the comma and period, so the transcription will be, \"Gartner, George 1880, Aug. 10,\". The question is about formatting and layout. The guidelines mention HTML tags, so I'll wrap the text in a `<p>` tag, as it represents a single line. The biggest concern is spacing, which is critical in transcriptions. I will note the space between the words, but I will decide on a single line.\n\nI'll check the \"approved\" tags and properties, to be sure I am following the rules.\n\nLet's refine it. I think using an HTML `<p>` tag is appropriate to maintain the line structure and the instructions said to maintain the spacing. The spacing is a large gap.\n\nI also need to check the exact spacing, there is a large gap between the name and the date, but it's a single line.\n\nI'll double-check the image to make sure the transcription is accurate. \"Gartner,\" \"George,\" \"1880,\" \"Aug.,\" and \"10,\" are all correct.\n\nThe most precise representation of the visual gap is using HTML non-breaking spaces, or just normal spaces. I need to be careful with the prompt instructions.\n\nSo, finally, I'll transcribe the text: `<p>Gartner, George 1880, Aug. 10,</p>`. This seems most faithful.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/484/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

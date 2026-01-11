@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-486.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Hand, J. T. December 7, 1879 - December 20, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Hand, J. T. December 7, 1879 - December 20, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/486"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/4c0fb2c5-a5c5-328b-a5e9-5b363cd15a3a/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/486/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1126,
+            "width": 1916,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/404",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/403",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4c0fb2c5-a5c5-328b-a5e9-5b363cd15a3a/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1126,
+                                "width": 1916,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4c0fb2c5-a5c5-328b-a5e9-5b363cd15a3a",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/486/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/407",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/406",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Hand, J.T. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1879, Dec. 7, Dec. 20,<br>\nDec. 31; 1880, Jan. 4, Feb. 2, Feb. 16,<br>\nMarch 3, April 2, April 21, May 25, June 6,<br>\nJune 7, June 8, July 22, July 31, Aug. 6,<br>\nSept. 19, Oct. 17, Nov. 29, Dec. 20;</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/486/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/408",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription of Handwritten Note**\n\nAlright, let's break this down. My task is to transcribe this handwritten note accurately, keeping the formatting and structure as faithful as possible. The image shows what looks like an index card or note, with a name followed by a series of dates grouped by year. The goal is a clean, readable transcription, adhering to the specified HTML markup restrictions.\n\nFirst, I need to make a mental note: I have to transcribe *all* of the text, paying close attention to punctuation and any potential ambiguities in the handwriting. The overall structure is clear: a name followed by dates, likely chronological. \"Hand, J.T.\" seems to be the main subject or header, followed by a list of dates. I'll need to use `<p>` for the main block, `<br>` for line breaks and ensure there are no unintended deviations or additional spaces between elements.\n\nNow, let's start the line-by-line transcription. I am checking the specifics closely.\n\n*   **Line 1:** The first line reads \"Hand, J.T.\" followed by a significant space, then \"1879, Dec. 7, Dec. 20,\". The punctuation (comma) is clear.\n\n*   **Line 2:** \"Dec. 31; 1880, Jan. 4, Feb. 2, Feb. 16,\". The semicolon after \"Dec. 31\" is distinct. The years and dates are straightforward. The \"Feb. 2\" looks like it might have a stray mark above the period, but I'll stick with the standard date format.\n\n*   **Line 3:** This line says, \"March 3, April 2, April 21, May 25, June 6,\". Nothing unusual here. However, the loop in the \"6\" in \"June 6\" is worth a second look but it appears to clearly be a 6.\n\n*   **Line 4:** \"June 7, June 8, July 22, July 31, Aug. 6,\". I'm taking a close look at all characters, but no issues jump out at this point. The 6 is fine here.\n\n*   **Line 5:** The final line reads: \"Sept. 19, Oct. 17, Nov. 29, Dec. 20;\". The \"Dec. 20\" has a semicolon.\n\nOkay, I've got a complete transcription. Now, let's put it into HTML. I'll use the `<p>` tag to contain the block of text, `<br>` tags for the line breaks, and add spaces to represent any extra spacing in the handwritten original. I need to be careful with the spacing, so that what I am generating is accurate. I should replace all `&nbsp;` with just spaces. I should double check all instances of June 6 as the 6 loops around. I also need to make sure I am compliant with the list of allowable HTML markups to not over-engineer.\n\nAfter careful evaluation, here is the final HTML markup, ready for output:\n\n```html\n<p>Hand, J.T.      1879, Dec. 7, Dec. 20,<br>\nDec. 31; 1880, Jan. 4, Feb. 2, Feb. 16,<br>\nMarch 3, April 2, April 21, May 25, June 6,<br>\nJune 7, June 8, July 22, July 31, Aug. 6,<br>\nSept. 19, Oct. 17, Nov. 29, Dec. 20;</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/486/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
