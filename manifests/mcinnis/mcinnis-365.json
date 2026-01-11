@@ -1,0 +1,352 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-365.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Mrs. McInnis from M. Scott, June 22, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-06-22"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Mrs. McInnis from M. Scott, June 22, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f2e1dcb9-5107-34fe-bf84-14c053d4b8c1/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3712,
+            "width": 2293,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/236",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/235",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f2e1dcb9-5107-34fe-bf84-14c053d4b8c1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3712,
+                                "width": 2293,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f2e1dcb9-5107-34fe-bf84-14c053d4b8c1",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/248",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/247",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>L. A. SCOTT,</p>\n\n<p>Melissa, Texas, June 22<sup>nd</sup> 1890<br>\nBelmont Farm.</p>\n\n<p>Mrs. McInnis<br>\nMy Very dear Friend</p>\n\n<p>I am always<br>\nso sorry when you feel troubled, We<br>\nknow nothing of what has taken place<br>\nsince Thomas & Willie left. except what<br>\nyou wrote me. but its enough to<br>\nknow that <sup>Mr. McInnis</sup> is going away<br>\nand that you are feeling troubled, not<br>\nperhaps that he is going to leave there<br>\nbut that he has been treated unjust<br>\nly, which I have no doubt but that<br>\nthe Board has done. for it would<br>\nbe in keeping with some of their other<br>\nwork. But let their work be what it<br>\nmay, Mr. McInnis will leave there with<br>\na good name, it is <i>untarnished</i>, and<br>\nhe is young, with good business<br>\ncapacity, and industry and energy</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/249",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Comprehensive Analysis of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe this letter as accurately as possible, taking into account the formatting and any corrections made by the writer. First, the image itself: the header \"L. A. SCOTT\" is printed clearly at the top left. The date and location, \"Melissa, Texas, June 22nd 1890,\" are handwritten. The \"22nd\" is interesting; the \"2\"s are loopy, and it could be misread, but the context and the superscript \"nd\" confirm it. Below the date is \"Belmont Farm,\" also handwritten. Then comes the salutation: \"Mrs. McInnis / My Very dear Friend.\"\n\nNow, for the body of the letter. This is where it gets interesting and requires closer inspection to maintain the intended meaning. I note the line breaks; I must preserve those. I'll take it line by line: \"I am always / so sorry when you feel troubled, We / know nothing of what has taken place / since Thomas & Willie left. except what / you wrote me. but its enough to\". The \"its\" here is crucial because, while it could be \"tis\", the formation of the \"t\" suggests \"its\".\n\nNext, \"know that [crossed out: you] <sup>Mr. McInnis</sup> is going away\". This is a key correction. The word \"you\" has been crossed out and \"Mr. McInnis\" written above with a caret. The \"you\" is essentially deleted so I'm transcribing it as if only the correction is present. So, I will mark this to show the correction. Then we have, \"and that you are feeling troubled, not / perhaps that he is going to leave there / but that he has been treated unjust / ly, which I have no doubt but that / the Board has done. for it would / be in keeping with some of their other / work. But let their work be what it / may, Mr. McInnis will leave there with / a good name, it is <i>untarnished</i>, and / he is young, with good business / capacity, and industry and energy\". The word \"untarnished\" has been underlined for emphasis so, for clarity, I will transcribe with italics to preserve that nuance. I will make a note of this.\n\nThe overall goal is to present a literal transcription preserving the original form with as much fidelity to the original as possible.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3712,
+            "width": 2293,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/238",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/237",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/22d3dae8-87f3-3d26-b8ea-2d8669a89241/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3712,
+                                "width": 2293,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/22d3dae8-87f3-3d26-b8ea-2d8669a89241",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/251",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/250",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>to make his way in the world.<br/>\nDo not trouble my dear, you have<br/>\nno cause for anxiety, perhaps leaving<br/>\nthere will be much the best for<br/>\nyou both in a short time. I<br/>\nhope for a more pleasant life for<br/>\nboth of you. I have often heard<br/>\nThomas say that [crossed-out] Mc Innis was<br/>\nso eminently fitted for the Banking<br/>\nbusiness, and other things where he<br/>\nwould be his own master.</p>\n\n<p>We had such a good S.S. lesson to<br/>\nday. when studying it I thought of you<br/>\nand hoped you too. would study<br/>\nit, and take the lesson to your own<br/>\nheart, and let it do you good.<br/>\n\"Trust in our Heavenly Father\". I have<br/>\nso needed the lesson. and in trying<br/>\nto impress it upon the young men of<br/>\nmy class. it went to my own heart.<br/>\nand I trust has made the way clearer<br/>\nand my trust greater, and stronger<br/>\nand doubts will come no more.</p>\n\n<p>[Inverted text at top:]<br/>\nTill Prof Mc Innis to advise me [?]<br/>\nof Boards action in my direction</p>\n\n<p>[Left Margin:]<br/>\nMamma sends love to both</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/252",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process for Handwritten Letter**\n\nAlright, let's break this down. The task is clear: transcribe this handwritten letter image, preserving its original form while adhering to specific guidelines. We're dealing with a text from the 19th or early 20th century, judging by the script's Spencerian-esque style and paper quality. The output should be a straightforward transcription, respecting line breaks and any structural elements, like paragraphs and marginalia.\n\nInitially, I scan the image, noting the cursive script's rightward slant and its relative legibility. The handwriting presents certain peculiarities in letter formations, such as the way \"t\"s are crossed, and \"s\"s are formed. The prompt requires us to transcribe *all* text. There's cross-writing at the top\u2014upside-down and potentially from a different page, or it may be a postscript. The prompt says \"all text\", so I need to account for this. The inverted text appears like marginalia, which means I'll handle it accordingly\u2014logically inserting it, or transcribing it at the end. After examination, the inverted text seems like a continuation or postscript.\n\nNext, I do a line-by-line transcription of the main body. I start by transcribing each line of the main text, noting individual letter formations and possible corrections.\n\nI encounter a crossed-out word in line 8: \"Thomas say that [crossed-out] Mc Innis was\". The crossed-out word looks like \"Rev\", but the image quality makes it challenging. I must stay true to the visual state, so I'll mark the illegible characters with a descriptive bracketed label. The upside-down text reads: \"of Board's action in my direction\" and \"Till Prof McInnis & advise me [?]\". I will transcribe this text also, and place this at the end, considering its location as possible marginalia.\n\nWhile transcribing the text, I note potential details of the document: the \"S.S.\" acronym, the use of quotation marks, and ink smudges, and the capitalizations used in the text. I make every effort to read the text in its original form.\n\nThere's also vertically written text in the left margin. It's legible: \"Mamma sends love to both\".\n\nReturning to the inverted text, I interpret the last word. I determine it's likely \"Copy\". It matches the context of the boards' actions.\n\nThe margin text, \"Mamma sends love to both\", will be at the end, indicated as margin text.\n\nFinally, I format the text as instructed, preserving line breaks with HTML tags. The paragraphs will use `<p>`, and line breaks within the paragraphs will use `<br/>`. The formatting is straightforward.\n\nOne final check on the inverted text: \"Till Prof Mc Innis to advise me [illegible]\" with [?] for the unclear text. The final transcription will include the main body, the inverted text, and the margin text. And that's about it.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3712,
+            "width": 2293,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/240",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/239",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a5c20759-e1e0-3036-97a5-4bd9b9b01211/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3712,
+                                "width": 2293,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a5c20759-e1e0-3036-97a5-4bd9b9b01211",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/254",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/253",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Margin (top, inverted): Kindest love from Sister]\n\nL. A. SCOTT, [1890, June 22]\n\nMelissa, Texas, ____________________ 189\n\nWe have not heard if the Board\nhas found any fault with Willie\nbut if yours and Mrs. Gully's family\nare gone, I do not thing he will\ncare to go back there, and I am\nsure Nellie will be very much\nopposed to it. and if they do not\ngo back. And you gone, I will never\nhave the least inclination to see\nthe place again. It was gratifying\nto know how the boys received Thom\nus, and the respect shown him by\nothers, \u2014 but it has not taken away\nall the sting, but I do [illegible] talk\nabout it now. and the thoughts\nwill quit coming after a while.\nI would love to have seen your\nFather and Mother again. And\nyour dear little ones, oh! I can't bear\nto think I will never see you and\nthem again. but I will hope that</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/255",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Transcription Journey**\n\nOkay, here we go. The user wants me to render this handwritten letter into plain text. I see a letter with some interesting features. First, a printed header \"L.A. SCOTT,\" and a pencil annotation \"[1890, June 22]\" \u2013 that's the date, I assume. There's also some text upside down at the top: \"[Margin (top, inverted): Kindest love from Sister]\". I'll be sure to indicate that. The letter starts with \"Melissa, Texas, ____________________ 189_\". There's no handwritten date in the blank.\n\nNow, into the handwriting. It's cursive, a bit slanted. The first line: \"We have not heard if the Board...\" Aha, that first word. The handwriting. The writer clearly writes an 'a' very open. I have to figure out what that first word is: \"Bourie\"? \"Board\"? Context suggests it has to do with some kind of \"Board\". I think the 'd' is looped, but the handwriting is strange. I will transcribe it as \"Board\", hoping it makes sense.\n\nLine 4: \"I do not thing\". Hmm, \"thing\" instead of \"think\". I will transcribe what's written: \"thing\".\n\nLine 11: \"to know how the boys received...\" Ah, here's a tricky one. The word in the image, ends on line 11 and the rest continues on line 12. \"Thom\" / \"us\". What is this? Looking closely. It looks like it is split in two, it has to be part of a name. After the word \"Them\", the beginning of line 12 is \"...us, and...\". I could also see it being \"him\", with an elongated ascender. But the grammar doesn't make sense if it's \"him\". I will transcribe it as \"Thom\" / \"us\". Context suggests the word must be \"Thomas\". It's a slightly odd way to write it but seems like what is written. So this will have a line break mid-word.\n\nAlso, it looks like a hole or ink blot in line 14: \"all the sting, but I do [illegible] talk\". It looks like I cannot recover the missing word. Let's see if I can find what it should be. It makes sense that the word would be \"not\". The sentence says, \"...but it has not taken away all the sting, but I do [not] talk about it now\". I will just use `[illegible]`.\n\nNow, time to get this done. I will put together the transcription according to my plan and the guidelines. I will be sure to mark the pencil annotations and the upside-down text. The rest of the transcription seems to be quite clear, but I\u2019ve double-checked those tough bits to make sure everything's correct. I will put together the transcription and finish it.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 3712,
+            "width": 2293,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/242",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/241",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/05cd3b0f-abad-38c9-9b85-f0120e63b497/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3712,
+                                "width": 2293,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/05cd3b0f-abad-38c9-9b85-f0120e63b497",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/257",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/256",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nsome time we will <sup>have</sup> you & Mr Innis<br/>\nand the dear children all at our<br/>\nown home. When we can look<br/>\nback to this time that now seems<br/>\ngrievous and say \"it was all for<br/>\nthe best.\" When ever the times<br/>\ncomes that you can come, just<br/>\nknow that you will make us<br/>\nglad by coming.<br/>\nI know you will be kept busy<br/>\nuntil you leave. but I will be so<br/>\nglad to have you write again<br/>\nWe are so glad to have little<br/>\nMulcombs picture. it is so good<br/>\nkiss the dear little ones and sometime<br/>\ntell [them] of us.<br/>\nMay God bless you, and give you<br/>\nstrength to bear your coming trial<br/>\nand May you Trust our Heavenly<br/>\nFather and all will be well with<br/>\nyou. dear love for your Mother and<br/>\nMr. Innis. and your dear self from<br/>\nThomas and. Your affectionate friend<br/>\nM. Scott.\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/258",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcriptionist's Mindset**\n\nOkay, here's the deal. I've got this image, likely an old handwritten letter, and my job is to get that text down, *precisely*. I'm a professional; accuracy is key. I've got a set of rules \u2013 gotta preserve original spelling, punctuation, and even handwriting quirks, and I need to format it with these specific HTML tags. No autocorrecting or interpreting *too* much, just what is on the page.\n\nFirst, I start by *really* looking at the image. It's cursive, which means some letters are gonna need some serious deciphering. It's probably from the late 19th or early 20th century. I need to make sure I get it right, down to the details.\n\nAlright, step-by-step it is. First line, \"some time we will [have] you & Mr Innis.\" \"Mr Innis\" is the name, it looks good, common last name, it appears again later. I've checked the \"have\" \u2013 it's inserted, so a `sup` tag it is.\n\nNext line, \"and the dear children...\" \"and\" is written as \"anu\"\u2013 handwriting style, where 'd' looks like 'u'. I need to decide, do I transcribe it exactly? I will stay with \"and\" unless it's a clear misspelling, and this is just the style of that writer. I'll stay consistent.\n\nGoing on, \"glad by coming.\" Looks like \"glue\" in the cursive, a lot like it... but does \"make us glue\" make sense? No. The *context* screams \"glad.\" I'll use it every time it appears, even if the \"d\" isn't quite right. Preservation of intent vs. a strict rendition of the stroke.\n\nThis \"little Malcombs picture\", I see \"Mulcombs\" (Malcom's), and the writer is inconsistent with 'a' versus 'u'. Given the instructions about preserving spelling, let me go with \"Mulcombs.\"\n\nLater, \"May God bless you...\" Wait... \"God\" looks like \"You\" in the cursive! But the sentence makes no sense as \"You.\" I am going to stick with \"God,\" making some kind of allowance for the handwriting's appearance. It has to be God, because the sentence needs to make sense.\n\nNext, \"strength to bear your coming trial.\" \"Trial\" looks like \"triue\" or \"time.\" I see some looped letters. Contextually, \"trial\" fits best with \"strength to bear.\" Let's stick with \"trial.\"\n\nNow, let's format this correctly. Using `p` for the paragraph, `br` for line breaks, `sup` for the inserted \"have,\" and I'll keep the \"[them]\" tag for that obscured word on line 16. The final text:\n\n```html\n<p>some time we will <sup>have</sup> you & Mr Innis<br/>\nand the dear children all at our<br/>\nown home. When we can look<br/>\nback to this time that now seems<br/>\ngrievous and say \"it was all for<br/>\nthe best.\" When ever the times<br/>\ncomes that you can come, just<br/>\nknow that you will make us<br/>\nglad by coming.<br/>\nI know you will be kept busy<br/>\nuntil you leave. but I will be so<br/>\nglad to have you write again<br/>\nWe are so glad to have little<br/>\nMulcombs picture. it is so good<br/>\nkiss the dear little ones and sometime<br/>\ntell [them] of us.<br/>\nMay God bless you, and give you<br/>\nstrength to bear your coming trial<br/>\nand May you Trust our Heavenly<br/>\nFather and all will be well with<br/>\nyou. dear love for your Mother and<br/>\nMr. Innis. and your dear self from<br/>\nThomas and. Your affectionate friend<br/>\nM. Scott.</p>\n```\n\nAlright, that is that.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/365/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

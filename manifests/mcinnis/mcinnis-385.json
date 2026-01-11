@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-385.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Rose, July 14, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-07-14"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Rose, July 14, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/385"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/4829f51d-3dd9-34f8-b6cc-5e1a0bac2137/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/385/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4033,
+            "width": 3207,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/152",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/151",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4829f51d-3dd9-34f8-b6cc-5e1a0bac2137/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4033,
+                                "width": 3207,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4829f51d-3dd9-34f8-b6cc-5e1a0bac2137",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/385/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/155",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/154",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>State Agricultural and Mechanical College<br>\n<small>OF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p><small>A. J. ROSE, President Board of Directors, Salado Texas.<br>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small></p>\n\n<p>Salado, Texas, <i>July 14<sup>th</sup> 1890</i></p>\n\n<p><i>Louis L. McInnis<br>\nCollege Station Texas<br>\nDear Prof.<br>\nI find my business will prevent<br>\nmy going to Austin at the timed named. I regret<br>\nthis, but assoon as I can go will write you.<br>\nIn regard to matter, you refered about business<br>\nProf. <sup>Bringhurst</sup> & Maj Cavitt will attend to, the bonds<br>\nthat you have given in order [illegible] for you to be<br>\nreleased will necessitate the issuing of new ones<br>\nand approval. Now if there is any thing further<br>\nthat you think that the Board should do please<br>\nwrite me plainly.<br>\nProf as I wrote you I have my<br>\nhands full for the present. Let me hear from<br>\nyou & oblige</i></p>\n\n[Signature]\n<p><i>A. J. Rose</i></p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/385/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/156",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Thoughts Before Transcription**\n\nAlright, let's get this done. I've thoroughly analyzed the image, the instructions, and I'm ready to begin. The goal is to produce an accurate transcription, preserving as much detail as possible, while adhering to the specific HTML tags and guidelines provided.\n\nI'm starting by structuring the document, keeping the header information and the layout elements in mind. The strike-throughs on the printed names pose a slight challenge, but I'll transcribe the text as it is, since I can't render the strikethrough using the approved tags.\n\nThe handwriting is clear enough, though some words require a closer look. I've paid careful attention to details like the year and the spelling of \"refered\". I've decided to interpret the strike-through as a deletion of \"that,\" the \"smudge\" as unreadable \"[illegible],\" and to preserve the original line breaks using the `<br>` tag. I will use `<i>` tags to denote the handwritten text and maintain a visually accurate transcription, as far as possible. I've confirmed all uncertain words.\n\nThe goal is to provide a complete and accurate transcription, and I'm satisfied that this is correct. I'm focusing on the overall readability, maintaining the original structure, and ensuring that I don't introduce anything that the image doesn't provide. I'm ready. Let's start the transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/385/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

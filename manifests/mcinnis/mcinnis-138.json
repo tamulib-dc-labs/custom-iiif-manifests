@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-138.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from George Curtis, July 21, 1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1886-07-21"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from George Curtis, July 21, 1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/5b5f9d29-2265-3253-b8ec-59d835c14aba/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4141,
+            "width": 3139,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/158",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/157",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/5b5f9d29-2265-3253-b8ec-59d835c14aba/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4141,
+                                "width": 3139,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5b5f9d29-2265-3253-b8ec-59d835c14aba",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/164",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/163",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>OFFICE OF<br>\n<b>G. W. & G. L. LOVELL.</b></p>\n\n<p>FOREIGN AND INLAND<br>\nBills of Exchange.</p>\n\n<p><b>BANKERS.</b></p>\n\n<p>BONDS AND MORTGAGES<br>\nBought & Sold.</p>\n\n<p>Monticello, Iowa. July 21 1886</p>\n\n<p>Louis L. McInnis<br>\nForest Miss.</p>\n\n<p>My Dear Friend & Bro.: - Upon returning from<br>\nNeb. I found your letter and was glad to hear from<br>\nyou indeed. You say you are coming North<br>\nprobably during August - can you not<br>\narrange so as to pass in our vicinity ? or<br>\nare you going more East than North. When do<br>\nyou attend the Cond [?] I have not yet heard when<br>\nit is called but suppose it will be sometime<br>\nin August. The ticket war is over and I was<br>\njust lucky enough to get home before the rates<br>\nwent up again - made a difference of about 75 Dols<br>\nin my favor. Am taking the Cash<sup>rs</sup> place here<br>\nduring his absence. business dull - as it is<br>\neverywhere. Hear from Whitlock & Smith occasionally<br>\nthey seem to be enjoying the trip & visit hugely.<br>\nYes Mallory is one of us now & I am glad of it<br>\nfor his sake - guess he has a splendid wife<br>\nDid he send you the Tenn. paper containing</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/165",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I'm thinking through this transcription. First, I need to understand the task. I'm acting as a professional transcriptionist, and the goal is to reproduce the text from an image, accurately and in the right format. This means paying attention to detail: going top-to-bottom, left-to-right, preserving the original spelling, breaks, and handling any difficult handwriting. I have to use specific Markdown or HTML tags which are very limited (`a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`), and I'll use a Markdown table for any data. I am *only* outputting the transcribed text, nothing more.\n\nNow, let's break down the image. There's an elaborate header, which I'll analyze carefully. \"OFFICE OF\" is at the top. The main name looks like \"G.W. & G.L. LOVELL.\" I need to double-check those initials; the \"G\"s look ornate, but I'm confident in the \"L\"s. It's \"LOVELL\" for sure. The word \"BANKERS.\" is inside a decorative border. The left side says \"FOREIGN AND INLAND / Bills of Exchange.\" The right side says \"BONDS AND MORTGAGES / Bought & Sold.\"\n\nNext, the handwritten section. It's \"Monticello, Iowa. July 21 1886\" as the date and location. The addressee is \"Louis L. McInnis / Forest Miss.\" Then the salutation: \"My Dear Friend & Bro.:\". I'm making a mental note that \"Bro.\" likely means \"Brother,\" perhaps a fraternal order or close friendship.\n\nMoving into the body, the first lines say, \"Upon returning from / Neb. I found your letter and was glad to hear from / you indeed.\" Then, \"You say you are coming North / probably during August - can you not / arrange so as to pass in our vicinity? or / are you going more East than North.\" Then there's the phrase I'm focusing on: \"When do / you attend the Cond? [Conv? Comd?]\" I think this word is `Cond` or `Conv`. The context implies a convention or something similar, likely in August. I will examine it carefully. It does have a looping ending. I need to make sure I get it right based on the shape of the letters. It could be \"Conv\" or \"Cond\". The letter ends abruptly.\n\nThere's more text: \"The ticket war is over and I was / just lucky enough to get home before the rates / went up again - made a difference of about 75 Dols / in my favor.\" Then, \"Am taking the Cash'rs place here / during his absence. business dull - as it is / everywhere. Hear from Whitlock & Smith occasionally / they seem to be enjoying the trip & visit hugely. Yes Mallory is one of us now & I am glad of it / for his sake - guess he has a splendid wife Did he send you the Tenn. paper containing\"\n\nI'm now drafting the transcription, either mentally or on a scratchpad. The header is going to be: \"OFFICE OF\", \"G. W. & G. L. LOVELL.\", \"BANKERS.\", \"FOREIGN AND INLAND / Bills of Exchange.\", and \"BONDS AND MORTGAGES / Bought & Sold.\" The date line is \"Monticello, Iowa. July 21 1886\". The address is \"Louis L. McInnis / Forest Miss.\" For the body, I am going to write: \"My Dear Friend & Bro.: - Upon returning from Neb. I found your letter and was glad to hear from you indeed. You say you are coming North probably during August - can you not arrange so as to pass in our vicinity ? or are you going more East than North. When do you attend the Cond [?]\". I think it might be \"Conv\". I'll consider that option. \"I have not yet heard when it is called but suppose it will be sometime in August. The ticket war is over and I was just lucky enough to get home before the rates went up again - made a difference of about 75 Dols in my favor. Am taking the Cash<sup>rs</sup> place here during his absence. business dull - as it is everywhere. Hear from Whitlock & Smith occasionally they seem to be enjoying the trip & visit hugely. Yes Mallory is one of us now & I am glad of it for his sake - guess he has a splendid wife Did he send you the Tenn. paper containing\"\n\nNext, it's formatting time. I need to use `<p>` tags for paragraphs. The small, or span tags for the header elements to\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4141,
+            "width": 3139,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/160",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/159",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/34f17115-3b15-3796-8f02-b9194e891a2e/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4141,
+                                "width": 3139,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/34f17115-3b15-3796-8f02-b9194e891a2e",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/167",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/166",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>the acct of the wedding? quite nice \u2013<br>\nMrs Curtis & myself often speak of Mrs.<br>\nMolf & little Lilla and wish we could see<br>\nyou all. Here comes a fellow with a plugged<br>\n50c piece \u2013 [crossed out: Lots of queer] customers<br>\naround a bank \u2013 Some of them come in<br>\n& look around furtively as if they were<br>\nashamed to be seen here \u2013 These generally<br>\nwant to borrow money \u2013 Others come in<br>\nwith head up & mouth open [crossed out: these] they<br>\nwant you to give them the exch. on a<br>\nDraft \u2013 or something of the kind \u2013</p>\n\n<p>I see Bringhurst has appointed<br>\n\"Prof\" W B Phillpot asst in Eng. well<br>\nI suppose they could do a great deal<br>\nworse \u2013 don't you? The drouth must<br>\nbe assuming enormous proportions in Tex.<br>\nI see by papers cattle are dying by the<br>\nM's. Aren't you glad you are not<br>\nthere this weather? Write us & keep us in-<br>\nformed about yourselves \u2013</p>\n\n<p>With best wishes & kindest regards to all<br>\nI am as ever<br>\nGeo. W. Curtis</p>\n\n<p><small>1886</small></p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/168",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Detailed Log**\n\nOkay, here's how I approached this transcription, breaking down each step to ensure accuracy and adherence to the specific instructions. My primary goal, as always, is to provide a faithful rendering of the source text, adhering meticulously to the provided guidelines and maintaining the integrity of the original material.\n\nFirst, I examined the request itself. I'm acting as a professional transcriptionist, tasked with transforming a handwritten document into digital text. The instructions are clear: read top-to-bottom, preserve spelling and punctuation as is, interpret handwriting using [?] for uncertainty and [illegible] for unreadable content, maintain the original layout (paragraph structure), and handle any marginalia appropriately. Importantly, I can only use a specific set of HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`. My output should be *only* the transcribed text, no extraneous commentary or interpretation beyond what's specified.\n\nNext, I analyzed the image itself. I'm looking at a handwritten letter, likely written in ink on aged paper. The handwriting is cursive, somewhat hurried but generally legible. There's a crease that goes right through the middle, which I will need to accommodate. The text appears to be a continuation of a letter, starting mid-sentence, so I need to piece together the beginning with the given context.\n\nNow, for the actual line-by-line transcription. I went through each line carefully, checking the letterforms, the context, and ensuring proper interpretation. I tried to render the text as accurately as possible.\n\n*   **Line 1**: The first line required particular scrutiny. I had to decipher the word between \"the\" and \"of.\" The initial analysis brought up possibilities like \"acc,\" \"acct,\" or even \"act.\" The letter formation hinted toward 'a', then tall stroke, then 'c', with some looping on the crossbar, suggesting 'acct' (account) as the most probable interpretation. I considered \"details\" but, given the context of a letter, account made more sense. I'll note that.\n*   **Line 2**: This was pretty straightforward, accurately transcribing Mrs. Curtis and the personal pronoun and names, and proper nouns.\n*   **Line 3**: The name \"Molf\" needed careful examination. The initial thought was \"Wolf\" or \"Moll\", but it was important to consider the consistent formation of letter \"M\" in the word \"Mrs\". The \"W\" in the word \"Write\" (near the end of the letter) is very distinct, and the \"M\" is rounded. The letter at the beginning of \"Molf\" has a rounded top loop, so based on the visual evidence, it's \"Molf\". I recorded it as such, but kept \"Moll\" as a distant possibility.\n*   **Line 4-5**: These lines had a \"plugged 50c\" which was clear. Line 5 included a strikethrough - something I cannot represent literally. The phrase \"Lots of queer\" was crossed out and I cannot use `<s>` or `<del>`. I had to analyze what remained on the line, and ultimately how the sentence would be structured. Context, with the word \"customers,\" shows that \"queer\" was an adjective before that noun. My interpretation, per the instructions, is to include the crossed out text, but explicitly indicate its state through the brackets with \"crossed out\" indication.\n*   **Line 6-12**: Fairly straightforward lines. Correct transcription and proper interpretation, especially the \"exch\" (exchange) abbreviation.\n*   **Line 13-14**: The name \"Bringhurst\" was clear, the \"Prof\" in quotes. The name Phillpot had to be verified.\n*   **Line 15-24**: The final paragraphs were straightforward with the main difficulty on an \"M's\" on line 19. It looked like a capital M followed by an apostrophe + s, which, given the context, suggested thousands. I took note of \"drouth\" as correct archaic spelling.\n\nRegarding the HTML formatting, I followed the explicit instructions. I structured the transcription into paragraphs based on the visual layout of the original text, using `<p>` tags. Line breaks within the paragraphs were rendered with `<br>`. My only constraint was the inability to use the `<del>` or `<s>` tags. This meant that I had to include the crossed-out text to be accurate but must do so while following the rules. I opted to describe the crossed-out text by using brackets: `[crossed out: text]`. I ensured consistent capitalization, and included the date at the bottom using `<small>`.\n\nThroughout the process, the emphasis has been on accurate interpretation,\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/138/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

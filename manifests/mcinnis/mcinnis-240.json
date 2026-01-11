@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-240.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Thomas S. Gathright, December 31, 1879"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1879-12-31"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Thomas S. Gathright, December 31, 1879"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/240"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/bcc7ee94-9832-36c4-a2b1-43bed044fea4/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/240/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3861,
+            "width": 3059,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/128",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/127",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/bcc7ee94-9832-36c4-a2b1-43bed044fea4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3861,
+                                "width": 3059,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bcc7ee94-9832-36c4-a2b1-43bed044fea4",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/240/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/131",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/130",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\nHenderson, Dec. 31. 1879.\n\nDear Lewis,\n<p>Hugh and I are here<br>\nMrs G. is in Palestine. We are waiting<br>\nfor our plunder, but have heard<br>\nnothing from it. Mrs G. will come so<br>\nsoon as it arrives.</p>\n<p>Send me the two last Clarions, and<br>\nwrite me how you are doing and<br>\nwhat are the College prospects &c.<br>\nWrite me what you heard in Austin<br>\nand all you know and feel.</p>\n<p>I am the saddest mortal to night<br>\nliving and if driven to let out and<br>\nwrite you a letter would give you<br>\nthe horrors.</p>\n<p>Your friend<br>\nThos. S. Gathright</p>\n[Footer]\nTo Prof. L. L. McInnis.</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/240/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcribing a Handwritten Letter**\n\nOkay, here's what I've got. I'm looking at this handwritten letter, and my goal is to produce a clean, accurate transcription. First, I need to understand the structure: it's a letter on lined paper, dated December 31, 1879, from Henderson. I'll need to keep that date and location as a header.\n\nThe salutation is a bit tricky; there's a stain over the name, but I think it's \"Lewis,\" given the addressee at the bottom is \"Prof. L. L. McInnis\". I will focus on that name as verification. The first paragraph is straightforward enough. It talks about a trip, Mrs. G. being in Palestine, and some baggage or furniture, what he calls \"plunder\". Seems like he is waiting for his stuff. I know from context \"plunder\" would have been a common term for baggage at the time, and I will be sure to get that right. The second paragraph is all about getting updates - the \"Clarions\" (likely a newspaper), and then the letter says \"Write me what you heard in Austin and all you know and feel.\" The word at the heart of the sentence is difficult to read. It could be \"know\" - which is common - or \"think\", \"hear\", or even \"them\". Given the context, I think it's best to go with \"know\" because it fits the tone. The last paragraph is where it gets a little emotional. It's a bit heavy, with a sense of sadness. There's a phrase \"and if driven to let out\" and I'm sure of the main word, but at first I read it as \"even\" but after a second reading it makes most sense as the word \"driven\", but it's very messy handwriting. It reads like \"driven\" despite the strange shape of the word, and \"driven\" fits the emotion and grammar of the sentence. Then, the signature is \"Thos. S. Gathright,\" and I need to be exact. The letter is addressed to \"Prof. L. L. McInnis\" and I am going to have to make sure I transcribe that completely accurately.\n\nThere are a few key things to sort out: the name in the salutation, the confusing word in the second paragraph, and the emotional tone of the third. I am now confident with my interpretations, so I can start by writing out a draft and then I can refine it. The formatting guidelines are also important: I'll use `<p>` tags for paragraphs, `[Header]` for the date, and make sure line breaks and punctuation are preserved, and that I correctly transcribe all of the names as well as the newspaper. The letter mentions Henderson, Palestine, Austin, and a professor at Texas A&M. Those details can help to verify names and dates. Now that I have done all of that, let's get down to the text.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/240/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

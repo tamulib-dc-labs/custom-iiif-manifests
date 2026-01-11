@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-260.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to John James from Thomas S. Gathright, September 23, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-09-23"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to John James from Thomas S. Gathright, September 23, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 7 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/742cb7a3-660d-3918-89a3-62ab5872aae2/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3712,
+            "width": 2201,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/56",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/55",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/742cb7a3-660d-3918-89a3-62ab5872aae2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3712,
+                                "width": 2201,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/742cb7a3-660d-3918-89a3-62ab5872aae2",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/62",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/61",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Margin: [1880, Sep 23?]]</p>\n<p>State A. & M. College of Texas.</p>\n<p><i>PRESIDENT'S OFFICE.</i></p>\n<p><small>THOS. S. GATHRIGHT, A. M.<br>\nPRESIDENT.</small></p>\n<p>College Station, Brazos Co.,<br>\nCopy 187</p>\n<p>Col Jno G James<br>\nPresident</p>\n<p>Dear Sir:-</p>\n<p>Your note, request-<br>\ning us to vacate the room<br>\nnow occupied by us as<br>\na study, has been received<br>\nThough causing us in-<br>\nconvenience, yet we<br>\nshall comply with your<br>\nrequest</p>\n<p>Very respectfully<br>\nSigned { Louis L McInnis<br>\nE Gartner</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/63",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcribing a Historical Document: A Thought Process**\n\nAlright, let's break this down. As a transcriptionist, my task is clear: take this image and convert it to text, adhering to specific guidelines. No commentary, just accurate transcription, preserving the layout and any errors. We're also using specific HTML tags, which is fine, but I'll have to keep it in mind.\n\nFirst, I need to understand the document itself. It looks like a handwritten letter on official letterhead from the State A. & M. College of Texas, judging by the gothic font and the \"PRESIDENT'S OFFICE\" designation. I'm seeing a pencil note, `[1880, Sep 23?]`, which I'll have to handle as well. The addressee is Col Jno G James, and I assume the \"Jno\" is shorthand for John. The content is handwritten, so deciphering it carefully will be crucial.\n\nNow, let's start the transcription. I'll mentally lay out the structure: the marginal note, the formal header, the president's details, the location, a date line with a handwritten \"Copy\" on it, the addressee, the salutation, and then the body of the letter itself. I'll need to pay close attention to the line breaks within the body text, as they convey meaning. I notice \"Signed {\" followed by what seems to be \"Louis L McInnis\" and \"E Gartner.\"\n\nI\u2019ll need to format the transcribed text with HTML. I\u2019ll make sure to get all the line breaks correct and keep in mind that I can't use `align` in the `<p>` tag. I will have to ensure the pencil note is inserted. I\u2019ll make sure that any handwriting errors or unusual spacing is preserved, and that any notes are accurately transcribed. It seems like the date is \"187\" but there is a pencil note that says something else.\n\nLet's begin the final output, starting with the margin note, then the main heading. I will use the `<small>` tag for the president's details and note that the date \"Copy\" is written above the date line. The content appears to include a request to vacate a study room. I\u2019ll carefully split words at line breaks, and add the \"Signed {\" as I see it in the format. I\u2019ll ensure that the \"Louis\" and \"E Gartner\" names are presented correctly.\n\nFinally, I\u2019ll review the finished product. I'll confirm that all the requirements are met, no errors, and all the HTML tags are accurately used to reflect the document's structure and content. Done!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3712,
+            "width": 2201,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/58",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/57",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/eb7c8a54-9cf1-3c97-9fa3-df9aa503376a/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3712,
+                                "width": 2201,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/eb7c8a54-9cf1-3c97-9fa3-df9aa503376a",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/65",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/64",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Order from<br/>\nCol James<br/>\nRiply</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/66",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Thoughts and Transcription**\n\nOkay, here's the final breakdown. I've spent considerable time carefully analyzing this image of what appears to be a docketed document. The primary objective is to transcribe the handwritten text on the back of the folded paper. I've taken a methodical approach, examining the image for clues about its context, the handwriting style, and any potential ambiguities in the script.\n\nMy initial assessment was to identify \"bleed-through\" text and faint pencil annotations, treating them as context but keeping the main ink text as the key focus for transcription. The bleed-through reveals the document is related to the Agricultural & Mechanical College of Texas, likely from the late 19th century. This is helpful for putting context around the names I decipher.\n\nI then started to identify each line and word. The first line, \"Order from,\" is clear. The second line's handwriting is slightly more difficult. The critical part is the name following \"Col.\" The handwriting definitely looks like \"James.\" Specifically, the structure of the \"m\" is quite clear, with three humps, and the 'e' is a small loop. While there were considerations for \"Gaines,\" \"Jarvis,\" etc. \"James\" is most consistent.\n\nThe third line proved to be the most challenging because the final word has a loop shape. The third word is either \"Riply\" or \"Reply.\" Contextually, \"Order from Col James Riply\" is a name, given that there was a Gen. James W. Ripley. \"Order from Col James Reply\" doesn't make as much grammatical sense, so it looks like an error, with \"Riply\" being the misspelling. \n\nAfter careful consideration of the letter forms and the bleed-through information, I have the final transcription:\n<p>Order from</p>\n<p>Col James</p>\n<p>Riply</p>\n\nThe faint pencil annotations and bleed-through text were treated as secondary and not fully transcribed. \n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/260/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

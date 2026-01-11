@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-252.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-06-10"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4338,
+            "width": 3327,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/110",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/109",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4338,
+                                "width": 3327,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/113",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/112",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>A. J. Peeler.<br>\nT. S. Maxey.</p>\n\n<p><b>Peeler & Maxey,</b><br>\n<b>Attorneys at Law,</b></p>\n\n<p><small>Brown & Warner Co Leonard St N.Y.</small></p>\n\n<p><b>Austin, Texas.</b> June 10<sup>th</sup> 1880</p>\n\n<p>Prof L. L. McInnis<br>\nCollege Station<br>\nTex.</p>\n\n<p>Dr Sr -<br>\nYr kind favor<br>\nof 5<sup>th</sup> inst asking me to stop with you when<br>\nI come to the College recd - I accept with<br>\npleasure your invitation, but cannot<br>\nnow say what day I will reach the<br>\nCollege - perhaps not until morning -</p>\n\n[Signature]\n<p>Rfly &c<br>\nA J Peeler</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/114",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process Summary**\n\nAs a professional transcriptionist, my focus is to accurately reproduce the text from the image, preserving the original formatting and layout. My strategy began with a thorough analysis of the image, identifying key elements: the letterhead from Peeler & Maxey, the handwritten date and addressee, the salutation, body of the letter, the closing, and the signature.\n\nMy work follows a line-by-line approach. First, I carefully transcribed each element, noting the decorative fonts, small print, and handwritten portions. I meticulously checked handwriting, paying close attention to words that could be ambiguous, like \"morning\" or \"Resptfly.\" My interpretation is based on context and comparing letters. For instance, the closing \"Rfly &c\" looks like \"Rfly\", and there's no reason to assume otherwise.\n\nI will then apply IIIF-compliant HTML tags (a, b, br, i, img, p, small, span, sub, sup) to structure the output. I'll use `<p>` tags for paragraph blocks, `<b>` for bold headers, `<i>` to distinguish italics. I will also make sure to use `<sup>` for the superscript \"th\" in the date and the abbreviations. Since it's a legal letter, I will also label [Header] and [Signature].\n\nI also checked handwriting interpretation: ensuring proper handling of \"morning\" vs \"Monday\".\n\nAfter drafting the basic transcription, I reviewed my work against the original image to ensure all elements were accounted for.\n\nThe result is a clean, accurate, and structurally correct transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

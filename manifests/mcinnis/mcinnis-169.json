@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-169.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Robert J. Hill, February 21, 1887"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-02-21"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Robert J. Hill, February 21, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/169"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/ab8869f6-5ab8-3325-8c9e-113143adb827/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/169/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3869,
+            "width": 3035,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/80",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/79",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ab8869f6-5ab8-3325-8c9e-113143adb827/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3869,
+                                "width": 3035,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ab8869f6-5ab8-3325-8c9e-113143adb827",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/169/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/83",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/82",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>\n<small>DEPARTMENT OF THE INTERIOR<br>\nUNITED STATES GEOLOGICAL SURVEY</small><br>\nAustin Tex Feb 21, 1887.<br>\n<small>WASHINGTON D. C.,</small>\n</p>\n\n<p>\nProf Mc Innis.<br>\nDear Sir:<br>\nDid you write me a letter last week<br>\nconcerning the Geological Survey? If so, I owe you a thousand<br>\napologies. I lost the letter only a few minutes after receiv-<br>\ning it, and could not find it again. I wrote a reply<br>\nto \"Prof Simms\", thinking that was the name on the letter<br>\nsent.\n</p>\n<p>\nI will state that the measure is progressing well,<br>\nand that the friends of science and education through-<br>\nout the State are rallying to its support. I wish very much<br>\nthat you would join them. I believe the Geological<br>\nSurvey, if the proper man is at the head of it, will do<br>\nmuch for your college as well as every other institution<br>\nin the State. But much will depend upon the man<br>\nand the support he receives. I have been reading<br>\nyour report to-day. Surely there is much investigation<br>\nthat could be conducted at your institution. Have<br>\nYou any Professor of Geology or Natural History? I should<br>\nlike to correspond with him, for I believe I can make<br>\nit to his interest to do so. Please ask for the<br>\nletter to \"Prof Simms\".\n</p>\n<p>\nSincerely yours<br>\n[Signature] Robert T Hill\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/169/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/84",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Here's how I'm approaching this transcription task:**\n\nI'm starting by establishing my role as a transcription professional and understanding the specific requirements: to capture the text from this image as accurately as possible, while adhering to a set of rules about formatting and markup. I'm focusing on the natural reading order, original spelling, punctuation, handwriting interpretation, and maintaining the original paragraph structure.  I need to handle any handwritten elements.  I also have to manage non-text elements like the header, footer, or signature and use the specific HTML tags provided, while also utilizing Markdown for tables. The only output allowed is the transcribed text.\n\nI'm now analyzing the image itself, starting with the document type\u2014it's a handwritten letter on what appears to be official stationery. I'm taking note of the obvious elements, like the \"DEPARTMENT OF THE INTERIOR\" and \"UNITED STATES GEOLOGICAL SURVEY\" at the top, along with any handwritten additions like the location and date. I see the handwritten date \"Austin Tex Feb 21, 1887\" near the printed \"WASHINGTON D. C.\", which is struck through, that's important to note. Then, I'm identifying the salutation (\"Prof Mc Innis. / Dear Sir:\"), the body of the letter (which looks like it's split into two paragraphs), the closing (\"Please ask for the letter to 'Prof Simms'.\") and the sign-off, which includes a signature that looks like \"Robert T Hill.\"\n\nNext, I'm doing a first draft of the transcription in my head, or taking some rough notes, to capture the content. At this point, I'm just getting the words down, keeping track of paragraph breaks, and mentally noting any potentially tricky handwriting or layout elements, such as the position of the date relative to the header. I'm identifying each line as the key element, to then convert into HTML later.\n\nThe refining and formatting phase involves looking very closely at the image to interpret the handwriting. This is where I'll use my knowledge of common cursive styles and the context of the letter to make the best possible guesses about the intended words. I'll need to pay careful attention to things like the capitalization, the presence or absence of punctuation, and any abbreviations or shorthand used by the writer. I'm deciding what HTML tags to use where and ensuring the line breaks are correct, remembering the prompt's instructions about layout.\n\nSpecifically, I'm thinking about the placement of the header elements, what HTML tags to use, and how to represent the crossed-out text. I'm also considering how to best handle the line breaks and paragraph structure using the allowed tags, trying to balance readability with the original document's layout.\n\nAs I'm looking closer at the words, I'm double-checking the handwritten text for ambiguities. For example, \"concerng\" looks a bit odd, and I'm deciding whether that's shorthand or a miswritten word, and choosing whether to transcribe it as is or to infer the more standard form. It is the core of the task - should I expand abbreviations or not? The instructions seem to be that I *should not*.\n\nI've also got to ensure I capture any line breaks or unusual formatting from the original, especially in the header.\n\nThen, there's the final polishing step, where I construct the actual output. This is where I piece together the text I've analyzed, applying the HTML markup as required.\n\nNow, as I construct the final output, I'm checking that the layout matches what is asked for: `[Header]` and `[Signature]` tags are used. I am checking the line breaks between paragraphs, and checking the tags are correct. Now I'm checking the output.\n\nI am re-checking details from the original text, like \"concerng\" - and the best way to transcribe that (or *not* transcribe) in this situation. Now that I am at the end, I need to choose. It looks like the writer flattened the \"ing\". I must be accurate. I will use the safest choice.\n\nI'm thinking about the original line breaks (\"receiv- / ing\", \"through- / out\"). The handwritten and printed sections of the header are clear. I will construct the final output with a final check of all allowed tags and structure.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/169/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

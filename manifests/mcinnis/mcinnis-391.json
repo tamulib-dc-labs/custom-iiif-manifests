@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-391.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from E. B. Cushing, July 5, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-07-05"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from E. B. Cushing, July 5, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/391"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/ca6daa9b-a1da-3a6d-87fb-58b2a74ad473/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/391/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 2097,
+            "width": 3299,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/278",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/277",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/ca6daa9b-a1da-3a6d-87fb-58b2a74ad473/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2097,
+                                "width": 3299,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ca6daa9b-a1da-3a6d-87fb-58b2a74ad473",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/391/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/281",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/280",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>CHAIRMAN'S OFFICE<br>\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p>LOUIS L. McINNIS, A. M.,<br>\n<small>CHAIRMAN OF THE FACULTY.</small></p>\n\n<p>Houston<br>\nCollege Station, Texas, July 5 /90.</p>\n\n<p>Prof L. L McInnis -<br>\nCollege</p>\n\n<p>If the Houston Boys can serve you<br>\nin any way - command us.</p>\n\n[Signature]\n<p>Signed<br>\nE. B. Cushing</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/391/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/282",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My analysis begins now. I am presented with a digitized handwritten letter. My goal is to produce a transcription of the text, following specific guidelines, including the use of HTML tags and handling of handwritten and printed elements.**\n\n1.  **Initial Examination**: I begin by carefully examining the image. The letterhead, the date and location information, salutation, the body of the letter, and the signature block all demand careful attention. I need to note any discrepancies between printed and handwritten text, and pay attention to any corrections or additions made by the author. I identify the sender as E.B. Cushing and the recipient as Prof. L.L. McInnis, who is Chairman of the Faculty at the State Agricultural and Mechanical College of Texas (Technical Branch of the University).\n\n2.  **Transcription Strategy**: I develop a strategy for the transcription, considering the layout and the required HTML tags. I must account for the use of \"Houston\" handwritten above and the striking out of \"College Station,\" in the printed date and location line. Also, a handwritten \"College\" is situated below the salutation \"Prof L.L. McInnis\". I note that the prompt requires me to transcribe what I see on the page. Therefore, I decide to transcribe all visible text as accurately as possible.\n\n3.  **Detailed Transcription**: I carefully transcribe each element. I interpret handwritten text, preserving the original spelling. I recognize \"If the Houston Boys can serve you in any way - command us.\" I carefully examine the word that seems to be crossed out. It looks like a correction to the prior phrasing. I will treat the scribble as a deletion. The final word is \"serve you\". The signature \"E. B. Cushing\" requires close reading. The layout shows the information is presented in a specific structure. The handwritten text has a specific layout: \"Houston\" above \"College Station\". The \"College\" word is placed under the salutation, indicating the location.\n\n4.  **HTML Formatting**: Now, I apply the required HTML formatting. I consider centering the header elements and presenting the information in a clear and readable manner. I will not use attributes like `align=center` since the prompt does not specify them but does allow tags like `p`. I have to apply the appropriate HTML tags while paying special attention to representing strikethroughs (the word is \"Houston\"). I will use a paragraph element `p` for each block of text. I need to ensure that the transcription is faithful to the original while adhering to the formatting constraints. I will also incorporate appropriate paragraph breaks (`br`) to maintain the intended layout.\n\n5.  **Final Refinement and Output**: I meticulously review the transcription, checking for accuracy and adherence to the guidelines. I make any necessary adjustments to the formatting, paying attention to the details of the layout and preserving the intended meaning of the original document. I generate the final HTML output.\n\nThe goal is a faithful transcription and a clean HTML-formatted version of the handwritten letter.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/391/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

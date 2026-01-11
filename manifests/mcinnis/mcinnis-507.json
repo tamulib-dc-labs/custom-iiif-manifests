@@ -1,0 +1,198 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-507.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "1885-1886 A&M College and University, cost of univ. salaries circa 1885-1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-1886 A&M College and University, cost of univ. salaries circa 1885-1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 4 Louis L. McInnis Papers/Box 4 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/cff3aa67-b55b-38bd-85f8-c726cd7249e6/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3239,
+            "width": 4988,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/302",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/301",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/cff3aa67-b55b-38bd-85f8-c726cd7249e6/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3239,
+                                "width": 4988,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/cff3aa67-b55b-38bd-85f8-c726cd7249e6",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/308",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/307",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>6\n\n| | |\n| :--- | :--- |\n| 1885\u201386<br>Agri College | <br>University |\n| State appr. 17,108.96 | State 54,928,82 |\n| U.S. Endowm<sup>t</sup> 11,993,48 | |\n| Cost of maintain<br>ing students paid<br>by them 17,176 19 | |\n| 46,278 63 | |\n\nDifference 8650.19\n\nThe cost of Univ for Salaries &c was 8650,19 more\nthan the total expenses of Agri College including\nall amounts paid by Students for Board Washing\nRoom Books medical attendance &c &c\nIf this latter item was obtainable for Univ-\nThe difference would be more em-\nphatic.</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/309",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of Handwritten Ledger**\n\nAlright, let's break this down systematically. My task is to transcribe this handwritten document, which appears to be a ledger comparing financial figures between \"Agri College\" and \"University\" for the year 1885-86. It looks like the layout is two columns, with a paragraph below. The writing is cursive and somewhat messy, so I'll need to pay close attention.\n\nHere's the plan: First, I'll transcribe the header information and the table of financial data, maintaining the original structure as closely as possible, using a markdown table. Then, I will transcribe the paragraph at the bottom. I will mark any uncertainties and double-check my work as I go, especially with the numeric values. I'll maintain the exact original values even if there are inconsistencies, and account for the page number, which I see at the very top. I'll use HTML formatting where allowed, for instance the use of `<sup>` for the 't' in Endowment, but no other HTML markup that isn't allowed. Also, I must maintain the layout, and use a Markdown table, which means my final transcription is actually rendered to the user as a Markdown table. I'm noting the inconsistency with the decimal marker - it looks like sometimes it's a dot, sometimes a comma, but I will transcribe *exactly* what I see to maintain accuracy, as the guidelines direct.\n\nHere's the breakdown, starting with the header and table:\n\n[Header]\n6\n\n[Table]\n| | |\n|---|---|\n| 1885\u201386<br>Agri College | <br>University |\n| State appr. 17,108.96 | State 54,928,82 |\n| U.S. Endowm<sup>t</sup> 11,993,48 | |\n| Cost of maintain<br>ing students paid<br>by them 17,176 19 | |\n| 46,278 63 | |\n\nAnd then the \"Difference\" calculation, followed by the paragraph text:\n\nDifference 8650,19\n\nThe cost of Univ for Salaries &c was 8650,19 more<br>\nthan the total expenses of Agri College including<br>\nall amounts paid by Students for Board Washing<br>\nRoom Books medical attendance &c &c<br>\nIf this latter item was obtainable for Univ-<br>\nThe difference would be more em-<br>\nphatic.\n\nAnd that's it. It's important to be meticulous when dealing with handwritten financial data, and to follow the instructions precisely. So that should be a complete and accurate transcription, preserving the layout and detail as requested.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3239,
+            "width": 4988,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/304",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/303",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6326355d-4837-342d-840c-125be495ca35/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3239,
+                                "width": 4988,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6326355d-4837-342d-840c-125be495ca35",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/311",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/310",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header: G.W. NORRELL<br>\nSTATIONER<br>\nBRYAN, TEXAS]\n\nafter mentioned or paid from<br>\nthe interest on the said<br>\nfund and that part of the levy<br>\nState appropriation used for<br>\nsuch purpose, and all</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/312",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Summary of My Thought Process:**\n\nOkay, here's what I'm thinking as I tackle this transcription: First, I need to get a good visual grasp of the image. I notice the lined paper, its landscape orientation in the image, and the fact that the text is written vertically relative to that. That means a mental 90-degree clockwise rotation is necessary. The stamp in the corner is key \u2013 it's \"G.W. NORRELL / STATIONER / BRYAN, TEXAS\" \u2013 which tells me the likely time period and location.\n\nNow I'm diving into the actual text. I'm reading line by line, paying close attention to the handwriting and looking at each letter. The struck-through parts are the main challenge. It looks like the original text had some modifications, and I'm trying to figure out the intended sentence structure. I'm trying to treat each line as its own paragraph.\n\nI'm carefully considering the struck-through text and the words underneath to get the true text as much as possible. I'm focusing on the characters: the shapes, loops, and descenders. The handwriting has a particular style, and I'm trying to decipher each letter. For the struck text, I'm trying to look at the words at the beginning and end of the lines, working out the flow of the intended sentence.\n\nI see the phrase, \"State appropriation\" and it's starting to make me think about historical contexts. I'm thinking about Texas and their financial documents.\n\nI'm thinking that if the word is \"tax,\" it would be common in Texas legal contexts. But I have to find something that the descender looks like and where the handwriting looks the same. I'm using the letters to guide my process.\n\nThe word at the end of line 3 is difficult because it's under a heavy strike. It appears to be 'tax' and I am confident. Then, I am going to double-check my work.\n\nThen, I'm starting to think that I should include these brackets for my own purposes.\n\nFinally, I will generate the output:\n\n[Header: G.W. NORRELL / STATIONER / BRYAN, TEXAS]\n\nafter mentioned or paid from\nthe interest on the said\nfund and that part of the levy\nState appropriation used for\nsuch purpose, and all\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/507/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

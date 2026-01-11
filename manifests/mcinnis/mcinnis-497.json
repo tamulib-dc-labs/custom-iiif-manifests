@@ -1,0 +1,908 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-497.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from W. A. Alexander, May 14, 1885"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from W. A. Alexander, May 14, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 2 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/fb7bb8f0-4ae9-34c5-8834-8bb5e809cf0d/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/fb7bb8f0-4ae9-34c5-8834-8bb5e809cf0d/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fb7bb8f0-4ae9-34c5-8834-8bb5e809cf0d",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/44",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/43",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Header]<br>\nCanton.. May 14<sup>th</sup> 1885</p>\n\n<p>Dear M<sup>c</sup>: I This morning rec'd your<br>\nletter, coming one day later than the<br>\nphoto, & though I wrote to you yesterday, your<br>\nletter challenges my fresh considerations.<br>\nEspecially your entreaties that I go forth<br>\n& marry, in order to be come like yourself<br>\nin happiness & glory, calls for my notice.<br>\nIt affords me great comfort both on my<br>\non account & on yours to have you say <sup>on the subject of marriage</sup><br>\nlike the Queen of Sheba of the wisdom of<br>\nSolomon, that the half had never been told<br>\nyou, that the blessedness thereof far sur-<br>\npasses your most brilliant anticipations,<br>\n- on your account, I say because I wish<br>\nyou all happiness, & on mine, because<br>\nthe purpose I formed when a mere child<br>\nof marrying someday I have never<br>\nrelinquished, but rather find it increasing<br>\nday by day. In fact I have come to the<br>\nfull determination to tax my kind<br>\ncongregation with the support of a woman</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/45",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Initial Thoughts and Analysis of the Handwritten Letter**\n\nOkay, so I have this image of a handwritten letter, and my goal is to produce a transcription. Let's break this down systematically. First, I need to identify the crucial information. I see a date and location: \"Canton May 14th 1885\" at the top right. Next, there's the salutation. It reads \"Dear Mc:\". The 'c' looks like a small, slightly elevated character with two dots under it \u2013 a common shorthand for names like McCarthy. Let's examine the context: \"...I this morning rec'd your letter...\". The beginning of the body looks clear enough.\n\nNow, let's start the line-by-line transcription. I am checking the text for potential errors. The handwriting is clear enough, but there are always minor quirks. \"rec'd\" is the contraction of \"received\". And the phrase \"be come\" is written as two words. There's a crossed-out word; I have to figure out what it is and how to transcribe it accurately. The letter seems to be an answer to an earlier letter and is focused on the subject of marriage, given the writer is replying to entreaties from the recipient.\n\nI am re-checking the handwritten text, reading the text and making the corresponding transcription. I need to be careful with the formatting, spacing, and any unusual characters. I must re-check the formatting, especially interlinear insertions. Let's format the transcription correctly, preserving the meaning and the flow of the text. So the structure is:\n1. Header: Date and location\n2. Salutation: Dear Mc\n3. Body of the Letter\n\nSo, here's my transcription in progress. First, the date and the salutation; this will include all interlinear and crossed-out text. The key to the process is preserving original spelling and punctuation, even any errors or strikethroughs by the author, and representing all insertions by the author.\n\nAfter the initial transcription, the crucial part is to correctly handle the crossed-out text and insertions within the lines. There is a section of text on line 9 that is crossed out and replaced. I need to handle that carefully. The initial word is \"marriage\". There is also the phrase \"on the subject of marriage\" inserted, and there is a \"caret\" or mark that shows the location of the insertion. The prompt allows `<sup>` for superscript and `<sub>` for subscript and a few other tags, so let's use those properly.\n\nAfter the process of working through the letter, here is the final, revised transcription:\n\n```\nCanton.. May 14<sup>th</sup> 1885\n\nDear M<sup>c</sup>: I This morning rec'd your\nletter, coming one day later than the\nphoto, & though I wrote to you yesterday, your\nletter challenges my fresh considerations.\nEspecially your entreaties that I go forth\n& marry, in order to be come like yourself\nin happiness & glory, calls for my notice.\nIt affords me great comfort both on my\non account & on yours to have you say <sup>on the subject of marriage</sup>\nlike the Queen of Sheba of the wisdom of\nSolomon, that the half had never been told\nyou, that the blessedness thereof far sur-\npasses your most brilliant anticipations,\n- on your account, I say because I wish\nyou all happiness, & on mine, because\nthe purpose I formed when a mere child\nof marrying someday I have never\nrelinquished, but rather find it increasing\nday by day. In fact I have come to the\nfull determination to tax my kind\ncongregation with the support of a woman\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/10",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/602bffdc-0450-3abc-90b9-42e69f4b6332/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/602bffdc-0450-3abc-90b9-42e69f4b6332",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/47",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/46",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>on my account: provided I can make<br/>\nthe preliminary arrangements, these<br/>\nmean, finding a girl, courting her, asking<br/>\nthe old man, & getting me a new pair of<br/>\nboots. All these things have yet to be<br/>\nattended to, [crossed out: (tho)] I am ready & spoiling,<br/>\nI think I am a slow hand, & I seriously<br/>\ncontemplate referring these little arrange<br/>\n-ments to a discreet committee of elderly<br/>\nladies in my church. It will afford<br/>\nthem entertainment & will hardly, so<br/>\npacific-minded they all are, lead to any<br/>\nserious dissension. What is more, the<br/>\nunanimity of their conclusions will<br/>\ngo far to fortify my mind with stoic<br/>\ncourage for the leap.- Some such method<br/>\nmust be resorted to, for not only am I begin-<br/>\n-ning to be counted a hard case, but I am<br/>\n<sup>even</sup> ^ getting desperate myself. This desperation<br/>\ngrows day by day as my gray hairs show<br/>\nmore & more plainly on my temples -<br/>\nI am really anxious to get married<br/>\nsometime before I die, which anxiety is</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/48",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Detailed Account**\n\nOkay, here's how I'm approaching this transcription, breaking down each step. First, I analyzed the instructions: I'm a transcriptionist, my job is to accurately reproduce the text from the image, preserving the original spelling, punctuation, and layout. I need to handle any illegible parts or handwriting issues and use the specified HTML tags. I'm *only* providing the transcribed text, nothing else.\n\nNext, I examined the image itself. It's a handwritten letter, likely from the middle of a larger document. The handwriting is cursive, probably from the 19th or early 20th century. It\u2019s legible, but I have to pay close attention to letter formations, especially 's,' 'r,' and crossings. There\u2019s some damage at the top, but it doesn't affect the text.\n\nHere's how I'm transcribing:\n\n*   I'll read the text line by line. I'm focusing on accuracy, spelling, and punctuation.\n*   I carefully decipher the handwritten letters.\n*   I'll maintain the original line breaks as shown.\n*   There's a crossed-out word, which appears to be \"(tho)\". Since I can't use HTML tags for strikethrough, I\u2019ll need to figure out how to represent that, based on the specific rules (I ultimately decide to use `[crossed out: (tho)]`). The instructions say to interpret handwritten text and to transcribe all text.\n*   I'm also noting the insertion in line 19. The word \"even\" appears to be written above \"getting\", so I'll need to figure out how to represent that (using `<sup>even</sup>`). I'm also including the caret, `^`.\n*   I am reading carefully the words to make sure they are written accurately. I'm double-checking the meaning to ensure it's not a different word (I'm double-checking letters like 'c' vs 'e').\n*   I'll re-read everything to ensure it's accurate and legible.\n*   I'll check for formatting issues and ensure all HTML tags are correct.\n*   After the transcription, I meticulously review it all again. I'm verifying spelling. I'm reading carefully. I am making sure the layout is accurate. I double-check the placement of `<sup>even</sup>`.\n\nMy goal is to provide a transcription that is true to the original text, while adhering to all constraints.\nHere's the final output:\n\n```html\n<p>on my account: provided I can make<br/>\nthe preliminary arrangements, these<br/>\nmean, finding a girl, courting her, asking<br/>\nthe old man, & getting me a new pair of<br/>\nboots. All these things have yet to be<br/>\nattended to, [crossed out: (tho)] I am ready & spoiling,<br/>\nI think I am a slow hand, & I seriously<br/>\ncontemplate referring these little arrange<br/>\n-ments to a discreet committee of elderly<br/>\nladies in my church. It will afford<br/>\nthem entertainment & will hardly, so<br/>\npacific-minded they all are, lead to any<br/>\nserious dissension. What is more, the<br/>\nunanimity of their conclusions will<br/>\ngo far to fortify my mind with stoic<br/>\ncourage for the leap.- Some such method<br/>\nmust be resorted to, for not only am I begin-<br/>\n-ning to be counted a hard case, but I am<br/>\n<sup>even</sup> ^ getting desperate myself. This desperation<br/>\ngrows day by day as my gray hairs show<br/>\nmore & more plainly on my temples -<br/>\nI am really anxious to get married<br/>\nsometime before I die, which anxiety is</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/12",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/11",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6c2db4a8-48f1-3c02-8801-435aef926a35/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6c2db4a8-48f1-3c02-8801-435aef926a35",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/50",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/49",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nis made the more intense by the knowledge that<br>\nin heaven they neither marry nor are<br>\ngiven in marriage, so that my only<br>\nchance is to marry in this world while yet<br>\nthe \"lamp of life holds out to burn\". - -\n</p>\n<p>\nThe great trouble with me is every time<br>\nI get in love, either I change my mind<br>\nor the girl changes hers.. I thought I was<br>\ngoing to make it sure, a few years ago<br>\nbut I wasnt ready & she couldnt<br>\nwait, & so was guilty of the folly & bad<br>\ntaste of going & taking another fellow.<br>\nAfter getting over the chagrin of being<br>\ninvited to take a back seat, I came to<br>\nbe really glad that I was still at liberty<br>\n& have often inwardly thanked the other fellow for<br>\ntaking her off my hands.. Since then<br>\nmy experience has been that of the old<br>\nmaid (pardon me, I should have said,<br>\n<i>belated sister</i>) who said that those she<br>\nwould have, she couldnt get, & those<br>\nshe could get, even the devil wouldnt<br>\nhave, only I dont go the full lengths of the\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/51",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 3"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/56d6c576-18cd-3ab5-b517-cb30f834b042/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/56d6c576-18cd-3ab5-b517-cb30f834b042",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/53",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/52",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nlast clause. The Bingham blood<br/>\nis beginning to assert itself in me with the<br/>\neffect, that like our amorous college friend,<br/>\nI fall in love with nearly every girl I see,<br/>\nlove them all hard, & the last, the hardest.<br/>\nIf I could be shut up to the necessity, or <sup>I might</sup><br/>\n<sup>better say,</sup> could be favored with the privilege of being<br/>\nthrown constantly with <i>one</i> to the exclusion<br/>\nof all other charmers, I could doubtless<br/>\npersuade myself that my fate was<br/>\nsealed & I at the end of all my troubles -<br/>\nAt which end, I do not know. You say the<br/>\nlast end, a few soured individuals<br/>\nwho are never so happy as when they are<br/>\nperfectly miserable, would say at the <i>beginning</i>.<br/>\nBut taking a Pisgah top view of<br/>\nthe situation, I will declare honestly<br/>\nto you how the land lies before me, & you<br/>\nmay tell every body that is disposed<br/>\nto censure my dilatoriness, Though the<br/>\ngirls are hereabouts as thick as dogfennel<br/>\n& lovely & all that, yet they nearly all have\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_3"
+                        },
+                        {
+                            "id": "http://example.org/iiif/54",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Thoughts and Transcription**\n\nOkay, here's the final output.  I've gone through the process of carefully analyzing this handwritten letter, line by line, really immersing myself in the writer's thoughts. I've considered the script \u2013 cursive, a little messy but readable \u2013 and the personal nature of the content, the expression of romantic feelings. I've paid particular attention to the layout, noting the single-column format and any corrections or insertions. The key was to balance accuracy with the constraints of the HTML output.\n\nThe goal was a clean and accurate transcription, and that meant making some choices.  I had to interpret how the original text appeared on the page and then express this in the allowed format. I've adhered to the approved HTML elements and made the following decisions:\n\n*   **Line Breaks:**  Used `<br/>` tags to preserve the original line endings, which is essential for understanding the layout.\n*   **Emphasis:**  Underlined words are represented with `<i>` tags (italics) for emphasis.\n*   **Interlinear Insertions:** Used `<sup>` tags to accurately show the insertion of text into the lines.\n*   **Deletions:** The crossed-out word presented a challenge. Since the goal is \"Interpret handwritten text as accurately as possible\" and \"preserve line breaks\" and \"Preserve original spelling\" \u2013 but no direct HTML tag for strikethrough is permitted (`<s>` or `<del>` is not on the list `a, b, br, i, img, p, small, span, sub, sup`), I decided to omit the scribbled out text as the best approach since the objective is to \"transcribe all text\", and this accurately represents the final intended text of the document.\n*   **Overall Format:** I have wrapped the entire transcription in a `<p>` tag to make the text a paragraph, preserving paragraph structure.\n\nHere's the final transcription:\n\n```html\n<p>\nlast clause. The Bingham blood<br/>\nis beginning to assert itself in me with the<br/>\neffect, that like our amorous college friend,<br/>\nI fall in love with nearly every girl I see,<br/>\nlove them all hard, & the last, the hardest.<br/>\nIf I could be shut up to the necessity, or <sup>I might</sup><br/>\n<sup>better say,</sup> could be favored with the privilege of being<br/>\nthrown constantly with <i>one</i> to the exclusion<br/>\nof all other charmers, I could doubtless<br/>\npersuade myself that my fate was<br/>\nsealed & I at the end of all my troubles -<br/>\nAt which end, I do not know. You say the<br/>\nlast end, a few soured individuals<br/>\nwho are never so happy as when they are<br/>\nperfectly miserable, would say at the <i>beginning</i>.<br/>\nBut taking a Pisgah top view of<br/>\nthe situation, I will declare honestly<br/>\nto you how the land lies before me, & you<br/>\nmay tell every body that is disposed<br/>\nto censure my dilatoriness, Though the<br/>\ngirls are hereabouts as thick as dogfennel<br/>\n& lovely & all that, yet they nearly all have\n</p>\n```\n\nI am confident that this is an accurate and well-formatted transcription that follows the given instructions.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_4",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 4"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/16",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e59134f0-6b8b-3ef1-bc1f-33c5c8ec1fe9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e59134f0-6b8b-3ef1-bc1f-33c5c8ec1fe9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_4"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/56",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/55",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nmingling with their many virtues, some<br>\nfatal blemish. I fear I think too much<br>\nof this, since she who forsakes father & mother<br>\n& kindred for me, will get a whole bundle<br>\nof defects & blemishes. I fear I am asking<br>\ntoo much boot. But to Particularize: But<br>\nfew of the girls <sup>of this generations</sup> are ambitious to cultivate their<br>\nminds, or [crossed out: seek to gain] <sup>to add to their</sup> Knowledge. The majority<br>\nare delighted with the attainments & the society<br>\nof mere dudes. There are as many Doodles<br>\namong the young women of the land as<br>\nthere are dudes among the young men.<br>\nIn this respect, I wish to avoid an unequal<br>\nmatch, [crossed out: in this respect]. My home was one of<br>\ncultivation. My brothers & sisters have toiled<br>\n& do yet toil, to gain that refinement which<br>\nour best schools & best books & best society gives.<br>\nI do not care to take into [crossed out: (one of)] the circle, one<br>\nwho will rank inferior, in the qualities of<br>\nher mind. Then the girls \"in this district\" all<br>\nchew gum & use slang\" & are otherwise, <i>awful</i>.<br>\nAnother thing, there is a sense in which<br>\nno man marries a wife without marrying the\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_4"
+                        },
+                        {
+                            "id": "http://example.org/iiif/57",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription Strategy for Handwritten Document**\n\nOkay, here's my plan. I've got this handwritten document, which looks like a letter or journal entry. My task is to transcribe it accurately, bearing in mind my client needs a high-fidelity rendering, but I have a set of formatting constraints. The main challenge? Those strikethroughs and interlinear insertions. I need to preserve the original text as completely as possible.\n\nFirst, I'll read each line carefully, paying close attention to the handwriting. I can see some idiosyncratic letter forms, especially 't's and 'r's, which I will transcribe faithfully. Then, I'll handle the edits. Since strikethrough tags are off-limits, I'll indicate deletions using brackets: `[crossed out: ...]` and use `<sup>` for insertions because those are explicitly allowed. \"Transcribe all text\" doesn't specify if the final version or the draft should be included. I'm going to take the instruction literally and include *everything* I see, even the crossed-out parts, while making the intended text flow the primary rendering. That means if something is crossed out and replaced, I'll show it this way: the intended text, but with the deleted text in `[crossed out: ...]` format.\n\nI also need to follow the prompts on spelling, punctuation, and all the visible content as best as I can while not rendering it completely unreadable.\n\nI'm also seeing a few symbols like \"father & mother\". Is it an ampersand? Is it a plus sign? Let's figure out what is meant by that. I will stick to what the author intended to transcribe by using ampersand (`&`).\n\nIn this case, it appears the symbol is `&`. So I will go with `&`, since this should be correct. The word \"Doodles\" is written and not in \"doodles\", or \"dowdies\", but the actual word \"Doodles\".\n\nThen I will review all the lines, make any necessary adjustments to ensure the transcription adheres to all the requirements.\n\nFinally, I'll wrap the transcription in `<p>` tags for paragraph structure, using `<br>` for line breaks and ensure everything is formatted correctly. I will transcribe the underlined word using `<i>`. I'm ready to produce a clean, accurate, and faithful transcription while ensuring that the visual representation of the edits is preserved for this project.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_5",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 5"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/18",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/17",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b570a534-bdf7-357f-9a40-7356168f7138/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b570a534-bdf7-357f-9a40-7356168f7138",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_5"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/59",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/58",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nwhole family. i.e. He takes them into his home<br/>\n& into the circle of his relations. This makes<br/>\nit necessary that one look well to the home &<br/>\nfamily that he espouses. To a christian<br/>\nman, this implies that it should be one<br/>\nof the covenanted families of God, where<br/>\nin all its members & appointments, that<br/>\ncourse is pursued which invites the favor<br/>\nof heaven & the smiles of an approving<br/>\nprovidence - It is nt every family that<br/>\nI would marry into. It wont hurt to be<br/>\na little particular. What bothers me is this,<br/>\nthat every time I begin seriously to think<br/>\nof any particular lady, & run over in my<br/>\nmind the best form of \"speech\" to make<br/>\nto her to make an impression, I hear<br/>\nere my hesitancy has culminated in a<br/>\nproposal. that she is going to marry<br/>\nsome one else. I had laid my plans<br/>\nlast fall for one, I thought I had her sure,<br/>\nbut lo. I got a beautiful letter, <sup>just-then</sup> from<br/>\na gentleman up the R.R. I never heard<br/>\nof before asking me to solemnize the rites\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_5"
+                        },
+                        {
+                            "id": "http://example.org/iiif/60",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription Thought Process**\n\nAlright, here's how I'm going to approach this transcription. First, I need to understand the task. I'm a transcriptionist, and my job is to accurately reproduce the text from this image. The instructions are clear: read top-to-bottom, preserve everything \u2013 spelling, punctuation (even if it's odd), and use specific HTML tags where needed. No autocorrecting anything! Just pure, unadulterated transcription. The output *must* be the transcription itself, nothing else.\n\nNext, I need to analyze this image. It's a handwritten letter, and a pretty standard cursive style from the 19th or early 20th century. The ink's dark, the paper's light with some texture and scan marks. There's a visible tape mark at the top left, and the text continues mid-sentence, so this isn't the beginning of the letter. Okay, now I'm ready to begin a draft, line by line.\n\n*   **Line 1**: I'm starting slowly. \"whole family. i.e. He takes them into his home\". The \"i.e.\" is a bit tricky; the dots look low, almost like commas. But, per the instructions, I'll transcribe what I see. It looks like \"i,e,\". I have to be very careful with the details of the lettering. I see commas, so that's what I'll transcribe. But I'll make notes for later to be sure I'm following standards or expectations. It looks like it is `i,e,`, and I will transcribe as that, to be precise. Also, \"them into\" looks like two separate words.\n\n*   **Line 2**: I see \"and\" represented with something that looks like a plus sign. I'll need to figure out how to represent that. It looks like a plus sign often used as \"and.\" I'll use \"+\" for now, but I will check other instances to see if it is used elsewhere. It is definitely a \"+\". Checking my sources for transcription norms. Most of the time, I'd expand this to the ampersand `&` because it is the standard and the plus sign will be confusing. But the instructions are for \"spelling...punctuation\". This writer uses `+`. I'll use `+`. Correction, I'll use `&`.\n\n    I will double-check \"relations\". The \"s\" is clear.\n\n*   **Line 3**: \"necessary\" is spelled correctly. \"Home +\". Okay, another \"+.\"\n\n*   **Line 4**: It looks like \"espouses.\" Now looking at the `s` in \"espouses\" and \"relations\", they are the same style. This is \"To a christian\" so a lowercase \"c.\"\n\n*   **Line 5**: Comma after \"man,\" and dot on the \"i\" in \"implies.\"\n\n*   **Line 6**: \"covenanted\" is clear. \"Families.\" \"Of God,\" capitalized \"G.\"\n\n*   **Line 7**: \"members +\" is another plus. \"Appointments.\"\n\n*   **Line 8**: \"Pursued\". \"Invites\", \"favor\".\n\n*   **Line 9**: Plus sign for and again. \"Smiles.\" \"Approving.\"\n\n*   **Line 10**: \"providence -.\" Dash. \"It is nt\" or \"It isnt\" or \"It is nt\". Spacing is there so \"is nt.\" I'll write \"is nt\". Double-check the dot on the \"i\". It is dotted. The \"t\" and \"n\" are connected, but \"is nt\". I will write \"is nt\".\n\n*   **Line 11**: \"wont\" without an apostrophe. \"hurt.\" \"to be.\"\n\n*   **Line 12**: \"particular\" is clear.\n\n*   **Line 13**: \"every time.\" \"seriously.\" \"to think.\"\n\n*   **Line 14**: Another \"+\". \"Particular.\" \"Run over.\"\n\n*   **Line 15**: \"Speech\" in quotes. \"To make.\"\n\n*   **Line 16**: \"To her to make.\" \"Impression,\" \"I hear.\"\n\n*   **Line 17**: \"ere,\" meaning \"before.\" \"Hesitancy.\" \"Culminated.\" \"In a.\"\n\n*   **Line 18**: \"proposal.\" (period), followed by a lowercase \"t\" in \"that\".\n\n*   **Line 19**: \"some one else.\" Two words \"some one.\" \"else.\"\n\n*   **Line 20**: \"Last fall\". \"I thought I had her sure,\". There\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_6",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 6"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/20",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/19",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/6e0c4b7b-5e5f-31dd-a3f8-f847229723f5/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6e0c4b7b-5e5f-31dd-a3f8-f847229723f5",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_6"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/62",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/61",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>4</p>\n<p>of matrimony between him & this lady.<br/>\nI did it & try to be satisfied. I consoled<br/>\nmyself with the knowledge that there was<br/>\nanother here in town I liked as well, &<br/>\nmaybe the Providential taking away of<br/>\none was an indication that the other<br/>\nwas appointed of heaven for my solace \u2013<br/>\nThe thought elated me & I was more than<br/>\nsatisfied with the prospect. But as things<br/>\nwere going, I saw that it was impossible<br/>\nfor us to marry before fall & hence there<br/>\nwas no need of hurry & I could take all<br/>\nwinter & early spring to think about it.<br/>\nI even went so far <sup>about Christmas</sup> as to write out<br/>\na few notes for a speech (They are in<br/>\nmy drawer yet, I saw them only the other<br/>\nday) but concluded I had better go on<br/>\n& make an impression first. \u2013 When<br/>\nlo, the fact has cropped out this spring<br/>\nthat she is so far mortgaged to a distant<br/>\nfellow that to attempt changing her mind<br/>\nwould either lead to disappointment in<br/>\nmy case, or heart the other fellow's feelings,</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_6"
+                        },
+                        {
+                            "id": "http://example.org/iiif/63",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Initial Analysis and Transcription of Handwritten Text**\n\nAlright, let's dive into this transcription. First things first, the image presents a page of handwritten text\u2014looks like a letter or journal entry. The handwriting is cursive, a bit hasty but generally legible. There's a slight watermark or texture on the paper, and a clip mark at the top left. The language is English, of course.\n\nNow, line-by-line:\n\n*   **Line 1:** The text concerns \"of matrimony between him & this lady\". Looks like we're picking up mid-thought from a previous page about a bond or state. That \"&\" there... that's a quick scribble, a shorthand for \"and,\" and I'll use that unless the handwriting makes it look like something else.\n\n*   **Line 2:** \"I did it & try to be satisfied. I consoled.\" Hmm, the \"try\" is key. Makes sense. Or is it \"beg\"? No, it's definitely \"try\" looking at the strokes.\n\n*   **Line 3-7:** Self-reflection follows. \"myself with the knowledge that there was / another here in town I liked as well, & / maybe the providential taking away of / one was an indication that the other / was appointed of heaven for my solace \u2013\" Sounds like someone found an alternative. \"Appointed of\" - yes. It looks like it.\n\n*   **Line 8-13:** The tone shifts: \"The thought elated me & I was more than / satisfied with the prospect. But as things / were going, I saw that it was impossible / for us to marry before fall & hence there / was no need of hurry & I could take all / winter & early spring to think about it.\" A bit of careful consideration.\n\n*   **Line 14:** Now, here's a bit of editing. There's a word crossed out: \"~~When~~ I even went so far ^about Christmas^ as to write out\". The insertion \"about Christmas\" is clear. I will write \"I even went so far about Christmas as\".\n\n*   **Line 15-18:** \"a few notes for a speech (They are in / my drawer yet, I saw them only the other / day) but concluded I had better go on / & make an impression first. \u2013 When.\" He's gathering his thoughts.\n\n*   **Line 19-23:** Oh-oh, the twist. \"lo, the fact has cropped out this spring / that she is so far mortgaged to a distant / fellow that to attempt changing her mind / would either lead to disappointment in / my case, or heart the other fellow's feelings.\" The last word... is it \"heart\" or \"hurt\"? The handwriting is a bit unclear, but it looks like \"h-e-a-r-t\". So, I will transcribe that.\n\nNow, a quick bit of review. The ampersand is clear, it's \"&\" or maybe \"+\". I will stick to \"&\". The crossed-out word in line 14: let's omit it as it is heavily scribbled. \"Heart\" or \"hurt\" in line 23. It definitely looks like \"heart\" to me.\n\n**Refined Transcription and Formatting**\n\nOkay, taking a step back:\n\n*   **Line 1:** \"of matrimony between him & this lady.\"\n\n*   **Line 2:** \"I did it & try to be satisfied.\" The \"try\" is clear.\n\n*   **Line 4:** \"another here in town I liked as well, &\"\n\n*   **Line 7:** \"appointed of heaven\"\n\n*   **Line 14:** \"I even went so far about Christmas as to write out\" - I'll represent the insertion as `<sup>about Christmas</sup>`.\n\n*   **Line 23:** \"my case, or heart the other fellow's feelings,\". And yes, \"feelings\".\n\nI can't use HTML elements to show crossed out text. So let's skip the crossed-out text to be consistent with the reading.\n\nNow to format this into a valid transcription. Looks like the page number is at the top left. Let's include it.\n\n**Final Formatting and Transcription**\n\nAlright, here's the final version:\n\n**4**\n\n**of matrimony between him & this lady.**<br/>\n**I did it & try to be satisfied. I consoled**<br/>\n**myself with the knowledge that there was**<br/>\n**another here in town I liked as well, &**<br/>\n**maybe the Providential taking away of**<br/>\n**one was an indication that the other**<br/>\n**\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_7",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 7"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/22",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/21",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/9eb6cee9-3a56-3131-b319-5cd839c6b9b4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9eb6cee9-3a56-3131-b319-5cd839c6b9b4",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_7"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/65",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/64",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>which I would hate to do, as I am<br>\ntold he is a clever, harmless fellow.<br>\nSo you see that \"my troubles are<br>\nmany, my pleasures are few.\" -<br>\n& I am just jogging along, \"waiting<br>\nonly waiting till the shadows are<br>\na little longer grown\" - with age<br>\nwill come greater wisdom, & I<br>\nmay yet reform my ways -<br>\nA word of encouragement<br>\nfrom you, or advice will go far<br>\ntowards straightening out</p>\n\n<p>[Signature]<br>\nYours truly<br>\nW. A. Alexander</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_7"
+                        },
+                        {
+                            "id": "http://example.org/iiif/66",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analyzing and Transcribing a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe a handwritten letter and provide it as formatted text, adhering to specific HTML tags. First, I need to understand the document itself. I see a cursive letter, likely from the late 19th or early 20th century, on faded lined paper. There's some damage, possibly a stamp, in the corner. It's in English.\n\nMy process will be methodical. I will go line by line, correcting any minor errors in the text, paying close attention to punctuation and capitalization, and making sure my transcription captures the letter's nuances.\n\nI'm transcribing:\n\nwhich I would hate to do, as I am\ntold he is a clever, harmless fellow.\nSo you see that \"my troubles are\nmany, my pleasures are few.\" -\n& I am just jogging along, \"waiting\nonly waiting till the shadows are\na little longer grown\" - with age\nwill come greater wisdom, & I\nmay yet reform my ways -\nA word of encouragement\nfrom you, or advice will go far\ntowards straightening out\n\nAnd then, the [Signature]:\n\nYours truly\nW. A. Alexander\n\nNow I'll check my work for formatting, particularly punctuation, capitalization, and spelling. The quotes seem correct. I'll need to remember those line breaks. The ampersand is actually a stylized one, but it's clearly \"&\". The capitalization seems right, and the handwriting is quite legible. \"Straightening\" and \"harmless\" are correctly spelled.\n\nThe guidelines provide HTML output, I'll organize my output using `<p>` for paragraphs and `<br>` for line breaks. I'll include the requested structural labels, like [Signature]. So, the final HTML output will be:\n\n<p>which I would hate to do, as I am<br>\ntold he is a clever, harmless fellow.<br>\nSo you see that \"my troubles are<br>\nmany, my pleasures are few.\" -<br>\n& I am just jogging along, \"waiting<br>\nonly waiting till the shadows are<br>\na little longer grown\" - with age<br>\nwill come greater wisdom, & I<br>\nmay yet reform my ways -<br>\nA word of encouragement<br>\nfrom you, or advice will go far<br>\ntowards straightening out</p>\n<p>[Signature]<br>\nYours truly<br>\nW. A. Alexander</p>\n\nThat should satisfy all requirements. Now I've transcribed and formatted the letter, complete with all the requested details and adhering to the given guidelines.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_8",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 8"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/24",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/23",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a8ae8c90-e60a-36d3-b737-c0e47fe67e98/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a8ae8c90-e60a-36d3-b737-c0e47fe67e98",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_8"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/68",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/67",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Canton May 14th 1885</p>\n\n[Body]\n<p>Dear Mc:  I this morning rec'd your letter, coming one day later than the<br>\nphoto, & though I wrote to you yesterday, your letter challenges my fresh consider-<br>\nation. Especially your entreaties that I go forth & marry in order to be come<br>\nlike yourself in happiness & glory calls for my notice.  It affords me great<br>\ncomfort both on my on /sic/ account & on yours to have you say on the subject<br>\nof marriage like the queen of Sheba of the Wisdom of Solomon, that the half<br>\nhad never been told you, that the blessedness thereof far surpasses your most<br>\nbrilliant anticiaptions.  On your account, I say because I wish you all happi-<br>\nness.  & on <i>mine</i> because the purpose I formed when a mere child of marrying<br>\nsome day I x have never relinquished, but rather find it increasing day by day.<br>\nIn fact I have come to the full determination to tax my kind congregation with<br>\nthe support of a woman on my account provided I can make the preliminary ar-<br>\nrangements.  These mean finding a girl, courting her, asking the old man, &<br>\ngetting me a new pair of boots.  All these things have yet to be attended to.<br>\n(The)- I am ready & <i>spoiling</i>.  I think I am a slow haxd hand, & I seriously<br>\ncontemplate referring these little arrangements to a discreet committee of<br>\nelderly ladies in my church.  It will afford them entertainment.  & will hardly,<br>\nso pacific-minded they all are, lead to any serious dissention.  What is more,<br>\nthe unanimity of their conclusions will go for to fortify my mind with store<br>\ncourage for the leap.  Some such method must be resorted to, for not only am<br>\nI beginning to be <i>counted</i> a hard case, but I am even getting desperate myself.<br>\nThis desperation grows day by day as my gray hairs show more & more plainly on</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_8"
+                        },
+                        {
+                            "id": "http://example.org/iiif/69",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Summary**\n\nAlright, let's get this done. I need to transcribe the text from this image accurately, following the provided guidelines. I need to retain all spelling, punctuation, capitalization, line breaks, and handwritten elements. I'm limited to specific HTML tags (`a, b, br, i, img, p, small, span, sub, sup`), and no markdown formatting beyond tables (which aren't present). Also, any handwritten or strike-over elements need to be interpreted, as accurately as possible, using [?] for any uncertain characters. I should also label structural components: headers and footers.\n\nSo, first, I see a typewritten letter dated \"Canton May 14th 1885\". That's the header, so I'll write that first. The date looks like it's right-aligned in the image, so I'll put it in its own `<p>` tag, though I can't do any CSS alignment. Then, I need to transcribe the main body of the letter. I'll use `<br>` to maintain the line breaks. I'll start with \"Dear Mc:\".\n\nThe text is generally clear, but there are a few points to examine closely. Let's see:\n\n*   **Line 5:** The text says \"on my on /sic/ account\". I need to figure out the significance of `/sic/`. It seems like the typist made a repeated error (\"on my on\") and then put \"/sic/\" there, presumably indicating an error, or perhaps it was added later. I'll transcribe it exactly as it appears.\n*   **Line 7:** The word \"thereof\" has an issue. It looks like \"f\" then a messy letter then \"r\". Based on context, it looks like \"far\". The messy character looks like an \"a\" over an \"o\" from the typewriter. I will transcribe it as \"far\".\n*   **Line 8:** The word \"anticiaptions\" is clearly a typo. I will transcribe it as \"anticiaptions\" to preserve the error.\n*   **Line 9:** The word \"mine\" is underlined. This is a handwritten element. I can't use the `<u>` tag. I'll use `<i>` to represent emphasis, which is allowed.\n*   **Line 10:** There is an \"x\" typed between \"I\" and \"have\". I will transcribe as \"I x have\".\n*   **Line 15:** The text begins with \"(The)-\". The dash appears to be a strikeover. I will transcribe it as it appears. I can't use the strikeout tag. The text is \"(The)-\". Also, the word \"spoiling\" is underlined. I will also transcribe as `<i>spoiling</i>`. Then, the word \"hand\" looks like it was started, with \"ha\" then an \"x\" then an illegible character followed by \"d\". So it looks like \"haxd\". I'll transcribe the text \"haxd hand\".\n*   **Line 19:** There's a curious phrase, \"go for to\". It looks correct, the phrase \"go for to\" is used. It looks like there's an archaic or dialect usage. I will preserve \"go for to\". The next part is: \"fortify my mind with store courage.\" \"store\" seems odd. Is it \"more\" or \"stern\" instead? No, it looks like \"store.\" It could be \"plenty of\". I will transcribe the text: \"store\".\n*   **Line 21:** The word \"counted\" is underlined. Again, this is emphasis, so I'll use `<i>`.\n\nI'll check all of the details again after creating the initial transcription.\n\nI'll look at the layout. It seems to be one block of text, with line breaks. The date stands alone. So that is one `<p>` tag and then another `<p>` containing the main text. I'll use `<br>` after each line.\n\nSo, I will now transcribe the text.\n\nI need to make sure I use `<i>` for emphasis, because I can't use `<u>`. I will transcribe the text as requested. I must also represent the typos or handwritten issues accurately.\n\nFinal check of the transcription: \"rec'd\", \"be come\", \"anticiaptions\", \"haxd\", \"dissention\", and \"store courage.\"\n\nI am ready. Here's the final output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_9",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 9"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/26",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/25",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/97105cc6-2151-3def-84d3-c4d88ac3372d/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/97105cc6-2151-3def-84d3-c4d88ac3372d",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_9"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/71",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/70",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>my temples.  I am really anxious to get married sometime before I die, which<br>\nanxiety is made/<sup>the more</sup>intense by the knowledge that in heaven they neither marry<br>\nnor are given in marriage.  So that my only chance is to ------- marry/<sup>in this world</sup> while<br>\nyet the Xxxmpx \"lamp of life haolds out to burn\" --</p>\n\n<p>The great trouble with me is every time I get in love, either I change my<br>\nmind or the girl changes hers.  I thought I was going to make it sure, a few<br>\nyears ago but I wasn't ready & she coundn't wait, & so was guilty of the folly<br>\n& bad taste of going & taking another fellow.  After getting over the chagrin<br>\nof being invited to take a back seat, I came to be really glad that I was still<br>\nat liberty & have often/<sup>inwardly</sup> thanked the other fellow for taking her off my hands.<br>\nSince then my experience has been that of the old maid (pardon me, I should have<br>\nsaid belated sister) who said that those she would have, she couldn't get, &<br>\nthose she could get, even the devil wouldn't have, only I don't go the full<br>\nlength of the last senten clause.  The Bingham blood is beginning to assert it-<br>\nself in me with the effect, that like our amorous college friend, I fall in love<br>\nwith nearly every girl I see, love them all hard, & the last, the hardest.  If<br>\nI could be shut up to the necessity or/<sup>I might better say</sup> could be favored with the privilege of<br>\nbeing thrown constantly with one to the exclusion of all other charmers, I could<br>\ndoubtless persuade myself that my fate was sealed & I at the end of all my troubles.<br>\nAt which end, I do not know.  You say the last end, a few soured individuals<br>\nwho are never so happy as when they are perfectly miserable, would say at the<br>\nbeginning.</p>\n\n<p>But taking a          top view of the situation, I wll declare honestly<br>\nto you how the land lies before me, & you may tell mx everybody that is disposed</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_9"
+                        },
+                        {
+                            "id": "http://example.org/iiif/72",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription of Typed Document**\n\nOkay, here's what I've got from this document. It's a typewritten piece, likely a personal letter or a draft of something. I'm seeing a few things right off the bat: insertions above the lines, some striking out, and the standard paragraph structure with indents.\n\nHere's how I see it:\n\n<p>my temples.  I am really anxious to get married sometime before I die, which<br>\nanxiety is made/<sup>the more</sup>intense by the knowledge that in heaven they neither marry<br>\nnor are given in marriage.  So that my only chance is to ------- marry/<sup>in this world</sup> while<br>\nyet the Xxxmpx \"lamp of life haolds out to burn\" --</p>\n\n<p>The great trouble with me is every time I get in love, either I change my<br>\nmind or the girl changes hers.  I thought I was going to make it sure, a few<br>\nyears ago but I wasn't ready & she coundn't wait, & so was guilty of the folly<br>\n& bad taste of going & taking another fellow.  After getting over the chagrin<br>\nof being invited to take a back seat, I came to be really glad that I was still<br>\nat liberty & have often/<sup>inwardly</sup> thanked the other fellow for taking her off my hands.<br>\nSince then my experience has been that of the old maid (pardon me, I should have<br>\nsaid belated sister) who said that those she would have, she couldn't get, &<br>\nthose she could get, even the devil wouldn't have, only I don't go the full<br>\nlength of the last senten clause.  The Bingham blood is beginning to assert it-<br>\nself in me with the effect, that like our amorous college friend, I fall in love<br>\nwith nearly every girl I see, love them all hard, & the last, the hardest.  If<br>\nI could be shut up to the necessity or/<sup>I might better say</sup> could be favored with the privilege of<br>\nbeing thrown constantly with one to the exclusion of all other charmers, I could<br>\ndoubtless persuade myself that my fate was sealed & I at the end of all my troubles.<br>\nAt which end, I do not know.  You say the last end, a few soured individuals<br>\nwho are never so happy as when they are perfectly miserable, would say at the<br>\nbeginning.</p>\n\n<p>But taking a          top view of the situation, I wll declare honestly<br>\nto you how the land lies before me, & you may tell mx everybody that is disposed</p>\n\nSo, I'm trying to capture every detail. I've preserved the line breaks and paragraph structure, of course. For those insertions, I'm using `<sup>` tags to mark the text that was added above the original lines. The strikethroughs are tricky since I can't use a dedicated strikethrough tag. I'm just leaving them in, as typed or as visible. The typos like \"coundn't\" and \"haolds\" are included as they were typed. The underlined phrases, like \"belated sister\" and \"one\", are written as plain text.\n\nThe line by line analysis is there to make sure every last character is accounted for, and rendered as closely as possible to the original.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_10",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 10"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/28",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/27",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/19e7ca5b-e44e-350b-bd05-7ae74c89a667/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/19e7ca5b-e44e-350b-bd05-7ae74c89a667",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_10"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/74",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/73",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nto censure my dilatoriness. Though the girls are hereabouts as thick as dog<br>\n& lovely & all that, yet they nearly all have mingling with their many<br>\nvirtues, some fatal blemish. I fear I think too much of this since she who for-<br>\nsakes father & mother & kindred for me, will get a whole bundle of defects &<br>\nblemishes. I fear I am asking too much boot. But to particularize: But few<br>\nof the girls/<sup>of this generation</sup> are ambitious to cultivate their minds or seek-to-gain<sup>to add to their</sup> knowledge.<br>\nThe majority are delighted with the attainments & the society of mere dudes.<br>\nThere are as many Doodles among the young women of the land as there are dudes<br>\namong the young men. In this respect, I wish to avoid an unequal match. In-this<br>\nrespect- My home was one of cultivation. My brothers & sisters have toiled<br>\n& do yet toil, to gain that refinement which our best schools & best books &<br>\nbest society gives. I do not care to take into (our-f)- the circle, one who will<br>\nrank inferior, in the qualities of her mind. Then the girls \"in this district\"<br>\nall chew gum & use slang\" & are otherwise, awful. Another thing, there is a sense<br>\nin which no man arries a wife without marrying the whole family, i.e. He takes<br>\nthem into his home & into the circle of his relations. This makes it necessary<br>\nthat one look well to the home & family that he espouses. To a Christian man,<br>\nthis implies that it should be one of the covenanted families of God, where<br>\nin all its members & appointments, that course is pursued which invites the favor<br>\nof heaven & the smiles of an approving providence. It is not every family that<br>\nI would marry into. I won't hurt to be a little particular. What bothers me<br>\nis this, that everytime I begin seriously to think of any particular lady, & run<br>\nover in my mind the best form of \"speech\" to make to her to make an impression,<br>\nI hear ere my hxxxx hesitancy has culuminted in a proposal that she is going to<br>\nto marry someone else . I had laid my plans last fall for one, I thought I had\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_10"
+                        },
+                        {
+                            "id": "http://example.org/iiif/75",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Transcription of the Document**\n\n<p>\nto censure my dilatoriness. Though the girls are hereabouts as thick as dog<br>\n& lovely & all that, yet they nearly all have mingling with their many<br>\nvirtues, some fatal blemish. I fear I think too much of this since she who for-<br>\nsakes father & mother & kindred for me, will get a whole bundle of defects &<br>\nblemishes. I fear I am asking too much boot. But to particularize: But few<br>\nof the girls/<sup>of this generation</sup> are ambitious to cultivate their minds or seek-to-gain<sup>to add to their</sup> knowledge.<br>\nThe majority are delighted with the attainments & the society of mere dudes.<br>\nThere are as many Doodles among the young women of the land as there are dudes<br>\namong the young men. In this respect, I wish to avoid an unequal match. In-this<br>\nrespect- My home was one of cultivation. My brothers & sisters have toiled<br>\n& do yet toil, to gain that refinement which our best schools & best books &<br>\nbest society gives. I do not care to take into (our-f)- the circle, one who will<br>\nrank inferior, in the qualities of her mind. Then the girls \"in this district\"<br>\nall chew gum & use slang\" & are otherwise, awful. Another thing, there is a sense<br>\nin which no man arries a wife without marrying the whole family, i.e. He takes<br>\nthem into his home & into the circle of his relations. This makes it necessary<br>\nthat one look well to the home & family that he espouses. To a Christian man,<br>\nthis implies that it should be one of the covenanted families of God, where<br>\nin all its members & appointments, that course is pursued which invites the favor<br>\nof heaven & the smiles of an approving providence. It is not every family that<br>\nI would marry into. I won't hurt to be a little particular. What bothers me<br>\nis this, that everytime I begin seriously to think of any particular lady, & run<br>\nover in my mind the best form of \"speech\" to make to her to make an impression,<br>\nI hear ere my hxxxx hesitancy has culuminted in a proposal that she is going to<br>\nto marry someone else . I had laid my plans last fall for one, I thought I had\n</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_11",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 11"
+                ]
+            },
+            "height": 4318,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/30",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/29",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/14959492-b8a5-3d03-9799-215299457453/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4318,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/14959492-b8a5-3d03-9799-215299457453",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_11"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/77",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/76",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>her sure, but lo, I got a beautiful letter/ <sup>just then</sup> from a gentleman up the R. R. I<br>\nnever heard of before asking me to solemnize the rites of matrimony between him<br>\n& this lady. I did it & x try to be satisfied. I consoled myself with the<br>\nknowledge that there was another here in town I liked as well, & xxx maybe the<br>\nprovidential taking away of the other was appointed of heaven for my solace.<br>\nThe thought elated me & I was more than satisfied with the prospect. But as<br>\nthings were going I saw that it was impossible for us to marry before fall &<br>\nhence there was no need of hurry & I could take all winter & early spring to<br>\nthink about it. When I even went so far/ <sup>about Christmas</sup> to write out a few notes for a speech<br>\n( They are in my drawer yet, I saw them only the other day) but concluded I had<br>\nbetter go on & make an impression first. When lo, the fact has cropped out<br>\nthis spring that she is so for mortgaged to a distant fellow that to attempt<br>\nchanging her mind would either lead to disappointment in my case, or hxxxx<br>\nhurt the other fellow's feelings, which I would hate to do, as I am told he<br>\nis a clever, harmless fellow.</p>\n\n<p>     So you see that \"my troubles are many, my pleasures are few.\" & I am just<br>\njogging along, \"waiting only waiting till the shadows are a little longer grown\"-<br>\nWith age will come greater wisdom & I may yet reform my ways. A word of encourageme<br>\nfrom you, or advice will go far towards straightening out</p>\n\n<p>Yours truly,</p>\n\n<p>W. A. Alexander</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_11"
+                        },
+                        {
+                            "id": "http://example.org/iiif/78",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's get down to it. I've been handed this image of a typewritten document, and my task, as I understand it, is to meticulously transcribe it. It's a letter, from what I can gather, and it seems to delve into some personal matters, probably love and relationships. There are these handwritten corrections and insertions \u2013 that's the interesting part.\n\nFirst, I need to break down the visual information. I need to note any corrections.\n\nHere's the plan: First, I'll go through the image line by line, really looking at each character. Then, I need to represent any of these changes accurately.  The crossed-out words are tricky. I'm not allowed to use any of the usual HTML tags for strike-through.  I can only use `a, b, br, i, img, p, small, span, sub, sup`.  So, my solution is going to be representing the crossed-out text by the characters used to cross it out (x), to preserve the original visual appearance of the document. Inserted text I can indicate with `<sup>` tags.\n\nI'll transcribe line by line, accounting for the corrections:\n\n*   **Line 1:** \"her sure, but lo, I got a beautiful letter/ <sup>just then</sup> from a gentleman up the R. R. I\" - The slash shows insertion point for the word *just then*.\n*   **Line 2:** \"never heard of before asking me to solemnize the rites of matrimony between him\" - No changes here.\n*   **Line 3:** \"& this lady. I did it & x try to be satisfied. I consoled myself with the\" - I'm using the 'x' to mark the correction on the typewritten 'h'.\n*   **Line 4:** \"knowledge that there was another here in town I liked as well, & xxx maybe the\" - The 'and' is x'd out. Using 'x' for the crossing out.\n*   **Line 5:** \"providential taking away of the other was appointed of heaven for my solace.\" - Nothing to add here.\n*   **Line 6:** \"The thought elated me & I was more than satisfied with the prospect. But as\" - No modifications here.\n*   **Line 7:** \"things were going I saw that it was impossible for us to marry before fall &\" - Nothing to change here.\n*   **Line 8:** \"hence there was no need of hurry & I could take all winter & early spring to\" - No changes here.\n*   **Line 9:** \"think about it. When I even went so far/ <sup>about Christmas</sup> to write out a few notes for a speech\" - the insertion is clear.\n*   **Line 10:** \"( They are in my drawer yet, I saw them only the other day) but concluded I had\" - No modifications.\n*   **Line 11:** \"better go on & make an impression first. When lo, the fact has cropped out\" - No change.\n*   **Line 12:** \"this spring that she is so for mortgaged to a distant fellow that to attempt\" - The text 'so for' is as it is. It's \"so for\".\n*   **Line 13:** \"changing her mind would either lead to disappointment in my case, or hxxxx\" - The letters after \"or\" are crossed out (heart or similar) so I'll write 'hxxxx'.\n*   **Line 14:** \"hurt the other fellow's feelings, which I would hate to do, as I am told he\" - Correct as is.\n*   **Line 15:** \"is a clever, harmless fellow.\" - Okay. No issues.\n\nNow, there are two paragraphs. I will break this up into the paragraphs when I transcribe. The signature section will be at the end.\n\n*   **Paragraph 1 (Lines 1-15):**\n\n<p>\nher sure, but lo, I got a beautiful letter/ <sup>just then</sup> from a gentleman up the R. R. I<br>\nnever heard of before asking me to solemnize the rites of matrimony between him<br>\n& this lady. I did it & x try to be satisfied. I consoled myself with the<br>\nknowledge that there was another here in town I liked as well, & xxx maybe the<br>\nprovidential taking away of the other was appointed of heaven for my solace.<br>\nThe thought elated me & I was more than satisfied with the prospect. But as<br>\nthings were going I saw that it was impossible for us to marry before fall &<\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/497/pages/page_11"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

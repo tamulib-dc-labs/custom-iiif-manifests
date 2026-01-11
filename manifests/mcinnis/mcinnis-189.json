@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-189.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from W. R. Cavitt, April 19, 1887"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-04-19"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from W. R. Cavitt, April 19, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 25 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/a2e540cb-6923-3e0f-be81-ef4306c7a344/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1756,
+            "width": 3025,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/32",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/31",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/a2e540cb-6923-3e0f-be81-ef4306c7a344/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1756,
+                                "width": 3025,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a2e540cb-6923-3e0f-be81-ef4306c7a344",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/38",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/37",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Postmark: BRYAN / TEX]</p>\n\n<p>UNITED STATES<br>\nPOSTAL CARD.<br>\nONE CENT<br>\n<small>NOTHING BUT THE ADDRESS TO BE ON THIS SIDE.</small></p>\n\n<p>Prof. L. L. M=Innis<br>\nCollege Station<br>\nBrazos Co-<br>\nTexas-</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/39",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription Process**\n\nOkay, here's my thought process on this transcription. The goal is to accurately represent the text from this vintage postal card.\n\nFirst, I need to analyze the image. It's a United States Postal Card, the \"Jefferson One Cent\" design. I can see the \"UNITED STATES,\" \"POSTAL CARD,\" and \"ONE CENT\" printed elements, and then \"NOTHING BUT THE ADDRESS TO BE ON THIS SIDE.\" I also see a postmark, partially obscuring the header, with \"BRYAN / TEX,\" which I'll need to account for. There's an address, handwritten, for \"Prof. L. L. McInnis,\" though the \"c\" in McInnis is represented with what looks like a double dash symbol, then \"College Station,\" \"Brazos Co-\", and \"Texas-\". I have to remember to be as accurate as possible.\n\nNext, I need to apply the user guidelines. Reading order is top-to-bottom. Accuracy is paramount. That means preserving spelling, punctuation, and even shorthand, which I've got to watch out for. I must use only the approved HTML tags. Specifically, I'm allowed `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. Non-text elements, like the postmark, need to be noted.\n\nI'm starting to draft the transcription. I'll separate the printed header from the handwritten address. I'll handle the postmark, which is stamped over everything. I'll transcribe the printed text: \"UNITED STATES,\" \"POSTAL CARD,\" \"ONE CENT,\" and \"NOTHING BUT THE ADDRESS TO BE ON THIS SIDE.\" I'll also note the visible part of the postmark as `[Postmark: BRYAN / TEX]`. The handwritten address is \"Prof. L. L. McInnis.\" It *looks* like \"M=Innis\", though it's clearly an abbreviation of \"McInnis\". I need to figure out the best way to represent that graphically and semantically, while staying true to the image.\n\nNow I'm focusing on HTML usage. I'll structure the printed text using `<p>` tags for paragraphs. The prompt specifies only certain tags, so I can't use something like `<u>` to underline. I need to get the \"Mc\" glyph in there. I'm going to look at the name again. It looks like \"M=Innis.\" Visually, that's what's there. My immediate thought is `M<sup>c</sup>Innis`, but `<u>` isn't allowed, and I have to stick to the visual representation. I think the best option is `M=Innis` to be as accurate as possible.\n\nAfter a review, I am going to re-examine the printed text structure, like the text banners and the text inside the medallion, and double-check the postmark. It's very smudged. I can see \"BRYAN\" and \"TEX\". I will combine all this into the final format. I'll organize this as two paragraphs. One paragraph will have the postmark and all the printed text. The next paragraph will have the address.\n\nChecking the handwriting again, it's definitely `M=Innis`. The lines in the equals sign are horizontal. I'll transcribe this as `M=Innis`, which respects the handwriting's visual form.\n\nI have to represent the printed text in a sensible way to keep the structure. I'll preserve the visual hierarchy. \"UNITED STATES\" will be at the top, \"POSTAL CARD.\" and \"ONE CENT\" in the middle, and \"NOTHING BUT THE ADDRESS TO BE ON THIS SIDE\" at the bottom. The postmark will be at the very top. The address is the final element.\n\nNow I have to review and confirm the constraints. Only transcribe text. No commentary. I'm using approved HTML tags. The overall structure will be a single paragraph for the card's header information and another for the address to maintain the separation.\n\nI will use this format for the text:\n\n<p>\\[Postmark: BRYAN / TEX]</p>\n<p>UNITED STATES<br/>\nPOSTAL CARD.<br/>\nONE CENT<br/>\n<small>NOTHING BUT THE ADDRESS TO BE ON THIS SIDE.</small></p>\n<p>Prof. L. L. M=Innis<br/>\nCollege Station<br/>\nBrazos Co-<br/>\nTexas-</p>\n\nI will double-check the \"M=Innis\" again. It looks like it.\n\nA final check on the date in the postmark. Still, it's illegible. \"FEB\". Maybe \"18\"? I will leave it as illegible\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1756,
+            "width": 3025,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/34",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/33",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f2d24f68-eea6-337d-b5ef-01009006abcb/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1756,
+                                "width": 3025,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f2d24f68-eea6-337d-b5ef-01009006abcb",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/41",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/40",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Bryan - Texas - April 19<sup>th</sup> '87 -<br>\nMy dear Sir: I am not certain that<br>\nI can go to the College this afternoon, as<br>\nmy wife is quite sick - been unwell for<br>\nseveral days, but worse last night &<br>\nToday - I will go down if I can<br>\njudiciously leave home - Yours truly<br>\nW. R. Cavitt</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/42",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Okay, let's break down this image and get a clear transcription. Here's how I'm thinking about it, step-by-step:**\n\n1.  **Analyze the image:** First, I need to understand what I'm looking at. It's a handwritten note, probably in ink. The location looks like Bryan, Texas, and the date is April 19th, likely in the year 1887. The content seems to be a letter explaining the writer's absence from \"the College\" due to his wife's illness. The signature appears to be \"W.R. Cavitt\" \u2013 I'll need to confirm that.\n\n2.  **Line-by-line Transcription:** Now, the nitty-gritty. I'll read each line and think about the best way to transcribe it.\n\n    *   **Line 1:** \"Bryan - Texas - April 19th '87-\" The first word looks like \"Bryan.\" The second word is tricky; it could be \"Texas\" or a variation. It has a capital 'T'. It could be an abbreviation, or written quickly. The best option is \"Texas\". The date has a superscript \"th\" for ordinal.\n\n    *   **Line 2:** \"My dear Sir: I am not certain that\" - This one seems straightforward. \"My dear Sir: I am not certain that\"\n\n    *   **Line 3:** \"I can go to the College this afternoon, as\" - Again, this seems pretty clear. \"I can go to the College this afternoon, as\"\n\n    *   **Line 4:** \"my wife is quite sick - been unwell for\" - This line is understandable.\n\n    *   **Line 5:** \"several days, but worse last night &\" - The word \"days\" looks like it has a faint \"s\", it's likely days. I will check. It does look like \"days\". The symbol at the end is like a plus sign. Standard in manuscripts for \"and\", I'll consider using \"&\" as that's the standard in HTML, but I need to be exact. It could also be a short dash. It looks like a plus sign; I will consider all symbols here.\n\n    *   **Line 6:** \"Today - I will go down if I can\" - Clear.\n\n    *   **Line 7:** \"judiciously leave home - Yours truly\" - Is \"judiciously\" spelled correctly? Let's check. Yes, it is, in the form of how it has been written. Then there's \"Yours truly\". Let's check the letters. It is clear.\n\n    *   **Line 8:** \"W. R. Cavitt\" - I'll double-check each letter to be sure. \"W\", \"R\" are clear. The last name looks like \"Cavitt.\"\n\n3.  **Formatting:** I need to present this clearly. I'll use `<p>` tags for paragraphs. Superscript will be used for dates, and line breaks `<br>` will separate lines of text. There will be a header. And a signature.\n\n4.  **Specific Word Review:**\n    *   **\"Bryan - Texas\"**: the word after \"Bryan\" has a capital 'T'. It's likely \"Texas\" or a shortened version of \"Texas\".\n    *   **\"judiciously\"**: It's a long word, so I will analyze this carefully. \"j-u-d-i-c-i-o-u-s-l-y\". It is spelled correctly, as it looks.\n    *   **\"Yours truly\"**: It looks like \"Yours try\", which is standard for \"Yours truly\".\n    *   **Signature:** \"W. R. Cavitt\". Looks right.\n\n5.  **Assemble the Final Output:**\n\n    *   Header: Bryan - Texas - April 19<sup>th</sup> '87 -\n    *   Body: The transcription of the letter, with line breaks.\n    *   Signature: W. R. Cavitt\n\nI need to read each line to make sure all symbols are correctly transcribed.\n\nI'm checking the word \"Texas\" for one last time. It does look like \"2exas\", but the context is Bryan in Texas.\n\nI will read the line with \"judiciously\" one last time. Yes, it looks like \"judiciously.\"\n\nLet's read the symbol \"last night +\". It is likely an \"and\" sign. I'll use the HTML entity `&`. But the symbol is a `+`, which may need to be transcribed literally. It depends on the instructions. Since \"interpret as accurately as possible\" I'll stick with `&` as it\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/189/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

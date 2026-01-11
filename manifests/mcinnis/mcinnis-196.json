@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-196.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from George M. Dilley, July 2, 1888"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1888-07-02"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from George M. Dilley, July 2, 1888"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 26 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/26a5e4e3-aa38-3e8e-83bd-94eaa427b628/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 2730,
+            "width": 1714,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/260",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/259",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/26a5e4e3-aa38-3e8e-83bd-94eaa427b628/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2730,
+                                "width": 1714,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/26a5e4e3-aa38-3e8e-83bd-94eaa427b628",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/266",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/265",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p align=\"right\">Crow Island NY<br>\nJuly 2<sup><u>nd</u></sup> 1888</p>\n\n<p>Dear Friend<br>\nCatalogue 87-88<br>\ncame safely to hand and<br>\nam more than pleased to<br>\nlearn of the continued success<br>\nof the Agri- but am not at<br>\nall surprised - Garrett is<br>\nthe right man in the right<br>\nplace and the same remark<br>\napplies to yourself, & Capt Scott<br>\nwith the accent on the<br>\n\"right\", am glad the legislature<br>\ndone so well for us but am<br>\nsorry that yourself & the Capt</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/267",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, I need to get this image analyzed. It's a handwritten letter on lined paper. The location and date, \"Crow Island NY, July 2nd 1888\", are in the top right. Starting with the salutation \"Dear Friend\", I'll move into the main text.\n\nThe body begins with \"Catalogue 87-88,\" that's easy. It continues, \"came safely to hand and am more than pleased to learn of the continued success of the Agri-\" Wait, \"Agri-\"? Is it referring to \"Agricultural College\" or some similar institution? Or \"Assn\"? Based on the context and the capitalization, it likely refers to an agricultural college or something. And the letter continues \"but am not at all surprised - Garrett is the right man in the right place and the same remark applies to yourself & Capt Scott with the accent on the \"right\". Hmmm... that word, the one after \"same,\" is squished. It must be \"remark\" given the usage. And the rest is simple: \"am glad the legislature done so well for us but am sorry that yourself & the Capt\".\n\nNow, let's dig into the details. That location... \"Crow Island NY\". The \"w\" in Crow looks like the \"w\" in well later on, but slightly more rounded. It makes sense, there are multiple \"Crow Island\" locations in NY. The date's clear, \"July 2nd 1888\". I'll format the \"nd\" properly.\n\nThe salutation is straightforward: \"Dear Friend\".\n\nThe text body is mostly readable. \"Catalogue 87-88\" is fine. The words \"came\" and \"safely\" are fine. \"am more than pleased\" is clear. I think \"learn\" is the best reading there, as in \"learn of\". Then, that's \"the continued success\" and that ambiguous \"Agri-\". I'm pretty certain about that \"Agri\" with the hyphen \u2013 likely some kind of abbreviated reference to an agricultural institution. Then the names: \"Garrett\" and \"Capt Scott\", fine. Then it says \"the right man in the right place and the same\" and that mystery word. It's squished, but I'm confident it's \"remark\". And continuing \"applies to yourself & Capt Scott\". The little symbol there? Ampersand.\n\nLooking more closely at \"Agri-\", the 'g' has a descender, so \"Agri\" is the best fit, meaning Agricultural institution. The same with \"remark\", no ascenders or descenders and fits the idiomatic phrase \"same remark applies\". The rest looks pretty straightforward, like \"legislature\" and \"done\".\n\nI'll keep the line breaks to make it a direct copy. The location might be \"Crow\", or \"Cozon\", but \"Crow Island\" seems most likely given the era and that \"w\" shape. I'm reasonably confident in my transcription now. Alright.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 2730,
+            "width": 1714,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/262",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/261",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b13b7ee4-c5f6-3e26-bdbe-0f71cbda234a/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 2730,
+                                "width": 1714,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b13b7ee4-c5f6-3e26-bdbe-0f71cbda234a",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/269",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/268",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>are deprived thereby of\nyour well earned rest\nduring the Summer, would\nlike to see you both on the\nCrozou now as mercury\nthis 12<sup>th</sup> registers 71\u00b0 only\nwith sun shining brightly\nI do not expect to be\nin Texas before 1<sup>st</sup> of Sept\nunless called home by\nimperative business or by\nthe sickness of my boys who\nhave charge during my\nabsence but unless something\nunexpected occurs will be\nwith you in Sept. give my\nregards to Capt Scott. Mrs McInnis\n& other friends\nyours truly\nGeo. M. Dilley</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/270",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis - Let's Get This Done**\n\nAlright, as a seasoned professional, I've got a handwritten letter to transcribe, and I need to be precise. Let's break this down: It's a cursive script, a bit slanted, with some idiosyncratic letter formations, but mostly legible. I'm focusing on preserving the original text, interpreting handwritten script as accurately as possible. The goal is accuracy, and no fancy editing.\n\nFirst, I see the phrase \u201care deprived thereby of,\u201d setting the stage. Then, \u201cyour well earned rest.\u201d Ah, the summer's coming. \"During the Summer, would,\" This flows well and sets the context. Now, line 4 is the tricky part, \"like to see you both on the\u201d. The phrase \"like [crossed out] see\". The scribe wrote \"like\", then crossed something out, then \"see\". The cross out word is \"to\", but it's a bit messy. It does seem the phrase is \u201clike to see\u201d where \u201cto\u201d is overwritten or just with a long crossbar. Now, let\u2019s see the location, I have: \u201cCrozou now as mercury\u201d. This is where I start. Let's see. This word doesn\u2019t exist. \"C r o z o n\". I think it might be \"Canyon\". I think it says, \"Canyon\", I may need to return to this! Now for a temperature check: \u201cthis 12 M registers 71\u00b0 only.\" It looks like it is, \"12th\". This is the 12th day, and the temperature is registered at \"71 degrees\"\n\nI'm thinking, \"Canyon\" could be the likely word, as \"mercury\" refers to the temperature. The word would look like a location on the trip. I would need to find out where George M Dilley had summer locations, but I don't know the exact location! It has \u201csun shining brightly\u201d. Let's continue.\n\nOkay, line 8, is \"I do not expect to be\", and then, \"in Texas before 1st of Sept\", unless there's some kind of emergency. A likely emergency might be \"imperative business or by\". Another emergency, is the \u201csickness of my boys who\u201d need me. It looks like things will be normal, \"have charge during my\", absence. However, \"unexpected occurs will be\" with you soon, I\u2019ll be back \"in Sept. give my\", regards to Capt Scott, and \"Mrs McInnis\" and other friends.\n\nNow, final thoughts, the signature is \u201cGeo. M. Dilley\u201d\n\nI have a hypothesis about the location word: the mysterious \"Crozou\" looks like \"Crozon\" and maybe \"Canyon\". \"Canyon\" is a common word, but \"Crozon\" is a real town, too.\n\nLet's focus on the word in line 5. Based on the handwriting shape, there are different versions: \"Crozou\" (looks like 'u'), or maybe \"Crozon\" (looks like 'n'). Given the sentence flow, I would need to pick a place to go with the context. With the letter of \"temperature\", I would go with \"Canyon\" for now. However, I need to stay true to the image.\n\nNow I have a transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/196/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

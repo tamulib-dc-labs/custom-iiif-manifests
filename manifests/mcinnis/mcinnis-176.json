@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-176.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from T. M. Scott, March 24, 1887"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-03-24"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from T. M. Scott, March 24, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/cbc7092d-d9cd-3b66-a032-68f299fe035f/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1750,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/44",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/43",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/cbc7092d-d9cd-3b66-a032-68f299fe035f/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1750,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/cbc7092d-d9cd-3b66-a032-68f299fe035f",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/50",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/49",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>UNITED STATES<br/>\nPOSTAL CARD.<br/>\nONE CENT<br/>\n<small>NOTHING BUT THE ADDRESS TO BE ON THIS SIDE.</small></p>\n\n<p>Prof. L. L. M<sup>c</sup>Innis<br/>\nCollege Station<br/>\nBrazos Co. &nbsp;&nbsp;&nbsp;&nbsp; Texas</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/51",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Analysis and Transcription of the Postal Card**\n\nOkay, here's my thought process as I've gone through this image. First, I\u2019m clearly seeing a U.S. Postal Card. My goal is to extract the text. I've got a header, some text, and a handwritten address.\n\nI started by breaking down the image into sections. The printed header: \"UNITED STATES,\" \"POSTAL CARD.,\" and \"ONE CENT\" in the medallion. Then \"NOTHING BUT THE ADDRESS TO BE ON THIS SIDE.\" Instructions seem pretty clear.\n\nThe postmark is a bit obscured and faded. I see \"MAR 24\" and maybe \"01\" or \"91.\" It's tempting to include it, but the instruction is \"Transcribe all text\", so I'll stick to the core content unless asked for more.\n\nThe juicy part is the handwritten address. I read \"Prof.\" clearly. The initials look like \"L. L.\" to my trained eye, but I checked the stroke direction carefully. At first, they looked like an 'S', but the cursive formation indicates an 'L.' Louis L. McInnis, a well-known academic, fits the Texas A&M College Station. So 'L. L.' is highly plausible. I will confirm with a search just in case.\n\n\"McInnis\" is next, with a slightly superscripted \"c\" \u2013 that's something I'll need to represent carefully. Then \"College Station,\" \"Brazos Co.,\" and \"Texas.\" There\u2019s a squiggle between the county and state. Might be a divider or a local designation.\n\nI thought about the format for transcription: I decided to keep it clean and simple, a header with breaks and an address on separate lines. Standard HTML `p` tags will do the trick. The \"ONE CENT\" is inside the circle so I will group it into the header.\n\nI double-checked \"L. L.\" to be absolutely sure. After close analysis, the letter formation leads me to a cursive 'L'.\n\nNow, regarding the formatting, using HTML, the superscript is easy using the `<sup>` tag. \"Brazos Co.\" and \"Texas\" would be on separate lines. The layout on the line is there.\n\nAfter double-checking for consistency and formatting, and looking at the details for precision, I had my final text to generate.\n\nThe layout will be:\n* Header, with line breaks\n* Address\n\nAnd I'm ready to render.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1750,
+            "width": 3019,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/46",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/45",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f85a4a93-12bc-38d9-86e3-c4e82a4e577a/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1750,
+                                "width": 3019,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f85a4a93-12bc-38d9-86e3-c4e82a4e577a",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/53",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/52",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>March 24<sup>th</sup> 87</p>\n\n[Body]\n<p>Me Chare Ami. Your Postal<br/>\nreceived I Tilie, daughter and<br/>\nlittle ones have been over here<br/>\nall day had a pleasant time<br/>\nas possible without you, Love<br/>\nto Mrs W. and Lilly Graham<br/>\nGood bye</p>\n\n[Signature]\n<p>F. M. Scott</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/54",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Analysis: A Detailed Examination**\n\nRight, let's break this down. First, the date: March 24th, 1887, nice and clear.  The opening, \"Me Chare Ami,\" is interesting. It *looks* like a misspelling of \"Ma Ch\u00e8re Amie,\" my dear friend. The \"Me\" is distinct; the \"Chare\" the spelling is not what I expected. The \"Ami\" looks good. Then the main body, the message. \"Your Postal,\" no problem. But here's where it gets tricky: \"received I Tilie, daughter and\u2026\" At first, I thought it was \"S Tilie\" or even \"I Tilie.\" I re-traced the letters carefully, comparing the style of the 'S' in the signature (\"F. M. Scott\" at the bottom) to the letter before \"Tillie\". I tried to fit it into a grammatical structure. It could be \"received I, Tilie\u2026,\" with the writer identifying themselves. I looked at the 'I' in the word \"I\", the word 'I' looks similar to the first letter in Tilie and can be written similar to S, so maybe \"S. Tilie\"?  No, I re-examined \"Scott\" at the bottom: the 'S' is sharp, and this letter is loopy. The first letter in the \"Tillie\" is also tricky. It could be 'T' or a stylized 'J'. The whole phrase \"received... daughter and little ones\" means someone *received* someone. If \"Tillie\" is the subject, the letter before might be the writer. So: \"I, Tilie... daughter\u2026.\"  No, not the correct grammatical structure. Let's look at the letter after \"received\". The loop *could* be a 'T' but its a stylized letter, with extra flourishes or 'I'.\n\nThe name? \"Tillie\" is a possibility. The next part, \"little ones have been over here,\" is fairly easy.  \"Little\" has a line through it, crossed it out; it looks like a stylistic crossbar. The next lines, \"all day had a pleasant time as possible without you, Love,\" are also clear. It flows better with \"I Tilie\". I'll examine the letters again. Who is writing to whom? Is it \"S. Tilie\" or the writer, \"F.M. Scott\"?\n\nThen, \"to Mrs M. and Silly Graham.\" Silly? Seems strange but lets look at the letters, the 'S' in Silly: \"Silly\" the L looks similar to the Love loop. \"Lilly\". Then, the Good Bye. The signature \"F. M. Scott\". So I look back to the start: could it be \"Me Chare\" instead of \"Ma Ch\u00e8re\"? I looked at the letter in \"have\". I relooked at \"received I\".  The line before Tilie... I am going to write \"I\" as in \"received I\". I am listing people, and \"I\" means the writer. I will go with a final answer of \"Your Postal. I Tilie, daughter...\"\n\nAfter a very careful, detailed breakdown, looking at each letter and comparing it to other letters, I can now transcribe, step-by-step.\n\n**Final Transcription**\n\n*   **Header:** March 24th 87\n*   **Body:**\n    Me Chare Ami. Your Postal\n    received I Tilie, daughter and\n    little ones have been over here\n    all day had a pleasant time\n    as possible without you, Love\n    to Mrs W. and Lilly Graham\n    Good bye\n*   **Signature:** F. M. Scott\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/176/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-494.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "You good letter reached me some days ago - it was like precious ointment February 2, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "You good letter reached me some days ago - it was like precious ointment February 2, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/494"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/2951c8e9-3227-3e2b-ae95-7029f111af1d/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/494/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1126,
+            "width": 1916,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/122",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/121",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/2951c8e9-3227-3e2b-ae95-7029f111af1d/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1126,
+                                "width": 1916,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2951c8e9-3227-3e2b-ae95-7029f111af1d",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/494/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/125",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/124",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\"Your good letter reached me<br/>\nsome days ago - It was like<br/>\nprecious ointment\" 2-7-80</p>\n\n<p>\"I read it with avidity & enjoyed<br/>\nit immensely.\" 4-21-80</p>\n\n<p>\"Your good letter ... was like ointment<br/>\non Aaron's beard\" 2-16-80</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/494/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**My Transcription Journey**\n\nOkay, here's what I've been thinking, step-by-step. First, I need to get this handwritten text transcribed. The image shows a piece of paper with three sections, likely quotes with dates. There's a black dot in the last section, which could be a problem.\n\nI'm going to transcribe line by line.\n\n*   **Section 1:** \"Your good letter reached me some days ago - It was like precious ointment\" 2-7-80.  The word \"ointment\" is slightly spaced, but I'm fairly certain it's just handwriting, not a misspelling.  \"precious\" is clear.\n\n*   **Section 2:** \"I read it with avidity & enjoyed it immensely.\" 4-21-80. Everything looks legible here, especially \"immensely\".\n\n*   **Section 3:** \"Your good letter ... was like ointment on Aaron's \\[dot] beard\" 2-16-80. The black dot is between \"Aaron's\" and \"beard\". It's probably a hole punch or something similar, it seems to obscure space and not text. I will include the ellipsis.\n\nNow, I'm checking my guidelines. Reading order is top to bottom, be accurate. Spelling, punctuation, all that matters. I make a note about the quotation marks, the ampersand, and the dash.  The \"ointment\" spacing needs another close look.\n\nI'm starting to draft the transcription. I have to use specific HTML tags, which means I'll use `<p>` for paragraphs and `<br/>` for line breaks.\n\nAfter looking again, I'm refining the transcription, word by word. I'm focusing on \"days,\" \"ago,\" \"like,\" \"ointment,\" \"immensely,\" the ampersand, and \"Aaron's\". I have to make sure I don't introduce any errors, so I am very precise.\n\nI am re-evaluating each word, carefully.  \"precious\" is fine. \"Ointment\" is probably not two words. The second \"ointment\" is also likely correct, the second 'm' is humped. \"Aaron's\" starts with a capital 'A'.\n\nNow, for the final polish. The transcription should be in the approved tags. I will use `<p>` and `<br/>`. The black dot is a hole, not part of the text.\n\nI check the dates. First is 2-7-80. Second 4-21-80. Third is 2-16-80.\n\nI check \"precious\" again and \"ointment\" (again).\n\nI look closely at \"days\". Looks clear. \"ago\" is fine. \"like\" is a bit sloppy. \"avidity\" and \"enjoyed\" are clear, as is \"immensely\".  Line 6 begins \"Your\", and \"was\", then \"like\" and then \"ointment\". The \"ointment\" looks like \"ointment\".\n\nOkay. The structure is three blocks. Separate them. I will add `<p>` for each quote and `<br/>` for line breaks.\n\nI check \"ointment\" once more. The date \"4-21-80\" is correct.  I double-check. The \"2\" in that date could be mistaken for a 'd' or something. But the context makes it obvious.\n\nI will verify the spelling and formatting, but that appears to be complete.\n\nNow it is a final check to confirm what has to be output, so I do not miss anything.\nI confirm the final format again: I will use `<p>` and `<br/>`.\n\nI verify I am on the correct output.\n\nNow I am ready:\n\n```html\n<p>\"Your good letter reached me<br/>\nsome days ago - It was like<br/>\nprecious ointment\" 2-7-80</p>\n<p>\"I read it with avidity & enjoyed<br/>\nit immensely.\" 4-21-80</p>\n<p>\"Your good letter ... was like ointment<br/>\non Aaron's beard\" 2-16-80</p>\n```\n\n```\nDouble check \"avidity\". a-v-i-d-i-t-y. Yes.\nDouble check \"immensely\". i-m-m-e-n-s-e-l-y. Yes.\n```\n\nThe black dot covers the paper between \"Aaron's\" and \"beard\". It doesn't seem to obscure text, just the empty space.\n\nFinal Output Construction.\n```\n```\nReady to Generate.\n```\n\n```\n\nYour Summary:\n```html\n<p\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/494/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

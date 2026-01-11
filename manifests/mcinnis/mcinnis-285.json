@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-285.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Postcard to Louis L. McInnis from D. M. Narsmith, March 21, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-03-21"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Postcard to Louis L. McInnis from D. M. Narsmith, March 21, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/bbdaee96-714d-3d9f-bf2b-938088d9c2c5/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 1768,
+            "width": 2778,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/bbdaee96-714d-3d9f-bf2b-938088d9c2c5/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1768,
+                                "width": 2778,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bbdaee96-714d-3d9f-bf2b-938088d9c2c5",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/14",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p><b>CANADA POST CARD</b></p>\n\n<p>[Postmark: STEIN...<br/>\nMY 21<br/>\n01<br/>\n...MAN]</p>\n\n<p>THE ADDRESS ONLY TO BE WRITTEN ON THIS SIDE.</p>\n\n<p>[Stamp: ONE CENT]</p>\n\n<p><b><i>To</i></b> <i>Secy Texas Agri. Col</i><br/>\n<i>Bryan</i><br/>\n<i>Texas</i></p>\n\n<p><small>British American Bank Note Co. Montreal</small></p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Transcription Process**\n\nOkay, so I'm presented with a Canada Post Card image, and my job is to transcribe the text, keeping the layout. Alright, first things first, let's break this down. The image is a postcard, so I'm looking at the front, and I'll need to recognize all of the distinct elements.\n\nI see a printed \"CANADA POST CARD\" at the top. Below that, I need to represent a postmark. It appears partially obscured, but I see a recognizable \"STEIN...MAN\" along with a date \"MY 21 01\". Okay, I'll keep that in mind and represent that first with the partial letters.\n\nThere's also a printed instruction: \"THE ADDRESS ONLY TO BE WRITTEN ON THIS SIDE.\" Okay, I need to make note of that, it helps in structuring the address as the main focus.\n\nThere is a stamp in the upper right. It's a \"ONE CENT\" stamp. I'll need to transcribe that.\n\nThen comes the address. It's handwritten. I've got \"To\" (printed), then \"Secy Texas Agri. Col\", \"Bryan\", and \"Texas\" all handwritten. I need to be careful with my reading of those cursive letters. Swirly 'S', 'T' and 'A' there.\n\nFinally, at the bottom, there's a small printed line: \"British American Bank Note Co. Montreal\".\n\nNow, I'm going to follow the instructions carefully and transcribe each part, preserving the layout using HTML tags. \"p\" for paragraph, \"b\" for bold, \"i\" for italic, \"br\" for a line break, \"span\" to add a bit of styling, and \"small\" to represent the smaller text. No commentary, just the transcription.\n\nSo, I start with the \"CANADA POST CARD\" and make it a bold heading. Then, I represent the postmark, keeping what's visually clear as \"STEIN... MAN\" with the date \"MY 21 01\", and add the line breaks accordingly to preserve the layout. I'm noting the postmark's circular layout by representing it in a block. Next, I add the instruction, followed by the stamp \"ONE CENT.\" I will represent these in blocks as per my understanding.\n\nThen I transcribe the address section. \"To\" is printed, so I'll make it bold italic. The handwriting after that, \"Secy Texas Agri. Col,\" \"Bryan,\" and \"Texas\" gets italicized. I'll use line breaks to keep each part on a new line. I'm keeping a very close eye on the handwriting.\n\nFinally, I add the small footer: \"British American Bank Note Co. Montreal\" and apply small to indicate its relative size.\n\nOk, now that I have everything, I double-check everything. I'll use the final output to check to capture the layout. Looks good. The elements are all there. Okay, looks like it's ready for final output. The format is right. The tags are good. Let's send.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 1768,
+            "width": 2778,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/10",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/92104559-614b-305c-938a-6f30478d64f1/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1768,
+                                "width": 2778,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/92104559-614b-305c-938a-6f30478d64f1",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/17",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Mar 21<sup>st</sup> 1880</p>\n\n<p>Dear Sir Please favor<br>\nme with Your<br>\nreport or catalogue<br>\nAnd oblige<br>\nYours &c</p>\n\n[Signature]\n<p>J. M. Naismith</p>\n\n<p>Holstein<br>\nOntario</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Document Transcription: A Detailed Review**\n\nAlright, let's break this down. First, I need to get my bearings \u2013 the image is in landscape, but the text is vertical. Time to mentally rotate this 90 degrees clockwise to make sense of it. Okay, date is at the top right, it reads \"Mar 21st 1880\". Next, the salutation \"Dear Sir\", at the top left. Now the body: \"Please favor me with Your report or catalogue And oblige Yours &c\". After that the signature, \"J. M. Naismith\", and finally the address \"Holstein Ontario\" at the bottom.\n\nI'm seeing a circular postmark over the middle, which seems to say \"BRANTFORD\" or \"GRANTON\" with \"MR 26\" (March 26th) and \"ONT\". Since the instructions request I transcribe *all* text, I'll transcribe the postmark in a separate section, but I need to prioritize the actual handwritten content.\n\nNow, let's focus on the handwriting. It's cursive, and there are some clear line breaks. I'll preserve those breaks when I format the output. The date, salutation, body, signature, and address seem to be the primary structure. Capitalization is standard for this period: date, \"Dear Sir\", \"Please favor\", \"And oblige\", \"Yours\", \"J. M. Naismith\", \"Holstein\", \"Ontario\". The \"&c\" is a classic shorthand for \"et cetera\".\n\nThe postmark obscures parts of the text \"report or catalogue\" and \"And oblige\". The postmark is \"BRANTFORD / MR 26 / ONT\". Since the prompt specifies to maintain paragraph structure and asks to transcribe *all* text, I'll transcribe this postmark information separately, although I want to keep the focus on the author's message.\n\nNow I'll review and double-check, looking carefully at the loops and letters. I'll format the output using `<p>` tags for paragraphs and `<br>` for line breaks. Let's make sure the \"st\" in \"21st\" is correctly represented as superscript. I'm going to start with the [Header], then the main body of the letter, and then the [Signature]. Finally, I'll put the address \"Holstein Ontario\" in a separate paragraph at the end, as it's the sender's address.\n\nThe bleed-through from the back is illegible and irrelevant to this side's content; I'll ignore it. One last careful read through to make sure everything's accurate, and then it's ready. The structure will be: a header with the date, the main body of the letter, the signature, and the address. It looks accurate.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/285/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

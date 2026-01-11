@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-232.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from George Pfeuffer, November 22, 1879"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1879-11-22"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from George Pfeuffer, November 22, 1879"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/232"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/8bbfb3ef-83dc-39ae-92ce-839c6c087a13/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/232/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4959,
+            "width": 3095,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/284",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/283",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/8bbfb3ef-83dc-39ae-92ce-839c6c087a13/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4959,
+                                "width": 3095,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8bbfb3ef-83dc-39ae-92ce-839c6c087a13",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/232/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/287",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/286",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Office Room of the Board of<br/>\nDirectors of the A & M College<br/>\nBryan Texas Novr. 22, 1879,</p>\n\n<p>Prof. Louis L McInnis<br/>\nAdjunct Professor of the A & M College.</p>\n\n<p>Sir!<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have the honor to inform you that at<br/>\na Meeting of the Board of Directors of the A &<br/>\nM College held at Bryan Texas on the 22<sup>d</sup><br/>\nday of November A D 1879.<br/>\nIt was resolved<br/>\nThat your resignation be accepted to take effect at the<br/>\nclose of the present scholastic term, unless<br/>\nsooner if the President of the College finds<br/>\nthat your services may be dispensed with.<br/>\nfurther resolved<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That no Adjunct Professor shall have a<br/>\nvote in the faculty and that the secretary<br/>\nbe requested to communicate the foregoing to<br/>\nProf. Louis L McInnis.</p>\n\n<p>By order of the Board<br/>\nGeorge Pfeuffer<br/>\nSecretary of the Board</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/232/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/288",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Alright, let's get this transcription done. Here's how I'm approaching this:**\n\n1.  **Image Analysis:** Okay, it's a handwritten letter, dating back to 1879, sent from the A&M College Board of Directors to Professor Louis L. McInnis. It seems like it's an official notification about his resignation, plus a tidbit about Adjunct Professors not voting in the faculty. I've got the sender's office room, the date, and the recipient. All the necessary metadata.\n\n2.  **Transcription Strategy:**\n    *   **Headers:** I will start with \"Office Room of the Board of Directors of the A & M College Bryan Texas Novr. 22, 1879.\" \u2013 the abbreviation looks like \"Novr.\", and I will be careful on the 22nd.\n    *   **Recipient:** \"Prof. Louis L McInnis, Adjunct Professor of the A & M College. Sir!\" I'm making sure to capture that squiggle at the end.\n    *   **Body:** I'll transcribe this faithfully, capturing the formal language, and the \"22<sup>d</sup>\" date notation.\n    *   **Resolutions:** \"It was resolved\" and \"further resolved\". I will render these as their own lines, to reflect emphasis.\n    *   **Signature:** \"George Pfeuffer, Secretary of the Board\". Need to nail that signature, and I confirmed that George Pfeuffer was associated with the Board around this time.\n\n3.  **Formatting:** I am using HTML tags as instructed. I need to keep line breaks. I have to be careful with \"Nobr.\" versus \"Novr.\" It seems \"Novr.\" is the appropriate abbreviation. Also, the superscript \"d\". \"A & M\" with the stylized ampersand. I'll maintain line breaks. I'll also add a line break before \"It was resolved\", etc.\n\n4.  **Refining Text:** I will copy the text and double check it as I transcribe it into the final output format.\n    *   I'll check the \"Nobr.\" vs. \"Novr.\" one last time. It seems to be \"Novr.\". I'll keep an eye on punctuation. \"Novr. 22, 1879.\"\n    *   I am going to keep the underlining of \"It was resolved\" and \"further resolved\". Since I cannot use `<u>`, I am just going to put each phrase on its own line.\n    *   The middle initial in McInnis, I'm pretty sure that's a cursive 'L'.\n\n5.  **Final Review:** Ok, let's do a final review. Reading the document again, top to bottom. It looks like the layout. It's legible. I am set. I am going to produce the final transcription below.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/232/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

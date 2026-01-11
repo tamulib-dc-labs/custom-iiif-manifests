@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-332.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Poem given to Louis L. McInnis from Nettie Bringhurst, circa 1890s-1900s"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890/1909"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Poem given to Louis L. McInnis from Nettie Bringhurst, circa 1890s-1900s"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 11 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f1778c0c-6ebc-3228-bc46-cee8cc69fbcd/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4951,
+            "width": 3131,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/170",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/169",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f1778c0c-6ebc-3228-bc46-cee8cc69fbcd/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4951,
+                                "width": 3131,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f1778c0c-6ebc-3228-bc46-cee8cc69fbcd",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/179",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/178",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p><small>G. W. NORRELL<br>\nDRUGGIST<br>\nBRYAN TEXAS</small></p>\n\n<p>My Father's Picture.</p>\n\n<p>The Sunshine's golden fingers creep<br>\nAcross the curtained wall<br>\nThen like some crown of early Saint<br>\nUpon the canvas fall.</p>\n\n<p>And in their path of guiding light<br>\nI turn my lifted eyes<br>\nBe still, oh beating heart of mine!<br>\nForget thy memories.</p>\n\n<p>For as I scan the pictured face,<br>\nWith yearning spell-bound gaze,<br>\nThe tide of years has backward turned<br>\nTo Childhood's vanished days.</p>\n\n<p>Again I search those deep gray eyes<br>\nFor all the mystery there,<br>\nOr press my loving lips against<br>\nThe gathered lines of care.</p>\n\n<p>I twine my fingers thro' the locks<br>\nGrown white in honest toil<br>\nOr note the grand and classic curves<br>\nThat Time cannot despoil.</p>\n\n<p>Oh artist hand, inspired and true!<br>\nIn vain were love and tears,<br>\nYet at thy bidding, he who slept</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/180",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcription Process: A Deep Dive**\n\nOkay, so I'm presented with a task: transcribe a handwritten poem from an image, focusing on accuracy and preserving the original layout, punctuation, and handwriting quirks. No problem! As a professional, I know this is all about attention to detail.\n\nFirst, I need to understand the request fully. The instructions are clear \u2013 accuracy is paramount, and I need to account for any ambiguities in the handwriting. I\u2019ll be using HTML tags to format the output, paying attention to elements like line breaks, paragraph structure, and any marginalia.\n\nNext, I'm examining the image itself. It's a handwritten poem, aged and a bit faded. The paper has some stains, and that big mark is probably where some tape used to be, which could affect the readability. There's an embossed stamp in the top left corner, which I'll need to transcribe as well. The handwriting is cursive, generally legible but a bit faint in some areas. It has a title: \"My Father's Picture.\"\n\nNow, I'm moving into the transcription phase, stanza by stanza. I'll read each line carefully, word by word, and mark anything I'm unsure of with `[?]` or `[illegible]`. If there's a typo in the original text, I preserve it.\n\nThe embossed stamp is first, that goes at the top. So, \"G. W. NORRELL / DRUGGIST / BRYAN TEXAS.\" I'll use `<small>` to style it in the output. The title \"My Father's Picture.\" is the next line. I'll preserve the underline.\n\nMoving on to the poem itself, line by line.\n\n*   **Stanza 1:** It begins, \"The sunshine's golden fingers creep...\" I have to double-check that 'A' in \"Across\" - it looks a little flowery, but it is \"Across.\" \"curtained wall\" is fairly clear. Let's see... \"Then like some crown of early Saint\" - the 'T' in 'Then' is a bit fancy, but it is clear. And, \"Upon the canvas fall.\"\n*   **Stanza 2:** \"And in their path of guiding light / I turn my lifted eyes / Be still, oh beating heart of mine! / Forget thy memories.\" (The exclamation point and comma are important!)\n*   **Stanza 3:** Here's that stain, so I'm extra careful. \"For as I scan the pictured face, / With yearning spell-bound gaze, / The tide of years has backward turned / To Childhood's vanished days.\" \"Spell-bound\" has a hyphen, and \"Childhood's\" is capitalized.\n*   **Stanza 4:** \"Again I search those deep gray eyes / For all the mystery there, / Or press my loving lips against / The gathered lines of care.\" (That comma at the end of the second line is critical.)\n*   **Stanza 5:** \"I twine my fingers thro' the locks / Grown white in honest toil / Or note the grand and classic curves / That Time cannot despoil.\" \"Thro'\" is the correct contraction, and the \"T\" in \"Time\" needs to be capitalized.\n*   **Stanza 6:** \"Oh artist hand, inspired and true! / In vain were love and tears, / Yet at thy bidding, he who slept\" The poem stops abruptly here. I can see the bottom of the page in the image.\n\nNow it's time to refine and format, doing final checks and making corrections. I'll be re-reading each line, comparing it carefully to the image to ensure accuracy.\n\nI'm applying HTML tags now: `<p>` for each stanza, `<br>` for line breaks. I'm choosing not to use `<i>` for the title since the instructions prioritize preserving the text. It seems to make more sense to keep the title plain text. The stamp goes in `<small>`.\n\nFinally, a last review, ensuring everything is in place, and the output matches the visual layout. I'll double-check all capitalization, punctuation, and those tricky letters that might be misread. Yes, the stamp looks correct. Now I'm ready to provide the transcribed text.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4951,
+            "width": 3131,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/172",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/171",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/9593f5cc-b5b3-3650-930b-4d6a80c49f18/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4951,
+                                "width": 3131,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9593f5cc-b5b3-3650-930b-4d6a80c49f18",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/182",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/181",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Stamp: OLGA NEVILLE<br/>\nBRYAN TEXAS]</p>\n\n<p>Wakes from the rest of years.</p>\n\n<p>Endor's Enchantress waved her arm,<br/>\nThe lifeless Seer to bring,<br/>\nAnd called the mantled Prophet forth<br/>\nTo answer Israel's King.</p>\n\n<p>So Genius, o'er this canvas throws<br/>\nHer necromantic spell,<br/>\nAnd 'neath the scepter of thine art<br/>\nHas witchery doth tell.</p>\n\n<p>Til those who knew and loved him best,<br/>\nThis tribute softly give :<br/>\n\"Tho' gone, he is not lost to us,<br/>\nFor here he yet doth live.\"</p>\n\n<p>Nettie P. Houston Bringhurst.</p>\n\n<p>Given me by author who was my<br/>\nnext-door neighbor at A. &amp; M. College<br/>\n[L. L. McI]</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/183",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**A Transcriptionist's Process**\n\nAlright, let's break this down. As a seasoned transcriptionist, my mind immediately jumps to the task at hand: accurately rendering text from an image. My internal checklist fires up: preserve every detail, top-to-bottom reading, accuracy above all else, and of course, those crucial HTML tags. The image is a handwritten poem \u2013 a classic case!\n\nFirst, I examine the artifact. I\u2019m seeing lined paper, a bit aged with creases and staining. It's got a circular embossed stamp in the top left, which warrants a closer look. *My focus shifts to deciphering this stamp.* It's faint, but I make out \"OLGA NEVILLE\" at the top and \"BRYAN TEXAS\" at the bottom. The middle is illegible. I'll note the uncertainty while capturing what's clear \u2013 I'll mark it as something like: `[Stamp: OLGA NEVILLE / BRYAN TEXAS]` or maybe `[Stamp: OLGA NEVILLE / [illegible] / BRYAN TEXAS]`.\n\nNext, the poem itself. There's a title line, but it's faded, so I\u2019ll be careful to render it accurately. Then, the stanzas. I start transcribing, line by line, preserving the structure. I notice some handwriting quirks and variations. I see the flow of the cursive script. *The fourth line of the second stanza is giving me pause.* It reads \"Has witchery doth tell.\" I analyze the word, comparing it to other instances of 'H' and 's' in the poem. The letter shapes on the page suggest that the author wrote \"Has.\" It's odd, grammatically, but it's what's visible. I'll note my uncertainty if needed, but I stick to the visual evidence.\n\nThe third stanza and the signature are clear and straightforward to transcribe. Finally, there's a note at the bottom, in different handwriting. I make out a mention of \"A. & M. College\" and initials in brackets, which look like `[L. L. McI]`. I recognize the significance of the initials \u2013 likely L.L. McInnis based on my historical knowledge.\n\nMy transcription is almost ready. I format the output using the requested HTML tags, ensuring the stamp, title, stanzas, signature, and note are distinct. I double-check every word against the image, cross-referencing letters, and ensuring nothing is missed. *That fourth line of the second stanza continues to demand a second glance.* I return to the word \"Has\", confirming the letter shapes again, as well as checking the rest of the stanza to confirm that the text I rendered is the most accurate depiction of the physical text, even if it is a slightly unusual construction.\n\nI go through another round of polish. I ensure the spacing, punctuation, and all details are just right. I make some last minute corrections. I also check that my use of HTML tags is proper. I am ready to render the final transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 4951,
+            "width": 3131,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/174",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/173",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4246a28e-3b0d-393b-a3a1-7f7a06bea018/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4951,
+                                "width": 3131,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4246a28e-3b0d-393b-a3a1-7f7a06bea018",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/185",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/184",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Embossed stamp top right: [illegible]]</p>\n<p>Care A. &amp; M. College<br>\nCollege Station<br>\nTexas.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/186",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Analysis and Transcription**\n\nOkay, here's the deal. I've got an image of what looks like a folded piece of lined paper. The goal is to get a transcription of the writing on it. It's on the left side, running vertically. My brain automatically flipped the image so the lines run the way they should. This looks like the back of a letter or note.\n\nHere's the breakdown:\n\n*   **Location:** The main text is on the left margin, or maybe the bottom fold if we consider it an address. It runs bottom to top or top to bottom.\n*   **Embossed Stamp:** There's a faint embossed stamp in the top right corner. The text is hard to make out.\n*   **Handwriting:** The handwriting is vertical. It says: \"Care A. & M. College,\" \"College Station,\" \"Texas.\" It's cursive and looks like an address, or a note about an address. It's written on blue-lined paper. There's also a blue ink blotch near the bottom fold. I've got the text written line by line with the right orientation.\n\n**The Stamp:**\n\nI've zoomed in on the stamp. It's faint, maybe a manufacturer's mark. It might be \"ROYAL IRISH LINEN.\" No... it's really hard to read. It could also be \"MARCUS WARD & CO\" or similar. But honestly, it's just too blurry. I'm going to mark the text as unreadable. I've studied it carefully, but it is just too faint and faded.\n\n**The Text:**\n\n*   **Transcription:**\n    *   I've gone through each word to be certain.\n    *   It is \"Care A. & M. College\"\n    *   The \"A\" has a period after it.\n    *   The \"&\" in \"A. & M.\" is definitely a cross stroke, like a plus sign but I will transcribe it as \"&\" as it is the name of the entity.\n    *   The \"M\" has a period after it.\n    *   It continues with \"College Station\"\n    *   \"Texas.\"\n    *   It has lines that mark the edge of the paper, folded or unfolded.\n    *   I will output it line by line.\n\n**Formatting and Final Output**\n\nSo, here's how I'm thinking of formatting the output:\n\n*   I'll transcribe the text line by line.\n*   I'll indicate that the stamp is in the top right corner and is illegible.\n*   I will present the text as a block.\n\nHere's what I've got:\n\n<p>[Embossed stamp top right: [illegible]]</p>\n<p>Care A. & M. College<br>\nCollege Station<br>\nTexas.</p>\n\nI'm confident in this transcription. It reflects the image accurately.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/332/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

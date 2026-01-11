@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-276.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from George Pfeuffer, June 8, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-06-08"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from George Pfeuffer, June 8, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/276"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/b59dc8fb-4711-3469-90c5-ca71686dabbf/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/276/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3716,
+            "width": 2217,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/146",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/145",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b59dc8fb-4711-3469-90c5-ca71686dabbf/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3716,
+                                "width": 2217,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b59dc8fb-4711-3469-90c5-ca71686dabbf",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/276/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/149",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/148",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\n<small>GEORGE PFEUFFER.</small> <small>CHRISTOPH PFEUFFER.</small><br>\n<small>OFFICE OF</small><br>\n<b>GEORGE PFEUFFER & BRO.</b><br>\n<small>Dealers in</small><br>\n<i>Farming Tools and Implements</i><br>\n<b>MACHINERY AND GENERAL MERCHANDISE.</b>\n</p>\n\n<p>\nNew Braunfels, Texas, June 8 1881\n</p>\n\n<p>\nProfessor L McInnis<br>\nA&M College\n</p>\n\n<p>\nMy dear Sir!\n</p>\n\n<p>\nYour Note of the 5<sup>th</sup> to hand<br>\nand if Emil Kellner would not be offended<br>\nas he had tendered me the hospitalities<br>\nof his home before any one else, I would<br>\njump at the chance of the Bachelors Hall<br>\nfor reasons that I expect much Work for<br>\nthe Board at its next session and on that account<br>\ncould not be as punctual for meal hours &c<br>\nand any irregularities in hours of coming &<br>\ngoing would not inconvenience Bachelors<br>\nwhile it might a family. If you<br>\nwill be kind enough to mention<br>\nthis to the Captain with my best<br>\nregards to himself & family why I<br>\nam yours at least for a space to<br>\nsleep and work in.\n</p>\n\n<p>\nYours truly<br>\nGeorge Pfeuffer\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/276/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/150",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Alright, let's get this done. My focus is on accurate transcription while adhering to the specified formatting rules.** I need to produce *only* the transcription, and nothing more. I start by breaking down the instructions: I am a professional transcriptionist, and I need to render this text from an image. I must stick to these HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I should also pay attention to layout, punctuation, and handwriting interpretation.\n\nNext, I look at the image itself. I see a letterhead with the names \"GEORGE PFEUFFER\" and \"CHRISTOPH PFEUFFER,\" and the business name \"GEORGE PFEUFFER & BRO.\" with \"Dealers in Farming Tools...\" and so on. The date is \"June 8 1881,\" and the addressee is \"Professor L McInnis / A&M College.\" Then there's the salutation and body. The final closing and signature are \"Yours truly George Pfeuffer\".\n\nNow, I'll transcribe this piece by piece. First, the header with all its details; then the date and location; next, the addressee and salutation. After, I start with the body paragraphs, carefully deciphering the handwriting. I then move to formatting the transcription. I need to get the formatting right, keeping the layout, line breaks, and using the HTML tags as directed. I look for specific words \u2013 \"Emil Kellner\", \"Bachelors Hall\" \u2013 to make sure they're right. I'll use `<small>` for the top corner names, `<b>` for bold headers, `<p>` for paragraphs, and `<br>` for line breaks where they're needed to match the original. I will use `<i>` for the italicized line. Then I use `<sup>` for the superscript, \"th\" in \"5th\".\n\nI then make a draft of the output, building it mentally so I know I'm on track. I keep in mind the final guidelines, especially the allowed HTML elements. I need to keep the style clean and direct. I will format the text according to the line breaks in the text. I'll double-check details like the \"A&M\" abbreviation (looks like `A&M`), and \"account\" (the end trails off, but it's clearly the intended word), and make sure everything is in place, and adjust the header. I'm choosing HTML tags carefully. Finally, I will construct the final HTML block and produce the output based on my thinking. I will read it a final time to ensure accuracy before I finalize the output.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/276/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
