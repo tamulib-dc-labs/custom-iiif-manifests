@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-188.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from T. A. Fuller, circa April 13, 1887"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-04 (circa)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from T. A. Fuller, circa April 13, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 25 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/188"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/3484f76a-7340-3a69-9c8f-465b129a8d33/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/188/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4141,
+            "width": 3155,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/170",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/169",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/3484f76a-7340-3a69-9c8f-465b129a8d33/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4141,
+                                "width": 3155,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3484f76a-7340-3a69-9c8f-465b129a8d33",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/188/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/173",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/172",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Seal of The State of Texas]\n<br>\n<b>House of Representatives,</b>\n<br>\n<small>20TH LEGISLATURE.</small>\n<br>\nAustin, [April?] 15 1887\n\n<p>Prof C.B. M<sup>c</sup>Innis<br>\nCollege Station<br>\nDear Sir -</p>\n\n<p>I am satisfied<br>\nfrom what I hear and the position<br>\nassumed by University Regents in<br>\ntheir report that legislation will be<br>\nattempted effecting the A&m College</p>\n\n<p>As I am not well up in<br>\nthe condition &c of the college at<br>\npresent will you favor me with<br>\nsuch data at your command as<br>\nwill enable me to properly inform<br>\nmyself - Also your views and that<br>\nof the faculty concerning the College<br>\nand proposed legislation &c</p>\n\n<p>With my regards I am<br>\nTruly Yours<br>\nTully A. Fuller</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/188/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/174",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Task Breakdown**\n\nOkay, here's the transcription process I've gone through, step-by-step. I'm starting with a handwritten letter from the House of Representatives, and I need to produce an HTML transcription. My task is clear: transcribe faithfully, top-to-bottom, preserving everything as it appears on the page. The guidelines are specific: I'm not allowed to use markdown tables unless the content is tabular, and I need to incorporate particular HTML tags (`a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`). I am also told to identify structural elements using labels, such as *[Header]*. The seal is mentioned, which I will need to consider.\n\nFirst, I examined the document. It's a letter on official stationery, from the 20th Texas Legislature in Austin. The date looks tricky, with a pencil annotation potentially modifying it. The recipient's name requires close attention. The handwriting is a bit loopy, making the initials of the recipient, \"Prof L.L. McInnis\" a little difficult. I compared the handwriting of 'C' and 'L' to resolve the initials, noting \"C.B. McInnis\" due to the way the 'B' is drawn. After more comparison, the history appears to be more \"L.L.\" McInnis. I re-evaluated the date.\n\nNext, I worked through the letter's content. I took note of the key points: the writer's concern about pending legislation affecting A&M College, a request for information from the recipient, and the closing remarks. The spelling of \"effecting\" was important to confirm. I was meticulous in cross-checking each word to catch everything.\n\nOnce I had a good grasp of the content, I began a rough transcription. I kept the date, recipient, salutation, paragraphs, closing, and signature in order. I made sure to note the pencil text, \"April?\". I began mapping how the text would fall into the appropriate HTML tags, including the header elements.\n\nI then went through a refinement phase. I looked at the date again. I closely re-examined the initials, confirming \"C.B.\" The word \"effecting\" I had to confirm, the \"A&M\" initials required special attention because of the messy pen strokes, but the content confirmed my belief, and I made notes about the structure. I identified that the \"7\" in 1887 was added in a different handwriting.\n\nNext, I formatted it using HTML. Because there is a line break, the break is preserved. I considered the use of the `<img src=\"\u2026\">` tag for the seal image but decided to include the seal's textual representation, *[Seal of The State of Texas]*, because I didn't have an image source. Paragraphs were mapped to `<p>` tags, with `<br>` tags representing line breaks within each paragraph. The right alignment was a key element.\n\nAfter doing some self-corrections on the layout and tags, I did a final review. I re-read the transcribed text for accuracy. I focused on the words: \"Prof C.B. McInnis\", \"A&M\" and \"effecting\". It's a meticulous process, but attention to detail is the most important thing. I checked to be sure to use HTML as requested. I also rechecked my assumptions about the name initials, ultimately settling on \"C.B. McInnis\". The handwriting of the initial \"A\" in \"A&M\" was also scrutinized, but I decided it was A. I used the correct use of capitals for the \"20TH LEGISLATURE.\" Finally, I'm ready to produce the HTML output!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/188/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

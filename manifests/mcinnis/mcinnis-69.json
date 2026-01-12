@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-69.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, April 28, 1884"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1884-04-28"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, April 28, 1884"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 16 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/029fb537-0069-36f0-8214-5bf9c2f26280/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3532,
+            "width": 2201,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/134",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/133",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/029fb537-0069-36f0-8214-5bf9c2f26280/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3532,
+                                "width": 2201,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/029fb537-0069-36f0-8214-5bf9c2f26280",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/143",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/142",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>Office Supt.<br>\nCorsicana Tex. April 28<sup>th</sup> 1884</p>\n\n<p>My Dear Professor:</p>\n\n<p>Contrary to my custom<br>\nI have delayed a reply to your<br>\nwelcome letter quite a long time.<br>\nThis long silence has been brought<br>\nabout by press of business & burden<br>\nof responsibility which at times<br>\nseems almost crushing.<br>\nOur teaching force - at all times<br>\ninadequate in number - has<br>\nbeen interrupted from time<br>\nto time & in that few weeks<br>\nI have been forced to \"box<br>\nthe compass\" - in the scale of<br>\nteaching - from the abecedarian<br>\nto the High School.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/144",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Deep Dive**\n\nAlright, let's break this down. My goal here is precision \u2013 absolute fidelity to the source. The brief demands careful consideration. I'm acting as a transcriptionist, so the focus is on the *what*, not the *why*. First, I need to understand the task. It's a transcription job from an image, top-to-bottom, left-to-right, preserving *everything*. No autocorrect, no guesswork unless explicitly allowed (`[?]`, `[illegible]`), and absolutely no interpretation. Then I need to understand the document itself. Handwritten letter, cursive, probably late 19th century, slightly aged. I'm looking for the obvious structure: Header, salutation, body.\n\nNow, into the image. I'm going line by line. First, the header area: \"Office Supt.\" on the left, \"Corsicana Tex. April 28th 1884\" on the right. Date looks solid. \"Tex.\" is clear. Then the salutation: \"My Dear Professor:\". Nothing too tricky there.\n\nThen the body. Line 1: \"Contrary to my custom\". Clear. Line 2: \"I have delayed a reply to your\". Fine. Line 3: \"welcome letter quite a long time.\" Okay. Line 4: \"This long silence has been [brought?]\" \"Brought\" seems right, the \"b\" is clear, matching \"business\". Line 5: \"about by press of business & burden\". Ampersand is easy. Line 6: \"of responsibility which at times\". Seems good. Line 7: \"seems almost crushing.\" No problems.\n\nNow the second paragraph. Line 8: \"Our teaching force - at all times\". Easy. Line 9: \"inadequate in number - has\". Clear. Line 10: \"been interrupted from time\". Alright. Line 11: \"to time & in [that/the] few weeks\". This is the tricky one. The word looks like \"that\". \"In the few weeks\" and \"in that few weeks\" both sort of work. It\u2019s hard to tell definitively because the \u201ct\u201ds and \u201ch\u201ds are a bit overlapping. I\u2019ll make a note of this and refine it. Line 12: \"I have been forced to 'box\". Line 13: \"the compass' - in the scale of\". Quotation marks and dash noted. \"Box the compass\" is an idiom, makes sense in context. Line 14: \"teaching - from the abecedarian\". Aha. \"Abecedarian\" means \"elementary learner.\" Line 15: \"to the High School.\" Clear.\n\nNow I'm refining my transcription. The header, salutation, body. All of it. \"Brought\" is the right word. \"That\" is the right word, matching the \"t\" in \"time\". \"Abecedarian\" is the word.\n\nNow for the HTML. The brief specifies HTML, so I use the tags provided. `<p>`, `<br>`. I need to figure out where the structural elements are and how to label them with HTML. I have some sections. `Office Supt.` is to be labeled.\n\nAfter rereading and checking the word choice, \"that\" makes sense. The \"th\" looks right.\n\nLet's look at the \"abecedarian\" vs \"abederian\" issue. It's supposed to be \"abecedarian\". The word, the intent, it\u2019s all there. The handwriting makes a clear 'd'. The rest is scrawled, but it\u2019s still *abecedarian*. Compression in cursive. The brief tells me to interpret the intent. The word has to be \"abecedarian.\"\n\nI'll finalize the HTML. I'll use paragraph tags to divide the elements: header, salutation, body. `<br>` for the lines. The prompt says I must use `[Header]` to label. I will include this in the rendered text as `[Header]`.\n\nI'll check the output again. Let's look really closely at \"that\" in \"that few weeks\". It's a demonstrative, \"that\" as in \"that time\". A specific time.\n\nNow, final check, line by line.\n\n*   **Header:** `Office Supt.` then `Corsicana Tex. April 28<sup>th</sup> 1884`\n*   **Salutation:** `My Dear Professor:`\n*   **Body:** It's line breaks.\n\n\"That\" is clear. \"Abecedarian\" is clear.\n\nAlright, formatting: Paragraphs and line breaks, based on the image. Putting `<sup>th</sup>` on \"28th\".\n\nFinal check: \"Supt\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3532,
+            "width": 2201,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/136",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/135",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/35400f15-d65e-3417-b05d-8722692b7548/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3532,
+                                "width": 2201,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/35400f15-d65e-3417-b05d-8722692b7548",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/146",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/145",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>[1884, April 28]</p>\n\n<p>Our teacher absent this week \u2013<br>\nI fear, permanently broken down.<br>\nA teacher's life is a hard one<br>\noften all thankless & almost<br>\nmoneyless. Our session is<br>\n9 months \u2013 hence we close 23<sup>rd</sup><br>\nMay. Can't be idle from<br>\nMay to middle of Sept.<br>\nI mean, can't afford it.<br>\nYou ask me to consider again<br>\nthe matter of State Superintendency.<br>\nI am not insensible to the honor \u2013<br>\nthe duty \u2013 the responsibility of the<br>\nposition. I have neither the<br>\ntime nor the disposition to<br>\nconduct a canvas by correspondence<br>\nsufficient to insure a following.<br>\nShould the position be tendered</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/147",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's get down to it. I've got this handwritten letter in front of me, and my task is to provide a faithful transcription, preserving as much of the original's character as possible. The initial assessment is straightforward: pencil date in the top right, April 28, 1884 \u2013 I'll mark that as a header.\n\nNow, line by line, here's what I'm thinking:\n\n*   The handwriting is cursive, as expected. I'll need to pay close attention to letterforms, especially those that might be easily misread.\n*   The first line reads, \"Our teacher absent this week \u2013\". Note the long dash at the end. I will use the dash as well.\n*   \"I fear, permanently broken down.\" The \"I\" is joined to \"fear\".\n*   \"A teacher's life is a hard one\". There is an ambiguous mark after \"one\". It looks like a crossed-out dash. I'll omit this to avoid misinterpretation of the original text.\n*   \"often all thankless & almost\". The ampersand is clear, and the word \"all\" is unambiguous.\n*   \"moneyless. Our session is\". I noted the capitalized \"S\" in session.\n*   \"9 months \u2013 hence we close 23rd\". The \"rd\" is superscript. I will use `<sup>rd</sup>`.\n*   \"May. Can't be idle from\". Capital \"C\" in \"Can't\".\n*   \"May to middle of Sept.\" The \"Sept.\" is an abbreviation.\n*   \"I mean, can't afford it.\" Note that \"afford\" is underlined. I'm going to just transcribe it as plain text as underlining isn't directly transcribable using standard HTML tags. It does look emphatic.\n*   \"You ask me to consider again\"\n*   \"the matter of State Superintendency.\" I will capitalize \"State\" and \"Superintendency\".\n*   \"I am not insensible to the honor \u2013\" The dash is distinct.\n*   \"the duty \u2013 the responsibility of the\"\n*   \"position. I have neither the\"\n*   \"time nor the disposition to\"\n*   \"conduct a canvas by correspondence\". I read \"canvas\". The word choice seems intentional, and \"canvas\" is legible.\n*   \"sufficient to insure a following.\" Spelling \"insure\" is correct for the time.\n*   \"Should the position be tendered\"\n\nI'm making a point to preserve line breaks, as this affects the visual rhythm of the piece. I'm using `<br>` tags to preserve them. The guidelines require me to preserve punctuation and structure. I will use `<p>` for each section.\n\nThe date header is separate. I will note the markup to label it as a header for clarity.\n\nThe goal is accuracy, so I'm cross-checking words, especially the more ambiguous ones like \"insure\" vs \"ensure\" and \"canvas\" vs \"canvass.\" And the formatting has to be compliant.\n\nAnd I've double-checked all those letters.\n\nOkay, let's get it.\n\n```html\n[Header]\n<p>[1884, April 28]</p>\n\n<p>Our teacher absent this week \u2013<br>\nI fear, permanently broken down.<br>\nA teacher's life is a hard one<br>\noften all thankless & almost<br>\nmoneyless. Our session is<br>\n9 months \u2013 hence we close 23<sup>rd</sup><br>\nMay. Can't be idle from<br>\nMay to middle of Sept.<br>\nI mean, can't afford it.<br>\nYou ask me to consider again<br>\nthe matter of State Superintendency.<br>\nI am not insensible to the honor \u2013<br>\nthe duty \u2013 the responsibility of the<br>\nposition. I have neither the<br>\ntime nor the disposition to<br>\nconduct a canvas by correspondence<br>\nsufficient to insure a following.<br>\nShould the position be tendered</p>\n```\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3532,
+            "width": 2201,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/138",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/137",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/4808cb83-cc3c-3d06-8b05-c1931d7afd0e/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3532,
+                                "width": 2201,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4808cb83-cc3c-3d06-8b05-c1931d7afd0e",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/149",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/148",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[1884, April 28]\n\n<i>Nay</i> I should be inclined to\naccept - but I can engage\nin no \"Scramble for Office\".\nI appreciate most highly your\nKind wishes & solicitation.\nInter nos sub rosa I would\nbe glad to accept the position\nof Greek or Latin Chair in University\nor the Chair of English in A. M. C.\nbut will never raise my\nfinger to unsettle any one.\nI have felt better than usual\nfor some days past. Prof. H.\nhas been heard from at Austin\n& San Antonio. Some \"Project\".\nPlease write me a long letter at once\nWill you go to San Antonio in Jan?\nPlease excuse haste - I can & will do better\nnext time. Present me kindly to Mrs. M.\nYour friend\nJ T Hand</span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/150",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, this image is a handwritten letter, and a somewhat challenging one at that, given the cursive and the brownish ink. There's a date in the top right, added later, it seems: [1884, April 28]. Okay, let's get to the transcription.\n\n*   **[1884, April 28]**: Got it, that's straightforward.\n\nNow for the first line. The first word is giving me a headache. It looks like \"My,\" but underlined, which throws me. Initially, I thought \"Nay\" might fit better contextually, as in, a refusal of sorts. \"Why\" is another option, though that seems less likely. \"My\" is underlined, so it might be emphasis. So it's \"<i>Nay</i> I should be...\" based on the structure of the letter. This fits in terms of expressing an opinion.\n\n*   \"<i>Nay</i> I should be inclined to\": That word *must* be \"Nay\".\n\nAlright, moving on. Then we have:\n*   \"accept - but I can engage\": That's straightforward enough.\n*   \"in no \"Scramble for Office\".\": I appreciate the quotes; good to keep those in there.\n*   \"I appreciate most highly your\": Fine.\n*   \"Kind wishes & solicitation.\":\n*   \"Inter nos sub rosa I would\": Alright, Latin. Keep that as it is. Sub rosa, confidential. Good.\n*   \"be glad to accept the position\":\n*   \"of Greek or Latin Chair in University\":\n*   \"or the Chair of English in A. M. C.\": (Agricultural and Mechanical College, Texas A&M)\n*   \"but will never raise my\":\n*   \"finger to unsettle any one.\": The word \"unsettle\" fits.\n*   \"I have felt better than usual\":\n*   \"for some days past. Prof. H.\":\n*   \"has been heard from at Austin\":\n*   \"& San Antonio. Some \"Project\".\": Project is also quoted. Interesting.\n*   \"Please write me a long letter at once\":\n*   \"Will you go to San Antonio in Jan?\": \"Jan\". Or \"Jun\"? Let me go back to the top date and see what it's about. I think it looks like \"Jan\". Contextually, given the academic nature of the jobs mentioned, and that the letter is in April, \"Jun\" (June) makes a lot of sense, because that would mean a trip planned in the summer, or the end of a term. It looks like Jan, though. The letters J, a, and n are there. So I'll go with \"Jan\" unless context gives me something else. Actually, let's look at the letter closely. The open \"a\" looks like a \"u\", and, considering the context of summer (with the date being April) and University being mentioned, \"Jun\" (June) makes sense as it follows an academic calendar.\n*   \"Please excuse haste - I can & will do better\":\n*   \"next time. Present me kindly to Mrs. M.\":\n*   \"Your friend\":\n*   \"J T Hand\": (or J F Hand? It's T.)\n\nThe formatting is important. This should be represented with paragraph breaks where the structure indicates it, and maintaining those italics on the \"Nay.\" So, it should be `<p>Nay I should be...` and so on, with `<br>` if there are internal breaks within sentences, but based on the guidelines, I think that the best formatting style will be plain text with some paragraphs separating the different ideas. That should do the trick. Now to put that all together.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/69/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

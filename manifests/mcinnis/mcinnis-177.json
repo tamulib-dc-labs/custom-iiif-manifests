@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-177.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from Chas T. Alexander, July 5, 1887"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1887-07-05"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from Chas T. Alexander, July 5, 1887"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 25 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/177"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/95004f60-8986-3243-a927-19f29dfbc5c9/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/177/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4346,
+            "width": 3295,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/116",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/115",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/95004f60-8986-3243-a927-19f29dfbc5c9/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4346,
+                                "width": 3295,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/95004f60-8986-3243-a927-19f29dfbc5c9",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/177/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/119",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/118",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p>\n<small>\nBoard of Education.<br>\n<br>\nG. W. GRAVES, Mayor of Cisco, Ex-Officio<br>\nPresident.<br>\nL. PREVEAUX, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S. N. HOUSE,<br>\nJ. F. PATTERSON, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G. W. GARDENHIRE.<br>\nJ. W. HARTMAN.<br>\nS. H. STOUT, A. M., M. D., LL. D.,<br>\n<br>\nChas. T. Alexander,<br>\nSuperintendent.<br>\n</small>\n</p>\n\n<p>\nOFFICE OF<br>\nCisco Public School.<br>\nCisco, Texas, <i>July 5</i> 188<i>7</i>.\n</p>\n\n<p>\nProf. L. L. McInnis,<br>\nCollege Station, Texas,<br>\nMy dear Sir;\n</p>\n\n<p>\nWill you please to forward me<br>\nby return mail your paper on \"Some Phases of Industrial<br>\nEducation\" prepared for the Dallas Meeting. I wish to lay<br>\nthe same before our Comm. on Pub., and to report its contents<br>\nto the New Eng. Journal of Education.\n</p>\n\n<p>\nYours truly &c,<br>\nChas T Alexander,<br>\nSec'y \"Tex. State Teachers' Ass<sup>n</sup>\"\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/177/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process: A Detailed Analysis**\n\nAlright, let's break this down. As a seasoned transcriptionist, I approach this task methodically, prioritizing accuracy and adherence to the specified guidelines. The goal is to produce a faithful digital representation of the handwritten document, respecting its structure and nuances.\n\nFirst, the request itself. The role is clear: a professional transcriber. The task is to accurately convert text from an image, including any subtle formatting.  I must follow very specific rules regarding structure (headers, etc.), preserve original spelling, and note illegible sections. The HTML tags are key.\n\nNow, the image. It appears to be a handwritten letter on official letterhead. The condition is good, legible, but ink blots are present. The letterhead gives a lot of context: \"Board of Education,\" followed by names. The right side features a central \"OFFICE OF\" logo leading into \"Cisco Public School.\" in large script, and a date line \"Cisco, Texas, July 5 1887.\" The body of the letter is handwritten in cursive ink. The signature is \"Chas T. Alexander.\"\n\nNext, the transcription, step by step:\n\n*   **The Header:** The \"Board of Education\" is printed. Immediately below it, the names are printed, separated into two columns. On the right, \"OFFICE OF\" is centered with a decorative graphic, followed by \"Cisco Public School\" in script. Finally, the handwritten date line \"Cisco, Texas, July 5 1887\" with that very ambiguous \"5\". I will need to look closely at that.\n\n*   **Salutation:** \"Prof. L. L. McInnis,\" \"College Station, Texas,\" and \"My dear Sir;\" are all present.\n\n*   **Body:** I will need to ensure accurate transcription. \"Will you please to forward me by return mail your paper on 'Some Phases of Industrial Education' prepared for the Dallas \\[ink blot]ing. I wish to lay the same before our Comm. on Pub., and to report its contents to the New Eng. Journal of Education.\"\n    *   Here, that ink blot presents a bit of a challenge. The word \"Meeting\" fits perfectly. The blot covers the middle, but by context, it's clear. The guidelines say to \"Interpret handwritten text as accurately as possible.\" I am 95% certain it is \"Meeting,\" and will transcribe accordingly. It's the most logical fit. \"Comm.\" is likely \"Committee\" (an abbreviation) and \"Pub.\" is \"Publication\" (also an abbreviation). \"New Eng.\" is \"New England.\"\n\n*   **Closing:** \"Yours truly &c,\" (et cetera), \"Chas T. Alexander,\" and \"Sec'y 'Tex. State Teachers' Ass_n'\" (with the abbreviation \"Ass_n\" with an underdash - likely for Association).\n\nNow, the formatting and HTML. I must use `<p>` for paragraphs. `<br>` is for line breaks. `<small>` will be useful. `<b>` for bold, although that's optional. I'm hesitant on <i>. I'll stick to a plain structure. The header is complex, so I'll create distinct paragraphs or spans. The layout will dictate the structure.\n\nSpecifically:\n\n*   The text to the left side: I'll put the names into small text for readability.\n\n    *   Now, I have to format the header and the main title. The main title is large. I will use the formatting as well as sequence to preserve the structure.\n\nThen, I'll go back to refine the transcription. The left side is straight forward. The top right is the \"OFFICE OF\", followed by the main title, then the date. The \"July 5\" date will need verification. The body text is mostly straightforward except for the ink blot at Dallas, and those abbreviations (\"Comm. on Pub.\" and \"Ass_n\").\n\nNow, specific handwriting checks:\n\n*   The \"July 5\": It looks like a '5'.\n*   The \"Comm. on Pub.\": \"Comm.\" is clear. The 'P' is distinct, with a 'u' and a 'b' after.\n*   \"New Eng.\": The 'E' is distinctive.\n*   \"Sec'y\": Apostrophe is clear.\n*   \"Tex. State Teachers' Ass_n\": The quotes are present.\n\nNow, a layout and drafting step.\n\n*   Left Side Names\n*   Top Right Header\n*   Body\n\nFinally, polishing:\n\nThe \"OFFICE OF\" will be represented in small text within a banner. The main title will be in a large script, and \"Cisco, Texas, July 5 1887\" will be transcribed as handwritten. \"Meeting\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/177/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

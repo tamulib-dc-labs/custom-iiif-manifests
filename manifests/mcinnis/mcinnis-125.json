@@ -1,0 +1,139 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-125.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from R. H. Whitlock, August 15, 1885"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1885-08-15"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from R. H. Whitlock, August 15, 1885"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 20 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/125"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/b2be3e8f-ba30-3ffa-97db-a059e09752e6/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/125/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3728,
+            "width": 2313,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/62",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/61",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b2be3e8f-ba30-3ffa-97db-a059e09752e6/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3728,
+                                "width": 2313,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b2be3e8f-ba30-3ffa-97db-a059e09752e6",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/125/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/65",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/64",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.<br/>\nMECHANICAL DEPARTMENT.</p>\n\n<p>R. H. WHITLOCK, M. E.</p>\n\n<p>College Station, Aug. 15. 1885.</p>\n\n<p>Dear Prof,</p>\n<p>Your note of the 12th.<br/>\ncame through all right and I was<br/>\nglad to get your program. I<br/>\nhave been busy all the time since<br/>\nyou left. Today put in two<br/>\nnew telephone poles and made<br/>\nconnection with new wire where<br/>\nthe lightning had demolished<br/>\nthe line. Consequence is I am<br/>\ntired and hungry and this note<br/>\nwill about match yours for brevi-<br/>\nty. Am glad to hear that you<br/>\nmade a speech for the people and<br/>\nwish I could have heard it.<br/>\nMaj. Din. arrived home in safety<br/>\nand is now sojourning with us.<br/>\nAll are well and would probably<br/>\nsend regards. Will see to buggy<br/>\nO.K.</p>\n\n<p>Yours truly<br/>\nR. H. Whitlock.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/125/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/66",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Final Thoughts on Transcription**\n\nAlright, let's get this done. My primary goal here is to provide a faithful rendering of this handwritten letter, maintaining its original structure and preserving any peculiarities of the script.\n\nFirst, I examined the image carefully. I began by identifying the key elements: the header, the date, the salutation, the body of the letter, the closing, and the signature. I paid close attention to both the printed text and the handwritten portions, noting the specific layout, and any variations in style. I noted the date \"Aug 15. 1885\".\n\nI transcribed the printed elements, like \"STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS\" and \"MECHANICAL DEPARTMENT.\" I transcribed the handwritten parts as I went along. I got to the line \"Maj. Din.\" and had to stop and really look. Is it \"Din\" or \"Dunn\"? The letter after the \"D\" has a dot, and the last letter has two humps. Based on this, it's most likely \"Din.\", which could be an abbreviation for a name. I can assume it's an abbreviation for a name, so I will transcribe it as \"Maj. Din.\". I can then assume it is Major Dinwiddie, since he was a notable figure at Texas A&M.\n\nI checked for any inconsistencies or ambiguities, particularly in the handwritten sections, making sure to capture the nuances of the writer's penmanship. For example, I noticed the faintly written period after \"15\" in the date and decided to include it. I was particularly attentive to the spacing and formatting to ensure the transcription accurately reflected the letter's layout. I used the HTML tags to structure the information into a clear and readable format.\n\nI double-checked everything to catch any errors and ensure accuracy, from the headers to the punctuation. I made sure to preserve any potential abbreviations or unusual phrasing, and ensure all lines and paragraph breaks are kept, as the prompt said to maintain paragraph structures.\n\nUltimately, my goal is to present a transcription that is both accurate and faithful to the original, allowing someone to read the letter as closely as possible to the experience of the original recipient.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/125/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

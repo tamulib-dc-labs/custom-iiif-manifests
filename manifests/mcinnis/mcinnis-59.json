@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-59.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from F. Van Winkle, October 23, 1883"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1883-10-23"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from F. Van Winkle, October 23, 1883"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 15 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f43d4cd4-4c68-3d9d-8bc7-7c43f98fcc25/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4346,
+            "width": 3291,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/122",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/121",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f43d4cd4-4c68-3d9d-8bc7-7c43f98fcc25/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4346,
+                                "width": 3291,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f43d4cd4-4c68-3d9d-8bc7-7c43f98fcc25",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/128",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/127",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>P.S. I have invented a new ^ <sup>rotary</sup> dynamometer and\nwill send you cuts as soon as out. It is for measuring\npower transmitted - Keep your eye \"peeled\".\n\n<p><b>F. Van Winkle,</b><br>\n<i>Mechanical Engineer.</i><br>\n<small>No. 22 Cortlandt St.</small></p>\n\n<p align=\"right\">New York, Oct. 23 1883</p>\n\n<p>My dear McInnis -</p>\n\n<p>Your letter of 15 arrived yester-\nday and that of 17\" containing resolutions\nof Board of Directors came to hand this a.m.\nI have <sup>in Paterson</sup> original of my resignation - com-\npared with copy submitted <sup>by Mr. Sbisa</sup> on\nmorning latter was handed him and if it\nis written clear enough will send it to you,\nfor purpose requested in your letter of 17\".</p>\n\n<p>From your letters I judge you are having\nharder work to start off the college this session\nthan previously. I am of course frequently\nreminded of the college and of my friends\nthere - a youngster carrying school books -\nthe fraudulent ads in Texas papers &c. &c.\nNothing would please me better than to be\nable to call in upon you occasionally\nand witness - now from the standpoint of\nan outsider - the effect of my work and\nits development by others. I do hope\nto call upon you during this session befur\nmany years - perhaps months - have rolled\naround.</p>\n\n<p>Am glad you are all pleased with Whitlock.\nI have perfect confidence in his integrity\nand earnestness in carrying out the work of\nthe Mechanical Deptt.</p>\n\n<p>It seems to be dawning upon the News\nthat there actually is a Mechanical and an</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/129",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Okay, here's the transcription, as I see it, incorporating all my careful analysis and decisions:**\n\nFirst, there's a P.S. note at the top, a handwritten addition about a new \"rotary\" dynamometer, with \"rotary\" inserted with a caret, which he'll be sending \"cuts\" (likely diagrams or illustrations) of soon. The author, who sounds enthusiastic, also warns the recipient to \"Keep your eye 'peeled'.\"\n\nBelow that, we see the printed heading:\n\n```\n<b>F. Van Winkle</b>\n<i>Mechanical Engineer.</i>\n<small>No. 22 Cortlandt St.</small>\n```\n\nThe date is \"New York, Oct. 23 1883\".\n\nThe salutation reads \"My dear McInnis -\". Even though the 'c' in \"McInnis\" is a bit ambiguous, almost like an \"a\" based on the handwriting, I'm confident that's the intended name, as \"McInnis\" is a common name, and the \"c\" can be written that way in this period, and from the author's previous experience, it is likely the intended name, even though it appears \"MaInnis.\"\n\nThen, we have the first paragraph:\n\n\"Your letter of 15 arrived yester-\nday and that of 17\" containing resolutions\nof Board of Directors came to hand this a.m.\nI have [in Paterson] original of my resignation - com-\npared with copy submitted [by Mr. Sbisa] on\nmorning latter was handed him and if it\nis written clear enough will send it to you,\nfor purpose requested in your letter of 17\".\"\n\nThis section discusses a resignation and its various copies, mentions that the original is \"in Paterson\", and the copy was submitted \"by Mr. Sbisa\". The word \"latter\" refers to the copy that was handed over.\n\nNext, the second paragraph:\n\n\"From your letters I judge you are having\nharder work to start off the college this session\nthan previously. I am of course frequently\nreminded of the college and of my friends\nthere - a youngster carrying school books -\nthe fraudulent ads in Texas papers &c. &c.\nNothing would please me better than to be\nable to call in upon you occasionally\nand witness - now from the standpoint of\nan outsider - the effect of my work and\nits development by others. I do hope\nto call upon you during this session befur\nmany years - perhaps months - have rolled\naround.\"\n\nThis one sounds nostalgic about the college, mentioning \"Texas papers,\" the \"fraudulent ads,\" and a desire to see how his prior work there has developed. The word \"befur\" is used to mean \"before\". The \"Texas\" reference fits, given the recipient is at Texas A&M and F. Van Winkle's history.\n\nThe third paragraph reads:\n\n\"Am glad you are all pleased with Whitlock.\nI have perfect confidence in his integrity\nand earnestness in carrying out the work of\nthe Mechanical Deptt.\"\n\nThis is a quick note of appreciation and confidence in Whitlock, who is involved in the \"Mechanical Deptt.\", with the abbreviation marked as \"Deptt.\" or \"Dept\".\n\nFinally, the letter ends, but it is cut off, with:\n\n\"It seems to be dawning upon the News\nthat there actually is a Mechanical and an\"\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 4346,
+            "width": 3291,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/124",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/123",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/76cc61f8-aee4-387a-ad24-88790a270d1c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4346,
+                                "width": 3291,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/76cc61f8-aee4-387a-ad24-88790a270d1c",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/131",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/130",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Agricultural Dept. at the College \u2013<br/>\nI am sorry to see that it never alludes<br/>\nto the A. & M. C however without <sup>donating</sup><br/>\na far-fetched and dirty fling.<br/>\nSo Kellner is with you again \u2013 I am<br/>\nglad that the Capt has a situation and<br/>\nhope it is remunerative to him.<br/>\nIt must be a familiar sight \u2013 to see<br/>\nhim charging \"Coley\" after the pigs or mules.<br/>\nPlease remember me kindly to him. Tell<br/>\nhim the fig leaf I preserved from his tree<br/>\nwas handed to a modest young lady in a<br/>\nmagazine \u2013 i.e \u2013 the y. l. was modest &c &c \u2013<br/>\nI was obliged to explain that the material<br/>\nwas once used for garments but had gone out<br/>\nof style \u2013 regretting the havoc of time &c.</p>\n<p>It is unfortunate in Cranes case that<br/>\nhe said anything about leaving before the<br/>\nBoard \u2013 What he seems to feel most is<br/>\nthat negotiations are made without his<br/>\nknowledge \u2013 for had he known he was<br/>\nto be transferred he would have made different<br/>\narrangements while on his vacation \u2013 I know<br/>\nthat he has been put back financially<br/>\nand as <sup>a</sup> transfer involves no little expense<br/>\nhe is considerably the loser \u2013 He has not<br/>\nspoken or written this to me however \u2013</p>\n<p>From accounts all seem to be well<br/>\npleased with Gen. H. \u2013 His selection seems<br/>\nto have been a fortunate one and I am<br/>\nglad for all concerned.<br/>\nI have heard from Norrell about \"the V. C[illegible]</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. My primary task here is to accurately transcribe this handwritten text, focusing on fidelity to the original and providing a clear, readable rendering, while dealing with a few ambiguities and constraints.\n\n1.  **Image Assessment:** I've carefully examined the image. This is a cursive letter, likely from the late 19th or early 20th century, if I had to guess. The handwriting is generally legible, but some words require closer examination, especially where there are corrections or faded ink. The letter's content seems to revolve around the Agricultural Department at a college, likely \"A. & M. C.\" (Agricultural and Mechanical College, probably, given the context), and involves individuals like a \"Kellner\" (or \"Killner\" - I'm leaning toward Kellner, but will flag it), a \"Capt\" (Captain, I presume), someone named \"Coley,\" and discussions about pigs, mules, and a rather amusing fig leaf story. There's also mention of a \"Crane,\" \"Gen. H.\" (General H., probably), and a \"Norrell,\" which looks like the name.\n\n2.  **Line-by-Line Transcription & Interpretation:**\n    I began a line-by-line transcription. I am treating the lines as the fundamental unit of information, keeping the original layout and line breaks to the best of my ability. I had to focus on a crossed out word. The letter has the phrase: \"without making\" but it is crossed out and the word \"donating\" is written above it. Though the phrasing sounds odd to my ears, the letters say \"donating.\" I debated if the writer meant \"without causing?\" or \"without using?\". But I have to rely on visual evidence. I've rechecked to be sure. I will transcribe it as it appears to be, \"donating\". I have other concerns around the text but will not edit the text for clarity.\n\n3.  **Ambiguities and Refinements:**\n    *   **\"donating\" vs. \"making\":** The crossed-out word is clearly \"making\" and \"donating\" is above it. The word is the final version, so I'm transcribing it.\n    *   **\"Kellner/Killner\":** The name appears to be \"Kellner,\" capital K, e, double l, n, e, r.\n    *   **\"Coley\":** I'm confident about \"Coley,\" capitalized and in quotes, likely the name of an animal, given the reference to pigs and mules.\n    *   **\"y. l.\":** Stands for \"young lady,\" contextually.\n    *   **\"&c &c\":** Standard for \"etc etc.\"\n    *   **\"most\":** This is where it gets tricky. The word looks like `m b a t` on first glance, but I interpret it as \"most.\" The writer's 'o's often look closed. The context demands \"most,\" I believe. Even if it *looks* a little mangled, the intended meaning is clear.\n    *   **\"transfer involves\":** There is a caret in the line, indicating an insert of an \"a\".\n    *   **\"V. C.\":** The final line has \"the V. C\". It looks like \"C\" but could be \"A\". I'll stick with V. C. given that the \"A. & M. C.\" reference earlier. I am unsure, so \"V. C.\" it is.\n\n4.  **Formatting and HTML Considerations:**\n    I have to use HTML to preserve layout per the instructions. I will use `<p>` tags for paragraphs. Also, to preserve line breaks, I have to use `<br/>` within the `<p>` tags, which adds extra visual noise, but preserves the original layout. I can't use strikethrough because the guidelines do not permit `s` or `del`. But, I can use `span` and `sup`. Though, I decided to keep it as simple as possible.\n\n5.  **Final Transcription:**\n\n```html\n<p>Agricultural Dept. at the College \u2013<br/>\nI am sorry to see that it never alludes<br/>\nto the A. & M. C however without donating<br/>\na far-fetched and dirty fling.</p>\n<p>So Kellner is with you again \u2013 I am<br/>\nglad that the Capt has a situation and<br/>\nhope it is remunerative to him.<br/>\nIt must be a familiar sight \u2013 to see<br/>\nhim charging \"Coley\" after the pigs or mules.<br/>\nPlease remember me kindly to him. Tell<br/>\nhim\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/59/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

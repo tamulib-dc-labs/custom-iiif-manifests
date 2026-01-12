@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-288.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from C. C. Georgeson, July 20, 1881"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1881-07-20"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from C. C. Georgeson, July 20, 1881"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/b96c7261-c158-371d-9377-f88a29d683b4/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 5088,
+            "width": 3344,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/b96c7261-c158-371d-9377-f88a29d683b4/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 5088,
+                                "width": 3344,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b96c7261-c158-371d-9377-f88a29d683b4",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/8",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>PROSPECT HOUSE,<br>\nRED BANK, N. J.,<br>\n<small>GEO. F. BORDEN, Proprietor.</small></p>\n\n<p><i>Red Bank, N. J.,</i> July 20<sup>th</sup> 1881</p>\n\n<p>Prof. L. L. M<sup>c</sup>Innis.<br>\nCanton Miss.</p>\n\n<p>[Margin: This is the first trial with my new stylographic pen - not very successful.]</p>\n\n<p>My dear Friend:</p>\n\n<p>I am happy to acknowledge<br>\nyour welcome favor of the 14<sup>th</sup><br>\ninst.; it came to hand yesterday.<br>\nAm glad to see that you are en-<br>\njoying yourself. I can report the<br>\nsame for myself, and I think also<br>\nfor our colleague, Van Winkle. I went<br>\nto Michigan as projected, and for three<br>\nconsecutive days I had a \"royal time\".<br>\nI then came eastward and have since my<br>\narrival been so pleasantly occupied that<br>\nI have actually prolonged my stay one week,</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcriptionist's Mindset: A Step-by-Step Walkthrough**\n\nOkay, here's how I approached this transcription task. First, I locked into my professional role, focusing on accuracy and the provided guidelines \u2013 essentially, the 'rules of the game'. I noted the specific HTML tags to use, the top-to-bottom reading order, the need to preserve original spelling, punctuation, handwriting interpretation, and layout. No extraneous commentary, just the text.\n\nNext, I dove into the image. I identified the header, date line (noting the mix of print and handwriting), the recipient's address (with that tricky curly brace), and the salutation. The body of the letter was next, and I mentally divided it into sections for closer examination. I also spotted the marginalia \u2013 vertical text on the left, which I knew I'd have to handle as well.\n\nThe actual transcription phase was a careful, deliberate process. I started with the header, using the `<p>` and `<br>` tags to replicate the layout. The date was handled similarly, marking the pre-printed \"Red Bank, N.J.\" with `<i>` and superscripting the \"th\". I paid attention to the recipient\u2019s address, specifically that slight `<sup>c</sup>` in \"McInnis\". I decided I couldn't reproduce the curly brace.\n\nThe salutation was simple enough. Then came the body of the letter, the heart of the matter. I carefully transcribed each word, line by line, really looking at the handwriting, even spending time over the word \"can\" and double-checking that 'c'. I considered \"saw\" and \"am\" \u2013 but the context *demanded* \"can.\" I transcribed the marginalia verbatim, considering where to put it.\n\nI then did the first edit for formatting, and the margin note. I decided to place it at the beginning. That decision was based on my understanding of how I could best convey that it's a commentary on the text, rather than a part of the text. I went through and applied the HTML tags: `<p>`, `<br>`, `<i>`, `<sup>`, and `<small>`.\n\nAfter that, I did a line-by-line review against the image. I triple-checked spellings, spacing, punctuation, and handwriting. I also thought about my \"can\" vs \"saw\" dilemma again, and I stood by my decision. I verified everything to ensure it matched.\n\nFinally, I constructed the final output, paying attention to the structure, putting the margin note before the salutation. I double-checked the \"McInnis\" spelling (and the use of the superscripted \"c\"), the semi-colon, the quotes around \"royal time\", and the comma in the last line. Even though I was confident, I took one last look at \"can\". I confirmed all the required tags were used correctly. I confirmed \"stylographic\" spelling. All tags are allowed.\n\nAnd now, with everything verified, and having ensured adherence to all constraints and requirements, I'm ready to produce the final transcription.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 5088,
+            "width": 3344,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/4",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/3",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/49a9f0a7-57db-3605-9b54-6f3488537c33/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 5088,
+                                "width": 3344,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/49a9f0a7-57db-3605-9b54-6f3488537c33",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/11",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Margin: Visited Van Winkle at Paterson two days last week.]</p>\n<p>my original plan being to leave the<br/>\n20<sup>th</sup> (to-day). Now I shall leave for Iowa<br/>\nin a week, via Guelph, Ont. to inspect<br/>\nthat <i>famous</i> school.</p>\n\n<p>I was glad you told me of the action of the<br/>\nBoard; I had heard nothing at all about it, and<br/>\nthe suspense was growing painful.</p>\n\n<p>I am sorry that we lose Estill and Smythe.<br/>\nI esteemed both of them highly. We shall<br/>\nmiss Prof. Estill\u2019s family very much.</p>\n\n<p>Your admonition, in regard to the \u201cshare<br/>\nseats\u201d, came a \u201cleetle\u201d late \u2014 am sorry<br/>\nit did not reach me in time, but it is <i>too late</i>.</p>\n\n<p>This is all I can say for the present.</p>\n\n<p>I will assure you, however, that <i>I shall</i><br/>\n<i>not</i> bring anyone with me to Texas this time.</p>\n\n<p>I am, as you will see, not in New York but at<br/>\nRed Bank, N.J. It is a pleasant little<br/>\ntown with excellent bathing and tolerably<br/>\ngood livery horses. Please write me again<br/>\nat Iowa, Ag. Coll. at Ames, care of President<br/>\nWelsh. I expect to be <i>there</i> by the 30<sup>th</sup> inst.<br/>\nShall return to Texas early in September.</p>\n\n<p>With best wishes, I remain, Fraternally yours<br/>\n[Signature] C. C. Georgeson</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Process Overview**\n\nOkay, here's how I approached this transcription task. First, I had to understand the objective. I'm a transcriptionist, my job is to accurately reproduce text from an image of a handwritten letter, following specific guidelines, and adhering to strict formatting constraints. I need to get it perfect, top-to-bottom, left-to-right, no commentary or interpretation \u2013 just the text. I'm aiming for high accuracy, maintaining original spelling and punctuation. I need to be careful with any illegible text, marking it with `[?]`. Also, the instructions are very specific about the allowed HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`. My mission is to use these appropriately to label the text structurally.\n\nThe image itself is a handwritten letter on aged paper. The ink's a sepia brown. I can see cursive handwriting, mostly legible, but with some quirks. There is marginalia on the left-hand side, a bit of underlining for emphasis, and a few corrections with strikethroughs.\n\nI began by reading each line, taking it one word at a time. The first line was \"my original plan being to leave the\". I was initially thrown by \"beaing\". It almost looks like it's spelled \"beaing\", but I knew this could be an error, so I scrutinized it. After careful consideration of the context and the letter shapes, I was confident it was meant to be \"being\". I needed to ensure I wasn't hyper-correcting.\n\nEach line had its own nuances. I noted the superscript \"th\" in \"20th\" and the dialectal \"leetle\". I carefully looked at each instance of strikethrough text and attempted to decipher the writer's intent. For instance, in line 12 (\"came a leetle <s>too</s> late\"), I debated the inclusion of the struck-through \"too\". However, based on the final sentence structure and overall context, I elected to omit it in the final transcription for a natural reading flow. In line 16 (\"not bring anyone with me <s>to</s> Texas\"), the word before \"Texas\" was a real mess. The prepositions \"in\" and \"to\" were considered. In the end, it was clear that the writer meant \"to\", despite the messy appearance. I also had to make sure I got all the formatting right, applying the proper HTML tags for emphasis and for elements like superscripts.\n\nMarginalia required careful consideration. It was written vertically and needed a spot in the transcript, but I had to determine the best placement. It seemed to relate to the beginning of the letter, so I put it at the start.\n\nI had to constantly refer back to the instructions about allowed HTML tags. I'd typically use `<u>` for underlines, but since that wasn't allowed, I opted for `<i>` as a common substitute for emphasis. I had to avoid any other tags that weren't on the approved list.\n\nAfter the initial transcription, I went back through and made some refinements. I carefully looked at the text around the signature and the margin notes. I made sure to check the punctuation and spelling, ensuring I kept everything exactly as written, while also preserving the natural reading flow.\n\nI double-checked everything against the restrictions. Only transcribed text? Yes. The correct tags? Yes. The marginalia and any special characters? Yes. The accuracy was paramount. It took time, but I hope it's perfect. The goal is to accurately represent the text of the letter.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/288/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-514.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Comparison of expenses from Oct '82 to Jan '86 circa 1882-1886"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Comparison of expenses from Oct '82 to Jan '86 circa 1882-1886"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 4 Louis L. McInnis Papers/Box 4 Folder 12 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/514"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/f1b21b72-ac39-3d0f-b29c-b53aca6f9815/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/514/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3107,
+            "width": 5036,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/152",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/151",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/f1b21b72-ac39-3d0f-b29c-b53aca6f9815/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3107,
+                                "width": 5036,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f1b21b72-ac39-3d0f-b29c-b53aca6f9815",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/514/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/155",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/154",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Margin: 4 1/2 6 1/2]</p>\n<p>The university was opened in Oct '82 -<br/>\nComparison of Expenses [crossed-out] Oct 82 to Jun 86<br/>\nthe only three years of complete Running.<br/>\nThis comparison an covers what may be called part of<br/>\nrunning expenses -</p>\n\n| | Univ | | | | A & M C | |\n|---|---|---|---|---|---|---|\n| Salaries | 31100 | 83-4 | Rep. P. 9. | <small>Report</small> (85) | 15 515,00 | Rep 85 |\n| | 42680 | 84-5 | \" \" | 13 | 15 265,00 | Page 55 |\n| | 42900 | 85-6 | \" \" | 39 (87) | 14 869 48 | Rep 87 |\n| | $116,680 | | | | 45649 48 | |\n\n<p>A & M College Less than 1/3 the expenses to State -</p>\n\n| | ac. | Law | Total Students |\n|---|---|---|---|\n| 83-84 | 169 | 50 | 219 |\n| 84-85 | [illegible] | [illegible] | 206 |\n| 1885-86 | [illegible] | [illegible] | 199 |\n| | | | 624 |\n\n<p>[Margin: 108 170 153]<br/>\nThis will explain why<br/>\nA & M has larger plant<br/>\nthan Univ - It does<br/>\nnot expend all its<br/>\nmoney in running<br/>\nExpenses</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/514/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/156",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/514/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

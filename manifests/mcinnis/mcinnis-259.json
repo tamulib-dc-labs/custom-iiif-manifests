@@ -1,0 +1,210 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-259.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from J. T. Hand, June 8, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-06-08"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from J. T. Hand, June 8, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/50a1e564-ceb5-39eb-b15c-eff3e4ff1679/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3853,
+            "width": 3051,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/20",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/19",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/50a1e564-ceb5-39eb-b15c-eff3e4ff1679/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3853,
+                                "width": 3051,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/50a1e564-ceb5-39eb-b15c-eff3e4ff1679",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/26",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/25",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[Header]<br/>\nBrenham Texas.<br/>\nJune 8th 1880.</p>\n\n<p>Dear Professor -<br/>\nYour letter of 6th Inst reached me<br/>\nto day - Glad to hear from you - I wrote you<br/>\na short letter two days ago - & sent you a paper<br/>\nI learn to-day from what I deem good<br/>\nauthority, that our quondam friend Prof H<br/>\nwill seek a restoration to his lost honors at<br/>\nthe approaching meeting of your Board -<br/>\nThis intelligence comes from Whitney, & I think<br/>\nis reliably - He, of course, will strike for<br/>\nhis old chair - I received some weeks<br/>\nsince a precious-elect paper - in the<br/>\nform & style of a general & special<br/>\n\"endorsation\" - <i>I lost it</i> - Thus ends the<br/>\nfirst Scene - Put your house in order -<br/>\nI suggested to you some months since<br/>\nthat your channel to success I thought<br/>\nwas through Col Jones - I think so still</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/27",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription of a Handwritten Letter**\n\nAlright, let's break this down. The task is to accurately transcribe this handwritten letter from Brenham, Texas, dated June 8th, 1880. It looks like it's addressed to a \"Professor,\" and the ink is faded but mostly legible. I'm going to take this line by line, paying close attention to the details, especially the more difficult words and phrases. My aim is to be as precise as possible, while also recognizing that handwriting can be open to interpretation. I need to make the text machine-readable, and respect the handwritten intent as much as possible, while formatting appropriately.\n\nFirst, the header: \"Brenham Texas\" and \"June 8th 1880.\" That's straightforward, but important for context. Then the salutation: \"Dear Professor -\". Okay.\n\nNow, into the body. Here we go.\n\n```html\n<p>[Header]<br/>\nBrenham Texas.<br/>\nJune 8th 1880.</p>\n\n<p>Dear Professor -<br/>\nYour letter of 6th Inst reached me<br/>\nto day - Glad to hear from you - I wrote you<br/>\na short letter two days ago - & sent you a paper<br/>\nI learn to-day from what I deem good<br/>\nauthority, that our quondam friend Prof H<br/>\nwill seek a restoration to his lost honors at<br/>\nthe approaching meeting of your Board -<br/>\nThis intelligence comes from Whitney, & I think<br/>\nis reliably - He, of course, will strike for<br/>\nhis old chair - I received some weeks<br/>\nsince a precious-elect paper - in the<br/>\nform & style of a general & special<br/>\n\"endorsation\" - I lost it - Thus ends the<br/>\nfirst Scene - Put your house in order -<br/>\nI suggested to you some months since<br/>\nthat your channel to success I thought<br/>\nwas through Col Jones - I think so still</p>\n```\n\nThat should be the full transcription. I had to focus on difficult words like \"quondam,\" \"reliably,\" \"precious-elect,\" and \"endorsation\". The sentence \"I think is reliably\" is grammatically odd, but I've transcribed what I see, while making an important note that it could be a grammatical slip, or an adverbial use. The \"precious-elect\" is tricky, but I've determined based on the letters \"e-l-e-c-t\", and contextual clues. The underlined phrase is \"I lost it\", indicating emphasis. The formatting should capture that as desired. All done!\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3853,
+            "width": 3051,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/22",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/21",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/dc8677b0-f029-3ed8-af8d-a26691afe280/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3853,
+                                "width": 3051,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/dc8677b0-f029-3ed8-af8d-a26691afe280",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/29",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/28",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>[1880, June 8]</p>\n\n<p>\nLet me know your prospects - & Command<br>\nme - if you need me - I thank you for the<br>\nKind notice by Gov. Brown of our friend -<br>\nHe merits it all & much more - A great<br>\nheart & a luminous intellect have gone out -<br>\nI did not see the notice of his death in the News -<br>\nexcept the short telegram from Henderson -<br>\nYou know my estimate of the News -<br>\nOur Exercises begin here on 14 & close 23<sup>rd</sup> -<br>\nYours I see take place at same time -<br>\nGather what you can at Commencement -<br>\nall that may affect my friends or whatever<br>\nmay be personal to myself - When may<br>\nwe expect you in Brenham - Let me know<br>\nthat I may be at home - I saw your<br>\nfriend G. W. Moore this P.M. - He is quite well<br>\nWe will all enjoy your visit - Busy does<br>\nnot express my condition just now -<br>\nYour friend<br>\n[Signature] J. T. Hand\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/30",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**The Transcription Process: A Deep Dive**\n\nOkay, so I'm presented with a handwritten letter image, and my task is crystal clear: transcribe it with meticulous accuracy, adhering to these specific HTML guidelines. It's my forte! The initial scan reveals a cursive script, a bit hurried but readable, and a pencil-written date that clearly seems like an archival addition. The ink, a rich purple-brown, and the gentle folds of the paper are merely contextual observations.\n\nFirst, the date: `[1880, June 8]`. Then, the transcription begins. Each line is painstakingly examined. The goal? To capture every nuance: the original spelling, punctuation (or lack thereof), and the essence of the handwriting. \"Let me know your prospects - & Command...\" I'm already thinking about those HTML tags, especially `<br>` for line breaks. Is \"prospects\" clear? Yes. \"Gov. Brown\"... that period is essential. \"Exercises begin here on 14 & close 23rd...\" the superscript \"rd\" in \"23rd\" demands the `<sup>` tag. I'm noting the unusual ampersand.\n\nAs I go, contextual clues emerge. \"Brenham\" in line 14 rings a bell. The mention of \"Gov. Brown\" and a \"friend\" point to a potential historical context, maybe even relating to Texas. I'm mentally checking the relevant historical figures. J.T. Hand, Baylor University, Brenham. That seems right. I'm focusing on deciphering the details. The \"G. W. Moore\" in line 16 and \"P.M.\" are also important bits.\n\nI'm constantly refining. \"At some time\" or \"At same time?\" I revisit the letter formations. Now, with more close observation, it's definitively \"same\" \u2013 the loop connects like an 'a'. It's the same throughout. I'm rechecking, ensuring \"Brenham\" and \"Henderson\" are accurate. Even checking the capitalization of \"News\" \u2013 likely the name of a newspaper. The structure is key: a date, the body of the letter, and the signature.\n\nFinally, the HTML structure starts to form. I wrap the date with brackets in a paragraph tag. I use `<br>` to replicate the original line breaks. Then it's the signature. A small adjustment and final inspection to confirm that everything \u2013 every single detail, from \"Gov.\" to the `<sup>` tag, is present and correct. The final output is ready. Done.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/259/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

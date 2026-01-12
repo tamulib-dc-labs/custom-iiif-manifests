@@ -1,0 +1,281 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-210.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from T. M. Scott, July 31, 1889"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1889-07-31"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from T. M. Scott, July 31, 1889"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 28 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/aa9a4468-af32-3714-a3dd-f58c8e286ab3/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 3420,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/32",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/31",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/aa9a4468-af32-3714-a3dd-f58c8e286ab3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3420,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/aa9a4468-af32-3714-a3dd-f58c8e286ab3",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/41",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/40",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span>[Header]\n<p align=\"center\">Agricultural Experiment Station of the<br>\n<b>STATE AGRICULTURAL AND MECHANICAL COLLEGE<br>\nOF TEXAS.</b><br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n\n<p><small>LOUIS L. McINNIS,<br>\nChairman of the Faculty.<br>\nT. M. SCOTT,<br>\nAgent of the Board.<br>\nF. A. GULLEY,<br>\nDirector of the Station.<br>\nAgricultural Experiment Station Council.</small></p>\n\n<p align=\"right\"><small>Address Correspondence to<br>\nPROF. F. A. GULLEY,<br>\nDIRECTOR OF STATION.</small></p>\n\n[Body]\n<p>College Station, Texas, July 31<sup>st</sup>, 1889<br>\nProf. L. L. McInnis.<br>\nMontgomery Springs Va.</p>\n\n<p>My dear friend<br>\nI thought, until I got your note to<br>\nday, and hoped, that you had for-<br>\ngotten everything at the College.<br>\nAnd that you and Mrs McInnis<br>\nwere so enjoying yourselves, just<br>\nyou two, like you were when you<br>\nwere sweethearts togeather, that no<br>\none could think one unkind thought<br>\nif during your entire stay at the<br>\nSprings you never thought of them,<br>\nlet alone abstracting yourself long<br>\nenough to write. If I were in your<br>\nplace, the only thoughts I would<br>\nhave would be of where you are<br>\nand further up the mountain side,</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_0"
+                        },
+                        {
+                            "id": "http://example.org/iiif/42",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. I'm looking at this image, and it's a handwritten letter on what is clearly official letterhead. The header's got all the typical elements: the name of the \"Agricultural Experiment Station of the STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS\" (capitalized, of course!), its technical branch, and all the names and titles of key figures \u2013 Chairman, Agent, Director, and the Station Council. We've got the usual contact information: \"Address Correspondence to PROF. F. A. GULLEY, DIRECTOR OF STATION.\"\n\nThe key here is the date: \"College Station, Texas, July 31<sup>st</sup> 1889\". And here's where it gets interesting: the recipient. The letter is addressed to \"Prof. L. L. McInnis\". At first, I thought that initial was an \"S\", especially looking at the handwriting of \"Springs\" later on. However, considering the context of the letterhead, where \"Louis L. McInnis\" is listed as Chairman of the Faculty, and the salutation \"My dear friend\" combined with the fact that these are the only initialed letters in the handwriting: I'm pretty sure it's \"L. L.\". The way it\u2019s written *could* be an \"S\", but based on the letterhead and the period style in which the letter is written, I'm fairly certain the writer is addressing the Chairman or at least someone closely connected to him. This initial is far more likely a stylized cursive \"L\". Also, considering the Mrs. McInnis reference. I'm going with \"L. L.\" to match the header. It looks like it is written as \"S. S.\" in the letter. But the context is clear.\n\nNow, let's transcribe the body: \"My dear friend / I thought, until I got your note to / day, and hoped, that you had for- / gotten everything at the College. / and that you and Mrs McInnis / were so enjoying yourselves, just / you two, like you were when you / were sweethearts togeather, that no / one could think one unkind thought / if during your entire stay at the / Springs you never thought of them, / let alone abstracting yourself long / enough to write. If I were in your / place, the only thoughts I would / have would be of where you are / and further up the mountain side,\" and it looks like a comma is on the last line, implying the next page of the letter. This is all standard stuff, a friendly, familiar tone, and some implied nostalgia. Spelling error in \"togeather\". Looks all correct, really. The handwritten form is all there, line breaks and formatting included. I\u2019ll make sure to get the \"31<sup>st</sup>\" correct, and mark those commas and periods and capitalizations carefully. I think I've got this.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 1"
+                ]
+            },
+            "height": 3420,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/34",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/33",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e7077594-891e-327f-8f85-0412c19dbd5d/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3420,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e7077594-891e-327f-8f85-0412c19dbd5d",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/44",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/43",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>\nWhen I was a little fellow I used<br/>\nto look up the tall trees and to the<br/>\nhigh hill tops and think how close<br/>\nup to the sky they were. I don't<br/>\nbelieve the knowlege that it is<br/>\nfarther up to heaven than I thought<br/>\nit was when a boy has added any<br/>\nthing to my happiness. Though the<br/>\nworld has been a very pleasant<br/>\none to me. The sunshing day have<br/>\nfar out numbered the cloudy<br/>\none, And I thank you and Mrs<br/>\nMcTunis for opening the clouds<br/>\nmany a time, and letting the<br/>\nblue sky through. May God be<br/>\nkind to both of you and give<br/>\nyou sunny days.\n</p>\n<p>\nMatters here are going along<br/>\nall right. Hutchinson does very<br/>\nwell in the Office, and the work to<br/>\nbe done has been provided for.<br/>\nAssembly hall, is being roofed,<br/>\nSubers, has not worked at the fence.<br/>\nGulley has gone. Dr Francis starts<br/>\nto night to Set load cattle for Mo.\n</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_1"
+                        },
+                        {
+                            "id": "http://example.org/iiif/45",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Transcription Complete**\n\nOkay, here's what I've got. I've analyzed the handwritten letter, taking it line by line. I'm focusing on accuracy, so I'm maintaining the original spelling (even the misspelling of \"knowlege\") and punctuation, including any unusual letter formations. I'm keeping the original line breaks using `<br>` tags and separating the two paragraphs with `<p>` tags. I've made some observations about potentially ambiguous letters, like the name \"McTunis,\" which is how it *visually* appears in the script, even though a more common name might be expected. I've also noted the unusual word \"sunshing\" and chosen to transcribe it as is, since it looks like a \"g\" and the writer did not write \"y.\" Likewise, I am keeping \"Set load cattle\" and am not changing it. After careful consideration of letter formation, comparison with other examples in the text, and considering the likely meaning, here is my final transcription:\n\n<p>\nWhen I was a little fellow I used<br/>\nto look up the tall trees and to the<br/>\nhigh hill tops and think how close<br/>\nup to the sky they were. I don't<br/>\nbelieve the knowlege that it is<br/>\nfarther up to heaven than I thought<br/>\nit was when a boy has added any<br/>\nthing to my happiness. Though the<br/>\nworld has been a very pleasant<br/>\none to me. The sunshing day have<br/>\nfar out numbered the cloudy<br/>\none, And I thank you and Mrs<br/>\nMcTunis for opening the clouds<br/>\nmany a time, and letting the<br/>\nblue sky through. May God be<br/>\nkind to both of you and give<br/>\nyou sunny days.\n</p>\n\n<p>\nMatters here are going along<br/>\nall right. Hutchinson does very<br/>\nwell in the Office, and the work to<br/>\nbe done has been provided for.<br/>\nAssembly hall, is being roofed,<br/>\nSubers, has not worked at the fence.<br/>\nGulley has gone. Dr Francis starts<br/>\nto night to Set load cattle for Mo.\n</p>\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 2"
+                ]
+            },
+            "height": 3420,
+            "width": 2245,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/36",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/35",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/0aef8cc0-3bb5-36d9-a1ae-aae8552c6156/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 3420,
+                                "width": 2245,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0aef8cc0-3bb5-36d9-a1ae-aae8552c6156",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/47",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/46",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<span><p>Agricultural Experiment Station of the<br/>\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE<br/>\nOF TEXAS. [1889, July 31]<br/>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n\n<p><small>LOUIS L. McINNIS,<br/>\nChairman of the Faculty.<br/>\nT. M. SCOTT,<br/>\nAgent of the Board.<br/>\nF. A. GULLEY,<br/>\nDirector of the Station.<br/>\nAgricultural Experiment Station Council.</small></p>\n\n<p><small>Address Correspondence to<br/>\nPROF. F A. GULLEY,<br/>\nDIRECTOR OF STATION.</small></p>\n\n<p>College Station, Texas, .............................., 188</p>\n\n<p>to night, will go with them, and<br/>\nfrom Columbia, on to Cincinati<br/>\nfor furlough.</p>\n\n<p>There is nothing of interest<br/>\ngoing on about which to write<br/>\nyou. The weather of course<br/>\nexceedingly hot. has not rained<br/>\nsince you went away.<br/>\nPaul Braun is sick in bed<br/>\nMeasles, Guenther, returned last<br/>\nnight. Harrington will not go for<br/>\na couple weeks. Mrs Scott, in<br/>\nCollin Co.</p>\n\n<p>Kind regards to Mrs McInnis<br/>\nand yourself.<br/>\nWrite when you want any-<br/>\nthing done,</p>\n\n<p>Your friend<br/>\nT.M. Scott.</p>\n\n<p>Kiss the little ones for me<br/>\nwhen you see them.</p></span>",
+                                "format": "text/html",
+                                "language": "en"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_2"
+                        },
+                        {
+                            "id": "http://example.org/iiif/48",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Detailed Transcription of a Handwritten Letter**\n\nAlright, I'm diving into this transcription with a methodical approach, starting with a careful dissection of the letterhead. I see at the top, centered, \"Agricultural Experiment Station of the,\" followed by larger text: \"STATE AGRICULTURAL AND MECHANICAL COLLEGE,\" and then \"OF TEXAS.\" with \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\" below. The handwritten date, \"[1889, July 31]\", is to the right of \"OF TEXAS.\" and it's important to include the brackets; the style of handwriting looks consistent.\n\nOn the left, there's a column of names and titles: \"LOUIS L. McINNIS, Chairman of the Faculty.\", \"T. M. SCOTT, Agent of the Board.\", \"F. A. GULLEY, Director of the Station.\", and finally, \"Agricultural Experiment Station Council.\"\n\nOn the right, we have: \"Address Correspondence to\" followed by \"PROF. F. A. GULLEY, DIRECTOR OF STATION.\" - I note the \"F A.\" rather than \"F. A.\" in the right side header compared to \"F. A. GULLEY\" on the left column.\n\nA decorative line separates this header information from the dateline, which reads: \"College Station, Texas, .............., 188...\" However, the handwritten text begins immediately below this line, so I'll need to account for this. The \"188\" is printed.\n\nNow, into the handwritten body of the letter. It appears to start mid-thought or continuation from a previous page, but the structure is obvious. It begins, \"to night, will go with them, and\" - the two-word phrasing for \"tonight\" is typical of the era, and it's clearly not a formal opening like \"Dear X.\" The writer jumps right in.\n\nThe text continues: \"from Columbia, on to Cincinati for furlough.\" I have to double-check \"Cincinati\" because it's a bit ambiguous. After careful examination of the strokes, the writer seems to have written a slightly unconventional, but recognizable, \"Cincinati\" instead of \"Cincinnati\". I will be true to the original. \"for furlough.\" completes the paragraph.\n\nNext, \"There is nothing of interest going on about which to write you. The weather of course exceedingly hot. has not rained since you went away.\" - I note the indentation, the lowercase \"h\" in \"has\" and that \"exceedingly\" is split \"ex-ceedingly\".\n\nMoving on: \"Paul Braun is sick in bed Measles, Guenther, returned last night. Harrington will not go for a couple weeks. Mrs Scott, in Collin Co. Kind regards to Mrs McInnis and yourself, Write when you want any- thing done, Your friend T.M. Scott. Kiss the little ones for me when you see them.\"\n\nI'm confirming specific transcriptions: \"Guenther,\" there's a comma after the name as I see it, so I'll include it. \"Harrington\" and \"McInnis\" are clear. The \"M\" in \"McInnis\" appears as a capital M, then a small \"c\", and \"Innis\". Also, there's a comma after \"Scott\" and a period after \"Co\" in \"Collin Co.\" The letter ends with a standard closing, then the signature of \"T.M. Scott\" - which I confirm matches the \"T. M. SCOTT\" in the letterhead. Finally, the post-script: \"Kiss the little ones...\" at the bottom-left, under \"Your friend\" but to the left of the signature.\n\nI will use HTML tags as requested, while maintaining the structural layout. Since the prompt does not restrict attribute use explicitly, I can assume standard attributes are usable on accepted tags such as `p`. Therefore, I will transcribe and render the HTML now. The image should resemble the letterhead by using breaks and other tags, and keeping to the IIIF guidelines. I will maintain the paragraph structure.\n\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/210/pages/page_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
