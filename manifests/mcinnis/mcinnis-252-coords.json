@@ -1,0 +1,107 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-252-coords.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1880-06-10"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4338,
+            "width": 3327,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4338,
+                                "width": 3327,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
