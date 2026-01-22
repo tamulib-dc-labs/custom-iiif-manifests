@@ -1,0 +1,607 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-387-coords.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Letter to Louis L. McInnis from A. J. Rose, July 19, 1890"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1890-07-19"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Letter to Louis L. McInnis from A. J. Rose, July 19, 1890"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "isPartOf"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "context"
+                ]
+            },
+            "value": {
+                "none": [
+                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba/full/pct:25/0/default.jpg",
+            "type": "Image"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Page 0"
+                ]
+            },
+            "height": 4029,
+            "width": 3251,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 4029,
+                                "width": 3251,
+                                "service": [
+                                    {
+                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba",
+                                        "@type": "ImageService2",
+                                        "profile": "http://iiif.io/api/image/2/level2.json"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://example.org/iiif/4",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "State Agricultural and Mechanical College",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=375,45,2500,125"
+                        },
+                        {
+                            "id": "http://example.org/iiif/6",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "OF TEXAS.",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=1175,170,660,50"
+                        },
+                        {
+                            "id": "http://example.org/iiif/7",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "(TECHNICAL BRANCH OF THE UNIVERSITY.)",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=1160,220,950,55"
+                        },
+                        {
+                            "id": "http://example.org/iiif/8",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "A. J. ROSE, President Board of Directors, Salado Texas.",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=125,270,900,35"
+                        },
+                        {
+                            "id": "http://example.org/iiif/9",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "T. M. SCOTT, Agent of the Board, College Station, Texas.",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=135,295,1150,40"
+                        },
+                        {
+                            "id": "http://example.org/iiif/10",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "LOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=175,320,1200,40"
+                        },
+                        {
+                            "id": "http://example.org/iiif/11",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "Salado, Texas, July 19th 1890",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=1440,330,1650,90"
+                        },
+                        {
+                            "id": "http://example.org/iiif/12",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "Louis L McInnis",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=195,435,1450,110"
+                        },
+                        {
+                            "id": "http://example.org/iiif/13",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "College Station Texas",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=320,545,1550,115"
+                        },
+                        {
+                            "id": "http://example.org/iiif/14",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "Dear Prof",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=1045,650,830,100"
+                        },
+                        {
+                            "id": "http://example.org/iiif/15",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "I have your letter 17th",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=1720,740,1430,95"
+                        },
+                        {
+                            "id": "http://example.org/iiif/16",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "before me. In reply will say that I dont see",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=45,845,3150,115"
+                        },
+                        {
+                            "id": "http://example.org/iiif/17",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "how I can add more than is contained in my",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=45,950,3110,100"
+                        },
+                        {
+                            "id": "http://example.org/iiif/18",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "letter of 18th I dont believe that the Board intends",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=45,1050,3180,105"
+                        },
+                        {
+                            "id": "http://example.org/iiif/19",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "to do you a wrong dont think they have any",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=45,1150,3120,110"
+                        },
+                        {
+                            "id": "http://example.org/iiif/20",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "personal feelings against you whatever. Now",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=50,1250,3100,115"
+                        },
+                        {
+                            "id": "http://example.org/iiif/21",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "please state to me plainly what you think",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=60,1355,3130,110"
+                        },
+                        {
+                            "id": "http://example.org/iiif/22",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "the Board should do to release you from",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=60,1460,3100,105"
+                        },
+                        {
+                            "id": "http://example.org/iiif/23",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "the false impression in which you are placed",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=60,1555,3160,115"
+                        },
+                        {
+                            "id": "http://example.org/iiif/24",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "over the state. I endeavored to explain to you as",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=55,1660,3195,110"
+                        },
+                        {
+                            "id": "http://example.org/iiif/25",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "I understood it that the Board believed that",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=45,1760,3145,115"
+                        },
+                        {
+                            "id": "http://example.org/iiif/26",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "the best interest of the College prompted that",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=45,1860,3180,115"
+                        },
+                        {
+                            "id": "http://example.org/iiif/27",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "action, I believe that all the members think",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=40,1960,3170,110"
+                        },
+                        {
+                            "id": "http://example.org/iiif/28",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "kindly of you.",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=25,2065,1050,105"
+                        },
+                        {
+                            "id": "http://example.org/iiif/29",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "With my kindest regards to",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=890,2150,2050,140"
+                        },
+                        {
+                            "id": "http://example.org/iiif/30",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "you and family",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=730,2290,1300,120"
+                        },
+                        {
+                            "id": "http://example.org/iiif/31",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "I am yours Truly",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=1680,2400,1350,130"
+                        },
+                        {
+                            "id": "http://example.org/iiif/32",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "A. J. Rose",
+                                "format": "text/plain",
+                                "language": "en",
+                                "purpose": "transcribing"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0#xywh=2260,2520,900,160"
+                        },
+                        {
+                            "id": "http://example.org/iiif/33",
+                            "type": "Annotation",
+                            "created": "2026-01-22T18:25:37+00:00",
+                            "generated": "2026-01-22T18:25:37+00:00",
+                            "creator": "gemini-3-pro-preview",
+                            "generator": "iiif-paleography@v0.1.0",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "**Image Analysis and Text Refinement**\n\nOkay, here's my process. The user wants the text from an old letter image, presented in a structured way. First, I analyzed the image to break it down. I noted the header, which is printed, the addressee (handwritten), and the body of the letter. I paid close attention to names and dates, noting any ambiguities. I then examined small sections, cropped, and zoomed in on the details, especially the handwritten parts, to minimize uncertainty, and checked how handwritten parts relate to printed information. I then examined the specific words, letter by letter. My goal: Accurate transcription.\n\nI created a preliminary structure to organize the data. I'm taking the time to extract the exact text, with coordinates for each text block. This lets me map what I see to precise areas in the source image. The image is 3251 pixels wide by 4029 pixels high, and I used that to determine pixel coordinates. I'm focusing on the printed header and the handwritten date. I'm examining the printed names and addresses on the left side of the page and checking the addressee name.\n\nI've examined the handwritten addressee and body of the letter more closely. My current thought is to transcribe the text, and then check the words and the meaning. I'm re-checking the handwriting, particularly the names. I know there's a crossed-out name in the printed text, which might be \"Louis L. McInnis,\" but the handwritten part is where I need to be more certain. I've considered that the first word may be \"Friend\" or \"Prof,\" but it looks like \"Louis,\" I think \"Louis L. McInnis\" is correct.\n\nI've also zeroed in on specific words like \"release\" versus \"relieve\" in the body of the text. I'm deciding what the writer actually intended. \"Release\" or \"relieve\", \"wrong\" vs \"wroug\". \"Callige\" vs \"College\". Now, I'm carefully double-checking the handwriting to confirm the intended meaning. Based on the shapes of the letters, the text is saying, the word is \"release\", so I made that decision.\n\nThe goal is to provide a complete, and accurate summary, so I'm also doing a line count. I'm treating the printed header, the addressee, the body, and the signature as separate lines to make sure I get the entire text, with appropriate line breaks. I have re-verified the text, I'm checking each word again.\n\nI'm checking the letters and spacing on the printed texts. I am working to ensure that the transcription is completely accurate to the image.\n\nNow, I'm double-checking the coordinates for the text blocks. I'm checking the header, the date, the address, the body, and the signature. After verifying the x,y coordinates, I'm working with the text. I am using the bounding box from the initial analysis to verify these coordinate values. Now I am checking for the pixel location of each line. Now I am ready for the transcription, so I'm double-checking the key pieces. I need to be accurate.\n\nOkay, here's the transcription:\n1.  \"State Agricultural and Mechanical College\"\n2.  \"OF TEXAS.\"\n3.  \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\"\n4.  \"A. J. ROSE, President Board of Directors, Salado Texas.\"\n5.  \"T. M. SCOTT, Agent of the Board, College Station, Texas.\"\n6.  \"LOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.\"\n7.  \"Salado, Texas, July 19th 1890\"\n8.  \"Louis L McInnis\"\n9.  \"College Station Texas\"\n10. \"Dear Prof\"\n11. \"I have your letter 17th\"\n12. \"before me. In reply will say that I dont see\"\n13. \"how I can add more than is contained in my\"\n14. \"letter of 18th I dont believe that the Board intends\"\n15. \"to do you a wrong dont think they have any\"\n16. \"personal feelings against you whatever. Now\"\n17. \"please state to me plainly what you think\"\n18. \"the Board should do to release you from\"\n19. \"the false impression in which you are placed\"\n20. \"over the state. I endeavored to explain to you as\"\n21. \"I understood it that the Board believed that\"\n22. \"the best interest of the College prompted that\"\n23. \"action, I believe\n\n",
+                                "format": "text/markdown",
+                                "language": "none"
+                            },
+                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
