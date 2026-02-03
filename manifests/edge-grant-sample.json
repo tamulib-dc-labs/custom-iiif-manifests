@@ -1,0 +1,299 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/edge-grant-sample.json",
+  "label": {
+    "none": [
+      "Oral History Interview with Bob Bell, Class of 1965"
+    ]
+  },
+  "behavior": [
+    "auto-advance"
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Aggie Memories: A Personal Reflection"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1980"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Genres"
+        ]
+      },
+      "value": {
+        "none": [
+          "interview",
+          "oral history"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Interviewee"
+        ]
+      },
+      "value": {
+        "none": [
+          "Bell, Bob"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas A&M University",
+          "Corps of Cadets",
+          "Student life",
+          "1960s",
+          "Military education",
+          "College traditions"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Access Restrictions"
+        ]
+      },
+      "value": {
+        "none": [
+          "This item is accessible by: the public."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Other Identifier"
+        ]
+      },
+      "value": {
+        "none": [
+          "Catalog Key: 02_00016-c_02"
+        ]
+      }
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260",
+      "type": "Text",
+      "label": {
+        "none": [
+          "View in Repository"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "motivation": "painting",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b/annotation_page/6837d529-a574-45db-9bda-c4e59e02f898/annotation/51e047f2-5da0-4872-9cfd-cb8141a7fcf9",
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b",
+              "body": {
+                "type": "Choice",
+                "choiceHint": "user",
+                "items": [
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/wh246s25b/auto.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 292.048,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "auto"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/wh246s25b/high.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 292.048,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "high"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://avalon-pre.library.tamu.edu/master_files/wh246s25b/medium.m3u8",
+                    "type": "Sound",
+                    "height": 40,
+                    "width": 1280,
+                    "duration": 292.048,
+                    "format": "application/x-mpegURL",
+                    "label": {
+                      "none": [
+                        "medium"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b/annotation_page/6837d529-a574-45db-9bda-c4e59e02f898"
+        }
+      ],
+      "label": {
+        "none": [
+          "content/02_00016-c_02.mp3"
+        ]
+      },
+      "seeAlso": [
+        {
+          "type": "Dataset",
+          "format": "application/json",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/wh246s25b/waveform.json",
+          "label": {
+            "en": [
+              "waveform.json"
+            ]
+          }
+        }
+      ],
+      "service": [
+        {
+          "type": "SearchService2",
+          "id": "https://avalon-pre.library.tamu.edu/master_files/wh246s25b/search"
+        }
+      ],
+      "thumbnail": [],
+      "width": 1280,
+      "height": 40,
+      "duration": 292.048,
+      "placeholderCanvas": {
+        "type": "Canvas",
+        "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b/placeholder",
+        "width": 1280,
+        "height": 720,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://avalon-pre.library.tamu.edu/master_files/wh246s25b/poster",
+                  "type": "Image",
+                  "height": 720,
+                  "width": 1280,
+                  "format": "image/jpeg"
+                },
+                "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b/placeholder/annotation_page/6ab067a7-d04f-430b-8832-3194ff9cb681/annotation/5b591186-270c-4d40-b0b3-7fc030cdce40",
+                "target": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b/placeholder"
+              }
+            ],
+            "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b/placeholder/annotation_page/6ab067a7-d04f-430b-8832-3194ff9cb681"
+          }
+        ]
+      },
+      "annotations": [
+        {
+          "id": "https://digital.lib.utk.edu/notdereferenceable/assemble/manifest/rftaart/95/canvas/1/page/annotation/rftaart:72",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digital.lib.utk.edu/notdereferenceable/assemble/manifest/rftaart/95/canvas/1/page/annotation/rftaart:72/691758677cea0",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/vtts/02_00016-c_02.vtt",
+                "type": "Text",
+                "format": "text/vtt",
+                "label": {
+                  "en": [
+                    "Transcript in English"
+                  ]
+                },
+                "language": "en"
+              },
+              "target": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "type": "Range",
+      "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/range/r0b0d14bf-b189-4b56-b433-dacee12deafc",
+      "label": {
+        "none": [
+          "Aggie Memories: A Personal Reflection"
+        ]
+      },
+      "behavior": "top",
+      "items": [
+        {
+          "type": "Range",
+          "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/range/rccb1aac7-e062-4e8d-aacd-2e59f2e13a75",
+          "label": {
+            "none": [
+              "content/02_00016-c_02.mp3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://avalon-pre.library.tamu.edu/media_objects/hd76s0260/manifest/canvas/wh246s25b#t=0,292.048"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://avalon-pre.library.tamu.edu/assets/audio_icon-7782bcf9fd5d81f1e3e3f260ed569c24dea47d0a2a5bd0a4629328c76e8886c6.png",
+      "type": "Image"
+    }
+  ]
+}
