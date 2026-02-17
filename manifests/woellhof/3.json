@@ -1,0 +1,86 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/3.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "label" : [ "Carte du Mexique et de la Floride : des terres angloises et des Isles Antilles, du cours et des environs de la riviere de Mississippi /" ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : "W 115°13ʹ00ʺ--W 59°19ʹ00ʺ/N 44°27ʹ00ʺ--N 6°58ʹ00ʺ"
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d2hk9x"
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : [ "lat", "fre" ]
+  }, {
+    "label" : "title",
+    "value" : "Carte du Mexique et de la Floride : des terres angloises et des Isles Antilles, du cours et des environs de la riviere de Mississippi /"
+  }, {
+    "label" : "extent",
+    "value" : "1 map : hand colored ; 46 x 60 cm"
+  }, {
+    "label" : "spatial",
+    "value" : [ "West Indies", "Mississippi River", "Mexico", "North America", "Florida" ]
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "issued",
+    "value" : "[1722?]"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/3"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/3",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/3/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 9655,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/b444e731-c33f-35b4-9c7c-9bc552b67216/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/3/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/b444e731-c33f-35b4-9c7c-9bc552b67216/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 9655,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/b444e731-c33f-35b4-9c7c-9bc552b67216"
+          },
+          "width" : 10342
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/3/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/3/pages/page_0"
+      } ],
+      "width" : 10342
+    } ],
+    "label" : [ "Carte du Mexique et de la Floride : des terres angloises et des Isles Antilles, du cours et des environs de la riviere de Mississippi /", "https://n2t.net/ark:/81423/d2hk9x" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/b444e731-c33f-35b4-9c7c-9bc552b67216/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/b444e731-c33f-35b4-9c7c-9bc552b67216"
+    }
+  }
+}

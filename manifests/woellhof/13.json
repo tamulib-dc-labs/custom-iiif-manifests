@@ -1,0 +1,115 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/13.json",
+  "@type" : "sc:Manifest",
+  "attribution" : [ "Chiswell, Richard", "Speed, John, 1552?-1629", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
+  "label" : [ "The countye of Monmouth : with the sittuation of the shire-towne described Ann 1610" ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : "W 3°21ʹ11ʺ--W 2°29ʹ36ʺ/N 51°53ʹ25ʺ--N 51°28ʹ26ʺ"
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d23d1f"
+  }, {
+    "label" : "creator",
+    "value" : [ "Chiswell, Richard", "Speed, John, 1552?-1629" ]
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : "eng"
+  }, {
+    "label" : "title",
+    "value" : "The countye of Monmouth : with the sittuation of the shire-towne described Ann 1610"
+  }, {
+    "label" : "extent",
+    "value" : "1 map : hand colored ; on sheet 45 x 59 cm"
+  }, {
+    "label" : "issued",
+    "value" : "[1676?]"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 8673,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/c2a7c7b6-a6b8-34b1-9ebe-6e6dc1d718fe/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/c2a7c7b6-a6b8-34b1-9ebe-6e6dc1d718fe/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8673,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/c2a7c7b6-a6b8-34b1-9ebe-6e6dc1d718fe"
+          },
+          "width" : 9616
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_0"
+      } ],
+      "width" : 9616
+    }, {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_1",
+      "@type" : "sc:Canvas",
+      "height" : 8673,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/043d6021-57cf-3013-9b5b-22277a14513d/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_1",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/043d6021-57cf-3013-9b5b-22277a14513d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8673,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/043d6021-57cf-3013-9b5b-22277a14513d"
+          },
+          "width" : 9616
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_1",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/13/pages/page_1"
+      } ],
+      "width" : 9616
+    } ],
+    "label" : [ "The countye of Monmouth : with the sittuation of the shire-towne described Ann 1610", "https://n2t.net/ark:/81423/d23d1f" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/c2a7c7b6-a6b8-34b1-9ebe-6e6dc1d718fe/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/c2a7c7b6-a6b8-34b1-9ebe-6e6dc1d718fe"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/6.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "label" : [ "Agronavtica" ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : "E 4°53ʹ00ʺ--E 42°22ʹ00ʺ/N 47°30ʹ00ʺ--N 30°02ʹ00ʺ"
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d24d0c"
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : "lat"
+  }, {
+    "label" : "title",
+    "value" : "Agronavtica"
+  }, {
+    "label" : "extent",
+    "value" : "1 map : hand colored ; 34 x 50 cm, on sheet 43 x 55 cm"
+  }, {
+    "label" : "spatial",
+    "value" : [ "Thessaly (Greece)", "Mediterranean Region", "Marmara, Sea of (Turkey)" ]
+  }, {
+    "label" : "issued",
+    "value" : "[1624?]"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/6"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/6",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/6/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 8517,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/6/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8517,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d"
+          },
+          "width" : 9066
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/6/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/6/pages/page_0"
+      } ],
+      "width" : 9066
+    } ],
+    "label" : [ "Agronavtica", "https://n2t.net/ark:/81423/d24d0c" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/802e9c41-3fe6-3f5c-8133-ef108c24f96d"
+    }
+  }
+}

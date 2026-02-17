@@ -1,0 +1,118 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/11.json",
+  "@type" : "sc:Manifest",
+  "attribution" : [ "Schedel, Hartmann, 1440-1514", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
+  "label" : [ "Salczburga" ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : "E 13°00ʹ19ʺ--E 13°04ʹ55ʺ/N 47°49ʹ34ʺ--N 47°47ʹ14ʺ"
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d2wp80"
+  }, {
+    "label" : "creator",
+    "value" : "Schedel, Hartmann, 1440-1514"
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : "ger"
+  }, {
+    "label" : "title",
+    "value" : "Salczburga"
+  }, {
+    "label" : "extent",
+    "value" : "1 map : colored ; 25 x 51 cm, on sheet 41 x 56 cm"
+  }, {
+    "label" : "spatial",
+    "value" : "Salzburg (Austria)"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "issued",
+    "value" : "[1493?]"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 8301,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/548073f3-af89-3b3f-aaa7-8e4737ad3c9b/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/548073f3-af89-3b3f-aaa7-8e4737ad3c9b/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8301,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/548073f3-af89-3b3f-aaa7-8e4737ad3c9b"
+          },
+          "width" : 9537
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_0"
+      } ],
+      "width" : 9537
+    }, {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_1",
+      "@type" : "sc:Canvas",
+      "height" : 8301,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/0cd3677e-02f2-3474-90ce-f6737e0af862/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_1",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/0cd3677e-02f2-3474-90ce-f6737e0af862/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8301,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/0cd3677e-02f2-3474-90ce-f6737e0af862"
+          },
+          "width" : 9537
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_1",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/11/pages/page_1"
+      } ],
+      "width" : 9537
+    } ],
+    "label" : [ "Salczburga", "https://n2t.net/ark:/81423/d2wp80" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/548073f3-af89-3b3f-aaa7-8e4737ad3c9b/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/548073f3-af89-3b3f-aaa7-8e4737ad3c9b"
+    }
+  }
+}

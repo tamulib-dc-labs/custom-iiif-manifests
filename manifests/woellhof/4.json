@@ -1,0 +1,115 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/4.json",
+  "@type" : "sc:Manifest",
+  "attribution" : [ "Braun, Georg, 1540 or 1541-1622", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
+  "label" : [ "Mexico Regia" ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : [ "W 71°59ʹ46ʺ--W 71°53ʹ43ʺ/S 13°30ʹ04ʺ--S 13°33ʹ31ʺ", "W 99°13ʹ42ʺ--W 99°01ʹ44ʺ/N 19°28ʹ34ʺ--N 19°17ʹ06ʺ" ]
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d2cs70"
+  }, {
+    "label" : "creator",
+    "value" : "Braun, Georg, 1540 or 1541-1622"
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : "lat"
+  }, {
+    "label" : "title",
+    "value" : "Mexico Regia"
+  }, {
+    "label" : "spatial",
+    "value" : [ "Mexico City (Mexico)", "Peru", "Mexico", "Cuzco (Peru)" ]
+  }, {
+    "label" : "issued",
+    "value" : "[1572?]"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 8949,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8949,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c"
+          },
+          "width" : 8929
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_0"
+      } ],
+      "width" : 8929
+    }, {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_1",
+      "@type" : "sc:Canvas",
+      "height" : 8949,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/8b4d8aaf-252c-334e-a2df-1079e61756f7/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_1",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/8b4d8aaf-252c-334e-a2df-1079e61756f7/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8949,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/8b4d8aaf-252c-334e-a2df-1079e61756f7"
+          },
+          "width" : 8929
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_1",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/4/pages/page_1"
+      } ],
+      "width" : 8929
+    } ],
+    "label" : [ "Mexico Regia", "https://n2t.net/ark:/81423/d2cs70" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/e495184f-3f13-3343-8ed4-7d093ca78f0c"
+    }
+  }
+}

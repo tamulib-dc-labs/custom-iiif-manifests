@@ -1,0 +1,119 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/10.json",
+  "@type" : "sc:Manifest",
+  "attribution" : [ "Braun, Georg, 1540 or 1541-1622", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
+  "description" : "Derived from a 1568 drawing by William Smith; see R.A. Skeltons Introduction to the 1980 facs. ed. of Civitates orbis terrarum.",
+  "label" : [ "Brightstowe." ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : "W 2°36ʹ28ʺ--W 2°34ʹ45ʺ/N 51°27ʹ39ʺ--N 51°26ʹ40ʺ"
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d2bw6b"
+  }, {
+    "label" : "creator",
+    "value" : "Braun, Georg, 1540 or 1541-1622"
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : "lat"
+  }, {
+    "label" : "title",
+    "value" : "Brightstowe."
+  }, {
+    "label" : "extent",
+    "value" : "1 map : colored ; 33 x 42 cm, on sheet 41 x 54 cm"
+  }, {
+    "label" : "spatial",
+    "value" : [ "Bristol (England)", "England" ]
+  }, {
+    "label" : "issued",
+    "value" : "[1580?]"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 8477,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/62f0a5d4-5b55-39ec-91c1-e950a7bc94b2/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/62f0a5d4-5b55-39ec-91c1-e950a7bc94b2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8477,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/62f0a5d4-5b55-39ec-91c1-e950a7bc94b2"
+          },
+          "width" : 9027
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_0"
+      } ],
+      "width" : 9027
+    }, {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_1",
+      "@type" : "sc:Canvas",
+      "height" : 8241,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b8824c-51d7-397e-aec6-42fa92713ded/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_1",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b8824c-51d7-397e-aec6-42fa92713ded/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 8241,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b8824c-51d7-397e-aec6-42fa92713ded"
+          },
+          "width" : 8851
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_1",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/10/pages/page_1"
+      } ],
+      "width" : 8851
+    } ],
+    "label" : [ "Brightstowe.", "https://n2t.net/ark:/81423/d2bw6b" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/62f0a5d4-5b55-39ec-91c1-e950a7bc94b2/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/62f0a5d4-5b55-39ec-91c1-e950a7bc94b2"
+    }
+  }
+}

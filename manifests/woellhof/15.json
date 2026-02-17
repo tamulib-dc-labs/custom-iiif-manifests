@@ -1,0 +1,89 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/15.json",
+  "@type" : "sc:Manifest",
+  "attribution" : [ "Fries, Lorenz, approximately 1490-1531", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
+  "label" : [ "Tabv. moder. Gallie." ],
+  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata" : [ {
+    "label" : "coverage",
+    "value" : "W 7°24ʹ00ʺ--E 9°50ʹ00ʺ/N 51°19ʹ00ʺ--N 42°50ʹ00ʺ"
+  }, {
+    "label" : "identifier",
+    "value" : "https://n2t.net/ark:/81423/d2tw6p"
+  }, {
+    "label" : "creator",
+    "value" : "Fries, Lorenz, approximately 1490-1531"
+  }, {
+    "label" : "rights",
+    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  }, {
+    "label" : "language",
+    "value" : "lat"
+  }, {
+    "label" : "title",
+    "value" : "Tabv. moder. Gallie."
+  }, {
+    "label" : "extent",
+    "value" : "1 map : hand colored ; 28 x 37 cm on sheet 40 x 54 cm"
+  }, {
+    "label" : "spatial",
+    "value" : "France"
+  }, {
+    "label" : "isPartOf",
+    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
+  }, {
+    "label" : "type",
+    "value" : "cartographic image"
+  }, {
+    "label" : "issued",
+    "value" : "[1535?]"
+  }, {
+    "label" : "context",
+    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/15"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/15",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/15/pages/page_0",
+      "@type" : "sc:Canvas",
+      "height" : 7965,
+      "images" : [ {
+        "@id" : "https://api-pre.library.tamu.edu/iiif/2/99682705-6bb0-3020-b649-b8246472fc3e/info.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/15/pages/page_0",
+        "resource" : {
+          "@id" : "https://api-pre.library.tamu.edu/iiif/2/99682705-6bb0-3020-b649-b8246472fc3e/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 7965,
+          "service" : {
+            "label" : "Fedora IIIF Image Resource Service",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api-pre.library.tamu.edu/iiif/2/99682705-6bb0-3020-b649-b8246472fc3e"
+          },
+          "width" : 8870
+        }
+      } ],
+      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/15/pages/page_0",
+      "metadata" : [ {
+        "label" : "context",
+        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/15/pages/page_0"
+      } ],
+      "width" : 8870
+    } ],
+    "label" : [ "Tabv. moder. Gallie.", "https://n2t.net/ark:/81423/d2tw6p" ]
+  } ],
+  "thumbnail" : {
+    "@id" : "https://api-pre.library.tamu.edu/iiif/2/99682705-6bb0-3020-b649-b8246472fc3e/full/!100,100/0/default.jpg",
+    "service" : {
+      "label" : "Fedora IIIF Image Resource Service",
+      "profile" : "http://iiif.io/api/image/2/level0.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://api-pre.library.tamu.edu/iiif/2/99682705-6bb0-3020-b649-b8246472fc3e"
+    }
+  }
+}
