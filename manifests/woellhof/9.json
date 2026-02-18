@@ -1,89 +1,155 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/9.json",
-  "@type" : "sc:Manifest",
-  "attribution" : [ "Ortelius, Abraham, 1527-1598", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
-  "label" : [ "Gallia vetvs : ad Iul Caesaris commentaria ex conatibus geographicis" ],
-  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
-  "metadata" : [ {
-    "label" : "coverage",
-    "value" : "W 5°44ʹ00ʺ--E 8°43ʹ00ʺ/N 51°51ʹ00ʺ--N 42°18ʹ00ʺ"
-  }, {
-    "label" : "identifier",
-    "value" : "https://n2t.net/ark:/81423/d2r330"
-  }, {
-    "label" : "creator",
-    "value" : "Ortelius, Abraham, 1527-1598"
-  }, {
-    "label" : "rights",
-    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
-  }, {
-    "label" : "language",
-    "value" : "lat"
-  }, {
-    "label" : "title",
-    "value" : "Gallia vetvs : ad Iul Caesaris commentaria ex conatibus geographicis"
-  }, {
-    "label" : "extent",
-    "value" : "1 map : hand colored ; on sheet 46 x 57 cm"
-  }, {
-    "label" : "spatial",
-    "value" : [ "France", "Gaul" ]
-  }, {
-    "label" : "issued",
-    "value" : "[1624?]"
-  }, {
-    "label" : "type",
-    "value" : "cartographic image"
-  }, {
-    "label" : "isPartOf",
-    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
-  }, {
-    "label" : "context",
-    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9"
-  } ],
-  "sequences" : [ {
-    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9",
-    "@type" : "sc:Sequence",
-    "canvases" : [ {
-      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1",
-      "@type" : "sc:Canvas",
-      "height" : 8831,
-      "images" : [ {
-        "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088/info.json",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1",
-        "resource" : {
-          "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/tiff",
-          "height" : 8831,
-          "service" : {
-            "label" : "Fedora IIIF Image Resource Service",
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088"
-          },
-          "width" : 9223
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/9.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Ortelius, Abraham, 1527-1598",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "label": [
+    "Gallia vetvs : ad Iul Caesaris commentaria ex conatibus geographicis"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "coverage",
+      "value": "W 5°44ʹ00ʺ--E 8°43ʹ00ʺ/N 51°51ʹ00ʺ--N 42°18ʹ00ʺ"
+    },
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d2r330"
+    },
+    {
+      "label": "creator",
+      "value": "Ortelius, Abraham, 1527-1598"
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "lat"
+    },
+    {
+      "label": "title",
+      "value": "Gallia vetvs : ad Iul Caesaris commentaria ex conatibus geographicis"
+    },
+    {
+      "label": "extent",
+      "value": "1 map : hand colored ; on sheet 46 x 57 cm"
+    },
+    {
+      "label": "spatial",
+      "value": [
+        "France",
+        "Gaul"
+      ]
+    },
+    {
+      "label": "issued",
+      "value": "[1624?]"
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 8831,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy85L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcyMi1TMV8tTzc3XzE2MjRfYS50aWY=/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy85L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcyMi1TMV8tTzc3XzE2MjRfYS50aWY=/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 8831,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy85L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcyMi1TMV8tTzc3XzE2MjRfYS50aWY="
+                },
+                "width": 9223
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_0"
+            }
+          ],
+          "width": 9223
+        },
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1",
+          "@type": "sc:Canvas",
+          "height": 8831,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 8831,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088"
+                },
+                "width": 9223
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1"
+            }
+          ],
+          "width": 9223
         }
-      } ],
-      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1",
-      "metadata" : [ {
-        "label" : "context",
-        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/9/pages/page_1"
-      } ],
-      "width" : 9223
-    } ],
-    "label" : [ "Gallia vetvs : ad Iul Caesaris commentaria ex conatibus geographicis", "https://n2t.net/ark:/81423/d2r330" ]
-  } ],
-  "thumbnail" : {
-    "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088/full/!100,100/0/default.jpg",
-    "service" : {
-      "label" : "Fedora IIIF Image Resource Service",
-      "profile" : "http://iiif.io/api/image/2/level0.json",
-      "@context" : "http://iiif.io/api/image/2/context.json",
-      "@id" : "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088"
+      ],
+      "label": [
+        "Gallia vetvs : ad Iul Caesaris commentaria ex conatibus geographicis",
+        "https://n2t.net/ark:/81423/d2r330"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/b8b413a3-020f-3f31-aee1-fa511d41f088"
     }
   }
 }
