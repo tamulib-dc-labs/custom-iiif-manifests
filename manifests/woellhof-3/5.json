@@ -1,0 +1,130 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof-3/5.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Seutter, Matthäus, 1678-1757",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "label": [
+    "Strasbourg ville ancienne celebre et tres fortifieé, du Roy de France dans la Basse Alsace sur le Rhin"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d2662p"
+    },
+    {
+      "label": "creator",
+      "value": "Seutter, Matthäus, 1678-1757"
+    },
+    {
+      "label": "subject",
+      "value": [
+        "Strasbourg (France)--Aerial views--Early works to 1800",
+        "France--Strasbourg",
+        "Fortification--France--Strasbourg--Maps--Early works to 1800",
+        "Maps",
+        "Early maps",
+        "Early works",
+        "Strasbourg (France)--Maps--Early works to 1800",
+        "Aerial views"
+      ]
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "fre"
+    },
+    {
+      "label": "title",
+      "value": "Strasbourg ville ancienne celebre et tres fortifieé, du Roy de France dans la Basse Alsace sur le Rhin"
+    },
+    {
+      "label": "extent",
+      "value": "1 map :  hand colored ;  32 x 56 cm, on sheet 54 x 62 cm"
+    },
+    {
+      "label": "spatial",
+      "value": [
+        "France",
+        "Strasbourg (France)"
+      ]
+    },
+    {
+      "label": "issued",
+      "value": "[1734?]"
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/5"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/5",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/5/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 9557,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/fb9a5918-f77f-35fa-8d4b-4c2b96dc4813/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/5/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/fb9a5918-f77f-35fa-8d4b-4c2b96dc4813/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 9557,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/fb9a5918-f77f-35fa-8d4b-4c2b96dc4813"
+                },
+                "width": 9812
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/5/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/5/pages/page_0"
+            }
+          ],
+          "width": 9812
+        }
+      ],
+      "label": [
+        "Strasbourg ville ancienne celebre et tres fortifieé, du Roy de France dans la Basse Alsace sur le Rhin",
+        "https://n2t.net/ark:/81423/d2662p"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/fb9a5918-f77f-35fa-8d4b-4c2b96dc4813/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/fb9a5918-f77f-35fa-8d4b-4c2b96dc4813"
+    }
+  }
+}

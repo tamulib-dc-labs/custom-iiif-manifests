@@ -1,0 +1,129 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof-3/3.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Braun, Georg, 1540 or 1541-1622",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "label": [
+    "Hesdinvm oppidum et castrum in expugnabile, bello inter Cæsarea nos et Gallos æstuante, excitatum"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "coverage",
+      "value": "E 2°01ʹ49ʺ--E 2°02ʹ45ʺ/N 50°22ʹ45ʺ--N 50°22ʹ06ʺ"
+    },
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d2fk99"
+    },
+    {
+      "label": "creator",
+      "value": "Braun, Georg, 1540 or 1541-1622"
+    },
+    {
+      "label": "subject",
+      "value": [
+        "France--Maps",
+        "Early maps",
+        "Hesdin (France)--Maps--Early works to 1800"
+      ]
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "lat"
+    },
+    {
+      "label": "title",
+      "value": "Hesdinvm oppidum et castrum in expugnabile, bello inter Cæsarea nos et Gallos æstuante, excitatum"
+    },
+    {
+      "label": "extent",
+      "value": "1 view : colored ; 34 x 46 cm, on sheet 43 x 53 cm"
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "issued",
+      "value": "[1588?]"
+    },
+    {
+      "label": "spatial",
+      "value": [
+        "France",
+        "Hesdin (France)"
+      ]
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/3"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/3",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/3/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 8438,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/733037ed-43aa-3b14-92a4-7050cb10fe89/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/3/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/733037ed-43aa-3b14-92a4-7050cb10fe89/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 8438,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/733037ed-43aa-3b14-92a4-7050cb10fe89"
+                },
+                "width": 8752
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/3/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/3/pages/page_0"
+            }
+          ],
+          "width": 8752
+        }
+      ],
+      "label": [
+        "Hesdinvm oppidum et castrum in expugnabile, bello inter Cæsarea nos et Gallos æstuante, excitatum",
+        "https://n2t.net/ark:/81423/d2fk99"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/733037ed-43aa-3b14-92a4-7050cb10fe89/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/733037ed-43aa-3b14-92a4-7050cb10fe89"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof-3/6.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Ortelius, Abraham, 1527-1598",
+    "Plantin, Christophe, approximately 1520-1589",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "label": [
+    "Descriptio Germaniae Inferioris"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "coverage",
+      "value": "E 1°00ʹ00ʺ--E 7°42ʹ00ʺ/N 53°37ʹ00ʺ--N 48°49ʹ00ʺ"
+    },
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d22d14"
+    },
+    {
+      "label": "creator",
+      "value": [
+        "Ortelius, Abraham, 1527-1598",
+        "Plantin, Christophe, approximately 1520-1589"
+      ]
+    },
+    {
+      "label": "subject",
+      "value": [
+        "Luxembourg--Maps--Early works to 1800.",
+        "Belgium--Maps--Early works to 1800",
+        "Netherlands--Maps--Early works to 1800",
+        "Benelux countries--Maps--Early works to 1800"
+      ]
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "lat"
+    },
+    {
+      "label": "title",
+      "value": "Descriptio Germaniae Inferioris"
+    },
+    {
+      "label": "extent",
+      "value": "1 map : hand colored ; on sheet 44 x 54 cm"
+    },
+    {
+      "label": "spatial",
+      "value": [
+        "Netherlands",
+        "Belgium",
+        "Benelux countries",
+        "Luxembourg"
+      ]
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "issued",
+      "value": "[1579?]"
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 8425,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/0adbc20c-ec2e-35ae-9d23-163ee0bc55be/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/0adbc20c-ec2e-35ae-9d23-163ee0bc55be/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 8425,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/0adbc20c-ec2e-35ae-9d23-163ee0bc55be"
+                },
+                "width": 8896
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_0"
+            }
+          ],
+          "width": 8896
+        },
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_1",
+          "@type": "sc:Canvas",
+          "height": 8425,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/4fe2155e-83d7-3ca1-a8c4-73f7c10402a1/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_1",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/4fe2155e-83d7-3ca1-a8c4-73f7c10402a1/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 8425,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/4fe2155e-83d7-3ca1-a8c4-73f7c10402a1"
+                },
+                "width": 8896
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_1",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/6/pages/page_1"
+            }
+          ],
+          "width": 8896
+        }
+      ],
+      "label": [
+        "Descriptio Germaniae Inferioris",
+        "https://n2t.net/ark:/81423/d22d14"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/0adbc20c-ec2e-35ae-9d23-163ee0bc55be/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/0adbc20c-ec2e-35ae-9d23-163ee0bc55be"
+    }
+  }
+}

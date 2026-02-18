@@ -1,0 +1,129 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof-3/7.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Visscher, Nicolaes, 1618-1679",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "label": [
+    "Comitatus Hollandiae tabula : pluribus locis recens emendata"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "coverage",
+      "value": "E 3°38ʹ00ʺ--E 5°58ʹ00ʺ/N 53°00ʹ00ʺ--N 51°32ʹ00ʺ"
+    },
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d2xp7x"
+    },
+    {
+      "label": "creator",
+      "value": "Visscher, Nicolaes, 1618-1679"
+    },
+    {
+      "label": "subject",
+      "value": [
+        "Holland (Netherlands : Province)--Maps--Early works to 1800",
+        "West Frisian Islands (Netherlands)--Maps--Early works to 1800",
+        "Early maps"
+      ]
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "lat"
+    },
+    {
+      "label": "title",
+      "value": "Comitatus Hollandiae tabula : pluribus locis recens emendata"
+    },
+    {
+      "label": "extent",
+      "value": "1 map : hand colored ; 44 x 55 cm"
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "issued",
+      "value": "[1677?]"
+    },
+    {
+      "label": "spatial",
+      "value": [
+        "Holland (Netherlands: Province)",
+        "West Frisian Islands (Netherlands)"
+      ]
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/7"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/7",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/7/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 10058,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/87237373-771e-3437-a921-ae4b958d2fac/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/7/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/87237373-771e-3437-a921-ae4b958d2fac/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 10058,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/87237373-771e-3437-a921-ae4b958d2fac"
+                },
+                "width": 9701
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/7/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/7/pages/page_0"
+            }
+          ],
+          "width": 9701
+        }
+      ],
+      "label": [
+        "Comitatus Hollandiae tabula : pluribus locis recens emendata",
+        "https://n2t.net/ark:/81423/d2xp7x"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/87237373-771e-3437-a921-ae4b958d2fac/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/87237373-771e-3437-a921-ae4b958d2fac"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof-3/2.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Beaulieu, Sébastian de Pontault, approximately 1612-1674",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "label": [
+    "Plan de la ville de Bovrbovr en Flandre, assiégée par l'armée du Roy tres chrestien Louis XIIII comandée par Monseigr. le Duc d'Orlean le 28 juillet, et rendue à l'obéissance de sa Ma.té. 9e aousten suivant en l'anée 1645"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "coverage",
+      "value": [
+        "E 2°06ʹ19ʺ--E 2°18ʹ24ʺ/N 50°58ʹ21ʺ--N 50°53ʹ15ʺ",
+        "E 2°09ʹ18ʺ--E 2°15ʹ00ʺ/N 50°58ʹ19ʺ--N 50°55ʹ35ʺ"
+      ]
+    },
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d2kd1s"
+    },
+    {
+      "label": "creator",
+      "value": "Beaulieu, Sébastian de Pontault, approximately 1612-1674"
+    },
+    {
+      "label": "subject",
+      "value": [
+        "Military maps",
+        "Early maps",
+        "Thirty Years' War, 1618-1648--Campaigns--France--Maps--Early works to 1800",
+        "Bourbourg (France)--Maps--Early works to 1800",
+        "Flanders (France)--Maps--Early works to 1800"
+      ]
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "fre"
+    },
+    {
+      "label": "title",
+      "value": "Plan de la ville de Bovrbovr en Flandre, assiégée par l'armée du Roy tres chrestien Louis XIIII comandée par Monseigr. le Duc d'Orlean le 28 juillet, et rendue à l'obéissance de sa Ma.té. 9e aousten suivant en l'anée 1645"
+    },
+    {
+      "label": "extent",
+      "value": "1 map : hand colored ; 41 x 50 cm, on sheet 63 x 84"
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "spatial",
+      "value": [
+        "Flanders (France)",
+        "Bourbourg (France)"
+      ]
+    },
+    {
+      "label": "issued",
+      "value": "[1694?]"
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/2"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/2",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/2/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 11694,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/cc29bc99-5524-33cb-a058-8fa6a3a558a2/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/2/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/cc29bc99-5524-33cb-a058-8fa6a3a558a2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 11694,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/cc29bc99-5524-33cb-a058-8fa6a3a558a2"
+                },
+                "width": 13443
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/2/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-3_objects/2/pages/page_0"
+            }
+          ],
+          "width": 13443
+        }
+      ],
+      "label": [
+        "Plan de la ville de Bovrbovr en Flandre, assiégée par l'armée du Roy tres chrestien Louis XIIII comandée par Monseigr. le Duc d'Orlean le 28 juillet, et rendue à l'obéissance de sa Ma.té. 9e aousten suivant en l'anée 1645",
+        "https://n2t.net/ark:/81423/d2kd1s"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/cc29bc99-5524-33cb-a058-8fa6a3a558a2/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/cc29bc99-5524-33cb-a058-8fa6a3a558a2"
+    }
+  }
+}
