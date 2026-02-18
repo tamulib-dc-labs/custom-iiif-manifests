@@ -1,90 +1,153 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/8.json",
-  "@type" : "sc:Manifest",
-  "attribution" : [ "Münster, Sebastian, 1489-1552", "http://rightsstatements.org/vocab/NoC-US/1.0/" ],
-  "description" : "Stylized map of Europe in the form of a woman wearing imperial regalia. Shows Hispania as her head wearing a crown facing Africa and her lower skirt as Grecia, Bulgaria, and Scythia. The Holy Roman Empire (Germania and other territories) is the centre of the torso, with Bohemia being her heart. In her arms, formed by Italy and Denmark, she holds a sceptre and an orb (Sicily). In what might be interpreted as a political statement, Great Britain and Ireland are tiny, insignificant islands from which the queen turns her head.",
-  "label" : [ "Europa regina" ],
-  "logo" : "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
-  "metadata" : [ {
-    "label" : "identifier",
-    "value" : "https://n2t.net/ark:/81423/d2vw5m"
-  }, {
-    "label" : "creator",
-    "value" : "Münster, Sebastian, 1489-1552"
-  }, {
-    "label" : "rights",
-    "value" : "http://rightsstatements.org/vocab/NoC-US/1.0/"
-  }, {
-    "label" : "language",
-    "value" : "lat"
-  }, {
-    "label" : "title",
-    "value" : "Europa regina"
-  }, {
-    "label" : "extent",
-    "value" : "1 map : hand colored ; 26 x 17 cm"
-  }, {
-    "label" : "abstract",
-    "value" : "Stylized map of Europe in the form of a woman wearing imperial regalia. Shows Hispania as her head wearing a crown facing Africa and her lower skirt as Grecia, Bulgaria, and Scythia. The Holy Roman Empire (Germania and other territories) is the centre of the torso, with Bohemia being her heart. In her arms, formed by Italy and Denmark, she holds a sceptre and an orb (Sicily). In what might be interpreted as a political statement, Great Britain and Ireland are tiny, insignificant islands from which the queen turns her head."
-  }, {
-    "label" : "type",
-    "value" : "cartographic image"
-  }, {
-    "label" : "issued",
-    "value" : "[1564?]"
-  }, {
-    "label" : "isPartOf",
-    "value" : "Ronald L. and V. Jane Woellhof Rare Map Collection"
-  }, {
-    "label" : "spatial",
-    "value" : "Europe"
-  }, {
-    "label" : "context",
-    "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8"
-  } ],
-  "sequences" : [ {
-    "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8",
-    "@type" : "sc:Sequence",
-    "canvases" : [ {
-      "@id" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1",
-      "@type" : "sc:Canvas",
-      "height" : 7673,
-      "images" : [ {
-        "@id" : "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89/info.json",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1",
-        "resource" : {
-          "@id" : "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/tiff",
-          "height" : 7673,
-          "service" : {
-            "label" : "Fedora IIIF Image Resource Service",
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89"
-          },
-          "width" : 4160
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/woellhof/8.json",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "Münster, Sebastian, 1489-1552",
+    "http://rightsstatements.org/vocab/NoC-US/1.0/"
+  ],
+  "description": "Stylized map of Europe in the form of a woman wearing imperial regalia. Shows Hispania as her head wearing a crown facing Africa and her lower skirt as Grecia, Bulgaria, and Scythia. The Holy Roman Empire (Germania and other territories) is the centre of the torso, with Bohemia being her heart. In her arms, formed by Italy and Denmark, she holds a sceptre and an orb (Sicily). In what might be interpreted as a political statement, Great Britain and Ireland are tiny, insignificant islands from which the queen turns her head.",
+  "label": [
+    "Europa regina"
+  ],
+  "logo": "https://library.tamu.edu/assets/images/tamu-logos/TAM-PrimaryMarkB.png",
+  "metadata": [
+    {
+      "label": "identifier",
+      "value": "https://n2t.net/ark:/81423/d2vw5m"
+    },
+    {
+      "label": "creator",
+      "value": "Münster, Sebastian, 1489-1552"
+    },
+    {
+      "label": "rights",
+      "value": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+      "label": "language",
+      "value": "lat"
+    },
+    {
+      "label": "title",
+      "value": "Europa regina"
+    },
+    {
+      "label": "extent",
+      "value": "1 map : hand colored ; 26 x 17 cm"
+    },
+    {
+      "label": "abstract",
+      "value": "Stylized map of Europe in the form of a woman wearing imperial regalia. Shows Hispania as her head wearing a crown facing Africa and her lower skirt as Grecia, Bulgaria, and Scythia. The Holy Roman Empire (Germania and other territories) is the centre of the torso, with Bohemia being her heart. In her arms, formed by Italy and Denmark, she holds a sceptre and an orb (Sicily). In what might be interpreted as a political statement, Great Britain and Ireland are tiny, insignificant islands from which the queen turns her head."
+    },
+    {
+      "label": "type",
+      "value": "cartographic image"
+    },
+    {
+      "label": "issued",
+      "value": "[1564?]"
+    },
+    {
+      "label": "isPartOf",
+      "value": "Ronald L. and V. Jane Woellhof Rare Map Collection"
+    },
+    {
+      "label": "spatial",
+      "value": "Europe"
+    },
+    {
+      "label": "context",
+      "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/sequence/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_0",
+          "@type": "sc:Canvas",
+          "height": 7673,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy84L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcwMS1BNV8xNTY0Xy1NODZfYS50aWY=/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_0",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy84L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcwMS1BNV8xNTY0Xy1NODZfYS50aWY=/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 7673,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL3dvZWxsaG9mLTJfb2JqZWN0cy84L3BhZ2VzL3BhZ2VfMC9maWxlcy9HNTcwMS1BNV8xNTY0Xy1NODZfYS50aWY="
+                },
+                "width": 4160
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_0",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_0"
+            }
+          ],
+          "width": 4160
+        },
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1",
+          "@type": "sc:Canvas",
+          "height": 7673,
+          "images": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89/info.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1",
+              "resource": {
+                "@id": "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/tiff",
+                "height": 7673,
+                "service": {
+                  "label": "Fedora IIIF Image Resource Service",
+                  "profile": "http://iiif.io/api/image/2/level0.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89"
+                },
+                "width": 4160
+              }
+            }
+          ],
+          "label": "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1",
+          "metadata": [
+            {
+              "label": "context",
+              "value": "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1"
+            }
+          ],
+          "width": 4160
         }
-      } ],
-      "label" : "fedora:bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1",
-      "metadata" : [ {
-        "label" : "context",
-        "value" : "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/woellhof-2_objects/8/pages/page_1"
-      } ],
-      "width" : 4160
-    } ],
-    "label" : [ "Europa regina", "https://n2t.net/ark:/81423/d2vw5m" ]
-  } ],
-  "thumbnail" : {
-    "@id" : "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89/full/!100,100/0/default.jpg",
-    "service" : {
-      "label" : "Fedora IIIF Image Resource Service",
-      "profile" : "http://iiif.io/api/image/2/level0.json",
-      "@context" : "http://iiif.io/api/image/2/context.json",
-      "@id" : "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89"
+      ],
+      "label": [
+        "Europa regina",
+        "https://n2t.net/ark:/81423/d2vw5m"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89/full/!100,100/0/default.jpg",
+    "service": {
+      "label": "Fedora IIIF Image Resource Service",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://api-pre.library.tamu.edu/iiif/2/5479c58e-fa87-31d1-bb58-36dc6943bd89"
     }
   }
 }
