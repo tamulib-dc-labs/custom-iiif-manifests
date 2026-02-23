@@ -1,139 +1,183 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-67.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Henry Garrison, June 1, 1884"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1884-06-01"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Henry Garrison, June 1, 1884"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 16 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ff9c1a58-0c3d-318c-ab3e-335073a0282a/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3813,
-            "width": 2975,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/110",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/109",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ff9c1a58-0c3d-318c-ab3e-335073a0282a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3813,
-                                "width": 2975,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ff9c1a58-0c3d-318c-ab3e-335073a0282a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/113",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/112",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Caledonia Texs<br>\nJune 1<sup>st</sup> 84</p>\n\n<p>Prof L. L. McInnis<br>\nDear Sir<br>\n<span style=\"padding-left: 100px;\">If I</span><br>\nshould again enter the<br>\n<b>A & M C</b> could I enter the<br>\nsame class that I was in<br>\nwhen I left there<br>\nI have been thinking of return-<br>\ning this fall in company with<br>\ntwo friend of mine<br>\nI attended school five<br>\nmonths after I left the<br>\n<b>A & M C</b> I completed to the<br>\nseventh book in Robinson Geom<br>\n& reviewed Arthmetic Algebra</p>\n\n<p>Yours Truly<br>\nHenry D Garrison</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/114",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis & Refinement**\n\nOkay, here's the deal. I'm looking at this handwritten letter, trying to figure out what it says. It's addressed to \"Prof L. L. McInnis\" and dated \"June 1st 84\" - that's June 1st, 1884, in Caledonia, Texas, I think. The handwriting is cursive, and some of it is a bit messy. I need to make a solid transcription, so here's my thought process.\n\nFirst, I'm trying to break down each part. \"Dear Sir\" is the greeting. Then the body: The writer, \"Henry D Garrison\" or something like that, wants to know if he can re-enter the \"A & M C\" (that's Agricultural and Mechanical College) in the same class he was in when he left. I think he is asking this. The \"A & M C\" is heavily emphasized in the text. I am certain.\n\nThen, he's considering returning this fall with two of his friends. He attended school for five months after leaving A&M, and finished \"the seventh book in Robinson Geom\" - geometry. It sounds like he did geometry. I know Robinson's Geometry was common. I am also sure it says \"Geom\" at the end, not \"Gram\" - even though I thought of it. Also, he \"reviewed Arthmetic Algebra\". That's a misspelling of \"Arithmetic\", which is common. I am also sure I see \"Arithmetic\".\n\nI am making sure that the text is \"Texs\", not \"Tex\". The s at the end is a squiggle, but it looks like an s. The 1st is in superscript: \"1<sup>st</sup>\".\n\nThe layout is important. I am trying to keep the paragraphs as I see them. The line \"If I\" appears above the words \"should again enter\". I'm making sure to capture that nuance. The \"If I\" is a bit indented. I am sure. The word \"enter\" in one of the lines is messy.\n\nA difficult word is in the line \"A & M C could I enter\". The word \"enter\" is scribbled and looks like \"rule g\" or \"take\" or something else. I will stick with \"enter\", though I am considering \"reenter\". The intent is clearer, given it parallels the previous line.\n\nThe closing is \"Yours Truly\", but the \"Yours\" is really faint. You can barely see it. I have the name as \"Henry D Garrison\".\n\nLet's summarize it.\nHere is the text.\n\n<p>Caledonia Texs<br>June 1<sup>st</sup> 84</p>\n<p>Prof L. L. McInnis<br>Dear Sir</p>\n<p>If I<br>should again enter the<br><b>A & M C</b> could I enter the<br>same class that I was in<br>when I left there<br>I have been thinking of return-<br>ing this fall in company with<br>two friend of mine<br>I attended school five<br>months after I left the<br><b>A & M C</b> I completed to the<br>seventh book in Robinson Geom<br>& reviewed Arthmetic Algebra</p>\n<p>Yours Truly<br>Henry D Garrison</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-67.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Henry Garrison, June 1, 1884"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1884-06-01"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Henry Garrison, June 1, 1884"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 16 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College--Admission",
+          "Education--Texas--19th century",
+          "Mathematics--Study and teaching",
+          "Academic readmission"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Garrison, Henry D."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Henry Garrison writes to Professor Louis L. McInnis from Caledonia, Texas, inquiring about re-admission to the Agricultural and Mechanical College and whether he can return to his previous class level. Garrison reports that he has continued his studies independently, completing through the seventh book of Robinson's Geometry and reviewing arithmetic and algebra, and expresses his intention to return in the fall with two friends. This letter reflects student concerns about academic placement and continuation during the late 19th century in Texas agricultural education."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ff9c1a58-0c3d-318c-ab3e-335073a0282a/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3813,
+      "width": 2975,
+      "items": [
+        {
+          "id": "http://example.org/iiif/110",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/109",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ff9c1a58-0c3d-318c-ab3e-335073a0282a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3813,
+                "width": 2975,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ff9c1a58-0c3d-318c-ab3e-335073a0282a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/113",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/112",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Caledonia Texs<br>\nJune 1<sup>st</sup> 84</p>\n\n<p>Prof L. L. McInnis<br>\nDear Sir<br>\n<span style=\"padding-left: 100px;\">If I</span><br>\nshould again enter the<br>\n<b>A & M C</b> could I enter the<br>\nsame class that I was in<br>\nwhen I left there<br>\nI have been thinking of return-<br>\ning this fall in company with<br>\ntwo friend of mine<br>\nI attended school five<br>\nmonths after I left the<br>\n<b>A & M C</b> I completed to the<br>\nseventh book in Robinson Geom<br>\n& reviewed Arthmetic Algebra</p>\n\n<p>Yours Truly<br>\nHenry D Garrison</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/114",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis & Refinement**\n\nOkay, here's the deal. I'm looking at this handwritten letter, trying to figure out what it says. It's addressed to \"Prof L. L. McInnis\" and dated \"June 1st 84\" - that's June 1st, 1884, in Caledonia, Texas, I think. The handwriting is cursive, and some of it is a bit messy. I need to make a solid transcription, so here's my thought process.\n\nFirst, I'm trying to break down each part. \"Dear Sir\" is the greeting. Then the body: The writer, \"Henry D Garrison\" or something like that, wants to know if he can re-enter the \"A & M C\" (that's Agricultural and Mechanical College) in the same class he was in when he left. I think he is asking this. The \"A & M C\" is heavily emphasized in the text. I am certain.\n\nThen, he's considering returning this fall with two of his friends. He attended school for five months after leaving A&M, and finished \"the seventh book in Robinson Geom\" - geometry. It sounds like he did geometry. I know Robinson's Geometry was common. I am also sure it says \"Geom\" at the end, not \"Gram\" - even though I thought of it. Also, he \"reviewed Arthmetic Algebra\". That's a misspelling of \"Arithmetic\", which is common. I am also sure I see \"Arithmetic\".\n\nI am making sure that the text is \"Texs\", not \"Tex\". The s at the end is a squiggle, but it looks like an s. The 1st is in superscript: \"1<sup>st</sup>\".\n\nThe layout is important. I am trying to keep the paragraphs as I see them. The line \"If I\" appears above the words \"should again enter\". I'm making sure to capture that nuance. The \"If I\" is a bit indented. I am sure. The word \"enter\" in one of the lines is messy.\n\nA difficult word is in the line \"A & M C could I enter\". The word \"enter\" is scribbled and looks like \"rule g\" or \"take\" or something else. I will stick with \"enter\", though I am considering \"reenter\". The intent is clearer, given it parallels the previous line.\n\nThe closing is \"Yours Truly\", but the \"Yours\" is really faint. You can barely see it. I have the name as \"Henry D Garrison\".\n\nLet's summarize it.\nHere is the text.\n\n<p>Caledonia Texs<br>June 1<sup>st</sup> 84</p>\n<p>Prof L. L. McInnis<br>Dear Sir</p>\n<p>If I<br>should again enter the<br><b>A & M C</b> could I enter the<br>same class that I was in<br>when I left there<br>I have been thinking of return-<br>ing this fall in company with<br>two friend of mine<br>I attended school five<br>months after I left the<br><b>A & M C</b> I completed to the<br>seventh book in Robinson Geom<br>& reviewed Arthmetic Algebra</p>\n<p>Yours Truly<br>Henry D Garrison</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/67/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

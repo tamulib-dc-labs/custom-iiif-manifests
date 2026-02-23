@@ -1,222 +1,272 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-4.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from C. D. Snead, November 9, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-11-09"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from C. D. Snead, November 9, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/4ea526dd-a9b9-332b-b083-544fd38a7209/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4382,
-            "width": 3327,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/4ea526dd-a9b9-332b-b083-544fd38a7209/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4382,
-                                "width": 3327,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4ea526dd-a9b9-332b-b083-544fd38a7209",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><small>ALBERT MANTOOTH, President,<br/>\nC. N. SNEED, Secretary.</small></p>\n\n<p><small>J. D. GANN, Cor. Secretary.<br/>\nOFFICE OF</small></p>\n\n<p><small>JOSEPH KERR, Vice-President.<br/>\nC. MANTOOTH, Treasurer.</small></p>\n\n<p><b>ANGELINA CO. IMMIGRATION SOCIETY.</b></p>\n\n<p style=\"text-align: right;\">Homer, Texas, Nov 9\" 1881</p>\n\n<p>Prof. L. L. McInnis<br/>\nProf. Math. A & M College<br/>\nDear Sir</p>\n\n<p>I am thankful to<br/>\nyou for the plain and accurate solutions of our<br/>\nproblem. A gentleman here stated that it<br/>\nwas a mathematical impossibility, and<br/>\na mathematical absurdity. I here submit<br/>\na third solution for your approval, and if<br/>\nyou find my principles correct, please so<br/>\nstate it to me.</p>\n\n<p>To divide the trapezoid ABCD into two equal<br/>\nparts by a line parallel to the base DC.<br/>\nDC = 12, DH = 6c HC = 6 chs AB = 4 chs<br/>\nHG = 24 chs. Produce AD to I & BC<br/>\nto I forming the triangle ICD. Pro-<br/>\nduce GH to I, also. My object is to<br/>\nfind GI and then apply the prin-<br/>\nciples for cutting triangles.</p>\n\n<p>DC - AB : AB :: HG : GI<br/>\n8 : 4 :: 24 : 12<br/>\nThen HI = 36, Now we have to find IC<br/>\n\u221a(HC)\u00b2 + (HI)\u00b2 = IC<br/>\n\u221a36 + 1296 = \u221a1332 = 36.496</p>\n\n<p>(Area ICD = 216 chs)<br/>\nover</p>\n\n<small>[Diagram in right margin showing triangle ICD with bisecting line AB. Labels and measurements:<br/>\nTop vertex: I<br/>\nLeft side segment: 12.165<br/>\nRight side segments: 12.165, 36.496<br/>\nBase AB: 4 chs<br/>\nBase DC: 12 chs (split into 6 chs, H, 6 chs)<br/>\nCentral height HG: 24 chs]</small></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's my transcription plan for this handwritten letter, detailed as follows:**\n\nI need to meticulously transcribe the letter, paying close attention to its structure, layout, and any handwriting peculiarities. The goal is accuracy and fidelity to the original text. First, I'll analyze the document as a whole, noting its type (a handwritten letter on letterhead), the official letterhead of the \"ANGELINA CO. IMMIGRATION SOCIETY,\" and its date and location: \"Homer, Texas, Nov 9\" 1881\". I must faithfully render the recipient's information: \"Prof. L. L. McInnis, Prof. Math. A & M College,\" and its salutation, \"Dear Sir.\"\n\nThe body of the letter needs accurate transcription. The writer's tone, which expresses gratitude and submits a new geometric problem solution for approval, must be carefully rendered, including the mathematical problem involving a trapezoid and related calculations. A hand-drawn diagram accompanies this problem, and I will be sure to interpret it to the best of my ability, accurately representing any included calculations and labels. The handwriting, typical of the late 19th century, will require focused attention. I must recognize cursive formations and faint areas, and will transcribe accordingly. The text contains calculations, including variables and equations.\n\nI will start by transcribing the full letter. I will make sure the layout is accurate to the original. I will accurately render the header with the officers names: `ALBERT MANTOOTH, President,<br/>C. N. SNEED, Secretary. J. D. GANN, Cor. Secretary.<br/>OFFICE OF JOSEPH KERR, Vice-President.<br/>C. MANTOOTH, Treasurer.` Then I'll render the body paragraphs. A key challenge is the mathematical portion.\n\nI will accurately render `DC - AB : AB :: HG : GI`, and `8 : 4 :: 24 : 12`, noting that the formula `V(HC + HI)^2 = IC` requires specific care because of the potential for ambiguity in the handwriting. The writing is ambiguous, but considering the context of geometry (and the following line), I'll transcribe this as `V(HC)\u00b2 + (HI)\u00b2 = IC` with the squared characters as loops. I will make a careful note of calculations. I'll include all the text: `V36 + 1296 = V1332 = 36.496`. Lastly, there are notes: `(Area ICD = 216 chs)` and `over`.\n\nThe diagram will be transcribed. The visible characters will be transcribed. Any ambiguous characters will be indicated as uncertain using `[?]`. Clear measurements are: $12.165$, $36.496$.\nThe numbers $24$ and $12$ are also clear measurements. I'll insert a block of diagram labels at the end of the transcription. My objective is to create an accurate and faithful transcription of the original document. I will render any symbols, abbreviations, or variations in typography.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4382,
-            "width": 3327,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/800a388e-88cf-3153-8621-0cae6a6daf40/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4382,
-                                "width": 3327,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/800a388e-88cf-3153-8621-0cae6a6daf40",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>We have the following proportions:</p>\n<p>I b D : I B A : (S b)<sup>2</sup> : &radic;x or</p>\n<p>216 : 24 : 1332 : &radic;x = &radic;148 = 12.165-</p>\n<p>I b D : I B 7 E : (S b)<sup>2</sup> : &radic;x</p>\n<p>216 : 96+24=120 : 1332 : &radic;x = &radic;740 &nbsp; 27.202</p>\n<p>I b D : I b D !! (S b)<sup>2</sup> : &radic;x =</p>\n<p>216 : 96+96+24 : 1332 : &radic;x = 36.496</p>\n<br>\n<p>I B = 12.165-</p>\n<p>B 7 = 27.202 - 12.165- = 15.037</p>\n<p>7 C = 36.496 - 27.202 = 9.294</p>\n<p>The result is the same as yours,</p>\n<p>This principle applies to unequal sides,</p>\n<p>Respectfully</p>\n<p>C. D. Smead</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Your Thoughts on Transcribing the Handwritten Text**\n\nAlright, I'm diving into this handwritten text. My initial thought is it seems to be related to mathematical calculations, possibly geometry or physics, given the use of proportions, roots, and sums. The handwriting is cursive and somewhat slanted, so I need to be careful with character recognition. Let's break it down line by line, trying to maintain the original structure and intent.\n\nFirst, I see the introductory line: \u201cWe have the following proportions:\u201d. Simple enough. Now for the equations!\n\nThe first equation starts with: \"I b D : I B A : (S b)^2 : \u221ax or\". I need to figure out these variable names. It is likely $I$ and $B$, but the letters might be something else. The numbers are $216$, $24$, $1332$, and then $\\sqrt{x}$. The colon notation suggests ratios, and the terms are $216:24:(S b)^2$. Now, the third variable $(S b)^2$: that might mean the \"S\" is likely a span or total variable.\n\nThe second line of equations looks the same, only the term has \"I B 7 E\". Then the $96+24$. The \"7\" might be a label. The numbers here are: $216, 120, 1332, \\sqrt{740}$ and the value of $27.202$. It's a relationship between the terms.\n\nThe third line of equations: \"I b D : I b D !! (S b)^2 : \u221ax =\". This looks odd, it looks like $216$ : $216$. Now, is the \"!!\" intended as $::$? The result of the sum is $36.496$. $36.496^2=1332$, so it is related to the third variable.\n\nThe next three lines are results: \"$I B = 12.165-$, $B 7 = 27.202 - 12.165- = 15.037$, and $7 C = 36.496 - 27.202 = 9.294$\". These numbers appear to be segments or components.\n\nFinally, we have the concluding statements: \"The result is the same as yours, This principle applies to unequal sides, Respectfully, C. D. Smead\". The variables are likely about proportions.\n\nLet's transcribe these lines as accurately as possible. The line has \"I b D : I B A : (S b)^2 : \u221ax or\".\nThe second line says \"I b D : I B 7 E : (S b)^2 : \u221ax\". The numbers are $216:96+24=120:1332:\\sqrt{x} = \\sqrt{740} 27.202$.\nThe third line says \"I b D : I b D :: (S b)^2 : \u221ax = \". The numbers are $216 : 96+96+24$.\n\nIt is likely the \"7\" is a label for point 7 along a line segment:\nI B = 12.165, B 7 = 15.037 and 7 C = 9.294. Then: 12.165 + 15.037 + 9.294 = 36.496.\n\nI think the important variables are I B, B 7, 7 C and the numbers are segments of the total length of 36.496.\n\nI have to be very careful to transcribe the text exactly as it appears. I will add line breaks, use superscripts for squares, and render the square root symbol correctly. I am ready to convert my thoughts into the final transcription.\n\n***\n\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-4.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from C. D. Snead, November 9, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-11-09"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from C. D. Snead, November 9, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Mathematics--Problems and solutions",
+          "Geometry--Trapezoids",
+          "Mathematical correspondence",
+          "Agricultural education",
+          "Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Snead, C. D."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Mantooth, Albert",
+          "Gann, J. D.",
+          "Kerr, Joseph",
+          "Mantooth, C.",
+          "Angelina County Immigration Society"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from C. D. Snead to Professor L. L. McInnis of Texas A&M College dated November 9, 1881, presenting a third mathematical solution to a geometric problem involving the division of a trapezoid into two equal parts by a line parallel to the base. Snead submits his geometric principles for McInnis's review and verification, demonstrating the application of proportional reasoning and triangulation methods to solve the problem, with calculations and a marginal diagram included."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/4ea526dd-a9b9-332b-b083-544fd38a7209/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4382,
+      "width": 3327,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4ea526dd-a9b9-332b-b083-544fd38a7209/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4382,
+                "width": 3327,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4ea526dd-a9b9-332b-b083-544fd38a7209",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><small>ALBERT MANTOOTH, President,<br/>\nC. N. SNEED, Secretary.</small></p>\n\n<p><small>J. D. GANN, Cor. Secretary.<br/>\nOFFICE OF</small></p>\n\n<p><small>JOSEPH KERR, Vice-President.<br/>\nC. MANTOOTH, Treasurer.</small></p>\n\n<p><b>ANGELINA CO. IMMIGRATION SOCIETY.</b></p>\n\n<p style=\"text-align: right;\">Homer, Texas, Nov 9\" 1881</p>\n\n<p>Prof. L. L. McInnis<br/>\nProf. Math. A & M College<br/>\nDear Sir</p>\n\n<p>I am thankful to<br/>\nyou for the plain and accurate solutions of our<br/>\nproblem. A gentleman here stated that it<br/>\nwas a mathematical impossibility, and<br/>\na mathematical absurdity. I here submit<br/>\na third solution for your approval, and if<br/>\nyou find my principles correct, please so<br/>\nstate it to me.</p>\n\n<p>To divide the trapezoid ABCD into two equal<br/>\nparts by a line parallel to the base DC.<br/>\nDC = 12, DH = 6c HC = 6 chs AB = 4 chs<br/>\nHG = 24 chs. Produce AD to I & BC<br/>\nto I forming the triangle ICD. Pro-<br/>\nduce GH to I, also. My object is to<br/>\nfind GI and then apply the prin-<br/>\nciples for cutting triangles.</p>\n\n<p>DC - AB : AB :: HG : GI<br/>\n8 : 4 :: 24 : 12<br/>\nThen HI = 36, Now we have to find IC<br/>\n√(HC)² + (HI)² = IC<br/>\n√36 + 1296 = √1332 = 36.496</p>\n\n<p>(Area ICD = 216 chs)<br/>\nover</p>\n\n<small>[Diagram in right margin showing triangle ICD with bisecting line AB. Labels and measurements:<br/>\nTop vertex: I<br/>\nLeft side segment: 12.165<br/>\nRight side segments: 12.165, 36.496<br/>\nBase AB: 4 chs<br/>\nBase DC: 12 chs (split into 6 chs, H, 6 chs)<br/>\nCentral height HG: 24 chs]</small></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's my transcription plan for this handwritten letter, detailed as follows:**\n\nI need to meticulously transcribe the letter, paying close attention to its structure, layout, and any handwriting peculiarities. The goal is accuracy and fidelity to the original text. First, I'll analyze the document as a whole, noting its type (a handwritten letter on letterhead), the official letterhead of the \"ANGELINA CO. IMMIGRATION SOCIETY,\" and its date and location: \"Homer, Texas, Nov 9\" 1881\". I must faithfully render the recipient's information: \"Prof. L. L. McInnis, Prof. Math. A & M College,\" and its salutation, \"Dear Sir.\"\n\nThe body of the letter needs accurate transcription. The writer's tone, which expresses gratitude and submits a new geometric problem solution for approval, must be carefully rendered, including the mathematical problem involving a trapezoid and related calculations. A hand-drawn diagram accompanies this problem, and I will be sure to interpret it to the best of my ability, accurately representing any included calculations and labels. The handwriting, typical of the late 19th century, will require focused attention. I must recognize cursive formations and faint areas, and will transcribe accordingly. The text contains calculations, including variables and equations.\n\nI will start by transcribing the full letter. I will make sure the layout is accurate to the original. I will accurately render the header with the officers names: `ALBERT MANTOOTH, President,<br/>C. N. SNEED, Secretary. J. D. GANN, Cor. Secretary.<br/>OFFICE OF JOSEPH KERR, Vice-President.<br/>C. MANTOOTH, Treasurer.` Then I'll render the body paragraphs. A key challenge is the mathematical portion.\n\nI will accurately render `DC - AB : AB :: HG : GI`, and `8 : 4 :: 24 : 12`, noting that the formula `V(HC + HI)^2 = IC` requires specific care because of the potential for ambiguity in the handwriting. The writing is ambiguous, but considering the context of geometry (and the following line), I'll transcribe this as `V(HC)² + (HI)² = IC` with the squared characters as loops. I will make a careful note of calculations. I'll include all the text: `V36 + 1296 = V1332 = 36.496`. Lastly, there are notes: `(Area ICD = 216 chs)` and `over`.\n\nThe diagram will be transcribed. The visible characters will be transcribed. Any ambiguous characters will be indicated as uncertain using `[?]`. Clear measurements are: $12.165$, $36.496$.\nThe numbers $24$ and $12$ are also clear measurements. I'll insert a block of diagram labels at the end of the transcription. My objective is to create an accurate and faithful transcription of the original document. I will render any symbols, abbreviations, or variations in typography.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4382,
+      "width": 3327,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/800a388e-88cf-3153-8621-0cae6a6daf40/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4382,
+                "width": 3327,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/800a388e-88cf-3153-8621-0cae6a6daf40",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>We have the following proportions:</p>\n<p>I b D : I B A : (S b)<sup>2</sup> : &radic;x or</p>\n<p>216 : 24 : 1332 : &radic;x = &radic;148 = 12.165-</p>\n<p>I b D : I B 7 E : (S b)<sup>2</sup> : &radic;x</p>\n<p>216 : 96+24=120 : 1332 : &radic;x = &radic;740 &nbsp; 27.202</p>\n<p>I b D : I b D !! (S b)<sup>2</sup> : &radic;x =</p>\n<p>216 : 96+96+24 : 1332 : &radic;x = 36.496</p>\n<br>\n<p>I B = 12.165-</p>\n<p>B 7 = 27.202 - 12.165- = 15.037</p>\n<p>7 C = 36.496 - 27.202 = 9.294</p>\n<p>The result is the same as yours,</p>\n<p>This principle applies to unequal sides,</p>\n<p>Respectfully</p>\n<p>C. D. Smead</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Your Thoughts on Transcribing the Handwritten Text**\n\nAlright, I'm diving into this handwritten text. My initial thought is it seems to be related to mathematical calculations, possibly geometry or physics, given the use of proportions, roots, and sums. The handwriting is cursive and somewhat slanted, so I need to be careful with character recognition. Let's break it down line by line, trying to maintain the original structure and intent.\n\nFirst, I see the introductory line: “We have the following proportions:”. Simple enough. Now for the equations!\n\nThe first equation starts with: \"I b D : I B A : (S b)^2 : √x or\". I need to figure out these variable names. It is likely $I$ and $B$, but the letters might be something else. The numbers are $216$, $24$, $1332$, and then $\\sqrt{x}$. The colon notation suggests ratios, and the terms are $216:24:(S b)^2$. Now, the third variable $(S b)^2$: that might mean the \"S\" is likely a span or total variable.\n\nThe second line of equations looks the same, only the term has \"I B 7 E\". Then the $96+24$. The \"7\" might be a label. The numbers here are: $216, 120, 1332, \\sqrt{740}$ and the value of $27.202$. It's a relationship between the terms.\n\nThe third line of equations: \"I b D : I b D !! (S b)^2 : √x =\". This looks odd, it looks like $216$ : $216$. Now, is the \"!!\" intended as $::$? The result of the sum is $36.496$. $36.496^2=1332$, so it is related to the third variable.\n\nThe next three lines are results: \"$I B = 12.165-$, $B 7 = 27.202 - 12.165- = 15.037$, and $7 C = 36.496 - 27.202 = 9.294$\". These numbers appear to be segments or components.\n\nFinally, we have the concluding statements: \"The result is the same as yours, This principle applies to unequal sides, Respectfully, C. D. Smead\". The variables are likely about proportions.\n\nLet's transcribe these lines as accurately as possible. The line has \"I b D : I B A : (S b)^2 : √x or\".\nThe second line says \"I b D : I B 7 E : (S b)^2 : √x\". The numbers are $216:96+24=120:1332:\\sqrt{x} = \\sqrt{740} 27.202$.\nThe third line says \"I b D : I b D :: (S b)^2 : √x = \". The numbers are $216 : 96+96+24$.\n\nIt is likely the \"7\" is a label for point 7 along a line segment:\nI B = 12.165, B 7 = 15.037 and 7 C = 9.294. Then: 12.165 + 15.037 + 9.294 = 36.496.\n\nI think the important variables are I B, B 7, 7 C and the numbers are segments of the total length of 36.496.\n\nI have to be very careful to transcribe the text exactly as it appears. I will add line breaks, use superscripts for squares, and render the square root symbol correctly. I am ready to convert my thoughts into the final transcription.\n\n***\n\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/4/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

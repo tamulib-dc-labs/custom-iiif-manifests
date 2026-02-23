@@ -1,139 +1,193 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-211.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Hon Faculty from Luckett, Whitener, Henderson, Hagemann, Field, Jones, Philpott, and Prokiset, October 31, 1889"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1889-10-31"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Hon Faculty from Luckett, Whitener, Henderson, Hagemann, Field, Jones, Philpott, and Prokiset, October 31, 1889"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 29 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/7d2c50ae-2b84-3d01-87b0-0507b5ddfb3f/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4919,
-            "width": 3095,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7d2c50ae-2b84-3d01-87b0-0507b5ddfb3f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4919,
-                                "width": 3095,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7d2c50ae-2b84-3d01-87b0-0507b5ddfb3f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p style=\"text-align: right;\">\nA & M. College<br>\nCollege Texas<br>\nOct 31 1889.\n</p>\n\n<p>\nTo the Hon. Faculty through<br>\nthe Chairman.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirs:\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We the<br>\nundersigned kindly ask<br>\nyour permission to drop<br>\nthe study of \"Grasses and<br>\nother Forage plants\".<br>\nOur reasons for doing so, is<br>\nthat we have not the time<br>\nto do justice to our studies,<br>\nand as we consider this<br>\nthe most unimportant and<br>\nrequiring more time than<br>\nany other study, we do humbly<br>\nbeseech you to let us drop<br>\nsaid study.\n</p>\n\n<p style=\"text-align: right;\">\nVery Respt,<br>\nP. A. Luckett.<br>\nS. L. Whitener<br>\nE. H. Sauvignet.<br>\nS. W. Henderson.<br>\nP. T. Hagemann.<br>\nW. R. Field.<br>\nS. V. Jones.<br>\nH. Philpott.<br>\nC. Prokisch\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the deal. I've been handed a scan of a handwritten petition from some students at A&M College in Texas, dated October 31, 1889. The goal? A precise transcription into a properly formatted document, while respecting original line breaks, formatting, and apparent intent.\n\nFirst, I had to parse the image. It's a petition addressed \"To the Hon. Faculty through the Chairman,\" requesting they drop the study of \"Grasses and other Forage plants\" because it takes up too much time. There's a list of signatures at the bottom.\n\nSo, I start line by line. I have to read the document, and make notes of possible choices based on the strokes I can see. This means paying attention to details like how the 'S' is formed, whether a name is 'H. L.' or 'S. L.', even down to the tiniest details:\n\n*   **Location/Date:** The header is tricky; the 'A' in \"A & M\" is damaged, the \"Station\" is missing in \"College Station Texas\" and the date is clear.\n*   **Signatures:** I have to cross-check what I see with historical records for names, when needed. \"E. H. Sauvignet\" is highly likely due to a student of that name during the period. The signatures, \"S. L. Whitener,\" \"P. T. Hagemann,\" and \"C. Prokisch\" are also carefully assessed. I can't just guess.\n*   **Text Analysis:** I have to make decisions on potential commas.\n\nNow, I'm at the point where I'm putting the transcription into proper HTML format:\n\n```html\n<p style=\"text-align: right;\">\nA & M. College<br>\nCollege Texas<br>\nOct 31 1889.\n</p>\n\n<p>\nTo the Hon. Faculty through<br>\nthe Chairman.\n</p>\n\n<p style=\"text-align: center;\">\nSirs:\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We the<br>\nundersigned kindly ask<br>\nyour permission to drop<br>\nthe study of \"Grasses and<br>\nother Forage plants\".<br>\nOur reasons for doing so, is<br>\nthat we have not the time<br>\nto do justice to our studies,<br>\nand as we consider this<br>\nthe most unimportant and<br>\nrequiring more time than<br>\nany other study, we do humbly<br>\nbeseech you to let us drop<br>\nsaid study.\n</p>\n\n<p style=\"text-align: right;\">\nVery Respt,<br>\nP. A. Luckett.<br>\nS. L. Whitener<br>\nE. H. Sauvignet.<br>\nS. W. Henderson.<br>\nP. T. Hagemann.<br>\nW. R. Field.<br>\nS. V. Jones.<br>\nH. Philpott.<br>\nC. Prokisch\n</p>\n```\n\nI check line breaks, punctuation. I'm noting indentation, and alignment, since this is important visual information. I am checking the capitalization of \"Grasses\" and \"Forage.\" I'm looking at the \"comma after 'so'\". I'm checking the formatting is correct. I am checking the letters.\n\nI'm double-checking the signatures, triple-checking even. I'm comparing the 'S' in the names.\n\nFinally, I clean the presentation. The HTML is as clean as I can make it!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-211.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Hon Faculty from Luckett, Whitener, Henderson, Hagemann, Field, Jones, Philpott, and Prokiset, October 31, 1889"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1889-10-31"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Hon Faculty from Luckett, Whitener, Henderson, Hagemann, Field, Jones, Philpott, and Prokiset, October 31, 1889"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 29 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural education--Texas--History--19th century",
+          "Curriculum--College courses",
+          "Forage crops--Study and teaching",
+          "Grasses--Study and teaching",
+          "Academic petitions",
+          "College courses--Modification of"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Luckett, P. A.",
+          "Whitener, S. L.",
+          "Henderson, S. W.",
+          "Hagemann, P. T.",
+          "Field, W. R.",
+          "Jones, S. V.",
+          "Philpott, H.",
+          "Prokisch, C."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--Faculty",
+          "Sauvignet, E. H."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A petition from eight students at Agricultural and Mechanical College of Texas requesting permission to drop the course on Grasses and Other Forage Plants, dated October 31, 1889. The students argue they lack sufficient time to adequately pursue their studies and contend this course is the most unimportant and time-consuming of their curriculum. This document reflects student efforts to modify their academic load during the late 19th-century development of agricultural education in Texas."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/7d2c50ae-2b84-3d01-87b0-0507b5ddfb3f/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4919,
+      "width": 3095,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7d2c50ae-2b84-3d01-87b0-0507b5ddfb3f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4919,
+                "width": 3095,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7d2c50ae-2b84-3d01-87b0-0507b5ddfb3f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p style=\"text-align: right;\">\nA & M. College<br>\nCollege Texas<br>\nOct 31 1889.\n</p>\n\n<p>\nTo the Hon. Faculty through<br>\nthe Chairman.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirs:\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We the<br>\nundersigned kindly ask<br>\nyour permission to drop<br>\nthe study of \"Grasses and<br>\nother Forage plants\".<br>\nOur reasons for doing so, is<br>\nthat we have not the time<br>\nto do justice to our studies,<br>\nand as we consider this<br>\nthe most unimportant and<br>\nrequiring more time than<br>\nany other study, we do humbly<br>\nbeseech you to let us drop<br>\nsaid study.\n</p>\n\n<p style=\"text-align: right;\">\nVery Respt,<br>\nP. A. Luckett.<br>\nS. L. Whitener<br>\nE. H. Sauvignet.<br>\nS. W. Henderson.<br>\nP. T. Hagemann.<br>\nW. R. Field.<br>\nS. V. Jones.<br>\nH. Philpott.<br>\nC. Prokisch\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the deal. I've been handed a scan of a handwritten petition from some students at A&M College in Texas, dated October 31, 1889. The goal? A precise transcription into a properly formatted document, while respecting original line breaks, formatting, and apparent intent.\n\nFirst, I had to parse the image. It's a petition addressed \"To the Hon. Faculty through the Chairman,\" requesting they drop the study of \"Grasses and other Forage plants\" because it takes up too much time. There's a list of signatures at the bottom.\n\nSo, I start line by line. I have to read the document, and make notes of possible choices based on the strokes I can see. This means paying attention to details like how the 'S' is formed, whether a name is 'H. L.' or 'S. L.', even down to the tiniest details:\n\n*   **Location/Date:** The header is tricky; the 'A' in \"A & M\" is damaged, the \"Station\" is missing in \"College Station Texas\" and the date is clear.\n*   **Signatures:** I have to cross-check what I see with historical records for names, when needed. \"E. H. Sauvignet\" is highly likely due to a student of that name during the period. The signatures, \"S. L. Whitener,\" \"P. T. Hagemann,\" and \"C. Prokisch\" are also carefully assessed. I can't just guess.\n*   **Text Analysis:** I have to make decisions on potential commas.\n\nNow, I'm at the point where I'm putting the transcription into proper HTML format:\n\n```html\n<p style=\"text-align: right;\">\nA & M. College<br>\nCollege Texas<br>\nOct 31 1889.\n</p>\n\n<p>\nTo the Hon. Faculty through<br>\nthe Chairman.\n</p>\n\n<p style=\"text-align: center;\">\nSirs:\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We the<br>\nundersigned kindly ask<br>\nyour permission to drop<br>\nthe study of \"Grasses and<br>\nother Forage plants\".<br>\nOur reasons for doing so, is<br>\nthat we have not the time<br>\nto do justice to our studies,<br>\nand as we consider this<br>\nthe most unimportant and<br>\nrequiring more time than<br>\nany other study, we do humbly<br>\nbeseech you to let us drop<br>\nsaid study.\n</p>\n\n<p style=\"text-align: right;\">\nVery Respt,<br>\nP. A. Luckett.<br>\nS. L. Whitener<br>\nE. H. Sauvignet.<br>\nS. W. Henderson.<br>\nP. T. Hagemann.<br>\nW. R. Field.<br>\nS. V. Jones.<br>\nH. Philpott.<br>\nC. Prokisch\n</p>\n```\n\nI check line breaks, punctuation. I'm noting indentation, and alignment, since this is important visual information. I am checking the capitalization of \"Grasses\" and \"Forage.\" I'm looking at the \"comma after 'so'\". I'm checking the formatting is correct. I am checking the letters.\n\nI'm double-checking the signatures, triple-checking even. I'm comparing the 'S' in the names.\n\nFinally, I clean the presentation. The HTML is as clean as I can make it!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/211/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

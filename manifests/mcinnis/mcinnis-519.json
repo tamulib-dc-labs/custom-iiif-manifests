@@ -1,198 +1,247 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-519.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Salaries, Professors, and Others circa 1885-1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Salaries, Professors, and Others circa 1885-1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 4 Louis L. McInnis Papers/Box 4 Folder 12 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/1b8051fc-0619-3bde-8eb8-211134f7d6c2/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3243,
-            "width": 5159,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/626",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/625",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/1b8051fc-0619-3bde-8eb8-211134f7d6c2/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3243,
-                                "width": 5159,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/1b8051fc-0619-3bde-8eb8-211134f7d6c2",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/632",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/631",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>1885&ndash;86 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1199348 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1125 50<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2876</p>\n\n<p>Salaries Professors &amp; officers<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>instr</small><br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42,900 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A &amp; m college<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 14869 48</p>\n\n<p>A &amp; m college a little more than 1/3</p>\n\n<table>\n  <tbody>\n    <tr>\n      <td>Expenses Board Regents 2 years</td>\n      <td>1512 00</td>\n    </tr>\n    <tr>\n      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Directors 2 &nbsp;&nbsp;&nbsp;&nbsp; \"</td>\n      <td>449 03</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>A &amp; m college less than 1/4</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/633",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts and Transcription of the Handwritten Document**\n\nOkay, here's the deal. I've got this fascinating scan in front of me, and my brain is already churning. It's an old financial document, probably from the late 19th century, judging by the handwriting and the \"1885-86\" date. It's got that classic ledger look: lined paper, ink handwriting, numbers mixed with text. I'm going line by line, really digging into every character and the overall structure.\n\nFirst, I take a good look at that top line. I see \"1885-86\" \u2013 that's clear enough. Then there are some numbers. \"1.99348,\" maybe? Or \"11993.48\" with some unclear dots? And on the right, there's \"1125 50.\" There's also \"1199348\" and \"2876\" under the date; they seem related, maybe some kind of calculation.\n\nNow, into the main body. The first line under the header says, \"Salaries Professors & officers.\" Wait, there's a little word added above or below: \"instr.\" I think it's an abbreviation for \"instructors.\" The right says \"A & M college\".\n\nThe next line has \"42,900\" on the left and \"$ 14869 48\" on the right. This is where things get interesting. I'm trying to figure out if these numbers are related. Could that bigger number be a total? Let's check the context again: \"A & m College a little more than 1/3.\" Okay, if $14,869 is a bit more than a third of $42,900, let's see. About $14,300 is exactly a third. Yep. That makes sense. The formatting is weird, though, no commas. But the relation makes sense. And the bigger number is not in the millions; it's a few thousand.\n\nNow for the text \"A & M College a little more than 1/3.\" Okay, wait... the \"A & M\" is what's really grabbing my attention. It looks like it could be \"Arm,\" or \"A + m,\" but given the context of colleges and financial records, it's almost certainly \"A & M,\" the standard \"Agricultural and Mechanical\". The script is just a little funky. I need to be precise here; the prompt wants *exactly* what's written. I'll note the way it looks, but unless I see definitive proof, I'm interpreting it as the intended meaning of `A & M`.\n\nMoving on to the \"Expenses\" block: I'm seeing \"Expenses Board Regents 2 years\" followed by \"1512 00.\" And under that, there's \"Directors 2\" with \"449 03.\" The prompt states to \u201cMaintain paragraph structures,\u201d so I'll try to preserve the existing structure as best as I can while transcribing. I'm suspecting \"Directors 2 years,\" but the \u201c2\u201d is shared with both \"Directors\" and \"Years.\" Underneath, it says \"A & m College less than 1/4.\" So, I'm trying to match the relation. Expenses for the \"A & M College\" are less than 1/4 of total something.\n\nI do some quick math. Total expenses come to roughly 2000. So maybe \"A & M College\" relates to those expenses? Or to the salaries. Given \"A + M\" salaries = 42,900 and $14,869 is roughly 1/3 of the amount, I\u2019m guessing it is a label for something. In context, it is probably the salaries for \"A & M\". It is most likely \"Salaries\" and \"Expenses\", but the position on the paper is not completely clear. I'm starting to put the transcription together in my mind.\n\nAlso, that handwriting! The \"m\" in this script has a bit of an 'r' vibe, but it's clear on other lines, so I'm pretty sure it is \"A & m\", with a lowercase 'm'. Then the symbol looks like `+`, but it is serving the same function as `&` - meaning \"and\". I need to keep that in mind. The guidelines say to \u201cInterpret handwritten text as accurately as possible.\u201d\n\nI\u2019m carefully looking at the \"instr\" under \"Professors.\" It must modify the meaning. So, it's \"Salaries Professors & officers (instr)\", or \"Salaries Professors & Officers\". It's probably a term like \"\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3243,
-            "width": 5159,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/628",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/627",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ae9a6f82-0263-3a1e-93db-a22f8bcc0c4c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3243,
-                                "width": 5159,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ae9a6f82-0263-3a1e-93db-a22f8bcc0c4c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/635",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/634",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><u>Inventory</u>\nImp of Campus\nFurniture on hand\nof B of App Emp\n\n| | |\n| :--- | :--- |\n| | 16 00 |\n| | 23 30 |\n| | 38 |\n| | 20 00 |\n| | 21.60 |\n| | 26.75 |\n| | 52 50 |\n| | 19 20 |\n| | 13.25 |\n| | 48 - |\n| | 100.25 |\n| | 145 |\n| | 105.50 |\n| | 72 |\n| | 43 |\n| | 50.50 |\n| | 44.25 |\n| | 62.25 |\n| | 66 |\n| | 16 |\n| | 48 |\n| Treas Office | 30.70 |\n| [Chairs?] | |\n| Mch 4 to 147 00 | |\n| apl 5 to 146 | |\n| Jany 196 | |\n| Imp 1401 | |\n| In Inv to $ 1977.50 | 1600 |\n| | [Margin: 553.10] |\n| | [Margin: 56.50] |</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/636",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-519.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Salaries, Professors, and Others circa 1885-1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Salaries, Professors, and Others circa 1885-1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 4 Louis L. McInnis Papers/Box 4 Folder 12 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "College finances--United States--19th century",
+          "Salaries--Higher education",
+          "Agricultural and Mechanical College--Finance",
+          "University governance--United States",
+          "Institutional budgets",
+          "Furniture and furnishings--Inventory",
+          "Educational administration--Accounting"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College",
+          "Board of Regents",
+          "Board of Directors"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A financial record from 1885-1886 documenting salary expenditures at an Agricultural and Mechanical College, including professor and officer compensation totaling $42,900, as well as Board of Regents and Directors expenses. The document also contains an inventory of campus furniture and improvements with individual valuations, reflecting institutional asset management practices during this period."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/1b8051fc-0619-3bde-8eb8-211134f7d6c2/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3243,
+      "width": 5159,
+      "items": [
+        {
+          "id": "http://example.org/iiif/626",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/625",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/1b8051fc-0619-3bde-8eb8-211134f7d6c2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3243,
+                "width": 5159,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/1b8051fc-0619-3bde-8eb8-211134f7d6c2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/632",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/631",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>1885&ndash;86 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1199348 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1125 50<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2876</p>\n\n<p>Salaries Professors &amp; officers<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>instr</small><br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42,900 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A &amp; m college<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 14869 48</p>\n\n<p>A &amp; m college a little more than 1/3</p>\n\n<table>\n  <tbody>\n    <tr>\n      <td>Expenses Board Regents 2 years</td>\n      <td>1512 00</td>\n    </tr>\n    <tr>\n      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Directors 2 &nbsp;&nbsp;&nbsp;&nbsp; \"</td>\n      <td>449 03</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>A &amp; m college less than 1/4</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/633",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts and Transcription of the Handwritten Document**\n\nOkay, here's the deal. I've got this fascinating scan in front of me, and my brain is already churning. It's an old financial document, probably from the late 19th century, judging by the handwriting and the \"1885-86\" date. It's got that classic ledger look: lined paper, ink handwriting, numbers mixed with text. I'm going line by line, really digging into every character and the overall structure.\n\nFirst, I take a good look at that top line. I see \"1885-86\" – that's clear enough. Then there are some numbers. \"1.99348,\" maybe? Or \"11993.48\" with some unclear dots? And on the right, there's \"1125 50.\" There's also \"1199348\" and \"2876\" under the date; they seem related, maybe some kind of calculation.\n\nNow, into the main body. The first line under the header says, \"Salaries Professors & officers.\" Wait, there's a little word added above or below: \"instr.\" I think it's an abbreviation for \"instructors.\" The right says \"A & M college\".\n\nThe next line has \"42,900\" on the left and \"$ 14869 48\" on the right. This is where things get interesting. I'm trying to figure out if these numbers are related. Could that bigger number be a total? Let's check the context again: \"A & m College a little more than 1/3.\" Okay, if $14,869 is a bit more than a third of $42,900, let's see. About $14,300 is exactly a third. Yep. That makes sense. The formatting is weird, though, no commas. But the relation makes sense. And the bigger number is not in the millions; it's a few thousand.\n\nNow for the text \"A & M College a little more than 1/3.\" Okay, wait... the \"A & M\" is what's really grabbing my attention. It looks like it could be \"Arm,\" or \"A + m,\" but given the context of colleges and financial records, it's almost certainly \"A & M,\" the standard \"Agricultural and Mechanical\". The script is just a little funky. I need to be precise here; the prompt wants *exactly* what's written. I'll note the way it looks, but unless I see definitive proof, I'm interpreting it as the intended meaning of `A & M`.\n\nMoving on to the \"Expenses\" block: I'm seeing \"Expenses Board Regents 2 years\" followed by \"1512 00.\" And under that, there's \"Directors 2\" with \"449 03.\" The prompt states to “Maintain paragraph structures,” so I'll try to preserve the existing structure as best as I can while transcribing. I'm suspecting \"Directors 2 years,\" but the “2” is shared with both \"Directors\" and \"Years.\" Underneath, it says \"A & m College less than 1/4.\" So, I'm trying to match the relation. Expenses for the \"A & M College\" are less than 1/4 of total something.\n\nI do some quick math. Total expenses come to roughly 2000. So maybe \"A & M College\" relates to those expenses? Or to the salaries. Given \"A + M\" salaries = 42,900 and $14,869 is roughly 1/3 of the amount, I’m guessing it is a label for something. In context, it is probably the salaries for \"A & M\". It is most likely \"Salaries\" and \"Expenses\", but the position on the paper is not completely clear. I'm starting to put the transcription together in my mind.\n\nAlso, that handwriting! The \"m\" in this script has a bit of an 'r' vibe, but it's clear on other lines, so I'm pretty sure it is \"A & m\", with a lowercase 'm'. Then the symbol looks like `+`, but it is serving the same function as `&` - meaning \"and\". I need to keep that in mind. The guidelines say to “Interpret handwritten text as accurately as possible.”\n\nI’m carefully looking at the \"instr\" under \"Professors.\" It must modify the meaning. So, it's \"Salaries Professors & officers (instr)\", or \"Salaries Professors & Officers\". It's probably a term like \"\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3243,
+      "width": 5159,
+      "items": [
+        {
+          "id": "http://example.org/iiif/628",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/627",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ae9a6f82-0263-3a1e-93db-a22f8bcc0c4c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3243,
+                "width": 5159,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ae9a6f82-0263-3a1e-93db-a22f8bcc0c4c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/635",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/634",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><u>Inventory</u>\nImp of Campus\nFurniture on hand\nof B of App Emp\n\n| | |\n| :--- | :--- |\n| | 16 00 |\n| | 23 30 |\n| | 38 |\n| | 20 00 |\n| | 21.60 |\n| | 26.75 |\n| | 52 50 |\n| | 19 20 |\n| | 13.25 |\n| | 48 - |\n| | 100.25 |\n| | 145 |\n| | 105.50 |\n| | 72 |\n| | 43 |\n| | 50.50 |\n| | 44.25 |\n| | 62.25 |\n| | 66 |\n| | 16 |\n| | 48 |\n| Treas Office | 30.70 |\n| [Chairs?] | |\n| Mch 4 to 147 00 | |\n| apl 5 to 146 | |\n| Jany 196 | |\n| Imp 1401 | |\n| In Inv to $ 1977.50 | 1600 |\n| | [Margin: 553.10] |\n| | [Margin: 56.50] |</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/636",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/519/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

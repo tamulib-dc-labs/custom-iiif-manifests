@@ -1,139 +1,184 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-299.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter 'To the Faculty' from Louis L. McInnis, March 4, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-03-04"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter 'To the Faculty' from Louis L. McInnis, March 4, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 1 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/059c6281-3e01-372c-bc59-2473ec31a2ac/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 2000,
-            "width": 3111,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/650",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/649",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/059c6281-3e01-372c-bc59-2473ec31a2ac/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2000,
-                                "width": 3111,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/059c6281-3e01-372c-bc59-2473ec31a2ac",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/653",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/652",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p align=\"center\"><small>CHAIRMAN'S OFFICE</small><br>\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p>LOUIS L. McINNIS, A. M., PROF. OF MATHEMATICS,<br>\nCHAIRMAN OF THE FACULTY.</p>\n\n<p align=\"right\">College Station, Texas, Mar 4 - 90</p>\n\n<p>To the Faculty:-<br>\nGentlemen : I respectfully call your attention<br>\nto Section 1 art 2 Chapter I and art 4 of the<br>\nsame Chapter - and request that each & every<br>\nmember of the Faculty will assist me in<br>\ndischarge of the duties imposed upon me<br>\nby the Honorable Board of Directors -<br>\nI shall do all in my power to promote<br>\nthe efficiency & usefulness of every de-<br>\npartment of the College.</p>\n\n[Signature]\n<p align=\"right\">Very Respectfully -<br>\nLouis L. McInnis<br>\nChairman.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/654",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Document Transcription and Analysis**\n\nAlright, let's get down to it. I've been tasked with transcribing this document, and the details are starting to come into focus. I see a formal letterhead: \"CHAIRMAN'S OFFICE,\" then \"STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.\" with a subtitle \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\" and then the name \"LOUIS L. McINNIS, A. M., PROF. OF MATHEMATICS,\" with the title \"CHAIRMAN OF THE FACULTY.\" It's all printed, clear enough.\n\nThen, the handwritten part kicks in. It begins with \"College Station, Texas, Mar 4 - 90.\" The date feels a little old-fashioned, but there it is. The salutation is addressed \"To the Faculty:-\", then \"Gentlemen :\". The body of the letter is where things get interesting. The writer, presumably McInnis, is calling attention to sections of a document \u2013 specifically, Section 1 art 2 Chapter I and art 4 of the same Chapter \u2013 and requesting the Faculty's assistance in fulfilling his duties as imposed by the Board of Directors. It seems like a directive, but expressed politely. He\u2019s promising to promote the \"efficiency & usefulness of every department of the College\".\n\nLooking closely at the handwriting, there are a few quirks. The symbol for \"and\" is a shorthand. The phrase \"discharge of the duties\" is written with a gap. The signature, \"Louis L. McInnis\", is distinct. The closing is \"Very Respectfully -\", followed by his signature and title \"Chairman.\".\n\nNow, let's get this transcribed correctly. Here's what I've got:\n\n[Header]\n<p>CHAIRMAN'S OFFICE<br>\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n<p>LOUIS L. McINNIS, A. M., PROF. OF MATHEMATICS,<br>\nCHAIRMAN OF THE FACULTY.</p>\n\n[Body]\n<p>College Station, Texas, Mar 4 - 90<br>\nTo the Faculty:-<br>\nGentlemen : I respectfully call your attention<br>\nto Section 1 art 2 Chapter I and art 4 of the<br>\nsame Chapter - and request that each & every<br>\nmember of the Faculty will assist me in<br>\ndischarge of the duties imposed upon me<br>\nby the Honorable Board of Directors -<br>\nI shall do all in my power to promote<br>\nthe efficiency & usefulness of every de-<br>\npartment of the College.</p>\n\n[Signature]\n<p>Very Respectfully -<br>\nLouis L. McInnis<br>\nChairman.</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-299.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter 'To the Faculty' from Louis L. McInnis, March 4, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-03-04"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter 'To the Faculty' from Louis L. McInnis, March 4, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 1 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas State Agricultural and Mechanical College--Administration",
+          "Faculty governance",
+          "Academic administration--Texas--History--19th century",
+          "Colleges and universities--Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L. (Louis Lockwood), 1840-1919"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas State Agricultural and Mechanical College. Board of Directors",
+          "Texas State Agricultural and Mechanical College. Faculty"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A formal letter from Louis L. McInnis, Chairman of the Faculty at Texas State Agricultural and Mechanical College, addressed to the college faculty on March 4, 1890. McInnis requests faculty assistance in fulfilling duties assigned to him by the Board of Directors, specifically referencing institutional regulations and emphasizing his commitment to promoting departmental efficiency and usefulness. The letter establishes the chair's authority and solicits faculty cooperation in institutional governance."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/059c6281-3e01-372c-bc59-2473ec31a2ac/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 2000,
+      "width": 3111,
+      "items": [
+        {
+          "id": "http://example.org/iiif/650",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/649",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/059c6281-3e01-372c-bc59-2473ec31a2ac/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2000,
+                "width": 3111,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/059c6281-3e01-372c-bc59-2473ec31a2ac",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/653",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/652",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"center\"><small>CHAIRMAN'S OFFICE</small><br>\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.<br>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p>LOUIS L. McINNIS, A. M., PROF. OF MATHEMATICS,<br>\nCHAIRMAN OF THE FACULTY.</p>\n\n<p align=\"right\">College Station, Texas, Mar 4 - 90</p>\n\n<p>To the Faculty:-<br>\nGentlemen : I respectfully call your attention<br>\nto Section 1 art 2 Chapter I and art 4 of the<br>\nsame Chapter - and request that each & every<br>\nmember of the Faculty will assist me in<br>\ndischarge of the duties imposed upon me<br>\nby the Honorable Board of Directors -<br>\nI shall do all in my power to promote<br>\nthe efficiency & usefulness of every de-<br>\npartment of the College.</p>\n\n[Signature]\n<p align=\"right\">Very Respectfully -<br>\nLouis L. McInnis<br>\nChairman.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/654",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Document Transcription and Analysis**\n\nAlright, let's get down to it. I've been tasked with transcribing this document, and the details are starting to come into focus. I see a formal letterhead: \"CHAIRMAN'S OFFICE,\" then \"STATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.\" with a subtitle \"(TECHNICAL BRANCH OF THE UNIVERSITY.)\" and then the name \"LOUIS L. McINNIS, A. M., PROF. OF MATHEMATICS,\" with the title \"CHAIRMAN OF THE FACULTY.\" It's all printed, clear enough.\n\nThen, the handwritten part kicks in. It begins with \"College Station, Texas, Mar 4 - 90.\" The date feels a little old-fashioned, but there it is. The salutation is addressed \"To the Faculty:-\", then \"Gentlemen :\". The body of the letter is where things get interesting. The writer, presumably McInnis, is calling attention to sections of a document – specifically, Section 1 art 2 Chapter I and art 4 of the same Chapter – and requesting the Faculty's assistance in fulfilling his duties as imposed by the Board of Directors. It seems like a directive, but expressed politely. He’s promising to promote the \"efficiency & usefulness of every department of the College\".\n\nLooking closely at the handwriting, there are a few quirks. The symbol for \"and\" is a shorthand. The phrase \"discharge of the duties\" is written with a gap. The signature, \"Louis L. McInnis\", is distinct. The closing is \"Very Respectfully -\", followed by his signature and title \"Chairman.\".\n\nNow, let's get this transcribed correctly. Here's what I've got:\n\n[Header]\n<p>CHAIRMAN'S OFFICE<br>\nSTATE AGRICULTURAL AND MECHANICAL COLLEGE OF TEXAS.<br>\n(TECHNICAL BRANCH OF THE UNIVERSITY.)</p>\n<p>LOUIS L. McINNIS, A. M., PROF. OF MATHEMATICS,<br>\nCHAIRMAN OF THE FACULTY.</p>\n\n[Body]\n<p>College Station, Texas, Mar 4 - 90<br>\nTo the Faculty:-<br>\nGentlemen : I respectfully call your attention<br>\nto Section 1 art 2 Chapter I and art 4 of the<br>\nsame Chapter - and request that each & every<br>\nmember of the Faculty will assist me in<br>\ndischarge of the duties imposed upon me<br>\nby the Honorable Board of Directors -<br>\nI shall do all in my power to promote<br>\nthe efficiency & usefulness of every de-<br>\npartment of the College.</p>\n\n[Signature]\n<p>Very Respectfully -<br>\nLouis L. McInnis<br>\nChairman.</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/299/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

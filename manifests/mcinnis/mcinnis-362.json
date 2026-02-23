@@ -1,352 +1,399 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-362.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from R. Smith (), June 28, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-06-28"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from R. Smith (), June 28, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/65cd8a94-4a2d-337a-9b04-f9cb76d20097/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3139,
-            "width": 1916,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/188",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/187",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/65cd8a94-4a2d-337a-9b04-f9cb76d20097/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3139,
-                                "width": 1916,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/65cd8a94-4a2d-337a-9b04-f9cb76d20097",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/200",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/199",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Margin: V]</p>\n\n<p>Galveston, Texas<br/>\nJune 28, /90.</p>\n\n<p>Dear Prof. McInnis;<br/>\nI was sorry I did<br/>\nnot see you to bid you<br/>\ngood bye befor I left the<br/>\nCollege, but had to go to town<br/>\nthe day I left and it was<br/>\nquite late before I got<br/>\nback, so hadn't time to go<br/>\ndown to the house that<br/>\nnight.</p>\n\n<p>I didn't get things to rights<br/>\nand ready to leave until<br/>\n12 o'clock that night and<br/>\nfound the car crowded, so<br/>\nthat I could not get either<br/>\na sleeper or a seat, hence</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/201",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Verification**\n\nAlright, let's get down to it. I've got this handwritten letter in front of me, and my task is to provide a transcription, making sure it's accurate down to the smallest detail. My expertise is knowing what *should* be written, and what is *actually* written, so the task is to bridge those things, and create the most accurate transcript possible.\n\nFirst, I'm noting the details. In the top right, there's a mark - a \"V\", which I assume is some kind of filing notation. Then comes the header, \"Galveston, Texas / June 28, /90.\" - pretty clear, though I'm keeping a mental note of those potential quirks in the '90's. Next, the salutation: \"Dear Prof. McInnis;\". The 'M' looks right, the 'c' is small, 'Innis' seems legit.\n\nNow, into the body. Each line is getting a thorough look:\n\n*   \"I was sorry I did\" - straightforward.\n*   \"not see you to bid you\" - again, easy.\n*   \"good bye befor I left the\" - hold up! The word \"befor\" is throwing me a bit. It is *befor* in the image, so I'll write *befor*.\n*   \"College, but had to go to town\" - capital 'C' in College, as expected.\n*   \"the day I left and it was\" - good.\n*   \"quite late before I got\" - now the *before* has a clear 'e', see the difference in my handwriting analysis!\n*   \"back, so hadn't time to go\" - 'hadn't' - the apostrophe is implied, so I'll transcribe.\n*   \"down to the house that\" - okay.\n*   \"night.\" - good.\n*   \"I didn't get things to rights\" - \"rights\", as in, *to rights*, idiom.\n*   \"and ready to leave until\" - all good.\n*   \"12 o'clock that night and\" - here's where it gets interesting, that word after \"o'clock\" is messy. It looks like \"that\" written over something else. But I have checked this thoroughly! It's *that*.\n*   \"found the car crowded, so\" - okay.\n*   \"that I could not get either\" - good.\n*   \"a sleeper or a seat, hence\" - the word \"hence\" is a bit cut off. I'll include it as \"hence\" with the implied meaning.\n\nNow, let's format it. I'll maintain the line breaks, use `<p>` for paragraphs, and make sure that this transcription is clean and accessible. I'll insert any marginalia at the appropriate point.\n\nI've made sure to check for standard HTML tags. I'll provide an accurate text as requested. No extra formatting.\n\n```html\n<p>[Margin: V]</p>\n<p>Galveston, Texas<br/>\nJune 28, /90.</p>\n<p>Dear Prof. McInnis;<br/>\nI was sorry I did<br/>\nnot see you to bid you<br/>\ngood bye befor I left the<br/>\nCollege, but had to go to town<br/>\nthe day I left and it was<br/>\nquite late before I got<br/>\nback, so hadn't time to go<br/>\ndown to the house that<br/>\nnight.</p>\n<p>I didn't get things to rights<br/>\nand ready to leave until<br/>\n12 o'clock that night and<br/>\nfound the car crowded, so<br/>\nthat I could not get either<br/>\na sleeper or a seat, hence</p>\n```\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3139,
-            "width": 1916,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/190",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/189",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/be26869d-5535-3acd-986c-0d7f502cd431/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3139,
-                                "width": 1916,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/be26869d-5535-3acd-986c-0d7f502cd431",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/203",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/202",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>I reached Galv, considerably<br/>\nthe worst for wear.<br/>\nFound my North Texas girl<br/>\nhere in advance of me, and<br/>\nhave had a very pleasant<br/>\ntime.</p>\n<p>The exhibits, I think re-<br/>\nceived very little attention,<br/>\nI guess it was just as well<br/>\nthe college made none, tho'<br/>\nit might have shown well<br/>\nby contrast.</p>\n<p>I think this has been<br/>\nmore of a pleasure trip<br/>\nthan one of business, to<br/>\na great majority of the<br/>\nteachers. Next time they<br/>\nwill visit Austin.</p>\n<p>You will soon have<br/>\nthe Board with you<br/>\nagain, I sincerely hope<br/>\nthat whatever action</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/204",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Complete**\n\nOkay, here's what I've got. The task seems straightforward: transcribe this handwritten letter, and I've broken down my process. First, I had to analyze the image itself \u2013 the script, the condition of the paper (it's a bit aged with some fold lines), and the language (English, as expected). The biggest hurdle was the handwriting. I then went through it line by line.\n\nThe first line immediately snagged me: \"I reached Galv. considerably.\" It looked a little messy, a bit cursive. The first word in the location \"Galv.\" gave me pause. Was it really \"Galv\" as in Galveston? It kind of looked like \"Isalo\" at first glance, or \"Galo\" but the context (\"North Texas girl,\" \"visit Austin\") strongly suggested that \"Galv.\" was the correct interpretation, meaning Galveston. I had to look closely. The handwriting has a loop, a downstroke, another loop, and a small loop or dip at the end, so I went through it visually and semantically, trying to reconcile the actual letters with what I know. Given that, I decided to stick with \"Galv.\", assuming it was an abbreviation.\n\nAs I proceeded, \"The exhibits... received very little attention...\" caught my attention. Then the line with a word that looked like \"tho'\", which I determined was an informal \"though,\" with an apostrophe.\n\nAs I got further into it, \"Next time they will visit Austin\" required some close examination. The first part looked like \"Next tiche\" to me, but clearly the intended word was \"time.\" After I compared similar words and the handwriting style (specifically the \"m\" in the word \"time\"), it seemed like the writer may have been sloppy in forming it. Again, context wins out.\n\nI carefully considered the other text, noting capital letters (\"North Texas\", \"Austin\", \"Board\"), and punctuation (the apostrophe).\n\nThe final transcription is as follows:\n\n<p>I reached Galv, considerably<br/>\nthe worst for wear.<br/>\nFound my North Texas girl<br/>\nhere in advance of me, and<br/>\nhave had a very pleasant<br/>\ntime.</p>\n<p>The exhibits, I think re-<br/>\nceived very little attention,<br/>\nI guess it was just as well<br/>\nthe college made none, tho'<br/>\nit might have shown well<br/>\nby contrast.</p>\n<p>I think this has been<br/>\nmore of a pleasure trip<br/>\nthan one of business, to<br/>\na great majority of the<br/>\nteachers. Next time they<br/>\nwill visit Austin.</p>\n<p>You will soon have<br/>\nthe Board with you<br/>\nagain, I sincerely hope<br/>\nthat whatever action</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3139,
-            "width": 1916,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/192",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/191",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/9a04d916-be23-36e1-bf1a-b50f805e1644/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3139,
-                                "width": 1916,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9a04d916-be23-36e1-bf1a-b50f805e1644",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/206",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/205",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>they may take will be<br/>\nfor the best interests of<br/>\nthe college. I very much<br/>\nfear that the college will<br/>\nhave a rather hard time<br/>\nof it for some time.</p>\n<p>I have decided not to ap-<br/>\nply formally for Associate<br/>\nProf. Math. If, however, they<br/>\ndo not leave you Prof. Math<br/>\nand are willing to let me<br/>\ntry the work for a year<br/>\nI will undertake it, and<br/>\nwill do all in my power<br/>\nto do the work well.</p>\n<p>I have sent my books over<br/>\nto Huntsville, and shall<br/>\nbegin on the <i>first</i> to go<br/>\nover all the \"first class\"<br/>\nwork before Sept. If I get<br/>\nthrough in time, I ex<br/>\npect to take a flying</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/207",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Image Analysis and Transcription Process**\n\nOkay, here's what I'm thinking, as I dive into this task. The user wants me to transcribe text from a handwritten letter. I see it's cursive, likely penned or penciled. I've got to read carefully, especially since the script is a bit faded. It looks like a personal or professional letter, maybe discussing college stuff, a job application for Associate Professor of Math, and moving books to Huntsville.\n\nI'm starting line by line:\n\n*   **Line 1:** I see \"they may take will be.\" Context is important here \u2013 seems like it continues a previous thought.\n*   **Line 2:** \"for the best interests of\" \u2013 confirms the flow.\n*   **Line 3:** \"the college. I very much\" \u2013 noting that the 'o's look like 'a's or 'u's. The handwriting can be tricky.\n*   **Line 4:** \"fear that the college will\" \u2013 the word 'college' is a recurring challenge.\n*   **Line 5:** \"have a rather hard time\" \u2013 pretty clear.\n*   **Line 6:** \"of it for some time.\" \u2013 Ah, the little \"it\" is faint, but it's the correct idiom, so I'm putting it in. I'm focusing on \"of it for some time\".\n*   **Line 7:** \"I have decided not to ap-\" \u2013 standard language.\n*   **Line 8:** \"ply formally for Associate\" \u2013 making sure I get the capitalization right on \"Associate\".\n*   **Line 9:** \"Prof. Math. If, however, they\" \u2013 the abbreviation \"Prof.\" and \"Math.\" need to be accurate.\n*   **Line 10:** \"do not leave you Prof. Math\" \u2013 the meaning is slightly open, but the letters look like \"leave.\"\n*   **Line 11:** \"and are willing to let me\" \u2013 straightforward.\n*   **Line 12:** \"try the work for a year\" \u2013 standard sentence.\n*   **Line 13:** \"I will undertake it, and\" \u2013 also standard.\n*   **Line 14:** \"will do all in my power\" \u2013 making sure every word is there.\n*   **Line 15:** \"to do the work well.\" \u2013 standard language.\n*   **Line 16:** \"I have sent my books over\" \u2013 noting that \"sent\" could be \"sut\", but given context, it's definitely \"sent\".\n*   **Line 17:** \"to Huntsville, and shall\" \u2013 Huntsville, need to make sure I am writing it out correctly.\n*   **Line 18:** \"begin on the first to go\" \u2013 \"first\" is underlined.\n*   **Line 19:** \"over all the 'first class'\" \u2013 quotes around \"first class\" are important.\n*   **Line 20:** \"work before Sept. If I get\" \u2013 \"Sept.\" is an abbreviation.\n*   **Line 21:** \"through in time, I ex-\" \u2013 the writing ends abruptly. \"ex\" I guess.\n*   **Line 22:** \"pect to take a flying\" \u2013 ends the page.\n\nI'm double-checking those tricky words:\n\n*   **\"College\" (Line 3 & 4):** It's definitely \"college,\" even with the handwriting variations. I will transcribe based on readability. The context makes the intent clear.\n*   **\"Of it for...\" (Line 6):** I'm pretty sure that faint mark between \"of\" and \"for\" is a weak \"it\" given the idiom. I will include it.\n*   **\"Have\" (Line 7):** The 'e' looks like a scribbled 'r', but \"have\" is correct.\n*   **\"Sent\" (Line 16):** It could read \"sut\", but \"sent\" is the clear intent. I will transcribe to standard.\n*   **\"Class\" (Line 19):** Old-style 'ss' but it's \"class\".\n*   **\"Ex\" (Line 21):** The edge of the text is here.\n\nI'm thinking about punctuation: Periods, commas, the underline under \"first\", and the quotes around \"first class\".\n\nI'm using `<p>` for the paragraphs.\n\nOkay, let me start drafting this final response:\n\n```\n<p>they may take will be<br/>\nfor the best interests of<br/>\nthe college. I very much<br/>\nfear that the college will<br/>\nhave\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3139,
-            "width": 1916,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/194",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/193",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/20f90b2e-306e-31e9-94ea-c9f7e328aa17/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3139,
-                                "width": 1916,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/20f90b2e-306e-31e9-94ea-c9f7e328aa17",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/209",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/208",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Margin: trip to Ky]</p>\n<p>Should I find any stumps<br/>\nthat I cant uproot this<br/>\nsummer may I call on<br/>\nyou for some assistance<br/>\nI will try to get along<br/>\nwithout assistance<br/>\nas I think it will be better<br/>\nfor me to do my own work.</p>\n<p>Would you advise me to<br/>\nuse a key to the Mech. or<br/>\nnot. I think I can work<br/>\nany of these problems out<br/>\nif I take sufficient time;<br/>\nbut as I have so little time<br/>\nand so much<br/>\nthat I wish to do, I thought<br/>\nit might not pay to spend<br/>\nthe time on them, I<br/>\nmight do this time, as<br/>\nbefore, simply mark<br/>\nthem for <i>future con-</i><br/>\n<i>sideration</i>.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/210",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-362.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from R. Smith (), June 28, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-06-28"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from R. Smith (), June 28, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Educational institutions--Texas",
+          "Mathematics--Study and teaching",
+          "College administration",
+          "Teacher appointments",
+          "Academic conferences",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Smith, R."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "North Texas College"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from R. Smith to Professor Louis L. McInnis dated June 28, 1890, written from Galveston, Texas following an educational exhibition or conference. Smith discusses his travel difficulties, his decision regarding a potential Associate Professor position in Mathematics, and requests McInnis's advice on pedagogical matters, including whether to use a key to mechanical problems for his coursework preparation. The letter reflects uncertainties about the college's future and Smith's commitment to self-directed mathematical study before the September term."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/65cd8a94-4a2d-337a-9b04-f9cb76d20097/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3139,
+      "width": 1916,
+      "items": [
+        {
+          "id": "http://example.org/iiif/188",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/187",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/65cd8a94-4a2d-337a-9b04-f9cb76d20097/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3139,
+                "width": 1916,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/65cd8a94-4a2d-337a-9b04-f9cb76d20097",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/200",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/199",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Margin: V]</p>\n\n<p>Galveston, Texas<br/>\nJune 28, /90.</p>\n\n<p>Dear Prof. McInnis;<br/>\nI was sorry I did<br/>\nnot see you to bid you<br/>\ngood bye befor I left the<br/>\nCollege, but had to go to town<br/>\nthe day I left and it was<br/>\nquite late before I got<br/>\nback, so hadn't time to go<br/>\ndown to the house that<br/>\nnight.</p>\n\n<p>I didn't get things to rights<br/>\nand ready to leave until<br/>\n12 o'clock that night and<br/>\nfound the car crowded, so<br/>\nthat I could not get either<br/>\na sleeper or a seat, hence</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/201",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Verification**\n\nAlright, let's get down to it. I've got this handwritten letter in front of me, and my task is to provide a transcription, making sure it's accurate down to the smallest detail. My expertise is knowing what *should* be written, and what is *actually* written, so the task is to bridge those things, and create the most accurate transcript possible.\n\nFirst, I'm noting the details. In the top right, there's a mark - a \"V\", which I assume is some kind of filing notation. Then comes the header, \"Galveston, Texas / June 28, /90.\" - pretty clear, though I'm keeping a mental note of those potential quirks in the '90's. Next, the salutation: \"Dear Prof. McInnis;\". The 'M' looks right, the 'c' is small, 'Innis' seems legit.\n\nNow, into the body. Each line is getting a thorough look:\n\n*   \"I was sorry I did\" - straightforward.\n*   \"not see you to bid you\" - again, easy.\n*   \"good bye befor I left the\" - hold up! The word \"befor\" is throwing me a bit. It is *befor* in the image, so I'll write *befor*.\n*   \"College, but had to go to town\" - capital 'C' in College, as expected.\n*   \"the day I left and it was\" - good.\n*   \"quite late before I got\" - now the *before* has a clear 'e', see the difference in my handwriting analysis!\n*   \"back, so hadn't time to go\" - 'hadn't' - the apostrophe is implied, so I'll transcribe.\n*   \"down to the house that\" - okay.\n*   \"night.\" - good.\n*   \"I didn't get things to rights\" - \"rights\", as in, *to rights*, idiom.\n*   \"and ready to leave until\" - all good.\n*   \"12 o'clock that night and\" - here's where it gets interesting, that word after \"o'clock\" is messy. It looks like \"that\" written over something else. But I have checked this thoroughly! It's *that*.\n*   \"found the car crowded, so\" - okay.\n*   \"that I could not get either\" - good.\n*   \"a sleeper or a seat, hence\" - the word \"hence\" is a bit cut off. I'll include it as \"hence\" with the implied meaning.\n\nNow, let's format it. I'll maintain the line breaks, use `<p>` for paragraphs, and make sure that this transcription is clean and accessible. I'll insert any marginalia at the appropriate point.\n\nI've made sure to check for standard HTML tags. I'll provide an accurate text as requested. No extra formatting.\n\n```html\n<p>[Margin: V]</p>\n<p>Galveston, Texas<br/>\nJune 28, /90.</p>\n<p>Dear Prof. McInnis;<br/>\nI was sorry I did<br/>\nnot see you to bid you<br/>\ngood bye befor I left the<br/>\nCollege, but had to go to town<br/>\nthe day I left and it was<br/>\nquite late before I got<br/>\nback, so hadn't time to go<br/>\ndown to the house that<br/>\nnight.</p>\n<p>I didn't get things to rights<br/>\nand ready to leave until<br/>\n12 o'clock that night and<br/>\nfound the car crowded, so<br/>\nthat I could not get either<br/>\na sleeper or a seat, hence</p>\n```\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3139,
+      "width": 1916,
+      "items": [
+        {
+          "id": "http://example.org/iiif/190",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/189",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/be26869d-5535-3acd-986c-0d7f502cd431/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3139,
+                "width": 1916,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/be26869d-5535-3acd-986c-0d7f502cd431",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/203",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/202",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>I reached Galv, considerably<br/>\nthe worst for wear.<br/>\nFound my North Texas girl<br/>\nhere in advance of me, and<br/>\nhave had a very pleasant<br/>\ntime.</p>\n<p>The exhibits, I think re-<br/>\nceived very little attention,<br/>\nI guess it was just as well<br/>\nthe college made none, tho'<br/>\nit might have shown well<br/>\nby contrast.</p>\n<p>I think this has been<br/>\nmore of a pleasure trip<br/>\nthan one of business, to<br/>\na great majority of the<br/>\nteachers. Next time they<br/>\nwill visit Austin.</p>\n<p>You will soon have<br/>\nthe Board with you<br/>\nagain, I sincerely hope<br/>\nthat whatever action</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/204",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Complete**\n\nOkay, here's what I've got. The task seems straightforward: transcribe this handwritten letter, and I've broken down my process. First, I had to analyze the image itself – the script, the condition of the paper (it's a bit aged with some fold lines), and the language (English, as expected). The biggest hurdle was the handwriting. I then went through it line by line.\n\nThe first line immediately snagged me: \"I reached Galv. considerably.\" It looked a little messy, a bit cursive. The first word in the location \"Galv.\" gave me pause. Was it really \"Galv\" as in Galveston? It kind of looked like \"Isalo\" at first glance, or \"Galo\" but the context (\"North Texas girl,\" \"visit Austin\") strongly suggested that \"Galv.\" was the correct interpretation, meaning Galveston. I had to look closely. The handwriting has a loop, a downstroke, another loop, and a small loop or dip at the end, so I went through it visually and semantically, trying to reconcile the actual letters with what I know. Given that, I decided to stick with \"Galv.\", assuming it was an abbreviation.\n\nAs I proceeded, \"The exhibits... received very little attention...\" caught my attention. Then the line with a word that looked like \"tho'\", which I determined was an informal \"though,\" with an apostrophe.\n\nAs I got further into it, \"Next time they will visit Austin\" required some close examination. The first part looked like \"Next tiche\" to me, but clearly the intended word was \"time.\" After I compared similar words and the handwriting style (specifically the \"m\" in the word \"time\"), it seemed like the writer may have been sloppy in forming it. Again, context wins out.\n\nI carefully considered the other text, noting capital letters (\"North Texas\", \"Austin\", \"Board\"), and punctuation (the apostrophe).\n\nThe final transcription is as follows:\n\n<p>I reached Galv, considerably<br/>\nthe worst for wear.<br/>\nFound my North Texas girl<br/>\nhere in advance of me, and<br/>\nhave had a very pleasant<br/>\ntime.</p>\n<p>The exhibits, I think re-<br/>\nceived very little attention,<br/>\nI guess it was just as well<br/>\nthe college made none, tho'<br/>\nit might have shown well<br/>\nby contrast.</p>\n<p>I think this has been<br/>\nmore of a pleasure trip<br/>\nthan one of business, to<br/>\na great majority of the<br/>\nteachers. Next time they<br/>\nwill visit Austin.</p>\n<p>You will soon have<br/>\nthe Board with you<br/>\nagain, I sincerely hope<br/>\nthat whatever action</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3139,
+      "width": 1916,
+      "items": [
+        {
+          "id": "http://example.org/iiif/192",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/191",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/9a04d916-be23-36e1-bf1a-b50f805e1644/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3139,
+                "width": 1916,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/9a04d916-be23-36e1-bf1a-b50f805e1644",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/206",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/205",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>they may take will be<br/>\nfor the best interests of<br/>\nthe college. I very much<br/>\nfear that the college will<br/>\nhave a rather hard time<br/>\nof it for some time.</p>\n<p>I have decided not to ap-<br/>\nply formally for Associate<br/>\nProf. Math. If, however, they<br/>\ndo not leave you Prof. Math<br/>\nand are willing to let me<br/>\ntry the work for a year<br/>\nI will undertake it, and<br/>\nwill do all in my power<br/>\nto do the work well.</p>\n<p>I have sent my books over<br/>\nto Huntsville, and shall<br/>\nbegin on the <i>first</i> to go<br/>\nover all the \"first class\"<br/>\nwork before Sept. If I get<br/>\nthrough in time, I ex<br/>\npect to take a flying</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/207",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Image Analysis and Transcription Process**\n\nOkay, here's what I'm thinking, as I dive into this task. The user wants me to transcribe text from a handwritten letter. I see it's cursive, likely penned or penciled. I've got to read carefully, especially since the script is a bit faded. It looks like a personal or professional letter, maybe discussing college stuff, a job application for Associate Professor of Math, and moving books to Huntsville.\n\nI'm starting line by line:\n\n*   **Line 1:** I see \"they may take will be.\" Context is important here – seems like it continues a previous thought.\n*   **Line 2:** \"for the best interests of\" – confirms the flow.\n*   **Line 3:** \"the college. I very much\" – noting that the 'o's look like 'a's or 'u's. The handwriting can be tricky.\n*   **Line 4:** \"fear that the college will\" – the word 'college' is a recurring challenge.\n*   **Line 5:** \"have a rather hard time\" – pretty clear.\n*   **Line 6:** \"of it for some time.\" – Ah, the little \"it\" is faint, but it's the correct idiom, so I'm putting it in. I'm focusing on \"of it for some time\".\n*   **Line 7:** \"I have decided not to ap-\" – standard language.\n*   **Line 8:** \"ply formally for Associate\" – making sure I get the capitalization right on \"Associate\".\n*   **Line 9:** \"Prof. Math. If, however, they\" – the abbreviation \"Prof.\" and \"Math.\" need to be accurate.\n*   **Line 10:** \"do not leave you Prof. Math\" – the meaning is slightly open, but the letters look like \"leave.\"\n*   **Line 11:** \"and are willing to let me\" – straightforward.\n*   **Line 12:** \"try the work for a year\" – standard sentence.\n*   **Line 13:** \"I will undertake it, and\" – also standard.\n*   **Line 14:** \"will do all in my power\" – making sure every word is there.\n*   **Line 15:** \"to do the work well.\" – standard language.\n*   **Line 16:** \"I have sent my books over\" – noting that \"sent\" could be \"sut\", but given context, it's definitely \"sent\".\n*   **Line 17:** \"to Huntsville, and shall\" – Huntsville, need to make sure I am writing it out correctly.\n*   **Line 18:** \"begin on the first to go\" – \"first\" is underlined.\n*   **Line 19:** \"over all the 'first class'\" – quotes around \"first class\" are important.\n*   **Line 20:** \"work before Sept. If I get\" – \"Sept.\" is an abbreviation.\n*   **Line 21:** \"through in time, I ex-\" – the writing ends abruptly. \"ex\" I guess.\n*   **Line 22:** \"pect to take a flying\" – ends the page.\n\nI'm double-checking those tricky words:\n\n*   **\"College\" (Line 3 & 4):** It's definitely \"college,\" even with the handwriting variations. I will transcribe based on readability. The context makes the intent clear.\n*   **\"Of it for...\" (Line 6):** I'm pretty sure that faint mark between \"of\" and \"for\" is a weak \"it\" given the idiom. I will include it.\n*   **\"Have\" (Line 7):** The 'e' looks like a scribbled 'r', but \"have\" is correct.\n*   **\"Sent\" (Line 16):** It could read \"sut\", but \"sent\" is the clear intent. I will transcribe to standard.\n*   **\"Class\" (Line 19):** Old-style 'ss' but it's \"class\".\n*   **\"Ex\" (Line 21):** The edge of the text is here.\n\nI'm thinking about punctuation: Periods, commas, the underline under \"first\", and the quotes around \"first class\".\n\nI'm using `<p>` for the paragraphs.\n\nOkay, let me start drafting this final response:\n\n```\n<p>they may take will be<br/>\nfor the best interests of<br/>\nthe college. I very much<br/>\nfear that the college will<br/>\nhave\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3139,
+      "width": 1916,
+      "items": [
+        {
+          "id": "http://example.org/iiif/194",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/193",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/20f90b2e-306e-31e9-94ea-c9f7e328aa17/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3139,
+                "width": 1916,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/20f90b2e-306e-31e9-94ea-c9f7e328aa17",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/209",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/208",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Margin: trip to Ky]</p>\n<p>Should I find any stumps<br/>\nthat I cant uproot this<br/>\nsummer may I call on<br/>\nyou for some assistance<br/>\nI will try to get along<br/>\nwithout assistance<br/>\nas I think it will be better<br/>\nfor me to do my own work.</p>\n<p>Would you advise me to<br/>\nuse a key to the Mech. or<br/>\nnot. I think I can work<br/>\nany of these problems out<br/>\nif I take sufficient time;<br/>\nbut as I have so little time<br/>\nand so much<br/>\nthat I wish to do, I thought<br/>\nit might not pay to spend<br/>\nthe time on them, I<br/>\nmight do this time, as<br/>\nbefore, simply mark<br/>\nthem for <i>future con-</i><br/>\n<i>sideration</i>.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/210",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/362/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

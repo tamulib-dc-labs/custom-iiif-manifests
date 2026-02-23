@@ -1,139 +1,184 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-132.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. W. Walters (), December 7, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-12-07"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. W. Walters (), December 7, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/1c4e3412-64a0-3bf9-9a17-cf33663ae428/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3953,
-            "width": 3147,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/182",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/181",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/1c4e3412-64a0-3bf9-9a17-cf33663ae428/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3953,
-                                "width": 3147,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/1c4e3412-64a0-3bf9-9a17-cf33663ae428",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/185",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/184",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Kerens Dec 7 1885.</p>\n\n<p>Prof of Mathematics<br>\nA & M College, Bryan.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sir,</p>\n\n<p>Please Solve<br>\nthis problem for us. &ndash; Take a<br>\ncow & calf in Jan 1880 Suppose<br>\nall offspring heifers, and breed at<br>\ntwo years of age in how many<br>\nyears would they amount to one<br>\nthousand allowing nothing in<br>\ndiscount for death &c</p>\n\n<p>Yours &c<br>\nJ W Waters et. al.</p>\n\n<p>P.S. Send Solution</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/186",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Transcription Process**\n\nOkay, here's the deal. I've got this handwritten letter in front of me, and my job is to get a clean transcription. First thing's first: the image analysis. I'm focusing on those key details.\n\nThe top right corner is the usual spot for the date and location. At first, it's a little fuzzy, could be 1888 or 1885, I do a *lot* of comparing the digits. I look at other numbers in the letter for reference, particularly the \"0\" in 1880, and the \"8\"s and \"5\"s. After close examination and some back and forth, I land on \"Dec 7 1885\" for the date, and \"Kerens\" is the location. The A&M connection makes sense with the college in Bryan, Texas, and checking online confirms Kerens, TX as a location.\n\nThe addressee is clearly \"Prof of Mathematics / A & M College, Bryan.\" Standard salutation is \"Sir,\" indented.\n\nThe body of the letter: \"Please Solve...\". It's a problem, some kind of mathematical puzzle about cows and calves breeding, how many years, what is the impact of death, etc. The language is old-fashioned but clear. I double-check the abbreviations. \"&c\" means \"etcetera\", and it's used in the closing.\n\nThe signature is \"J W Waters et. al.\". It has a bit of flourish, and I carefully confirm the letters. I look carefully for the signature, and I confirm the letters \"J W Waters\". It has a clearly written 'W'. And then I check \"et. al.\". This is standard for \"and others\".\n\nThere is a PostScript: \"P.S. Send Solution\". The handwriting is neat.\n\nI then go back and analyze the text closely. I focus on specific words that are a little tricky. I check the town and the date again. I look at the \"Mathematics\" and \"Thousand\".\n\nI then think about formatting. I can't use complex styling, like underlining or aligning text using HTML attributes. I make sure to put the line breaks in to mirror the handwritten letter. So the structure is: Date, Address, Salutation, Body, Signature, and Postscript.\n\nI check it again, and I confirm that the formatting is solid. I double check line breaks. I confirm that the spacing makes sense, and I check individual letters. I confirm the date again, and the structure. It all looks right. I am finally confident in the transcription!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-132.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. W. Walters (), December 7, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-12-07"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. W. Walters (), December 7, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Mathematics--Problems, exercises, etc.",
+          "Cattle--Breeding",
+          "Agricultural education",
+          "Mathematical recreations"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Walters, J. W."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Agricultural and Mechanical College of Texas"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from J. W. Walters and colleagues to Louis L. McInnis, a professor of mathematics at Agricultural and Mechanical College in Bryan, requesting a mathematical solution to a livestock breeding problem. The problem asks how many years it would take for a single cow and calf to multiply to one thousand animals, given that all offspring are heifers and breed at two years of age. This document reflects late nineteenth-century agricultural education and the use of practical farming scenarios as mathematical exercises."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/1c4e3412-64a0-3bf9-9a17-cf33663ae428/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3953,
+      "width": 3147,
+      "items": [
+        {
+          "id": "http://example.org/iiif/182",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/181",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/1c4e3412-64a0-3bf9-9a17-cf33663ae428/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3953,
+                "width": 3147,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/1c4e3412-64a0-3bf9-9a17-cf33663ae428",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/185",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/184",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Kerens Dec 7 1885.</p>\n\n<p>Prof of Mathematics<br>\nA & M College, Bryan.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sir,</p>\n\n<p>Please Solve<br>\nthis problem for us. &ndash; Take a<br>\ncow & calf in Jan 1880 Suppose<br>\nall offspring heifers, and breed at<br>\ntwo years of age in how many<br>\nyears would they amount to one<br>\nthousand allowing nothing in<br>\ndiscount for death &c</p>\n\n<p>Yours &c<br>\nJ W Waters et. al.</p>\n\n<p>P.S. Send Solution</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/186",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Transcription Process**\n\nOkay, here's the deal. I've got this handwritten letter in front of me, and my job is to get a clean transcription. First thing's first: the image analysis. I'm focusing on those key details.\n\nThe top right corner is the usual spot for the date and location. At first, it's a little fuzzy, could be 1888 or 1885, I do a *lot* of comparing the digits. I look at other numbers in the letter for reference, particularly the \"0\" in 1880, and the \"8\"s and \"5\"s. After close examination and some back and forth, I land on \"Dec 7 1885\" for the date, and \"Kerens\" is the location. The A&M connection makes sense with the college in Bryan, Texas, and checking online confirms Kerens, TX as a location.\n\nThe addressee is clearly \"Prof of Mathematics / A & M College, Bryan.\" Standard salutation is \"Sir,\" indented.\n\nThe body of the letter: \"Please Solve...\". It's a problem, some kind of mathematical puzzle about cows and calves breeding, how many years, what is the impact of death, etc. The language is old-fashioned but clear. I double-check the abbreviations. \"&c\" means \"etcetera\", and it's used in the closing.\n\nThe signature is \"J W Waters et. al.\". It has a bit of flourish, and I carefully confirm the letters. I look carefully for the signature, and I confirm the letters \"J W Waters\". It has a clearly written 'W'. And then I check \"et. al.\". This is standard for \"and others\".\n\nThere is a PostScript: \"P.S. Send Solution\". The handwriting is neat.\n\nI then go back and analyze the text closely. I focus on specific words that are a little tricky. I check the town and the date again. I look at the \"Mathematics\" and \"Thousand\".\n\nI then think about formatting. I can't use complex styling, like underlining or aligning text using HTML attributes. I make sure to put the line breaks in to mirror the handwritten letter. So the structure is: Date, Address, Salutation, Body, Signature, and Postscript.\n\nI check it again, and I confirm that the formatting is solid. I double check line breaks. I confirm that the spacing makes sense, and I check individual letters. I confirm the date again, and the structure. It all looks right. I am finally confident in the transcription!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/132/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

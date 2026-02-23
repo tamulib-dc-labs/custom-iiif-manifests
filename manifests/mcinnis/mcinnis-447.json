@@ -1,482 +1,529 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-447.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Reasons why A & M College of Texas is more expensive than A & M College of Mississippi (MSU), circa 1891-1892"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Reasons why A & M College of Texas is more expensive than A & M College of Mississippi (MSU), circa 1891-1892"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 8 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/33ab7e09-8964-3d10-a941-c0670a77e72f/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 2710,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/33ab7e09-8964-3d10-a941-c0670a77e72f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2710,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/33ab7e09-8964-3d10-a941-c0670a77e72f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Margin: [ca. 1891-92]] [Margin: College]</p>\n<p>Reasons why A & m of Texas<br>\nis more expensive to its patrons<br>\nthan A & m of Miss - &<br>\nWhy it is not a success<br>\nin its agricultural Dept -</p>\n<p>1<sup>st</sup> The A & m of Miss has for<br>\nits President a man<br>\nwho devotes his whole<br>\ntime to his duties - who<br>\nis really President & as-<br>\nsumes the responsibilities<br>\nof that office - who studies<br>\nadvanced methods in<br>\nAgri Education & keeps<br>\nabreast of the times -<br>\nHe is not a retired</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Okay, here's my thought process for this transcription, step-by-step:**\n\nFirst, I need to understand the task. I'm acting as a professional transcriptionist, and my job is to convert the image's text into a digital format.  I'm focusing on the *text* itself, keeping it as is, spelling and punctuation and all. The instructions are to read it top-to-bottom, use certain HTML tags, mark uncertainties with `[?]`, and note any marginalia, structural elements like headers, and use Markdown for tables. The catch is *only* the transcription; no extra commentary.\n\nNext, I need to analyze the image itself. It's handwritten \u2013 likely a letter or notes. The script is cursive, looks like late 19th-century style. The text compares the cost and perceived success of A & M of Texas to A & M of Mississippi, and gives the reasons. There are annotations at the top: \"[ca. 1891-92]\" and \"College\", which I must include somehow.\n\nNow, for the actual transcription: First, the marginalia. I'll treat these annotations as marginalia or a header. I'll start with those. Then, for the body text, I'll transcribe each line. I will use the HTML tags specified.\n\nAs I work, I'm constantly checking and refining. I'll go back and revisit ambiguous parts. For instance, the \"A & M\" is consistent, even though the 'm' is written like a small one. I'll be meticulously checking each line, comparing individual letters to make sure they're consistent across the whole document.\n\nFormatting will be very important. I will be sure to use HTML to preserve line breaks exactly and make it readable. And use <sup> for the superscript \"st\".\n\nThe final stage is polish. I check every single letter, word, and punctuation mark. I double-check ambiguous parts, like \"A & m\", \"abreast\", and \"retired.\" I will pay very close attention to making sure I've used appropriate tags, especially at the beginning and the end. I will make sure the structural formatting is all valid HTML.\n\nI will also make sure the HTML is valid and that the linebreaks are as expected. I will verify that `<sup>` is correct. I have to make sure \"A & m\" is consistent, and the \"st\" is superscript. And the formatting with the correct tags.\n\nI will check the guidelines again. The [ca. 1891-92] is really marginalia at the top. The guidelines are to \"insert it at the logically closest point\". I will insert it, then transcribe the rest of the text.\n\nI will make sure the linebreaks are right in the output. The guidelines state to \"Preserve original line breaks.\" The marginalia is pencil, the rest is ink. All the notes are in pencil.\nI will double check \"1st\" with the superscript.\n\nI'm ready to render the final transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 2710,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/21069750-1524-36da-9e5e-e0791d174aeb/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2710,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/21069750-1524-36da-9e5e-e0791d174aeb",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Ca. 1891-92]\npolitician enjoying a\nsinecure conferred by\nhis own appointees -\nHe is an educated man\n& an educator and\nis in <u>fact</u> as well as\nname the President of\nthe College -\n\n2nd The Board of <sup>Trustees</sup> [Directors crossed out]\nof the adm of Mings.\nare gentlemen of edu-\ncation & take great in-\nterest in the true welfare\nof the institution.\nThey do not meet with\nthe principal object to</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Okay, let's break down this transcription. First, I need to analyze the image itself. Based on the handwriting \u2013 cursive, somewhat loose, and with that \"Ca. 1891-92\" annotation \u2013 it's likely from the late 19th or early 20th century. The content seems to be a letter or report, mentioning a \"politician,\" a \"Board of Trustees/Directors,\" and a \"College\" or \"Institution.\" The ink appears light, possibly pencil or a faded ink, and the paper is lined and folded.**\n\n**Now, let's go line-by-line, which is where things get interesting and where I will have to be exact:**\n\n*   **Top Margin:** I see \"[Ca. 1891-92]\" written in what looks like a different hand or perhaps added as an annotation.\n*   **Line 1:** The line starts with \"politician enjoying a.\"\n*   **Line 2:** This is the tricky one. It says \"sinecure conferred by.\" The word is clearly \"sinecure,\" and \"conferred\" is a bit messy but legible (\"c-o-n-f-e-r-r-e-d\").\n*   **Line 3:** The text continues, \"his own appointees -\".\n*   **Line 4:** It states, \"He is an educated man\".\n*   **Line 5:** It continues as \"& an educator and\" (the ampersand looking like a plus sign or cross).\n*   **Line 6:** \"is in *fact* as well as\" (The word \"fact\" is underlined).\n*   **Line 7:** And the text continues as \"name the President of\"\n*   **Line 8:** This finishes the sentence by saying \"the College -\"\n\n**Now there is a Paragraph Break.**\n\n*   **Line 9:** Okay, here's where it gets complex. The line starts with \"2nd The Board of\". Then there seems to be a correction. Initially, I saw something that looked like \"Directors\" that's been crossed out and above it, \"Trustees\" is written. I should represent this accurately. So there is a strike-through after \"Board of\", and, above this, is \"[Trustees]\". The line ends with, \"of the [something] of [something]\".\n    *   **Line 10:** The previous line leaves us with a line beginning with \"of\". Following this, I am now trying to decipher what I can: The letters look like \"adm\". Then I come to the second set of [something]. There are a few different possibilities that I have considered.\n    *   I'll keep a careful eye on letter shapes to decipher what is written. I considered \"Univ\" but it doesn't look like that. I am seeing \"adm\" and \"[Mings.]\". I will return to this, but for now, the letters are \"a-d-m\" and \"[Mings]\".\n*   I can see \"adm of Mings\", but I'm not sure of the second word. I need to make some progress with context clues.\n*   **Line 11:** The line starts with \"are gentlemen of edu-\".\n    *   I'll return to the previous line soon.\n*   **Line 12:** And the sentence continues with \"cation & take great in-\" (The ampersand looks like a plus sign).\n*   **Line 13:** The next line says, \"terest in the true welfare\".\n*   **Line 14:** And continues, \"of the institution.\"\n*   **Line 15:** \"They do not meet with\"\n*   **Line 16:** And finally, \"the principal object to\".\n\n**Now, going back to my previous line of thinking, to finish the transcription, I must fill in the blanks, starting with \"of the adm of Mings.\" Let's look again at Line 10**\n\n*   **Going Back**: I've considered many options. It could be \"University of Miss,\" but \"adm\" doesn't look like \"Univ\". I've thought of other possibilities like \"Asylum,\" \"Assn\" or \"Administration.\" Considering the historical context, the date \"Ca. 1891-92,\" and the mention of a politician, \"Board of Trustees,\" and \"College,\" I'm leaning towards \"Administration\" for \"adm.\" Now, the word after \"of the adm\", is \"Mings\".\n*   **Letter Shape Analysis**: The word \"Mings\", and the word shape: M, I, N, G, S, can be seen, but let me also consider some other potential interpretations of\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 2710,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/49f4cc0f-edc9-369e-99c6-f9668049b590/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2710,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/49f4cc0f-edc9-369e-99c6-f9668049b590",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/26",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/25",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header] [Ca. 1891-92]</p>\n\n<p>vent some private spleen<br/>\non members of the Faculty<br/>\nor to confer special<br/>\nfavors upon pets<br/>\nand relatives \u2013 They<br/>\nare sober earnest &<br/>\njust gentlemen seeking<br/>\nfirst of all to promote<br/>\nthe welfare of the A & M \u2013</p>\n\n<p>3<sup>rd</sup> The Board of Miss<br/>\nA & M employ a man<br/>\nas steward at a moderate<br/>\nsalary & without per-<br/>\nquisites & confine him<br/>\nto his duties that is to<br/>\nlooking after the proper</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/27",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Transcription Process**\n\nOkay, here's the transcription. I've taken a close look at this handwritten document. First, I analyzed the overall style \u2013 it's a flowing cursive, typical of the late 19th century. The content points to university or institutional matters, possibly a draft of a letter or report. I noted the pencil annotations, including the \"Ca. 1891-92\" at the top which I'll treat as a header. I've gone line by line, carefully transcribing each word, paying close attention to unclear letters or symbols. For example, I had to decide how to handle the \"and\" symbol \u2013 it looks like a plus sign but I will transcribe it as \"&\" for clarity. I paid careful attention to line endings and word shapes. Also I needed to confirm a few abbreviations, like \"A & M,\" which I'm confident refers to the Agricultural and Mechanical College. The final word on line 17 I also had to resolve; it looks like \"proper\" based on the handwriting, as there were several possible words to fit in its place. I have used HTML for formatting as per the guidelines, which should correctly display this transcription.\n\nHere's the final output:\n\n<p>[Header] [Ca. 1891-92]</p>\n<p>vent some private spleen<br/>\non members of the Faculty<br/>\nor to confer special<br/>\nfavors upon pets<br/>\nand relatives \u2013 They<br/>\nare sober earnest &<br/>\njust gentlemen seeking<br/>\nfirst of all to promote<br/>\nthe welfare of the A & M \u2013</p>\n<p>3<sup>rd</sup> The Board of Miss<br/>\nA & M employ a man<br/>\nas steward at a moderate<br/>\nsalary & without per-<br/>\nquisites & confine him<br/>\nto his duties that is to<br/>\nlooking after the proper</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 2710,
-            "width": 2333,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ec936893-6cd6-3821-8dbd-e28f97d7fd4b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2710,
-                                "width": 2333,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ec936893-6cd6-3821-8dbd-e28f97d7fd4b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/29",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/28",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\n[Header: [ca. 1891-92]]<br>\nx economi<i>cal</i> maintenanc[e]<br>\nof the students -<br>\nIn Texas a Steward<br>\nis employed at a<br>\nSalary + perquisites<br>\ngreater than that given<br>\nto the Governor of the<br>\nState. He is the con-<br>\nfidential adviser of<br>\nthe Board, and his duties<br>\nin this capacity are so<br>\ngreat that he has little<br>\ntime left to give to the<br>\nless important duties<br>\nof looking after the<br>\neconomical admin-<br>\nistration of the mess Hall\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/30",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Transcription Thoughts**\n\nOkay, here's my final breakdown of this document transcription. My primary focus is on accuracy while adhering strictly to the guidelines, especially the IIIF v3 HTML constraints and the mandate to preserve all text exactly as it appears, even crossed-out sections. I start by confirming the task: transcribe text from an image, focusing on reading order, accuracy (spelling, punctuation, capitalization, line breaks), dealing with uncertain handwriting or illegible parts, maintaining paragraph structure, and handling non-text elements within the permitted HTML tags. I'm keeping a close eye on avoiding any autocorrect or editorial input, sticking purely to transcription.\n\nFirst, I examine the image itself. I've noted it looks like a handwritten document, potentially a draft or a note. The handwriting is cursive and appears somewhat hurried. There are cross-outs and insertions, and a bracketed date at the top, likely added later. I need to make sure I include all of the characters in the transcribed text. The content seems to deal with \"economical maintenance,\" students, a \"Steward,\" \"salary,\" \"perquisites,\" and concepts related to a state's governance.\n\nNow, I'm going line by line. I start by getting the marginal date annotation correct. I then transcribe each word. The prompt specifically asks that all the text is transcribed even if it is crossed out, which means even words that aren't legible must be transcribed, or represented by a marker like [?]. I've noted details such as the underlining of \"cal\" in \"economical,\" which I'll render with an <i> tag. I'm noting any corrections, like when \"greater\" looks like it has been written over something, but I'll write the final visible character. I'm giving special attention to ambiguous symbols like the plus sign or potential ampersands, confirming that I'm representing it as the visual symbol, not interpreting it as its meaning. I'm checking the edges of words where text is cut off or the handwriting trails into a squiggle or a pen lift, adding markers for clarity. I'm meticulously recording instances of strikethrough text. Since strikethrough tags are not permitted by the IIIF v3 constraint, I must render all the words. This includes the major strikethroughs which indicate large deletions or editorial changes. The prompt says I must transcribe all text.\n\nThe core of the process has been repeated re-readings of each line. Each word has been rechecked in the image. I have also re-checked the IIIF rules again in light of the specific instructions. The challenge here is to strike a balance between a literal transcription and preserving the intent (as far as possible) within the constraints.\n\nFinally, I draft the entire transcription within the guidelines, using HTML tags only when permitted. I check for any formatting nuances, such as whether a word is lowercase or uppercase and fix it in the text. I make sure to include brackets around text or symbols where needed. I double-check the placement of the header to ensure it aligns with the instructions. I use line breaks for line breaks and `<p>` tags for paragraph structure. Finally, I confirm the rendering and the layout match the request and the instructions. I confirm that all words have been transcribed. All crossed-out words are present, and formatting rules are preserved. I re-read the instructions before producing the final text. I am ready to generate the output, which will be the transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 4"
-                ]
-            },
-            "height": 2710,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/10",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/57db5b13-f55c-36e4-b9c1-fb8332c6d777/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2710,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/57db5b13-f55c-36e4-b9c1-fb8332c6d777",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/32",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/31",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\n4<sup>th</sup> Miss a & m College<br/>\ndevotes special atten-<br/>\ntion to agriculture<br/>\nand has a native as<br/>\nits Professor While<br/>\nin Texas the object<br/>\nis to make the agl<br/>\nDept a minimum<br/>\n& therefore the head is<br/>\nan importation whose<br/>\ngreatest success is<br/>\nin spending money<br/>\nappropriated by the State<br/>\nto support the farm.<br/>\nIn Miss the farm is<br/>\na source of revenue\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4"
-                        },
-                        {
-                            "id": "http://example.org/iiif/33",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of Handwritten Text**\n\nAlright, let's break this down. My goal is to get a clean transcription of this handwritten note, paying close attention to every detail of the script and its context. The handwriting is a bit loose, cursive, and I suspect it's either pencil or light ink, based on the evenness. The content seems to be about agricultural colleges, comparing Mississippi A&M to Texas, which is a fascinating topic!\n\nFirst, the heading - \"4th Miss a & m College.\" The \"4th\" is clear enough, and the rest looks like \"Miss a & m College\". Initially, I was thrown by the middle symbol because it doesn't quite look like a clean \"&\" or \"and\", and in context of agriculture I thought it might be \"Agm\". But on closer examination, it's most likely a scribbled ampersand or a plus sign between the 'a' and 'm'. The capitalizations have to be respected. The 'a' and 'm' are lowercase, while the others are capital letters. After reviewing the text again, \"a & m\" is a more accurate representation. So, \"4<sup>th</sup> Miss a & m College\" it is!\n\nLine 2: \"devotes special atten-\". Easy enough to read.\n\nLine 3: \"tion to agriculture\" - clear.\n\nLine 4: \"and has a native as\" - standard.\n\nLine 5: \"its Professor While\" - Straightforward, although the \"While\" starts with a capital 'W'. \"Professor\" is also Capitalized.\n\nLine 6: \"in Texas the object\" - also clear.\n\nLine 7: \"is to make the agl\" - This is where it gets a little interesting. The word \"agl\" or \"Ag'l\" is abbreviated, as the 'g' has a descender loop. The context suggests \"Agricultural.\" We know the abbreviation from previous discussions. I'll stick to 'agl', preserving the lowercase.\n\nLine 8: \"Dept a minimum\" - The word \"Dept\" is faint but readable. \"minimum\" is a bit messy. The letters are all there though, m-i-n-i-m-u-m. Despite the handwriting's waviness, \"minimum\" makes the most sense.\n\nLine 9: \"& therefore the head is\" - Standard.\n\nLine 10: \"an importation whose\" - also clear.\n\nLine 11: \"greatest success is\" - Easy.\n\nLine 12: \"in spending money\" - Clear.\n\nLine 13: \"appropriated by the State\" - All the words are distinct.\n\nLine 14: \"to support the farm.\" - The text is \"to support the farm.\" The word \"farm\" seems to be underlined (though the underlines are not supported in output so it will be just transcribed as is).\n\nLine 15: \"In Miss the farm is\" - \"Miss\" is capitalized here, as is \"In\".\n\nLine 16: \"a source of revenue\" - Final line is clear.\n\nOne detail: Line 1 \"Miss atm\" vs \"Miss a & m\". The connection between 'a' and 'm' is a horizontal cross stroke. It looks like a 't'. \"atm\". But \"atm\" makes zero sense. \"A & M\" makes 100% sense. The cross stroke is likely a quick ampersand or plus sign. I will transcribe \"a & m\".\n\nThe final result is:\n<p>\n4<sup>th</sup> Miss a & m College<br/>\ndevotes special atten-<br/>\ntion to agriculture<br/>\nand has a native as<br/>\nits Professor While<br/>\nin Texas the object<br/>\nis to make the agl<br/>\nDept a minimum<br/>\n& therefore the head is<br/>\nan importation whose<br/>\ngreatest success is<br/>\nin spending money<br/>\nappropriated by the State<br/>\nto support the farm.<br/>\nIn Miss the farm is<br/>\na source of revenue\n</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 5"
-                ]
-            },
-            "height": 2710,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/12",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/11",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/0c4dea2a-01e9-3a6a-91bd-8f9edff2b85c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2710,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0c4dea2a-01e9-3a6a-91bd-8f9edff2b85c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/35",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/34",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>in Texas <sup><small>[ca. 1891-92]</small></sup> it is a con-<br/>\nstant Charge on the State<br/>\nCosting Thousands of<br/>\ndollars \u2014</p>\n\n<p>There are many other<br/>\nreasons which might<br/>\nbe assigned in answer<br/>\nto Mr Roberts but they<br/>\nall are consequent<br/>\non these before mentioned<br/>\nIf these evils are cor-<br/>\nrected the correction<br/>\nof the extravagant<br/>\nexpenditure of money<br/>\n&c will follow</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5"
-                        },
-                        {
-                            "id": "http://example.org/iiif/36",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. My primary task here is to accurately transcribe a handwritten document, paying close attention to every nuance of the script and context. This document, whatever its purpose, is obviously a critical piece of information that someone needs in a digital format.\n\nFirst, I examined the document and identified three distinct sections. The top section deals with the situation \"in Texas [ca. 1891-92]\" and references a \"con-\", followed by a \"stant Charge on the State.\" I immediately noticed the inserted date \"[ca. 1891-92]\" written above \"Texas\". It seems to be an annotation, potentially by an archivist, so I'll include it. The document continues about a charge to the state and the cost involved.\n\nThe middle section delves into other potential \"reasons which might be assigned in answer to Mr Roberts.\" The key here is the word after \"in.\" While the handwriting is a bit messy, after careful consideration of the loops and context, I'm confident it's \"answer\" \u2013 meaning \"in response to Mr. Roberts.\"\n\nThe bottom section outlines a series of actions based on \"these evils are cor-rected.\" The final words are \"&c will follow\". It's a standard list-closing \"and so forth\" type phrase.\n\nThroughout, I need to make the best possible determination of each word in the original. While it is tempting to make a perfect presentation, the directions are specific that I should maintain the layout, and transcript the meaning accurately, even if the formatting is unconventional.\n\nI've taken a granular look at each line, specifically at words like \"answer\" (line 7), \"evils\" (line 11), and the symbol in the final line (\"&c\" vs. \"etc\"). I've also verified \"before mentioned\" and \"consequent\" to make sure I'm capturing their intended meaning. The punctuation \u2013 or lack thereof \u2013 is also critical and to be accurately preserved. The style of the handwriting seems to be a cursive format.\n\nI've created an HTML structure, to accurately capture line breaks using `<br/>` and the annotation using a `<sup>`. I'll also use `<p>` tags for paragraphs.\n\nWith all of this in mind, here is my final, accurate and fulsome transcription of the document.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-447.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Reasons why A & M College of Texas is more expensive than A & M College of Mississippi (MSU), circa 1891-1892"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Reasons why A & M College of Texas is more expensive than A & M College of Mississippi (MSU), circa 1891-1892"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 8 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural education--Texas--History--19th century",
+          "Agricultural education--Mississippi--History--19th century",
+          "Texas A & M University--History",
+          "Mississippi State University--History",
+          "College administration",
+          "Educational institutions--Finance",
+          "Comparative education"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Roberts"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A comparative critique from circa 1891-1892 analyzing the higher operational costs and agricultural department inefficiencies of Texas A & M College relative to Mississippi A & M College. The document attributes Texas A & M's expense to ineffective presidential leadership, an unqualified board of trustees, an overpaid steward with excessive perquisites, and a poorly managed agricultural program. The author argues that Mississippi A & M's success stems from dedicated institutional leadership, responsible trustees, economical stewardship, and a profitable farm operation."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/33ab7e09-8964-3d10-a941-c0670a77e72f/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 2710,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/33ab7e09-8964-3d10-a941-c0670a77e72f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2710,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/33ab7e09-8964-3d10-a941-c0670a77e72f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Margin: [ca. 1891-92]] [Margin: College]</p>\n<p>Reasons why A & m of Texas<br>\nis more expensive to its patrons<br>\nthan A & m of Miss - &<br>\nWhy it is not a success<br>\nin its agricultural Dept -</p>\n<p>1<sup>st</sup> The A & m of Miss has for<br>\nits President a man<br>\nwho devotes his whole<br>\ntime to his duties - who<br>\nis really President & as-<br>\nsumes the responsibilities<br>\nof that office - who studies<br>\nadvanced methods in<br>\nAgri Education & keeps<br>\nabreast of the times -<br>\nHe is not a retired</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Okay, here's my thought process for this transcription, step-by-step:**\n\nFirst, I need to understand the task. I'm acting as a professional transcriptionist, and my job is to convert the image's text into a digital format.  I'm focusing on the *text* itself, keeping it as is, spelling and punctuation and all. The instructions are to read it top-to-bottom, use certain HTML tags, mark uncertainties with `[?]`, and note any marginalia, structural elements like headers, and use Markdown for tables. The catch is *only* the transcription; no extra commentary.\n\nNext, I need to analyze the image itself. It's handwritten – likely a letter or notes. The script is cursive, looks like late 19th-century style. The text compares the cost and perceived success of A & M of Texas to A & M of Mississippi, and gives the reasons. There are annotations at the top: \"[ca. 1891-92]\" and \"College\", which I must include somehow.\n\nNow, for the actual transcription: First, the marginalia. I'll treat these annotations as marginalia or a header. I'll start with those. Then, for the body text, I'll transcribe each line. I will use the HTML tags specified.\n\nAs I work, I'm constantly checking and refining. I'll go back and revisit ambiguous parts. For instance, the \"A & M\" is consistent, even though the 'm' is written like a small one. I'll be meticulously checking each line, comparing individual letters to make sure they're consistent across the whole document.\n\nFormatting will be very important. I will be sure to use HTML to preserve line breaks exactly and make it readable. And use <sup> for the superscript \"st\".\n\nThe final stage is polish. I check every single letter, word, and punctuation mark. I double-check ambiguous parts, like \"A & m\", \"abreast\", and \"retired.\" I will pay very close attention to making sure I've used appropriate tags, especially at the beginning and the end. I will make sure the structural formatting is all valid HTML.\n\nI will also make sure the HTML is valid and that the linebreaks are as expected. I will verify that `<sup>` is correct. I have to make sure \"A & m\" is consistent, and the \"st\" is superscript. And the formatting with the correct tags.\n\nI will check the guidelines again. The [ca. 1891-92] is really marginalia at the top. The guidelines are to \"insert it at the logically closest point\". I will insert it, then transcribe the rest of the text.\n\nI will make sure the linebreaks are right in the output. The guidelines state to \"Preserve original line breaks.\" The marginalia is pencil, the rest is ink. All the notes are in pencil.\nI will double check \"1st\" with the superscript.\n\nI'm ready to render the final transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 2710,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/21069750-1524-36da-9e5e-e0791d174aeb/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2710,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/21069750-1524-36da-9e5e-e0791d174aeb",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Ca. 1891-92]\npolitician enjoying a\nsinecure conferred by\nhis own appointees -\nHe is an educated man\n& an educator and\nis in <u>fact</u> as well as\nname the President of\nthe College -\n\n2nd The Board of <sup>Trustees</sup> [Directors crossed out]\nof the adm of Mings.\nare gentlemen of edu-\ncation & take great in-\nterest in the true welfare\nof the institution.\nThey do not meet with\nthe principal object to</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Okay, let's break down this transcription. First, I need to analyze the image itself. Based on the handwriting – cursive, somewhat loose, and with that \"Ca. 1891-92\" annotation – it's likely from the late 19th or early 20th century. The content seems to be a letter or report, mentioning a \"politician,\" a \"Board of Trustees/Directors,\" and a \"College\" or \"Institution.\" The ink appears light, possibly pencil or a faded ink, and the paper is lined and folded.**\n\n**Now, let's go line-by-line, which is where things get interesting and where I will have to be exact:**\n\n*   **Top Margin:** I see \"[Ca. 1891-92]\" written in what looks like a different hand or perhaps added as an annotation.\n*   **Line 1:** The line starts with \"politician enjoying a.\"\n*   **Line 2:** This is the tricky one. It says \"sinecure conferred by.\" The word is clearly \"sinecure,\" and \"conferred\" is a bit messy but legible (\"c-o-n-f-e-r-r-e-d\").\n*   **Line 3:** The text continues, \"his own appointees -\".\n*   **Line 4:** It states, \"He is an educated man\".\n*   **Line 5:** It continues as \"& an educator and\" (the ampersand looking like a plus sign or cross).\n*   **Line 6:** \"is in *fact* as well as\" (The word \"fact\" is underlined).\n*   **Line 7:** And the text continues as \"name the President of\"\n*   **Line 8:** This finishes the sentence by saying \"the College -\"\n\n**Now there is a Paragraph Break.**\n\n*   **Line 9:** Okay, here's where it gets complex. The line starts with \"2nd The Board of\". Then there seems to be a correction. Initially, I saw something that looked like \"Directors\" that's been crossed out and above it, \"Trustees\" is written. I should represent this accurately. So there is a strike-through after \"Board of\", and, above this, is \"[Trustees]\". The line ends with, \"of the [something] of [something]\".\n    *   **Line 10:** The previous line leaves us with a line beginning with \"of\". Following this, I am now trying to decipher what I can: The letters look like \"adm\". Then I come to the second set of [something]. There are a few different possibilities that I have considered.\n    *   I'll keep a careful eye on letter shapes to decipher what is written. I considered \"Univ\" but it doesn't look like that. I am seeing \"adm\" and \"[Mings.]\". I will return to this, but for now, the letters are \"a-d-m\" and \"[Mings]\".\n*   I can see \"adm of Mings\", but I'm not sure of the second word. I need to make some progress with context clues.\n*   **Line 11:** The line starts with \"are gentlemen of edu-\".\n    *   I'll return to the previous line soon.\n*   **Line 12:** And the sentence continues with \"cation & take great in-\" (The ampersand looks like a plus sign).\n*   **Line 13:** The next line says, \"terest in the true welfare\".\n*   **Line 14:** And continues, \"of the institution.\"\n*   **Line 15:** \"They do not meet with\"\n*   **Line 16:** And finally, \"the principal object to\".\n\n**Now, going back to my previous line of thinking, to finish the transcription, I must fill in the blanks, starting with \"of the adm of Mings.\" Let's look again at Line 10**\n\n*   **Going Back**: I've considered many options. It could be \"University of Miss,\" but \"adm\" doesn't look like \"Univ\". I've thought of other possibilities like \"Asylum,\" \"Assn\" or \"Administration.\" Considering the historical context, the date \"Ca. 1891-92,\" and the mention of a politician, \"Board of Trustees,\" and \"College,\" I'm leaning towards \"Administration\" for \"adm.\" Now, the word after \"of the adm\", is \"Mings\".\n*   **Letter Shape Analysis**: The word \"Mings\", and the word shape: M, I, N, G, S, can be seen, but let me also consider some other potential interpretations of\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 2710,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/49f4cc0f-edc9-369e-99c6-f9668049b590/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2710,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/49f4cc0f-edc9-369e-99c6-f9668049b590",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/26",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header] [Ca. 1891-92]</p>\n\n<p>vent some private spleen<br/>\non members of the Faculty<br/>\nor to confer special<br/>\nfavors upon pets<br/>\nand relatives – They<br/>\nare sober earnest &<br/>\njust gentlemen seeking<br/>\nfirst of all to promote<br/>\nthe welfare of the A & M –</p>\n\n<p>3<sup>rd</sup> The Board of Miss<br/>\nA & M employ a man<br/>\nas steward at a moderate<br/>\nsalary & without per-<br/>\nquisites & confine him<br/>\nto his duties that is to<br/>\nlooking after the proper</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/27",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Transcription Process**\n\nOkay, here's the transcription. I've taken a close look at this handwritten document. First, I analyzed the overall style – it's a flowing cursive, typical of the late 19th century. The content points to university or institutional matters, possibly a draft of a letter or report. I noted the pencil annotations, including the \"Ca. 1891-92\" at the top which I'll treat as a header. I've gone line by line, carefully transcribing each word, paying close attention to unclear letters or symbols. For example, I had to decide how to handle the \"and\" symbol – it looks like a plus sign but I will transcribe it as \"&\" for clarity. I paid careful attention to line endings and word shapes. Also I needed to confirm a few abbreviations, like \"A & M,\" which I'm confident refers to the Agricultural and Mechanical College. The final word on line 17 I also had to resolve; it looks like \"proper\" based on the handwriting, as there were several possible words to fit in its place. I have used HTML for formatting as per the guidelines, which should correctly display this transcription.\n\nHere's the final output:\n\n<p>[Header] [Ca. 1891-92]</p>\n<p>vent some private spleen<br/>\non members of the Faculty<br/>\nor to confer special<br/>\nfavors upon pets<br/>\nand relatives – They<br/>\nare sober earnest &<br/>\njust gentlemen seeking<br/>\nfirst of all to promote<br/>\nthe welfare of the A & M –</p>\n<p>3<sup>rd</sup> The Board of Miss<br/>\nA & M employ a man<br/>\nas steward at a moderate<br/>\nsalary & without per-<br/>\nquisites & confine him<br/>\nto his duties that is to<br/>\nlooking after the proper</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 2710,
+      "width": 2333,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ec936893-6cd6-3821-8dbd-e28f97d7fd4b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2710,
+                "width": 2333,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ec936893-6cd6-3821-8dbd-e28f97d7fd4b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/29",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\n[Header: [ca. 1891-92]]<br>\nx economi<i>cal</i> maintenanc[e]<br>\nof the students -<br>\nIn Texas a Steward<br>\nis employed at a<br>\nSalary + perquisites<br>\ngreater than that given<br>\nto the Governor of the<br>\nState. He is the con-<br>\nfidential adviser of<br>\nthe Board, and his duties<br>\nin this capacity are so<br>\ngreat that he has little<br>\ntime left to give to the<br>\nless important duties<br>\nof looking after the<br>\neconomical admin-<br>\nistration of the mess Hall\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/30",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Transcription Thoughts**\n\nOkay, here's my final breakdown of this document transcription. My primary focus is on accuracy while adhering strictly to the guidelines, especially the IIIF v3 HTML constraints and the mandate to preserve all text exactly as it appears, even crossed-out sections. I start by confirming the task: transcribe text from an image, focusing on reading order, accuracy (spelling, punctuation, capitalization, line breaks), dealing with uncertain handwriting or illegible parts, maintaining paragraph structure, and handling non-text elements within the permitted HTML tags. I'm keeping a close eye on avoiding any autocorrect or editorial input, sticking purely to transcription.\n\nFirst, I examine the image itself. I've noted it looks like a handwritten document, potentially a draft or a note. The handwriting is cursive and appears somewhat hurried. There are cross-outs and insertions, and a bracketed date at the top, likely added later. I need to make sure I include all of the characters in the transcribed text. The content seems to deal with \"economical maintenance,\" students, a \"Steward,\" \"salary,\" \"perquisites,\" and concepts related to a state's governance.\n\nNow, I'm going line by line. I start by getting the marginal date annotation correct. I then transcribe each word. The prompt specifically asks that all the text is transcribed even if it is crossed out, which means even words that aren't legible must be transcribed, or represented by a marker like [?]. I've noted details such as the underlining of \"cal\" in \"economical,\" which I'll render with an <i> tag. I'm noting any corrections, like when \"greater\" looks like it has been written over something, but I'll write the final visible character. I'm giving special attention to ambiguous symbols like the plus sign or potential ampersands, confirming that I'm representing it as the visual symbol, not interpreting it as its meaning. I'm checking the edges of words where text is cut off or the handwriting trails into a squiggle or a pen lift, adding markers for clarity. I'm meticulously recording instances of strikethrough text. Since strikethrough tags are not permitted by the IIIF v3 constraint, I must render all the words. This includes the major strikethroughs which indicate large deletions or editorial changes. The prompt says I must transcribe all text.\n\nThe core of the process has been repeated re-readings of each line. Each word has been rechecked in the image. I have also re-checked the IIIF rules again in light of the specific instructions. The challenge here is to strike a balance between a literal transcription and preserving the intent (as far as possible) within the constraints.\n\nFinally, I draft the entire transcription within the guidelines, using HTML tags only when permitted. I check for any formatting nuances, such as whether a word is lowercase or uppercase and fix it in the text. I make sure to include brackets around text or symbols where needed. I double-check the placement of the header to ensure it aligns with the instructions. I use line breaks for line breaks and `<p>` tags for paragraph structure. Finally, I confirm the rendering and the layout match the request and the instructions. I confirm that all words have been transcribed. All crossed-out words are present, and formatting rules are preserved. I re-read the instructions before producing the final text. I am ready to generate the output, which will be the transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 4"
+        ]
+      },
+      "height": 2710,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/10",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/57db5b13-f55c-36e4-b9c1-fb8332c6d777/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2710,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/57db5b13-f55c-36e4-b9c1-fb8332c6d777",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/32",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/31",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\n4<sup>th</sup> Miss a & m College<br/>\ndevotes special atten-<br/>\ntion to agriculture<br/>\nand has a native as<br/>\nits Professor While<br/>\nin Texas the object<br/>\nis to make the agl<br/>\nDept a minimum<br/>\n& therefore the head is<br/>\nan importation whose<br/>\ngreatest success is<br/>\nin spending money<br/>\nappropriated by the State<br/>\nto support the farm.<br/>\nIn Miss the farm is<br/>\na source of revenue\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4"
+            },
+            {
+              "id": "http://example.org/iiif/33",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of Handwritten Text**\n\nAlright, let's break this down. My goal is to get a clean transcription of this handwritten note, paying close attention to every detail of the script and its context. The handwriting is a bit loose, cursive, and I suspect it's either pencil or light ink, based on the evenness. The content seems to be about agricultural colleges, comparing Mississippi A&M to Texas, which is a fascinating topic!\n\nFirst, the heading - \"4th Miss a & m College.\" The \"4th\" is clear enough, and the rest looks like \"Miss a & m College\". Initially, I was thrown by the middle symbol because it doesn't quite look like a clean \"&\" or \"and\", and in context of agriculture I thought it might be \"Agm\". But on closer examination, it's most likely a scribbled ampersand or a plus sign between the 'a' and 'm'. The capitalizations have to be respected. The 'a' and 'm' are lowercase, while the others are capital letters. After reviewing the text again, \"a & m\" is a more accurate representation. So, \"4<sup>th</sup> Miss a & m College\" it is!\n\nLine 2: \"devotes special atten-\". Easy enough to read.\n\nLine 3: \"tion to agriculture\" - clear.\n\nLine 4: \"and has a native as\" - standard.\n\nLine 5: \"its Professor While\" - Straightforward, although the \"While\" starts with a capital 'W'. \"Professor\" is also Capitalized.\n\nLine 6: \"in Texas the object\" - also clear.\n\nLine 7: \"is to make the agl\" - This is where it gets a little interesting. The word \"agl\" or \"Ag'l\" is abbreviated, as the 'g' has a descender loop. The context suggests \"Agricultural.\" We know the abbreviation from previous discussions. I'll stick to 'agl', preserving the lowercase.\n\nLine 8: \"Dept a minimum\" - The word \"Dept\" is faint but readable. \"minimum\" is a bit messy. The letters are all there though, m-i-n-i-m-u-m. Despite the handwriting's waviness, \"minimum\" makes the most sense.\n\nLine 9: \"& therefore the head is\" - Standard.\n\nLine 10: \"an importation whose\" - also clear.\n\nLine 11: \"greatest success is\" - Easy.\n\nLine 12: \"in spending money\" - Clear.\n\nLine 13: \"appropriated by the State\" - All the words are distinct.\n\nLine 14: \"to support the farm.\" - The text is \"to support the farm.\" The word \"farm\" seems to be underlined (though the underlines are not supported in output so it will be just transcribed as is).\n\nLine 15: \"In Miss the farm is\" - \"Miss\" is capitalized here, as is \"In\".\n\nLine 16: \"a source of revenue\" - Final line is clear.\n\nOne detail: Line 1 \"Miss atm\" vs \"Miss a & m\". The connection between 'a' and 'm' is a horizontal cross stroke. It looks like a 't'. \"atm\". But \"atm\" makes zero sense. \"A & M\" makes 100% sense. The cross stroke is likely a quick ampersand or plus sign. I will transcribe \"a & m\".\n\nThe final result is:\n<p>\n4<sup>th</sup> Miss a & m College<br/>\ndevotes special atten-<br/>\ntion to agriculture<br/>\nand has a native as<br/>\nits Professor While<br/>\nin Texas the object<br/>\nis to make the agl<br/>\nDept a minimum<br/>\n& therefore the head is<br/>\nan importation whose<br/>\ngreatest success is<br/>\nin spending money<br/>\nappropriated by the State<br/>\nto support the farm.<br/>\nIn Miss the farm is<br/>\na source of revenue\n</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 5"
+        ]
+      },
+      "height": 2710,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/12",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/0c4dea2a-01e9-3a6a-91bd-8f9edff2b85c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2710,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/0c4dea2a-01e9-3a6a-91bd-8f9edff2b85c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/35",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/34",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>in Texas <sup><small>[ca. 1891-92]</small></sup> it is a con-<br/>\nstant Charge on the State<br/>\nCosting Thousands of<br/>\ndollars —</p>\n\n<p>There are many other<br/>\nreasons which might<br/>\nbe assigned in answer<br/>\nto Mr Roberts but they<br/>\nall are consequent<br/>\non these before mentioned<br/>\nIf these evils are cor-<br/>\nrected the correction<br/>\nof the extravagant<br/>\nexpenditure of money<br/>\n&c will follow</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5"
+            },
+            {
+              "id": "http://example.org/iiif/36",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. My primary task here is to accurately transcribe a handwritten document, paying close attention to every nuance of the script and context. This document, whatever its purpose, is obviously a critical piece of information that someone needs in a digital format.\n\nFirst, I examined the document and identified three distinct sections. The top section deals with the situation \"in Texas [ca. 1891-92]\" and references a \"con-\", followed by a \"stant Charge on the State.\" I immediately noticed the inserted date \"[ca. 1891-92]\" written above \"Texas\". It seems to be an annotation, potentially by an archivist, so I'll include it. The document continues about a charge to the state and the cost involved.\n\nThe middle section delves into other potential \"reasons which might be assigned in answer to Mr Roberts.\" The key here is the word after \"in.\" While the handwriting is a bit messy, after careful consideration of the loops and context, I'm confident it's \"answer\" – meaning \"in response to Mr. Roberts.\"\n\nThe bottom section outlines a series of actions based on \"these evils are cor-rected.\" The final words are \"&c will follow\". It's a standard list-closing \"and so forth\" type phrase.\n\nThroughout, I need to make the best possible determination of each word in the original. While it is tempting to make a perfect presentation, the directions are specific that I should maintain the layout, and transcript the meaning accurately, even if the formatting is unconventional.\n\nI've taken a granular look at each line, specifically at words like \"answer\" (line 7), \"evils\" (line 11), and the symbol in the final line (\"&c\" vs. \"etc\"). I've also verified \"before mentioned\" and \"consequent\" to make sure I'm capturing their intended meaning. The punctuation – or lack thereof – is also critical and to be accurately preserved. The style of the handwriting seems to be a cursive format.\n\nI've created an HTML structure, to accurately capture line breaks using `<br/>` and the annotation using a `<sup>`. I'll also use `<p>` tags for paragraphs.\n\nWith all of this in mind, here is my final, accurate and fulsome transcription of the document.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/447/pages/page_5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

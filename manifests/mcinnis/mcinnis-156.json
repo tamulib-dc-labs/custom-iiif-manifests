@@ -1,281 +1,333 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-156.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Robert F. Smith, August 10, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-08-10"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Robert F. Smith, August 10, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/8e00ee69-adb2-390e-b291-4f4ffa3f5269/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3155,
-            "width": 2058,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/374",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/373",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/8e00ee69-adb2-390e-b291-4f4ffa3f5269/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3155,
-                                "width": 2058,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8e00ee69-adb2-390e-b291-4f4ffa3f5269",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/383",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/382",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>South Orange, N.J.<br>\nAug. 15. 1886.</p>\n\n<p>Dear Prof. McInnis;</p>\n\n<p>I found your<br>\nletter waiting for me when I<br>\ngot back from Asbury<br>\nPark last week. Was glad<br>\nto hear from you.</p>\n\n<p>I had letters from Mrs.<br>\nHardeman and Dr. Read.<br>\nMrs. H. wrote that they had<br>\nhad plenty of rain and<br>\nthat the Generals crops were<br>\nturning out better than he<br>\nexpected. I have been bum<br>\nming round the country al-<br>\nmost constantly since I<br>\nwrote you before. Dont re-<br>\nmember whether or not I<br>\nhad been to Washington</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/384",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3155,
-            "width": 2058,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/376",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/375",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/56eba151-735e-36d0-8038-574165a2d116/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3155,
-                                "width": 2058,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/56eba151-735e-36d0-8038-574165a2d116",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/386",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/385",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nthere. Spent three days there,<br/>\none day in Balt., four days<br/>\nin Fredrich, Md, with a cous-<br/>\nin who will accompany me<br/>\nto Texas. Whitlock and I<br/>\nspent several days in and<br/>\nnear Phil<sup>a</sup>. I got home at<br/>\n11:30 P.M. on Monday and H.<br/>\nrushed in early Tuesday,<br/>\nand told me I had just<br/>\ntwenty minutes to get my<br/>\nvalise packed to go to Ocean<br/>\nGrove and Asbury Park.<br/>\nSpent one week on that trip<br/>\nand had a delightful trip<br/>\nSpent yesterday forenoon<br/>\nin Central Park (third day).<br/>\nI expect to start to Ky. Sat.<br/>\nand will be glad to hear<br/>\nfrom you at Mt. Sterling, Ky<br/>\nExpect to reach Hillsb, Tex<br/>\nabout 28<sup>th</sup> inst. Kindest<br/>\n[Margin: regards to all]\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/387",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, so I've got this image of a handwritten letter here. It looks like it's a continuation, starting mid-thought, likely from a previous page. The handwriting is cursive, a bit faint in some places, but generally readable. There are some corrections and scribbles. My task is to transcribe this as accurately as possible, making sure to preserve the intended meaning of the author while honoring the visual form.\n\nFirst, I'll go line by line. I'm seeing:\n\n*   \"there. Spent three days there,\"\n*   \"one day in Balt., four days\" \u2013 \"Balt.\" probably means Baltimore.\n*   \"in Fredrich, Md, with a cous-\" \u2013 Frederick, Maryland; the word \"cousin\" is split at the end of the line.\n*   \"in who will accompany me\" \u2013 the word \"cousin\" carries onto this line.\n*   \"to Texas. Whitlock and I\"\n*   \"spent several days in and\"\n*   \"near Phil<sup>a</sup>. I got home at\" \u2013 \"Phil<sup>a</sup>\" is Philadelphia.\n*   \"11:30 P.M. on [Tuesday crossed out] Monday and H.\" \u2013 \"Tuesday\" is crossed out, and \"Monday\" is written above; \"H.\" is likely a person's initial.\n*   \"rushed in early Tuesday,\"\n*   \"and told me I had just\"\n*   \"twenty minutes to get my\"\n*   \"valise packed to go to Ocean\" \u2013 \"valise\" is an older word for a suitcase.\n*   \"Grove and Asbury Park.\"\n*   \"Spent one week on that trip\"\n*   \"and had a delightful trip\" \u2013 I'm reading this as \"delightful trip\"\n*   \"Spent yesterday forenoon\"\n*   \"in Central Park (third day).\"\n*   \"I expect to start to Ky. Sat.\" \u2013 \"Ky.\" is Kentucky, and \"Sat.\" is Saturday.\n*   \"and will be glad to hear\"\n*   \"from you at Mt. Sterling, Ky\"\n*   \"Expect to reach Hillsb, Tex\" \u2013 I think this is \"Hillsboro, Texas.\"\n*   \"about 28<sup>th</sup> inst. Kindest\" \u2013 \"inst.\" means current month, and the \"th\" is superscript.\n\nAh, and I see some marginalia! There's text written vertically along the right edge: \"regards to all\".\n\nNow, I'll refine the transcription. \"Fredrich\", I'm pretty sure that's a slightly misspelled \"Frederick\", but the writer wrote \"Fredrich\". The date, \"28th\", I'll represent that superscript. I'll need to remember to insert those HTML tags. The marginalia... \"Kindest regards to all\" makes sense.\n\nNow for formatting. I can't use `del` or `s` for strikethrough, so I'll need to carefully represent the correction for clarity. Given the constraints, I will prioritize the \"Monday\" from \"11:30 P.M. on [Tuesday crossed out] Monday\".\n\n<p>\nthere. Spent three days there,<br/>\none day in Balt., four days<br/>\nin Fredrich, Md, with a cous-<br/>\nin who will accompany me<br/>\nto Texas. Whitlock and I<br/>\nspent several days in and<br/>\nnear Phil<sup>a</sup>. I got home at<br/>\n11:30 P.M. on Monday and H.<br/>\nrushed in early Tuesday,<br/>\nand told me I had just<br/>\ntwenty minutes to get my<br/>\nvalise packed to go to Ocean<br/>\nGrove and Asbury Park.<br/>\nSpent one week on that trip<br/>\nand had a delightful trip<br/>\nSpent yesterday forenoon<br/>\nin Central Park (third day).<br/>\nI expect to start to Ky. Sat.<br/>\nand will be glad to hear<br/>\nfrom you at Mt. Sterling, Ky<br/>\nExpect to reach Hillsb, Tex<br/>\nabout 28<sup>th</sup> inst. Kindest<br/>\n[Margin: regards to all]\n</p>\n\nI've got to double-check a few of those specifics. \"Fredrich\" is the written letter here. \"Phil<sup>a</sup>\" is right. The \"Hillsb, Tex\" is \"Hillsboro, Texas\". The crucial edit, \"11:30 P.M. on Monday and H.\", I've represented it accurately as\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3155,
-            "width": 2059,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/378",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/377",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/85af62c4-fc57-390b-b946-adc6d653e851/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3155,
-                                "width": 2059,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/85af62c4-fc57-390b-b946-adc6d653e851",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/389",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/388",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>to Mrs. McInnis and a<br/>\nkiss for Miss McInnis.<br/>\nThe Whitlock family wish<br/>\nto be kindly remembered to<br/>\nall. Mrs. Whitlock says<br/>\nshe thinks it real mean<br/>\nthat Mrs. McInnis doesn't<br/>\nwrite to her. Both Mrs. W.<br/>\nand E. request me to ex<br/>\ntend an invitation to<br/>\nyou to come out while<br/>\nyou are in New York.<br/>\nAm going to see a<br/>\nprofessional base ball<br/>\ngame this afternoon,<br/>\nand to Coney Island<br/>\ntonight. Tomorrow I<br/>\ngo to Brighton Beach to<br/>\nsee the races. The con-<br/>\nclusion of this letter is<br/>\nalmost as long as the<br/>\nbody of it. Yours very truly<br/>\n[Signature] Robt S. Peck.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/390",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription Journey: A Handwritten Letter Unveiled**\n\nAlright, let's dive into this image and get a clear transcription. This looks like the tail end of a letter, likely from the late 19th or early 20th century, with that familiar cursive script. The ink's a bit faded, but the words are definitely legible.\n\nFirst, I need to get the layout and overall structure right.  I'll start line by line and try to maintain the rhythm and flow of the text.\n\n*   **Line 1:** \"to Mrs. McInnis and a\" \u2013 The name \"McInnis\" is where I start. There is a dot, the 'i', so 'McInnis'.\n*   **Line 2:** \"kiss for Miss McInnis.\" \u2013 Yep, confirming it's McInnis again.\n*   **Line 3:** \"The Whitlock family wish\" \u2013 \"Whitlock\" is clear as day.\n*   **Line 4:** \"to be kindly remembered to\"\n*   **Line 5:** \"all. Mrs. Whitlock says\"\n*   **Line 6:** \"she thinks it real mean\" \u2013 It's colloquial, so let's preserve it.\n*   **Line 7:** \"that Mrs. McInnis doesn't\" \u2013 There's an implied apostrophe.\n*   **Line 8:** \"write to her. Both Mrs. W.\" \u2013 \"Mrs. W.\" \u2013 Got it.\n*   **Line 9:** \"and E. request me to ex\" \u2013 Who's \"E.\"? I wonder if it could be I. No. It looks like \"E\". \"ex\" at the end of the line, that\u2019s clearly part of the following word.\n*   **Line 10:** \"tend an invitation to\" \u2013 \"ex tend.\"\n*   **Line 11:** \"you to come out while\"\n*   **Line 12:** \"you are in New York.\" \u2013 \"New York\" is easy.\n*   **Line 13:** \"Am going to see a\"\n*   **Line 14:** \"professional base ball\" \u2013 Two words there: \"base ball\".\n*   **Line 15:** \"game this afternoon,\"\n*   **Line 16:** \"and to Coney Island\" \u2013 \"Coney Island\".\n*   **Line 17:** \"tonight. Tomorrow I\"\n*   **Line 18:** \"go to Brighton Beach to\" \u2013 \"Brighton Beach\".\n*   **Line 19:** \"see the races. The con-\" \u2013 Hyphenated at the end: \"con-\".\n*   **Line 20:** \"clusion of this letter is\"\n*   **Line 21:** \"almost as long as the\"\n*   **Line 22:** \"body of it. Yours very truly\"\n*   **Line 23:** \"[Signature]\" \u2013 The signature is the biggest puzzle.\n    *   \"Robt\". \"Robt\" seems correct.\n    *   The middle initial... It looks like 'P', no wait, it looks like 'S', it looks like a cursive 'S', and 'S' is a common letter. So, \"Robt S. ...\".\n    *   Now, the last name. The letter after initial is really sharp and pointy, so it's not 'e'. It could be \"P\" then \"r\" but is that a dot above it? That looks like an 'i'. Does it end in k? Looks like it! \"Peck\"? I will stick with that name unless there is some compelling reason to change it. Now, it looks like I need to write 'S' again.\n\nSo, the final transcription is:\n\n<p>to Mrs. McInnis and a<br/>\nkiss for Miss McInnis.<br/>\nThe Whitlock family wish<br/>\nto be kindly remembered to<br/>\nall. Mrs. Whitlock says<br/>\nshe thinks it real mean<br/>\nthat Mrs. McInnis doesn't<br/>\nwrite to her. Both Mrs. W.<br/>\nand E. request me to ex<br/>\ntend an invitation to<br/>\nyou to come out while<br/>\nyou are in New York.<br/>\nAm going to see a<br/>\nprofessional base ball<br/>\ngame this afternoon,<br/>\nand to Coney Island<br/>\ntonight. Tomorrow I<br/>\ngo to Brighton Beach to<br/>\nsee the races. The con-<br/>\nclusion of this letter is<br/>\nalmost as long as the\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-156.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Robert F. Smith, August 10, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-08-10"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Robert F. Smith, August 10, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "Travel--United States--19th century",
+          "Social correspondence",
+          "Personal correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Smith, Robert F."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Hardeman, Mrs.",
+          "Read, Dr.",
+          "Whitlock",
+          "McInnis, Mrs.",
+          "McInnis, Miss",
+          "Whitlock, Mrs.",
+          "Whitlock, E.",
+          "Peck, Robt S."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from Robert F. Smith to Professor Louis L. McInnis dated August 10, 1886 (though postmarked August 15), written from South Orange, New Jersey. Smith recounts his recent travels through various northeastern cities including Washington, Baltimore, and Philadelphia, and shares social greetings and invitations from mutual acquaintances including the Whitlock family. The letter indicates Smith's upcoming travel plans to Kentucky and Texas, and includes casual observations about leisure activities in the New York area."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/8e00ee69-adb2-390e-b291-4f4ffa3f5269/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3155,
+      "width": 2058,
+      "items": [
+        {
+          "id": "http://example.org/iiif/374",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/373",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/8e00ee69-adb2-390e-b291-4f4ffa3f5269/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3155,
+                "width": 2058,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/8e00ee69-adb2-390e-b291-4f4ffa3f5269",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/383",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/382",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>South Orange, N.J.<br>\nAug. 15. 1886.</p>\n\n<p>Dear Prof. McInnis;</p>\n\n<p>I found your<br>\nletter waiting for me when I<br>\ngot back from Asbury<br>\nPark last week. Was glad<br>\nto hear from you.</p>\n\n<p>I had letters from Mrs.<br>\nHardeman and Dr. Read.<br>\nMrs. H. wrote that they had<br>\nhad plenty of rain and<br>\nthat the Generals crops were<br>\nturning out better than he<br>\nexpected. I have been bum<br>\nming round the country al-<br>\nmost constantly since I<br>\nwrote you before. Dont re-<br>\nmember whether or not I<br>\nhad been to Washington</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/384",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3155,
+      "width": 2058,
+      "items": [
+        {
+          "id": "http://example.org/iiif/376",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/375",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/56eba151-735e-36d0-8038-574165a2d116/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3155,
+                "width": 2058,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/56eba151-735e-36d0-8038-574165a2d116",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/386",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/385",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nthere. Spent three days there,<br/>\none day in Balt., four days<br/>\nin Fredrich, Md, with a cous-<br/>\nin who will accompany me<br/>\nto Texas. Whitlock and I<br/>\nspent several days in and<br/>\nnear Phil<sup>a</sup>. I got home at<br/>\n11:30 P.M. on Monday and H.<br/>\nrushed in early Tuesday,<br/>\nand told me I had just<br/>\ntwenty minutes to get my<br/>\nvalise packed to go to Ocean<br/>\nGrove and Asbury Park.<br/>\nSpent one week on that trip<br/>\nand had a delightful trip<br/>\nSpent yesterday forenoon<br/>\nin Central Park (third day).<br/>\nI expect to start to Ky. Sat.<br/>\nand will be glad to hear<br/>\nfrom you at Mt. Sterling, Ky<br/>\nExpect to reach Hillsb, Tex<br/>\nabout 28<sup>th</sup> inst. Kindest<br/>\n[Margin: regards to all]\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/387",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of Handwritten Letter**\n\nOkay, so I've got this image of a handwritten letter here. It looks like it's a continuation, starting mid-thought, likely from a previous page. The handwriting is cursive, a bit faint in some places, but generally readable. There are some corrections and scribbles. My task is to transcribe this as accurately as possible, making sure to preserve the intended meaning of the author while honoring the visual form.\n\nFirst, I'll go line by line. I'm seeing:\n\n*   \"there. Spent three days there,\"\n*   \"one day in Balt., four days\" – \"Balt.\" probably means Baltimore.\n*   \"in Fredrich, Md, with a cous-\" – Frederick, Maryland; the word \"cousin\" is split at the end of the line.\n*   \"in who will accompany me\" – the word \"cousin\" carries onto this line.\n*   \"to Texas. Whitlock and I\"\n*   \"spent several days in and\"\n*   \"near Phil<sup>a</sup>. I got home at\" – \"Phil<sup>a</sup>\" is Philadelphia.\n*   \"11:30 P.M. on [Tuesday crossed out] Monday and H.\" – \"Tuesday\" is crossed out, and \"Monday\" is written above; \"H.\" is likely a person's initial.\n*   \"rushed in early Tuesday,\"\n*   \"and told me I had just\"\n*   \"twenty minutes to get my\"\n*   \"valise packed to go to Ocean\" – \"valise\" is an older word for a suitcase.\n*   \"Grove and Asbury Park.\"\n*   \"Spent one week on that trip\"\n*   \"and had a delightful trip\" – I'm reading this as \"delightful trip\"\n*   \"Spent yesterday forenoon\"\n*   \"in Central Park (third day).\"\n*   \"I expect to start to Ky. Sat.\" – \"Ky.\" is Kentucky, and \"Sat.\" is Saturday.\n*   \"and will be glad to hear\"\n*   \"from you at Mt. Sterling, Ky\"\n*   \"Expect to reach Hillsb, Tex\" – I think this is \"Hillsboro, Texas.\"\n*   \"about 28<sup>th</sup> inst. Kindest\" – \"inst.\" means current month, and the \"th\" is superscript.\n\nAh, and I see some marginalia! There's text written vertically along the right edge: \"regards to all\".\n\nNow, I'll refine the transcription. \"Fredrich\", I'm pretty sure that's a slightly misspelled \"Frederick\", but the writer wrote \"Fredrich\". The date, \"28th\", I'll represent that superscript. I'll need to remember to insert those HTML tags. The marginalia... \"Kindest regards to all\" makes sense.\n\nNow for formatting. I can't use `del` or `s` for strikethrough, so I'll need to carefully represent the correction for clarity. Given the constraints, I will prioritize the \"Monday\" from \"11:30 P.M. on [Tuesday crossed out] Monday\".\n\n<p>\nthere. Spent three days there,<br/>\none day in Balt., four days<br/>\nin Fredrich, Md, with a cous-<br/>\nin who will accompany me<br/>\nto Texas. Whitlock and I<br/>\nspent several days in and<br/>\nnear Phil<sup>a</sup>. I got home at<br/>\n11:30 P.M. on Monday and H.<br/>\nrushed in early Tuesday,<br/>\nand told me I had just<br/>\ntwenty minutes to get my<br/>\nvalise packed to go to Ocean<br/>\nGrove and Asbury Park.<br/>\nSpent one week on that trip<br/>\nand had a delightful trip<br/>\nSpent yesterday forenoon<br/>\nin Central Park (third day).<br/>\nI expect to start to Ky. Sat.<br/>\nand will be glad to hear<br/>\nfrom you at Mt. Sterling, Ky<br/>\nExpect to reach Hillsb, Tex<br/>\nabout 28<sup>th</sup> inst. Kindest<br/>\n[Margin: regards to all]\n</p>\n\nI've got to double-check a few of those specifics. \"Fredrich\" is the written letter here. \"Phil<sup>a</sup>\" is right. The \"Hillsb, Tex\" is \"Hillsboro, Texas\". The crucial edit, \"11:30 P.M. on Monday and H.\", I've represented it accurately as\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3155,
+      "width": 2059,
+      "items": [
+        {
+          "id": "http://example.org/iiif/378",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/377",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/85af62c4-fc57-390b-b946-adc6d653e851/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3155,
+                "width": 2059,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/85af62c4-fc57-390b-b946-adc6d653e851",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/389",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/388",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>to Mrs. McInnis and a<br/>\nkiss for Miss McInnis.<br/>\nThe Whitlock family wish<br/>\nto be kindly remembered to<br/>\nall. Mrs. Whitlock says<br/>\nshe thinks it real mean<br/>\nthat Mrs. McInnis doesn't<br/>\nwrite to her. Both Mrs. W.<br/>\nand E. request me to ex<br/>\ntend an invitation to<br/>\nyou to come out while<br/>\nyou are in New York.<br/>\nAm going to see a<br/>\nprofessional base ball<br/>\ngame this afternoon,<br/>\nand to Coney Island<br/>\ntonight. Tomorrow I<br/>\ngo to Brighton Beach to<br/>\nsee the races. The con-<br/>\nclusion of this letter is<br/>\nalmost as long as the<br/>\nbody of it. Yours very truly<br/>\n[Signature] Robt S. Peck.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/390",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription Journey: A Handwritten Letter Unveiled**\n\nAlright, let's dive into this image and get a clear transcription. This looks like the tail end of a letter, likely from the late 19th or early 20th century, with that familiar cursive script. The ink's a bit faded, but the words are definitely legible.\n\nFirst, I need to get the layout and overall structure right.  I'll start line by line and try to maintain the rhythm and flow of the text.\n\n*   **Line 1:** \"to Mrs. McInnis and a\" – The name \"McInnis\" is where I start. There is a dot, the 'i', so 'McInnis'.\n*   **Line 2:** \"kiss for Miss McInnis.\" – Yep, confirming it's McInnis again.\n*   **Line 3:** \"The Whitlock family wish\" – \"Whitlock\" is clear as day.\n*   **Line 4:** \"to be kindly remembered to\"\n*   **Line 5:** \"all. Mrs. Whitlock says\"\n*   **Line 6:** \"she thinks it real mean\" – It's colloquial, so let's preserve it.\n*   **Line 7:** \"that Mrs. McInnis doesn't\" – There's an implied apostrophe.\n*   **Line 8:** \"write to her. Both Mrs. W.\" – \"Mrs. W.\" – Got it.\n*   **Line 9:** \"and E. request me to ex\" – Who's \"E.\"? I wonder if it could be I. No. It looks like \"E\". \"ex\" at the end of the line, that’s clearly part of the following word.\n*   **Line 10:** \"tend an invitation to\" – \"ex tend.\"\n*   **Line 11:** \"you to come out while\"\n*   **Line 12:** \"you are in New York.\" – \"New York\" is easy.\n*   **Line 13:** \"Am going to see a\"\n*   **Line 14:** \"professional base ball\" – Two words there: \"base ball\".\n*   **Line 15:** \"game this afternoon,\"\n*   **Line 16:** \"and to Coney Island\" – \"Coney Island\".\n*   **Line 17:** \"tonight. Tomorrow I\"\n*   **Line 18:** \"go to Brighton Beach to\" – \"Brighton Beach\".\n*   **Line 19:** \"see the races. The con-\" – Hyphenated at the end: \"con-\".\n*   **Line 20:** \"clusion of this letter is\"\n*   **Line 21:** \"almost as long as the\"\n*   **Line 22:** \"body of it. Yours very truly\"\n*   **Line 23:** \"[Signature]\" – The signature is the biggest puzzle.\n    *   \"Robt\". \"Robt\" seems correct.\n    *   The middle initial... It looks like 'P', no wait, it looks like 'S', it looks like a cursive 'S', and 'S' is a common letter. So, \"Robt S. ...\".\n    *   Now, the last name. The letter after initial is really sharp and pointy, so it's not 'e'. It could be \"P\" then \"r\" but is that a dot above it? That looks like an 'i'. Does it end in k? Looks like it! \"Peck\"? I will stick with that name unless there is some compelling reason to change it. Now, it looks like I need to write 'S' again.\n\nSo, the final transcription is:\n\n<p>to Mrs. McInnis and a<br/>\nkiss for Miss McInnis.<br/>\nThe Whitlock family wish<br/>\nto be kindly remembered to<br/>\nall. Mrs. Whitlock says<br/>\nshe thinks it real mean<br/>\nthat Mrs. McInnis doesn't<br/>\nwrite to her. Both Mrs. W.<br/>\nand E. request me to ex<br/>\ntend an invitation to<br/>\nyou to come out while<br/>\nyou are in New York.<br/>\nAm going to see a<br/>\nprofessional base ball<br/>\ngame this afternoon,<br/>\nand to Coney Island<br/>\ntonight. Tomorrow I<br/>\ngo to Brighton Beach to<br/>\nsee the races. The con-<br/>\nclusion of this letter is<br/>\nalmost as long as the\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/156/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,340 +1,389 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-560.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Appropriations to A&M College, circa 1871-1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Appropriations to A&M College, circa 1871-1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Folder 1 Oversize 4-flap Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/65edfcbe-389e-3d3b-bfad-9179d1ae0c4b/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 6840,
-            "width": 4418,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/584",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/583",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/65edfcbe-389e-3d3b-bfad-9179d1ae0c4b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 6840,
-                                "width": 4418,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/65edfcbe-389e-3d3b-bfad-9179d1ae0c4b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/596",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/595",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Appropriations to A&M College</p>\n\n| | | | |\n| :--- | :--- | :--- | :--- |\n| Apr 17 1871 | 75 000 | School Fund | Buildings |\n| Oct 2 1874 | 40 000 | General Revenue | \" |\n| Feb 8 1875 | 32 000 | \" \" | \" |\n| Jun 24 1876 | 40 000 | \" \" | \" |\n| | $187,000 | appropriated before the College<br>was opened - | |\n| Spec. Sess. 1879 | 15,000 | University Fund | Library apparatus ag & Imple<br>ment & Mechanical Tools |\n| Def. Bill 1881 | 4 987.44 | General Revenue | To pay a debt incurred<br>in making improvements |\n| Appr. Bill 1881 | 15 000. | Univ. Fund | State Students |\n| Def \" 1883 | 6 000 | General Revenue | \" \" |\n| \" \" 1883 | 800 | \" \" | To Settle Land Title |\n| Appr Bill 1883 | 30 000 | \" \" | Support & Maintenance<br>Improvements &c |\n| \" \" 1883 | 10 000 | University Fund | Do Do Do |\n| \" \" 1885 | 20 000 | General Revenue | Support & Maintenance |\n| \" \" 1885 | 10 000 | University Fund | \" \" |\n| Total | $298.787.44 | Covering a period from<br>1871 to 1887 - 16 years | |\n\n<p>$21 000 appropriated for State Students was of no<br>\nuse to the College but went to the Students -</p>\n\n<p>Deducting this amount you have Total<br>\nState appropriations from All Sources $277.787.44<br>\nFor a period of 16 years</p>\n\n<p>$187000 was expended before College was opened<br>\nTherefor $90 787.44 has been appropriated since the<br>\nCollege was inaugurated in 1876 more<br>\nthan ten years an annual average of<br>\nonly a little more than $9000<sup>00</sup></p>\n\n<p>By referring to above it will be seen that<br>\nthe total amount derived by College from<br>\nUniversity Fund has been $50000<br>\nOr deducting amount for State Students $35000<br>\nAn average for the ten sessions of only<br>\n$3500 benefit to the College from the<br>\nUniversity Fund</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/597",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's my analysis of this financial record detailing appropriations to A&M College:**\n\nI'm looking at a record, likely a ledger, showing appropriations to \"A & M College.\" It's divided into a table and a narrative section.\n\n## Section 1: The Table\n\n| Date | Amount | Fund | Purpose |\n|---|---|---|---|\n| Apr 17 1871 | 75 000 | School Fund | Buildings |\n| Oct 2 1874 | 40 000 | General Revenue | \" |\n| Feb 8 1875 | 32 000 | \" | \" |\n| Jun 24 1876 | 40 000 | \" | \" |\n|  | $187,000 |  | appropriated before the College was opened |\n| Spec. Sess. 1879 | 15 000 | University Fund | Library apparatus ag & Imple ment & Mechanical Tools |\n| Def. Bill 1881 | 4987.44 | General Revenue | To pay a debt incurred in making improvements |\n| Appr. Bill 1881 | 15000. | Univ. Fund | State Students |\n| Def \" 1883 | 6000 | General Revenue | \" |\n| \" 1883 | 800 | \" | To Settle Land Title |\n| Appr Bill 1883 | 30 000 | \" | Support & Maintenance Improvements &c |\n| \" 1883 | 10 000 | University Fund | Do Do Do |\n| \" 1885 | 20 000 | General Revenue | Support & Maintenance |\n| \" 1885 | 10 000 | University Fund | \" |\n|  | Total $298.787.44 |  | Covering a period from 1871 to 1887 - 16 years |\n\n## Section 2: The Narrative\n\n<p>$21000 appropriated for State Students was of no use to the College but went to the Students -</p>\n\n<p>Deducting this amount you have Total State appropriations from All Sources $277.787.44<br>For a period of 16 years</p>\n\n<p>$187000 was expended before College was opened<br>Therefore $90 787.44 has been appropriated since the College was inaugurated in 1876 more than ten years an annual average of only a little more than $9000<sup>00</sup></p>\n\n<p>By referring to above it will be seen that the total amount derived by College from University Fund has been $50000<br>Or deducting amount for State Students $35000<br>An average for the ten sessions of only $3500 benefit to the College from the University Fund</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 6840,
-            "width": 4418,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/586",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/585",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/acbde642-b540-325c-a631-ad1bceae9061/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 6840,
-                                "width": 4418,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/acbde642-b540-325c-a631-ad1bceae9061",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/599",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/598",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Comparison between the University and<br/>\nthe A &amp; M College</p>\n\n<p>Comparison made to June 1886 because<br/>\nthe Report of Regents ends at that date-</p>\n\n<p>Amounts Expended</p>\n\n| University | 1881 - June 1886 | 261788 | 44 |\n| :--- | :--- | :--- | :--- |\n| | Annual Average for 5 years | 52357 | 68 |\n\n<br/>\n\n| A &amp; M College | | (about) | |\n| :--- | :--- | :--- | :--- |\n| 1871- 86 15 years | From U.S. Endowment Interest | 150000 | |\n| | State appropriations | 285896 | 40 |\n| | Total from all sources - | 435896 | 40 |\n| | Annual Average from all sources | 29059 | 76 |\n| | \" \" State | 19059 | 76 |\n| | From University Fund 50,000 Ann. average | 3333 | 33 |\n\n<br/>\n\n<p>Or deducting amt for State Students<br/>\n[Margin: Total<br/>\n414896 40<br/>\n264896 40<br/>\n35000]</p>\n\n| we have for A &amp; M College | | |\n| :--- | :--- | :--- |\n| Annual average | all sources | 27659 76 |\n| \" \" | State | 17659 76 |\n| \" \" | Univ Fund | 2333 33 |\n\n<p>It has been stated that the College has a much<br/>\nlarger plant than the University but in such<br/>\nstatements no account is taken of the fact<br/>\nthat the College has been established three<br/>\ntimes as long as the University -<br/>\nThe fact that the College has more property than<br/>\nthe University only shows how economically its<br/>\naffairs have been administered - for if we<br/>\ndeduct the amount used for State Students<br/>\nwe have as total amount which the A &amp; M.<br/>\nCollege has received from State for a period<br/>\nof 15 years from 1871 to June 1886 $264896 40</p>\n\n<p>The University has in five years from<br/>\n1881- 1886 expended $261788.44</p>\n\n<p>While the University has cost the State<br/>\nnearly as much in 5 years as the College<br/>\nhas in 15 years, yet the College has<br/>\na much more valuable property for<br/>\nthe State than the University has</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/600",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Transcription and Analysis of Financial Comparison**\n\nOkay, here's what I've got. This is a transcription and analysis of a handwritten document comparing the financial situations of the \"University\" and the \"A & M College\". Based on my assessment, it seems to be a financial report or comparison, likely for some official use given the level of detail and the specific timeframes mentioned. I can see the structure right away. Here's a detailed transcription with my notes and annotations:\n\n<p>Comparison between the University and the A & M College<br>\nComparison made to June 1886 because the Report of Regents ends at that date-</p>\n\n|  | Amounts Expended | |\n|---|---|---|\n| University | 1881 - June 1886 | 261788 44 |\n|  | Annual Average for 5 years | 52357 68 |\n\n|  |  |  |\n|---|---|---|\n| A & M College | From U.S. Endowment Interest (about) | 150000 |\n| 1871 - 86 15 years | State appropriations | 285896 40 |\n|  | Total from all sources - | 435896 40 |\n|  | Annual Average from all sources | 29059 76 |\n|  | \" \" State | 19059 76 |\n|  | From University Fund 50,000 Ann. average | 3333 33 |\n\n<p>[Margin:]<br>\nTotal<br>\n414896 40<br>\n264896 40<br>\n35000</p>\n\n<p>Or deducting amt for State Students<br>\nwe have for A & M College</p>\n\n|  |  | |\n|---|---|---|\n|  | Annual average all sources | 27659 76 |\n|  | \" \" State | 17659 76 |\n|  | \" \" Univ Fund | 2333 33 |\n\n<p>It has been stated that the College has a much larger plant than the University but in such statements no account is taken of the fact that the College has been established three times as long as the University-</p>\n\n<p>The fact that the College has more property than the University only shows how economically its affairs have been administered - for if we deduct the amount used for State Students we have as total amount which the A & M. College has received from State for a period of 15 years from 1871 to June 1886 $264896.40</p>\n\n<p>The University has in five years from 1881-1886 expended $261788.44</p>\n\n<p>While the University has cost the State nearly as much in 5 years as the College has in 15 years, yet the College has a much more valuable property for the State than the University has</p>\n\nSo, what's happening here? It appears to be a comparative financial analysis. I've broken it down into sections:\n\n*   **Header and Intro:** Sets the scene \u2013 comparing the two institutions, limiting the time frame.\n*   **University Data:** Displays expenditures for the University over a five-year period.\n*   **A & M College Data:** Gives figures for A & M College covering a much longer period. Notably, it sources funds.\n*   **Deductions:** There's a deduction for \"State Students,\" which adjusts the figures for A & M, and shows calculations made in the left margin. The deduction seems to have been based on 35000 or 1400/year for 15 years.\n*   **Textual Analysis/Comparison:** The concluding paragraphs put these numbers into context. The writer is emphasizing that, while the University has spent almost as much as the College in a much shorter period, the College has more valuable assets. This is related to how long it has been established.\n\nImportant notes, and observations:\n\n*   **Handwriting:** It is cursive, somewhat messy, but generally legible. There are corrections and some numbers are overwritten. I've done my best with the numerals.\n*   **Marginalia:** The margin notes seem to be important to the calculations, and I transcribed them.\n*   **\"Amounts Expended\" note:** This line is inserted, suggesting it was added after the initial\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 6840,
-            "width": 4418,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/588",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/587",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/8ce09f3d-e660-38bd-b617-ec5c7fe50628/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 6840,
-                                "width": 4418,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8ce09f3d-e660-38bd-b617-ec5c7fe50628",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/602",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/601",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>3</p>\n\n<p>\nIn June 1886 the University Completed<br>\nits 3<sup>rd</sup> session The A & M College its<br>\n10<sup>th</sup> - The University had expended $261788.44<br>\nAverage Cost per session since the Univ.<br>\nhad been opened $ 87262.81\n</p>\n\n<p>\nThe A & M College expended to same date<br>\nfrom all sources $435896.40<br>\nAn average per session 10 sessions of 43589.64<br>\nFrom State appropriations 285896.40<br>\nAverage per session 28589.64<br>\nOr deducting Amt [illegible] State Students<br>\nThe Average for ten sessions $ 26489.64\n</p>\n\n<p>\nCompare these figures -<br>\nThe College as a result had property valued at $228972.47<br>\nWhat has the University? <small>not more than $100 000 worth</small><br>\nIn three sessions the University [illegible]<br>\nfrom Univ fund 261788.44\n</p>\n\n<p>\nIn 15 years A & M C. had from<br>\nUniv fund exclusive of State<br>\nStudents 35000.00<br>\nOr with amt for State Students 50000.00<br>\nThis is surely a \"small sized Grab\"\n</p>\n\n<p>\nComparison of Expenses 1885-86 Session\n</p>\n\n| | A & M College | University |\n| :--- | :--- | :--- |\n| State Appr. | 17108.96 | $54928.82 |\n| U.S. Endowment | 11993.48 | |\n| | $ 29102.44 | |\n\n<p>\nThe expense of A & M College was<br>\na little more than 1/2 that of Univ.\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/603",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Image Analysis and Transcription: Financial Records of 1886**\n\nAlright, let's break this down. From what I can see, we've got some handwritten financial data here, probably from June 1886. It looks like a comparison between the \"University\" (likely the University of Texas, given the A&M context) and the Agricultural and Mechanical College (A&M). The handwriting is cursive and a bit rushed. The author appears to have written on lined ledger paper and made some corrections, which is useful in some ways, and distracting in others! We're dealing with things like sessions, expenditures, state appropriations, and endowments. The numbers are indented, probably indicating a tabular layout of sorts.\n\nHere's my transcription, line by line, aiming for accuracy while preserving the original layout and any quirks I spot:\n\n<p>\n3\n</p>\n<p>\nIn June 1886 the University Completed<br>\nits 3<sup>rd</sup> session The A & M College its<br>\n10<sup>th</sup> - The University had expended $261 788.44\n</p>\n<p>\nAverage Cost per session since the Univ.<br>\nhad been opened $ 87262.81\n</p>\n<p>\nThe A & M College expended to same date<br>\nfrom all sources $435 896.40\n</p>\n<p>\nAn average per session 10 sessions of 43589.64<br>\nFrom State appropriations 285896.40<br>\nAverage per session 28589.64\n</p>\n<p>\nOr deducting Amt [illegible] State Students<br>\nThe Average for ten sessions $ 26489.64\n</p>\n<p>\nCompare these figures -<br>\nThe College as a result had property valued at $228972.47<br>\nWhat has the University? <small>not more than $100 000 worth</small><br>\nIn three sessions the University [illegible]<br>\nfrom Univ fund 261788.44\n</p>\n<p>\nIn 15 years A & M C. had from<br>\nUniv fund exclusive of State<br>\nStudents 35000.00<br>\nOr with amt for State Students 50000.00\n</p>\n<p>\nThis is surely a \"small sized Grab\"\n</p>\n<p>\nComparison of Expenses 1885-86 Session\n</p>\n\n| | A & M College | University |\n| :--- | :--- | :--- |\n| State Appr. | 17108.96 | $54928.82 |\n| U.S. Endowment | 11993.48 | |\n| | $ 29102.44 | |\n<p>\nThe expense of A & M College was<br>\na little more than 1/2 that of Univ.\n</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 6840,
-            "width": 4418,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/590",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/589",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/91d2debd-c557-39b0-97ea-9470cf4a21b8/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 6840,
-                                "width": 4418,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/91d2debd-c557-39b0-97ea-9470cf4a21b8",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/605",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/604",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>4</p>\n\n<p>Again All expenses of A&M C -<br/>\nwere for 85-86 as follows</p>\n\n| | | |\n| :--- | :--- | :--- |\n| State. Appr. | 17 108.96 | |\n| U.S. Endowment | 11 993 48 | |\n| Cash of maintaining | | |\n| Students paid by | | This last item is |\n| them | 17 176.19 | the amount that |\n| | $ 46 278.63 | the students pay for |\n\n<p>board washing fuel lights books medical attend<br/>\nance &c &c &c -</p>\n\n<p>University for same session 54 928 82<br/>\nWhich does not include expenses of Students<br/>\nThe Cost of the University for Salaries<br/>\n& running expenses was $ 8650 19<br/>\nMore than the <i>total</i> Cost expenses of<br/>\nA&M College including all amounts<br/>\npaid by Students for Board Books<br/>\nMedical attendance &c &c &c -<br/>\nIf this latter <sup>these items</sup> were obtainable for the<br/>\nUniversity Students the difference would<br/>\nbe more emphatic. -</p>\n\n<p><small>This will explain why the A&M has a larger property than the Univ.<br/>\nIt has not spent all its money in paying running expenses</small></p>\n\n<p>Cost of Administration of the two institu-<br/>\ntions for session 1885-86-</p>\n\n| University | A&M College |\n| :--- | :--- |\n| Salaries of Professors<br/>& officers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42 900 00 | 14 869.48<br/>{ A&M Coll<br/>about 1/3 Cost<br/>of University |\n| Expenses Board<br/>of Regents 2 years &nbsp;&nbsp;&nbsp;&nbsp; $ 1812 00 | Expenses Bd of Directors<br/>2 years &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 449 03 |\n\n<p>A&M Board cost less <sup>than</sup> 1/4 that of the Univ Board</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/606",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of Financial Comparison**\n\nOkay, here's what I've got. The task is to transcribe this handwritten financial comparison from 1885-1886. I've broken it down into sections to make it clear.\n\nFirst, there's a faint \"4\" at the top of the document.\n\n<br/>\n<br/>\n\nHere's the first section:\n\n<br/>\n<br/>\n\nAgain All expenses of A&M C -\n<br/>\nwere for 85-86 as follows\n<br/>\n<br/>\n\n|                   |            |                              |\n| :---------------- | :--------- | :--------------------------- |\n| State. Appr.      | 17 108.96  |                              |\n| U.S. Endowment    | 11 993 48  |                              |\n| Cash of maintaining   |            |                               |\n| Students paid by   |            |                               |\n| them           | 17 176.19  | This last item is the amount that the students pay for board washing fuel lights books medical attendance &c &c &c -  |\n|                  | $ 46 278.63 |                              |\n\n<br/>\n<br/>\n\nUniversity for same session 54 928 82\n<br/>\nWhich does not include expenses of Students\n<br/>\nThe Cost of the University for Salaries\n<br/>\n& running expenses was $ 8650 19\n<br/>\nMore than the <i>total</i> Cost expenses of\n<br/>\nA&M College including all amounts\n<br/>\npaid by Students for Board Books\n<br/>\nMedical attendance &c &c &c -\n<br/>\nIf this latter <sup>these items</sup> were obtainable for the\n<br/>\nUniversity Students the difference would\n<br/>\nbe more emphatic. -\n<br/>\n<br/>\n\nThis will explain why the A&M has a larger property than the Univ.\n<br/>\nIt has not spent all its money in paying running expenses\n\n<br/>\n<br/>\n\nCost of Administration of the two institu-\n<br/>\ntions for session 1885-86-\n<br/>\n<br/>\n|                                       | University   | A&M College                  |\n| :------------------------------------ | :----------- | :--------------------------- |\n| Salaries of Professors & officers     | 42 900 00    | 14 869.48  <br> { A&M Coll about 1/3 cost of University       |\n| Expenses Board of Regents 2 years      | $ 1812 00    | Expenses Bd of Directors 2 years <br> $ 449 03  |\n|                                       |              | A&M Board cost less <sup>than</sup> 1/4 that of the Univ Board |\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-560.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Appropriations to A&M College, circa 1871-1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Appropriations to A&M College, circa 1871-1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Folder 1 Oversize 4-flap Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College--Finance",
+          "Universities and colleges--Texas--Finance",
+          "Public funds--Texas",
+          "Educational appropriations--Texas",
+          "State budgets--Texas--History--19th century",
+          "Comparative institutional analysis",
+          "Higher education--Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas Legislature",
+          "Board of Regents, University of Texas",
+          "Board of Directors, Agricultural and Mechanical College"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "This financial document provides a detailed analysis of state appropriations to Texas A&M College from 1871 to 1886, tracking $298,787.44 in total funding across multiple legislative appropriations bills. The record includes a comparative analysis with the University of Texas, demonstrating that A&M College achieved greater property value and administrative efficiency despite receiving substantially lower per-session funding over its fifteen-year period. The document argues that A&M College's superior fiscal management resulted in significant capital accumulation ($228,972.47 in property value) while maintaining operational expenses less than half those of the University of Texas."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/65edfcbe-389e-3d3b-bfad-9179d1ae0c4b/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 6840,
+      "width": 4418,
+      "items": [
+        {
+          "id": "http://example.org/iiif/584",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/583",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/65edfcbe-389e-3d3b-bfad-9179d1ae0c4b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 6840,
+                "width": 4418,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/65edfcbe-389e-3d3b-bfad-9179d1ae0c4b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/596",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/595",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Appropriations to A&M College</p>\n\n| | | | |\n| :--- | :--- | :--- | :--- |\n| Apr 17 1871 | 75 000 | School Fund | Buildings |\n| Oct 2 1874 | 40 000 | General Revenue | \" |\n| Feb 8 1875 | 32 000 | \" \" | \" |\n| Jun 24 1876 | 40 000 | \" \" | \" |\n| | $187,000 | appropriated before the College<br>was opened - | |\n| Spec. Sess. 1879 | 15,000 | University Fund | Library apparatus ag & Imple<br>ment & Mechanical Tools |\n| Def. Bill 1881 | 4 987.44 | General Revenue | To pay a debt incurred<br>in making improvements |\n| Appr. Bill 1881 | 15 000. | Univ. Fund | State Students |\n| Def \" 1883 | 6 000 | General Revenue | \" \" |\n| \" \" 1883 | 800 | \" \" | To Settle Land Title |\n| Appr Bill 1883 | 30 000 | \" \" | Support & Maintenance<br>Improvements &c |\n| \" \" 1883 | 10 000 | University Fund | Do Do Do |\n| \" \" 1885 | 20 000 | General Revenue | Support & Maintenance |\n| \" \" 1885 | 10 000 | University Fund | \" \" |\n| Total | $298.787.44 | Covering a period from<br>1871 to 1887 - 16 years | |\n\n<p>$21 000 appropriated for State Students was of no<br>\nuse to the College but went to the Students -</p>\n\n<p>Deducting this amount you have Total<br>\nState appropriations from All Sources $277.787.44<br>\nFor a period of 16 years</p>\n\n<p>$187000 was expended before College was opened<br>\nTherefor $90 787.44 has been appropriated since the<br>\nCollege was inaugurated in 1876 more<br>\nthan ten years an annual average of<br>\nonly a little more than $9000<sup>00</sup></p>\n\n<p>By referring to above it will be seen that<br>\nthe total amount derived by College from<br>\nUniversity Fund has been $50000<br>\nOr deducting amount for State Students $35000<br>\nAn average for the ten sessions of only<br>\n$3500 benefit to the College from the<br>\nUniversity Fund</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/597",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's my analysis of this financial record detailing appropriations to A&M College:**\n\nI'm looking at a record, likely a ledger, showing appropriations to \"A & M College.\" It's divided into a table and a narrative section.\n\n## Section 1: The Table\n\n| Date | Amount | Fund | Purpose |\n|---|---|---|---|\n| Apr 17 1871 | 75 000 | School Fund | Buildings |\n| Oct 2 1874 | 40 000 | General Revenue | \" |\n| Feb 8 1875 | 32 000 | \" | \" |\n| Jun 24 1876 | 40 000 | \" | \" |\n|  | $187,000 |  | appropriated before the College was opened |\n| Spec. Sess. 1879 | 15 000 | University Fund | Library apparatus ag & Imple ment & Mechanical Tools |\n| Def. Bill 1881 | 4987.44 | General Revenue | To pay a debt incurred in making improvements |\n| Appr. Bill 1881 | 15000. | Univ. Fund | State Students |\n| Def \" 1883 | 6000 | General Revenue | \" |\n| \" 1883 | 800 | \" | To Settle Land Title |\n| Appr Bill 1883 | 30 000 | \" | Support & Maintenance Improvements &c |\n| \" 1883 | 10 000 | University Fund | Do Do Do |\n| \" 1885 | 20 000 | General Revenue | Support & Maintenance |\n| \" 1885 | 10 000 | University Fund | \" |\n|  | Total $298.787.44 |  | Covering a period from 1871 to 1887 - 16 years |\n\n## Section 2: The Narrative\n\n<p>$21000 appropriated for State Students was of no use to the College but went to the Students -</p>\n\n<p>Deducting this amount you have Total State appropriations from All Sources $277.787.44<br>For a period of 16 years</p>\n\n<p>$187000 was expended before College was opened<br>Therefore $90 787.44 has been appropriated since the College was inaugurated in 1876 more than ten years an annual average of only a little more than $9000<sup>00</sup></p>\n\n<p>By referring to above it will be seen that the total amount derived by College from University Fund has been $50000<br>Or deducting amount for State Students $35000<br>An average for the ten sessions of only $3500 benefit to the College from the University Fund</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 6840,
+      "width": 4418,
+      "items": [
+        {
+          "id": "http://example.org/iiif/586",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/585",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/acbde642-b540-325c-a631-ad1bceae9061/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 6840,
+                "width": 4418,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/acbde642-b540-325c-a631-ad1bceae9061",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/599",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/598",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Comparison between the University and<br/>\nthe A &amp; M College</p>\n\n<p>Comparison made to June 1886 because<br/>\nthe Report of Regents ends at that date-</p>\n\n<p>Amounts Expended</p>\n\n| University | 1881 - June 1886 | 261788 | 44 |\n| :--- | :--- | :--- | :--- |\n| | Annual Average for 5 years | 52357 | 68 |\n\n<br/>\n\n| A &amp; M College | | (about) | |\n| :--- | :--- | :--- | :--- |\n| 1871- 86 15 years | From U.S. Endowment Interest | 150000 | |\n| | State appropriations | 285896 | 40 |\n| | Total from all sources - | 435896 | 40 |\n| | Annual Average from all sources | 29059 | 76 |\n| | \" \" State | 19059 | 76 |\n| | From University Fund 50,000 Ann. average | 3333 | 33 |\n\n<br/>\n\n<p>Or deducting amt for State Students<br/>\n[Margin: Total<br/>\n414896 40<br/>\n264896 40<br/>\n35000]</p>\n\n| we have for A &amp; M College | | |\n| :--- | :--- | :--- |\n| Annual average | all sources | 27659 76 |\n| \" \" | State | 17659 76 |\n| \" \" | Univ Fund | 2333 33 |\n\n<p>It has been stated that the College has a much<br/>\nlarger plant than the University but in such<br/>\nstatements no account is taken of the fact<br/>\nthat the College has been established three<br/>\ntimes as long as the University -<br/>\nThe fact that the College has more property than<br/>\nthe University only shows how economically its<br/>\naffairs have been administered - for if we<br/>\ndeduct the amount used for State Students<br/>\nwe have as total amount which the A &amp; M.<br/>\nCollege has received from State for a period<br/>\nof 15 years from 1871 to June 1886 $264896 40</p>\n\n<p>The University has in five years from<br/>\n1881- 1886 expended $261788.44</p>\n\n<p>While the University has cost the State<br/>\nnearly as much in 5 years as the College<br/>\nhas in 15 years, yet the College has<br/>\na much more valuable property for<br/>\nthe State than the University has</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/600",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Transcription and Analysis of Financial Comparison**\n\nOkay, here's what I've got. This is a transcription and analysis of a handwritten document comparing the financial situations of the \"University\" and the \"A & M College\". Based on my assessment, it seems to be a financial report or comparison, likely for some official use given the level of detail and the specific timeframes mentioned. I can see the structure right away. Here's a detailed transcription with my notes and annotations:\n\n<p>Comparison between the University and the A & M College<br>\nComparison made to June 1886 because the Report of Regents ends at that date-</p>\n\n|  | Amounts Expended | |\n|---|---|---|\n| University | 1881 - June 1886 | 261788 44 |\n|  | Annual Average for 5 years | 52357 68 |\n\n|  |  |  |\n|---|---|---|\n| A & M College | From U.S. Endowment Interest (about) | 150000 |\n| 1871 - 86 15 years | State appropriations | 285896 40 |\n|  | Total from all sources - | 435896 40 |\n|  | Annual Average from all sources | 29059 76 |\n|  | \" \" State | 19059 76 |\n|  | From University Fund 50,000 Ann. average | 3333 33 |\n\n<p>[Margin:]<br>\nTotal<br>\n414896 40<br>\n264896 40<br>\n35000</p>\n\n<p>Or deducting amt for State Students<br>\nwe have for A & M College</p>\n\n|  |  | |\n|---|---|---|\n|  | Annual average all sources | 27659 76 |\n|  | \" \" State | 17659 76 |\n|  | \" \" Univ Fund | 2333 33 |\n\n<p>It has been stated that the College has a much larger plant than the University but in such statements no account is taken of the fact that the College has been established three times as long as the University-</p>\n\n<p>The fact that the College has more property than the University only shows how economically its affairs have been administered - for if we deduct the amount used for State Students we have as total amount which the A & M. College has received from State for a period of 15 years from 1871 to June 1886 $264896.40</p>\n\n<p>The University has in five years from 1881-1886 expended $261788.44</p>\n\n<p>While the University has cost the State nearly as much in 5 years as the College has in 15 years, yet the College has a much more valuable property for the State than the University has</p>\n\nSo, what's happening here? It appears to be a comparative financial analysis. I've broken it down into sections:\n\n*   **Header and Intro:** Sets the scene – comparing the two institutions, limiting the time frame.\n*   **University Data:** Displays expenditures for the University over a five-year period.\n*   **A & M College Data:** Gives figures for A & M College covering a much longer period. Notably, it sources funds.\n*   **Deductions:** There's a deduction for \"State Students,\" which adjusts the figures for A & M, and shows calculations made in the left margin. The deduction seems to have been based on 35000 or 1400/year for 15 years.\n*   **Textual Analysis/Comparison:** The concluding paragraphs put these numbers into context. The writer is emphasizing that, while the University has spent almost as much as the College in a much shorter period, the College has more valuable assets. This is related to how long it has been established.\n\nImportant notes, and observations:\n\n*   **Handwriting:** It is cursive, somewhat messy, but generally legible. There are corrections and some numbers are overwritten. I've done my best with the numerals.\n*   **Marginalia:** The margin notes seem to be important to the calculations, and I transcribed them.\n*   **\"Amounts Expended\" note:** This line is inserted, suggesting it was added after the initial\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 6840,
+      "width": 4418,
+      "items": [
+        {
+          "id": "http://example.org/iiif/588",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/587",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/8ce09f3d-e660-38bd-b617-ec5c7fe50628/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 6840,
+                "width": 4418,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/8ce09f3d-e660-38bd-b617-ec5c7fe50628",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/602",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/601",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>3</p>\n\n<p>\nIn June 1886 the University Completed<br>\nits 3<sup>rd</sup> session The A & M College its<br>\n10<sup>th</sup> - The University had expended $261788.44<br>\nAverage Cost per session since the Univ.<br>\nhad been opened $ 87262.81\n</p>\n\n<p>\nThe A & M College expended to same date<br>\nfrom all sources $435896.40<br>\nAn average per session 10 sessions of 43589.64<br>\nFrom State appropriations 285896.40<br>\nAverage per session 28589.64<br>\nOr deducting Amt [illegible] State Students<br>\nThe Average for ten sessions $ 26489.64\n</p>\n\n<p>\nCompare these figures -<br>\nThe College as a result had property valued at $228972.47<br>\nWhat has the University? <small>not more than $100 000 worth</small><br>\nIn three sessions the University [illegible]<br>\nfrom Univ fund 261788.44\n</p>\n\n<p>\nIn 15 years A & M C. had from<br>\nUniv fund exclusive of State<br>\nStudents 35000.00<br>\nOr with amt for State Students 50000.00<br>\nThis is surely a \"small sized Grab\"\n</p>\n\n<p>\nComparison of Expenses 1885-86 Session\n</p>\n\n| | A & M College | University |\n| :--- | :--- | :--- |\n| State Appr. | 17108.96 | $54928.82 |\n| U.S. Endowment | 11993.48 | |\n| | $ 29102.44 | |\n\n<p>\nThe expense of A & M College was<br>\na little more than 1/2 that of Univ.\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/603",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Image Analysis and Transcription: Financial Records of 1886**\n\nAlright, let's break this down. From what I can see, we've got some handwritten financial data here, probably from June 1886. It looks like a comparison between the \"University\" (likely the University of Texas, given the A&M context) and the Agricultural and Mechanical College (A&M). The handwriting is cursive and a bit rushed. The author appears to have written on lined ledger paper and made some corrections, which is useful in some ways, and distracting in others! We're dealing with things like sessions, expenditures, state appropriations, and endowments. The numbers are indented, probably indicating a tabular layout of sorts.\n\nHere's my transcription, line by line, aiming for accuracy while preserving the original layout and any quirks I spot:\n\n<p>\n3\n</p>\n<p>\nIn June 1886 the University Completed<br>\nits 3<sup>rd</sup> session The A & M College its<br>\n10<sup>th</sup> - The University had expended $261 788.44\n</p>\n<p>\nAverage Cost per session since the Univ.<br>\nhad been opened $ 87262.81\n</p>\n<p>\nThe A & M College expended to same date<br>\nfrom all sources $435 896.40\n</p>\n<p>\nAn average per session 10 sessions of 43589.64<br>\nFrom State appropriations 285896.40<br>\nAverage per session 28589.64\n</p>\n<p>\nOr deducting Amt [illegible] State Students<br>\nThe Average for ten sessions $ 26489.64\n</p>\n<p>\nCompare these figures -<br>\nThe College as a result had property valued at $228972.47<br>\nWhat has the University? <small>not more than $100 000 worth</small><br>\nIn three sessions the University [illegible]<br>\nfrom Univ fund 261788.44\n</p>\n<p>\nIn 15 years A & M C. had from<br>\nUniv fund exclusive of State<br>\nStudents 35000.00<br>\nOr with amt for State Students 50000.00\n</p>\n<p>\nThis is surely a \"small sized Grab\"\n</p>\n<p>\nComparison of Expenses 1885-86 Session\n</p>\n\n| | A & M College | University |\n| :--- | :--- | :--- |\n| State Appr. | 17108.96 | $54928.82 |\n| U.S. Endowment | 11993.48 | |\n| | $ 29102.44 | |\n<p>\nThe expense of A & M College was<br>\na little more than 1/2 that of Univ.\n</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 6840,
+      "width": 4418,
+      "items": [
+        {
+          "id": "http://example.org/iiif/590",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/589",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/91d2debd-c557-39b0-97ea-9470cf4a21b8/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 6840,
+                "width": 4418,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/91d2debd-c557-39b0-97ea-9470cf4a21b8",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/605",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/604",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>4</p>\n\n<p>Again All expenses of A&M C -<br/>\nwere for 85-86 as follows</p>\n\n| | | |\n| :--- | :--- | :--- |\n| State. Appr. | 17 108.96 | |\n| U.S. Endowment | 11 993 48 | |\n| Cash of maintaining | | |\n| Students paid by | | This last item is |\n| them | 17 176.19 | the amount that |\n| | $ 46 278.63 | the students pay for |\n\n<p>board washing fuel lights books medical attend<br/>\nance &c &c &c -</p>\n\n<p>University for same session 54 928 82<br/>\nWhich does not include expenses of Students<br/>\nThe Cost of the University for Salaries<br/>\n& running expenses was $ 8650 19<br/>\nMore than the <i>total</i> Cost expenses of<br/>\nA&M College including all amounts<br/>\npaid by Students for Board Books<br/>\nMedical attendance &c &c &c -<br/>\nIf this latter <sup>these items</sup> were obtainable for the<br/>\nUniversity Students the difference would<br/>\nbe more emphatic. -</p>\n\n<p><small>This will explain why the A&M has a larger property than the Univ.<br/>\nIt has not spent all its money in paying running expenses</small></p>\n\n<p>Cost of Administration of the two institu-<br/>\ntions for session 1885-86-</p>\n\n| University | A&M College |\n| :--- | :--- |\n| Salaries of Professors<br/>& officers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42 900 00 | 14 869.48<br/>{ A&M Coll<br/>about 1/3 Cost<br/>of University |\n| Expenses Board<br/>of Regents 2 years &nbsp;&nbsp;&nbsp;&nbsp; $ 1812 00 | Expenses Bd of Directors<br/>2 years &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 449 03 |\n\n<p>A&M Board cost less <sup>than</sup> 1/4 that of the Univ Board</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/606",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of Financial Comparison**\n\nOkay, here's what I've got. The task is to transcribe this handwritten financial comparison from 1885-1886. I've broken it down into sections to make it clear.\n\nFirst, there's a faint \"4\" at the top of the document.\n\n<br/>\n<br/>\n\nHere's the first section:\n\n<br/>\n<br/>\n\nAgain All expenses of A&M C -\n<br/>\nwere for 85-86 as follows\n<br/>\n<br/>\n\n|                   |            |                              |\n| :---------------- | :--------- | :--------------------------- |\n| State. Appr.      | 17 108.96  |                              |\n| U.S. Endowment    | 11 993 48  |                              |\n| Cash of maintaining   |            |                               |\n| Students paid by   |            |                               |\n| them           | 17 176.19  | This last item is the amount that the students pay for board washing fuel lights books medical attendance &c &c &c -  |\n|                  | $ 46 278.63 |                              |\n\n<br/>\n<br/>\n\nUniversity for same session 54 928 82\n<br/>\nWhich does not include expenses of Students\n<br/>\nThe Cost of the University for Salaries\n<br/>\n& running expenses was $ 8650 19\n<br/>\nMore than the <i>total</i> Cost expenses of\n<br/>\nA&M College including all amounts\n<br/>\npaid by Students for Board Books\n<br/>\nMedical attendance &c &c &c -\n<br/>\nIf this latter <sup>these items</sup> were obtainable for the\n<br/>\nUniversity Students the difference would\n<br/>\nbe more emphatic. -\n<br/>\n<br/>\n\nThis will explain why the A&M has a larger property than the Univ.\n<br/>\nIt has not spent all its money in paying running expenses\n\n<br/>\n<br/>\n\nCost of Administration of the two institu-\n<br/>\ntions for session 1885-86-\n<br/>\n<br/>\n|                                       | University   | A&M College                  |\n| :------------------------------------ | :----------- | :--------------------------- |\n| Salaries of Professors & officers     | 42 900 00    | 14 869.48  <br> { A&M Coll about 1/3 cost of University       |\n| Expenses Board of Regents 2 years      | $ 1812 00    | Expenses Bd of Directors 2 years <br> $ 449 03  |\n|                                       |              | A&M Board cost less <sup>than</sup> 1/4 that of the Univ Board |\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/560/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

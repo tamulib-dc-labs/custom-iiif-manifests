@@ -1,139 +1,188 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-167.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Granville Pierce, February 22, 1887"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1887-02-22"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Granville Pierce, February 22, 1887"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/c0217dc8-46b7-3f74-9c17-81e510690e67/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4141,
-            "width": 3203,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/c0217dc8-46b7-3f74-9c17-81e510690e67/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4141,
-                                "width": 3203,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c0217dc8-46b7-3f74-9c17-81e510690e67",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"center\">MEMORANDUM.</p>\n<p align=\"right\">Feb 22<sup>nd</sup> 1887.</p>\n\n| From | To |\n| :--- | :--- |\n| GRANVILLE T. PIERCE,<br><small><b>Town Clerk's Office,</b></small><br>So. BRITAIN, CONN. | <i>Prof Louis L. McInnis</i><br><i>College Station</i><br><i>Texas.</i> |\n\n<p>Dear Sir :</p>\n<p>Being interested in Archaeology & a collector of<br>\nIndian relics, particularly of Stone I desire to obtain<br>\nexamples from various locolities for comparison & study<br>\nI have nothing from Texas, but should much pleased<br>\nto procure some specimens. And I will gladly<br>\ncompensate any one who can furnish good spear &<br>\narrow heads Scrapers, drills Knives, or ornamental<br>\nstones, &c in good relics, books, minerals, cash in<br>\nshort in any possible manner most agreeable to<br>\nthe gentleman who thus can favor me \u2013</p>\n\n<p>All classes of relics are very acceptable but I am most<br>\nanxious to procure fine spear & arrow heads, particularly<br>\nthose of various colors & minerals. Specimens of green<br>\nor red color are rare here, & I should value any such<br>\nvery highly. Another object of search is a large spear<br>\nor lance head, a very long one is much desired \u2013</p>\n\n<p>If you are able & willing to assist me I shall gladly<br>\nrepay you in the best manner I can \u2013 but if you are<br>\nnot able to do so, it is possible that you can name<br>\nanother gentleman who can give it his attention<br>\nPlease favor me with a reply & Oblige<br>\nYours very respectfully<br>\nGranville T Pierce.<br>\nYale Class of '55</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Okay, here's how I'm approaching this transcription task. First, I need to understand the goal. I'm acting as a transcriptionist, focusing on accuracy, layout preservation, and handling handwriting interpretation, while limited to specific HTML/Markdown. My primary task is to reproduce the text exactly as it appears in the image, adhering to the given formatting guidelines.\n\nI'm analyzing the image; it's a handwritten memorandum on letterhead. The key elements are the sender (Granville T. Pierce), date (Feb 22nd, 1887), recipient (Prof. Louis L. McInnis, College Station, Texas), and the actual text content of the letter. The handwriting is a cursive style typical of the late 19th century, which requires careful deciphering of letter formations, especially things like 'r', 's', and 'n'.\n\nMy transcription process involves a step-by-step approach. I start with the header, recognizing the layout where \"From\" and \"To\" are presented as separate pieces of information. I'll translate the text accurately, including all spelling, punctuation, and layout details as best I can. I will use Markdown to create columns and formatting for the header (MEMORANDUM, From, To).\n\nI'll proceed to the body of the letter, paragraph by paragraph, transcribing each word carefully. I'm paying close attention to the sender's interest in archaeology and collecting Indian relics. I'm noting his specific requests for specimens from Texas and the offer of compensation. I'll include any details about handwriting quirks, and any perceived spelling errors or grammar issues (like \"should much pleased\").\n\nI'm verifying each transcribed element, checking for clarity and potential ambiguities. For instance, I'm verifying the spelling of words like \"Scrapers\" (it looks a bit like \"Scropers\" with a cursive a). Also, I will re-read the word \"favor\" and the intent. I will also make sure to use approved markup elements per the instructions.\n\nFinally, I'm constructing the output. I'll format the transcription, using appropriate Markdown to render the header and the body of the text. I will pay careful attention to the alignment and spacing to reproduce the letter's appearance as closely as possible, using the allowed HTML/Markdown elements to create the columns and the paragraphs. Before I submit the final product, I'll review it one more time to make certain of accuracy. The goal is to produce a faithful and readable transcription of the original handwritten memorandum.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-167.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Granville Pierce, February 22, 1887"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1887-02-22"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Granville Pierce, February 22, 1887"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Archaeology",
+          "Indian relics",
+          "Stone tools",
+          "Arrowheads",
+          "Spear heads",
+          "Artifact collecting",
+          "Texas--Antiquities",
+          "Native American artifacts"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Pierce, Granville T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Yale University"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A memorandum from Granville T. Pierce, Town Clerk of South Britain, Connecticut, to Professor Louis L. McInnis at College Station, Texas, requesting assistance in acquiring Native American stone artifacts for his collection and comparative study. Pierce seeks specimens including arrowheads, spear points, scrapers, drills, and ornamental stones, with particular interest in rare colored examples and large lance heads, offering compensation through various means including relics, books, minerals, or cash."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/c0217dc8-46b7-3f74-9c17-81e510690e67/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4141,
+      "width": 3203,
+      "items": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/c0217dc8-46b7-3f74-9c17-81e510690e67/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4141,
+                "width": 3203,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/c0217dc8-46b7-3f74-9c17-81e510690e67",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"center\">MEMORANDUM.</p>\n<p align=\"right\">Feb 22<sup>nd</sup> 1887.</p>\n\n| From | To |\n| :--- | :--- |\n| GRANVILLE T. PIERCE,<br><small><b>Town Clerk's Office,</b></small><br>So. BRITAIN, CONN. | <i>Prof Louis L. McInnis</i><br><i>College Station</i><br><i>Texas.</i> |\n\n<p>Dear Sir :</p>\n<p>Being interested in Archaeology & a collector of<br>\nIndian relics, particularly of Stone I desire to obtain<br>\nexamples from various locolities for comparison & study<br>\nI have nothing from Texas, but should much pleased<br>\nto procure some specimens. And I will gladly<br>\ncompensate any one who can furnish good spear &<br>\narrow heads Scrapers, drills Knives, or ornamental<br>\nstones, &c in good relics, books, minerals, cash in<br>\nshort in any possible manner most agreeable to<br>\nthe gentleman who thus can favor me –</p>\n\n<p>All classes of relics are very acceptable but I am most<br>\nanxious to procure fine spear & arrow heads, particularly<br>\nthose of various colors & minerals. Specimens of green<br>\nor red color are rare here, & I should value any such<br>\nvery highly. Another object of search is a large spear<br>\nor lance head, a very long one is much desired –</p>\n\n<p>If you are able & willing to assist me I shall gladly<br>\nrepay you in the best manner I can – but if you are<br>\nnot able to do so, it is possible that you can name<br>\nanother gentleman who can give it his attention<br>\nPlease favor me with a reply & Oblige<br>\nYours very respectfully<br>\nGranville T Pierce.<br>\nYale Class of '55</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Okay, here's how I'm approaching this transcription task. First, I need to understand the goal. I'm acting as a transcriptionist, focusing on accuracy, layout preservation, and handling handwriting interpretation, while limited to specific HTML/Markdown. My primary task is to reproduce the text exactly as it appears in the image, adhering to the given formatting guidelines.\n\nI'm analyzing the image; it's a handwritten memorandum on letterhead. The key elements are the sender (Granville T. Pierce), date (Feb 22nd, 1887), recipient (Prof. Louis L. McInnis, College Station, Texas), and the actual text content of the letter. The handwriting is a cursive style typical of the late 19th century, which requires careful deciphering of letter formations, especially things like 'r', 's', and 'n'.\n\nMy transcription process involves a step-by-step approach. I start with the header, recognizing the layout where \"From\" and \"To\" are presented as separate pieces of information. I'll translate the text accurately, including all spelling, punctuation, and layout details as best I can. I will use Markdown to create columns and formatting for the header (MEMORANDUM, From, To).\n\nI'll proceed to the body of the letter, paragraph by paragraph, transcribing each word carefully. I'm paying close attention to the sender's interest in archaeology and collecting Indian relics. I'm noting his specific requests for specimens from Texas and the offer of compensation. I'll include any details about handwriting quirks, and any perceived spelling errors or grammar issues (like \"should much pleased\").\n\nI'm verifying each transcribed element, checking for clarity and potential ambiguities. For instance, I'm verifying the spelling of words like \"Scrapers\" (it looks a bit like \"Scropers\" with a cursive a). Also, I will re-read the word \"favor\" and the intent. I will also make sure to use approved markup elements per the instructions.\n\nFinally, I'm constructing the output. I'll format the transcription, using appropriate Markdown to render the header and the body of the text. I will pay careful attention to the alignment and spacing to reproduce the letter's appearance as closely as possible, using the allowed HTML/Markdown elements to create the columns and the paragraphs. Before I submit the final product, I'll review it one more time to make certain of accuracy. The goal is to produce a faithful and readable transcription of the original handwritten memorandum.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/167/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,281 +1,344 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-278.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, April 15, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-04-15"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, April 15, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/2662a83c-dacc-32ca-b026-d5a88d7fb186/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3849,
-            "width": 2991,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/86",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/85",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2662a83c-dacc-32ca-b026-d5a88d7fb186/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3849,
-                                "width": 2991,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2662a83c-dacc-32ca-b026-d5a88d7fb186",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/95",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/94",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p align=\"right\">Brenham Texas.<br>\nApril 15<sup>th</sup> 1881.</p>\n\n[Body]\n<p>My dear Professor<br>\nYour good letter came to hand<br>\nby due course of mail & read with much interest<br>\nI have seen Lewis & Peeler's battle no. 2 \u2013<br>\nI think Lewis is \"left\" in no 2. as <sup>he</sup> was in no 1.<br>\nHis fling at Gov G. to say the least of it, is<br>\nin bad taste & infelicitous. When I attack<br>\na man it must be the living \u2013 not the dead \u2013<br>\nIn his attack on the <i>living</i> I think he refers<br>\nto Capt R. & Prof. C. I had planned to defeat<br>\n[crossed-out: &] Peeler in this district \u2013 but the Gov was<br>\nvictorious in his plan for a new Board \u2013<br>\nHad the <i>Legislature</i> elected a new Board<br>\nC.C Garrett would have been your member<br>\nfrom this district \u2013 Who is C.C. Higgins<br>\nof your new Board? He is a new man to me \u2013<br>\nThanks for kind expressions for me, in our<br>\npresent embarrassment here \u2013 Our trouble<br>\nthreatens to be serious \u2013 Some of our good<br>\nbut money loving citizens claim to have<br>\nfound illegality in our School & R R tax \u2013</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/96",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription Workflow**\n\nAlright, let's break down this transcription. First, I put on my professional transcriptionist hat. The goal is to get this handwritten text, with all its quirks, down accurately. The instructions are clear: top-to-bottom, left-to-right, keep the spelling and punctuation as is, flag uncertainties, respect the layout, and stick to the allowed HTML tags. I've got an image of a handwritten letter, and that's my input.\n\nMy first move is a visual scan. It's a letter on lined paper, cursive, a bit hurried, and some spots are faded. I see the date and location in the top right, a salutation on the left, then the body of the text. The bottom is cut off, so no signature.\n\nNow, the detailed work begins, line by line. I start at the top right: \"Brenham Texas,\" easy. Then \"April 15th 1881,\" with a superscript \"th.\" The salutation is \"My dear Professor.\"\n\nThe body is where things get interesting. I'm reading and typing, being careful. \"Your good letter came to hand...\". I get to \"I have seen Lewis & Peeler's battle no. 2 \u2013\".  I slow down. I notice the \"2\" has a dash after it, and a \"\u2013\". And the \"Lewis & Peeler's\" looks right. Then, \"I think Lewis is 'left' in no 2. as he was in no 1.\" I catch the carat and insert a superscript to indicate insertion. The handwriting flows: \"His fling at Gov G...\". The \"G\" looks like it could be \"Garlington\" or a name, but I'll transcribe \"G.\" Then comes a political tone: \"...in bad taste & infelicitous. When I attack a man it must be the living \u2013 not the dead \u2013\".  There's an underlined \"living\" for emphasis.\n\nIt\u2019s the next line where things get tricky: \u201cIn his attack on the *living* I think he refers to Capt R. & Prof. C. I had planned to\u2026\u201d. I've got the political context now, which helps. I look closely at what the word is that\u2019s difficult to read: \u201cd-e-f-e-a-t.\u201d It could be \u201cdefeat\u201d or \u201cunseat,\u201d or even \u201cunfish\u201d. I'm looking at stroke counts, what sounds make sense, and I get that it\u2019s probably \u201cdefeat\u201d given the political context, I'll transcribe this as \"defeat\". There's something crossed out before \"Peeler,\" it looks like an \"&.\" \"Peeler in this district \u2013 but the Gov was victorious in his plan for a new Board \u2013\" I double-check \"Legislature\" because it\u2019s underlined. Then, \u201cC.C. Garrett\u201d and \u201cC.C. Higgins\u201d.\n\nI refine the transcription, going back and making corrections. I confirm \"infelicitous,\" I'm catching \u201cembarrassment,\" and all the \u201cRR tax\u201d and so on. I'm also double checking that difficult word in the \"defeat\" slot, which has a loop. It looks like it begins with u-, but the political context is so strong for \u201cdefeat,\" and it\u2019s the most likely given the letter shapes.\n\nNext, I'm thinking about formatting. The instructions say to maintain paragraph structure and not use more than the allowed tags. I'm going to label \"Header\" and \"Body,\" using `<br>` tags at the end of each line to preserve the visual line breaks, which helps communicate the letter's structure and layout.\n\nI\u2019m now constructing the final output. The format is:\n\n[Header]\nBrenham Texas.\nApril 15<sup>th</sup> 1881.\n\n[Body]\nMy dear Professor<br>\nYour good letter...\n\nAnd so on, using `<sup>` for the superscript, `<br>` for line breaks, and taking care with the HTML formatting. I keep rereading \u201cdefeat\u201d but I will keep it as the more likely interpretation, as well as considering other possibilities.\n\nFinally, I do a last, detailed check. I look over \"Lewis & Peeler's\". The quotations around \"left.\" \"C.C. Garrett.\" I make sure I am accurate for any insertions or alterations, and everything is precise. I decide the \"Gov\" looks like \"Gov. G.\". The transcription is ready.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3849,
-            "width": 2991,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/88",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/87",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b4e02c16-08b8-3886-b654-26600503ae41/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3849,
-                                "width": 2991,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b4e02c16-08b8-3886-b654-26600503ae41",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/98",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/97",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p align=\"right\">[1881, April 15]</p>\n\n<p>\nAn injunction restraining the City Collector<br>\nhas been temporarily granted \u2013 The City<br>\nAtty has filed an answer \u2013 asking that<br>\nthe injunction be dissolved. No matter<br>\nwhat may be the result in the District Court<br>\nit will go to the Supreme Court for final<br>\nadjudication \u2013 Few men live long enough<br>\nto realize the decision of a Texas Supreme Court.<br>\nThe next day after the suspension we obtained<br>\nthe use of the School buildings for the present &<br>\nopened School with 130 pay students \u2013<br>\nI shall seek employment elsewhere at<br>\nan early day \u2013 I may not find \u2013<br>\nWe have a corps of excellent teachers \u2013 native<br>\nand to \"the manor born\" \u2013 I like them all<br>\n& am unwilling to enter into a scramble<br>\nfor patronage \u2013 What do you think when Prof.<br>\nH. saw the law for the reorganization of your<br>\nBoard he moved \"heaven & earth\" to influence<br>\nthe Gov to send his name to the Senate<br>\nfor appointment \u2013 Irrepressible is not<br>\nthe word I want but my vocabulary is<br>\ntoo meager \u2013 \"My friend Tom Scott\" is down\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/99",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription Process**\n\nOkay, here's how I approached this transcription, step-by-step. First, I had to understand the task: I'm a transcriptionist, my job is to accurately reproduce the text from this image, paying attention to details like handwriting, errors, and any specific markup tags provided. The instructions were clear: read top-to-bottom, preserve any mistakes, interpret the handwriting, and use the given tags. I'm also supposed to label structural elements and use the given HTML tags correctly, with the final output being *only* the transcription.\n\nNext, I did an initial scan of the image. It's a handwritten letter on lined paper. The handwriting is cursive, a little faded, and slanted. There's a date in brackets at the top right, probably added later. The content seems to be about some legal issues (injunction, City Collector, City Atty, Supreme Court), school matters (suspension, school buildings, students), and employment/politics (Professor H., Governor, Senate).\n\nThen came the line-by-line transcription and deciphering. I started at the top, noted the date annotation as `[1881, April 15]`. Then, I transcribed each line, being careful to decipher the cursive writing. This involved a lot of close inspection to ensure I was getting the words right, especially for any abbreviations or words that were slightly unclear. For example, \"Atty\" was obviously an abbreviation. The word \"result\" looked a bit odd, but I decided it was \"result\" after a closer look at the letters. Other words that I checked for certainty were \"decision\", \"pay students\", \"manor born\", \"patronage\", \"Prof. H.\", \"Gov\", \"meager\", and \"Tom Scott\".\n\nNext, I focused on using the HTML tags for formatting. I decided to wrap the whole thing in `<p>` tags to keep the paragraph structure and use `<br>` to maintain the line breaks from the image. I put the date in its own paragraph at the top, and double-checked the final text. I made some self-corrections on \"H.\" and \"influence\", \"Irrepressible\" and \"Tom Scott\". Then I went back and re-evaluated the word \"result\" again, confirming my initial deciphering. Also, I double-checked several lines to make sure everything was correct.\n\nAs I transcribed, I made sure to carefully consider any possible alternative readings of the handwritten text. Specifically, I went back and reconsidered if \"result\" and \"Prof. H.\" were the best interpretations. I double checked `pay students` and remembered it was likely linked to school finance, and checked the words native, manor born and Tom Scott. I made sure to double-check that the \"H\" was not a \"St\" or \"It\". And I double checked the whole transcription against the original image. Finally, I ensured that the code was properly formatted and used the tags requested. I decided on the final formatting for the date, using a separate paragraph for it, and then created the final output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3849,
-            "width": 2991,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/90",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/89",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/c31c83bb-cdb2-352c-9f84-908b26a87b6d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3849,
-                                "width": 2991,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c31c83bb-cdb2-352c-9f84-908b26a87b6d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/101",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/100",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header] [1881, April 15]\n\n<p>will he do now - Play Court<br>\nat whose throne? Maj B is still at<br>\nWaxahachie - We had \"cards\" to Miss<br>\nJulien's marriage a few weeks ago -</p>\n<p>By the by, I learn Dr. M has sold his \"Sabine<br>\nfarm\" hard by the A.M.C. Where is the old<br>\nman? At his age & with a young family<br>\nthe old man has my poor sympathy -<br>\nI have no unkind word for him -</p>\n<p>\"Jimmie & Ball\"! I wonder if they survive?<br>\nI see tone of our State press is beginning<br>\nto \"pepper\" the University - Galveston N.<br>\ngives it the cold shoulder - I am not<br>\ncomfortable over the attitude of affairs<br>\nhere - but fret & chafe as little as possible -</p>\n<p>I think 90 o/o of our people endorse our<br>\nschools & my administration of them -<br>\nBut the \"grist\" is in the mill & who will<br>\nbe able to stand - Any changes contemplated<br>\nin Bryan? Our weather for a few days<br>\nhas been phenomenal - All well -</p>\n<p>Your good letters cheer me always -</p>\n<p>Your friend<br>\nJ. T. Hand</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/102",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Thoughts on Handwritten Document**\n\nOkay, so I've got this handwritten letter here, and it looks like it's from around the late 19th century. First thing's first, I need to get this transcribed. It's a cursive style, and the date is added in pencil: `[1881, April 15]`. I'll want to preserve that and transcribe *everything*, even if it's crossed out or messy. It seems to be personal correspondence, discussing folks like Maj B, Miss Julien, and Dr. M (or W?), along with some local happenings and university stuff. Looks like there's some University politics brewing, and I need to note any references to the weather.\n\nLet's get this line by line. First, the header `[1881, April 15]`.\n\nOkay, the first line is tricky because there are crossed-out words. It's illegible, but it looks like `what work` and is struck through. I will transcribe only what is visible, like `will he do now - Play Court`. Then there is `at whose throne? Maj B is still at`. \"Maj\" is likely Major, the \"B\" his initial. Then there's Waxahachie, Texas. Also, \"We had 'cards' to Miss Julien's marriage a few weeks ago -\". Ah, a nice bit of gossip. Then: \"By the by, I learn Dr. M has sold his 'Sabine farm' hard by the A.M.C.\" The \"A.M.C.\" is obviously the Agricultural and Mechanical College, which is now Texas A&M. I need to note that. I wonder if it is Dr. McInnis? \"Where is the old man? At his age & with a young family the old man has my poor sympathy - I have no unkind word for him -\".\n\nI continue. Now there's something about \"Jimmie & Ball\"! I wonder if they survive?\". I wonder if this refers to pets, people, or horses? Now some local press seems to be \"to 'pepper' the University - Galveston N. gives it the cold shoulder - I am not comfortable over the attitude of affairs here - but fret & chafe as little as possible -\". I need to keep an eye on this. Also, it looks like it says \"I think 90 o/o of our people endorse our schools & my administration of them -\". The 90 percent thing is interesting. Then comes \"But the 'grist' is in the mill & who will be able to stand - Any changes contemplated in Bryan? Our weather for a few days has been phenomenal - All well -\". And finally, \"Your good letters cheer me always - Your friend J. T. Hand\". Let's check the signature - it's definitely J.T. Hand.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-278.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, April 15, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-04-15"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, April 15, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Education--Texas--History--19th century",
+          "School administration",
+          "School finance",
+          "Tax law--Texas",
+          "Injunctions",
+          "Universities and colleges--Texas",
+          "School boards",
+          "Public schools--Texas",
+          "Educational policy--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Lewis",
+          "Peeler",
+          "Governor G.",
+          "Captain R.",
+          "Professor C.",
+          "C. C. Garrett",
+          "C. C. Higgins",
+          "Professor H.",
+          "Tom Scott",
+          "Major B.",
+          "Miss Julien",
+          "Dr. M.",
+          "Jimmie",
+          "Ball"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "In this letter dated April 15, 1881, J. T. Hand provides Louis L. McInnis with updates on educational and administrative challenges in Brenham, Texas, including litigation over school and railroad tax legality. Hand discusses the temporary injunction against the City Collector, the reopening of schools with 130 paying students, and personnel matters related to board reorganization. The correspondence reflects Hand's concerns about the legal proceedings, community support for the schools, and various personal and professional connections within the Texas educational community."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/2662a83c-dacc-32ca-b026-d5a88d7fb186/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3849,
+      "width": 2991,
+      "items": [
+        {
+          "id": "http://example.org/iiif/86",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/85",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2662a83c-dacc-32ca-b026-d5a88d7fb186/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3849,
+                "width": 2991,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2662a83c-dacc-32ca-b026-d5a88d7fb186",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/95",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/94",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"right\">Brenham Texas.<br>\nApril 15<sup>th</sup> 1881.</p>\n\n[Body]\n<p>My dear Professor<br>\nYour good letter came to hand<br>\nby due course of mail & read with much interest<br>\nI have seen Lewis & Peeler's battle no. 2 –<br>\nI think Lewis is \"left\" in no 2. as <sup>he</sup> was in no 1.<br>\nHis fling at Gov G. to say the least of it, is<br>\nin bad taste & infelicitous. When I attack<br>\na man it must be the living – not the dead –<br>\nIn his attack on the <i>living</i> I think he refers<br>\nto Capt R. & Prof. C. I had planned to defeat<br>\n[crossed-out: &] Peeler in this district – but the Gov was<br>\nvictorious in his plan for a new Board –<br>\nHad the <i>Legislature</i> elected a new Board<br>\nC.C Garrett would have been your member<br>\nfrom this district – Who is C.C. Higgins<br>\nof your new Board? He is a new man to me –<br>\nThanks for kind expressions for me, in our<br>\npresent embarrassment here – Our trouble<br>\nthreatens to be serious – Some of our good<br>\nbut money loving citizens claim to have<br>\nfound illegality in our School & R R tax –</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/96",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription Workflow**\n\nAlright, let's break down this transcription. First, I put on my professional transcriptionist hat. The goal is to get this handwritten text, with all its quirks, down accurately. The instructions are clear: top-to-bottom, left-to-right, keep the spelling and punctuation as is, flag uncertainties, respect the layout, and stick to the allowed HTML tags. I've got an image of a handwritten letter, and that's my input.\n\nMy first move is a visual scan. It's a letter on lined paper, cursive, a bit hurried, and some spots are faded. I see the date and location in the top right, a salutation on the left, then the body of the text. The bottom is cut off, so no signature.\n\nNow, the detailed work begins, line by line. I start at the top right: \"Brenham Texas,\" easy. Then \"April 15th 1881,\" with a superscript \"th.\" The salutation is \"My dear Professor.\"\n\nThe body is where things get interesting. I'm reading and typing, being careful. \"Your good letter came to hand...\". I get to \"I have seen Lewis & Peeler's battle no. 2 –\".  I slow down. I notice the \"2\" has a dash after it, and a \"–\". And the \"Lewis & Peeler's\" looks right. Then, \"I think Lewis is 'left' in no 2. as he was in no 1.\" I catch the carat and insert a superscript to indicate insertion. The handwriting flows: \"His fling at Gov G...\". The \"G\" looks like it could be \"Garlington\" or a name, but I'll transcribe \"G.\" Then comes a political tone: \"...in bad taste & infelicitous. When I attack a man it must be the living – not the dead –\".  There's an underlined \"living\" for emphasis.\n\nIt’s the next line where things get tricky: “In his attack on the *living* I think he refers to Capt R. & Prof. C. I had planned to…”. I've got the political context now, which helps. I look closely at what the word is that’s difficult to read: “d-e-f-e-a-t.” It could be “defeat” or “unseat,” or even “unfish”. I'm looking at stroke counts, what sounds make sense, and I get that it’s probably “defeat” given the political context, I'll transcribe this as \"defeat\". There's something crossed out before \"Peeler,\" it looks like an \"&.\" \"Peeler in this district – but the Gov was victorious in his plan for a new Board –\" I double-check \"Legislature\" because it’s underlined. Then, “C.C. Garrett” and “C.C. Higgins”.\n\nI refine the transcription, going back and making corrections. I confirm \"infelicitous,\" I'm catching “embarrassment,\" and all the “RR tax” and so on. I'm also double checking that difficult word in the \"defeat\" slot, which has a loop. It looks like it begins with u-, but the political context is so strong for “defeat,\" and it’s the most likely given the letter shapes.\n\nNext, I'm thinking about formatting. The instructions say to maintain paragraph structure and not use more than the allowed tags. I'm going to label \"Header\" and \"Body,\" using `<br>` tags at the end of each line to preserve the visual line breaks, which helps communicate the letter's structure and layout.\n\nI’m now constructing the final output. The format is:\n\n[Header]\nBrenham Texas.\nApril 15<sup>th</sup> 1881.\n\n[Body]\nMy dear Professor<br>\nYour good letter...\n\nAnd so on, using `<sup>` for the superscript, `<br>` for line breaks, and taking care with the HTML formatting. I keep rereading “defeat” but I will keep it as the more likely interpretation, as well as considering other possibilities.\n\nFinally, I do a last, detailed check. I look over \"Lewis & Peeler's\". The quotations around \"left.\" \"C.C. Garrett.\" I make sure I am accurate for any insertions or alterations, and everything is precise. I decide the \"Gov\" looks like \"Gov. G.\". The transcription is ready.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3849,
+      "width": 2991,
+      "items": [
+        {
+          "id": "http://example.org/iiif/88",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/87",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b4e02c16-08b8-3886-b654-26600503ae41/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3849,
+                "width": 2991,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b4e02c16-08b8-3886-b654-26600503ae41",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/98",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/97",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"right\">[1881, April 15]</p>\n\n<p>\nAn injunction restraining the City Collector<br>\nhas been temporarily granted – The City<br>\nAtty has filed an answer – asking that<br>\nthe injunction be dissolved. No matter<br>\nwhat may be the result in the District Court<br>\nit will go to the Supreme Court for final<br>\nadjudication – Few men live long enough<br>\nto realize the decision of a Texas Supreme Court.<br>\nThe next day after the suspension we obtained<br>\nthe use of the School buildings for the present &<br>\nopened School with 130 pay students –<br>\nI shall seek employment elsewhere at<br>\nan early day – I may not find –<br>\nWe have a corps of excellent teachers – native<br>\nand to \"the manor born\" – I like them all<br>\n& am unwilling to enter into a scramble<br>\nfor patronage – What do you think when Prof.<br>\nH. saw the law for the reorganization of your<br>\nBoard he moved \"heaven & earth\" to influence<br>\nthe Gov to send his name to the Senate<br>\nfor appointment – Irrepressible is not<br>\nthe word I want but my vocabulary is<br>\ntoo meager – \"My friend Tom Scott\" is down\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/99",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription Process**\n\nOkay, here's how I approached this transcription, step-by-step. First, I had to understand the task: I'm a transcriptionist, my job is to accurately reproduce the text from this image, paying attention to details like handwriting, errors, and any specific markup tags provided. The instructions were clear: read top-to-bottom, preserve any mistakes, interpret the handwriting, and use the given tags. I'm also supposed to label structural elements and use the given HTML tags correctly, with the final output being *only* the transcription.\n\nNext, I did an initial scan of the image. It's a handwritten letter on lined paper. The handwriting is cursive, a little faded, and slanted. There's a date in brackets at the top right, probably added later. The content seems to be about some legal issues (injunction, City Collector, City Atty, Supreme Court), school matters (suspension, school buildings, students), and employment/politics (Professor H., Governor, Senate).\n\nThen came the line-by-line transcription and deciphering. I started at the top, noted the date annotation as `[1881, April 15]`. Then, I transcribed each line, being careful to decipher the cursive writing. This involved a lot of close inspection to ensure I was getting the words right, especially for any abbreviations or words that were slightly unclear. For example, \"Atty\" was obviously an abbreviation. The word \"result\" looked a bit odd, but I decided it was \"result\" after a closer look at the letters. Other words that I checked for certainty were \"decision\", \"pay students\", \"manor born\", \"patronage\", \"Prof. H.\", \"Gov\", \"meager\", and \"Tom Scott\".\n\nNext, I focused on using the HTML tags for formatting. I decided to wrap the whole thing in `<p>` tags to keep the paragraph structure and use `<br>` to maintain the line breaks from the image. I put the date in its own paragraph at the top, and double-checked the final text. I made some self-corrections on \"H.\" and \"influence\", \"Irrepressible\" and \"Tom Scott\". Then I went back and re-evaluated the word \"result\" again, confirming my initial deciphering. Also, I double-checked several lines to make sure everything was correct.\n\nAs I transcribed, I made sure to carefully consider any possible alternative readings of the handwritten text. Specifically, I went back and reconsidered if \"result\" and \"Prof. H.\" were the best interpretations. I double checked `pay students` and remembered it was likely linked to school finance, and checked the words native, manor born and Tom Scott. I made sure to double-check that the \"H\" was not a \"St\" or \"It\". And I double checked the whole transcription against the original image. Finally, I ensured that the code was properly formatted and used the tags requested. I decided on the final formatting for the date, using a separate paragraph for it, and then created the final output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3849,
+      "width": 2991,
+      "items": [
+        {
+          "id": "http://example.org/iiif/90",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/89",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/c31c83bb-cdb2-352c-9f84-908b26a87b6d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3849,
+                "width": 2991,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/c31c83bb-cdb2-352c-9f84-908b26a87b6d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/101",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/100",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header] [1881, April 15]\n\n<p>will he do now - Play Court<br>\nat whose throne? Maj B is still at<br>\nWaxahachie - We had \"cards\" to Miss<br>\nJulien's marriage a few weeks ago -</p>\n<p>By the by, I learn Dr. M has sold his \"Sabine<br>\nfarm\" hard by the A.M.C. Where is the old<br>\nman? At his age & with a young family<br>\nthe old man has my poor sympathy -<br>\nI have no unkind word for him -</p>\n<p>\"Jimmie & Ball\"! I wonder if they survive?<br>\nI see tone of our State press is beginning<br>\nto \"pepper\" the University - Galveston N.<br>\ngives it the cold shoulder - I am not<br>\ncomfortable over the attitude of affairs<br>\nhere - but fret & chafe as little as possible -</p>\n<p>I think 90 o/o of our people endorse our<br>\nschools & my administration of them -<br>\nBut the \"grist\" is in the mill & who will<br>\nbe able to stand - Any changes contemplated<br>\nin Bryan? Our weather for a few days<br>\nhas been phenomenal - All well -</p>\n<p>Your good letters cheer me always -</p>\n<p>Your friend<br>\nJ. T. Hand</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/102",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Thoughts on Handwritten Document**\n\nOkay, so I've got this handwritten letter here, and it looks like it's from around the late 19th century. First thing's first, I need to get this transcribed. It's a cursive style, and the date is added in pencil: `[1881, April 15]`. I'll want to preserve that and transcribe *everything*, even if it's crossed out or messy. It seems to be personal correspondence, discussing folks like Maj B, Miss Julien, and Dr. M (or W?), along with some local happenings and university stuff. Looks like there's some University politics brewing, and I need to note any references to the weather.\n\nLet's get this line by line. First, the header `[1881, April 15]`.\n\nOkay, the first line is tricky because there are crossed-out words. It's illegible, but it looks like `what work` and is struck through. I will transcribe only what is visible, like `will he do now - Play Court`. Then there is `at whose throne? Maj B is still at`. \"Maj\" is likely Major, the \"B\" his initial. Then there's Waxahachie, Texas. Also, \"We had 'cards' to Miss Julien's marriage a few weeks ago -\". Ah, a nice bit of gossip. Then: \"By the by, I learn Dr. M has sold his 'Sabine farm' hard by the A.M.C.\" The \"A.M.C.\" is obviously the Agricultural and Mechanical College, which is now Texas A&M. I need to note that. I wonder if it is Dr. McInnis? \"Where is the old man? At his age & with a young family the old man has my poor sympathy - I have no unkind word for him -\".\n\nI continue. Now there's something about \"Jimmie & Ball\"! I wonder if they survive?\". I wonder if this refers to pets, people, or horses? Now some local press seems to be \"to 'pepper' the University - Galveston N. gives it the cold shoulder - I am not comfortable over the attitude of affairs here - but fret & chafe as little as possible -\". I need to keep an eye on this. Also, it looks like it says \"I think 90 o/o of our people endorse our schools & my administration of them -\". The 90 percent thing is interesting. Then comes \"But the 'grist' is in the mill & who will be able to stand - Any changes contemplated in Bryan? Our weather for a few days has been phenomenal - All well -\". And finally, \"Your good letters cheer me always - Your friend J. T. Hand\". Let's check the signature - it's definitely J.T. Hand.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/278/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

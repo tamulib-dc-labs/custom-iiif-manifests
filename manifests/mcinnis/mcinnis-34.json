@@ -1,139 +1,186 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-34.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from John H. Realow, November 17, 1882"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1882-11-17"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from John H. Realow, November 17, 1882"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/75d0781a-ce4f-3dd8-97fe-88106094ca24/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3740,
-            "width": 2919,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/75d0781a-ce4f-3dd8-97fe-88106094ca24/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3740,
-                                "width": 2919,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/75d0781a-ce4f-3dd8-97fe-88106094ca24",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><b>House of Representatives,</b><br>\nPalestine, Texas,<br>\nNov. 17<sup>th</sup>, 1882.</p>\n\n[Body]\n<p>Dear Sir;<br>\nYour letter of the 14<sup>th</sup> inst.<br>\nis before me in which you requ-<br>\nest me to send you the Vol.<br>\nof the Cong<sup>nl</sup> Globe of 1850-<br>\n51 which contains Senator<br>\nGrimes Speech on the public<br>\nlands. When you spoke<br>\nto me at Washington I sup-<br>\nposed I had it, but on<br>\nexamination I do not find<br>\nit. Otherwise it would afford<br>\nme pleasure to comply<br>\nwith your request.</p>\n\n[Footer]\n<p>Very respectfully<br>\n[Signature] John H. Reagan</p>\n\n<p>Louis L. McInnis Esq<br>\nCollege Station<br>\nTexas</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts and Transcription**\n\nOkay, here's what I've got. I'm looking at this letter, and it's a pretty straightforward request for a specific volume of the Congressional Globe. First, the letterhead is printed \"House of Representatives,\" but the location is handwritten as \"Palestine, Texas,\" replacing a crossed-out \"Washington, D.C.\" which makes sense given the time and likely the context of the letter's creation. The date is Nov. 17<sup>th</sup>, 1882. The salutation is \"Dear Sir;\".\n\nThe body of the letter is clear. The author, John H. Reagan, is responding to a letter from Louis L. McInnis, who is requesting the volume of the Congressional Globe from 1850-51 containing Senator Grimes\u2019 speech on public lands. Reagan says he thought he had the volume but after searching, it can't be found. He clearly states he'd comply if possible.\n\nNow, some words were transcribed to be correct, and a few abbreviations needed careful consideration. \"Inst.\" means \"instant\", \"Cong<sup>nl</sup>\" is the abbreviation for Congressional. I am reading this as \"Congnl\". The signature is \"John H. Reagan.\" The addressee is Louis L. McInnis Esq of College Station, Texas.\n\nHere is the transcription:\n\n[Header]\n<p><b>House of Representatives,</b><br>\nPalestine, Texas,<br>\nNov. 17<sup>th</sup>, 1882.</p>\n\n[Body]\n<p>Dear Sir;<br>\nYour letter of the 14<sup>th</sup> inst.<br>\nis before me in which you requ-<br>\nest me to send you the Vol.<br>\nof the Cong<sup>nl</sup> Globe of 1850-<br>\n51 which contains Senator<br>\nGrimes Speech on the public<br>\nlands. When you spoke<br>\nto me at Washington I sup-<br>\nposed I had it, but on<br>\nexamination I do not find<br>\nit. Otherwise it would afford<br>\nme pleasure to comply<br>\nwith your request.</p>\n\n[Footer]\n<p>Very respectfully<br>\n[Signature] John H. Reagan</p>\n\n<p>Louis L. McInnis Esq<br>\nCollege Station<br>\nTexas</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-34.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from John H. Realow, November 17, 1882"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1882-11-17"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from John H. Realow, November 17, 1882"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Congressional Globe",
+          "Public lands--United States",
+          "Speeches",
+          "Political correspondence",
+          "United States. Congress",
+          "Texas--Politics and government--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Reagan, John H. (John Henninger), 1818-1905"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Grimes, James W. (James Wilson), 1816-1872"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from Representative John H. Reagan of Palestine, Texas to Louis L. McInnis at College Station, Texas, dated November 17, 1882, in response to McInnis's request for a copy of the Congressional Globe from 1850-51 containing Senator Grimes's speech on public lands. Reagan apologizes that upon examination he cannot locate the requested volume, though he had believed he possessed it when they previously spoke in Washington. The letter demonstrates the exchange of legislative documents among political colleagues during the post-Reconstruction period."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/75d0781a-ce4f-3dd8-97fe-88106094ca24/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3740,
+      "width": 2919,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/75d0781a-ce4f-3dd8-97fe-88106094ca24/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3740,
+                "width": 2919,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/75d0781a-ce4f-3dd8-97fe-88106094ca24",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><b>House of Representatives,</b><br>\nPalestine, Texas,<br>\nNov. 17<sup>th</sup>, 1882.</p>\n\n[Body]\n<p>Dear Sir;<br>\nYour letter of the 14<sup>th</sup> inst.<br>\nis before me in which you requ-<br>\nest me to send you the Vol.<br>\nof the Cong<sup>nl</sup> Globe of 1850-<br>\n51 which contains Senator<br>\nGrimes Speech on the public<br>\nlands. When you spoke<br>\nto me at Washington I sup-<br>\nposed I had it, but on<br>\nexamination I do not find<br>\nit. Otherwise it would afford<br>\nme pleasure to comply<br>\nwith your request.</p>\n\n[Footer]\n<p>Very respectfully<br>\n[Signature] John H. Reagan</p>\n\n<p>Louis L. McInnis Esq<br>\nCollege Station<br>\nTexas</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts and Transcription**\n\nOkay, here's what I've got. I'm looking at this letter, and it's a pretty straightforward request for a specific volume of the Congressional Globe. First, the letterhead is printed \"House of Representatives,\" but the location is handwritten as \"Palestine, Texas,\" replacing a crossed-out \"Washington, D.C.\" which makes sense given the time and likely the context of the letter's creation. The date is Nov. 17<sup>th</sup>, 1882. The salutation is \"Dear Sir;\".\n\nThe body of the letter is clear. The author, John H. Reagan, is responding to a letter from Louis L. McInnis, who is requesting the volume of the Congressional Globe from 1850-51 containing Senator Grimes’ speech on public lands. Reagan says he thought he had the volume but after searching, it can't be found. He clearly states he'd comply if possible.\n\nNow, some words were transcribed to be correct, and a few abbreviations needed careful consideration. \"Inst.\" means \"instant\", \"Cong<sup>nl</sup>\" is the abbreviation for Congressional. I am reading this as \"Congnl\". The signature is \"John H. Reagan.\" The addressee is Louis L. McInnis Esq of College Station, Texas.\n\nHere is the transcription:\n\n[Header]\n<p><b>House of Representatives,</b><br>\nPalestine, Texas,<br>\nNov. 17<sup>th</sup>, 1882.</p>\n\n[Body]\n<p>Dear Sir;<br>\nYour letter of the 14<sup>th</sup> inst.<br>\nis before me in which you requ-<br>\nest me to send you the Vol.<br>\nof the Cong<sup>nl</sup> Globe of 1850-<br>\n51 which contains Senator<br>\nGrimes Speech on the public<br>\nlands. When you spoke<br>\nto me at Washington I sup-<br>\nposed I had it, but on<br>\nexamination I do not find<br>\nit. Otherwise it would afford<br>\nme pleasure to comply<br>\nwith your request.</p>\n\n[Footer]\n<p>Very respectfully<br>\n[Signature] John H. Reagan</p>\n\n<p>Louis L. McInnis Esq<br>\nCollege Station<br>\nTexas</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/34/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

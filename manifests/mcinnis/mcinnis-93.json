@@ -1,210 +1,261 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-93.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from D. H. Watson, February 10, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-02-10"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from D. H. Watson, February 10, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/f1ab2f91-30d3-3887-8e2f-f07b123f044e/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4182,
-            "width": 3199,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/f1ab2f91-30d3-3887-8e2f-f07b123f044e/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4182,
-                                "width": 3199,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f1ab2f91-30d3-3887-8e2f-f07b123f044e",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><small>\u2014\u2014 OFFICE OF \u2014\u2014</small><br>\nWILLIAM WATSON,<br>\nROSEDALE NURSERIES,<br>\n<small>Near Brenham, Washington County, Texas,</small></p>\n<p><b>EVERY VARIETY OF FRUIT AND ORNAMENTAL TREES SUITABLE TO OUR CLIMATE.</b></p>\n<p><small>200 ACRES.<br>\nLarge Orchards in Bearing.</small></p>\n\n<p>Brenham, Texas, <i>Feb 10 1885</i></p>\n\n<p><i>Prof Louis L McInnis,<br>\nCollege Station.<br>\nDear Sir:</i></p>\n\n<p><i>In reply to your esteemed favor 9 inst just<br>\nto hand, I will say, that we have a variety of the Locust<br>\nwhich I think is Robinia Pseudacacia. It bears very<br>\nbeautiful drooping racemes of fragrant white<br>\nflowers, and I don't remember ever having seen<br>\nit bear beans, but I am not positive that it<br>\ndoes not. This would be a very desirable tree for the<br>\nYard if it did not sucker. In the yard it needs<br>\nconstant attention to keep the suckers down. If this<br>\nis the variety You desire, we can furnish them at<br>\n25 cents each. We have nice Silver Maples and<br>\nSweet Gum at 40 cents each.</i></p>\n\n<p><i>I am glad to know that my communication to<br>\nthe News met with your approval. It is strange to<br>\nme, why people take such pleasure in misrepresenting<br>\nthe A & M. C. I consider it, if properly managed, of as<br>\nmuch importance to our state as any other institution</i></p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Transcription Process**\n\nOkay, here's how I'm going to tackle transcribing this document: First, I analyzed the request: I'm a transcriptionist, the task is to render the text from an image, and the rules are top-to-bottom, left-to-right, keep the spelling and punctuation, and interpret any handwriting I can't read with brackets. I have to maintain the layout, label any headers or footers and use Markdown tables if needed. I can only use HTML tags that are allowed: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. And I'm only transcribing text, no commentary allowed.\n\nNext, I analyzed the image itself. It's a handwritten letter on printed letterhead. The header says \"OFFICE OF WILLIAM WATSON, ROSEDALE NURSERIES,\" etc. It also includes location and a description. There is a small box on the left detailing acreage. The handwriting is cursive, fairly legible, but with some quirks from the late 19th century, especially with the way letters like \"s\" or \"r\" are formed. The date is Feb 10, 1885. The recipient is Prof Louis L McInnis, College Station. The content discusses tree types (Locust, Silver Maples, etc.) and prices and mentions something about a communication to \"the News\" about the A & M. C.\n\nThen I am creating the step-by-step transcription. I'll handle the header section first. It includes \"OFFICE OF\" in small caps, centered, then \"WILLIAM WATSON,\" in large caps, also centered, then \"ROSEDALE NURSERIES,\" also in large caps and centered. Next comes \"Near Brenham, Washington County, Texas,\" in smaller text, and centered. The next line is \"EVERY VARIETY OF FRUIT AND ORNAMENTAL TREES SUITABLE TO OUR CLIMATE.\" in bold and heavy type. There's a small box on the left that contains \"200 ACRES.\" and \"Large Orchards in Bearing.\" plus some decorative elements. I'll transcribe these in the correct reading order.\n\nNext, is the date line. It is pre-printed with \"Brenham, Texas,\" and the handwritten date \"Feb 10 1885.\"\n\nAfter that is the salutation. \"Prof Louis L McInnis, College Station. Dear Sir:\"\n\nThen the main body of the letter. I had to decipher some of the text; \"9 inst\" means \"9th instant\" \u2013 I'll be clear about that. The letter goes on to mention different trees, and I'll keep the writer's original phrasing. There's also some text about the A & M. C. that I had to look at closely because a part was cut off. I will transcribe it the best I can. It ends with the word \"institution\".\n\nNow I consider formatting and HTML. I'll use `<p>` tags for paragraphs. For the \"OFFICE OF\" line, I'll use `<small>`. I'll use `<b>` or `<span>` for the bold printed text - since I can use the `b` tag, I'll use it for the heavy text. The header layout is tricky, and I'll use simple text flow and line breaks to represent the layout with the box to the left. The guidelines state that I should maintain the paragraph structure. So I will simply center the blocks as in the image. I am putting the box contents at the top, since it flows before the date in reading order.\n\nDuring transcription, I do a lot of refining and self-correction, checking handwriting, and double-checking spelling. I need to get the formatting right and I will verify any confusing items. I check each word, for example, \"Robinia Pseudacacia\". Does \"9 inst\" look like anything else? Should I render \"A & M. C.\" as an abbreviation or the full name? Let me check again. It does look a little bit like a \"b\" but since the context is the college, I will transcribe \"C\". The last word is \"institution\". I will transcribe it because I know the word from context. After checking each item, I draft the full code.\n\nI will then review the final code for constraints such as only using allowed tags. I need to make sure the transcription is accurate. I check the HTML tags. I had to check line breaks and text. I will verify each line. The header needs some HTML tweaks for centering but I cannot use the `style` tag. I'll use line breaks. I have to make sure the transcription is correct.\n\nI need to make sure all of the text is correct. The text and spacing are correct. The transcription\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4182,
-            "width": 3199,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3491adb9-084f-364c-830a-4b704dd03ebe/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4182,
-                                "width": 3199,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3491adb9-084f-364c-830a-4b704dd03ebe",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>of learning can possibly be, and to the masses of the<br>\npeople of even greater importance than the Law de-<br>\npartment of the University.</p>\n<p>Please give my kindest regards to Col Cole and<br>\nMaj Dinwiddie.</p>\n<p>Very respectfully Yours,<br>\n[Signature] D H Watson</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the breakdown of how I'm approaching this transcription task. First, I'm carefully analyzing the image of the handwritten document. It's the bottom portion of what appears to be a letter, written in cursive. The handwriting is legible enough, though a bit faded, suggesting it's the conclusion of the letter. I'm going through each line, meticulously transcribing it, making sure to account for any potential ambiguities in the script.\n\nI've got the first line as \"of learning can possibly be, and to the masses of the\". I'm checking it again: \"of learning can possibly be, and to the masses of the\" - looks correct. \"Masses\" is a bit squashed but it fits the context. Next, \"people of even greater importance than the Law de-\". Then \"partment of the University.\" - The \"de-\" hyphenation confirms the likely \"department\" that follows. I see the name \"Col Cole\" and \"Maj Dinwiddie.\" The text continues with a standard closing, \"Very respectfully Yours,\" and the signature \"D H Watson.\"\n\nI'm keeping an eye on capitalization and punctuation. I'm using the HTML tags to structure the text as requested, with paragraph breaks and line breaks to preserve the original formatting. And, as requested, I will include a label for the signature, as this is a structural element. I'm double-checking those names, \"Col Cole\" and \"Maj Dinwiddie\", and their spellings, which are standard, and also the name \"Watson\".\n\nI'm making a final sweep, checking the formatting. I'm looking for anything I might have missed. I'm satisfied.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-93.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from D. H. Watson, February 10, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-02-10"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from D. H. Watson, February 10, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Locust trees--Texas",
+          "Robinia pseudacacia",
+          "Ornamental trees--Texas",
+          "Nurseries--Texas",
+          "Fruit trees--Texas",
+          "Horticulture--Texas",
+          "Agricultural education--Texas",
+          "Texas A&M College"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Watson, D. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Cole, Colonel",
+          "Dinwiddie, Major",
+          "William Watson Rosedale Nurseries"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "D. H. Watson, proprietor of the Rosedale Nurseries near Brenham, Texas, responds to Louis L. McInnis's inquiry regarding locust tree varieties, offering Robinia pseudacacia and other ornamental specimens for sale. Watson discusses the characteristics of the locust tree, its tendency to sucker, and available pricing, while also commenting on the importance of the Agricultural and Mechanical College of Texas to the state. The letter reflects late 19th-century horticultural commerce in Texas and Watson's support for agricultural education."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/f1ab2f91-30d3-3887-8e2f-f07b123f044e/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4182,
+      "width": 3199,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/f1ab2f91-30d3-3887-8e2f-f07b123f044e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4182,
+                "width": 3199,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/f1ab2f91-30d3-3887-8e2f-f07b123f044e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><small>—— OFFICE OF ——</small><br>\nWILLIAM WATSON,<br>\nROSEDALE NURSERIES,<br>\n<small>Near Brenham, Washington County, Texas,</small></p>\n<p><b>EVERY VARIETY OF FRUIT AND ORNAMENTAL TREES SUITABLE TO OUR CLIMATE.</b></p>\n<p><small>200 ACRES.<br>\nLarge Orchards in Bearing.</small></p>\n\n<p>Brenham, Texas, <i>Feb 10 1885</i></p>\n\n<p><i>Prof Louis L McInnis,<br>\nCollege Station.<br>\nDear Sir:</i></p>\n\n<p><i>In reply to your esteemed favor 9 inst just<br>\nto hand, I will say, that we have a variety of the Locust<br>\nwhich I think is Robinia Pseudacacia. It bears very<br>\nbeautiful drooping racemes of fragrant white<br>\nflowers, and I don't remember ever having seen<br>\nit bear beans, but I am not positive that it<br>\ndoes not. This would be a very desirable tree for the<br>\nYard if it did not sucker. In the yard it needs<br>\nconstant attention to keep the suckers down. If this<br>\nis the variety You desire, we can furnish them at<br>\n25 cents each. We have nice Silver Maples and<br>\nSweet Gum at 40 cents each.</i></p>\n\n<p><i>I am glad to know that my communication to<br>\nthe News met with your approval. It is strange to<br>\nme, why people take such pleasure in misrepresenting<br>\nthe A & M. C. I consider it, if properly managed, of as<br>\nmuch importance to our state as any other institution</i></p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Transcription Process**\n\nOkay, here's how I'm going to tackle transcribing this document: First, I analyzed the request: I'm a transcriptionist, the task is to render the text from an image, and the rules are top-to-bottom, left-to-right, keep the spelling and punctuation, and interpret any handwriting I can't read with brackets. I have to maintain the layout, label any headers or footers and use Markdown tables if needed. I can only use HTML tags that are allowed: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. And I'm only transcribing text, no commentary allowed.\n\nNext, I analyzed the image itself. It's a handwritten letter on printed letterhead. The header says \"OFFICE OF WILLIAM WATSON, ROSEDALE NURSERIES,\" etc. It also includes location and a description. There is a small box on the left detailing acreage. The handwriting is cursive, fairly legible, but with some quirks from the late 19th century, especially with the way letters like \"s\" or \"r\" are formed. The date is Feb 10, 1885. The recipient is Prof Louis L McInnis, College Station. The content discusses tree types (Locust, Silver Maples, etc.) and prices and mentions something about a communication to \"the News\" about the A & M. C.\n\nThen I am creating the step-by-step transcription. I'll handle the header section first. It includes \"OFFICE OF\" in small caps, centered, then \"WILLIAM WATSON,\" in large caps, also centered, then \"ROSEDALE NURSERIES,\" also in large caps and centered. Next comes \"Near Brenham, Washington County, Texas,\" in smaller text, and centered. The next line is \"EVERY VARIETY OF FRUIT AND ORNAMENTAL TREES SUITABLE TO OUR CLIMATE.\" in bold and heavy type. There's a small box on the left that contains \"200 ACRES.\" and \"Large Orchards in Bearing.\" plus some decorative elements. I'll transcribe these in the correct reading order.\n\nNext, is the date line. It is pre-printed with \"Brenham, Texas,\" and the handwritten date \"Feb 10 1885.\"\n\nAfter that is the salutation. \"Prof Louis L McInnis, College Station. Dear Sir:\"\n\nThen the main body of the letter. I had to decipher some of the text; \"9 inst\" means \"9th instant\" – I'll be clear about that. The letter goes on to mention different trees, and I'll keep the writer's original phrasing. There's also some text about the A & M. C. that I had to look at closely because a part was cut off. I will transcribe it the best I can. It ends with the word \"institution\".\n\nNow I consider formatting and HTML. I'll use `<p>` tags for paragraphs. For the \"OFFICE OF\" line, I'll use `<small>`. I'll use `<b>` or `<span>` for the bold printed text - since I can use the `b` tag, I'll use it for the heavy text. The header layout is tricky, and I'll use simple text flow and line breaks to represent the layout with the box to the left. The guidelines state that I should maintain the paragraph structure. So I will simply center the blocks as in the image. I am putting the box contents at the top, since it flows before the date in reading order.\n\nDuring transcription, I do a lot of refining and self-correction, checking handwriting, and double-checking spelling. I need to get the formatting right and I will verify any confusing items. I check each word, for example, \"Robinia Pseudacacia\". Does \"9 inst\" look like anything else? Should I render \"A & M. C.\" as an abbreviation or the full name? Let me check again. It does look a little bit like a \"b\" but since the context is the college, I will transcribe \"C\". The last word is \"institution\". I will transcribe it because I know the word from context. After checking each item, I draft the full code.\n\nI will then review the final code for constraints such as only using allowed tags. I need to make sure the transcription is accurate. I check the HTML tags. I had to check line breaks and text. I will verify each line. The header needs some HTML tweaks for centering but I cannot use the `style` tag. I'll use line breaks. I have to make sure the transcription is correct.\n\nI need to make sure all of the text is correct. The text and spacing are correct. The transcription\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4182,
+      "width": 3199,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3491adb9-084f-364c-830a-4b704dd03ebe/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4182,
+                "width": 3199,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3491adb9-084f-364c-830a-4b704dd03ebe",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>of learning can possibly be, and to the masses of the<br>\npeople of even greater importance than the Law de-<br>\npartment of the University.</p>\n<p>Please give my kindest regards to Col Cole and<br>\nMaj Dinwiddie.</p>\n<p>Very respectfully Yours,<br>\n[Signature] D H Watson</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the breakdown of how I'm approaching this transcription task. First, I'm carefully analyzing the image of the handwritten document. It's the bottom portion of what appears to be a letter, written in cursive. The handwriting is legible enough, though a bit faded, suggesting it's the conclusion of the letter. I'm going through each line, meticulously transcribing it, making sure to account for any potential ambiguities in the script.\n\nI've got the first line as \"of learning can possibly be, and to the masses of the\". I'm checking it again: \"of learning can possibly be, and to the masses of the\" - looks correct. \"Masses\" is a bit squashed but it fits the context. Next, \"people of even greater importance than the Law de-\". Then \"partment of the University.\" - The \"de-\" hyphenation confirms the likely \"department\" that follows. I see the name \"Col Cole\" and \"Maj Dinwiddie.\" The text continues with a standard closing, \"Very respectfully Yours,\" and the signature \"D H Watson.\"\n\nI'm keeping an eye on capitalization and punctuation. I'm using the HTML tags to structure the text as requested, with paragraph breaks and line breaks to preserve the original formatting. And, as requested, I will include a label for the signature, as this is a structural element. I'm double-checking those names, \"Col Cole\" and \"Maj Dinwiddie\", and their spellings, which are standard, and also the name \"Watson\".\n\nI'm making a final sweep, checking the formatting. I'm looking for anything I might have missed. I'm satisfied.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/93/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

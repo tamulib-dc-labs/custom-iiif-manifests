@@ -1,494 +1,551 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-289.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from C. P. Estill, July 15, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-07-15"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from C. P. Estill, July 15, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/38860dbe-7411-34ac-b9dc-2fa5a24124a7/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 5569,
-            "width": 3301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/332",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/331",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/38860dbe-7411-34ac-b9dc-2fa5a24124a7/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5569,
-                                "width": 3301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/38860dbe-7411-34ac-b9dc-2fa5a24124a7",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/350",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/349",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><b>State A. & M. College of Texas.</b></p>\n<p>College Station, Brazos County,</p>\n\n<p>July 15<sup>th</sup> 1881</p>\n\n<p>My Dear Mr Lunis,<br>\nYour letter was<br>\nduly received, and for its<br>\nfriendly sentiments I thank<br>\nyou from the bottom of my<br>\nheart. My separation from the<br>\nCollege, I keenly feel - My as-<br>\nsociation with many of you<br>\nhas been nothing but pleasant.<br>\nI am candid enough to say,<br>\nit has not been so with all -<br>\nand of course, the separation<br>\nfrom them causes no regret.<br>\nWas not the manner of my<br>\n\"taking off\" singular? The Board<br>\nleft me here, so far as any of<br>\nthem interviewed me, with the<br>\nbelief that everything would work<br>\nout right, - so far as I was con-<br>\ncerned, and that nothing had<br>\nbeen determined upon. I would</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/351",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My goal is to get a perfect transcription of this letter. First, I have a header: \"State A. & M. College of Texas.\" in a formal gothic style. Then, \"College Station, Brazos County,\" in a more flowing cursive. It's dated \"July 15th 1881\", with the '1' added by hand. The letter begins \"My Dear Mr. Lunis,\" which, admittedly, the name is giving me a bit of trouble, but from what I can see, it looks like \"Lunis,\" though \"Lewis\" is a possibility that I am tracking, and even the obscure \"Innis\" is feasible based on the handwriting.\n\nThe body of the letter is where the real work is. The text starts with a gracious acknowledgement of a letter received, expressing thanks for the \"friendly sentiments\". The writer then mentions a separation from the college, which is clearly a sensitive topic. It sounds like the writer is leaving or has left. The writer also reflects on the separation, and I must preserve the implied tone of candor and perhaps a bit of bitterness. Then there's an abrupt question about the nature of the writer's \"taking off,\" with the phrase in quotes. This hints at some sort of controversy. The writer tells me that the board seemed to believe that everything was going to be alright, but clearly something has happened. Then, the letter just cuts off in the middle of a sentence, which is frustrating.\n\nI'm transcribing carefully, line by line, preserving the original formatting as closely as possible, including line breaks and punctuation. I'm focusing on \"Mr. Lunis\", which seems to be the most accurate read of the name. If it turns out to be \"Lewis\" or even \"Innis\", I will need to make an addendum, noting the original ambiguity and the reasoning I followed. I will use appropriate HTML tags to reproduce the text exactly. I'm noting any variations in style or punctuation, like the raised \"th\" in the date. The exclamation/question mark is a point of concern as well. I'm prepared to provide all relevant notes. I have one task: Perfect accuracy.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 5569,
-            "width": 3301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/334",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/333",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/62008dc9-40e0-3dbf-aa5d-2a04b1b43b5a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5569,
-                                "width": 3301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/62008dc9-40e0-3dbf-aa5d-2a04b1b43b5a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/353",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/352",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>(2) [1881, July 15]</p>\n<p><b>State A. & M. College of Texas.</b></p>\n<p><i>College Station, Brazos County,</i></p>\n<p>......................................................................................................188</p>\n<br>\n<p>not be, until they met at Hous-<br>\nton, to which place they had ad-<br>\njourned. Yet at Prarie View,<br>\nwhile Harrison was at Navasota,<br>\nthe work was done. Thornton tele-<br>\ngraphed it from Hempstead Fri-<br>\nday night; & it appeared in the \"News\"<br>\nof Saturday. They met in Houston<br>\nSaturday, & in Sunday Morning's<br>\nPost the proceedings appear, &<br>\nthe Records make it to have<br>\nbeen done there. What sort of<br>\n\"hocus pocus\", do you call that,<br>\nfor honorable straight-forward<br>\nmen? I call it trickery, of the<br>\nsmallest kind. Their Resolutions<br>\ncan do me no possible good.<br>\nBut it has been in their power<br>\nto to me an incalculable dam-<br>\nage. In the peculiar circumstan-<br>\nces existing here, the dropping</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/354",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Okay, let's break down this transcription process. As a professional, I'm approaching this meticulously, focusing on accuracy and adherence to the guidelines.**\n\nFirst, the request: I understand my role is to transcribe this image-based text with high fidelity, preserving the original formatting and any inherent ambiguity. I'm noting specific HTML tags to use as well, and I'll keep the top-to-bottom reading order. My goal is a faithful rendering, no interpretation beyond what's visually present.\n\nNext, the image itself. I see a piece of stationery from the State A. & M. College of Texas, with \"College Station, Brazos County\" and a pre-printed \"188\" date line. There are handwritten additions that appear to be archival notes (\"(2) [1881, July 15]\"). The main body is handwritten script, seemingly from the late 19th century. The ink is a bit faded, but legible. The content is about a meeting and accusations of \"trickery\" relating to records.\n\nNow, the transcription. Line by line, I'm carefully transcribing, noting any peculiarities or potential ambiguities. I see the archival notation, the printed letterhead, the sub-header, and the date line. The body text will be a bit more involved. I have a crucial moment to handle, the word \"Prarie\" \u2013 or is it \"Pratie\" or \"Prairie\"? It is likely a misspelling of \"Prairie\". I'll be really attentive to the handwriting of 'r' and 't' throughout, as it's common. I am also paying attention to the spelling of place names and making sure capitalization is correct. I am noting the repetition of the word \"to\" in line 19 (\"to to me\"), which I need to preserve, even though it appears redundant.\n\nNow for refining: I'll use the HTML tags to structure the output. I am very attentive to how the \"Prarie\"/\"Pratie\" appears. I'll stick with \"Prarie\" as the closest readable text that makes sense, as the context is clear. The key is faithfulness to the image. I'll make sure to note that the header text has different font and structure from the body. I will stick with `<p>` to differentiate the lines.\n\nFinally, the output. The HTML will represent the image as accurately as possible, with the handwritten notes, the printed header, and the transcribed body. I've double-checked spelling, capitalization, and punctuation. The unusual \"Prarie\" and \"to to me\" are exactly as written.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 5569,
-            "width": 3301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/336",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/335",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/517634d6-7c9b-3c2d-93e1-50a6854f3440/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5569,
-                                "width": 3301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/517634d6-7c9b-3c2d-93e1-50a6854f3440",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/356",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/355",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>(3) [1881, July 15]</p>\n<p>State A. & M. College of Texas.<br>\nCollege Station, Brazos County,<br>\n....................................................................188</p>\n\n[Body]\n<p>of one Professor (& but one has been<br>\ndropped) is a stigma upon him<br>\n& nothing else - All the resolutions<br>\non the face of the earth can<br>\nmake it nothing else. It puts<br>\nme at a disadvantage in securing<br>\nwork anywhere in the State. Bet-<br>\nter far, in that view of it, that I<br>\nhad never come near the place.<br>\nI have always been aware<br>\nthat under the new policy, my chair<br>\nwas more endangered than any<br>\nother - not necessarily so however.<br>\nI believe that, if the Governor had<br>\nnot come here, the step would<br>\nnot have been taken - before<br>\nanother year at least. There would<br>\nhave been some propriety in the<br>\nstep, when the University had been<br>\nestablished. But with the Governor<br>\nurging even more radical meas-</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/357",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Alright, here's what I'm thinking:** I'm starting with this handwritten letter and the goal is to get a clean transcription. First, I need to understand the basic structure: there's a header with some handwritten annotations and a printed part, a date line, and then the body of the letter. I need to make sure I capture everything accurately, including any strange characters or potential ambiguities in the handwriting.\n\nI'm carefully examining the header. I see that there are two handwritten elements: \"(3)\" and \"[1881, July 15]\". It's pretty straightforward, probably some archival notations. Then there's the printed part, which is in a gothic font: \"State A. & M. College of Texas.\" followed by \"College Station, Brazos County,\" and the date line with just \"188\" pre-printed.\n\nNow, into the body. The handwriting is a loopy cursive, typical of the late 19th century. I'm going line by line, really looking at each word. The first line, \"of one Professor...\" is the start. I have to make sure I get the sentence structure correct.\n\nI need to make sure I transcribe the \"&\" properly (looks like a plus sign), and I'm watching for all the tiny quirks of the penmanship. I see something scribbled above \"dropped\", but it looks like the words, \"is a stigma upon him\" are added to the same sentence. I'm careful with punctuation \u2013 that dash and the end of each line can be tricky.\n\nThe trickiest part is definitely the word in line 9, \"had.\" It's written in a way that is just a little off. The penmanship is a bit messy, and it looks like \"hald\". But, after checking the context, and looking at the other letters. It looks like it is `had`. It must be an unusual flourish.\n\nI'm double-checking every word and noticing any capitalization issues (like \"University\" is capitalized). I'm also watching for any marks or periods at the ends of lines. The last line ends with \"meas-\", which is cut off but must be \"measures\".\n\nI'm creating a draft transcription, refining it with these details, and checking the text against the image, line by line. I have to create an output with all the information in the right place. I'll make sure to preserve all line breaks using `<br>`, and I am not including any unnecessary formatting. I am confident I will produce an accurate transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 5569,
-            "width": 3301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/338",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/337",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/9436fe3d-287a-3fc0-b89b-bbd88c21c37a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5569,
-                                "width": 3301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/9436fe3d-287a-3fc0-b89b-bbd88c21c37a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/359",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/358",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p style=\"text-align: right; color: grey;\">(4) [1881, July 15]</p>\n\n<p style=\"text-align: center;\"><b>State A. & M. College of Texas.</b></p>\n<p style=\"text-align: center;\"><i>College Station, Brazos County,</i></p>\n<p style=\"text-align: right;\">.......................................................................................188</p>\n\n<p>ures than were adopted, faithfully\nsupported by his Man Friday\nhere \u2013 and with a new Board just\nappointed by him, perhaps nothing\nless was to be expected. I have\nheard that the Governor is mad\nthat Gartner & Kellner did not\ngo too, & charges it all upon Pfeuf-\nfer. This I was told in Austin, the\nother day, But you need not tell\nGartner this \u2013 for it will only\nmake him uncomfortable \u2013 and\nGod knows, he has a path before\nhim, not to be envied. James, you\nwill observe, has every thing ab-\nsolutely in his own hands in the\nmatter of Optional Studies \u2013 And I\nthink he will make the Supt, a\ncomplete \"figure head\", by the close\nof the session \u2013 Gartner, however,\ncollected his loan, before he</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/360",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Initial Analysis and Transcription Process**\n\nOkay, here's what I'm thinking as I approach this transcription: I have a clear role \u2013 transcriptionist. My task is to accurately reproduce the text from this image, which appears to be a handwritten document, likely a letter. I've got to maintain fidelity to the original spelling, punctuation (even if it's a bit odd), the overall layout, and interpret any handwriting quirks. I'll use HTML tags as specified. I'm focusing solely on providing the transcription; no analysis or commentary in the final output.\n\nI can see from the image that it's a letter on what looks like official stationery, with a header in a distinctive gothic font: \"State A. & M. College of Texas.\" Below that, there's a script font that says \"College Station, Brazos County.\" There are archival notations in pencil, specifically \"(4) [1881, July 15]\" which are likely date/ID markings. The writing is cursive, and generally legible, but there are instances of cramped words and some ambiguity. The content seems to deal with some internal political maneuverings at the college, involving key figures like a \"Governor,\" \"Gartner,\" \"Kellner,\" \"Pfeuffer,\" and a \"James.\"\n\nNow, line by line: I'm carefully reading and interpreting each word. I'm already seeing some challenges with the handwriting. For example, the first word of the body seems to be cut-off, but with some close examination and context, I think it is \"ures.\" I'm mentally making notes of potential uncertainties. I will render \"to be\" to \"to be\".\n\nI'm making a note of any proper nouns like \"Man Friday,\" as they are capitalized. I'm taking my time with ambiguous words, like the word, which turns out to be \"Supt.\" Looking at the handwriting very closely, I'm analyzing the ink flow, letter shapes and surrounding words to give me the most accurate transcription.\n\nI'm keeping an eye on the bigger picture of the text as I transcribe. Context is key! For example, when I saw \"Pfeuffer,\" I recalled some of the history of A&M. This helps to confirm my understanding. Now, I will double check, given the people involved, if there is another valid word. \"Dept\" (Department) or \"Supt\" (Superintendent). I have to ensure the final output reflects my best interpretation of the visual information. I am comparing the \"Supt\" transcription against \"Dept\" or \"Prest\" to ensure it fits the historical context and the visible ink marks.\n\nI've decided to transcribe \"Supt\". Given the historical context, the personalities mentioned, and the nature of the document. Also, I am taking into account the quotations marks around \"figure head\". I am making sure the output is faithful to the original, including capitalization, hyphenation, and the use of quotation marks. The \"188\" part is pre-printed so I won't transcribe it. I am making sure to add it. I'm going back to check. I'm going to look at the handwriting again. I will use the HTML tags and correct the word.\n\nOkay, I've got a final version. I have added the HTML tags and formatted the text according to the instructions. I have added the pencil note. I have added the pre-printed date/number. I am checking the crop. Done!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 4"
-                ]
-            },
-            "height": 5569,
-            "width": 3301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/340",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/339",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3456d15b-267f-34bc-8839-4f734d11bdcd/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5569,
-                                "width": 3301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3456d15b-267f-34bc-8839-4f734d11bdcd",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/362",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/361",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Margin: (5) [1881, July 15]]</p>\n<p>[Header] <b>State A. & M. College of Texas.</b><br>\n<i>College Station, Brazos County,</i></p>\n<p>......................................................................188</p>\n<p>\nleft. So that it cannot be said<br>\nthat he holds a Mortgage upon<br>\nhim. Take care that he does not<br>\nget into the rut of you Bachelor's.<br>\nIs not this a miserably spiteful<br>\ncommunication? You did not<br>\nthink you would draw out such<br>\na dokument, when you wrote,<br>\ndid you? A man must write as<br>\nhe feels \u2013 and I am feeling just<br>\nthat way just now! I suppose,<br>\nI will get over it, directly \u2013<br>\nI know not where in the<br>\nworld I shall go \u2013 And it is full<br>\ntime, I knew. I went to Austin, im-<br>\nmediately after the event here, to see<br>\nabout the Normal School. I am an<br>\napplicant for Cooper's place \u2013 They<br>\nhave been casting about for a Pres-<br>\nident, but do not seem to have<br>\nfound one yet. I have some\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4"
-                        },
-                        {
-                            "id": "http://example.org/iiif/363",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Transcription and Analysis**\n\nAlright, let's get this done. The task is to transcribe this image of a handwritten letter, and I've got a handle on the nuances. The main challenge? This \"dokument\" in line 8. It's clearly intended to be \"document\", but the handwriting *really* makes it look like it starts with a \"k\", or perhaps a stray \"l\". Since I am not meant to autocorrect, but preserve the original, I am going with \"dokument\".\n\nHere's the breakdown of my transcription process:\n\n1.  **Image Analysis:** I started by visually dissecting the image. The header is important, so I had a good look at that gothic font and the script of \"College Station\". Also, the marginalia \"(5) [1881, July 15]\" is going to get included, since it is archival.\n\n2.  **Transcription Guidelines:** I'm sticking to the rules: top-to-bottom order, preserving everything \u2013 spelling, punctuation, capitalization \u2013 and using the specified HTML tags. No commentaries.\n\n3.  **Specific Challenges & Decision Making:**\n\n    *   **\"left.\" vs. \"loft\":** The first word \u2013 it's definitely \"l-f-t,\" but the vowel is a closed loop, so it can be 'e' (as in \"left\") or 'o' (as in \"loft\"). I am going with \"left,\" as the more common one, and also grammatically, the sentence makes sense: \"He has nothing left.\"\n\n    *   **\"you Bachelor's\":** The \"you\" is clear; \"Bachelor's\" is possessive plural. The \"rut of you Bachelors\" implies an opinion on a group of bachelors. The dash or period at the end of this sentence is also important for sentence construction.\n\n    *   **\"dokument\":** This is where it got tricky. The word is clearly *meant* to be \"document\", but that third letter is a tall loop that looks like a \"k\". I can confirm with the shapes of the other \"c\" characters that they are all small curves. I had an in-depth analysis looking at the 'k's and 'c's in the text to determine this was in fact, the closest possible interpretation of the glyph. However, it still looks like a \"k\". Given the instruction that I must preserve original spellings, I transcribed it as \"dokument\". I am unsure of the choice, but I must follow instructions.\n\n    *   **\"Cooper's place\":** The person mentioned is likely Oscar H. Cooper, a historical figure. The context of Texas education in 1881 is very relevant here, and the location of \"Cooper's place\" may refer to his role in Sam Houston State.\n\n4.  **Formatting and Structure:** The pencil notations are marginalia and should be preserved. The date line (the \"188\" part) needs to be addressed. I am retaining the dashes and the line breaks and other punctuation such as commas, periods, dashes, and question marks. Also the exclamation point in line 11!\n\n5.  **Final Checks:** I did a final content read-through and double-checked the \"k\" again, to make sure it was an acceptable transcription, given I cannot autocorrect. All other words are as seen.\n\nNow, here's my final, faithful transcription with markup:\n\n```html\n<p>(5) [1881, July 15]</p>\n<p><b>State A. & M. College of Texas.</b><br>\n<i>College Station, Brazos County,</i></p>\n<p>......................................................................188</p>\n<p>left. So that it cannot be said<br>\nthat he holds a Mortgage upon<br>\nhim. Take care that he does not<br>\nget into the rut of you Bachelor's.<br>\nIs not this a miserably spiteful<br>\ncommunication? You did not<br>\nthink you would draw out such<br>\na dokument, when you wrote,<br>\ndid you? A man must write as<br>\nhe feels \u2013 and I am feeling just<br>\nthat way just now! I suppose,<br>\nI will get over it, directly \u2013<br>\nI know not where in the<br>\nworld I shall go \u2013 And it is full<br>\ntime, I knew. I went to Austin, im-<br>\nmediately after the event here, to see<br>\nabout the Normal School. I am an<br>\napplicant for Cooper's place \u2013 They<br>\nhave been casting about for a Pres-<br>\nident,\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 5"
-                ]
-            },
-            "height": 5569,
-            "width": 3301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/342",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/341",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/153ecd9d-05a3-32d7-afef-2ab9a75330df/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5569,
-                                "width": 3301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/153ecd9d-05a3-32d7-afef-2ab9a75330df",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/365",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/364",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>(6) [1884 July 15]<br>\n<b>State A. & M. College of Texas.</b><br>\n<i>College Station, Brazos County,</i></p>\n<p>........................................................................188</p>\n\n<p>strong influence \u2013 Brown, Comptrol<br>\nler, a member of the Board of Educa-<br>\ntion, and McLeary, Attorney General<br>\nare working for me. I had a long chat<br>\nwith the Governor \u2013 nothing was said<br>\nabout things down here \u2013 but a great<br>\ndeal about the Normal School, & Smith<br>\nthat I did not care about. I told him<br>\nI was a Candidate, but did not ask<br>\nhis support, and do not know what<br>\nhe will do \u2013 It all depends upon his vote<br>\nI have other \"irons\", but all in the<br>\nsame undeveloped state. Am getting<br>\nvery impatient. Wish I had the power<br>\nto turn over this house to you & Gart-<br>\nner \u2013 Do not let those infernal Yankees<br>\nget it. I am anxious to get out, I do<br>\nassure you \u2013 and shall not lose a<br>\nmoment, when I know where to go<br>\nBut I have written too much. If Mrs<br>\nE knew I was writing, she would join me<br>\nin kind wishes \u2013 Truly your friend \u2013 [Signature] C. P. Estill</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5"
-                        },
-                        {
-                            "id": "http://example.org/iiif/366",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-289.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from C. P. Estill, July 15, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-07-15"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from C. P. Estill, July 15, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas State Agricultural and Mechanical College--Faculty",
+          "University administration--Texas",
+          "Educational institutions--Texas--History--19th century",
+          "Academic dismissals",
+          "Normal schools--Texas",
+          "Organizational politics",
+          "Academic careers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Estill, C. P."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Harrison",
+          "Thornton",
+          "Gartner",
+          "Kellner",
+          "Pfeuffer",
+          "James",
+          "Brown",
+          "McLeary",
+          "Smith",
+          "Governor of Texas"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "C. P. Estill, a professor at Texas State Agricultural and Mechanical College, writes to Louis L. McInnis detailing his dismissal from the institution and expressing his frustration with the manner in which it was executed. Estill criticizes the Board's deceptive handling of his removal, which he argues places a stigma on him and damages his prospects for employment elsewhere in Texas. He discusses his candidacy for a position at the Normal School and mentions influential supporters including the Comptroller and Attorney General working on his behalf."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/38860dbe-7411-34ac-b9dc-2fa5a24124a7/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 5569,
+      "width": 3301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/332",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/331",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/38860dbe-7411-34ac-b9dc-2fa5a24124a7/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5569,
+                "width": 3301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/38860dbe-7411-34ac-b9dc-2fa5a24124a7",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/350",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/349",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><b>State A. & M. College of Texas.</b></p>\n<p>College Station, Brazos County,</p>\n\n<p>July 15<sup>th</sup> 1881</p>\n\n<p>My Dear Mr Lunis,<br>\nYour letter was<br>\nduly received, and for its<br>\nfriendly sentiments I thank<br>\nyou from the bottom of my<br>\nheart. My separation from the<br>\nCollege, I keenly feel - My as-<br>\nsociation with many of you<br>\nhas been nothing but pleasant.<br>\nI am candid enough to say,<br>\nit has not been so with all -<br>\nand of course, the separation<br>\nfrom them causes no regret.<br>\nWas not the manner of my<br>\n\"taking off\" singular? The Board<br>\nleft me here, so far as any of<br>\nthem interviewed me, with the<br>\nbelief that everything would work<br>\nout right, - so far as I was con-<br>\ncerned, and that nothing had<br>\nbeen determined upon. I would</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/351",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My goal is to get a perfect transcription of this letter. First, I have a header: \"State A. & M. College of Texas.\" in a formal gothic style. Then, \"College Station, Brazos County,\" in a more flowing cursive. It's dated \"July 15th 1881\", with the '1' added by hand. The letter begins \"My Dear Mr. Lunis,\" which, admittedly, the name is giving me a bit of trouble, but from what I can see, it looks like \"Lunis,\" though \"Lewis\" is a possibility that I am tracking, and even the obscure \"Innis\" is feasible based on the handwriting.\n\nThe body of the letter is where the real work is. The text starts with a gracious acknowledgement of a letter received, expressing thanks for the \"friendly sentiments\". The writer then mentions a separation from the college, which is clearly a sensitive topic. It sounds like the writer is leaving or has left. The writer also reflects on the separation, and I must preserve the implied tone of candor and perhaps a bit of bitterness. Then there's an abrupt question about the nature of the writer's \"taking off,\" with the phrase in quotes. This hints at some sort of controversy. The writer tells me that the board seemed to believe that everything was going to be alright, but clearly something has happened. Then, the letter just cuts off in the middle of a sentence, which is frustrating.\n\nI'm transcribing carefully, line by line, preserving the original formatting as closely as possible, including line breaks and punctuation. I'm focusing on \"Mr. Lunis\", which seems to be the most accurate read of the name. If it turns out to be \"Lewis\" or even \"Innis\", I will need to make an addendum, noting the original ambiguity and the reasoning I followed. I will use appropriate HTML tags to reproduce the text exactly. I'm noting any variations in style or punctuation, like the raised \"th\" in the date. The exclamation/question mark is a point of concern as well. I'm prepared to provide all relevant notes. I have one task: Perfect accuracy.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 5569,
+      "width": 3301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/334",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/333",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/62008dc9-40e0-3dbf-aa5d-2a04b1b43b5a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5569,
+                "width": 3301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/62008dc9-40e0-3dbf-aa5d-2a04b1b43b5a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/353",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/352",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>(2) [1881, July 15]</p>\n<p><b>State A. & M. College of Texas.</b></p>\n<p><i>College Station, Brazos County,</i></p>\n<p>......................................................................................................188</p>\n<br>\n<p>not be, until they met at Hous-<br>\nton, to which place they had ad-<br>\njourned. Yet at Prarie View,<br>\nwhile Harrison was at Navasota,<br>\nthe work was done. Thornton tele-<br>\ngraphed it from Hempstead Fri-<br>\nday night; & it appeared in the \"News\"<br>\nof Saturday. They met in Houston<br>\nSaturday, & in Sunday Morning's<br>\nPost the proceedings appear, &<br>\nthe Records make it to have<br>\nbeen done there. What sort of<br>\n\"hocus pocus\", do you call that,<br>\nfor honorable straight-forward<br>\nmen? I call it trickery, of the<br>\nsmallest kind. Their Resolutions<br>\ncan do me no possible good.<br>\nBut it has been in their power<br>\nto to me an incalculable dam-<br>\nage. In the peculiar circumstan-<br>\nces existing here, the dropping</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/354",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Okay, let's break down this transcription process. As a professional, I'm approaching this meticulously, focusing on accuracy and adherence to the guidelines.**\n\nFirst, the request: I understand my role is to transcribe this image-based text with high fidelity, preserving the original formatting and any inherent ambiguity. I'm noting specific HTML tags to use as well, and I'll keep the top-to-bottom reading order. My goal is a faithful rendering, no interpretation beyond what's visually present.\n\nNext, the image itself. I see a piece of stationery from the State A. & M. College of Texas, with \"College Station, Brazos County\" and a pre-printed \"188\" date line. There are handwritten additions that appear to be archival notes (\"(2) [1881, July 15]\"). The main body is handwritten script, seemingly from the late 19th century. The ink is a bit faded, but legible. The content is about a meeting and accusations of \"trickery\" relating to records.\n\nNow, the transcription. Line by line, I'm carefully transcribing, noting any peculiarities or potential ambiguities. I see the archival notation, the printed letterhead, the sub-header, and the date line. The body text will be a bit more involved. I have a crucial moment to handle, the word \"Prarie\" – or is it \"Pratie\" or \"Prairie\"? It is likely a misspelling of \"Prairie\". I'll be really attentive to the handwriting of 'r' and 't' throughout, as it's common. I am also paying attention to the spelling of place names and making sure capitalization is correct. I am noting the repetition of the word \"to\" in line 19 (\"to to me\"), which I need to preserve, even though it appears redundant.\n\nNow for refining: I'll use the HTML tags to structure the output. I am very attentive to how the \"Prarie\"/\"Pratie\" appears. I'll stick with \"Prarie\" as the closest readable text that makes sense, as the context is clear. The key is faithfulness to the image. I'll make sure to note that the header text has different font and structure from the body. I will stick with `<p>` to differentiate the lines.\n\nFinally, the output. The HTML will represent the image as accurately as possible, with the handwritten notes, the printed header, and the transcribed body. I've double-checked spelling, capitalization, and punctuation. The unusual \"Prarie\" and \"to to me\" are exactly as written.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 5569,
+      "width": 3301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/336",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/335",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/517634d6-7c9b-3c2d-93e1-50a6854f3440/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5569,
+                "width": 3301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/517634d6-7c9b-3c2d-93e1-50a6854f3440",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/356",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/355",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>(3) [1881, July 15]</p>\n<p>State A. & M. College of Texas.<br>\nCollege Station, Brazos County,<br>\n....................................................................188</p>\n\n[Body]\n<p>of one Professor (& but one has been<br>\ndropped) is a stigma upon him<br>\n& nothing else - All the resolutions<br>\non the face of the earth can<br>\nmake it nothing else. It puts<br>\nme at a disadvantage in securing<br>\nwork anywhere in the State. Bet-<br>\nter far, in that view of it, that I<br>\nhad never come near the place.<br>\nI have always been aware<br>\nthat under the new policy, my chair<br>\nwas more endangered than any<br>\nother - not necessarily so however.<br>\nI believe that, if the Governor had<br>\nnot come here, the step would<br>\nnot have been taken - before<br>\nanother year at least. There would<br>\nhave been some propriety in the<br>\nstep, when the University had been<br>\nestablished. But with the Governor<br>\nurging even more radical meas-</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/357",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Alright, here's what I'm thinking:** I'm starting with this handwritten letter and the goal is to get a clean transcription. First, I need to understand the basic structure: there's a header with some handwritten annotations and a printed part, a date line, and then the body of the letter. I need to make sure I capture everything accurately, including any strange characters or potential ambiguities in the handwriting.\n\nI'm carefully examining the header. I see that there are two handwritten elements: \"(3)\" and \"[1881, July 15]\". It's pretty straightforward, probably some archival notations. Then there's the printed part, which is in a gothic font: \"State A. & M. College of Texas.\" followed by \"College Station, Brazos County,\" and the date line with just \"188\" pre-printed.\n\nNow, into the body. The handwriting is a loopy cursive, typical of the late 19th century. I'm going line by line, really looking at each word. The first line, \"of one Professor...\" is the start. I have to make sure I get the sentence structure correct.\n\nI need to make sure I transcribe the \"&\" properly (looks like a plus sign), and I'm watching for all the tiny quirks of the penmanship. I see something scribbled above \"dropped\", but it looks like the words, \"is a stigma upon him\" are added to the same sentence. I'm careful with punctuation – that dash and the end of each line can be tricky.\n\nThe trickiest part is definitely the word in line 9, \"had.\" It's written in a way that is just a little off. The penmanship is a bit messy, and it looks like \"hald\". But, after checking the context, and looking at the other letters. It looks like it is `had`. It must be an unusual flourish.\n\nI'm double-checking every word and noticing any capitalization issues (like \"University\" is capitalized). I'm also watching for any marks or periods at the ends of lines. The last line ends with \"meas-\", which is cut off but must be \"measures\".\n\nI'm creating a draft transcription, refining it with these details, and checking the text against the image, line by line. I have to create an output with all the information in the right place. I'll make sure to preserve all line breaks using `<br>`, and I am not including any unnecessary formatting. I am confident I will produce an accurate transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 5569,
+      "width": 3301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/338",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/337",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/9436fe3d-287a-3fc0-b89b-bbd88c21c37a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5569,
+                "width": 3301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/9436fe3d-287a-3fc0-b89b-bbd88c21c37a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/359",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/358",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p style=\"text-align: right; color: grey;\">(4) [1881, July 15]</p>\n\n<p style=\"text-align: center;\"><b>State A. & M. College of Texas.</b></p>\n<p style=\"text-align: center;\"><i>College Station, Brazos County,</i></p>\n<p style=\"text-align: right;\">.......................................................................................188</p>\n\n<p>ures than were adopted, faithfully\nsupported by his Man Friday\nhere – and with a new Board just\nappointed by him, perhaps nothing\nless was to be expected. I have\nheard that the Governor is mad\nthat Gartner & Kellner did not\ngo too, & charges it all upon Pfeuf-\nfer. This I was told in Austin, the\nother day, But you need not tell\nGartner this – for it will only\nmake him uncomfortable – and\nGod knows, he has a path before\nhim, not to be envied. James, you\nwill observe, has every thing ab-\nsolutely in his own hands in the\nmatter of Optional Studies – And I\nthink he will make the Supt, a\ncomplete \"figure head\", by the close\nof the session – Gartner, however,\ncollected his loan, before he</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/360",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Initial Analysis and Transcription Process**\n\nOkay, here's what I'm thinking as I approach this transcription: I have a clear role – transcriptionist. My task is to accurately reproduce the text from this image, which appears to be a handwritten document, likely a letter. I've got to maintain fidelity to the original spelling, punctuation (even if it's a bit odd), the overall layout, and interpret any handwriting quirks. I'll use HTML tags as specified. I'm focusing solely on providing the transcription; no analysis or commentary in the final output.\n\nI can see from the image that it's a letter on what looks like official stationery, with a header in a distinctive gothic font: \"State A. & M. College of Texas.\" Below that, there's a script font that says \"College Station, Brazos County.\" There are archival notations in pencil, specifically \"(4) [1881, July 15]\" which are likely date/ID markings. The writing is cursive, and generally legible, but there are instances of cramped words and some ambiguity. The content seems to deal with some internal political maneuverings at the college, involving key figures like a \"Governor,\" \"Gartner,\" \"Kellner,\" \"Pfeuffer,\" and a \"James.\"\n\nNow, line by line: I'm carefully reading and interpreting each word. I'm already seeing some challenges with the handwriting. For example, the first word of the body seems to be cut-off, but with some close examination and context, I think it is \"ures.\" I'm mentally making notes of potential uncertainties. I will render \"to be\" to \"to be\".\n\nI'm making a note of any proper nouns like \"Man Friday,\" as they are capitalized. I'm taking my time with ambiguous words, like the word, which turns out to be \"Supt.\" Looking at the handwriting very closely, I'm analyzing the ink flow, letter shapes and surrounding words to give me the most accurate transcription.\n\nI'm keeping an eye on the bigger picture of the text as I transcribe. Context is key! For example, when I saw \"Pfeuffer,\" I recalled some of the history of A&M. This helps to confirm my understanding. Now, I will double check, given the people involved, if there is another valid word. \"Dept\" (Department) or \"Supt\" (Superintendent). I have to ensure the final output reflects my best interpretation of the visual information. I am comparing the \"Supt\" transcription against \"Dept\" or \"Prest\" to ensure it fits the historical context and the visible ink marks.\n\nI've decided to transcribe \"Supt\". Given the historical context, the personalities mentioned, and the nature of the document. Also, I am taking into account the quotations marks around \"figure head\". I am making sure the output is faithful to the original, including capitalization, hyphenation, and the use of quotation marks. The \"188\" part is pre-printed so I won't transcribe it. I am making sure to add it. I'm going back to check. I'm going to look at the handwriting again. I will use the HTML tags and correct the word.\n\nOkay, I've got a final version. I have added the HTML tags and formatted the text according to the instructions. I have added the pencil note. I have added the pre-printed date/number. I am checking the crop. Done!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 4"
+        ]
+      },
+      "height": 5569,
+      "width": 3301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/340",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/339",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3456d15b-267f-34bc-8839-4f734d11bdcd/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5569,
+                "width": 3301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3456d15b-267f-34bc-8839-4f734d11bdcd",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/362",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/361",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Margin: (5) [1881, July 15]]</p>\n<p>[Header] <b>State A. & M. College of Texas.</b><br>\n<i>College Station, Brazos County,</i></p>\n<p>......................................................................188</p>\n<p>\nleft. So that it cannot be said<br>\nthat he holds a Mortgage upon<br>\nhim. Take care that he does not<br>\nget into the rut of you Bachelor's.<br>\nIs not this a miserably spiteful<br>\ncommunication? You did not<br>\nthink you would draw out such<br>\na dokument, when you wrote,<br>\ndid you? A man must write as<br>\nhe feels – and I am feeling just<br>\nthat way just now! I suppose,<br>\nI will get over it, directly –<br>\nI know not where in the<br>\nworld I shall go – And it is full<br>\ntime, I knew. I went to Austin, im-<br>\nmediately after the event here, to see<br>\nabout the Normal School. I am an<br>\napplicant for Cooper's place – They<br>\nhave been casting about for a Pres-<br>\nident, but do not seem to have<br>\nfound one yet. I have some\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4"
+            },
+            {
+              "id": "http://example.org/iiif/363",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Transcription and Analysis**\n\nAlright, let's get this done. The task is to transcribe this image of a handwritten letter, and I've got a handle on the nuances. The main challenge? This \"dokument\" in line 8. It's clearly intended to be \"document\", but the handwriting *really* makes it look like it starts with a \"k\", or perhaps a stray \"l\". Since I am not meant to autocorrect, but preserve the original, I am going with \"dokument\".\n\nHere's the breakdown of my transcription process:\n\n1.  **Image Analysis:** I started by visually dissecting the image. The header is important, so I had a good look at that gothic font and the script of \"College Station\". Also, the marginalia \"(5) [1881, July 15]\" is going to get included, since it is archival.\n\n2.  **Transcription Guidelines:** I'm sticking to the rules: top-to-bottom order, preserving everything – spelling, punctuation, capitalization – and using the specified HTML tags. No commentaries.\n\n3.  **Specific Challenges & Decision Making:**\n\n    *   **\"left.\" vs. \"loft\":** The first word – it's definitely \"l-f-t,\" but the vowel is a closed loop, so it can be 'e' (as in \"left\") or 'o' (as in \"loft\"). I am going with \"left,\" as the more common one, and also grammatically, the sentence makes sense: \"He has nothing left.\"\n\n    *   **\"you Bachelor's\":** The \"you\" is clear; \"Bachelor's\" is possessive plural. The \"rut of you Bachelors\" implies an opinion on a group of bachelors. The dash or period at the end of this sentence is also important for sentence construction.\n\n    *   **\"dokument\":** This is where it got tricky. The word is clearly *meant* to be \"document\", but that third letter is a tall loop that looks like a \"k\". I can confirm with the shapes of the other \"c\" characters that they are all small curves. I had an in-depth analysis looking at the 'k's and 'c's in the text to determine this was in fact, the closest possible interpretation of the glyph. However, it still looks like a \"k\". Given the instruction that I must preserve original spellings, I transcribed it as \"dokument\". I am unsure of the choice, but I must follow instructions.\n\n    *   **\"Cooper's place\":** The person mentioned is likely Oscar H. Cooper, a historical figure. The context of Texas education in 1881 is very relevant here, and the location of \"Cooper's place\" may refer to his role in Sam Houston State.\n\n4.  **Formatting and Structure:** The pencil notations are marginalia and should be preserved. The date line (the \"188\" part) needs to be addressed. I am retaining the dashes and the line breaks and other punctuation such as commas, periods, dashes, and question marks. Also the exclamation point in line 11!\n\n5.  **Final Checks:** I did a final content read-through and double-checked the \"k\" again, to make sure it was an acceptable transcription, given I cannot autocorrect. All other words are as seen.\n\nNow, here's my final, faithful transcription with markup:\n\n```html\n<p>(5) [1881, July 15]</p>\n<p><b>State A. & M. College of Texas.</b><br>\n<i>College Station, Brazos County,</i></p>\n<p>......................................................................188</p>\n<p>left. So that it cannot be said<br>\nthat he holds a Mortgage upon<br>\nhim. Take care that he does not<br>\nget into the rut of you Bachelor's.<br>\nIs not this a miserably spiteful<br>\ncommunication? You did not<br>\nthink you would draw out such<br>\na dokument, when you wrote,<br>\ndid you? A man must write as<br>\nhe feels – and I am feeling just<br>\nthat way just now! I suppose,<br>\nI will get over it, directly –<br>\nI know not where in the<br>\nworld I shall go – And it is full<br>\ntime, I knew. I went to Austin, im-<br>\nmediately after the event here, to see<br>\nabout the Normal School. I am an<br>\napplicant for Cooper's place – They<br>\nhave been casting about for a Pres-<br>\nident,\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 5"
+        ]
+      },
+      "height": 5569,
+      "width": 3301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/342",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/341",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/153ecd9d-05a3-32d7-afef-2ab9a75330df/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5569,
+                "width": 3301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/153ecd9d-05a3-32d7-afef-2ab9a75330df",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/365",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/364",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>(6) [1884 July 15]<br>\n<b>State A. & M. College of Texas.</b><br>\n<i>College Station, Brazos County,</i></p>\n<p>........................................................................188</p>\n\n<p>strong influence – Brown, Comptrol<br>\nler, a member of the Board of Educa-<br>\ntion, and McLeary, Attorney General<br>\nare working for me. I had a long chat<br>\nwith the Governor – nothing was said<br>\nabout things down here – but a great<br>\ndeal about the Normal School, & Smith<br>\nthat I did not care about. I told him<br>\nI was a Candidate, but did not ask<br>\nhis support, and do not know what<br>\nhe will do – It all depends upon his vote<br>\nI have other \"irons\", but all in the<br>\nsame undeveloped state. Am getting<br>\nvery impatient. Wish I had the power<br>\nto turn over this house to you & Gart-<br>\nner – Do not let those infernal Yankees<br>\nget it. I am anxious to get out, I do<br>\nassure you – and shall not lose a<br>\nmoment, when I know where to go<br>\nBut I have written too much. If Mrs<br>\nE knew I was writing, she would join me<br>\nin kind wishes – Truly your friend – [Signature] C. P. Estill</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5"
+            },
+            {
+              "id": "http://example.org/iiif/366",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/289/pages/page_5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

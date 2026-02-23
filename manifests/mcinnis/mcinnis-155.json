@@ -1,139 +1,184 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-155.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from M. T. Merriweather, November 20, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-11-20"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from M. T. Merriweather, November 20, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/70bd1607-3857-3760-b468-1046de50b07b/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3845,
-            "width": 3027,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/116",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/115",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/70bd1607-3857-3760-b468-1046de50b07b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3845,
-                                "width": 3027,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/70bd1607-3857-3760-b468-1046de50b07b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/119",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/118",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>Pearsall Nov 20 1886\n\nProf L L McInnis\nCollege Station\nSir\nI sent a check to the\nBank today for $210 00 to get the money\nI could not Cash it in our town & will\nsend the money for Willie's tuition just\nas soon as the money is sent down to\nme from San Antonio\n\nYours truly\nW. T. Meriwether</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/120",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Alright, here's the transcription process, as I see it:**\n\nFirst, I need to understand the document \u2013 it's a handwritten letter dated November 20, 1886, from Pearsall. The recipient is Prof. L.L. McInnis at College Station. The main point is a delay in tuition payment for someone named Willie because a check couldn't be cashed locally and had to be sent to a bank (likely in San Antonio). The sender is W. T. Meriwether.\n\nNow, let's break down the transcription:\n\nI started with the date/location, \"Pearsall Nov 20 1886\". That '20' has a little mark, maybe a superscript 'th' or a degree symbol, but it's ambiguous, so I will write \"20\", sticking with simple. Then the recipient, \"Prof L L McInnis, College Station\". Next, the salutation is \"Sir\".\n\nMoving to the body, I read \"I sent a check to the Bank today for $210 00 to get the money\". The amount is clear, it's $210 with a fraction or colon with `00`. I'll transcribe this as `$210 00` because the two small symbols look like cents. The next line, \"I could not Cash it in our town & will send...\", looks like the writer used a cursive ampersand '&' before the \"will\". I will use the ampersand. Then, \"send the money for Willie's tuition just as soon as the money is sent down to me from San Antonio\". The 'tuition' has an \"o\" that looks squashed, perhaps a stylistic choice. I will stick with \"tuition\". The word \"money\" is written in the body a few times. Sometimes it looks like \"muney\", but it's clearly \"money\".\n\nFinally, the closing is \"Yours truly\" and the signature is \"W. T. Meriwether\". I double-checked the cursive initials and the last name, both look correct.\n\nI am using `P` to maintain paragraph structure and not adding any other HTML tags or formatting. The goal is to accurately represent what is on the page.\n\nSo, here is the text as I have interpreted it, in accordance with the guidelines:\n\nPearsall Nov 20 1886\n\nProf L L McInnis\nCollege Station\n\nSir\n\nI sent a check to the\nBank today for $210 00 to get the money\nI could not Cash it in our town & will\nsend the money for Willie's tuition just\nas soon as the money is sent down to\nme from San Antonio\n\nYours truly\nW. T. Meriwether\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-155.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from M. T. Merriweather, November 20, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-11-20"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from M. T. Merriweather, November 20, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Tuition--Texas--History--19th century",
+          "Financial correspondence",
+          "Educational expenses",
+          "Banking--Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Meriwether, W. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Willie (student)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A brief financial letter from W. T. Meriwether to Professor Louis L. McInnis at College Station, dated November 20, 1886, regarding payment of tuition fees. Meriwether indicates he has sent a check for $210 to a bank and promises to remit funds for Willie's tuition once money arrives from San Antonio. The letter documents late nineteenth-century university financial procedures and student payment practices in Texas."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/70bd1607-3857-3760-b468-1046de50b07b/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3845,
+      "width": 3027,
+      "items": [
+        {
+          "id": "http://example.org/iiif/116",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/115",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/70bd1607-3857-3760-b468-1046de50b07b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3845,
+                "width": 3027,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/70bd1607-3857-3760-b468-1046de50b07b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/119",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/118",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>Pearsall Nov 20 1886\n\nProf L L McInnis\nCollege Station\nSir\nI sent a check to the\nBank today for $210 00 to get the money\nI could not Cash it in our town & will\nsend the money for Willie's tuition just\nas soon as the money is sent down to\nme from San Antonio\n\nYours truly\nW. T. Meriwether</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/120",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Alright, here's the transcription process, as I see it:**\n\nFirst, I need to understand the document – it's a handwritten letter dated November 20, 1886, from Pearsall. The recipient is Prof. L.L. McInnis at College Station. The main point is a delay in tuition payment for someone named Willie because a check couldn't be cashed locally and had to be sent to a bank (likely in San Antonio). The sender is W. T. Meriwether.\n\nNow, let's break down the transcription:\n\nI started with the date/location, \"Pearsall Nov 20 1886\". That '20' has a little mark, maybe a superscript 'th' or a degree symbol, but it's ambiguous, so I will write \"20\", sticking with simple. Then the recipient, \"Prof L L McInnis, College Station\". Next, the salutation is \"Sir\".\n\nMoving to the body, I read \"I sent a check to the Bank today for $210 00 to get the money\". The amount is clear, it's $210 with a fraction or colon with `00`. I'll transcribe this as `$210 00` because the two small symbols look like cents. The next line, \"I could not Cash it in our town & will send...\", looks like the writer used a cursive ampersand '&' before the \"will\". I will use the ampersand. Then, \"send the money for Willie's tuition just as soon as the money is sent down to me from San Antonio\". The 'tuition' has an \"o\" that looks squashed, perhaps a stylistic choice. I will stick with \"tuition\". The word \"money\" is written in the body a few times. Sometimes it looks like \"muney\", but it's clearly \"money\".\n\nFinally, the closing is \"Yours truly\" and the signature is \"W. T. Meriwether\". I double-checked the cursive initials and the last name, both look correct.\n\nI am using `P` to maintain paragraph structure and not adding any other HTML tags or formatting. The goal is to accurately represent what is on the page.\n\nSo, here is the text as I have interpreted it, in accordance with the guidelines:\n\nPearsall Nov 20 1886\n\nProf L L McInnis\nCollege Station\n\nSir\n\nI sent a check to the\nBank today for $210 00 to get the money\nI could not Cash it in our town & will\nsend the money for Willie's tuition just\nas soon as the money is sent down to\nme from San Antonio\n\nYours truly\nW. T. Meriwether\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/155/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

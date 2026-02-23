@@ -1,139 +1,187 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-173.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from W. R. Cavitt, January 11, 1887"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1887-01-11"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from W. R. Cavitt, January 11, 1887"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/5875954c-9d83-3e78-9a62-b8613994331d/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3885,
-            "width": 3075,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/578",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/577",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5875954c-9d83-3e78-9a62-b8613994331d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3885,
-                                "width": 3075,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5875954c-9d83-3e78-9a62-b8613994331d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/581",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/580",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>At Home (Bryan Texas) - Jan 11<sup>th</sup> 87-</p>\n<p>Prof. L. L. M<sup>c</sup>Innis.<br>\nCollege Station, Texas -</p>\n<p>Friend M<sup>c</sup>Innis,</p>\n<p>Yours dated Yesterday rec'd - Thanks -<br>\nI want the $600 <sup>00</sup>/<sub>100</sub> for 30 or 60 days - I<br>\ncan give whatever landed security desired (if<br>\nwanted) - I will give lien on 300 acres<br>\nbetween here & College if wanted - You can<br>\nsend money by ______ the Negro if convenient<br>\nI want it tomorrow - The bearer is<br>\nAndy Dixon (f.m.c.) - You give me amt<br>\ninterest required, security &c & I will<br>\nsend same out <sup>by</sup> tomorrow's mail - ______</p>\n<p>Wish you would send me report of the<br>\nUniversity Regents - I want to look <sup>over</sup> of<br>\nit before we have our Austin meeting -<br>\nYou need not say to bearer anything<br>\nabout contents if you send money -</p>\n<p>Am still confined to my room - I hope<br>\nto be able to be out to College latter part<br>\nof this week.</p>\n<p>As Ever Yours &c<br>\nW. R. Cavitt</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/582",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's how I approached this transcription task:**\n\nI began by understanding the requirements: transcribe text from an image of a handwritten document. My role is that of a transcriptionist, with the goal of high accuracy, including original spelling, punctuation, and layout. I need to interpret handwriting, maintain the document's structure with appropriate HTML markup (using the allowed elements only), and identify/label any structural elements like the header, footer, and signature. If there's any data presented in a table, I must use Markdown for it. I also must handle any marginalia or insertions in the text. I'm limited to providing only the transcribed text, with no additional commentary.\n\nNext, I analyzed the image. It's a handwritten letter in cursive from the late 19th century. The content is a request for a $600 loan for a specific timeframe (30-60 days) with land offered as security. It mentions a bearer named Andy Dixon and references the \"University Regents.\" Additional context includes mention of illness or confinement to a room. The date and location are \"At Home (Bryan Texas) - Jan 11th 87\" (1887), and it's addressed to \"Prof. L. L. McInnis, College Station, Texas.\" The sender is identified as \"W. R. Cavitt,\" which, after careful visual analysis and cross-referencing with historical records, I've determined is the more likely reading of the signature, matching the historical context of a chairman of the Board of Directors of A&M College.\n\nI then started transcribing the text line by line. I have created blocks to represent the letter's format. I paid close attention to detail, considering each word and punctuation mark. I identified and transcribed the header, salutation, body paragraphs, and closing/signature.\n\nI noted and transcribed inserted text.\n\nI applied the HTML markup to maintain the document's structure, using `<p>` for paragraphs, and `<br>` for line breaks.\n\nThroughout this process, I considered nuances in the handwriting, such as the superscript \"th\" in \"11th\" and the raised \"c\" in \"McInnis\". I also accurately represented the formatting of the fraction \"00/100\" by using HTML tags. In the original transcription the word \"Negro\" has an underline, which I have noted in my process and represented. I used HTML markup to show insertions of text (carats) and other nuances of style.\n\nI did a final polish and self-corrected a few things to ensure accuracy. I had to interpret how to apply the guidelines. I had to look at \"look over of\" very carefully to make sure I got the words right. I then double-checked all elements to generate a final result that is an accurate and properly formatted transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-173.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from W. R. Cavitt, January 11, 1887"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1887-01-11"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from W. R. Cavitt, January 11, 1887"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Personal correspondence",
+          "Loan requests",
+          "Land security",
+          "University of Texas--Administration",
+          "Texas A&M University--History",
+          "Bryan, Texas--History"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Cavitt, W. R."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Dixon, Andy",
+          "University of Texas Regents"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from W. R. Cavitt to Professor Louis L. McInnis requesting a loan of $600 for 30 or 60 days, offering land security as collateral. Cavitt also requests a report of the University Regents to review before an Austin meeting and indicates plans to travel to College Station later in the week. The letter references sending money via Andy Dixon and provides details about interest and security terms."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/5875954c-9d83-3e78-9a62-b8613994331d/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3885,
+      "width": 3075,
+      "items": [
+        {
+          "id": "http://example.org/iiif/578",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/577",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5875954c-9d83-3e78-9a62-b8613994331d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3885,
+                "width": 3075,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5875954c-9d83-3e78-9a62-b8613994331d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/581",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/580",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>At Home (Bryan Texas) - Jan 11<sup>th</sup> 87-</p>\n<p>Prof. L. L. M<sup>c</sup>Innis.<br>\nCollege Station, Texas -</p>\n<p>Friend M<sup>c</sup>Innis,</p>\n<p>Yours dated Yesterday rec'd - Thanks -<br>\nI want the $600 <sup>00</sup>/<sub>100</sub> for 30 or 60 days - I<br>\ncan give whatever landed security desired (if<br>\nwanted) - I will give lien on 300 acres<br>\nbetween here & College if wanted - You can<br>\nsend money by ______ the Negro if convenient<br>\nI want it tomorrow - The bearer is<br>\nAndy Dixon (f.m.c.) - You give me amt<br>\ninterest required, security &c & I will<br>\nsend same out <sup>by</sup> tomorrow's mail - ______</p>\n<p>Wish you would send me report of the<br>\nUniversity Regents - I want to look <sup>over</sup> of<br>\nit before we have our Austin meeting -<br>\nYou need not say to bearer anything<br>\nabout contents if you send money -</p>\n<p>Am still confined to my room - I hope<br>\nto be able to be out to College latter part<br>\nof this week.</p>\n<p>As Ever Yours &c<br>\nW. R. Cavitt</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/582",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I approached this transcription task:**\n\nI began by understanding the requirements: transcribe text from an image of a handwritten document. My role is that of a transcriptionist, with the goal of high accuracy, including original spelling, punctuation, and layout. I need to interpret handwriting, maintain the document's structure with appropriate HTML markup (using the allowed elements only), and identify/label any structural elements like the header, footer, and signature. If there's any data presented in a table, I must use Markdown for it. I also must handle any marginalia or insertions in the text. I'm limited to providing only the transcribed text, with no additional commentary.\n\nNext, I analyzed the image. It's a handwritten letter in cursive from the late 19th century. The content is a request for a $600 loan for a specific timeframe (30-60 days) with land offered as security. It mentions a bearer named Andy Dixon and references the \"University Regents.\" Additional context includes mention of illness or confinement to a room. The date and location are \"At Home (Bryan Texas) - Jan 11th 87\" (1887), and it's addressed to \"Prof. L. L. McInnis, College Station, Texas.\" The sender is identified as \"W. R. Cavitt,\" which, after careful visual analysis and cross-referencing with historical records, I've determined is the more likely reading of the signature, matching the historical context of a chairman of the Board of Directors of A&M College.\n\nI then started transcribing the text line by line. I have created blocks to represent the letter's format. I paid close attention to detail, considering each word and punctuation mark. I identified and transcribed the header, salutation, body paragraphs, and closing/signature.\n\nI noted and transcribed inserted text.\n\nI applied the HTML markup to maintain the document's structure, using `<p>` for paragraphs, and `<br>` for line breaks.\n\nThroughout this process, I considered nuances in the handwriting, such as the superscript \"th\" in \"11th\" and the raised \"c\" in \"McInnis\". I also accurately represented the formatting of the fraction \"00/100\" by using HTML tags. In the original transcription the word \"Negro\" has an underline, which I have noted in my process and represented. I used HTML markup to show insertions of text (carats) and other nuances of style.\n\nI did a final polish and self-corrected a few things to ensure accuracy. I had to interpret how to apply the guidelines. I had to look at \"look over of\" very carefully to make sure I got the words right. I then double-checked all elements to generate a final result that is an accurate and properly formatted transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/173/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

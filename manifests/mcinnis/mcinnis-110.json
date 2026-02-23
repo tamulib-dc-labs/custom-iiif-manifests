@@ -1,210 +1,257 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-110.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Postcard to Louis L. McInnis from R. H. Whitlock, January 1, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-01-01"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Postcard to Louis L. McInnis from R. H. Whitlock, January 1, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e85a4e89-d1c1-37b6-91a5-ed693e6b157a/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 1166,
-            "width": 2032,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e85a4e89-d1c1-37b6-91a5-ed693e6b157a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1166,
-                                "width": 2032,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e85a4e89-d1c1-37b6-91a5-ed693e6b157a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><b>POSTAL CARD.</b></p>\n\n[Stamp]\n<p>NEW ORL...<br>\nU.S. POSTAGE<br>\nONE CENT</p>\n\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station<br>\nTexas.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription of the Postal Card**\n\nOkay, so the task is to transcribe this vintage postal card image, keeping in mind the required HTML markup. I'll need to be accurate and follow the formatting guidelines. First, I need to analyze the image.\n\nThe image is a vintage U.S. Postal Card. The header is \"POSTAL CARD.\" with some decorative scrollwork and a \"US\" monogram. There's a \"ONE CENT\" U.S. Postage stamp, and the postmark seems to say \"NEW ORL...\". The instruction on the card is: \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" The address is handwritten as \"Prof. L. L. McInnis, College Station Texas.\"\n\nI'll start transcribing the text and then apply the HTML markup. The \"POSTAL CARD\" header looks stylized, and I'll use `<b>` and `<p>` tags for it. The stamp says \"U.S. POSTAGE\" and \"ONE CENT\". The postmark is only partially visible, reading \"NEW ORL...\". The instruction \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" is in a smaller font, so I'll use `<small>`. The address is a standard text, so I will wrap it in `<p>`.\n\nI'll double-check the handwriting; it looks like \"Prof. L. L. McInnis, College Station Texas.\" The spelling and punctuation seem correct. The key is to preserve the exact appearance and formatting. \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" is all caps.\n\nSo, here's the transcription:\n\n**[Header]**\n\n<p><b>POSTAL CARD.</b></p>\n\n**[Stamp]**\n\n<p>NEW ORL...<br>\nU.S. POSTAGE<br>\nONE CENT</p>\n\n**[Instruction]**\n\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n\n**[Address]**\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station<br>\nTexas.</p>\n\nI'm confident this transcription is accurate and follows the instructions for HTML usage. The stamp elements are correctly placed based on my knowledge of postal cards. The layout represents the card's structure. I have preserved the intended order. All the text is captured with the correct markup. I think this is it.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 1166,
-            "width": 2032,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/dba2d78d-c79a-3496-a3fc-f5765e85df5d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1166,
-                                "width": 2032,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/dba2d78d-c79a-3496-a3fc-f5765e85df5d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>N.O. Exposition 1/1/85.</p>\n<p>Dear Clarice,<br>\n&nbsp;&nbsp;&nbsp;Will leave<br>\ntomorrow at 7.30 P.M. and<br>\nwill be in College Station<br>\nSaturday on the North -<br>\nbound train at 2 P.M.<br>\nbarring accidents.<br>\nLieut. H. is with us<br>\nagain and will prob-<br>\nably return with us.<br>\nAll well except for<br>\ncolds. Remember us<br>\nto all.<br>\n&nbsp;&nbsp;&nbsp;Yours,<br>\n&nbsp;&nbsp;&nbsp;R. H. Whitlock</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Transcription**\n\nOkay, here's the transcription, after a thorough analysis. I've considered all the visual cues, the historical context, and the constraints of the HTML output. I'm confident in this rendition:\n\n<p>N.O. Exposition 1/1/85.</p>\n<p>Dear Clarice,<br>\nWill leave<br>\ntomorrow at 7.30 P.M. and<br>\nwill be in College Station<br>\nSaturday on the North -<br>\nbound train at 2 P.M.<br>\nbarring accidents.<br>\nLieut. H. is with us<br>\nagain and will prob-<br>\nably return with us.<br>\nAll well except for<br>\ncolds. Remember us<br>\nto all.<br>\nYours,<br>\nR. H. Whitlock</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-110.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Postcard to Louis L. McInnis from R. H. Whitlock, January 1, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-01-01"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Postcard to Louis L. McInnis from R. H. Whitlock, January 1, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Postcards",
+          "Travel--Texas",
+          "New Orleans--Expositions",
+          "College Station (Tex.)",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Whitlock, R. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "McInnis, Clarice",
+          "Lieutenant H."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A postcard sent from R. H. Whitlock to Professor Louis L. McInnis at College Station, Texas, dated January 1, 1885, written from the New Orleans Exposition. Whitlock informs McInnis of his travel plans, indicating he will depart the following day at 7:30 P.M. and arrive in College Station by Saturday at 2 P.M. on the northbound train, noting that Lieutenant H. is accompanying the party and may return with them. The sender mentions that all are well except for colds and sends greetings to friends and family."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e85a4e89-d1c1-37b6-91a5-ed693e6b157a/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 1166,
+      "width": 2032,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e85a4e89-d1c1-37b6-91a5-ed693e6b157a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1166,
+                "width": 2032,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e85a4e89-d1c1-37b6-91a5-ed693e6b157a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><b>POSTAL CARD.</b></p>\n\n[Stamp]\n<p>NEW ORL...<br>\nU.S. POSTAGE<br>\nONE CENT</p>\n\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station<br>\nTexas.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription of the Postal Card**\n\nOkay, so the task is to transcribe this vintage postal card image, keeping in mind the required HTML markup. I'll need to be accurate and follow the formatting guidelines. First, I need to analyze the image.\n\nThe image is a vintage U.S. Postal Card. The header is \"POSTAL CARD.\" with some decorative scrollwork and a \"US\" monogram. There's a \"ONE CENT\" U.S. Postage stamp, and the postmark seems to say \"NEW ORL...\". The instruction on the card is: \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" The address is handwritten as \"Prof. L. L. McInnis, College Station Texas.\"\n\nI'll start transcribing the text and then apply the HTML markup. The \"POSTAL CARD\" header looks stylized, and I'll use `<b>` and `<p>` tags for it. The stamp says \"U.S. POSTAGE\" and \"ONE CENT\". The postmark is only partially visible, reading \"NEW ORL...\". The instruction \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" is in a smaller font, so I'll use `<small>`. The address is a standard text, so I will wrap it in `<p>`.\n\nI'll double-check the handwriting; it looks like \"Prof. L. L. McInnis, College Station Texas.\" The spelling and punctuation seem correct. The key is to preserve the exact appearance and formatting. \"NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.\" is all caps.\n\nSo, here's the transcription:\n\n**[Header]**\n\n<p><b>POSTAL CARD.</b></p>\n\n**[Stamp]**\n\n<p>NEW ORL...<br>\nU.S. POSTAGE<br>\nONE CENT</p>\n\n**[Instruction]**\n\n<p><small>NOTHING BUT THE ADDRESS CAN BE PLACED ON THIS SIDE.</small></p>\n\n**[Address]**\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station<br>\nTexas.</p>\n\nI'm confident this transcription is accurate and follows the instructions for HTML usage. The stamp elements are correctly placed based on my knowledge of postal cards. The layout represents the card's structure. I have preserved the intended order. All the text is captured with the correct markup. I think this is it.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 1166,
+      "width": 2032,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/dba2d78d-c79a-3496-a3fc-f5765e85df5d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1166,
+                "width": 2032,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/dba2d78d-c79a-3496-a3fc-f5765e85df5d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>N.O. Exposition 1/1/85.</p>\n<p>Dear Clarice,<br>\n&nbsp;&nbsp;&nbsp;Will leave<br>\ntomorrow at 7.30 P.M. and<br>\nwill be in College Station<br>\nSaturday on the North -<br>\nbound train at 2 P.M.<br>\nbarring accidents.<br>\nLieut. H. is with us<br>\nagain and will prob-<br>\nably return with us.<br>\nAll well except for<br>\ncolds. Remember us<br>\nto all.<br>\n&nbsp;&nbsp;&nbsp;Yours,<br>\n&nbsp;&nbsp;&nbsp;R. H. Whitlock</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Transcription**\n\nOkay, here's the transcription, after a thorough analysis. I've considered all the visual cues, the historical context, and the constraints of the HTML output. I'm confident in this rendition:\n\n<p>N.O. Exposition 1/1/85.</p>\n<p>Dear Clarice,<br>\nWill leave<br>\ntomorrow at 7.30 P.M. and<br>\nwill be in College Station<br>\nSaturday on the North -<br>\nbound train at 2 P.M.<br>\nbarring accidents.<br>\nLieut. H. is with us<br>\nagain and will prob-<br>\nably return with us.<br>\nAll well except for<br>\ncolds. Remember us<br>\nto all.<br>\nYours,<br>\nR. H. Whitlock</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/110/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

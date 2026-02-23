@@ -1,127 +1,175 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-440.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from E. B. Cushing, May 4, 1891"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from E. B. Cushing, May 4, 1891"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 7 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/341a5762-bad6-3b71-9fb6-d08f0d3a5ec7/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "page_0"
-                ]
-            },
-            "height": 4326,
-            "width": 3283,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/341a5762-bad6-3b71-9fb6-d08f0d3a5ec7/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4326,
-                                "width": 3283,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/341a5762-bad6-3b71-9fb6-d08f0d3a5ec7",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><small>(G. H.) M. 18\u00bd.</small></p>\n<p><b>GALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.<br/>\nTEXAS & NEW ORLEANS RAILROAD CO.</b></p>\n<p><b>Subject</b><br/>\n<br/>\nTo ............................................................................<br/>\n<i>Office of</i> [Stamped: Resident Engineer]<br/>\n[Stamped: HOUSTON] May 4 1891</p>\n\n<p>My dear Sir.</p>\n<p>The Houston Petitions<br/>\nwill go in to morrow. Those<br/>\nof Ft Worth Temple & Galveston<br/>\nare already in. I can hear<br/>\nnothing from Tyler & Waco<br/>\nThe San Antonio boys did not come<br/>\nup owing to influence of two<br/>\nparties who oppose you =<br/>\nI have been absent a great deal<br/>\nand could not give the matter<br/>\nthe attention it required but several<br/>\nstrong letters have been written<br/>\nto Gov Hogg from Dallas - Temple<br/>\nGalveston & here -<br/>\nThe movement is being opposed,<br/>\nso I understand, on the ground that<br/>\nyour appt just now would<br/>\ncause discord in the board<br/>\nI have not heard from the Governor<br/>\nCharlie Rogan has promised to<br/>\nsee him & talk over the case<br/>\nI hope we may succeed in<br/>\nthe matter. Texas owes it to you<br/>\n& to herself to reward merit & to<br/>\nfrown on petty quarreling among her officers</p>\n<p>To Hon L. L. McInnis<br/>\nYours truly E.B. Cushing</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Okay, let's see what we've got here. My task is to transcribe this handwritten letter into a clean, formatted HTML document.** It seems straightforward enough, but the devil is always in the details, so I'll be thorough. I'm starting with the form itself, making sure I capture all the elements \u2013 the company header, the \"To\" line, the \"Office of\" designation, and the date. I'm noticing that the \"Office of\" and \"Houston\" elements are stamped, so I'll mark those as such. I'll need to figure out where the handwriting flows over the printed lines and replicate the layout as faithfully as possible.\n\nRight, time to dive into the handwritten text. I'll take it line by line, being careful with any abbreviations or unusual phrasing. I need to make sure to check for any potential errors. I'll also be on the lookout for names \u2013 \"Gov Hogg,\" \"Charlie Rogan,\" \"L. L. McInnis,\" and \"E. B. Cushing\" \u2013 because these are important for context and for my research into the history of Texas. I see that E.B. Cushing was a Resident Engineer for GH&SA, which is important. The handwriting has some quirks but is generally readable. I'll flag any areas where I have to make educated guesses or need further clarification.\n\nI'm starting to get a sense of the letter's content. It's about petitions related to some kind of appointment and some kind of political situation in Texas. I'm picking up on some opposition to the \"movement\" \u2013 probably the appointment \u2013 and hints of political maneuvering, with people writing letters and talking to the Governor. I see some of the cities involved are Houston, Ft Worth, Temple, Galveston, Waco, and Tyler. The key individuals mentioned so far are Governor Hogg, Charles Rogan, and L. L. McInnis. E. B. Cushing is the letter writer.\n\nI need to nail down any ambiguities in the text, so I will have to look closely at the crops. I also should check the historical references to corroborate my readings. The \"Ft Worth\" is tricky. At first glance, it looks like \"At Worth\", but I will read \"Ft Worth\" given the context. The signature is slightly difficult to read, but the \"Cushing\" part is clear, and based on the context, I'm confident it's E. B. Cushing, the Resident Engineer. \"appt\" means appointment.\n\nNow that I've worked through the reading, I will begin crafting the HTML. I'll structure it to mirror the form as closely as possible, paying attention to the positions of the header elements and the flow of the handwritten text over the printed lines. I'll use `<b>` tags for bold text, and `<i>` for stamped text.\n\nThe structure of the HTML will reflect the form's layout and the letter's content. The header goes first, with company information and the \"Subject\" box. Then, the \"To\" and \"Office of\" lines, along with the date. Finally, the main body of the letter, with line breaks to reflect the original handwriting. I must not forget to include the addressee at the bottom left and the signature on the bottom right.\n\nThe final output is an HTML file that renders the handwritten letter in a clean and readable format.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-440.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from E. B. Cushing, May 4, 1891"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from E. B. Cushing, May 4, 1891"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 7 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Railroad commissions--Texas",
+          "Galveston, Harrisburg & San Antonio Railway",
+          "Texas & New Orleans Railroad",
+          "Petitions",
+          "Government appointments",
+          "Political correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "E. B. Cushing"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis",
+          "Governor Hogg",
+          "Charlie Rogan"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "E. B. Cushing writes to Louis L. McInnis regarding petitions supporting McInnis's appointment to the railroad commission. Cushing reports that petitions from Houston, Fort Worth, Temple, and Galveston have been submitted, though efforts from Tyler, Waco, and San Antonio have faced obstacles due to opposition. The letter indicates that the appointment is being contested on grounds of potential board discord and seeks to encourage continued support for McInnis's candidacy based on merit."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/341a5762-bad6-3b71-9fb6-d08f0d3a5ec7/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "page_0"
+        ]
+      },
+      "height": 4326,
+      "width": 3283,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/341a5762-bad6-3b71-9fb6-d08f0d3a5ec7/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4326,
+                "width": 3283,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/341a5762-bad6-3b71-9fb6-d08f0d3a5ec7",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><small>(G. H.) M. 18½.</small></p>\n<p><b>GALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.<br/>\nTEXAS & NEW ORLEANS RAILROAD CO.</b></p>\n<p><b>Subject</b><br/>\n<br/>\nTo ............................................................................<br/>\n<i>Office of</i> [Stamped: Resident Engineer]<br/>\n[Stamped: HOUSTON] May 4 1891</p>\n\n<p>My dear Sir.</p>\n<p>The Houston Petitions<br/>\nwill go in to morrow. Those<br/>\nof Ft Worth Temple & Galveston<br/>\nare already in. I can hear<br/>\nnothing from Tyler & Waco<br/>\nThe San Antonio boys did not come<br/>\nup owing to influence of two<br/>\nparties who oppose you =<br/>\nI have been absent a great deal<br/>\nand could not give the matter<br/>\nthe attention it required but several<br/>\nstrong letters have been written<br/>\nto Gov Hogg from Dallas - Temple<br/>\nGalveston & here -<br/>\nThe movement is being opposed,<br/>\nso I understand, on the ground that<br/>\nyour appt just now would<br/>\ncause discord in the board<br/>\nI have not heard from the Governor<br/>\nCharlie Rogan has promised to<br/>\nsee him & talk over the case<br/>\nI hope we may succeed in<br/>\nthe matter. Texas owes it to you<br/>\n& to herself to reward merit & to<br/>\nfrown on petty quarreling among her officers</p>\n<p>To Hon L. L. McInnis<br/>\nYours truly E.B. Cushing</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Okay, let's see what we've got here. My task is to transcribe this handwritten letter into a clean, formatted HTML document.** It seems straightforward enough, but the devil is always in the details, so I'll be thorough. I'm starting with the form itself, making sure I capture all the elements – the company header, the \"To\" line, the \"Office of\" designation, and the date. I'm noticing that the \"Office of\" and \"Houston\" elements are stamped, so I'll mark those as such. I'll need to figure out where the handwriting flows over the printed lines and replicate the layout as faithfully as possible.\n\nRight, time to dive into the handwritten text. I'll take it line by line, being careful with any abbreviations or unusual phrasing. I need to make sure to check for any potential errors. I'll also be on the lookout for names – \"Gov Hogg,\" \"Charlie Rogan,\" \"L. L. McInnis,\" and \"E. B. Cushing\" – because these are important for context and for my research into the history of Texas. I see that E.B. Cushing was a Resident Engineer for GH&SA, which is important. The handwriting has some quirks but is generally readable. I'll flag any areas where I have to make educated guesses or need further clarification.\n\nI'm starting to get a sense of the letter's content. It's about petitions related to some kind of appointment and some kind of political situation in Texas. I'm picking up on some opposition to the \"movement\" – probably the appointment – and hints of political maneuvering, with people writing letters and talking to the Governor. I see some of the cities involved are Houston, Ft Worth, Temple, Galveston, Waco, and Tyler. The key individuals mentioned so far are Governor Hogg, Charles Rogan, and L. L. McInnis. E. B. Cushing is the letter writer.\n\nI need to nail down any ambiguities in the text, so I will have to look closely at the crops. I also should check the historical references to corroborate my readings. The \"Ft Worth\" is tricky. At first glance, it looks like \"At Worth\", but I will read \"Ft Worth\" given the context. The signature is slightly difficult to read, but the \"Cushing\" part is clear, and based on the context, I'm confident it's E. B. Cushing, the Resident Engineer. \"appt\" means appointment.\n\nNow that I've worked through the reading, I will begin crafting the HTML. I'll structure it to mirror the form as closely as possible, paying attention to the positions of the header elements and the flow of the handwritten text over the printed lines. I'll use `<b>` tags for bold text, and `<i>` for stamped text.\n\nThe structure of the HTML will reflect the form's layout and the letter's content. The header goes first, with company information and the \"Subject\" box. Then, the \"To\" and \"Office of\" lines, along with the date. Finally, the main body of the letter, with line breaks to reflect the original handwriting. I must not forget to include the addressee at the bottom left and the signature on the bottom right.\n\nThe final output is an HTML file that renders the handwritten letter in a clean and readable format.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/440/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

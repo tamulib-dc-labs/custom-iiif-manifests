@@ -1,139 +1,186 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-38.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from H. H. Dinwiddie, February 8, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-02-08"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from H. H. Dinwiddie, February 8, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/08cfce4f-79b2-30db-8db0-d561ae7e3d62/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4286,
-            "width": 3303,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/08cfce4f-79b2-30db-8db0-d561ae7e3d62/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4286,
-                                "width": 3303,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/08cfce4f-79b2-30db-8db0-d561ae7e3d62",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</small></p>\n\n<p><i>College Station, Texas,</i> Feb 8 <i>188</i>3</p>\n\n<p>My dear McInnis -<br/>\nI know you will be very<br/>\nanxious about G. and hence I write hastily<br/>\nto say that he is plainly no better. I saw<br/>\nhim an hour or so ago. He did not speak to<br/>\nme. Every thing else goes on as usual. The boys<br/>\nwith measles are doing fairly. I suppose by<br/>\nthis time you have had at least one astounding<br/>\naspiration presented to you. In the presence of<br/>\ngreat Death how puny seem these petty human<br/>\nintrigues! It is a time to try our manhood. May<br/>\nwe all be equal to it!</p>\n\n<p>Tell Col. James I have just seen his mother. They<br/>\nare all well -</p>\n\n<p>Yours as ever</p>\n\n[Signature]\n<p>H. H. Dinwiddie</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription of a Handwritten Letter**\n\nOkay, here's what I've got. I need to transcribe this handwritten letter, following the instructions precisely. It starts with the header: *Agricultural and Mechanical College of Texas,* followed by a sub-header on the left side: DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE. On the right, it has the date: College Station, Texas, Feb 8 1883. \"Feb 8\" and \"3\" are handwritten.\n\nNext comes the body. The letter begins \"My dear McInnis -\" and I'll preserve all the line breaks.\n\n```html\n<p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</small></p>\n\n<p><i>College Station, Texas,</i> Feb 8 <i>188</i>3</p>\n\n<p>My dear McInnis -<br/>\nI know you will be very<br/>\nanxious about G. and hence I write hastily<br/>\nto say that he is plainly no better. I saw<br/>\nhim an hour or so ago. He did not speak to<br/>\nme. Every thing else goes on as usual. The boys<br/>\nwith measles are doing fairly. I suppose by<br/>\nthis time you have had at least one astounding<br/>\naspiration presented to you. In the presence of<br/>\ngreat Death how puny seem these petty human<br/>\nintrigues! It is a time to try our manhood. May<br/>\nwe all be equal to it!</p>\n\n<p>Tell Col. James I have just seen his mother. They<br/>\nare all well -</p>\n\n<p>Yours as ever<br/>\n[Signature]<br/>\nH. H. Dinwiddie</p>\n```\n\nI checked the handwriting for \u201caspiration\u201d and confirmed it is correct. Also checked \"Every thing\". Col. James is a \"Col.\". The \"G.\" is capital. Finally, the signature is \"H.H. Dinwiddie\". That should be accurate!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-38.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from H. H. Dinwiddie, February 8, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-02-08"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from H. H. Dinwiddie, February 8, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Illness--Texas--History--19th century",
+          "Measles--History--19th century",
+          "Agricultural education--Texas--History--19th century",
+          "College Station, Texas--History--19th century",
+          "Mortality"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Dinwiddie, H. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "James, Colonel",
+          "Agricultural and Mechanical College of Texas"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from H. H. Dinwiddie, faculty member at the Department of Chemistry and Physics at Agricultural and Mechanical College of Texas, to Louis L. McInnis dated February 8, 1883. Dinwiddie reports on the declining health condition of a person referred to as \"G.\" and provides updates on other ill students at the college suffering from measles. The letter reflects on mortality and human vulnerability during a time of medical crisis within the college community."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/08cfce4f-79b2-30db-8db0-d561ae7e3d62/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4286,
+      "width": 3303,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/08cfce4f-79b2-30db-8db0-d561ae7e3d62/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4286,
+                "width": 3303,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/08cfce4f-79b2-30db-8db0-d561ae7e3d62",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</small></p>\n\n<p><i>College Station, Texas,</i> Feb 8 <i>188</i>3</p>\n\n<p>My dear McInnis -<br/>\nI know you will be very<br/>\nanxious about G. and hence I write hastily<br/>\nto say that he is plainly no better. I saw<br/>\nhim an hour or so ago. He did not speak to<br/>\nme. Every thing else goes on as usual. The boys<br/>\nwith measles are doing fairly. I suppose by<br/>\nthis time you have had at least one astounding<br/>\naspiration presented to you. In the presence of<br/>\ngreat Death how puny seem these petty human<br/>\nintrigues! It is a time to try our manhood. May<br/>\nwe all be equal to it!</p>\n\n<p>Tell Col. James I have just seen his mother. They<br/>\nare all well -</p>\n\n<p>Yours as ever</p>\n\n[Signature]\n<p>H. H. Dinwiddie</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription of a Handwritten Letter**\n\nOkay, here's what I've got. I need to transcribe this handwritten letter, following the instructions precisely. It starts with the header: *Agricultural and Mechanical College of Texas,* followed by a sub-header on the left side: DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE. On the right, it has the date: College Station, Texas, Feb 8 1883. \"Feb 8\" and \"3\" are handwritten.\n\nNext comes the body. The letter begins \"My dear McInnis -\" and I'll preserve all the line breaks.\n\n```html\n<p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</small></p>\n\n<p><i>College Station, Texas,</i> Feb 8 <i>188</i>3</p>\n\n<p>My dear McInnis -<br/>\nI know you will be very<br/>\nanxious about G. and hence I write hastily<br/>\nto say that he is plainly no better. I saw<br/>\nhim an hour or so ago. He did not speak to<br/>\nme. Every thing else goes on as usual. The boys<br/>\nwith measles are doing fairly. I suppose by<br/>\nthis time you have had at least one astounding<br/>\naspiration presented to you. In the presence of<br/>\ngreat Death how puny seem these petty human<br/>\nintrigues! It is a time to try our manhood. May<br/>\nwe all be equal to it!</p>\n\n<p>Tell Col. James I have just seen his mother. They<br/>\nare all well -</p>\n\n<p>Yours as ever<br/>\n[Signature]<br/>\nH. H. Dinwiddie</p>\n```\n\nI checked the handwriting for “aspiration” and confirmed it is correct. Also checked \"Every thing\". Col. James is a \"Col.\". The \"G.\" is capital. Finally, the signature is \"H.H. Dinwiddie\". That should be accurate!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/38/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

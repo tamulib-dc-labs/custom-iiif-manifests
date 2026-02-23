@@ -1,139 +1,187 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-154.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. C. Caldwell, December 19, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-12-19"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. C. Caldwell, December 19, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e22c1119-2e23-3064-b550-b0ceb8331af6/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4029,
-            "width": 3239,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/230",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/229",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e22c1119-2e23-3064-b550-b0ceb8331af6/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4029,
-                                "width": 3239,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e22c1119-2e23-3064-b550-b0ceb8331af6",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/233",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/232",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"right\">Corpus Christi, Texas,<br>\nDec 19<sup>th</sup> 1886</p>\n\n<p>Prof. L. L. McInnis<br>\nA. & M. College</p>\n\n<p>Dear Sir and friend: Your favor of<br>\nthe first inst reached me, in the due course of<br>\ntime - I was then absent on a Surveying tour -</p>\n\n<p>After graduating in '83, I spent one winter with<br>\nMy Uncle in Dallas; returning home I at once<br>\nembarked in my old business - Land Surveying -<br>\nSince then I have had many ups and downs, chiefly<br>\nin favor of the downs, unfortunately for myself; but I<br>\nguess there is no cloud without a silver lining -</p>\n\n<p>Last June I secured a good position on the<br>\nS. A. and A. P. R. R. which lasted until the road was<br>\ncompleted to this place - last November -; during this<br>\nperiod I superintended the Reef bridge, 1 3/4 m. in length,<br>\nand 3. m of R.R. track. I also brushed up on my<br>\nTrigonometry and Civil Engineering to a considerable extent,<br>\nI believe I can now handle a transit or level, and<br>\nmake all the adjustments better than any one of<br>\nthe same experience as myself.</p>\n\n<p>Thanking you for your kind letter<br>\nof recommendation, and wishing you health, happiness<br>\nand success, I remain<br>\nYours Ever Sincerely<br>\nJ. C. Caldwell</p>\n\n<p>P.S. I now hold the position of City Engineer of<br>\nCorpus Christi, and Surveyor of Duval County.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/234",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, I'm looking at the overall format: handwritten letter on lined paper. The crucial details jump out immediately. Top right, we have \"Corpus Christi, Texas, Dec 19th 1886,\" pinpointing the origin and date. Top left, the recipient is clearly \"Prof. L. L. McInnis A. & M. College\". The salutation is respectful, \"Dear Sir and friend:\".\n\nNow, for the body... it's all about extracting the words correctly while keeping the original layout. \"Your favor of the first inst reached me...\" sets the tone. I'll need to keep the line breaks accurate throughout this process. \"After graduating in '83, I spent one winter...\" Okay, there's a little ambiguity on the number of winters spent. I'm going with 'one' after careful scrutiny. It's a key detail to capture.\n\nThe letter dives into his work experience.  \"...Land Surveying...\",  \"...ups and downs...\", a silver lining is mentioned. He got a position on the \"S. A. and A. P. R. R.\", then there's the \"Reef bridge, 1 3/4 m. in length\". I want to make sure I include the \"3. m of R.R. track\". \"Trigonometry and Civil Engineering...\" Ah, he's keeping sharp. He believes he can \"...handle a transit or level, and make all the adjustments...\". It's a nice note of confidence, followed by a formal closing.\n\nThe closing is standard, \"Yours Ever Sincerely, J. C. Caldwell\". Then there's the P.S.: He's now \"City Engineer of Corpus Christi, and Surveyor of Duval County.\" That's the most recent piece of information.\n\nTo make this completely accurate, I'm going to transcribe line by line, preserving the letter's structure and any nuances. Let's make sure the \"th\" in \"19th\" is superscript, and preserve the capitalization. And remember to keep the line breaks! The formatting needs to be preserved. Let's make sure that's correct, then I'll finalize the transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-154.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. C. Caldwell, December 19, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-12-19"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. C. Caldwell, December 19, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Land surveying",
+          "Civil engineering",
+          "Railroad construction",
+          "Bridge construction",
+          "Surveying--Texas",
+          "City engineers",
+          "County surveyors"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Caldwell, J. C."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Agricultural and Mechanical College of Texas"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from J. C. Caldwell to Professor Louis L. McInnis detailing his career progress since graduating from A&M College in 1883. Caldwell describes his work as a land surveyor in Texas, including his recent position supervising railroad and bridge construction for the San Antonio and Aransas Pass Railroad, and expresses his current appointment as City Engineer of Corpus Christi and Surveyor of Duval County. The letter thanks McInnis for a letter of recommendation and provides updates on his professional development in surveying and civil engineering."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e22c1119-2e23-3064-b550-b0ceb8331af6/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4029,
+      "width": 3239,
+      "items": [
+        {
+          "id": "http://example.org/iiif/230",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/229",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e22c1119-2e23-3064-b550-b0ceb8331af6/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4029,
+                "width": 3239,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e22c1119-2e23-3064-b550-b0ceb8331af6",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/233",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/232",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"right\">Corpus Christi, Texas,<br>\nDec 19<sup>th</sup> 1886</p>\n\n<p>Prof. L. L. McInnis<br>\nA. & M. College</p>\n\n<p>Dear Sir and friend: Your favor of<br>\nthe first inst reached me, in the due course of<br>\ntime - I was then absent on a Surveying tour -</p>\n\n<p>After graduating in '83, I spent one winter with<br>\nMy Uncle in Dallas; returning home I at once<br>\nembarked in my old business - Land Surveying -<br>\nSince then I have had many ups and downs, chiefly<br>\nin favor of the downs, unfortunately for myself; but I<br>\nguess there is no cloud without a silver lining -</p>\n\n<p>Last June I secured a good position on the<br>\nS. A. and A. P. R. R. which lasted until the road was<br>\ncompleted to this place - last November -; during this<br>\nperiod I superintended the Reef bridge, 1 3/4 m. in length,<br>\nand 3. m of R.R. track. I also brushed up on my<br>\nTrigonometry and Civil Engineering to a considerable extent,<br>\nI believe I can now handle a transit or level, and<br>\nmake all the adjustments better than any one of<br>\nthe same experience as myself.</p>\n\n<p>Thanking you for your kind letter<br>\nof recommendation, and wishing you health, happiness<br>\nand success, I remain<br>\nYours Ever Sincerely<br>\nJ. C. Caldwell</p>\n\n<p>P.S. I now hold the position of City Engineer of<br>\nCorpus Christi, and Surveyor of Duval County.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/234",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, I'm looking at the overall format: handwritten letter on lined paper. The crucial details jump out immediately. Top right, we have \"Corpus Christi, Texas, Dec 19th 1886,\" pinpointing the origin and date. Top left, the recipient is clearly \"Prof. L. L. McInnis A. & M. College\". The salutation is respectful, \"Dear Sir and friend:\".\n\nNow, for the body... it's all about extracting the words correctly while keeping the original layout. \"Your favor of the first inst reached me...\" sets the tone. I'll need to keep the line breaks accurate throughout this process. \"After graduating in '83, I spent one winter...\" Okay, there's a little ambiguity on the number of winters spent. I'm going with 'one' after careful scrutiny. It's a key detail to capture.\n\nThe letter dives into his work experience.  \"...Land Surveying...\",  \"...ups and downs...\", a silver lining is mentioned. He got a position on the \"S. A. and A. P. R. R.\", then there's the \"Reef bridge, 1 3/4 m. in length\". I want to make sure I include the \"3. m of R.R. track\". \"Trigonometry and Civil Engineering...\" Ah, he's keeping sharp. He believes he can \"...handle a transit or level, and make all the adjustments...\". It's a nice note of confidence, followed by a formal closing.\n\nThe closing is standard, \"Yours Ever Sincerely, J. C. Caldwell\". Then there's the P.S.: He's now \"City Engineer of Corpus Christi, and Surveyor of Duval County.\" That's the most recent piece of information.\n\nTo make this completely accurate, I'm going to transcribe line by line, preserving the letter's structure and any nuances. Let's make sure the \"th\" in \"19th\" is superscript, and preserve the capitalization. And remember to keep the line breaks! The formatting needs to be preserved. Let's make sure that's correct, then I'll finalize the transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/154/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,139 +1,188 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-168.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from M. Sevictez (), March 5, 1887"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1887-03-05"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from M. Sevictez (), March 5, 1887"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/53a5334e-8e4d-383d-9af3-ce5db2cb90fd/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3668,
-            "width": 2365,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/53a5334e-8e4d-383d-9af3-ce5db2cb90fd/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3668,
-                                "width": 2365,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/53a5334e-8e4d-383d-9af3-ce5db2cb90fd",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>John G. Blanks,<br>\nN. Y. Office,<br>\n51 Leonard Street.</p>\n\n<p><small>Office of</small></p>\n\n<p>Jas. G. Blanks.</p>\n\n<p>BLANKS, SON & CO.<br>\n<small>DEALERS IN</small><br>\nDRY GOODS, GROCERIES & GENERAL MERCHANDISE.</p>\n\n<p>LOCKHART, TEXAS, <i>March 5</i> 188<i>7</i>.</p>\n\n<p><i>Profesor L. L. McInnis<br>\nCollage</i></p>\n\n<p><i>Dear Sir</i></p>\n\n<p><i>Allie writes me that he is Sick<br>\nand wants to come home for a<br>\nwhile. I have written him that<br>\nif his Dr Sayes he is not able<br>\nto attend School for some time<br>\nthen he might come home for a<br>\nwhile. but I dont want him to<br>\ncome if he is able to Stay. If<br>\nyou think best for him to come<br>\nlet him come. I will depend on<br>\nyou to act in this matter for me<br>\nKind regards to your Wife</i></p>\n\n<p><i>Yours truly<br>\nM A Withers</i></p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Alright, let's break down this transcription. As a professional, I'm going to approach this with the methodical expertise it demands. My immediate task is to accurately convert this image into text, focusing on capturing every nuance of the original document. I'll maintain fidelity to the layout, address any handwriting ambiguities, and, importantly, only output the transcribed text. No commentary or interpretation, just pure transcription as requested.**\n\nI start by systematically analyzing the request. The role is a transcriptionist; the goal is text, the guidelines emphasize accuracy and adherence to HTML tags. The constraints are absolute \u2013 no extraneous elements. Next, I begin by examining the image itself. I've noted it is a handwritten letter on business letterhead.\n\nThe header includes the business name, \"BLANKS, SON & CO.\", address details, date, recipient information (\"Professor L. L. McInnis / College\"), salutation (\"Dear Sir\"), body (a parent writing about his son's illness and a potential school absence), closing (\"Kind regards to your Wife\"), and signature (\"M A Withers\"). I'll have to pay close attention to the handwriting to be correct.\n\nNow, into the detailed transcription. I will work in a step-by-step fashion. I break down each section \u2013 the header, recipient details, salutation, the body, and signature. This helps to make sure I don't miss anything.\n\nThe header's layout is important \u2013 Left side, center, right, title, subtitle, and address. Next up, the recipients name, and then the salutation. The body will be the most intensive part, so I'll be sure to preserve the parent's message.\n\nNow, a very tricky part \u2013 interpreting handwriting, especially that loop-de-loop writing in the 1800s. I note the potential for misspellings, like \"Profesor,\" which looks like it should be \"Professor.\" But, I will stick to what the letter contains. Another tricky word is \"Sayes\". It looks like \"says,\" but with that extra \"e.\" Context and careful evaluation are key here. Is it \"Sayes\" (archaic/misspelling of \"Says\"), a name, or something else entirely? A quick bit of research reveals \"Sayers\" might be possible, but I think the best call is \"Sayes\". There are so many similar spelling patterns in the letter.\n\nThen, there's the formatting to consider. The use of HTML tags is critical. Paragraphs (`<p>`) for blocks of text, line breaks (`<br>`) for layout, and the `i` tag for differentiation are all part of the job. For the header's layout, where I can't use style, I have to ensure correct visual reproduction by using a correct ordered list. The guidelines don't explicitly require distinction of print vs handwriting, but the `<i>` tag will help with \"visual transcription.\"\n\nI refine my interpretation of the handwriting. For \"Profesor,\" I'm pretty sure it's just a less careful spelling of \"Professor.\" \"Sayes\" will be transcribed as is, since there's evidence the writer's spelling is variable. Also, there's \"Collage\", maybe a mistake or a different word? I am going to stick with what I see on this one, too. \"M A Withers\" \u2013 again, context and the visual match leads me to M. A. Withers.\n\nNext comes the assembly of the text into a unified structure. I combine the elements: Header, date, recipient, salutation, body, closing, and signature, and make any final checks.\n\nFinally, the HTML tags are applied. I make sure I maintain the header's layout by using order to convey layout. The whole header will need some careful layout, as I can't just use `text-align`.\n\nThe final transcript is assembled and checked, then checked again. I go back over \"Sayes\" and \"Collage\" one last time. It seems I will be confident in my interpretation. I'm satisfied that the layout and content are all correct, according to the instructions. Now, to generate that final output!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-168.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from M. Sevictez (), March 5, 1887"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1887-03-05"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from M. Sevictez (), March 5, 1887"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 24 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Student health",
+          "Education--19th century",
+          "Educational correspondence",
+          "Texas--History--19th century",
+          "Dry goods merchants",
+          "Family correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "M. A. Withers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis",
+          "Allie Withers",
+          "John G. Blanks",
+          "James G. Blanks"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from M. A. Withers to Professor Louis L. McInnis regarding his son Allie's illness and request to return home from college. Withers indicates he will permit his son to leave school only if the attending physician and McInnis determine it is necessary for his health recovery. The correspondence reflects 19th-century family and educational practices regarding student welfare."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/53a5334e-8e4d-383d-9af3-ce5db2cb90fd/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3668,
+      "width": 2365,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/53a5334e-8e4d-383d-9af3-ce5db2cb90fd/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3668,
+                "width": 2365,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/53a5334e-8e4d-383d-9af3-ce5db2cb90fd",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>John G. Blanks,<br>\nN. Y. Office,<br>\n51 Leonard Street.</p>\n\n<p><small>Office of</small></p>\n\n<p>Jas. G. Blanks.</p>\n\n<p>BLANKS, SON & CO.<br>\n<small>DEALERS IN</small><br>\nDRY GOODS, GROCERIES & GENERAL MERCHANDISE.</p>\n\n<p>LOCKHART, TEXAS, <i>March 5</i> 188<i>7</i>.</p>\n\n<p><i>Profesor L. L. McInnis<br>\nCollage</i></p>\n\n<p><i>Dear Sir</i></p>\n\n<p><i>Allie writes me that he is Sick<br>\nand wants to come home for a<br>\nwhile. I have written him that<br>\nif his Dr Sayes he is not able<br>\nto attend School for some time<br>\nthen he might come home for a<br>\nwhile. but I dont want him to<br>\ncome if he is able to Stay. If<br>\nyou think best for him to come<br>\nlet him come. I will depend on<br>\nyou to act in this matter for me<br>\nKind regards to your Wife</i></p>\n\n<p><i>Yours truly<br>\nM A Withers</i></p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Alright, let's break down this transcription. As a professional, I'm going to approach this with the methodical expertise it demands. My immediate task is to accurately convert this image into text, focusing on capturing every nuance of the original document. I'll maintain fidelity to the layout, address any handwriting ambiguities, and, importantly, only output the transcribed text. No commentary or interpretation, just pure transcription as requested.**\n\nI start by systematically analyzing the request. The role is a transcriptionist; the goal is text, the guidelines emphasize accuracy and adherence to HTML tags. The constraints are absolute – no extraneous elements. Next, I begin by examining the image itself. I've noted it is a handwritten letter on business letterhead.\n\nThe header includes the business name, \"BLANKS, SON & CO.\", address details, date, recipient information (\"Professor L. L. McInnis / College\"), salutation (\"Dear Sir\"), body (a parent writing about his son's illness and a potential school absence), closing (\"Kind regards to your Wife\"), and signature (\"M A Withers\"). I'll have to pay close attention to the handwriting to be correct.\n\nNow, into the detailed transcription. I will work in a step-by-step fashion. I break down each section – the header, recipient details, salutation, the body, and signature. This helps to make sure I don't miss anything.\n\nThe header's layout is important – Left side, center, right, title, subtitle, and address. Next up, the recipients name, and then the salutation. The body will be the most intensive part, so I'll be sure to preserve the parent's message.\n\nNow, a very tricky part – interpreting handwriting, especially that loop-de-loop writing in the 1800s. I note the potential for misspellings, like \"Profesor,\" which looks like it should be \"Professor.\" But, I will stick to what the letter contains. Another tricky word is \"Sayes\". It looks like \"says,\" but with that extra \"e.\" Context and careful evaluation are key here. Is it \"Sayes\" (archaic/misspelling of \"Says\"), a name, or something else entirely? A quick bit of research reveals \"Sayers\" might be possible, but I think the best call is \"Sayes\". There are so many similar spelling patterns in the letter.\n\nThen, there's the formatting to consider. The use of HTML tags is critical. Paragraphs (`<p>`) for blocks of text, line breaks (`<br>`) for layout, and the `i` tag for differentiation are all part of the job. For the header's layout, where I can't use style, I have to ensure correct visual reproduction by using a correct ordered list. The guidelines don't explicitly require distinction of print vs handwriting, but the `<i>` tag will help with \"visual transcription.\"\n\nI refine my interpretation of the handwriting. For \"Profesor,\" I'm pretty sure it's just a less careful spelling of \"Professor.\" \"Sayes\" will be transcribed as is, since there's evidence the writer's spelling is variable. Also, there's \"Collage\", maybe a mistake or a different word? I am going to stick with what I see on this one, too. \"M A Withers\" – again, context and the visual match leads me to M. A. Withers.\n\nNext comes the assembly of the text into a unified structure. I combine the elements: Header, date, recipient, salutation, body, closing, and signature, and make any final checks.\n\nFinally, the HTML tags are applied. I make sure I maintain the header's layout by using order to convey layout. The whole header will need some careful layout, as I can't just use `text-align`.\n\nThe final transcript is assembled and checked, then checked again. I go back over \"Sayes\" and \"Collage\" one last time. It seems I will be confident in my interpretation. I'm satisfied that the layout and content are all correct, according to the instructions. Now, to generate that final output!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/168/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

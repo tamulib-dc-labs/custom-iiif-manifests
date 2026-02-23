@@ -1,364 +1,424 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-26.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from H. H. Dinwiddie, July 23, 1882"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1882-07-23"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from H. H. Dinwiddie, July 23, 1882"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/3b1556f3-f040-3f50-b536-07b3b46d74ce/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4354,
-            "width": 3295,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3b1556f3-f040-3f50-b536-07b3b46d74ce/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4354,
-                                "width": 3295,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3b1556f3-f040-3f50-b536-07b3b46d74ce",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>1.\n\n[Header]\n<p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<i>College Station, Texas,</i> July 23 1882</p>\n\n<p>My dear M<sup>c</sup>Innis -<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your letter was welcomed day before<br>\nyesterday. Although its head was in Mississippi and<br>\nits tail in Washington its only defect was its shortness.<br>\nLetters reveal character in certain phases otherwise<br>\nnot perceptible, and friends can hardly know each<br>\nother well without having corresponded ; hence I attach<br>\npeculiar value to letters from those whose friendship I<br>\nhighly prize. Besides, I must feel the complement of<br>\na letter from a friend who can pause in the midst of<br>\nthe absorbing novelties of the great world and devote<br>\nan hour to those who yet sojourn in the humdrum<br>\nseclusion of the \"happy valley\". It must indeed be a<br>\nrelief to you to wake in the morning from troubled dreams<br>\nof arithmetical half hours with Randle and algebraic<br>\nseances with other distinguished mathematicians and find<br>\nthat it was but a dream, a horrid nightmare induced<br>\nby a heavy supper stimulating the mind to travel in<br>\nthe ruts of doleful reminiscence. And then as night<br>\ncomes on what a relief to <sup>be</sup> emancipated from the perusal<br>\nof the numerous elegant original solutions which were<br>\nwont to solace your evening hours in the happy days<br>\ngone by. It seems to me that such a sudden change</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**The Transcriptionist's Process**\n\nOkay, so the task is clear: I need to transcribe this handwritten letter as accurately as possible, sticking to a specific set of guidelines. My first step is to break down the instructions. I'm a professional transcriptionist, so I know this drill. Preserve everything, top to bottom, left to right, including any unusual spelling or punctuation. Use specific HTML tags to format the output. The output *must* be only the transcription, nothing more.\n\nNow, I'm examining the image itself. I can see it's a letter, handwritten on what looks like official letterhead. I'll need to figure out the letterhead's details first, and then I can start the transcription. The header looks like \"Agricultural and Mechanical College of Texas,\" written in a script font. Below that, on the left, is a sub-header \"DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE.\" Then, on the right, is the date, \"College Station, Texas, July 23 1882.\" There's also the number \"1.\" at the very top. I'll need to keep this formatting consistent as I'm going through the transcription.\n\nTime to start transcribing line by line. I\u2019ll start with the number \"1.\" at the top, followed by the header, sub-header and date line. I'll then move onto the salutation and body of the letter. This cursive handwriting is going to need careful deciphering, I can already see that.\n\nI'm working my way through the letter and I\u2019m making notes of the text. I'll need to make sure I get the spellings correct, since this is a very old letter and some of the language might be different. The letter talks about the value of correspondence and pokes fun at the recipient's life and academic duties. It sounds like the writer is relieved of the recipient's \"arithmetical half hours,\" \"algebraic seances\" and grading of \"elegant original solutions.\"\n\nNow, it\u2019s time to format it using HTML. The \"1.\" at the top needs to be a `<p>`. The header \"Agricultural and Mechanical College of Texas\" will be italicized: `<p><i>Agricultural and Mechanical College of Texas,</i></p>`. The \"DEPARTMENT...\" information looks like it's small text, so I\u2019ll use `<small>`: `<p><small>DEPARTMENT OF<br>CHEMISTRY AND PHYSICS.<br>H. H. DINWIDDIE.</small></p>`. The date needs to be on the right (I'm assuming this will be handled structurally). For now, I'll transcribe the pre-printed and handwritten parts, and italicize it. Now I need to check the document for anything confusing. I should make sure I preserve line breaks and paragraph breaks.\n\nGoing back over the text, I need to check for accuracy and format: \"compliment\" vs \"complement\". The writer wrote \"complement\", even if it should be \"compliment\". It looks like \"complement\" on close inspection, so I will stay with the original as it's the most accurate transcription. I also notice the use of quotation marks around \"happy valley.\" \"be\" has been inserted with a caret, so I need to find a way to represent that. The prompt lists `sup` which I can use here. The spelling seems to be correct, and it looks like \"wont\" (accustomed) is being used.\n\nWith a final polish, I've confirmed that the only allowed HTML tags are `p`, `br`, `i`, `small`, and `sup`. I'm confident with this format. I need to make sure I\u2019ve preserved line breaks, paragraph structure, and that the text is 100% true to the original. I'll keep the letterhead on one line, with the sub-header and date on a separate line. The date should be on the right.\n\nAfter rereading and carefully reviewing the letter again, I believe I am complete.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4354,
-            "width": 3295,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/a3659a4b-66ad-3368-b94c-b260b9812681/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4354,
-                                "width": 3295,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a3659a4b-66ad-3368-b94c-b260b9812681",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>2\n<span style=\"float: right;\">[1882, July 23]</span>\n\n[Header]\n<p align=\"center\"><i>Agricultural and Mechanical College of Texas,</i></p>\n<p><small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small></p>\n<p align=\"center\"><i>College Station, Texas,</i> .............................. 188...</p>\n\n<p>would work some mischief to your psychological con=<br>\nstitution; such a radical upsetting as it is! We who re=<br>\nmain are holding the fort sedately. Col. Cole has been<br>\nto the gubernatorial convention, Prof. Georgeson has<br>\nbeen to the horticultural exhibition. Gartner and I<br>\nalone have been no further than Bryan. An ex=<br>\ncursion to Mr. Pugh's twice a day, the excitement of<br>\ngetting the mail and the perusal of Siftings on Saturday<br>\nalone breaks the monotony of our daily lives. Col. James<br>\nhas gone to Canada, to some out of the way little port on<br>\nlake Huron. He went direct from here; said he would<br>\nnot stop anywhere nor go east at all, and would<br>\nprobably be back in three weeks. It looks mysterious;<br>\nour suspicions are aroused; we are expecting a marriage<br>\nnotice any day. I am heartily in favor of Mrs. T. for<br>\npresident and hope she will be elected. If you and<br>\nVan Winkle and Col. James will each marry a widow with<br>\nhalf a dozen children I think our salaries will be raised<br>\nat the next meeting of the board. There was a quiet<br>\nfeeling at the last meeting that Col. Cole was the only<br>\nman who needed and increase of salary and the board<br>\ndidn't propose to waste good money on people who had<br>\nenough already to keep themselves in clean linen.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Transcription Summary**\n\nAlright, let's see what we've got here. The task is to transcribe this image, a letter it seems, making sure I capture every detail. I'm focusing on accuracy, so every mark, every character, has to be represented correctly. \n\n[Header]\nFirst, at the top right, we have \"2\", centered, and then \"[1882, July 23]\" right-aligned and enclosed in brackets. This looks like a page number and a date, likely added later. Then, there's the main header: \"<i>Agricultural and Mechanical College of Texas,</i>\" in a script font. Below that, on the left, \"DEPARTMENT OF<br>CHEMISTRY AND PHYSICS.<br>H. H. DINWIDDIE.\" is in what looks like small caps. And finally, \"<i>College Station, Texas,</i> .................... 188...\" is on the right, also in italics and with a line of dots for the date. The \"188...\" is printed.\n\nNow for the body of the letter. This is where it gets interesting, with that late 19th-century cursive.\n\nThe transcription starts mid-sentence, with \"would work some mischief to your psychological con=\". It looks like a hyphen or equals sign. Then it continues, \"stitution; such a radical upsetting as it is! We who re=\". We are transcribing exactly what we see.\n\nThe next lines describe people and events, starting with \"main are holding the fort sedately. Col. Cole has been\". The letter mentions \"Col. Cole\", \"Prof. Georgeson\", \"Gartner\" (or possibly \"Gantner\"), and others. \"Col. Cole has been to the gubernatorial convention, Prof. Georgeson has been to the horticultural exhibition. Gartner and I alone have been no further than Bryan. An ex=\"\n\n\"cursion to Mr. Pugh's twice a day, the excitement of\". Let's look closely at that word \"Pugh's\". The apostrophe looks like a dash or a high dot above the \"s.\" Definitely \"Pugh's\".\n\nIt continues, \"getting the mail and the perusal of Siftings on Saturday\" (capital \"S\" in \"Siftings\" - likely *Texas Siftings*). There's talk of daily routines and then \"Col. James\". He's gone to \"Canada, to some out of the way little port on lake Huron.\" The 'l' in \"lake\" is lowercase, unlike the 'H' in \"Huron\", so that will be noted.\n\nThe letter continues \"He went direct from here; said he would\" and it goes on to discuss a mysterious trip, marriage suspicions, and opinions on a Mrs. T. for president. It includes a humorous comment about raising salaries if people marry widows. And we get back to \"Col. Cole\", whose salary is discussed at the last meeting, \"needed and increase of salary and the board\". It is written as \"and\", which is the correct word.\n\nSo, here's the transcription, preserving the original formatting and any oddities in the text:\n\n```html\n<p>2<span style=\"float: right;\">[1882, July 23]</span></p>\n<p align=\"center\"><i>Agricultural and Mechanical College of Texas,</i></p>\n<p><small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small></p>\n<p align=\"center\"><i>College Station, Texas,</i> .................... 188...</p>\n<p>\nwould work some mischief to your psychological con=<br>\nstitution; such a radical upsetting as it is! We who re=<br>\nmain are holding the fort sedately. Col. Cole has been<br>\nto the gubernatorial convention, Prof. Georgeson has<br>\nbeen to the horticultural exhibition. Gartner and I<br>\nalone have been no further than Bryan. An ex=<br>\ncursion to Mr. Pugh's twice a day, the excitement of<br>\ngetting the mail and the perusal of Siftings on Saturday<br>\nalone breaks the monotony of our daily lives. Col. James<br>\nhas gone to Canada, to some out of the way little port on<br>\nlake Huron. He went direct from here; said he would<br>\nnot stop anywhere nor go east at all, and would<br>\nprobably be back in three weeks. It looks mysterious;<br>\nour suspicions are aroused; we are expecting a marriage<br>\nnotice any day. I am heartily in favor of Mrs. T. for<br>\npresident and hope she will be elected. If you and<br\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 4354,
-            "width": 3295,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e34a4ee4-ac7c-3877-b283-8f801f977d5b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4354,
-                                "width": 3295,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e34a4ee4-ac7c-3877-b283-8f801f977d5b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>3.</p>\n<p style=\"text-align: right;\">[1882, July 23]</p>\n<p style=\"text-align: center;\"><i>Agricultural and Mechanical College of Texas,</i></p>\n<br>\n<p>\n<span style=\"float: left;\">\n<small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small>\n</span>\n<span style=\"float: right;\">\n<i>College Station, Texas,</i> __________________ <i>188</i>___\n</span>\n</p>\n<br>\n<br>\n<p>\nCol. James seems to be seriously considering the matter,<br>\nmention it to Van Winkle and see if he wont join in<br>\nthe execution of the plan to take from our faculty the<br>\nreproach of being prudent providers for the future.<br>\nThere are plenty of lone widows around the country<br>\nwith orphans enough to consume our surplus endow=<br>\nment. As you have seen by the papers Judge Ireland<br>\nis to be our next governor. I hope now the golden calf<br>\nin the treasury will be upset and that we will abandon<br>\nthe adoration of the cash balance and start out of<br>\nthe wilderness. Gov. Roberts played with his friends to<br>\nthe last moment and only after Ireland's name had been<br>\nput before the Convention did he telegraph that he would<br>\nnot consent to the use of his name. Thus the enemies<br>\nof Ireland were left like sheep without a shepherd at<br>\nthe very instant that Ireland's Shepard (Seth) was<br>\ncalling up his flock. They say the fellows who had<br>\nbeen swearing by the o.a. \"first, last and all the time<br>\nhave since been swearing at the o.a. for leading them into<br>\nsuch a pretty trap. You may have noticed that the<br>\nConvention inserted a good University plank in their<br>\nplatform which brightens the prospects of that institution<br>\nand this branch of it before the next legislature.\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Transcription and Analysis**\n\nOkay, so here's what I've got from this image. It's an interesting piece of history!  I need to transcribe this document, paying close attention to the original formatting and any nuances in the handwriting.\n\nFirst, I see the central header \"3.\"  Then, in pencil on the top right, someone scribbled \"[1882, July 23]\". That's our likely date. Below that is the letterhead: \"Agricultural and Mechanical College of Texas,\" which is the main header. On the left side, we have \"DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE.\"  On the right side, the date line says \"College Station, Texas, _________ 188__\".\n\nNow for the body:\n\n```html\n<p>\n3<br/>\n[1882, July 23]<br/>\nAgricultural and Mechanical College of Texas,<br/>\n<small>DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE.</small><br/>\nCollege Station, Texas, _________ 188__<br/>\n<br/>\nCol. James seems to be seriously considering the matter,<br/>\nmention it to Van Winkle and see if he wont join in<br/>\nthe execution of the plan to take from our faculty the<br/>\nreproach of being prudent providers for the future.<br/>\nThere are plenty of lone widows around the country<br/>\nwith orphans enough to consume our surplus endow=<br/>\nment. As you have seen by the papers Judge Ireland<br/>\nis to be our next governor. I hope now the golden calf<br/>\nin the treasury will be upset and that we will abandon<br/>\nthe adoration of the cash balance and start out of<br/>\nthe wilderness. Gov. Roberts played with his friends to<br/>\nthe last moment and only after Ireland's name had been<br/>\nput before the Convention did he telegraph that he would<br/>\nnot consent to the use of his name. Thus the enemies<br/>\nof Ireland were left like sheep without a shepherd at<br/>\nthe very instant that Ireland's Shepard (Seth) was<br/>\ncalling up his flock. They say the fellows who had<br/>\nbeen swearing by the o.a. \"first, last and all the time<br/>\nhave since been swearing at the o.a. for leading them into<br/>\nsuch a pretty trap. You may have noticed that the<br/>\nConvention inserted a good University plank in their<br/>\nplatform which brightens the prospects of that institution<br/>\nand this branch of it before the next legislature.\n</p>\n```\n\nThe handwriting is cursive, and at times, a bit tricky, but I can make out the words. The text seems to be discussing a plan related to the Agricultural and Mechanical College of Texas and the upcoming governorship. It mentions Col. James, Van Winkle, Judge Ireland (who is to become the next governor), and Gov. Roberts (Oran M. Roberts, \"The Old Alcalde\"). There's talk of \"lone widows\" and \"orphans\" consuming a \"surplus endowment\". This suggests some kind of scheme or initiative. The writer is clearly interested in the political situation in Texas and the impact on the college, particularly a \"good University plank\" that was inserted into the Convention's platform.  It looks like Seth Shepard is also involved. The \"o.a.\" likely refers to \"The Old Alcalde,\" Oran Roberts. The reference to the \"golden calf\" and \"wilderness\" indicates concern about financial matters. The writer seems pleased by the political moves, and views the political situation with optimism.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 4354,
-            "width": 3295,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/784c0db3-8316-3266-89b7-130834917cb8/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4354,
-                                "width": 3295,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/784c0db3-8316-3266-89b7-130834917cb8",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>4</p>\n<p style=\"text-align: right;\">[1883, July 23]</p>\n<p style=\"text-align: center;\">Agricultural and Mechanical College of Texas,</p>\n<p>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</p>\n<p style=\"text-align: right;\">College Station, Texas, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 188 &nbsp;&nbsp;</p>\n\n<p>Col. Cole went to the teachers convention at Tyler and<br/>\nfound his friend Ragsdale there still working for<br/>\nthe university professorship in spite of his card in<br/>\nthe papers that he was not a candidate. I asked the<br/>\nCol. if he thought that was honest or honorable. \"Oh well,<br/>\nit's political you know!\" he replied. The Col. tried<br/>\nto get the convention to recommend his friend to the<br/>\nregents as the best man for the chair of math. I have<br/>\nno idea what the regents will do about the faculty. Perhaps<br/>\nif Mr. R. is \"smoked out\" by public opinion he will try<br/>\nto get Col. Cole into the university and then work to<br/>\nget his place here. However we shall soon see.</p>\n\n<p>I have been amusing myself \"reading\" (Anglice) quater-<br/>\nnions - it is good light summer exercise for the mind.<br/>\nI havnt done much in the labratory. We hope to go to<br/>\nAustin sometime in August after the regents have<br/>\ndecided that faculty business. I dont care to pro-<br/>\nduce the impression that I am working for the univer-<br/>\nsity - for I am not. Let me hear from you whenever you can.<br/>\nMrs. Dinwiddie sends warm regards. Remember us to Van Winkle.<br/>\nWishing you all the pleasure that your tour can give -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am yours faithfully -<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H. H. Dinwiddie</p>\n\n<p>If you meet Col. Tredennis<br/>\nand Mrs. Amory in Washington<br/>\ngive them my regards.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**The mind races!** Okay, here's what I'm thinking, based on this image before me: First, I see a handwritten \"4\" at the top. Interesting. Then, up in the right corner, there's a date scrawled in pencil: \"1883, July 23\". That gives me a critical timeframe. A letterhead! It says \"Agricultural and Mechanical College of Texas,\" with the Department of Chemistry and Physics, and Dr. Dinwiddie's name.\n\nThe date line is printed, but no year is filled in, but the pencil notation gives me the year. I see the ink text and I start to read the contents. The first paragraph mentions Col. Cole, a teachers' convention, and a friend named Ragsdale vying for a university professorship. The Colonel is trying to get his friend recommended for the math chair and it's all \"political\". It is interesting how things were done then! I also note a mention of the regents \u2013 faculty decisions are clearly in the air. I have to figure out how to best transcribe what the author is saying.\n\nNow I am reading the second paragraph. I'm intrigued by the author's casual mention of \"reading (Anglice) quaternions.\" The mind is always exploring! He says it's a good \"light summer exercise.\" Then he mentions he has not been in the lab much. August is coming. He hopes to be in Austin after the regents have met. Then a telling statement: \"I dont care to produce the impression that I am working for the university - for I am not.\" That tells me something about his motivation. He then says he wants to hear from the recipient and sends regards.\n\nA postscript at the bottom mentions \"Col. Tredennis and Mrs. Amory\" in Washington. That rings a bell, I am sure I've read those names somewhere. Ah, yes! *Through One Administration*! A very clever reference. I think the date aligns perfectly! 1883.\n\nThen I start to parse the handwriting. \"The\" looks like \"che\" or \"ete,\" and I have to remember to read it correctly. He spells \"labratory\" with an 'o'. \"Political\" is indistinct, the \"i\" is not dotted but looks like a squashed vowel. \"Anglice\" \u2013 I remember that means \"in English\" - good to include. The \"Mrs. Winkle\" is a bit scrawled. It looks like \"Van Winkle\" - perhaps a nickname? I have to look closely at the 'V'! It's a 'V'. Yes, definitely \"Van Winkle.\"\n\nNow, formatting. I need to make this all fit the requested layout. Top right date. \"4\" at the top center. The letterhead, the body. Closing, signature, postscript. I will create a clean transcription:\n\n[Header]\n4 [Top center]\n[1883, July 23] [Top right pencil]\nAgricultural and Mechanical College of Texas,\nDEPARTMENT OF\nCHEMISTRY AND PHYSICS.\nH. H. DINWIDDIE.\nCollege Station, Texas, [blank] 188[blank]\n\n[Body]\nCol. Cole went to the teachers convention at Tyler and\nfound his friend Ragsdale there still working for\nthe university professorship in spite of his card in\nthe papers that he was not a candidate. I asked the\nCol. if he thought that was honest or honorable. \"Oh well,\nit's political you know!\" he replied. The Col. tried\nto get the convention to recommend his friend to the\nregents as the best man for the chair of math. I have\nno idea what the regents will do about the faculty. Perhaps\nif Mr. R. is \"smoked out\" by public opinion he will try\nto get Col. Cole into the university and then work to\nget his place here. However we shall soon see.\n\nI have been amusing myself \"reading\" (Anglice) quater-\nnions - it is good light summer exercise for the mind.\nI havnt done much in the labratory. We hope to go to\nAustin sometime in August after the regents have\ndecided that faculty business. I dont care to pro-\nduce the impression that I am working for the univer-\nsity - for I am not. Let me hear from you whenever you can.\nMrs. Dinwiddie sends warm regards. Remember us to Van Winkle.\nWishing you all the pleasure that your tour can give -\n\nI am yours faithfully -\nH. H. Dinwiddie\n\n[Postscript at bottom left]\nIf you meet Col. Tredennis\nand Mrs. Amory in Washington\ngive them my regards.\n\nThen I\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-26.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from H. H. Dinwiddie, July 23, 1882"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1882-07-23"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from H. H. Dinwiddie, July 23, 1882"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 12 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--Faculty",
+          "Higher education--Texas--History--19th century",
+          "University of Texas--History",
+          "Chemistry--Study and teaching",
+          "Physics--Study and teaching",
+          "Texas--Politics and government--19th century",
+          "Governors--Texas--Elections",
+          "Educational institutions--Administration"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Dinwiddie, H. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Cole, Colonel",
+          "Georgeson, Professor",
+          "Gartner",
+          "James, Colonel",
+          "Van Winkle",
+          "Pugh, Mr.",
+          "Ireland, Judge",
+          "Roberts, Governor",
+          "Ragsdale",
+          "Tredennis, Colonel",
+          "Amory, Mrs.",
+          "Dinwiddie, Mrs."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from H. H. Dinwiddie, faculty member at Agricultural and Mechanical College of Texas, to Louis L. McInnis discussing college life, faculty activities, and Texas political events of summer 1882. Dinwiddie reflects on the value of correspondence between friends, reports on colleagues' travels and activities, and comments on the gubernatorial convention that nominated Judge Ireland as the next governor. The letter includes observations on faculty salary disparities, university politics, and speculation about faculty changes at the institution."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/3b1556f3-f040-3f50-b536-07b3b46d74ce/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4354,
+      "width": 3295,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3b1556f3-f040-3f50-b536-07b3b46d74ce/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4354,
+                "width": 3295,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3b1556f3-f040-3f50-b536-07b3b46d74ce",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>1.\n\n[Header]\n<p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<i>College Station, Texas,</i> July 23 1882</p>\n\n<p>My dear M<sup>c</sup>Innis -<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your letter was welcomed day before<br>\nyesterday. Although its head was in Mississippi and<br>\nits tail in Washington its only defect was its shortness.<br>\nLetters reveal character in certain phases otherwise<br>\nnot perceptible, and friends can hardly know each<br>\nother well without having corresponded ; hence I attach<br>\npeculiar value to letters from those whose friendship I<br>\nhighly prize. Besides, I must feel the complement of<br>\na letter from a friend who can pause in the midst of<br>\nthe absorbing novelties of the great world and devote<br>\nan hour to those who yet sojourn in the humdrum<br>\nseclusion of the \"happy valley\". It must indeed be a<br>\nrelief to you to wake in the morning from troubled dreams<br>\nof arithmetical half hours with Randle and algebraic<br>\nseances with other distinguished mathematicians and find<br>\nthat it was but a dream, a horrid nightmare induced<br>\nby a heavy supper stimulating the mind to travel in<br>\nthe ruts of doleful reminiscence. And then as night<br>\ncomes on what a relief to <sup>be</sup> emancipated from the perusal<br>\nof the numerous elegant original solutions which were<br>\nwont to solace your evening hours in the happy days<br>\ngone by. It seems to me that such a sudden change</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The Transcriptionist's Process**\n\nOkay, so the task is clear: I need to transcribe this handwritten letter as accurately as possible, sticking to a specific set of guidelines. My first step is to break down the instructions. I'm a professional transcriptionist, so I know this drill. Preserve everything, top to bottom, left to right, including any unusual spelling or punctuation. Use specific HTML tags to format the output. The output *must* be only the transcription, nothing more.\n\nNow, I'm examining the image itself. I can see it's a letter, handwritten on what looks like official letterhead. I'll need to figure out the letterhead's details first, and then I can start the transcription. The header looks like \"Agricultural and Mechanical College of Texas,\" written in a script font. Below that, on the left, is a sub-header \"DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE.\" Then, on the right, is the date, \"College Station, Texas, July 23 1882.\" There's also the number \"1.\" at the very top. I'll need to keep this formatting consistent as I'm going through the transcription.\n\nTime to start transcribing line by line. I’ll start with the number \"1.\" at the top, followed by the header, sub-header and date line. I'll then move onto the salutation and body of the letter. This cursive handwriting is going to need careful deciphering, I can already see that.\n\nI'm working my way through the letter and I’m making notes of the text. I'll need to make sure I get the spellings correct, since this is a very old letter and some of the language might be different. The letter talks about the value of correspondence and pokes fun at the recipient's life and academic duties. It sounds like the writer is relieved of the recipient's \"arithmetical half hours,\" \"algebraic seances\" and grading of \"elegant original solutions.\"\n\nNow, it’s time to format it using HTML. The \"1.\" at the top needs to be a `<p>`. The header \"Agricultural and Mechanical College of Texas\" will be italicized: `<p><i>Agricultural and Mechanical College of Texas,</i></p>`. The \"DEPARTMENT...\" information looks like it's small text, so I’ll use `<small>`: `<p><small>DEPARTMENT OF<br>CHEMISTRY AND PHYSICS.<br>H. H. DINWIDDIE.</small></p>`. The date needs to be on the right (I'm assuming this will be handled structurally). For now, I'll transcribe the pre-printed and handwritten parts, and italicize it. Now I need to check the document for anything confusing. I should make sure I preserve line breaks and paragraph breaks.\n\nGoing back over the text, I need to check for accuracy and format: \"compliment\" vs \"complement\". The writer wrote \"complement\", even if it should be \"compliment\". It looks like \"complement\" on close inspection, so I will stay with the original as it's the most accurate transcription. I also notice the use of quotation marks around \"happy valley.\" \"be\" has been inserted with a caret, so I need to find a way to represent that. The prompt lists `sup` which I can use here. The spelling seems to be correct, and it looks like \"wont\" (accustomed) is being used.\n\nWith a final polish, I've confirmed that the only allowed HTML tags are `p`, `br`, `i`, `small`, and `sup`. I'm confident with this format. I need to make sure I’ve preserved line breaks, paragraph structure, and that the text is 100% true to the original. I'll keep the letterhead on one line, with the sub-header and date on a separate line. The date should be on the right.\n\nAfter rereading and carefully reviewing the letter again, I believe I am complete.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4354,
+      "width": 3295,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/a3659a4b-66ad-3368-b94c-b260b9812681/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4354,
+                "width": 3295,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/a3659a4b-66ad-3368-b94c-b260b9812681",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>2\n<span style=\"float: right;\">[1882, July 23]</span>\n\n[Header]\n<p align=\"center\"><i>Agricultural and Mechanical College of Texas,</i></p>\n<p><small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small></p>\n<p align=\"center\"><i>College Station, Texas,</i> .............................. 188...</p>\n\n<p>would work some mischief to your psychological con=<br>\nstitution; such a radical upsetting as it is! We who re=<br>\nmain are holding the fort sedately. Col. Cole has been<br>\nto the gubernatorial convention, Prof. Georgeson has<br>\nbeen to the horticultural exhibition. Gartner and I<br>\nalone have been no further than Bryan. An ex=<br>\ncursion to Mr. Pugh's twice a day, the excitement of<br>\ngetting the mail and the perusal of Siftings on Saturday<br>\nalone breaks the monotony of our daily lives. Col. James<br>\nhas gone to Canada, to some out of the way little port on<br>\nlake Huron. He went direct from here; said he would<br>\nnot stop anywhere nor go east at all, and would<br>\nprobably be back in three weeks. It looks mysterious;<br>\nour suspicions are aroused; we are expecting a marriage<br>\nnotice any day. I am heartily in favor of Mrs. T. for<br>\npresident and hope she will be elected. If you and<br>\nVan Winkle and Col. James will each marry a widow with<br>\nhalf a dozen children I think our salaries will be raised<br>\nat the next meeting of the board. There was a quiet<br>\nfeeling at the last meeting that Col. Cole was the only<br>\nman who needed and increase of salary and the board<br>\ndidn't propose to waste good money on people who had<br>\nenough already to keep themselves in clean linen.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Transcription Summary**\n\nAlright, let's see what we've got here. The task is to transcribe this image, a letter it seems, making sure I capture every detail. I'm focusing on accuracy, so every mark, every character, has to be represented correctly. \n\n[Header]\nFirst, at the top right, we have \"2\", centered, and then \"[1882, July 23]\" right-aligned and enclosed in brackets. This looks like a page number and a date, likely added later. Then, there's the main header: \"<i>Agricultural and Mechanical College of Texas,</i>\" in a script font. Below that, on the left, \"DEPARTMENT OF<br>CHEMISTRY AND PHYSICS.<br>H. H. DINWIDDIE.\" is in what looks like small caps. And finally, \"<i>College Station, Texas,</i> .................... 188...\" is on the right, also in italics and with a line of dots for the date. The \"188...\" is printed.\n\nNow for the body of the letter. This is where it gets interesting, with that late 19th-century cursive.\n\nThe transcription starts mid-sentence, with \"would work some mischief to your psychological con=\". It looks like a hyphen or equals sign. Then it continues, \"stitution; such a radical upsetting as it is! We who re=\". We are transcribing exactly what we see.\n\nThe next lines describe people and events, starting with \"main are holding the fort sedately. Col. Cole has been\". The letter mentions \"Col. Cole\", \"Prof. Georgeson\", \"Gartner\" (or possibly \"Gantner\"), and others. \"Col. Cole has been to the gubernatorial convention, Prof. Georgeson has been to the horticultural exhibition. Gartner and I alone have been no further than Bryan. An ex=\"\n\n\"cursion to Mr. Pugh's twice a day, the excitement of\". Let's look closely at that word \"Pugh's\". The apostrophe looks like a dash or a high dot above the \"s.\" Definitely \"Pugh's\".\n\nIt continues, \"getting the mail and the perusal of Siftings on Saturday\" (capital \"S\" in \"Siftings\" - likely *Texas Siftings*). There's talk of daily routines and then \"Col. James\". He's gone to \"Canada, to some out of the way little port on lake Huron.\" The 'l' in \"lake\" is lowercase, unlike the 'H' in \"Huron\", so that will be noted.\n\nThe letter continues \"He went direct from here; said he would\" and it goes on to discuss a mysterious trip, marriage suspicions, and opinions on a Mrs. T. for president. It includes a humorous comment about raising salaries if people marry widows. And we get back to \"Col. Cole\", whose salary is discussed at the last meeting, \"needed and increase of salary and the board\". It is written as \"and\", which is the correct word.\n\nSo, here's the transcription, preserving the original formatting and any oddities in the text:\n\n```html\n<p>2<span style=\"float: right;\">[1882, July 23]</span></p>\n<p align=\"center\"><i>Agricultural and Mechanical College of Texas,</i></p>\n<p><small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small></p>\n<p align=\"center\"><i>College Station, Texas,</i> .................... 188...</p>\n<p>\nwould work some mischief to your psychological con=<br>\nstitution; such a radical upsetting as it is! We who re=<br>\nmain are holding the fort sedately. Col. Cole has been<br>\nto the gubernatorial convention, Prof. Georgeson has<br>\nbeen to the horticultural exhibition. Gartner and I<br>\nalone have been no further than Bryan. An ex=<br>\ncursion to Mr. Pugh's twice a day, the excitement of<br>\ngetting the mail and the perusal of Siftings on Saturday<br>\nalone breaks the monotony of our daily lives. Col. James<br>\nhas gone to Canada, to some out of the way little port on<br>\nlake Huron. He went direct from here; said he would<br>\nnot stop anywhere nor go east at all, and would<br>\nprobably be back in three weeks. It looks mysterious;<br>\nour suspicions are aroused; we are expecting a marriage<br>\nnotice any day. I am heartily in favor of Mrs. T. for<br>\npresident and hope she will be elected. If you and<br\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 4354,
+      "width": 3295,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e34a4ee4-ac7c-3877-b283-8f801f977d5b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4354,
+                "width": 3295,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e34a4ee4-ac7c-3877-b283-8f801f977d5b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>3.</p>\n<p style=\"text-align: right;\">[1882, July 23]</p>\n<p style=\"text-align: center;\"><i>Agricultural and Mechanical College of Texas,</i></p>\n<br>\n<p>\n<span style=\"float: left;\">\n<small>DEPARTMENT OF<br>\nCHEMISTRY AND PHYSICS.<br>\nH. H. DINWIDDIE.</small>\n</span>\n<span style=\"float: right;\">\n<i>College Station, Texas,</i> __________________ <i>188</i>___\n</span>\n</p>\n<br>\n<br>\n<p>\nCol. James seems to be seriously considering the matter,<br>\nmention it to Van Winkle and see if he wont join in<br>\nthe execution of the plan to take from our faculty the<br>\nreproach of being prudent providers for the future.<br>\nThere are plenty of lone widows around the country<br>\nwith orphans enough to consume our surplus endow=<br>\nment. As you have seen by the papers Judge Ireland<br>\nis to be our next governor. I hope now the golden calf<br>\nin the treasury will be upset and that we will abandon<br>\nthe adoration of the cash balance and start out of<br>\nthe wilderness. Gov. Roberts played with his friends to<br>\nthe last moment and only after Ireland's name had been<br>\nput before the Convention did he telegraph that he would<br>\nnot consent to the use of his name. Thus the enemies<br>\nof Ireland were left like sheep without a shepherd at<br>\nthe very instant that Ireland's Shepard (Seth) was<br>\ncalling up his flock. They say the fellows who had<br>\nbeen swearing by the o.a. \"first, last and all the time<br>\nhave since been swearing at the o.a. for leading them into<br>\nsuch a pretty trap. You may have noticed that the<br>\nConvention inserted a good University plank in their<br>\nplatform which brightens the prospects of that institution<br>\nand this branch of it before the next legislature.\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Transcription and Analysis**\n\nOkay, so here's what I've got from this image. It's an interesting piece of history!  I need to transcribe this document, paying close attention to the original formatting and any nuances in the handwriting.\n\nFirst, I see the central header \"3.\"  Then, in pencil on the top right, someone scribbled \"[1882, July 23]\". That's our likely date. Below that is the letterhead: \"Agricultural and Mechanical College of Texas,\" which is the main header. On the left side, we have \"DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE.\"  On the right side, the date line says \"College Station, Texas, _________ 188__\".\n\nNow for the body:\n\n```html\n<p>\n3<br/>\n[1882, July 23]<br/>\nAgricultural and Mechanical College of Texas,<br/>\n<small>DEPARTMENT OF CHEMISTRY AND PHYSICS. H. H. DINWIDDIE.</small><br/>\nCollege Station, Texas, _________ 188__<br/>\n<br/>\nCol. James seems to be seriously considering the matter,<br/>\nmention it to Van Winkle and see if he wont join in<br/>\nthe execution of the plan to take from our faculty the<br/>\nreproach of being prudent providers for the future.<br/>\nThere are plenty of lone widows around the country<br/>\nwith orphans enough to consume our surplus endow=<br/>\nment. As you have seen by the papers Judge Ireland<br/>\nis to be our next governor. I hope now the golden calf<br/>\nin the treasury will be upset and that we will abandon<br/>\nthe adoration of the cash balance and start out of<br/>\nthe wilderness. Gov. Roberts played with his friends to<br/>\nthe last moment and only after Ireland's name had been<br/>\nput before the Convention did he telegraph that he would<br/>\nnot consent to the use of his name. Thus the enemies<br/>\nof Ireland were left like sheep without a shepherd at<br/>\nthe very instant that Ireland's Shepard (Seth) was<br/>\ncalling up his flock. They say the fellows who had<br/>\nbeen swearing by the o.a. \"first, last and all the time<br/>\nhave since been swearing at the o.a. for leading them into<br/>\nsuch a pretty trap. You may have noticed that the<br/>\nConvention inserted a good University plank in their<br/>\nplatform which brightens the prospects of that institution<br/>\nand this branch of it before the next legislature.\n</p>\n```\n\nThe handwriting is cursive, and at times, a bit tricky, but I can make out the words. The text seems to be discussing a plan related to the Agricultural and Mechanical College of Texas and the upcoming governorship. It mentions Col. James, Van Winkle, Judge Ireland (who is to become the next governor), and Gov. Roberts (Oran M. Roberts, \"The Old Alcalde\"). There's talk of \"lone widows\" and \"orphans\" consuming a \"surplus endowment\". This suggests some kind of scheme or initiative. The writer is clearly interested in the political situation in Texas and the impact on the college, particularly a \"good University plank\" that was inserted into the Convention's platform.  It looks like Seth Shepard is also involved. The \"o.a.\" likely refers to \"The Old Alcalde,\" Oran Roberts. The reference to the \"golden calf\" and \"wilderness\" indicates concern about financial matters. The writer seems pleased by the political moves, and views the political situation with optimism.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 4354,
+      "width": 3295,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/784c0db3-8316-3266-89b7-130834917cb8/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4354,
+                "width": 3295,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/784c0db3-8316-3266-89b7-130834917cb8",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>4</p>\n<p style=\"text-align: right;\">[1883, July 23]</p>\n<p style=\"text-align: center;\">Agricultural and Mechanical College of Texas,</p>\n<p>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</p>\n<p style=\"text-align: right;\">College Station, Texas, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 188 &nbsp;&nbsp;</p>\n\n<p>Col. Cole went to the teachers convention at Tyler and<br/>\nfound his friend Ragsdale there still working for<br/>\nthe university professorship in spite of his card in<br/>\nthe papers that he was not a candidate. I asked the<br/>\nCol. if he thought that was honest or honorable. \"Oh well,<br/>\nit's political you know!\" he replied. The Col. tried<br/>\nto get the convention to recommend his friend to the<br/>\nregents as the best man for the chair of math. I have<br/>\nno idea what the regents will do about the faculty. Perhaps<br/>\nif Mr. R. is \"smoked out\" by public opinion he will try<br/>\nto get Col. Cole into the university and then work to<br/>\nget his place here. However we shall soon see.</p>\n\n<p>I have been amusing myself \"reading\" (Anglice) quater-<br/>\nnions - it is good light summer exercise for the mind.<br/>\nI havnt done much in the labratory. We hope to go to<br/>\nAustin sometime in August after the regents have<br/>\ndecided that faculty business. I dont care to pro-<br/>\nduce the impression that I am working for the univer-<br/>\nsity - for I am not. Let me hear from you whenever you can.<br/>\nMrs. Dinwiddie sends warm regards. Remember us to Van Winkle.<br/>\nWishing you all the pleasure that your tour can give -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am yours faithfully -<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H. H. Dinwiddie</p>\n\n<p>If you meet Col. Tredennis<br/>\nand Mrs. Amory in Washington<br/>\ngive them my regards.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The mind races!** Okay, here's what I'm thinking, based on this image before me: First, I see a handwritten \"4\" at the top. Interesting. Then, up in the right corner, there's a date scrawled in pencil: \"1883, July 23\". That gives me a critical timeframe. A letterhead! It says \"Agricultural and Mechanical College of Texas,\" with the Department of Chemistry and Physics, and Dr. Dinwiddie's name.\n\nThe date line is printed, but no year is filled in, but the pencil notation gives me the year. I see the ink text and I start to read the contents. The first paragraph mentions Col. Cole, a teachers' convention, and a friend named Ragsdale vying for a university professorship. The Colonel is trying to get his friend recommended for the math chair and it's all \"political\". It is interesting how things were done then! I also note a mention of the regents – faculty decisions are clearly in the air. I have to figure out how to best transcribe what the author is saying.\n\nNow I am reading the second paragraph. I'm intrigued by the author's casual mention of \"reading (Anglice) quaternions.\" The mind is always exploring! He says it's a good \"light summer exercise.\" Then he mentions he has not been in the lab much. August is coming. He hopes to be in Austin after the regents have met. Then a telling statement: \"I dont care to produce the impression that I am working for the university - for I am not.\" That tells me something about his motivation. He then says he wants to hear from the recipient and sends regards.\n\nA postscript at the bottom mentions \"Col. Tredennis and Mrs. Amory\" in Washington. That rings a bell, I am sure I've read those names somewhere. Ah, yes! *Through One Administration*! A very clever reference. I think the date aligns perfectly! 1883.\n\nThen I start to parse the handwriting. \"The\" looks like \"che\" or \"ete,\" and I have to remember to read it correctly. He spells \"labratory\" with an 'o'. \"Political\" is indistinct, the \"i\" is not dotted but looks like a squashed vowel. \"Anglice\" – I remember that means \"in English\" - good to include. The \"Mrs. Winkle\" is a bit scrawled. It looks like \"Van Winkle\" - perhaps a nickname? I have to look closely at the 'V'! It's a 'V'. Yes, definitely \"Van Winkle.\"\n\nNow, formatting. I need to make this all fit the requested layout. Top right date. \"4\" at the top center. The letterhead, the body. Closing, signature, postscript. I will create a clean transcription:\n\n[Header]\n4 [Top center]\n[1883, July 23] [Top right pencil]\nAgricultural and Mechanical College of Texas,\nDEPARTMENT OF\nCHEMISTRY AND PHYSICS.\nH. H. DINWIDDIE.\nCollege Station, Texas, [blank] 188[blank]\n\n[Body]\nCol. Cole went to the teachers convention at Tyler and\nfound his friend Ragsdale there still working for\nthe university professorship in spite of his card in\nthe papers that he was not a candidate. I asked the\nCol. if he thought that was honest or honorable. \"Oh well,\nit's political you know!\" he replied. The Col. tried\nto get the convention to recommend his friend to the\nregents as the best man for the chair of math. I have\nno idea what the regents will do about the faculty. Perhaps\nif Mr. R. is \"smoked out\" by public opinion he will try\nto get Col. Cole into the university and then work to\nget his place here. However we shall soon see.\n\nI have been amusing myself \"reading\" (Anglice) quater-\nnions - it is good light summer exercise for the mind.\nI havnt done much in the labratory. We hope to go to\nAustin sometime in August after the regents have\ndecided that faculty business. I dont care to pro-\nduce the impression that I am working for the univer-\nsity - for I am not. Let me hear from you whenever you can.\nMrs. Dinwiddie sends warm regards. Remember us to Van Winkle.\nWishing you all the pleasure that your tour can give -\n\nI am yours faithfully -\nH. H. Dinwiddie\n\n[Postscript at bottom left]\nIf you meet Col. Tredennis\nand Mrs. Amory in Washington\ngive them my regards.\n\nThen I\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/26/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

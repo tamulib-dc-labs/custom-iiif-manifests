@@ -1,139 +1,183 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-277.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Governor Olmstead, February 25, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-02-25"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Governor Olmstead, February 25, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/fd920ca7-9053-3d4e-a7b9-2fe3b42d885b/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3724,
-            "width": 2209,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/368",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/367",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/fd920ca7-9053-3d4e-a7b9-2fe3b42d885b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3724,
-                                "width": 2209,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fd920ca7-9053-3d4e-a7b9-2fe3b42d885b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/371",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/370",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><b>State A. & M. College of Texas.</b><br>\nCollege Station, Brazos County,<br>\nFebruary 25<sup>\"</sup> 1881</p>\n\n[Body]\n<p>Prof M<sup>c</sup>Innis,<br>\nD<sup>r</sup> Sir;<br>\nI thought perhaps that<br>\nyou might go for a drive this evening<br>\nand if so would take me into<br>\ntown at 5 o'clock - I want to get into<br>\ntown so as to get the train from<br>\nthere to-night. If you can do it -<br>\nplease send me word by the Quarter -<br>\nguard the next hour. & oblige</p>\n\n[Signature]\n<p>Yours truly<br>\nGeo. T. Olmsted<br>\nCapt &c -</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/372",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Thoughts on Transcription**\n\nOkay, here's what I've got. I'm looking at this handwritten letter on \"State A. & M. College of Texas\" letterhead, dated February 25, 1881. It appears to be a request from someone named Geo. T. Olmsted, likely Captain George T. Olmsted, given the historical context of A&M, to a Professor McInnis. The writer is asking if McInnis will be taking a drive into town that evening and, if so, to be picked up around 5 o'clock so he can catch a train. He requests a response from the Quarter-guard within the next hour. The header font is very distinct, almost gothic or blackletter, with the college name and location printed. The date looks handwritten, including \"1881\". \"Dr\" is abbreviated with the \"r\" superscript. The \"c\" in \"McInnis\" appears to be raised. There's an ampersand, standard. The signature looks clear, and the title beneath seems to be \"Capt &c\". I've tried to capture the visual layout with `<br>` and `<p>` tags for sections. The \"25\" mark is tricky, could be a superscript 'th' or just a stroke, but I've transcribed it as \"25\". I'm omitting that archival tick mark in the upper right. And I'm ready to produce the HTML output requested.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-277.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Governor Olmstead, February 25, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-02-25"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Governor Olmstead, February 25, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Texas A&M College--History",
+          "College Station (Tex.)--History",
+          "Transportation--Texas--19th century",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Olmstead, George T. (George Tucker), 1829-1901"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A brief personal letter from Captain George T. Olmstead, president of Texas A&M College, to Professor Louis L. McInnis requesting transportation to town on the evening of February 25, 1881. Olmstead asks McInnis to drive him into College Station so he can catch a train that night. The letter demonstrates the informal communication and collegial relationships among faculty and administration at the institution during the 19th century."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/fd920ca7-9053-3d4e-a7b9-2fe3b42d885b/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3724,
+      "width": 2209,
+      "items": [
+        {
+          "id": "http://example.org/iiif/368",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/367",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/fd920ca7-9053-3d4e-a7b9-2fe3b42d885b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3724,
+                "width": 2209,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/fd920ca7-9053-3d4e-a7b9-2fe3b42d885b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/371",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/370",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><b>State A. & M. College of Texas.</b><br>\nCollege Station, Brazos County,<br>\nFebruary 25<sup>\"</sup> 1881</p>\n\n[Body]\n<p>Prof M<sup>c</sup>Innis,<br>\nD<sup>r</sup> Sir;<br>\nI thought perhaps that<br>\nyou might go for a drive this evening<br>\nand if so would take me into<br>\ntown at 5 o'clock - I want to get into<br>\ntown so as to get the train from<br>\nthere to-night. If you can do it -<br>\nplease send me word by the Quarter -<br>\nguard the next hour. & oblige</p>\n\n[Signature]\n<p>Yours truly<br>\nGeo. T. Olmsted<br>\nCapt &c -</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/372",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Thoughts on Transcription**\n\nOkay, here's what I've got. I'm looking at this handwritten letter on \"State A. & M. College of Texas\" letterhead, dated February 25, 1881. It appears to be a request from someone named Geo. T. Olmsted, likely Captain George T. Olmsted, given the historical context of A&M, to a Professor McInnis. The writer is asking if McInnis will be taking a drive into town that evening and, if so, to be picked up around 5 o'clock so he can catch a train. He requests a response from the Quarter-guard within the next hour. The header font is very distinct, almost gothic or blackletter, with the college name and location printed. The date looks handwritten, including \"1881\". \"Dr\" is abbreviated with the \"r\" superscript. The \"c\" in \"McInnis\" appears to be raised. There's an ampersand, standard. The signature looks clear, and the title beneath seems to be \"Capt &c\". I've tried to capture the visual layout with `<br>` and `<p>` tags for sections. The \"25\" mark is tricky, could be a superscript 'th' or just a stroke, but I've transcribed it as \"25\". I'm omitting that archival tick mark in the upper right. And I'm ready to produce the HTML output requested.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/277/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

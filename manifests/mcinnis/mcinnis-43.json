@@ -1,352 +1,407 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-43.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, March 6, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-03-06"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, March 6, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ee2f196b-9e57-3cd6-864d-fd49fbff4f9d/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3753,
-            "width": 2353,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ee2f196b-9e57-3cd6-864d-fd49fbff4f9d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3753,
-                                "width": 2353,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ee2f196b-9e57-3cd6-864d-fd49fbff4f9d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Corsicana Texas.<br>\nMarch 6<sup>th</sup> 1883.</p>\n\n<p>My dear Professor:<br>\nYour thrice welcome<br>\nletter was rec<sup>d</sup> some days ago.<br>\nOur monthly examinations were on<br>\n\"hand\", an extra teacher to examine &mdash;<br>\nbesides I am almost sick again.<br>\nIn confidence. In reply to your<br>\ninquiry in relation to a certain<br>\napplicant <sup>for a place</sup> in your College, I will<br>\nsay \"go slow\" - Verbum sat.<br>\nI was surprised at Col. Jno's<br>\nresignation. I see that Prof G.<br>\nretires in June &amp; Prof Gardner is<br>\ndead. This leaves three present<br>\n&amp; prospective vacancies in your<br>\nfaculty. I was told some days<br>\nago that Prof Cole aspires to<br>\nthe Presidency of the College &mdash; In that<br>\nevent the English Chair w<sup>d</sup> be<br>\nvacant. But for the Agricultural<br>\ndepartment I think the Presidency<br>\nof the College is a desirable position<br>\nbut it has never been clear to my</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's get to work. I need to transcribe this handwritten letter. First, I'll need to analyze the image to determine its basic properties. It's a handwritten letter on unlined paper, with the location and date in the top right corner: \"Corsicana Texas. March 6th 1883.\" The salutation is \"My dear Professor:\".\n\nI will begin by going line by line.\n\n*   Line 1: I see \"Your thrice welcome\", a good start.\n*   Line 2: Then, \"letter was rec<sup>d</sup> some days ago.\"\n*   Line 3: Following this, \"Our monthly examinations were on\".\n*   Line 4: This line ends with the phrase \"hand\", an extra teacher to examine -\".\n*   Line 5: I see \"besides I am almost sick again.\"\n*   Line 6: \"In confidence. In reply to your\"\n*   Line 7: This is where it gets interesting, especially the phrasing. There is a small smudge between \"inquiry\" and \"relation\", so it looks like \"inquiry in relation\". Later it will be proven.\n*   Line 8: \"applicant <sup>for a place</sup> in your College, I will\". The phrase \"for a place\" is inserted above the text.\n*   Line 9: \"say \"go slow\" - Verbum sat.\". Simple Latin phrase.\n*   Line 10: I see \"I was surprised at Col. Jno's\", where \"Jno\" is an abbreviation for John.\n*   Line 11: Continuing, it reads \"resignation. I see that Prof G.\", now, the question is, who is \"Prof G.\"? Is it \"Prof. G.\" or \"Prof. CP\"? It's more likely \"Prof. G.\" and there is a name \"Gardner\" on the next line.\n*   Line 12: \"retires in June & Prof Gardner is\".\n*   Line 13: The letter continues, \"dead. This leaves three present\".\n*   Line 14: \"and prospective vacancies in your\".\n*   Line 15: \"faculty. I was told some days\"\n*   Line 16: \"ago that Prof Cole aspires to\"\n*   Line 17: \"the Presidency of the College - In that\"\n*   Line 18: \"event the English Chair w<sup>d</sup> be\". I'm making sure to notice that \"wd be\" looks like an abbreviation. It might mean \"would be\".\n*   Line 19: \"vacant. But for the Agricultural\"\n*   Line 20: \"department I think the Presidency\"\n*   Line 21: \"of the College is a desirable position\"\n*   Line 22: and the letter concludes, \"but it has never been clear to my\".\n\nNow I will begin to check it, word by word.\n\n*   **Location:** Corsicana Texas.\n*   **Date:** March 6<sup>th</sup> 1883.\n*   **Salutation:** My dear Professor:\n*   **Sentence 1:** Your thrice welcome letter was rec<sup>d</sup> some days ago.\n*   **Sentence 2:** Our monthly examinations were on \"hand\", an extra teacher to examine - besides I am almost sick again.\n*   **Sentence 3:** In confidence. In reply to your inquiry in relation to a certain applicant <sup>for a place</sup> in your College, I will say \"go slow\" - Verbum sat.\n*   **Sentence 4:** I was surprised at Col. Jno's resignation.\n*   **Sentence 5:** I see that Prof G. retires in June & Prof Gardner is dead.\n*   **Sentence 6:** This leaves three present & prospective vacancies in your faculty.\n*   **Sentence 7:** I was told some days ago that Prof Cole aspires to the Presidency of the College - In that event the English Chair w<sup>d</sup> be vacant.\n*   **Sentence 8:** But for the Agricultural department I think the Presidency of the College is a desirable position but it has never been clear to my...\n\nI need to make sure I format the transcription correctly.\n\n*   I'll use `<p>` for paragraphs.\n*   I'll use `<br>` for line breaks within the header.\n*   I will insert \"for a place\" in the sentence since it makes more sense.\n*   The \"th\" in \"6th\" will be superscript using `<sup>`.\n*   The \"d\" in \"recd\" is superscript, but the rule is just text.\n*   \"\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3753,
-            "width": 2353,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b8d2e48e-7280-3b1d-92a5-c2ff66bac088/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3753,
-                                "width": 2353,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b8d2e48e-7280-3b1d-92a5-c2ff66bac088",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>mind as to what can be done with\nthe Agricultural feature of the\nCollege - not so with the mechanical -\nShould Cole be promoted to the\nPresidency, who is the \"Coming Man\"\nfor the Chair of English?\nOf course Ragsdale will be an\napplicant for various & sundry places.\nThe \"Alcalde\" is now a gentleman\nof elegant leisure & of course will\ntake the College under his wing\nat the approaching Commencement.\nProf. H. lectures at the Capital on\neducation. Makes a first class\nlobyist for a Railroad Commission -\nhad a resolution of thanks voted\nhim by the House & as he takes\nhis departure from the Capital\na News Correspondent fires a\nhasty shot into him - as a hungry\nR.R. harpy; but he appreciates his new\nhonors all the same & returns to\n\"Hold the Fort\" by dabbling in \"all\nthings to all men\"\n\"First the Blade, then the Ear\" &c</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**A Deep Dive into a Historical Document**\n\nAlright, let's get to work. I have a transcription task before me, a document that appears to be a handwritten letter from the late 19th or early 20th century. My expert eye is immediately drawn to the script. Cursive, naturally, and likely inked onto lined paper. The content hints at college affairs, specifically mentions individuals such as Cole, Ragsdale, and \"The Alcalde,\" and discusses politics and lobbying.\n\nThe initial analysis is crucial. I begin by breaking down each line. Line 1 requires a close examination, it looks like it could be read \"nina\" or \"nind\", but contextually \"mind\" seems most likely. It will take more checking of other letters to confirm. Moving forward, the agricultural department of the college will be discussed, in contrast to the mechanical, and then it is asked if Cole should be promoted to Presidency, as the \"Coming Man\", who is in quotes. Someone is sought for the Chair of English, and then Ragsdale is an applicant for various and sundry places. The \u201cAlcalde\u201d is a gentleman of elegant leisure. He will take the College under his wing at the approaching commencement. Prof. H. lectures at the Capital on education, and this makes him a first-class lobbyist for a Railroad Commission. A resolution of thanks was voted to him by the House. When he leaves the Capital, a News Correspondent fires a parting shot into him. He is called a hungry R.R. harpy, but he appreciates his new honors and returns to \u201cHold the Fort\u201d by dabbling in \"all things to all men\". Then, \"First the Blade, then the Ear &c\"\n\nI have to maintain a meticulous line-by-line approach. \"mind\" seems correct. The dash in line 3 is essential. \"Cole\" checks out, as does \"Ragsdale\". The ampersand in line 8 is a plus-sign style. \"The 'Alcalde' is now a gentleman,\" I confirm. The word \"Commencement\" appears. \u201clobyist\u201d is the spelling used in the text. I am taking a very close look at lines 19 and 20. The key will be to identify the word before \"shot.\" \"fires a ... shot\" calls for a sharp description, a parting remark, and a volley are common phrases. The first letter has an ascender, so an 'f' isn't likely. Looking at \"House\" and \"Blade\" helps. The word appears to be \"hasty\" or \"hot\". \"Hasty\" makes the most sense.\n\nI have to double-check that \"lobyist\" is correct. Then, I need to get back to the mysterious word. I'm torn between \"hot\" (which fits the phrase \"hot shot\") and \"hasty\". The tail suggests \"hasty\". It starts with a 'h'. There are no other \"h\" words that would fit.\n\nRe-checking \"hasty\" and \"hot\", I am convinced the correct word is \"hasty.\" Then, let's keep going.\n\nThe words \"dabbling\", \"lobyist\", and \"R.R.\" are correct. The word \"Commencement\" appears accurate.\n\nThe phrase \"hasty shot\" means a rapid, careless shot. The context makes sense.\n\nI just went through the document once more, I think that the transcription is perfect.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3753,
-            "width": 2353,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ec14352b-29c2-325f-9af2-7de04527bfb2/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3753,
-                                "width": 2353,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ec14352b-29c2-325f-9af2-7de04527bfb2",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"right\">3<br>\n[1883, March 6]</p>\n\n<p>\u201cWhat fools these mortals be\u201d - Perhaps<br>\nmany of us would find the road<br>\nto greatness, but \u201c<i>Our Consciences</i><br>\ndo make <i>Cowards</i> of us all\u201d -<br>\nSir William was mistaken in his<br>\n\u201call\u201d - at least, did he live at this<br>\nday he would Amend his Answer -<br>\nas the lawyers have it.<br>\nI see in a late No. of the News<br>\nthat the Governor has sent to the<br>\nSenate the names of three gentlemen<br>\nfor Regents of University. Clark.<br>\nGarnett and <span style=\"text-decoration: underline;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Do you know<br>\nthe gentlemen? One of the Regents<br>\nCol. S. is a member of our Board<br>\nof Examiners - I called the Board<br>\ntogether last Saturday - but<br>\nno mention was made of the<br>\nUniversity - I have never men-<br>\ntioned the subject to him in<br>\nany way - nor do I think I shall -<br>\nSmith Ragsdale claims the honor?<br>\nof shaping the whole University policy<br>\nup to this time + to be frank, I<br>\nthink he ought to be tabooed by Texas<br>\nteachers.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Refinement**\n\nOkay, here's what I've got, breaking down this handwritten document.  I need a precise transcription, so I'm paying close attention to every detail.\n\nFirst, I'm noting the layout: There's some writing in the top right corner. A faint \"3\" at the top, and below that, in pencil, the date \"[1883, March 6]\". This suggests it might be a numbered page or document fragment.\n\nThe main body is the ink-written text. I've broken it down line by line to ensure accuracy. I see a familiar quote to start: \"What fools these mortals be\". Good, that looks clear. Following that:\n\n<p>\"What fools these mortals be\" - Perhaps<br>many of us would find the road<br>to greatness, but \"<i>Our Consciences</i><br>do make <i>Cowards</i> of us all\" -</p>\n\n\"<i>Our Consciences</i>\" and \"<i>Cowards</i>\" are underlined, which suggests they're being emphasized. I'm using `<i>` tags as underlines are not permitted.\n\n<p>Sir William was mistaken in his<br>\"all\" - at least, did he live at this<br>day he would Amend his Answer -<br>as the lawyers have it.<br>I see in a late No. of the News<br>that the Governor has sent to the<br>Senate the names of three gentlemen<br>for Regents of University. Clark,<br>Garnett and ________ Do you know<br>the gentlemen? One of the Regents<br>Col. S. is a member of our Board<br>of Examiners - I called the Board<br>together last Saturday - but<br>no mention was made of the<br>University - I have never men-<br>tioned the subject to him in<br>any way - nor do I think I shall -<br>Smith Ragsdale claims the honor?<br>of shaping the whole University policy<br>up to this time + to be frank, I<br>think he ought to be tabooed by Texas<br>teachers.</p>\n\nI'm paying close attention to the abbreviation \"No.\" for \"Number\". The \"News\" is likely a newspaper. The list of names for regents is interesting, and the blank is distinct. The 'S' in \"Col. S.\" is definitely an \"S,\" not a \"G\" or anything else. It's almost certainly referring to Col. Ashbel Smith. The reference to \"Smith Ragsdale\" adds another layer, possibly a Texas educator. The \"honor?\" at the end is unclear. The symbol \"+\" is definitely a plus sign. The word \"tabooed\" is spelled correctly.\n\nThe overall flow of the text seems sound. There are several interesting points here, including the mention of Shakespeare's quote, the references to the University, and the criticism of Ragsdale. Now, I need to format this for presentation, adding the top right details. I'll preserve line breaks and ensure emphasis is captured. I'll make sure to get this exactly right.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3753,
-            "width": 2353,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b9ef20e7-a07c-38af-be9b-85b711562e22/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3753,
-                                "width": 2353,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b9ef20e7-a07c-38af-be9b-85b711562e22",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Gen. Lee lectures in our city tomorr-<br/>\nnight - Trust the weather will<br/>\npermit me to hear him.<br/>\nbesides, I have never seen a member<br/>\nof that grand historic family of<br/>\nour native South land.</p>\n\n<p>Our Schools are still increasing -<br/>\nUp to date 712 - Our buildings<br/>\nare large + comfortable - but are<br/>\ncrowded beyond comfort<br/>\n+ hence the work is not as<br/>\nefficient as it should be -<br/>\nWho is the occasional Correspondent<br/>\nNews from Waco?</p>\n\n<p>My friend Dr. Law, I see, returns<br/>\nto Bryan. Hope you will make<br/>\nthe acquaintance of Dr. F. T. Mitchell -<br/>\nMethodist Minister at Bryan -<br/>\nWhen at himself, he is the most graceful<br/>\nman in the pulpit I have seen<br/>\nin Texas. His a good preacher +<br/>\na good man - Hear him.<br/>\nLet me hear from you soon -</p>\n\n<p>Your friend<br/>\nJ. J. Hand</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My analysis of this transcription task begins with a meticulous assessment of the request. I need to act as a skilled transcriptionist, tasked with extracting the text from a handwritten image. I have to respect the original spelling and punctuation. The client gave me specific HTML tags, which I need to use to format the final output. There's no room for commentary, just raw transcription.**\n\n**The first step is a careful visual inspection of the image. The letter is in cursive handwriting. It looks like it could be from the late 19th century because of the slant and loops. There's a stain near the top and fold lines. This informs my reading and my expectations for what I might encounter in the text itself.**\n\n**Now, I proceed line by line. I have to ensure accuracy. The first line is straightforward. The second has a capitalized \"Trust.\" Then, it is \"permit me to hear him.\" I see that line four begins with a lowercase \"b.\" It is clearly \"besides.\" Next comes the description of a family. The second paragraph begins with a reference to schools and a number (712). The handwriting is not always clear, so I compare letters to ensure they are the same (\"Law\" vs. \"Lee\"). Later, there is a reference to \"crowded beyond comfort.\" The word \"efficient\" is tricky. Line 13 asks a question and there is a word crossed out. I need to make a judgment call here, as I cannot use any strikethrough tags. The \"of the\" looks heavily crossed out. Then, there is a reference to a Dr. Law. The \"L\" matches \"Lee\" in the first line. The next part mentions \"F. T. Mitchell,\" the \"T\" I am confident on. Then the writer describes the man. I will check all \"T\"s and \"S\"s for the initial comparison. Then there are some notes on the pulpit. The word \"His\" is repeated in the transcription. Finally, there's a signature, J. J. Hand.**\n\n**I am thinking about spelling mistakes, as they're common in older texts. I consider each word. The final step is to format the transcription using the given HTML tags. I have to think about how to represent the line breaks and paragraph breaks. I will review the final product. I make a few minor adjustments, ensuring the formatting is clean, and the transcription reflects the original text accurately. I have triple-checked to ensure that the transcription is complete and true to the source.**\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-43.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, March 6, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-03-06"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, March 6, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "College administration--Texas--History--19th century",
+          "Faculty recruitment",
+          "Agricultural education",
+          "Mechanical education",
+          "Universities and colleges--Texas--History",
+          "Educational policy--Texas",
+          "Schools--Corsicana (Tex.)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Cole",
+          "Gardner",
+          "Ragsdale",
+          "Lee, General",
+          "Law, Dr.",
+          "Mitchell, F. T.",
+          "Clark",
+          "Garnett"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "J. T. Hand writes to Professor Louis L. McInnis from Corsicana, Texas regarding faculty vacancies and administrative matters at a Texas college. Hand discusses several faculty resignations and retirements, speculates about potential promotions including Cole's possible elevation to the presidency, and cautiously advises McInnis regarding a college applicant. The letter also comments on various individuals involved in educational and political activities in Texas, including references to recent University regent appointments and local school enrollment figures."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ee2f196b-9e57-3cd6-864d-fd49fbff4f9d/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3753,
+      "width": 2353,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ee2f196b-9e57-3cd6-864d-fd49fbff4f9d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3753,
+                "width": 2353,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ee2f196b-9e57-3cd6-864d-fd49fbff4f9d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Corsicana Texas.<br>\nMarch 6<sup>th</sup> 1883.</p>\n\n<p>My dear Professor:<br>\nYour thrice welcome<br>\nletter was rec<sup>d</sup> some days ago.<br>\nOur monthly examinations were on<br>\n\"hand\", an extra teacher to examine &mdash;<br>\nbesides I am almost sick again.<br>\nIn confidence. In reply to your<br>\ninquiry in relation to a certain<br>\napplicant <sup>for a place</sup> in your College, I will<br>\nsay \"go slow\" - Verbum sat.<br>\nI was surprised at Col. Jno's<br>\nresignation. I see that Prof G.<br>\nretires in June &amp; Prof Gardner is<br>\ndead. This leaves three present<br>\n&amp; prospective vacancies in your<br>\nfaculty. I was told some days<br>\nago that Prof Cole aspires to<br>\nthe Presidency of the College &mdash; In that<br>\nevent the English Chair w<sup>d</sup> be<br>\nvacant. But for the Agricultural<br>\ndepartment I think the Presidency<br>\nof the College is a desirable position<br>\nbut it has never been clear to my</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's get to work. I need to transcribe this handwritten letter. First, I'll need to analyze the image to determine its basic properties. It's a handwritten letter on unlined paper, with the location and date in the top right corner: \"Corsicana Texas. March 6th 1883.\" The salutation is \"My dear Professor:\".\n\nI will begin by going line by line.\n\n*   Line 1: I see \"Your thrice welcome\", a good start.\n*   Line 2: Then, \"letter was rec<sup>d</sup> some days ago.\"\n*   Line 3: Following this, \"Our monthly examinations were on\".\n*   Line 4: This line ends with the phrase \"hand\", an extra teacher to examine -\".\n*   Line 5: I see \"besides I am almost sick again.\"\n*   Line 6: \"In confidence. In reply to your\"\n*   Line 7: This is where it gets interesting, especially the phrasing. There is a small smudge between \"inquiry\" and \"relation\", so it looks like \"inquiry in relation\". Later it will be proven.\n*   Line 8: \"applicant <sup>for a place</sup> in your College, I will\". The phrase \"for a place\" is inserted above the text.\n*   Line 9: \"say \"go slow\" - Verbum sat.\". Simple Latin phrase.\n*   Line 10: I see \"I was surprised at Col. Jno's\", where \"Jno\" is an abbreviation for John.\n*   Line 11: Continuing, it reads \"resignation. I see that Prof G.\", now, the question is, who is \"Prof G.\"? Is it \"Prof. G.\" or \"Prof. CP\"? It's more likely \"Prof. G.\" and there is a name \"Gardner\" on the next line.\n*   Line 12: \"retires in June & Prof Gardner is\".\n*   Line 13: The letter continues, \"dead. This leaves three present\".\n*   Line 14: \"and prospective vacancies in your\".\n*   Line 15: \"faculty. I was told some days\"\n*   Line 16: \"ago that Prof Cole aspires to\"\n*   Line 17: \"the Presidency of the College - In that\"\n*   Line 18: \"event the English Chair w<sup>d</sup> be\". I'm making sure to notice that \"wd be\" looks like an abbreviation. It might mean \"would be\".\n*   Line 19: \"vacant. But for the Agricultural\"\n*   Line 20: \"department I think the Presidency\"\n*   Line 21: \"of the College is a desirable position\"\n*   Line 22: and the letter concludes, \"but it has never been clear to my\".\n\nNow I will begin to check it, word by word.\n\n*   **Location:** Corsicana Texas.\n*   **Date:** March 6<sup>th</sup> 1883.\n*   **Salutation:** My dear Professor:\n*   **Sentence 1:** Your thrice welcome letter was rec<sup>d</sup> some days ago.\n*   **Sentence 2:** Our monthly examinations were on \"hand\", an extra teacher to examine - besides I am almost sick again.\n*   **Sentence 3:** In confidence. In reply to your inquiry in relation to a certain applicant <sup>for a place</sup> in your College, I will say \"go slow\" - Verbum sat.\n*   **Sentence 4:** I was surprised at Col. Jno's resignation.\n*   **Sentence 5:** I see that Prof G. retires in June & Prof Gardner is dead.\n*   **Sentence 6:** This leaves three present & prospective vacancies in your faculty.\n*   **Sentence 7:** I was told some days ago that Prof Cole aspires to the Presidency of the College - In that event the English Chair w<sup>d</sup> be vacant.\n*   **Sentence 8:** But for the Agricultural department I think the Presidency of the College is a desirable position but it has never been clear to my...\n\nI need to make sure I format the transcription correctly.\n\n*   I'll use `<p>` for paragraphs.\n*   I'll use `<br>` for line breaks within the header.\n*   I will insert \"for a place\" in the sentence since it makes more sense.\n*   The \"th\" in \"6th\" will be superscript using `<sup>`.\n*   The \"d\" in \"recd\" is superscript, but the rule is just text.\n*   \"\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3753,
+      "width": 2353,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b8d2e48e-7280-3b1d-92a5-c2ff66bac088/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3753,
+                "width": 2353,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b8d2e48e-7280-3b1d-92a5-c2ff66bac088",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>mind as to what can be done with\nthe Agricultural feature of the\nCollege - not so with the mechanical -\nShould Cole be promoted to the\nPresidency, who is the \"Coming Man\"\nfor the Chair of English?\nOf course Ragsdale will be an\napplicant for various & sundry places.\nThe \"Alcalde\" is now a gentleman\nof elegant leisure & of course will\ntake the College under his wing\nat the approaching Commencement.\nProf. H. lectures at the Capital on\neducation. Makes a first class\nlobyist for a Railroad Commission -\nhad a resolution of thanks voted\nhim by the House & as he takes\nhis departure from the Capital\na News Correspondent fires a\nhasty shot into him - as a hungry\nR.R. harpy; but he appreciates his new\nhonors all the same & returns to\n\"Hold the Fort\" by dabbling in \"all\nthings to all men\"\n\"First the Blade, then the Ear\" &c</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**A Deep Dive into a Historical Document**\n\nAlright, let's get to work. I have a transcription task before me, a document that appears to be a handwritten letter from the late 19th or early 20th century. My expert eye is immediately drawn to the script. Cursive, naturally, and likely inked onto lined paper. The content hints at college affairs, specifically mentions individuals such as Cole, Ragsdale, and \"The Alcalde,\" and discusses politics and lobbying.\n\nThe initial analysis is crucial. I begin by breaking down each line. Line 1 requires a close examination, it looks like it could be read \"nina\" or \"nind\", but contextually \"mind\" seems most likely. It will take more checking of other letters to confirm. Moving forward, the agricultural department of the college will be discussed, in contrast to the mechanical, and then it is asked if Cole should be promoted to Presidency, as the \"Coming Man\", who is in quotes. Someone is sought for the Chair of English, and then Ragsdale is an applicant for various and sundry places. The “Alcalde” is a gentleman of elegant leisure. He will take the College under his wing at the approaching commencement. Prof. H. lectures at the Capital on education, and this makes him a first-class lobbyist for a Railroad Commission. A resolution of thanks was voted to him by the House. When he leaves the Capital, a News Correspondent fires a parting shot into him. He is called a hungry R.R. harpy, but he appreciates his new honors and returns to “Hold the Fort” by dabbling in \"all things to all men\". Then, \"First the Blade, then the Ear &c\"\n\nI have to maintain a meticulous line-by-line approach. \"mind\" seems correct. The dash in line 3 is essential. \"Cole\" checks out, as does \"Ragsdale\". The ampersand in line 8 is a plus-sign style. \"The 'Alcalde' is now a gentleman,\" I confirm. The word \"Commencement\" appears. “lobyist” is the spelling used in the text. I am taking a very close look at lines 19 and 20. The key will be to identify the word before \"shot.\" \"fires a ... shot\" calls for a sharp description, a parting remark, and a volley are common phrases. The first letter has an ascender, so an 'f' isn't likely. Looking at \"House\" and \"Blade\" helps. The word appears to be \"hasty\" or \"hot\". \"Hasty\" makes the most sense.\n\nI have to double-check that \"lobyist\" is correct. Then, I need to get back to the mysterious word. I'm torn between \"hot\" (which fits the phrase \"hot shot\") and \"hasty\". The tail suggests \"hasty\". It starts with a 'h'. There are no other \"h\" words that would fit.\n\nRe-checking \"hasty\" and \"hot\", I am convinced the correct word is \"hasty.\" Then, let's keep going.\n\nThe words \"dabbling\", \"lobyist\", and \"R.R.\" are correct. The word \"Commencement\" appears accurate.\n\nThe phrase \"hasty shot\" means a rapid, careless shot. The context makes sense.\n\nI just went through the document once more, I think that the transcription is perfect.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3753,
+      "width": 2353,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ec14352b-29c2-325f-9af2-7de04527bfb2/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3753,
+                "width": 2353,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ec14352b-29c2-325f-9af2-7de04527bfb2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"right\">3<br>\n[1883, March 6]</p>\n\n<p>“What fools these mortals be” - Perhaps<br>\nmany of us would find the road<br>\nto greatness, but “<i>Our Consciences</i><br>\ndo make <i>Cowards</i> of us all” -<br>\nSir William was mistaken in his<br>\n“all” - at least, did he live at this<br>\nday he would Amend his Answer -<br>\nas the lawyers have it.<br>\nI see in a late No. of the News<br>\nthat the Governor has sent to the<br>\nSenate the names of three gentlemen<br>\nfor Regents of University. Clark.<br>\nGarnett and <span style=\"text-decoration: underline;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Do you know<br>\nthe gentlemen? One of the Regents<br>\nCol. S. is a member of our Board<br>\nof Examiners - I called the Board<br>\ntogether last Saturday - but<br>\nno mention was made of the<br>\nUniversity - I have never men-<br>\ntioned the subject to him in<br>\nany way - nor do I think I shall -<br>\nSmith Ragsdale claims the honor?<br>\nof shaping the whole University policy<br>\nup to this time + to be frank, I<br>\nthink he ought to be tabooed by Texas<br>\nteachers.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Refinement**\n\nOkay, here's what I've got, breaking down this handwritten document.  I need a precise transcription, so I'm paying close attention to every detail.\n\nFirst, I'm noting the layout: There's some writing in the top right corner. A faint \"3\" at the top, and below that, in pencil, the date \"[1883, March 6]\". This suggests it might be a numbered page or document fragment.\n\nThe main body is the ink-written text. I've broken it down line by line to ensure accuracy. I see a familiar quote to start: \"What fools these mortals be\". Good, that looks clear. Following that:\n\n<p>\"What fools these mortals be\" - Perhaps<br>many of us would find the road<br>to greatness, but \"<i>Our Consciences</i><br>do make <i>Cowards</i> of us all\" -</p>\n\n\"<i>Our Consciences</i>\" and \"<i>Cowards</i>\" are underlined, which suggests they're being emphasized. I'm using `<i>` tags as underlines are not permitted.\n\n<p>Sir William was mistaken in his<br>\"all\" - at least, did he live at this<br>day he would Amend his Answer -<br>as the lawyers have it.<br>I see in a late No. of the News<br>that the Governor has sent to the<br>Senate the names of three gentlemen<br>for Regents of University. Clark,<br>Garnett and ________ Do you know<br>the gentlemen? One of the Regents<br>Col. S. is a member of our Board<br>of Examiners - I called the Board<br>together last Saturday - but<br>no mention was made of the<br>University - I have never men-<br>tioned the subject to him in<br>any way - nor do I think I shall -<br>Smith Ragsdale claims the honor?<br>of shaping the whole University policy<br>up to this time + to be frank, I<br>think he ought to be tabooed by Texas<br>teachers.</p>\n\nI'm paying close attention to the abbreviation \"No.\" for \"Number\". The \"News\" is likely a newspaper. The list of names for regents is interesting, and the blank is distinct. The 'S' in \"Col. S.\" is definitely an \"S,\" not a \"G\" or anything else. It's almost certainly referring to Col. Ashbel Smith. The reference to \"Smith Ragsdale\" adds another layer, possibly a Texas educator. The \"honor?\" at the end is unclear. The symbol \"+\" is definitely a plus sign. The word \"tabooed\" is spelled correctly.\n\nThe overall flow of the text seems sound. There are several interesting points here, including the mention of Shakespeare's quote, the references to the University, and the criticism of Ragsdale. Now, I need to format this for presentation, adding the top right details. I'll preserve line breaks and ensure emphasis is captured. I'll make sure to get this exactly right.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3753,
+      "width": 2353,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b9ef20e7-a07c-38af-be9b-85b711562e22/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3753,
+                "width": 2353,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b9ef20e7-a07c-38af-be9b-85b711562e22",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Gen. Lee lectures in our city tomorr-<br/>\nnight - Trust the weather will<br/>\npermit me to hear him.<br/>\nbesides, I have never seen a member<br/>\nof that grand historic family of<br/>\nour native South land.</p>\n\n<p>Our Schools are still increasing -<br/>\nUp to date 712 - Our buildings<br/>\nare large + comfortable - but are<br/>\ncrowded beyond comfort<br/>\n+ hence the work is not as<br/>\nefficient as it should be -<br/>\nWho is the occasional Correspondent<br/>\nNews from Waco?</p>\n\n<p>My friend Dr. Law, I see, returns<br/>\nto Bryan. Hope you will make<br/>\nthe acquaintance of Dr. F. T. Mitchell -<br/>\nMethodist Minister at Bryan -<br/>\nWhen at himself, he is the most graceful<br/>\nman in the pulpit I have seen<br/>\nin Texas. His a good preacher +<br/>\na good man - Hear him.<br/>\nLet me hear from you soon -</p>\n\n<p>Your friend<br/>\nJ. J. Hand</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My analysis of this transcription task begins with a meticulous assessment of the request. I need to act as a skilled transcriptionist, tasked with extracting the text from a handwritten image. I have to respect the original spelling and punctuation. The client gave me specific HTML tags, which I need to use to format the final output. There's no room for commentary, just raw transcription.**\n\n**The first step is a careful visual inspection of the image. The letter is in cursive handwriting. It looks like it could be from the late 19th century because of the slant and loops. There's a stain near the top and fold lines. This informs my reading and my expectations for what I might encounter in the text itself.**\n\n**Now, I proceed line by line. I have to ensure accuracy. The first line is straightforward. The second has a capitalized \"Trust.\" Then, it is \"permit me to hear him.\" I see that line four begins with a lowercase \"b.\" It is clearly \"besides.\" Next comes the description of a family. The second paragraph begins with a reference to schools and a number (712). The handwriting is not always clear, so I compare letters to ensure they are the same (\"Law\" vs. \"Lee\"). Later, there is a reference to \"crowded beyond comfort.\" The word \"efficient\" is tricky. Line 13 asks a question and there is a word crossed out. I need to make a judgment call here, as I cannot use any strikethrough tags. The \"of the\" looks heavily crossed out. Then, there is a reference to a Dr. Law. The \"L\" matches \"Lee\" in the first line. The next part mentions \"F. T. Mitchell,\" the \"T\" I am confident on. Then the writer describes the man. I will check all \"T\"s and \"S\"s for the initial comparison. Then there are some notes on the pulpit. The word \"His\" is repeated in the transcription. Finally, there's a signature, J. J. Hand.**\n\n**I am thinking about spelling mistakes, as they're common in older texts. I consider each word. The final step is to format the transcription using the given HTML tags. I have to think about how to represent the line breaks and paragraph breaks. I will review the final product. I make a few minor adjustments, ensuring the formatting is clean, and the transcription reflects the original text accurately. I have triple-checked to ensure that the transcription is complete and true to the source.**\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/43/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

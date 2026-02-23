@@ -1,210 +1,263 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-144.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from R. H. Whitlock, July 7, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-07-07"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from R. H. Whitlock, July 7, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/dcc7baf9-8235-3320-9683-19abdbc24568/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4326,
-            "width": 3103,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/218",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/217",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/dcc7baf9-8235-3320-9683-19abdbc24568/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4326,
-                                "width": 3103,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/dcc7baf9-8235-3320-9683-19abdbc24568",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/224",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/223",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br>\nMcINTYRE & WARDWELL,<br>\nCOMMISSION MERCHANTS,<br>\n<small>NEW YORK PRODUCE EXCHANGE,<br>\nRooms 211 and 212.<br>\nP. O. Box 1439.</small></p>\n\n<p>NEW YORK, July 7 1886</p>\n\n<p>Dear McInnis,<br>\nWe \"arrove\" safely in<br>\nthe glorious country of New York and<br>\nvicinity last Wednesday night via Albany<br>\nDay Boat. We stopped at Cleveland,<br>\nDunkirk and Niagara Falls and then<br>\nmade connections with the boat.<br>\nWe met a few rainy days in Dunkirk<br>\nbut all the other weather was very<br>\npleasant. Smith seems to be enjoy-<br>\ning his trip so far and I guess he<br>\nwill continue so to do. Heard from<br>\nCurtis yesterday and from all accounts<br>\nhe is enjoying himself. Mother and<br>\nEdith both stood the home trip very<br>\nwell indeed and enjoyed the stops<br>\nto the full extent. The only news<br>\nI have from the College is a letter<br>\nfrom Josie dated June 29th. which con-<br>\ntains the alarming statement<br>\nthat Tom is still breaking the<br>\nmowing machine, which same S</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/225",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process and Final Output**\n\nOkay, here's how I'm thinking about this transcription task. First, I need to understand the request: I'm a transcriptionist, the task is to transcribe a handwritten letter on letterhead, and the goal is high accuracy, preserving the original formatting and layout, interpreting the handwriting, and applying specific HTML tags where appropriate. There are also specific guidelines.\n\nFirst, I start by analyzing the image. I\u2019m meticulously breaking down the visual elements, starting with the printed letterhead: \"McINTYRE & WARDWELL\", \"COMMISSION MERCHANTS\", \"NEW YORK PRODUCE EXCHANGE\", \"Rooms 211 and 212\", and \"P. O. Box 1439.\" Then, the date line: \"NEW YORK\" (printed), followed by a handwritten \"July 7\", then a printed \"188\", and finally a handwritten digit which looks like a '6'. I'm double-checking, considering if it could be an '8' or even a scribble, but the context and the loop-shaped stroke suggest a \"6\", making the date \"July 7 1886\" most likely. Next, the salutation \"Dear McInnis\". The body begins, \"We 'arrove' safely in...\". I notice the use of quotes around \"arrove,\" indicating a likely colloquialism or joke on the word \"arrived\". The text flows, describing a trip through New York and vicinity, including stops at Cleveland, Dunkirk, and Niagara Falls. It mentions pleasant weather, Smith enjoying his trip, and news from Curtis, Mother, Edith, and Josie, concluding with the alarming statement about Tom and the mowing machine. The last line is cut off.\n\nI\u2019m now refining the handwriting interpretation. The date is \"July 7 1886\". The recipient is \"McInnis\". I check words like \"arrove,\" \"vicinity,\" \"Albany,\" \"Day Boat,\" \"Dunkirk,\" \"Niagara Falls,\" \"Smith,\" \"Curtis,\" \"Edith,\" \"Josie,\" \"June 29th,\" and \"Tom\", confirming they are clearly written. The last part of the sentence is \"mowing machine, which same I\". I need to carefully analyze the last character. It looks like a cursive 'S' (similar to the 'S' in \"Smith\"), even though the idiomatic phrasing \"which same I\" would make sense grammatically. I meticulously consider whether the character is a slightly unusual 'I', or another letter entirely. The shape strongly resembles the 'S' in \"Smith\", so I am inclined to transcribe \"which same S,\" though the meaning is incomplete. I have looked at all the letters \"S\" and have decided \"S\" is the right interpretation.\n\nNow, I'm focusing on the formatting. I'll use `<p>` for blocks and `<br>` for line breaks, adhering to the \"Preserve... line breaks\" instruction. And the guidelines say \"Label structural elements like [Header],...\" so I will label [Header] and other elements. \"Use a for linking\", which will not be used here. I'll keep the formatting of the header, the body, and the spacing. The header, with its smaller font, will be wrapped in `<small>`.\n\nFinally, after several checks and corrections, I build the HTML, double-checking the accuracy of all the transcriptions.\nI will ignore the faint orange background text since the image is cross-written and the directions state to transcribe what can be seen in the image. I have also decided not to transcribe in italics or use span class etc.\n\nHere is the final HTML transcription:\n\n```html\n<p>[Header]<br>\nMcINTYRE & WARDWELL,<br>\nCOMMISSION MERCHANTS,<br>\n<small>NEW YORK PRODUCE EXCHANGE,<br>\nRooms 211 and 212.<br>\nP. O. Box 1439.</small></p>\n\n<p>NEW YORK, July 7 1886</p>\n\n<p>Dear McInnis,<br>\nWe \"arrove\" safely in<br>\nthe glorious country of New York and<br>\nvicinity last Wednesday night via Albany<br>\nDay Boat. We stopped at Cleveland,<br>\nDunkirk and Niagara Falls and then<br>\nmade connections with the boat.<br>\nWe met a few rainy days in Dunkirk<br>\nbut all the other weather was very<br>\npleasant. Smith seems to be enjoy-<br>\ning his trip so far and I guess he<br>\nwill continue so to do. Heard from<br>\nCurtis yesterday and from all accounts<br>\nhe is enjoying himself. Mother and<\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4326,
-            "width": 3103,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/220",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/219",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/89249a33-360e-3599-a2b2-4b8d97d42b9a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4326,
-                                "width": 3103,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/89249a33-360e-3599-a2b2-4b8d97d42b9a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/227",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/226",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\n[Margin: [1886, July 7]]\n</p>\n\n<p>\nMcINTYRE & WARDWELL.<br/>\nCOMMISSION MERCHANTS,<br/>\nNEW YORK PRODUCE EXCHANGE,<br/>\n<small>Rooms 211 and 212.</small><br/>\n<small>P. O. Box 1439.</small>\n</p>\n\n<p>\nNEW YORK, 2 188\n</p>\n\n<p>\ncould have easily prophesied. The<br/>\nLieutenants cards reached me in<br/>\nDunkirk and were welcomed even<br/>\nthough they were expected. Warm<br/>\nweather here, how is it with you?<br/>\nPlease be sure and let me know<br/>\nwhen the Board meets, and who goes<br/>\nin for the chair of Agriculture. How<br/>\ndid the Austin Educational Fair pan<br/>\nout? Or don't you know? Have not<br/>\nseen Van Winkle yet, though I have<br/>\ncalled three times at his place. He<br/>\nmust be busy now. Give my re<br/>\ngards to all and Mother's too, even<br/>\nif she don't know I am writing.<br/>\nWe are all well. Hope you are the<br/>\nsame.\n</p>\n\n<p>\nYours truly<br/>\nR.H. Whitlock\n</p>\n\n<p>\nFor Prof. L.L. McInnis,<br/>\nForest,<br/>\nMiss\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/228",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription Process for the Handwritten Letter**\n\nAlright, let's break this down. My primary goal is a faithful transcription, not interpretation.  I'm presented with an image of a handwritten letter and need to translate it into HTML. I'm operating under specific constraints: preserving the original structure, including any apparent formatting, using HTML tags as instructed, maintaining accuracy in spelling and punctuation, and noting any ambiguities with the `[?]` tag. No commentary allowed, just the transcription.\n\nFirst, I examine the image itself. I note the letterhead: *McINTYRE & WARDWELL, COMMISSION MERCHANTS, NEW YORK PRODUCE EXCHANGE, Rooms 211 and 212. P. O. Box 1439.* Then the handwritten elements. There's a date or page number at the top. It looks like \"2 188\" on the date line, but after examining the text, it appears to be page 2 of a letter. There is also a pencil written note \"[1886, July 7]\" near the top, which I will incorporate separately from the printed header.\n\nNext, I meticulously transcribe the body text, line by line: *could have easily prophesied. The Lieutenants cards reached me in Dunkirk and were welcomed even though they were expected. Warm weather here, how is it with you? Please be sure and let me know when the Board meets, and who goes in for the chair of Agriculture. How did the Austin Educational Fair pan out? Or don't you know? Have not seen Van Winkle yet, though I have called three times at his place. He must be busy now. Give my regards to all and Mother's too, even if she don't know I am writing. We are all well. Hope you are the same.* I see a signature at the bottom: *Yours truly R.H. Whitlock*. And an addressee block: *For Prof. L.L. McInnis, Forest, Miss.*\n\nI'm meticulously checking the spelling, punctuation, capitalization, and even line breaks.  There's no room for assumptions. \"Lieutenants\" has a slight possibility of being \"Lieutenant's\", I must be careful about that.  \"Mother's\" is clear, the apostrophe is distinct.\n\nNow, the HTML formatting.  The letterhead gets `<p>` tags and `<br>` for line breaks, `<small>` for the smaller P.O. Box. The handwritten \"2\" for page 2 gets `<p>` tags. The body text is transcribed in `<p>` tags, preserving line breaks.  I am careful about spelling, particularly with names like \"Van Winkle,\" \"McInnis\", and \"Whitlock\".\n\nI carefully re-examine to see if there are any errors or assumptions in the transcription. \"Lieutenants\" is what's on the page. The pencil addition will go at the top right of the transcription as instructed.\n\nI am re-examining the document for a final polish. Everything looks ready.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-144.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from R. H. Whitlock, July 7, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-07-07"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from R. H. Whitlock, July 7, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Business correspondence",
+          "Travel--United States--19th century",
+          "Commission merchants",
+          "Educational institutions",
+          "Agricultural education"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Whitlock, R. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "McIntyre & Wardwell (Firm)",
+          "Smith",
+          "Curtis",
+          "Josie",
+          "Tom",
+          "Van Winkle",
+          "Whitlock, Mother",
+          "Whitlock, Edith"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from R. H. Whitlock to Professor Louis L. McInnis, dated July 7, 1886, describing Whitlock's recent travel from an unspecified location to New York via Albany and stops in Cleveland, Dunkirk, and Niagara Falls. The letter includes commentary on traveling companions' experiences, inquiries about College news and upcoming Board meetings regarding the chair of Agriculture, and details about an educational fair and local acquaintances in Mississippi. The correspondence provides insight into late 19th-century academic and business life, with Whitlock writing from the offices of McIntyre & Wardwell, Commission Merchants."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/dcc7baf9-8235-3320-9683-19abdbc24568/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4326,
+      "width": 3103,
+      "items": [
+        {
+          "id": "http://example.org/iiif/218",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/217",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/dcc7baf9-8235-3320-9683-19abdbc24568/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4326,
+                "width": 3103,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/dcc7baf9-8235-3320-9683-19abdbc24568",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/224",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/223",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br>\nMcINTYRE & WARDWELL,<br>\nCOMMISSION MERCHANTS,<br>\n<small>NEW YORK PRODUCE EXCHANGE,<br>\nRooms 211 and 212.<br>\nP. O. Box 1439.</small></p>\n\n<p>NEW YORK, July 7 1886</p>\n\n<p>Dear McInnis,<br>\nWe \"arrove\" safely in<br>\nthe glorious country of New York and<br>\nvicinity last Wednesday night via Albany<br>\nDay Boat. We stopped at Cleveland,<br>\nDunkirk and Niagara Falls and then<br>\nmade connections with the boat.<br>\nWe met a few rainy days in Dunkirk<br>\nbut all the other weather was very<br>\npleasant. Smith seems to be enjoy-<br>\ning his trip so far and I guess he<br>\nwill continue so to do. Heard from<br>\nCurtis yesterday and from all accounts<br>\nhe is enjoying himself. Mother and<br>\nEdith both stood the home trip very<br>\nwell indeed and enjoyed the stops<br>\nto the full extent. The only news<br>\nI have from the College is a letter<br>\nfrom Josie dated June 29th. which con-<br>\ntains the alarming statement<br>\nthat Tom is still breaking the<br>\nmowing machine, which same S</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/225",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process and Final Output**\n\nOkay, here's how I'm thinking about this transcription task. First, I need to understand the request: I'm a transcriptionist, the task is to transcribe a handwritten letter on letterhead, and the goal is high accuracy, preserving the original formatting and layout, interpreting the handwriting, and applying specific HTML tags where appropriate. There are also specific guidelines.\n\nFirst, I start by analyzing the image. I’m meticulously breaking down the visual elements, starting with the printed letterhead: \"McINTYRE & WARDWELL\", \"COMMISSION MERCHANTS\", \"NEW YORK PRODUCE EXCHANGE\", \"Rooms 211 and 212\", and \"P. O. Box 1439.\" Then, the date line: \"NEW YORK\" (printed), followed by a handwritten \"July 7\", then a printed \"188\", and finally a handwritten digit which looks like a '6'. I'm double-checking, considering if it could be an '8' or even a scribble, but the context and the loop-shaped stroke suggest a \"6\", making the date \"July 7 1886\" most likely. Next, the salutation \"Dear McInnis\". The body begins, \"We 'arrove' safely in...\". I notice the use of quotes around \"arrove,\" indicating a likely colloquialism or joke on the word \"arrived\". The text flows, describing a trip through New York and vicinity, including stops at Cleveland, Dunkirk, and Niagara Falls. It mentions pleasant weather, Smith enjoying his trip, and news from Curtis, Mother, Edith, and Josie, concluding with the alarming statement about Tom and the mowing machine. The last line is cut off.\n\nI’m now refining the handwriting interpretation. The date is \"July 7 1886\". The recipient is \"McInnis\". I check words like \"arrove,\" \"vicinity,\" \"Albany,\" \"Day Boat,\" \"Dunkirk,\" \"Niagara Falls,\" \"Smith,\" \"Curtis,\" \"Edith,\" \"Josie,\" \"June 29th,\" and \"Tom\", confirming they are clearly written. The last part of the sentence is \"mowing machine, which same I\". I need to carefully analyze the last character. It looks like a cursive 'S' (similar to the 'S' in \"Smith\"), even though the idiomatic phrasing \"which same I\" would make sense grammatically. I meticulously consider whether the character is a slightly unusual 'I', or another letter entirely. The shape strongly resembles the 'S' in \"Smith\", so I am inclined to transcribe \"which same S,\" though the meaning is incomplete. I have looked at all the letters \"S\" and have decided \"S\" is the right interpretation.\n\nNow, I'm focusing on the formatting. I'll use `<p>` for blocks and `<br>` for line breaks, adhering to the \"Preserve... line breaks\" instruction. And the guidelines say \"Label structural elements like [Header],...\" so I will label [Header] and other elements. \"Use a for linking\", which will not be used here. I'll keep the formatting of the header, the body, and the spacing. The header, with its smaller font, will be wrapped in `<small>`.\n\nFinally, after several checks and corrections, I build the HTML, double-checking the accuracy of all the transcriptions.\nI will ignore the faint orange background text since the image is cross-written and the directions state to transcribe what can be seen in the image. I have also decided not to transcribe in italics or use span class etc.\n\nHere is the final HTML transcription:\n\n```html\n<p>[Header]<br>\nMcINTYRE & WARDWELL,<br>\nCOMMISSION MERCHANTS,<br>\n<small>NEW YORK PRODUCE EXCHANGE,<br>\nRooms 211 and 212.<br>\nP. O. Box 1439.</small></p>\n\n<p>NEW YORK, July 7 1886</p>\n\n<p>Dear McInnis,<br>\nWe \"arrove\" safely in<br>\nthe glorious country of New York and<br>\nvicinity last Wednesday night via Albany<br>\nDay Boat. We stopped at Cleveland,<br>\nDunkirk and Niagara Falls and then<br>\nmade connections with the boat.<br>\nWe met a few rainy days in Dunkirk<br>\nbut all the other weather was very<br>\npleasant. Smith seems to be enjoy-<br>\ning his trip so far and I guess he<br>\nwill continue so to do. Heard from<br>\nCurtis yesterday and from all accounts<br>\nhe is enjoying himself. Mother and<\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4326,
+      "width": 3103,
+      "items": [
+        {
+          "id": "http://example.org/iiif/220",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/219",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/89249a33-360e-3599-a2b2-4b8d97d42b9a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4326,
+                "width": 3103,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/89249a33-360e-3599-a2b2-4b8d97d42b9a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/227",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/226",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\n[Margin: [1886, July 7]]\n</p>\n\n<p>\nMcINTYRE & WARDWELL.<br/>\nCOMMISSION MERCHANTS,<br/>\nNEW YORK PRODUCE EXCHANGE,<br/>\n<small>Rooms 211 and 212.</small><br/>\n<small>P. O. Box 1439.</small>\n</p>\n\n<p>\nNEW YORK, 2 188\n</p>\n\n<p>\ncould have easily prophesied. The<br/>\nLieutenants cards reached me in<br/>\nDunkirk and were welcomed even<br/>\nthough they were expected. Warm<br/>\nweather here, how is it with you?<br/>\nPlease be sure and let me know<br/>\nwhen the Board meets, and who goes<br/>\nin for the chair of Agriculture. How<br/>\ndid the Austin Educational Fair pan<br/>\nout? Or don't you know? Have not<br/>\nseen Van Winkle yet, though I have<br/>\ncalled three times at his place. He<br/>\nmust be busy now. Give my re<br/>\ngards to all and Mother's too, even<br/>\nif she don't know I am writing.<br/>\nWe are all well. Hope you are the<br/>\nsame.\n</p>\n\n<p>\nYours truly<br/>\nR.H. Whitlock\n</p>\n\n<p>\nFor Prof. L.L. McInnis,<br/>\nForest,<br/>\nMiss\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/228",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription Process for the Handwritten Letter**\n\nAlright, let's break this down. My primary goal is a faithful transcription, not interpretation.  I'm presented with an image of a handwritten letter and need to translate it into HTML. I'm operating under specific constraints: preserving the original structure, including any apparent formatting, using HTML tags as instructed, maintaining accuracy in spelling and punctuation, and noting any ambiguities with the `[?]` tag. No commentary allowed, just the transcription.\n\nFirst, I examine the image itself. I note the letterhead: *McINTYRE & WARDWELL, COMMISSION MERCHANTS, NEW YORK PRODUCE EXCHANGE, Rooms 211 and 212. P. O. Box 1439.* Then the handwritten elements. There's a date or page number at the top. It looks like \"2 188\" on the date line, but after examining the text, it appears to be page 2 of a letter. There is also a pencil written note \"[1886, July 7]\" near the top, which I will incorporate separately from the printed header.\n\nNext, I meticulously transcribe the body text, line by line: *could have easily prophesied. The Lieutenants cards reached me in Dunkirk and were welcomed even though they were expected. Warm weather here, how is it with you? Please be sure and let me know when the Board meets, and who goes in for the chair of Agriculture. How did the Austin Educational Fair pan out? Or don't you know? Have not seen Van Winkle yet, though I have called three times at his place. He must be busy now. Give my regards to all and Mother's too, even if she don't know I am writing. We are all well. Hope you are the same.* I see a signature at the bottom: *Yours truly R.H. Whitlock*. And an addressee block: *For Prof. L.L. McInnis, Forest, Miss.*\n\nI'm meticulously checking the spelling, punctuation, capitalization, and even line breaks.  There's no room for assumptions. \"Lieutenants\" has a slight possibility of being \"Lieutenant's\", I must be careful about that.  \"Mother's\" is clear, the apostrophe is distinct.\n\nNow, the HTML formatting.  The letterhead gets `<p>` tags and `<br>` for line breaks, `<small>` for the smaller P.O. Box. The handwritten \"2\" for page 2 gets `<p>` tags. The body text is transcribed in `<p>` tags, preserving line breaks.  I am careful about spelling, particularly with names like \"Van Winkle,\" \"McInnis\", and \"Whitlock\".\n\nI carefully re-examine to see if there are any errors or assumptions in the transcription. \"Lieutenants\" is what's on the page. The pencil addition will go at the top right of the transcription as instructed.\n\nI am re-examining the document for a final polish. Everything looks ready.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/144/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

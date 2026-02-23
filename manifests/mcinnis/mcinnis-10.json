@@ -1,364 +1,413 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-10.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from James Garrison, October 7, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-10-07"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from James Garrison, October 7, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ec5de8d5-800c-36bd-b9fc-98d2a9fb8be4/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3331,
-            "width": 2161,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ec5de8d5-800c-36bd-b9fc-98d2a9fb8be4/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3331,
-                                "width": 2161,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ec5de8d5-800c-36bd-b9fc-98d2a9fb8be4",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br>\n<small>OFFICE OF</small><br>\n<b>James G. Harrison,</b><br>\n<small>Attorney at Law,</small></p>\n\n<p>Henderson, Tex<br>\nOct. 7, 1881.</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas,</p>\n\n<p>My dear Sir:-<br>\nThe bearer<br>\nof this letter is my<br>\nbrother, Henry D. Gar-<br>\nrison, who comes to<br>\nyou as a student of<br>\nthe A. & M. College.<br>\nI hope he will prove<br>\nhimself worthy of the<br>\nesteem and confidence<br>\nof his professors.<br>\nI commend him</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's my analysis of the document.** I see a handwritten letter with a printed header. My focus is on making an accurate transcription, so I'll be careful with the details.\n\nFirst, the header: I can make out \"OFFICE OF\", \"James G. Harrison,\", and \"Attorney at Law,\". The letter itself is addressed from Henderson, Texas, dated October 7, 1881. It's addressed to \"Prof. L. L. McInnis,\" at \"College Station, Texas.\" It's clear and the handwriting is legible, aside from the 'g' in \"College\" which is written with a loose loop.\n\nThe main part starts with \"My dear Sir:-\". The writer is recommending his brother, Henry D. Garrison, who is going to be a student at the A. & M. College. The writer hopes that Henry will earn the respect of his professors. I can see the handwriting clearly, and it's a standard letter format.\n\nNow for a detailed check. \"Henderson, Tex\" - The 'Tex' is abbreviated, but clear. \"Prof. L. L. McInnis\" - The last name looks like \"McInnis\", and given the context I'm sure it's correct. \"College Station\" - \"College\" has a loose 'g' that looks like a 'y'. \"My dear Sir:-\" is a standard salutation. \"Henry D. Garrison\" - This is where it gets interesting. The initial looks like a 'D' and the name *looks* like \"Garrison,\" but the printed name at the top is \"Harrison\". It's a key point and I'll need to remember it, but I'll transcribe as written. It could be an error or perhaps they have different last names.\n\nI'll transcribe, paying close attention to the line breaks. In HTML I'll use paragraph tags `<p>` and the line break `<br>` elements as requested, and I'll distinguish the header elements.\n\n```html\n<p>[Header]<br>\n<small>OFFICE OF</small><br>\n<b>James G. Harrison,</b><br>\n<small>Attorney at Law,</small></p>\n\n<p>Henderson, Tex<br>\nOct. 7, 1881.</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas,</p>\n\n<p>My dear Sir:-<br>\nThe bearer<br>\nof this letter is my<br>\nbrother, Henry D. Gar-<br>\nrison, who comes to<br>\nyou as a student of<br>\nthe A. & M. College.<br>\nI hope he will prove<br>\nhimself worthy of the<br>\nesteem and confidence<br>\nof his professors.<br>\nI commend him</p>\n```\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3331,
-            "width": 2161,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7ad38241-2010-3c75-938c-7613cbf030f1/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3331,
-                                "width": 2161,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7ad38241-2010-3c75-938c-7613cbf030f1",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br/>\n[1881, Oct. 7]<br/>\n<small>OFFICE OF</small><br/>\n<b>James G. Garrison,</b><br/>\n<small><b>Attorney at Law,</b></small></p>\n\n<p>2,</p>\n\n<p>to your kindness, and<br/>\nexpress the wish that<br/>\nyou will make him<br/>\n\"toe the mark\" in your<br/>\ndepartment. Since he<br/>\nwill apply for the<br/>\ndegree of \"Civil En-<br/>\ngineer\" he will make<br/>\nMathematics a specialty<br/>\nI will be glad if you<br/>\nwill make such sug-<br/>\ngestions as you deem<br/>\nnecessary touching<br/>\nthe course of his<br/>\nstudy with reference<br/>\nto his applying for<br/>\nthe degree suggested.<br/>\nI want him to</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Transcription Process**\n\nOkay, here's what I've worked through: I need to produce a transcription of this image, and I need to be exact. Let's start with a systematic approach. First, I'll analyze the image visually, breaking it down into its constituent elements. There's a header in the top right, a printed letterhead, and a handwritten body of text. I have to read the writing and try and reproduce it.\n\nThe header includes the date, \"[1881, Oct. 7]\", right. Then there's the printed letterhead, \"OFFICE OF James G. Garrison, Attorney at Law,\". The page number \"2,\" is written in ink below it. I'll make notes about the script style - it's cursive, typical of the late 19th century. The fact that the text starts mid-sentence suggests this is page two, which explains the \"2,\".\n\nThe core of the task is the body text. Let's make sure I get this absolutely right. The text reads: \"to your kindness, and express the wish that you will make him \"toe the mark\" in your department. Since he will apply for the degree of \"Civil En- gineer\" he will make Mathematics a specialty I will be glad if you will make such sug- gestions as you deem necessary touching the course of his study with reference to his applying for the degree suggested. I want him to...\"\n\nNow for the *transcription draft*. I'll transcribe exactly what I see, paying close attention to any peculiarities.\n\nFirst, I need to look at each line and capture it. The header is important, so let's get the transcription ready.\n\nI'll then double-check formatting to make sure things like reading order are correct, and I'm preserving the spelling. \"toe the mark\" has quotation marks, \"Civil Engineer\" is two words, and \"Mathematics\" is a proper noun, so capitals. Let's examine the word \"mark\". It could read \"mart\" but context indicates \"mark\". The words look clear enough. The 'y' loops down in \"specialty\".\n\nLet's carefully examine the handwriting. \"and\" is a bit scrawled. \"mark\" could look like \"mart\" or \"mork\" but is context-dependent. I'll stick with \"mark\". \"specialty\" is underlined. I'll need to figure out how to represent that, probably with emphasis. \"touching\" is fine. \"necessary\" looks good. \"applying\" is fine.\n\nNow, let's create the HTML structure, and make sure that it's all in the correct order. I'll keep the line breaks, and add the date, the page number, and the various bits of formatted text. I'll make sure to get the header as the first bit of text. I'll also add in the page number, the handwritten \"2,\". The \"Attorney at Law\" is usually smaller and/or bold. The printed text \"OFFICE OF\" is small caps, and \"James G. Garrison\" is in a Blackletter font. \"Attorney at Law\" looks like small caps or a sans-serif font. I'll try and create a reasonable approximation for the formatting.\n\nSince the instructions say to include the *date* as the first line of the transcription, I'll do that. The date is a pencil notation, likely archival. I'll make sure to note that in the HTML. I'll include the \"2,\" which is handwritten.\n\nI want to look over everything one last time, with the final details. Is the handwriting clear? Do I need to make any changes? Are all of the tags I use allowed? Now I will check to see if the handwriting is accurate. Yes, \"necessary\" has the long 's' or cursive 's' style. \"touching\" is correct. \"applying\" is correct. \"suggested\" is correct. The underlining of \"specialty\" is a stylistic flourish, so I won't represent that directly, and just leave the text.\n\nAfter reviewing everything, I'm confident in this final version.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3331,
-            "width": 2161,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/0fb13af2-1eca-3564-b024-6d43a63103f3/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3331,
-                                "width": 2161,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0fb13af2-1eca-3564-b024-6d43a63103f3",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Margin: [1881, Oct. 7]]\n\n[Header]\n<p><small>OFFICE OF</small><br>\n<b>James G. Harrison,</b><br>\nAttorney at Law,</p>\n\n<p>3.</p>\n\n<p>remain with you for\nfour years. I am\nvery solicitous about\nhis education. Any\nencouragement you\nmay be kind enough\nto give him will\nbe duly appreciated\nby him and by your\nhumble servant.\nPlease watch him\nclosely and report\nto me any of his\ncollegiate obliquities.\nI stand in <i>loco</i>\n<i>parentis</i> to him.\nI am gratified\nat hearing of good</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Thought Process:**\n\nOkay, I'm tasked with transcribing this handwritten letter and it's time to dive in. First, I'll analyze the image to get a sense of the layout. Right away, I see the date in the top right corner and a printed letterhead with an \"OFFICE OF\" and the name \"James G. Harrison, Attorney at Law.\"  There's also a page number, \"3.\", which probably means this is a continuation of a longer document.\n\nI need to transcribe the body text which looks to be cursive. I'll read through the handwriting, line by line, to get a first pass transcription, focusing on identifying each word accurately. I will address anything ambiguous, like the word at the end of line 3.\n\nThe handwriting looks pretty neat. Then I'll zoom in on any tricky spots, looking particularly closely at any potentially crossed-out words.  Ah, here it is: the word at the end of line three is the key. There appears to be a strikethrough. It looks like \"Any\", but there's a line drawn through it. Does that mean it was deleted? Is it just a dash? It seems to be a purposeful mark.  I'll compare the \"A\" in the image with other \"A\"s to confirm the word.\n\nOkay, I need to decide what to do with that \"Any\". It looks like \"Any\" with a clear line through it.  I'll review the sentence and decide if it makes sense with \"Any\" or without it. Hmm, the sentence flows better with \"Any\".  But the instructions say \"transcribe all text.\"\n\nI'll check if the strikethrough is just a casual mark or if it's a deliberate cancellation. The line looks straight and intentional, but it goes through the word.  It really looks like it was written, then the writer changed their mind.\n\nWhat to do...  I'll look again at the transcription task. It says \"Transcribe all text from the attached image\" and \"Interpret handwritten text as accurately as possible.\" It doesn't tell me what to do with deletions. Often, we would put [deleted: Any] but that's a tag I can't use here. And if I exclude it, it disrupts the flow of the sentence. I'll transcribe \"Any\" but note the line through the word. That seems like the most faithful approach, balancing accuracy with interpretation. I'm going to lean towards \"Any\".\n\nThen I need to consider the Latin phrases \"loco parentis\". It's underlined. The instructions don't explicitly say to mark the style, only that I'm allowed to include markup to represent the format. I can use *i* for italics (or just plain text). I'll use *i* as it's the standard for underlining.\n\nNow I need to refine everything. I will note the font of the letterhead text. Is it small caps? No. Maybe bold? I will double-check that the line breaks make sense. I'll make sure to get all the punctuation right.  Double-checking details, like the periods at the end of sentences and whether there are any other ambiguous marks. The word \"obliquities\" seems difficult at first, but it's clear.\n\nI'll also go back and triple-check the \"Any\" situation, just to be completely certain. It really looks deleted, but without it, the sentence doesn't flow correctly. I think I'll still include the word \"Any\", given the instructions. I'm noting that the date is marginalia (pencil).\n\nOkay, the structure.  I will tag the components - the date, the header, the body.  I can use `<p>` for paragraphs. I can't use an alignment attribute. I can use `<b>` for boldface in the header.\n\nOne last look at the word \"obliquities\".  It's \"o b l i q u i t i e s\". Definitely \"obliquities.\" And \"collegial obliquities\" is interesting. I will check the entire text again to make sure that everything looks right. Okay, it looks good. Ready.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3331,
-            "width": 2161,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/cd27f75b-a641-34ba-bc4d-19f06aa7bd78/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3331,
-                                "width": 2161,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/cd27f75b-a641-34ba-bc4d-19f06aa7bd78",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><small>OFFICE OF</small><br>\n<b>James G. Garrison,</b><br>\n<small><b>Attorney at Law,</b></small></p>\n\n<p>[1881, Oct. 7]<br>\n4,</p>\n\n<p>reports from the<br>\ncollege. <u>Merit</u> <u>will</u><br>\n<u>win</u>.<br>\nPresent my sin-<br>\ncerest homage to<br>\nProf. Georgeson, and<br>\nassure him of my<br>\nfriendly regard.<br>\nI hope you had<br>\na pleasant vacation.<br>\nBe kind enough to<br>\naccept assurances of<br>\nthe personal regard<br>\nof<br>\nYour friend<br>\nJas. G. Garrison,<br>\n\"</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe a handwritten letter, but there's a lot going on with this image. First, I see a letterhead: \"OFFICE OF,\" \"James G. Garrison,\" (in that old-school font), and \"Attorney at Law.\" There's a pencil date in the top right, \"[1881, Oct. 7],\" which immediately suggests this is an archival piece. Now, here's where it gets interesting\u2014and a little tricky. There's this incredibly faint text in the background, like ink bleeding through from the other side. This is going to require some careful examination.\n\nAt first, I thought it was just faint writing on the back, but looking closely, it's more like ghosting or offset. It\u2019s legible enough to make out some words, but it is definitely *under* the darker ink. My instructions are to \"transcribe all text\". This faint text could be the content of the letter, but this secondary text is clearly what the letter on the page is about. I also see a number \"4\" in the top right, in the same ink as the darker text. This establishes this page as the fourth page of a multi-page letter.\n\nI am going to focus my transcription on the clear, primary text. This is the main layer. The faint text seems to be ghosting and I will assume it is an artifact of storage in a folder or letter book, and that it is not intended to be on this page. It is likely a copy of a previous page pressed against this page. It's difficult to read and interferes with the dark text, so ignoring it will deliver a more accurate transcription.\n\nSo, let's dive into the dark ink. I can see what looks like \"reports from the / college. Merit will / win.\" There\u2019s a note to \u201cProf. Georgeson\u201d and mention of a vacation. It's a fairly standard letter, with a closing and signature. I'll need to pay close attention to the handwriting to capture any nuances\u2014like that word \"Merit,\" which is underlined. Also, there is a small flourish or mark underneath the signature that I will identify, but not consider essential.\n\nI will create a structured transcription: first the header, then the date/page number, then the body of the letter. I need to keep the line breaks to preserve the formatting of the original letter.\n\nNow, about that faint text. It reads something like \"the A. & M. College. I hope he will prove worthy of the trust and confidence of his professors. I commend...\" My archival experience tells me this is likely the ink transfer of another page. I am not seeing it reversed, so this is unlikely the back of the paper. It is likely another page, possibly the first, pressed up against this one. The fact that the darker text is written over this faint text confirms that the faint text is not the main text. I will leave this as ghosting.\n\nGiven that I have to transcribe all the text, I'm going to assume the \"intentional\" text is the darker ink. The faint ghosting interferes. It is not the *intended* text to be read on this page. Standard practice for these collections is to transcribe the primary layer.\n\nMy strategy: Transcribe the header, date, and page number, followed by the text in the main ink.\n\nThe final transcription:\n\n<p><small>OFFICE OF</small><br>\n<b>James G. Garrison,</b><br>\n<small><b>Attorney at Law,</b></small></p>\n\n<p>[1881, Oct. 7]<br>\n4,</p>\n\n<p>reports from the<br>\ncollege. <u>Merit</u> <u>will</u><br>\n<u>win</u>.<br>\nPresent my sin-<br>\ncerest homage to<br>\nProf. Georgeson, and<br>\nassure him of my<br>\nfriendly regard.<br>\nI hope you had<br>\na pleasant vacation.<br>\nBe kind enough to<br>\naccept assurances of<br>\nthe personal regard<br>\nof<br>\nYour friend<br>\nJas. G. Garrison,<br>\n\"</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-10.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from James Garrison, October 7, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-10-07"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from James Garrison, October 7, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letters",
+          "Academic correspondence",
+          "Agricultural and Mechanical College of Texas--Students",
+          "Civil engineering--Study and teaching",
+          "Mathematics--Study and teaching",
+          "Student recommendations",
+          "Educational guidance"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Garrison, James G."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Garrison, Henry D.",
+          "Georgeson, Prof."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter of introduction and academic recommendation from James G. Garrison, an attorney in Henderson, Texas, to Professor Louis L. McInnis at the Agricultural and Mechanical College of Texas (Texas A&M), dated October 7, 1881. Garrison introduces his brother Henry D. Garrison, a prospective student seeking a degree in Civil Engineering with Mathematics as his specialty, and requests that Professor McInnis provide guidance on the course of study and close supervision. The letter expresses Garrison's commitment to his brother's education and requests reports on his academic progress and conduct."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ec5de8d5-800c-36bd-b9fc-98d2a9fb8be4/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3331,
+      "width": 2161,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ec5de8d5-800c-36bd-b9fc-98d2a9fb8be4/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3331,
+                "width": 2161,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ec5de8d5-800c-36bd-b9fc-98d2a9fb8be4",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br>\n<small>OFFICE OF</small><br>\n<b>James G. Harrison,</b><br>\n<small>Attorney at Law,</small></p>\n\n<p>Henderson, Tex<br>\nOct. 7, 1881.</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas,</p>\n\n<p>My dear Sir:-<br>\nThe bearer<br>\nof this letter is my<br>\nbrother, Henry D. Gar-<br>\nrison, who comes to<br>\nyou as a student of<br>\nthe A. & M. College.<br>\nI hope he will prove<br>\nhimself worthy of the<br>\nesteem and confidence<br>\nof his professors.<br>\nI commend him</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's my analysis of the document.** I see a handwritten letter with a printed header. My focus is on making an accurate transcription, so I'll be careful with the details.\n\nFirst, the header: I can make out \"OFFICE OF\", \"James G. Harrison,\", and \"Attorney at Law,\". The letter itself is addressed from Henderson, Texas, dated October 7, 1881. It's addressed to \"Prof. L. L. McInnis,\" at \"College Station, Texas.\" It's clear and the handwriting is legible, aside from the 'g' in \"College\" which is written with a loose loop.\n\nThe main part starts with \"My dear Sir:-\". The writer is recommending his brother, Henry D. Garrison, who is going to be a student at the A. & M. College. The writer hopes that Henry will earn the respect of his professors. I can see the handwriting clearly, and it's a standard letter format.\n\nNow for a detailed check. \"Henderson, Tex\" - The 'Tex' is abbreviated, but clear. \"Prof. L. L. McInnis\" - The last name looks like \"McInnis\", and given the context I'm sure it's correct. \"College Station\" - \"College\" has a loose 'g' that looks like a 'y'. \"My dear Sir:-\" is a standard salutation. \"Henry D. Garrison\" - This is where it gets interesting. The initial looks like a 'D' and the name *looks* like \"Garrison,\" but the printed name at the top is \"Harrison\". It's a key point and I'll need to remember it, but I'll transcribe as written. It could be an error or perhaps they have different last names.\n\nI'll transcribe, paying close attention to the line breaks. In HTML I'll use paragraph tags `<p>` and the line break `<br>` elements as requested, and I'll distinguish the header elements.\n\n```html\n<p>[Header]<br>\n<small>OFFICE OF</small><br>\n<b>James G. Harrison,</b><br>\n<small>Attorney at Law,</small></p>\n\n<p>Henderson, Tex<br>\nOct. 7, 1881.</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas,</p>\n\n<p>My dear Sir:-<br>\nThe bearer<br>\nof this letter is my<br>\nbrother, Henry D. Gar-<br>\nrison, who comes to<br>\nyou as a student of<br>\nthe A. & M. College.<br>\nI hope he will prove<br>\nhimself worthy of the<br>\nesteem and confidence<br>\nof his professors.<br>\nI commend him</p>\n```\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3331,
+      "width": 2161,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7ad38241-2010-3c75-938c-7613cbf030f1/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3331,
+                "width": 2161,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7ad38241-2010-3c75-938c-7613cbf030f1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br/>\n[1881, Oct. 7]<br/>\n<small>OFFICE OF</small><br/>\n<b>James G. Garrison,</b><br/>\n<small><b>Attorney at Law,</b></small></p>\n\n<p>2,</p>\n\n<p>to your kindness, and<br/>\nexpress the wish that<br/>\nyou will make him<br/>\n\"toe the mark\" in your<br/>\ndepartment. Since he<br/>\nwill apply for the<br/>\ndegree of \"Civil En-<br/>\ngineer\" he will make<br/>\nMathematics a specialty<br/>\nI will be glad if you<br/>\nwill make such sug-<br/>\ngestions as you deem<br/>\nnecessary touching<br/>\nthe course of his<br/>\nstudy with reference<br/>\nto his applying for<br/>\nthe degree suggested.<br/>\nI want him to</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Transcription Process**\n\nOkay, here's what I've worked through: I need to produce a transcription of this image, and I need to be exact. Let's start with a systematic approach. First, I'll analyze the image visually, breaking it down into its constituent elements. There's a header in the top right, a printed letterhead, and a handwritten body of text. I have to read the writing and try and reproduce it.\n\nThe header includes the date, \"[1881, Oct. 7]\", right. Then there's the printed letterhead, \"OFFICE OF James G. Garrison, Attorney at Law,\". The page number \"2,\" is written in ink below it. I'll make notes about the script style - it's cursive, typical of the late 19th century. The fact that the text starts mid-sentence suggests this is page two, which explains the \"2,\".\n\nThe core of the task is the body text. Let's make sure I get this absolutely right. The text reads: \"to your kindness, and express the wish that you will make him \"toe the mark\" in your department. Since he will apply for the degree of \"Civil En- gineer\" he will make Mathematics a specialty I will be glad if you will make such sug- gestions as you deem necessary touching the course of his study with reference to his applying for the degree suggested. I want him to...\"\n\nNow for the *transcription draft*. I'll transcribe exactly what I see, paying close attention to any peculiarities.\n\nFirst, I need to look at each line and capture it. The header is important, so let's get the transcription ready.\n\nI'll then double-check formatting to make sure things like reading order are correct, and I'm preserving the spelling. \"toe the mark\" has quotation marks, \"Civil Engineer\" is two words, and \"Mathematics\" is a proper noun, so capitals. Let's examine the word \"mark\". It could read \"mart\" but context indicates \"mark\". The words look clear enough. The 'y' loops down in \"specialty\".\n\nLet's carefully examine the handwriting. \"and\" is a bit scrawled. \"mark\" could look like \"mart\" or \"mork\" but is context-dependent. I'll stick with \"mark\". \"specialty\" is underlined. I'll need to figure out how to represent that, probably with emphasis. \"touching\" is fine. \"necessary\" looks good. \"applying\" is fine.\n\nNow, let's create the HTML structure, and make sure that it's all in the correct order. I'll keep the line breaks, and add the date, the page number, and the various bits of formatted text. I'll make sure to get the header as the first bit of text. I'll also add in the page number, the handwritten \"2,\". The \"Attorney at Law\" is usually smaller and/or bold. The printed text \"OFFICE OF\" is small caps, and \"James G. Garrison\" is in a Blackletter font. \"Attorney at Law\" looks like small caps or a sans-serif font. I'll try and create a reasonable approximation for the formatting.\n\nSince the instructions say to include the *date* as the first line of the transcription, I'll do that. The date is a pencil notation, likely archival. I'll make sure to note that in the HTML. I'll include the \"2,\" which is handwritten.\n\nI want to look over everything one last time, with the final details. Is the handwriting clear? Do I need to make any changes? Are all of the tags I use allowed? Now I will check to see if the handwriting is accurate. Yes, \"necessary\" has the long 's' or cursive 's' style. \"touching\" is correct. \"applying\" is correct. \"suggested\" is correct. The underlining of \"specialty\" is a stylistic flourish, so I won't represent that directly, and just leave the text.\n\nAfter reviewing everything, I'm confident in this final version.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3331,
+      "width": 2161,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/0fb13af2-1eca-3564-b024-6d43a63103f3/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3331,
+                "width": 2161,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/0fb13af2-1eca-3564-b024-6d43a63103f3",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Margin: [1881, Oct. 7]]\n\n[Header]\n<p><small>OFFICE OF</small><br>\n<b>James G. Harrison,</b><br>\nAttorney at Law,</p>\n\n<p>3.</p>\n\n<p>remain with you for\nfour years. I am\nvery solicitous about\nhis education. Any\nencouragement you\nmay be kind enough\nto give him will\nbe duly appreciated\nby him and by your\nhumble servant.\nPlease watch him\nclosely and report\nto me any of his\ncollegiate obliquities.\nI stand in <i>loco</i>\n<i>parentis</i> to him.\nI am gratified\nat hearing of good</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Thought Process:**\n\nOkay, I'm tasked with transcribing this handwritten letter and it's time to dive in. First, I'll analyze the image to get a sense of the layout. Right away, I see the date in the top right corner and a printed letterhead with an \"OFFICE OF\" and the name \"James G. Harrison, Attorney at Law.\"  There's also a page number, \"3.\", which probably means this is a continuation of a longer document.\n\nI need to transcribe the body text which looks to be cursive. I'll read through the handwriting, line by line, to get a first pass transcription, focusing on identifying each word accurately. I will address anything ambiguous, like the word at the end of line 3.\n\nThe handwriting looks pretty neat. Then I'll zoom in on any tricky spots, looking particularly closely at any potentially crossed-out words.  Ah, here it is: the word at the end of line three is the key. There appears to be a strikethrough. It looks like \"Any\", but there's a line drawn through it. Does that mean it was deleted? Is it just a dash? It seems to be a purposeful mark.  I'll compare the \"A\" in the image with other \"A\"s to confirm the word.\n\nOkay, I need to decide what to do with that \"Any\". It looks like \"Any\" with a clear line through it.  I'll review the sentence and decide if it makes sense with \"Any\" or without it. Hmm, the sentence flows better with \"Any\".  But the instructions say \"transcribe all text.\"\n\nI'll check if the strikethrough is just a casual mark or if it's a deliberate cancellation. The line looks straight and intentional, but it goes through the word.  It really looks like it was written, then the writer changed their mind.\n\nWhat to do...  I'll look again at the transcription task. It says \"Transcribe all text from the attached image\" and \"Interpret handwritten text as accurately as possible.\" It doesn't tell me what to do with deletions. Often, we would put [deleted: Any] but that's a tag I can't use here. And if I exclude it, it disrupts the flow of the sentence. I'll transcribe \"Any\" but note the line through the word. That seems like the most faithful approach, balancing accuracy with interpretation. I'm going to lean towards \"Any\".\n\nThen I need to consider the Latin phrases \"loco parentis\". It's underlined. The instructions don't explicitly say to mark the style, only that I'm allowed to include markup to represent the format. I can use *i* for italics (or just plain text). I'll use *i* as it's the standard for underlining.\n\nNow I need to refine everything. I will note the font of the letterhead text. Is it small caps? No. Maybe bold? I will double-check that the line breaks make sense. I'll make sure to get all the punctuation right.  Double-checking details, like the periods at the end of sentences and whether there are any other ambiguous marks. The word \"obliquities\" seems difficult at first, but it's clear.\n\nI'll also go back and triple-check the \"Any\" situation, just to be completely certain. It really looks deleted, but without it, the sentence doesn't flow correctly. I think I'll still include the word \"Any\", given the instructions. I'm noting that the date is marginalia (pencil).\n\nOkay, the structure.  I will tag the components - the date, the header, the body.  I can use `<p>` for paragraphs. I can't use an alignment attribute. I can use `<b>` for boldface in the header.\n\nOne last look at the word \"obliquities\".  It's \"o b l i q u i t i e s\". Definitely \"obliquities.\" And \"collegial obliquities\" is interesting. I will check the entire text again to make sure that everything looks right. Okay, it looks good. Ready.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3331,
+      "width": 2161,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/cd27f75b-a641-34ba-bc4d-19f06aa7bd78/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3331,
+                "width": 2161,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/cd27f75b-a641-34ba-bc4d-19f06aa7bd78",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><small>OFFICE OF</small><br>\n<b>James G. Garrison,</b><br>\n<small><b>Attorney at Law,</b></small></p>\n\n<p>[1881, Oct. 7]<br>\n4,</p>\n\n<p>reports from the<br>\ncollege. <u>Merit</u> <u>will</u><br>\n<u>win</u>.<br>\nPresent my sin-<br>\ncerest homage to<br>\nProf. Georgeson, and<br>\nassure him of my<br>\nfriendly regard.<br>\nI hope you had<br>\na pleasant vacation.<br>\nBe kind enough to<br>\naccept assurances of<br>\nthe personal regard<br>\nof<br>\nYour friend<br>\nJas. G. Garrison,<br>\n\"</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe a handwritten letter, but there's a lot going on with this image. First, I see a letterhead: \"OFFICE OF,\" \"James G. Garrison,\" (in that old-school font), and \"Attorney at Law.\" There's a pencil date in the top right, \"[1881, Oct. 7],\" which immediately suggests this is an archival piece. Now, here's where it gets interesting—and a little tricky. There's this incredibly faint text in the background, like ink bleeding through from the other side. This is going to require some careful examination.\n\nAt first, I thought it was just faint writing on the back, but looking closely, it's more like ghosting or offset. It’s legible enough to make out some words, but it is definitely *under* the darker ink. My instructions are to \"transcribe all text\". This faint text could be the content of the letter, but this secondary text is clearly what the letter on the page is about. I also see a number \"4\" in the top right, in the same ink as the darker text. This establishes this page as the fourth page of a multi-page letter.\n\nI am going to focus my transcription on the clear, primary text. This is the main layer. The faint text seems to be ghosting and I will assume it is an artifact of storage in a folder or letter book, and that it is not intended to be on this page. It is likely a copy of a previous page pressed against this page. It's difficult to read and interferes with the dark text, so ignoring it will deliver a more accurate transcription.\n\nSo, let's dive into the dark ink. I can see what looks like \"reports from the / college. Merit will / win.\" There’s a note to “Prof. Georgeson” and mention of a vacation. It's a fairly standard letter, with a closing and signature. I'll need to pay close attention to the handwriting to capture any nuances—like that word \"Merit,\" which is underlined. Also, there is a small flourish or mark underneath the signature that I will identify, but not consider essential.\n\nI will create a structured transcription: first the header, then the date/page number, then the body of the letter. I need to keep the line breaks to preserve the formatting of the original letter.\n\nNow, about that faint text. It reads something like \"the A. & M. College. I hope he will prove worthy of the trust and confidence of his professors. I commend...\" My archival experience tells me this is likely the ink transfer of another page. I am not seeing it reversed, so this is unlikely the back of the paper. It is likely another page, possibly the first, pressed up against this one. The fact that the darker text is written over this faint text confirms that the faint text is not the main text. I will leave this as ghosting.\n\nGiven that I have to transcribe all the text, I'm going to assume the \"intentional\" text is the darker ink. The faint ghosting interferes. It is not the *intended* text to be read on this page. Standard practice for these collections is to transcribe the primary layer.\n\nMy strategy: Transcribe the header, date, and page number, followed by the text in the main ink.\n\nThe final transcription:\n\n<p><small>OFFICE OF</small><br>\n<b>James G. Garrison,</b><br>\n<small><b>Attorney at Law,</b></small></p>\n\n<p>[1881, Oct. 7]<br>\n4,</p>\n\n<p>reports from the<br>\ncollege. <u>Merit</u> <u>will</u><br>\n<u>win</u>.<br>\nPresent my sin-<br>\ncerest homage to<br>\nProf. Georgeson, and<br>\nassure him of my<br>\nfriendly regard.<br>\nI hope you had<br>\na pleasant vacation.<br>\nBe kind enough to<br>\naccept assurances of<br>\nthe personal regard<br>\nof<br>\nYour friend<br>\nJas. G. Garrison,<br>\n\"</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/10/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

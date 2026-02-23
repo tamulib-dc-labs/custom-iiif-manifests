@@ -1,127 +1,178 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-406.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter from A. J. Rose, W. R. Cavitt, and L. L. Foster, August 21, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter from A. J. Rose, W. R. Cavitt, and L. L. Foster, August 21, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 4 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/517e9de0-b560-3b83-8676-ea18e856f295/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 5581,
-            "width": 3336,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/517e9de0-b560-3b83-8676-ea18e856f295/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 5581,
-                                "width": 3336,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/517e9de0-b560-3b83-8676-ea18e856f295",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>College Station, Texas Aug 21<sup>st</sup> 98</p>\n\n[Body]\n<p>Whereas Prof. L. L. M<sup>c</sup>Innis is now on<br>\ntwo bonds as principal for the benefit of<br>\nthe Agricultural and Mechanical College<br>\nof Texas - to wit: <b>One</b> bond payable to the<br>\nUnited States of America for the purpose of<br>\nwithdrawing from the distillery warehouse,<br>\nwithout payment of tax, certain alchohol<br>\nfor the purpose of preserving specimens of<br>\nanatomy, physiology &c - And the other<br>\nbond payable to the said United State for<br>\nthe purpose of indemnifying said United<br>\nStates against the loss, destruction or<br>\ndamages to arms acoutrements &c now<br>\nin possession of said College for its use &<br>\nbenefit - And, now whereas said M<sup>c</sup>Innis is<br>\nno longer connected with said College, and<br>\nwishes to be released from liability under<br>\nsaid bond - Therefore we the undersigned<br>\nmembers of the Board of Directors of said<br>\nAgricultural and Mechanical College - hereby<br>\nrelease said M<sup>c</sup>Innis from said bonds as far<br>\nas in us lies, and hereby collectively and in=<br>\ndividually agree to hold him, the said M<sup>c</sup>Innis,<br>\nharmless from all losses or damages under<br>\nor by virtue of said bonds that may hereafter<br>\noccur -</p>\n\n[Signature]\n<p>A. J. Rose President,<br>\nW R Cavitt<br>\nL L Foster.<br>\nJohn Adriance.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Document Transcription Analysis: A Comprehensive Overview**\n\nAs a seasoned expert, my immediate focus is the accurate transcription of this handwritten legal document. The initial assessment pinpoints its origin: \"College Station, Texas,\" with the date appearing as \"Aug 21st 98.\" After careful examination, considering the handwriting style and associated historical figures, the year is confirmed as 1898.\n\n[Header]\n<p>College Station, Texas Aug 21<sup>st</sup> 98</p>\n\n[Body]\n<p>Whereas Prof. L. L. M<sup>c</sup>Innis is now on<br>\ntwo bonds as principal for the benefit of<br>\nthe Agricultural and Mechanical College<br>\nof Texas - to wit: One bond payable to the<br>\nUnited States of America for the purpose of<br>\nwithdrawing from the distillery warehouse,<br>\nwithout payment of tax, certain alchohol<br>\nfor the purpose of preserving specimens of<br>\nanatomy, physiology &c - And, the other<br>\nbond payable to the said United State for<br>\nthe purpose of indemnifying said United<br>\nStates against the loss, destruction or<br>\ndamages to arms acoutrements &c now<br>\nin possession of said College for its use &<br>\nbenefit - And, now whereas said M<sup>c</sup>Innis is<br>\nno longer connected with said College, and<br>\nwishes to be released from liability under<br>\nsaid bond - Therefore we the undersigned<br>\nmembers of the Board of Directors of said<br>\nAgricultural and Mechanical College - hereby<br>\nrelease said M<sup>c</sup>Innis from said bonds as far<br>\nas in us lies, and hereby collectively and in=<br>\ndividually agree to hold him, the said M<sup>c</sup>Innis,<br>\nharmless from all losses or damages under<br>\nor by virtue of said bonds that may hereafter<br>\noccur -</p>\n\n[Signature]\n<p>A. J. Rose President,<br>\nW R Cavitt<br>\nL L Foster.<br>\nJohn Adriance.</p>\n\nFurther analysis reveals the document concerns Professor L. L. McInnis and his bond obligations to the Agricultural and Mechanical College of Texas (Texas A&M). One bond involves alcohol withdrawal for preserving anatomical specimens; the other covers potential loss/damage to arms/accoutrements. McInnis, no longer associated with the College, seeks release from these liabilities. The Board of Directors grants this request, holding McInnis harmless. This transcription preserves the exact wording, including all spelling nuances (\"alchohol,\" \"acoutrements\") and formatting quirks (superscripts, hyphens, and the singular \"United State\"). The accuracy of the historical context is confirmed by correlating dates and the individuals involved, particularly presidents L.L. Foster and A.J. Rose, and the board members listed as signatories.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-406.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter from A. J. Rose, W. R. Cavitt, and L. L. Foster, August 21, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter from A. J. Rose, W. R. Cavitt, and L. L. Foster, August 21, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 4 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--History",
+          "Bonds (Finance)",
+          "College officials--Texas",
+          "Educational institutions--Texas--History",
+          "Liability (Law)",
+          "Alcohol--Use in research",
+          "Military equipment and supplies"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Rose, A. J.",
+          "Cavitt, W. R.",
+          "Foster, L. L."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Adriance, John",
+          "Agricultural and Mechanical College of Texas. Board of Directors"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A formal letter from members of the Board of Directors of the Agricultural and Mechanical College of Texas releasing Professor L. L. McInnis from liability on two federal bonds held in his name as principal. The bonds pertained to the withdrawal of alcohol for specimen preservation and the custody of military arms and equipment belonging to the college. The release was granted upon McInnis's separation from the institution, with the board collectively agreeing to hold him harmless from any future losses or damages under the bonds."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/517e9de0-b560-3b83-8676-ea18e856f295/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 5581,
+      "width": 3336,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/517e9de0-b560-3b83-8676-ea18e856f295/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5581,
+                "width": 3336,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/517e9de0-b560-3b83-8676-ea18e856f295",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>College Station, Texas Aug 21<sup>st</sup> 98</p>\n\n[Body]\n<p>Whereas Prof. L. L. M<sup>c</sup>Innis is now on<br>\ntwo bonds as principal for the benefit of<br>\nthe Agricultural and Mechanical College<br>\nof Texas - to wit: <b>One</b> bond payable to the<br>\nUnited States of America for the purpose of<br>\nwithdrawing from the distillery warehouse,<br>\nwithout payment of tax, certain alchohol<br>\nfor the purpose of preserving specimens of<br>\nanatomy, physiology &c - And the other<br>\nbond payable to the said United State for<br>\nthe purpose of indemnifying said United<br>\nStates against the loss, destruction or<br>\ndamages to arms acoutrements &c now<br>\nin possession of said College for its use &<br>\nbenefit - And, now whereas said M<sup>c</sup>Innis is<br>\nno longer connected with said College, and<br>\nwishes to be released from liability under<br>\nsaid bond - Therefore we the undersigned<br>\nmembers of the Board of Directors of said<br>\nAgricultural and Mechanical College - hereby<br>\nrelease said M<sup>c</sup>Innis from said bonds as far<br>\nas in us lies, and hereby collectively and in=<br>\ndividually agree to hold him, the said M<sup>c</sup>Innis,<br>\nharmless from all losses or damages under<br>\nor by virtue of said bonds that may hereafter<br>\noccur -</p>\n\n[Signature]\n<p>A. J. Rose President,<br>\nW R Cavitt<br>\nL L Foster.<br>\nJohn Adriance.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Document Transcription Analysis: A Comprehensive Overview**\n\nAs a seasoned expert, my immediate focus is the accurate transcription of this handwritten legal document. The initial assessment pinpoints its origin: \"College Station, Texas,\" with the date appearing as \"Aug 21st 98.\" After careful examination, considering the handwriting style and associated historical figures, the year is confirmed as 1898.\n\n[Header]\n<p>College Station, Texas Aug 21<sup>st</sup> 98</p>\n\n[Body]\n<p>Whereas Prof. L. L. M<sup>c</sup>Innis is now on<br>\ntwo bonds as principal for the benefit of<br>\nthe Agricultural and Mechanical College<br>\nof Texas - to wit: One bond payable to the<br>\nUnited States of America for the purpose of<br>\nwithdrawing from the distillery warehouse,<br>\nwithout payment of tax, certain alchohol<br>\nfor the purpose of preserving specimens of<br>\nanatomy, physiology &c - And, the other<br>\nbond payable to the said United State for<br>\nthe purpose of indemnifying said United<br>\nStates against the loss, destruction or<br>\ndamages to arms acoutrements &c now<br>\nin possession of said College for its use &<br>\nbenefit - And, now whereas said M<sup>c</sup>Innis is<br>\nno longer connected with said College, and<br>\nwishes to be released from liability under<br>\nsaid bond - Therefore we the undersigned<br>\nmembers of the Board of Directors of said<br>\nAgricultural and Mechanical College - hereby<br>\nrelease said M<sup>c</sup>Innis from said bonds as far<br>\nas in us lies, and hereby collectively and in=<br>\ndividually agree to hold him, the said M<sup>c</sup>Innis,<br>\nharmless from all losses or damages under<br>\nor by virtue of said bonds that may hereafter<br>\noccur -</p>\n\n[Signature]\n<p>A. J. Rose President,<br>\nW R Cavitt<br>\nL L Foster.<br>\nJohn Adriance.</p>\n\nFurther analysis reveals the document concerns Professor L. L. McInnis and his bond obligations to the Agricultural and Mechanical College of Texas (Texas A&M). One bond involves alcohol withdrawal for preserving anatomical specimens; the other covers potential loss/damage to arms/accoutrements. McInnis, no longer associated with the College, seeks release from these liabilities. The Board of Directors grants this request, holding McInnis harmless. This transcription preserves the exact wording, including all spelling nuances (\"alchohol,\" \"acoutrements\") and formatting quirks (superscripts, hyphens, and the singular \"United State\"). The accuracy of the historical context is confirmed by correlating dates and the individuals involved, particularly presidents L.L. Foster and A.J. Rose, and the board members listed as signatories.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/406/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

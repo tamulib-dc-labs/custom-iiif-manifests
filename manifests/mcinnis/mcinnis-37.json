@@ -1,352 +1,407 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-37.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from F. Van Winkle, February 9, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-02-09"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from F. Van Winkle, February 9, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e5bf8599-4b6c-3bb5-9d63-8bb527899ebe/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3091,
-            "width": 1920,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e5bf8599-4b6c-3bb5-9d63-8bb527899ebe/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3091,
-                                "width": 1920,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e5bf8599-4b6c-3bb5-9d63-8bb527899ebe",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>College Station<br/>\nFebruary 9 - 1883 -<br/>\nDear Friend _<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinwiddie said<br/>\nhe wrote to you yesterday \u2013<br/>\ntelling of Gartner's condition<br/>\nhow that he had been pretty<br/>\nlow on night you left.<br/>\nMiller staid up with him<br/>\nand the fact of having a<br/>\ncomparative stranger might<br/>\nnot have been advantageous<br/>\nI was with him all of<br/>\nyesterday until 9,30 when<br/>\nDinwiddie came up for<br/>\nremainder of the night =<br/>\nG began to improve<br/>\nyesterday evening \u2013 had four</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process: A Professional's Perspective**\n\nOkay, so the task is clear: I need to transcribe this handwritten document, staying faithful to its original form while using the specified HTML tags. My initial assessment reveals a script-style letter, likely from the late 19th century, judging by the 1883 date.\n\nI start by carefully scanning the image, noting the header: \"College Station, February 9 - 1883\". There's a salutation, \"Dear Friend _\", followed by the main text. I'm going to work line by line, paying close attention to every detail \u2013 the slant of the letters, punctuation, any unusual formatting.\n\nHere's the detailed breakdown as I see it:\n\n*   \"College Station\" is centered, clear and concise.\n*   \"February 9 - 1883 -\" \u2013 the date is straightforward.\n*   \"Dear Friend _\" \u2013 a typical salutation with an underscore.\n*   \"Dinwiddie said\" \u2013 indented, the name is legible and the word 'said' is clear. I'll need to remember \"Dinwiddie\" as a potential name.\n*   \"he wrote to you yesterday \u2013\" \u2013 no issues there.\n*   \"telling of Gartner's condition\" \u2013 the name \"Gartner\" is distinct; the rest is also plain.\n*   \"how that he had been pretty\" \u2013 wait, that first word, \"how\", seems a bit messy. But it looks like \"how that\" in context makes sense, although it might be crossed out. It's legible, so I'll include it.\n*   \"low on night you left.\" \u2013 the term \"low\" seems to indicate the patient's condition.\n*   \"Miller staid up with him\" \u2013 \"staid\" is the archaic spelling of stayed; the word \"up\" appears to have been inserted. I'll transcribe this inline.\n*   \"and the fact of having a\" \u2013 straightforward.\n*   \"comparative stranger might\" \u2013 no issues with the word \"comparative\".\n*   \"not have been advantageous\" \u2013 the word is clear.\n*   \"I was with him all of\" \u2013 the word \"of\" is written at the end, slightly separated.\n*   \"yesterday until 9,30 when\" \u2013 the time, \"9,30\", looks like a comma rather than a decimal point. I'll stay consistent with that.\n*   \"Dinwiddie came up for\" \u2013 \"Dinwiddie\" again, clear.\n*   \"remainder of the night =\" \u2013 the double dash.\n*   \"G began to improve\" \u2013 \"G\" \u2013 this is possibly the \"G\" in \"Gartner\".\n*   \"yesterday evening \u2013 had four\" \u2013 ends mid-sentence.\n\nNow, I'll format the transcription using `<p>` tags for the main paragraph and `<br/>` tags to preserve the line breaks. No bold or italics are necessary here. The layout needs to reflect the original structure, with the indented salutation and the paragraph's start. I'm also going to double-check that first word of line 7, \"how\" again to be sure that it belongs. Yup, I'm going to include that \"how\", even if it looks like there's a mark near it. I'll represent it as it is. Let's make this perfect. Let's make sure that that comma is a comma and not a decimal point. This is the finished product:\n\n```html\n<p>College Station<br/>\nFebruary 9 - 1883 -<br/>\nDear Friend _<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Dinwiddie said<br/>\nhe wrote to you yesterday \u2013<br/>\ntelling of Gartner's condition<br/>\nhow that he had been pretty<br/>\nlow on night you left.<br/>\nMiller staid up with him<br/>\nand the fact of having a<br/>\ncomparative stranger might<br/>\nnot have been advantageous<br/>\nI was with him all of<br/>\nyesterday until 9,30 when<br/>\nDinwiddie came up for<br/>\nremainder of the night =<br/>\nG began to improve<br/>\nyesterday evening \u2013 had four</p>\n```\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3091,
-            "width": 1920,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/bd2ad29a-37d2-3c65-be40-7c729af6c88a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3091,
-                                "width": 1920,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bd2ad29a-37d2-3c65-be40-7c729af6c88a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[1883, Feb. 9]</p>\n<p>\nactions of bowels last night.<br>\nI will be obliged to stay<br>\nup again to-night though<br>\nam quite exausted<br>\nI will endeavor to get<br>\nsome rest through the day -<br>\nAlten has been \"overcome\"<br>\never since he went to town<br>\nlast Tuesday and last<br>\nnight when I went for<br>\nhim was \"worse off\" than<br>\never so Major sat up -<br>\nG. seems improved this<br>\nA.M - better perhaps<br>\nthan when you left<br>\nbut will need constant<br>\nattention night and day<br>\nand - Mr. Smith being\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Initial Thoughts on Transcription**\n\nAlright, let's get down to it. I've got this handwritten letter in front of me, and my task is to transcribe it. First thing I notice is that date in pencil at the top right, \"[1883, Feb. 9]\". That's probably been added later, but I should include it. I'm going to start by getting the basic structure of the letter down: it looks like paragraphs are the way to go here. There's a lot of cursive, some slanting, and I'll need to pay close attention to the word choices. I'm aiming for high accuracy here, so I'll be really careful.\n\n**Deep Dive into the Text**\n\nHere we go. Line 1: \"actions of bowels last night.\" Okay, pretty straightforward start. Line 2: \"I will be obliged to stay\". The \"I\" is a bit stylized, but \"obliged\" is clear. Moving on to Line 3: \"up again to-night though\". The \"though\" is kind of squeezed in, but readable.\n\nLine 4 is interesting: \"am ~~badly~~ quite exhausted\". Hmm, \"badly\" is crossed out. I'm going to have to decide how to handle that. I want to convey the message as it stands now, so \"quite exhausted\" is the operative part. But I need to remember \"badly\" was there originally. The spelling, \"exausted,\" isn't standard, but I need to transcribe it as written.\n\nThen, \"I will endeavor to get\" in Line 5 \u2013 \"endeavor\" looks good. Line 6: \"some rest through the day -\" \u2013 nothing tricky there. And here comes the potential for confusion in Line 7: \"Alten has been 'overcome'\". The name starts with \"A\" but that second letter looks like a \"l\" but there's a horizontal bar right through it like a \"t\". \"Alten\" sounds unusual but looks like the visual evidence. It could be a cross for a double L like \"Allen\". Let's assume it's \"Alten\" unless more context appears. And \"overcome\" is in quotes, so I'll keep those too.\n\nIn Line 8, \"ever since he went to town\" looks okay, \"went\" is slightly unclear, context suggests \"went\". Lines 9-11: \"last Tuesday and last night when I went for him was 'worse off' than\" \u2013 all clear, including the quotes around \"worse off\".\n\nLine 12 is \"ever so Major sat up -\". \"Major\" is clear, \"sat\" looks like the crossbar is high or there's an extra stroke, but the intended word is \"sat\". Line 13: \"G. seems improved this\" \u2013 \"G.\" is an initial, maybe referring to a person? or \"It\"? I'll transcribe what I see. Line 14: \"A.M - better perhaps\". And then in Line 15, \"than when you left\".\n\nLines 16-17: \"but will need constant attention night and day\" \u2013 nothing too tricky. Line 18: \"and - Mr. Smith being\" \u2013 the last word \"being\" is a little cut off, but still decipherable.\n\n**Refining and Double-Checking**\n\nOkay, now it's about going back and making absolutely sure. \"Exausted\" is written with a missing 'h'. I won't correct the spelling. In Line 7, it's definitely an A, a loop, a straight stick, a loop, a hump. It looks like \"Alten\". Not Allen? \"Alten\" makes sense given the letter formation, but it's a rare name. In Line 12, \"sat\" that has a strange descender. Not a \"t\"? Checking the 't' in the previous lines, the letter forms are similar. The mark seems to be part of \"sat\" not a letter below. And it looks like \"Major sat up\" is the correct wording. The \"G.\" in Line 13 makes sense as a capitalized initial. The line break here makes sense. I won't correct these, I'll transcribe what the user wrote.\n\nThe structure of the final transcription is: The bracketed date at the top in its own line, the other lines in a new paragraph, the letters as written.\n\n**Addressing the \"badly\" Issue**\n\nNow, the \"badly\" that's crossed out is the hardest. I don't have strikethrough tags available, so I have to make a call. The goal is to be accurate and readable. Leaving it out makes the text cleaner, but doesn't preserve what was there. I want\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3091,
-            "width": 1920,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5dd21b8c-ecf3-36fe-bca9-0897833cdc4c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3091,
-                                "width": 1920,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5dd21b8c-ecf3-36fe-bca9-0897833cdc4c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n[1883, Feb 9]\n\naround the measles & so\nmuch cannot assist -\nMrs. G. cannot trust Willie\nand does not want him\nagain - says she will\nstay up herself &c but\nthat of course is impossible\nI sincerely hope you will\ncurtail your attendance at\nAustin as much as possible\nas we greatly need your assist-\nance with G.\nLangeson has steadily im-\nproved but not out &\nnot going to Bryan - at least\nuntil good weather -\nCol. Cole's hands are full\nwith his family troubles and\n(over)</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis**\n\nAlright, let's get down to brass tacks. The user wants this handwritten letter transcribed, and they want it done right. Okay, let's break this down.\n\n**First**, this looks like a handwritten letter. I note the pencil date \"[1883, Feb 9]\" at the top right, so we have a date to anchor us. The script is cursive. I would describe it as legible, with a few spots where the penmanship gets a little messy.\n\n**Then** I'll be going line-by-line, which calls for careful observation. It's an interesting letter too: It mentions family stuff, illness (measles!), names like \"G.\" or \"Mrs. G.\" which needs to be deciphered, \"Willie\", \"Austin\", a name possibly \"Gangeson\" that looks like a challenge, and \"Col. Cole.\"\n\n**I start line by line**\n* Pencil note: `[1883, Feb 9]` \u2013 Got it.\n* **Line 1:** \"around the measles & so\". The first word might read \"avoid\" or \"around\" but it will be \"around\". There's also an ampersand in there that's crossed-out. I'll include the characters as I see them: `around the measles & so`\n* **Line 2:** `much cannot assist -` \u2013 Straightforward.\n* **Line 3:** `Mrs. G. cannot trust Willie` \u2013 Looks like `Willie` with the context of \"him\" in the next line.\n* **Line 4:** `and does not want him` \u2013 Simple enough.\n* **Line 5:** `again - says she will` \u2013 Okay.\n* **Line 6:** `stay up herself &c but` \u2013 I will translate `&c` as et cetera.\n* **Line 7:** `that of course is impossible` \u2013 The word that looks like it's written over something. Looks like 'that'. I'm going with 'that' as it makes more sense.\n* **Line 8:** `I sincerely hope you will` \u2013 Makes sense.\n* **Line 9:** `curtail your attendance at` \u2013 Let's transcribe the letters.\n* **Line 10:** `Austin as much as possible` \u2013 The last word looks like `possible`\n* **Line 11:** `as we greatly need your assist-` \u2013 No problem.\n* **Line 12:** `ance with G.` \u2013 Okay. Here we go. The name with `G`.\n* **Line 13:** `Gangeson has steadily im-` \u2013 Here's the challenge. The name could be 'Gangeson'. My first thought will be `Gangeson`, it starts with a clear capital 'G' or 'L' cursive. Could be `Gangeson`, `Grangeson`, `Ferguson`, `Gorgeson`, `Langeson`. I'll analyze this in detail.\n  *  I will try searching online for names around the time frame of 1883, in Austin/Bryan, Texas area to look for a similar name.\n  *  For now, I'll transcribe as `Langeson` as it looks visually similar.\n\nI'm thinking hard:\n*   Maybe it's a medical condition. It mentions \"assist-ance with G.\".\n*   \"G.\" might stand for the patient and this might be a doctor's letter. Could it be `Gangrene`? Is it even a person? The wording is weird. It might be about `Gangrene`, but \"not going to Bryan\" seems odd for a condition. So, likely a person.\n*   I'll stick with a name for now.\n*   I will examine the letters and see the name again. `Langeson`.\n*   Let's check the letters again: `L`, `a`, `n`, `g`, `e`, `s`, `o`, `n`.\n*   Let's check for names: `Ferguson`, `Gregson`, etc.\n\n**After several checks**, I will go with a very detailed check to name the word:\n*   Visually, it looks like `Langeson`.\n*   But is there a name that makes sense?\n*   It's a very meticulous assessment, as the letters look slightly complex.\n*   It might be `Ferguson`, but I need to make sure I am transcribing the *letters*, not making assumptions.\n*   The first letter is the key. Is it `F` or `L`? The cross on an `F` is missing, but maybe it's just cursive?\n*   However, if I assume it\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3091,
-            "width": 1920,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b65ac0b5-8c28-30f3-951b-afcf8863e25c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3091,
-                                "width": 1920,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b65ac0b5-8c28-30f3-951b-afcf8863e25c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>has just gone home - to bed<br>\nhe said - as he was <sup>not</sup> feeling<br>\nexactly right -<br>\nCalvits aunt sister and father<br>\ncame last night -<br>\nThey occupy Smiths and<br>\nCranes rooms and [illegible]<br>\nC & S have gone to mine</p>\n\n<p>Truly yours<br>\nF. V. W.<br>\n[Van Winkle ?]</p>\n\n<p>To<br>\nProf. L. L. M<sup>c</sup> Innis -<br>\nfor M. M. M<sup>c</sup> Innis<br>\nAustin<br>\nTexas -</p>\n\n<p>P. S. Please excuse<br>\nwriting - as it is in haste<br>\nand with unsteady hand -</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Transcription Analysis and Refinement**\n\nOkay, here\u2019s how I\u2019m thinking about this transcription. I need to get this right. The user wants the text from a handwritten letter. I've broken the letter down line by line, really looking at the characters, and what the writer meant.\n\n*   **Line 1:** The first word, \"has\", is clear. \"Gone\" is a bit ambiguous, the \"o\" is open, but contextually, it's definitely \"gone\". The rest is straightforward: \"home - to bed\".\n*   **Line 2:** \"He said\" and \"as he was\" are clear. The word \"not\" is inserted above the line, the person wasn't feeling well. The final part, \"feeling\", is also clear.\n*   **Line 3:** \"Exactly right\", straightforward.\n*   **Line 4:** \"Calvits\" - I'm pretty sure it's not \"Colvits\", the 'a' is open, that is, it's probably \"Calvits\", a likely surname, and the rest is clear: \"aunt sister and father\".\n*   **Line 5:** \"Came last night\", easy to read.\n*   **Line 6:** \"They occupy Smiths and\". The word \"Smiths\" is interesting. The \"m\" seems to have three humps. The standard interpretation is \"Smiths\" - I'll go with that for now. The word \"and\" is clear.\n*   **Line 7:** \"Cranes rooms and\". Here, there's a heavy strikeout. It looks like it was \"those\" that was crossed out but I can't be sure so I'll put [illegible] - the IIIF guidelines say to transcribe everything that is there even if it's struck out.\n*   **Line 8:** \"C & S have gone to mine\". C & S - likely the initials of the people mentioned above. \"Have\" looks like a slightly different version than the norm, but it is clear. The 'o' is open in \"gone\". The final section \"to mine\" is also clear.\n*   **Line 9:** \"Truly yours\" - The word \"yours\" seems to have a trailing line after it but I'll write it as it's written.\n*   **Line 10 (Signature):** The signature looks like \"F. V. W.\". There's a faint pencil annotation that says \"[Van Winkle?]\" - so the middle initial is probably a 'V', even though the letter shape could be an 'N' written in a cursive-style. I'll go with the pencil suggestion.\n*   **Address Section:** The letter has an address block. First line: \"To\". Then, \"Prof. L. L. Mc Innis -\". Is the 'c' in \"Mc\" superscript? Yes, it is. Then, \"for M. M. Mc Innis\". I'm guessing \"for\" as in forwarding, or \"care of\". It's the best read. And the final lines are clear: \"Austin\" and \"Texas -\".\n*   **Postscript:** \"P. S. Please excuse\" ... \"writing - as it is in haste\" ... \"and with unsteady hand -\". Pretty self-explanatory.\n\n**Refinements:** I have checked the letters again. I have re-looked at the signature: F. V. W. It has to be that way given the pencil annotation. I will transcribe the initials in ink, and the pencil text as a note. Also, I'll transcribe \"Smiths\", even though \"Suitts\" is also plausible, \"Smiths\" is the norm. I have checked for allowed HTML elements.\n\n**Final Formatting:** I'm going to put this all together using `<p>` for paragraphs, `<br>` for line breaks. I'll note anything crossed out or ambiguous and put it in. I am also putting in the information on the professor and the use of \"for.\" I'm also putting in all the pencil notes and checking for all the formatting, given the IIIF guidelines. And I'm checking that the final result looks correct.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-37.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from F. Van Winkle, February 9, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-02-09"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from F. Van Winkle, February 9, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Illness--Texas--History--19th century",
+          "Medical care--Texas--History--19th century",
+          "Correspondence--Texas--History--19th century",
+          "College Station (Tex.)--History--19th century",
+          "Personal correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Van Winkle, F."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Dinwiddie",
+          "Gartner",
+          "Miller",
+          "Alten",
+          "Smith, Mr.",
+          "Mrs. G.",
+          "Willie",
+          "Langeson",
+          "Cole, Col.",
+          "Calvit"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from F. Van Winkle to Professor Louis L. McInnis written from College Station, Texas on February 9, 1883, reporting on the health conditions of several individuals, particularly Gartner who has been seriously ill. Van Winkle describes the care arrangements made during McInnis's absence, noting that both Gartner and Alten require constant attention, and requesting that McInnis curtail his time in Austin to provide needed assistance. The letter provides insight into daily life, illness management, and community support networks in nineteenth-century Texas."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e5bf8599-4b6c-3bb5-9d63-8bb527899ebe/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3091,
+      "width": 1920,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e5bf8599-4b6c-3bb5-9d63-8bb527899ebe/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3091,
+                "width": 1920,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e5bf8599-4b6c-3bb5-9d63-8bb527899ebe",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>College Station<br/>\nFebruary 9 - 1883 -<br/>\nDear Friend _<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinwiddie said<br/>\nhe wrote to you yesterday –<br/>\ntelling of Gartner's condition<br/>\nhow that he had been pretty<br/>\nlow on night you left.<br/>\nMiller staid up with him<br/>\nand the fact of having a<br/>\ncomparative stranger might<br/>\nnot have been advantageous<br/>\nI was with him all of<br/>\nyesterday until 9,30 when<br/>\nDinwiddie came up for<br/>\nremainder of the night =<br/>\nG began to improve<br/>\nyesterday evening – had four</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process: A Professional's Perspective**\n\nOkay, so the task is clear: I need to transcribe this handwritten document, staying faithful to its original form while using the specified HTML tags. My initial assessment reveals a script-style letter, likely from the late 19th century, judging by the 1883 date.\n\nI start by carefully scanning the image, noting the header: \"College Station, February 9 - 1883\". There's a salutation, \"Dear Friend _\", followed by the main text. I'm going to work line by line, paying close attention to every detail – the slant of the letters, punctuation, any unusual formatting.\n\nHere's the detailed breakdown as I see it:\n\n*   \"College Station\" is centered, clear and concise.\n*   \"February 9 - 1883 -\" – the date is straightforward.\n*   \"Dear Friend _\" – a typical salutation with an underscore.\n*   \"Dinwiddie said\" – indented, the name is legible and the word 'said' is clear. I'll need to remember \"Dinwiddie\" as a potential name.\n*   \"he wrote to you yesterday –\" – no issues there.\n*   \"telling of Gartner's condition\" – the name \"Gartner\" is distinct; the rest is also plain.\n*   \"how that he had been pretty\" – wait, that first word, \"how\", seems a bit messy. But it looks like \"how that\" in context makes sense, although it might be crossed out. It's legible, so I'll include it.\n*   \"low on night you left.\" – the term \"low\" seems to indicate the patient's condition.\n*   \"Miller staid up with him\" – \"staid\" is the archaic spelling of stayed; the word \"up\" appears to have been inserted. I'll transcribe this inline.\n*   \"and the fact of having a\" – straightforward.\n*   \"comparative stranger might\" – no issues with the word \"comparative\".\n*   \"not have been advantageous\" – the word is clear.\n*   \"I was with him all of\" – the word \"of\" is written at the end, slightly separated.\n*   \"yesterday until 9,30 when\" – the time, \"9,30\", looks like a comma rather than a decimal point. I'll stay consistent with that.\n*   \"Dinwiddie came up for\" – \"Dinwiddie\" again, clear.\n*   \"remainder of the night =\" – the double dash.\n*   \"G began to improve\" – \"G\" – this is possibly the \"G\" in \"Gartner\".\n*   \"yesterday evening – had four\" – ends mid-sentence.\n\nNow, I'll format the transcription using `<p>` tags for the main paragraph and `<br/>` tags to preserve the line breaks. No bold or italics are necessary here. The layout needs to reflect the original structure, with the indented salutation and the paragraph's start. I'm also going to double-check that first word of line 7, \"how\" again to be sure that it belongs. Yup, I'm going to include that \"how\", even if it looks like there's a mark near it. I'll represent it as it is. Let's make this perfect. Let's make sure that that comma is a comma and not a decimal point. This is the finished product:\n\n```html\n<p>College Station<br/>\nFebruary 9 - 1883 -<br/>\nDear Friend _<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Dinwiddie said<br/>\nhe wrote to you yesterday –<br/>\ntelling of Gartner's condition<br/>\nhow that he had been pretty<br/>\nlow on night you left.<br/>\nMiller staid up with him<br/>\nand the fact of having a<br/>\ncomparative stranger might<br/>\nnot have been advantageous<br/>\nI was with him all of<br/>\nyesterday until 9,30 when<br/>\nDinwiddie came up for<br/>\nremainder of the night =<br/>\nG began to improve<br/>\nyesterday evening – had four</p>\n```\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3091,
+      "width": 1920,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/bd2ad29a-37d2-3c65-be40-7c729af6c88a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3091,
+                "width": 1920,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/bd2ad29a-37d2-3c65-be40-7c729af6c88a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[1883, Feb. 9]</p>\n<p>\nactions of bowels last night.<br>\nI will be obliged to stay<br>\nup again to-night though<br>\nam quite exausted<br>\nI will endeavor to get<br>\nsome rest through the day -<br>\nAlten has been \"overcome\"<br>\never since he went to town<br>\nlast Tuesday and last<br>\nnight when I went for<br>\nhim was \"worse off\" than<br>\never so Major sat up -<br>\nG. seems improved this<br>\nA.M - better perhaps<br>\nthan when you left<br>\nbut will need constant<br>\nattention night and day<br>\nand - Mr. Smith being\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Initial Thoughts on Transcription**\n\nAlright, let's get down to it. I've got this handwritten letter in front of me, and my task is to transcribe it. First thing I notice is that date in pencil at the top right, \"[1883, Feb. 9]\". That's probably been added later, but I should include it. I'm going to start by getting the basic structure of the letter down: it looks like paragraphs are the way to go here. There's a lot of cursive, some slanting, and I'll need to pay close attention to the word choices. I'm aiming for high accuracy here, so I'll be really careful.\n\n**Deep Dive into the Text**\n\nHere we go. Line 1: \"actions of bowels last night.\" Okay, pretty straightforward start. Line 2: \"I will be obliged to stay\". The \"I\" is a bit stylized, but \"obliged\" is clear. Moving on to Line 3: \"up again to-night though\". The \"though\" is kind of squeezed in, but readable.\n\nLine 4 is interesting: \"am ~~badly~~ quite exhausted\". Hmm, \"badly\" is crossed out. I'm going to have to decide how to handle that. I want to convey the message as it stands now, so \"quite exhausted\" is the operative part. But I need to remember \"badly\" was there originally. The spelling, \"exausted,\" isn't standard, but I need to transcribe it as written.\n\nThen, \"I will endeavor to get\" in Line 5 – \"endeavor\" looks good. Line 6: \"some rest through the day -\" – nothing tricky there. And here comes the potential for confusion in Line 7: \"Alten has been 'overcome'\". The name starts with \"A\" but that second letter looks like a \"l\" but there's a horizontal bar right through it like a \"t\". \"Alten\" sounds unusual but looks like the visual evidence. It could be a cross for a double L like \"Allen\". Let's assume it's \"Alten\" unless more context appears. And \"overcome\" is in quotes, so I'll keep those too.\n\nIn Line 8, \"ever since he went to town\" looks okay, \"went\" is slightly unclear, context suggests \"went\". Lines 9-11: \"last Tuesday and last night when I went for him was 'worse off' than\" – all clear, including the quotes around \"worse off\".\n\nLine 12 is \"ever so Major sat up -\". \"Major\" is clear, \"sat\" looks like the crossbar is high or there's an extra stroke, but the intended word is \"sat\". Line 13: \"G. seems improved this\" – \"G.\" is an initial, maybe referring to a person? or \"It\"? I'll transcribe what I see. Line 14: \"A.M - better perhaps\". And then in Line 15, \"than when you left\".\n\nLines 16-17: \"but will need constant attention night and day\" – nothing too tricky. Line 18: \"and - Mr. Smith being\" – the last word \"being\" is a little cut off, but still decipherable.\n\n**Refining and Double-Checking**\n\nOkay, now it's about going back and making absolutely sure. \"Exausted\" is written with a missing 'h'. I won't correct the spelling. In Line 7, it's definitely an A, a loop, a straight stick, a loop, a hump. It looks like \"Alten\". Not Allen? \"Alten\" makes sense given the letter formation, but it's a rare name. In Line 12, \"sat\" that has a strange descender. Not a \"t\"? Checking the 't' in the previous lines, the letter forms are similar. The mark seems to be part of \"sat\" not a letter below. And it looks like \"Major sat up\" is the correct wording. The \"G.\" in Line 13 makes sense as a capitalized initial. The line break here makes sense. I won't correct these, I'll transcribe what the user wrote.\n\nThe structure of the final transcription is: The bracketed date at the top in its own line, the other lines in a new paragraph, the letters as written.\n\n**Addressing the \"badly\" Issue**\n\nNow, the \"badly\" that's crossed out is the hardest. I don't have strikethrough tags available, so I have to make a call. The goal is to be accurate and readable. Leaving it out makes the text cleaner, but doesn't preserve what was there. I want\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3091,
+      "width": 1920,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5dd21b8c-ecf3-36fe-bca9-0897833cdc4c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3091,
+                "width": 1920,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5dd21b8c-ecf3-36fe-bca9-0897833cdc4c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n[1883, Feb 9]\n\naround the measles & so\nmuch cannot assist -\nMrs. G. cannot trust Willie\nand does not want him\nagain - says she will\nstay up herself &c but\nthat of course is impossible\nI sincerely hope you will\ncurtail your attendance at\nAustin as much as possible\nas we greatly need your assist-\nance with G.\nLangeson has steadily im-\nproved but not out &\nnot going to Bryan - at least\nuntil good weather -\nCol. Cole's hands are full\nwith his family troubles and\n(over)</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis**\n\nAlright, let's get down to brass tacks. The user wants this handwritten letter transcribed, and they want it done right. Okay, let's break this down.\n\n**First**, this looks like a handwritten letter. I note the pencil date \"[1883, Feb 9]\" at the top right, so we have a date to anchor us. The script is cursive. I would describe it as legible, with a few spots where the penmanship gets a little messy.\n\n**Then** I'll be going line-by-line, which calls for careful observation. It's an interesting letter too: It mentions family stuff, illness (measles!), names like \"G.\" or \"Mrs. G.\" which needs to be deciphered, \"Willie\", \"Austin\", a name possibly \"Gangeson\" that looks like a challenge, and \"Col. Cole.\"\n\n**I start line by line**\n* Pencil note: `[1883, Feb 9]` – Got it.\n* **Line 1:** \"around the measles & so\". The first word might read \"avoid\" or \"around\" but it will be \"around\". There's also an ampersand in there that's crossed-out. I'll include the characters as I see them: `around the measles & so`\n* **Line 2:** `much cannot assist -` – Straightforward.\n* **Line 3:** `Mrs. G. cannot trust Willie` – Looks like `Willie` with the context of \"him\" in the next line.\n* **Line 4:** `and does not want him` – Simple enough.\n* **Line 5:** `again - says she will` – Okay.\n* **Line 6:** `stay up herself &c but` – I will translate `&c` as et cetera.\n* **Line 7:** `that of course is impossible` – The word that looks like it's written over something. Looks like 'that'. I'm going with 'that' as it makes more sense.\n* **Line 8:** `I sincerely hope you will` – Makes sense.\n* **Line 9:** `curtail your attendance at` – Let's transcribe the letters.\n* **Line 10:** `Austin as much as possible` – The last word looks like `possible`\n* **Line 11:** `as we greatly need your assist-` – No problem.\n* **Line 12:** `ance with G.` – Okay. Here we go. The name with `G`.\n* **Line 13:** `Gangeson has steadily im-` – Here's the challenge. The name could be 'Gangeson'. My first thought will be `Gangeson`, it starts with a clear capital 'G' or 'L' cursive. Could be `Gangeson`, `Grangeson`, `Ferguson`, `Gorgeson`, `Langeson`. I'll analyze this in detail.\n  *  I will try searching online for names around the time frame of 1883, in Austin/Bryan, Texas area to look for a similar name.\n  *  For now, I'll transcribe as `Langeson` as it looks visually similar.\n\nI'm thinking hard:\n*   Maybe it's a medical condition. It mentions \"assist-ance with G.\".\n*   \"G.\" might stand for the patient and this might be a doctor's letter. Could it be `Gangrene`? Is it even a person? The wording is weird. It might be about `Gangrene`, but \"not going to Bryan\" seems odd for a condition. So, likely a person.\n*   I'll stick with a name for now.\n*   I will examine the letters and see the name again. `Langeson`.\n*   Let's check the letters again: `L`, `a`, `n`, `g`, `e`, `s`, `o`, `n`.\n*   Let's check for names: `Ferguson`, `Gregson`, etc.\n\n**After several checks**, I will go with a very detailed check to name the word:\n*   Visually, it looks like `Langeson`.\n*   But is there a name that makes sense?\n*   It's a very meticulous assessment, as the letters look slightly complex.\n*   It might be `Ferguson`, but I need to make sure I am transcribing the *letters*, not making assumptions.\n*   The first letter is the key. Is it `F` or `L`? The cross on an `F` is missing, but maybe it's just cursive?\n*   However, if I assume it\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3091,
+      "width": 1920,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b65ac0b5-8c28-30f3-951b-afcf8863e25c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3091,
+                "width": 1920,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b65ac0b5-8c28-30f3-951b-afcf8863e25c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>has just gone home - to bed<br>\nhe said - as he was <sup>not</sup> feeling<br>\nexactly right -<br>\nCalvits aunt sister and father<br>\ncame last night -<br>\nThey occupy Smiths and<br>\nCranes rooms and [illegible]<br>\nC & S have gone to mine</p>\n\n<p>Truly yours<br>\nF. V. W.<br>\n[Van Winkle ?]</p>\n\n<p>To<br>\nProf. L. L. M<sup>c</sup> Innis -<br>\nfor M. M. M<sup>c</sup> Innis<br>\nAustin<br>\nTexas -</p>\n\n<p>P. S. Please excuse<br>\nwriting - as it is in haste<br>\nand with unsteady hand -</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Transcription Analysis and Refinement**\n\nOkay, here’s how I’m thinking about this transcription. I need to get this right. The user wants the text from a handwritten letter. I've broken the letter down line by line, really looking at the characters, and what the writer meant.\n\n*   **Line 1:** The first word, \"has\", is clear. \"Gone\" is a bit ambiguous, the \"o\" is open, but contextually, it's definitely \"gone\". The rest is straightforward: \"home - to bed\".\n*   **Line 2:** \"He said\" and \"as he was\" are clear. The word \"not\" is inserted above the line, the person wasn't feeling well. The final part, \"feeling\", is also clear.\n*   **Line 3:** \"Exactly right\", straightforward.\n*   **Line 4:** \"Calvits\" - I'm pretty sure it's not \"Colvits\", the 'a' is open, that is, it's probably \"Calvits\", a likely surname, and the rest is clear: \"aunt sister and father\".\n*   **Line 5:** \"Came last night\", easy to read.\n*   **Line 6:** \"They occupy Smiths and\". The word \"Smiths\" is interesting. The \"m\" seems to have three humps. The standard interpretation is \"Smiths\" - I'll go with that for now. The word \"and\" is clear.\n*   **Line 7:** \"Cranes rooms and\". Here, there's a heavy strikeout. It looks like it was \"those\" that was crossed out but I can't be sure so I'll put [illegible] - the IIIF guidelines say to transcribe everything that is there even if it's struck out.\n*   **Line 8:** \"C & S have gone to mine\". C & S - likely the initials of the people mentioned above. \"Have\" looks like a slightly different version than the norm, but it is clear. The 'o' is open in \"gone\". The final section \"to mine\" is also clear.\n*   **Line 9:** \"Truly yours\" - The word \"yours\" seems to have a trailing line after it but I'll write it as it's written.\n*   **Line 10 (Signature):** The signature looks like \"F. V. W.\". There's a faint pencil annotation that says \"[Van Winkle?]\" - so the middle initial is probably a 'V', even though the letter shape could be an 'N' written in a cursive-style. I'll go with the pencil suggestion.\n*   **Address Section:** The letter has an address block. First line: \"To\". Then, \"Prof. L. L. Mc Innis -\". Is the 'c' in \"Mc\" superscript? Yes, it is. Then, \"for M. M. Mc Innis\". I'm guessing \"for\" as in forwarding, or \"care of\". It's the best read. And the final lines are clear: \"Austin\" and \"Texas -\".\n*   **Postscript:** \"P. S. Please excuse\" ... \"writing - as it is in haste\" ... \"and with unsteady hand -\". Pretty self-explanatory.\n\n**Refinements:** I have checked the letters again. I have re-looked at the signature: F. V. W. It has to be that way given the pencil annotation. I will transcribe the initials in ink, and the pencil text as a note. Also, I'll transcribe \"Smiths\", even though \"Suitts\" is also plausible, \"Smiths\" is the norm. I have checked for allowed HTML elements.\n\n**Final Formatting:** I'm going to put this all together using `<p>` for paragraphs, `<br>` for line breaks. I'll note anything crossed out or ambiguous and put it in. I am also putting in the information on the professor and the use of \"for.\" I'm also putting in all the pencil notes and checking for all the formatting, given the IIIF guidelines. And I'm checking that the final result looks correct.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/37/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

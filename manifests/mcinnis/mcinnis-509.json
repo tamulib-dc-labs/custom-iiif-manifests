@@ -1,198 +1,244 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-509.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Appr. to A&M College, circa April 1871-1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Appr. to A&M College, circa April 1871-1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 4 Louis L. McInnis Papers/Box 4 Folder 12 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/8d87ad8f-557e-3cb6-a9c8-d29ae33aa19c/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3239,
-            "width": 4988,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/8d87ad8f-557e-3cb6-a9c8-d29ae33aa19c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3239,
-                                "width": 4988,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8d87ad8f-557e-3cb6-a9c8-d29ae33aa19c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Appr to A M C. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 1/2</p>\n\n| | | | |\n| :--- | :--- | :--- | :--- |\n| Apr 17 1871 | 75 000 | School Fund | Buildings |\n| Feb 2 1874 | 40 000 | General Revenue | \" |\n| Feb 8 1875 | 32 000 | \" \" | \" |\n| June 24 1876 | 40 000 | \" \" | \" |\n| | $ 187 000 | | |\n| 1879 | 15 000 | Univ Fund | Library Apparatus Ag'l Implements |\n| | | | Mech Tools & c - |\n| 1881 | 4 987.44 | General Rev. | To pay debt incurred |\n| | | | in making additions |\n| 1881 | 15 000 | Univ Fund | State Students |\n| 1883 | 6 000 | Gen. Rev. | State Stud. Def. |\n| 1883 | 800 | \" \" | To Settle Land Title |\n| 1883 | 30 000 | \" \" | Repairs Imp & c & c |\n| 1883 | 10 000 | Univ Fund | \" \" |\n| 1885 | 20 000 | Gen Rev | \" \" & Maint & c |\n| 1885 | 10 000 | Univ Fund | \" \" \" \" |\n| | <span style=\"text-decoration: underline;\">$ 298 787 44</span> | | |</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts Before Transcription**\n\nAlright, I've got the task laid out: transcribe this handwritten document. The key is accuracy while respecting the original format and any oddities. This looks like a financial ledger, probably related to a college or university, given the \"Univ Fund\" and \"Ag'l Implements.\"\n\nI need to nail the layout, the table structure, and the subtle details, like that \"2 1/2\" at the top right. I see some handwriting that I will need to interpret carefully, there are a few overwritten words and corrections. I will transcribe the final version. I need to make sure I get those ditto marks (\") right. Markdown tables are the way to go. Let's start with the top section \"Appr to A M C.\" \u2013 looks like a standard abbreviation. Then that \"2 1/2\" needs to be placed at the right.\n\nNow for the table: It looks like four main columns: Date, Amount, Source, and Purpose. Okay, here we go, one line at a time. The first one is straightforward. Row two, however, has a crossed-out date, looks like a struggle between Feb/Sep. I\u2019ll transcribe it as Feb 2 1874. I'll stick to what is most visible on each line. Then it's just a matter of going through each line, careful with those dollar signs and the commas. And be extra careful where there are any corrections or overwritten entries.\n\nThe alignment is important: I see that \u201cMech Tools & c\u201d on line 5 might be a continuation of the previous entry, let me just check the ink flow and how the lines are written. The text \"Mech Tools & c\" does not have an amount, it appears to be tied to the description above for the \"Library Apparatus\". The line below \"General Rev.\" does have an amount. So the two are related: \"Library Apparatus Ag'l Implements / Mech Tools & c -\".\n\nThe bottom sum \u2013 I've got to ensure the totals are accurate. It's a matter of staying focused, a clear mind, and attention to detail. I\u2019ve checked the \"State Stud. Def.\" and the \"Repairs Imp & c & c.\" and all the rest. The key is to capture the document accurately. Okay, let's get this done and make it clear and accurate. Let's format the output, construct the table, and ensure every detail is right. Okay, let's get to work!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3239,
-            "width": 4988,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/bef5fcaf-b72f-3ebf-8928-12d1b5ea51d4/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3239,
-                                "width": 4988,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bef5fcaf-b72f-3ebf-8928-12d1b5ea51d4",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>| | | |\n| :--- | :--- | :--- |\n| Total Receipts | | $ 76 187.60 |\n| 11 Expenditures | | 69 743 23 |\n| Balance | | 6444 37 |\n| Add Balance Jan '85 | | 592 85 |\n| Balance Cash on hand | | $ 7037 22 |\n\n<p>\nFrom \"A & M College\" includes<br>\nall money received other than<br>\nfrom the State appropriation - Viz:<br>\nFrom Students, Officers, Professors<br>\nSales of Farm Produce &c &c,\n</p>\n\n<p>\nFor \"A. & M. College\" includes<br>\nall money expended for<br>\nthe maintenance of Students,<br>\nincluding Board washing fuel lights<br>\nmedical attendance, pay<br>\nof all officers and employees<br>\nexcept those hereinafter men-<br>\ntioned as paid from the<br>\ninterest on the Endowment<br>\nfund and from portion of<br>\nState Approp. of 19th Legis.<br>\nand all other expenses<br>\nincidental to the operation & mainten<br>\nof the College\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Okay, let's get this transcription done. Here's how I see it:**\n\nI've got a handwritten financial document here, and it's rotated 90 degrees clockwise. My first job is to mentally reorient it so the text flows vertically. It appears to be a financial summary or report, likely for \"A. & M. College\".\n\nFirst, let's break down the layout. The top section looks like a calculation or summary. I'll represent this as a table:\n\n| | | |\n| :--- | :--- | :--- |\n| Total Receipts | | $ 76 187.60 |\n| \" Expenditures | | 69 743 23 |\n| Balance | | 6444 37 |\n| Add Balance Jan '85 | | 592 85 |\n| Balance Cash on hand | | $ 7037 22 |\n\nNow the main text is split into two paragraphs defining what money belongs to \"A. & M. College\". The first paragraph describes what's *from* the college, and the second what's *for* the college. It looks like it is one sheet of paper (not two pages), with the text running continuously top to bottom (although in two distinct blocks). The original page has the \"From\" block at the top, and the \"For\" block underneath. Here's how the text breaks down:\n\n```\nFrom \"A & M College\" includes\nall money received other than\nfrom the State appropriation - Viz:\nFrom Students, Officers, Professors\nSales of Farm Produce &c &c,\n```\n\n```\nFor \"A. & M. College\" includes\nall money expended for\nthe maintenance of Students,\nincluding Board washing fuel lights\nmedical attendance, pay\nof all officers and employees\nexcept those hereinafter men-\ntioned as paid from the\ninterest on the Endowment\nfund and from portion of\nState Approp. of 19th Legis.\nand all other expenses\nincidental to the operation & mainten\nof the College\n```\n\nThe word \"Add\" looks a little messy, but it's clearly an addition, so that's how I'll transcribe it. The letters \"Viz\" looks like \"Viz-\". \"incidental to the operation & mainten\" is cut off at the edge. The word appears to be \"maintenance\" but the last few letters are missing. However, the next line has \"of the College\" and completes the sentence. The \"State Approp. of 19th Legis.\" are both abbreviated. And \"11\" represents ditto marks.\n\nThe numbers are all formatted the same.\n\nOverall, it's a straightforward transcription. I'm focusing on accuracy, capturing the handwritten details as precisely as I can, including the original line breaks, abbreviations, and any punctuation quirks.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-509.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Appr. to A&M College, circa April 1871-1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Appr. to A&M College, circa April 1871-1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 4 Louis L. McInnis Papers/Box 4 Folder 12 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College--Finance",
+          "Educational finance--United States--19th century",
+          "State appropriations--United States",
+          "College buildings--Construction and repair",
+          "University endowments",
+          "Public higher education--Funding"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "A&M College (Agricultural and Mechanical College)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Financial record documenting appropriations made to an Agricultural and Mechanical College between April 1871 and 1885, totaling $485,787.44 from both state general revenue and university funds. The document lists specific allocations for buildings, library apparatus, agricultural implements, debt reduction, repairs, and maintenance, along with a statement explaining revenue sources (students, officers, professors, farm produce) and expenditure categories (student maintenance, staff salaries, operational expenses). This ledger reflects the institutional development and financial management of a land-grant college during the post-Reconstruction era."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/8d87ad8f-557e-3cb6-a9c8-d29ae33aa19c/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3239,
+      "width": 4988,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/8d87ad8f-557e-3cb6-a9c8-d29ae33aa19c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3239,
+                "width": 4988,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/8d87ad8f-557e-3cb6-a9c8-d29ae33aa19c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Appr to A M C. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 1/2</p>\n\n| | | | |\n| :--- | :--- | :--- | :--- |\n| Apr 17 1871 | 75 000 | School Fund | Buildings |\n| Feb 2 1874 | 40 000 | General Revenue | \" |\n| Feb 8 1875 | 32 000 | \" \" | \" |\n| June 24 1876 | 40 000 | \" \" | \" |\n| | $ 187 000 | | |\n| 1879 | 15 000 | Univ Fund | Library Apparatus Ag'l Implements |\n| | | | Mech Tools & c - |\n| 1881 | 4 987.44 | General Rev. | To pay debt incurred |\n| | | | in making additions |\n| 1881 | 15 000 | Univ Fund | State Students |\n| 1883 | 6 000 | Gen. Rev. | State Stud. Def. |\n| 1883 | 800 | \" \" | To Settle Land Title |\n| 1883 | 30 000 | \" \" | Repairs Imp & c & c |\n| 1883 | 10 000 | Univ Fund | \" \" |\n| 1885 | 20 000 | Gen Rev | \" \" & Maint & c |\n| 1885 | 10 000 | Univ Fund | \" \" \" \" |\n| | <span style=\"text-decoration: underline;\">$ 298 787 44</span> | | |</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts Before Transcription**\n\nAlright, I've got the task laid out: transcribe this handwritten document. The key is accuracy while respecting the original format and any oddities. This looks like a financial ledger, probably related to a college or university, given the \"Univ Fund\" and \"Ag'l Implements.\"\n\nI need to nail the layout, the table structure, and the subtle details, like that \"2 1/2\" at the top right. I see some handwriting that I will need to interpret carefully, there are a few overwritten words and corrections. I will transcribe the final version. I need to make sure I get those ditto marks (\") right. Markdown tables are the way to go. Let's start with the top section \"Appr to A M C.\" – looks like a standard abbreviation. Then that \"2 1/2\" needs to be placed at the right.\n\nNow for the table: It looks like four main columns: Date, Amount, Source, and Purpose. Okay, here we go, one line at a time. The first one is straightforward. Row two, however, has a crossed-out date, looks like a struggle between Feb/Sep. I’ll transcribe it as Feb 2 1874. I'll stick to what is most visible on each line. Then it's just a matter of going through each line, careful with those dollar signs and the commas. And be extra careful where there are any corrections or overwritten entries.\n\nThe alignment is important: I see that “Mech Tools & c” on line 5 might be a continuation of the previous entry, let me just check the ink flow and how the lines are written. The text \"Mech Tools & c\" does not have an amount, it appears to be tied to the description above for the \"Library Apparatus\". The line below \"General Rev.\" does have an amount. So the two are related: \"Library Apparatus Ag'l Implements / Mech Tools & c -\".\n\nThe bottom sum – I've got to ensure the totals are accurate. It's a matter of staying focused, a clear mind, and attention to detail. I’ve checked the \"State Stud. Def.\" and the \"Repairs Imp & c & c.\" and all the rest. The key is to capture the document accurately. Okay, let's get this done and make it clear and accurate. Let's format the output, construct the table, and ensure every detail is right. Okay, let's get to work!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3239,
+      "width": 4988,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/bef5fcaf-b72f-3ebf-8928-12d1b5ea51d4/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3239,
+                "width": 4988,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/bef5fcaf-b72f-3ebf-8928-12d1b5ea51d4",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>| | | |\n| :--- | :--- | :--- |\n| Total Receipts | | $ 76 187.60 |\n| 11 Expenditures | | 69 743 23 |\n| Balance | | 6444 37 |\n| Add Balance Jan '85 | | 592 85 |\n| Balance Cash on hand | | $ 7037 22 |\n\n<p>\nFrom \"A & M College\" includes<br>\nall money received other than<br>\nfrom the State appropriation - Viz:<br>\nFrom Students, Officers, Professors<br>\nSales of Farm Produce &c &c,\n</p>\n\n<p>\nFor \"A. & M. College\" includes<br>\nall money expended for<br>\nthe maintenance of Students,<br>\nincluding Board washing fuel lights<br>\nmedical attendance, pay<br>\nof all officers and employees<br>\nexcept those hereinafter men-<br>\ntioned as paid from the<br>\ninterest on the Endowment<br>\nfund and from portion of<br>\nState Approp. of 19th Legis.<br>\nand all other expenses<br>\nincidental to the operation & mainten<br>\nof the College\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Okay, let's get this transcription done. Here's how I see it:**\n\nI've got a handwritten financial document here, and it's rotated 90 degrees clockwise. My first job is to mentally reorient it so the text flows vertically. It appears to be a financial summary or report, likely for \"A. & M. College\".\n\nFirst, let's break down the layout. The top section looks like a calculation or summary. I'll represent this as a table:\n\n| | | |\n| :--- | :--- | :--- |\n| Total Receipts | | $ 76 187.60 |\n| \" Expenditures | | 69 743 23 |\n| Balance | | 6444 37 |\n| Add Balance Jan '85 | | 592 85 |\n| Balance Cash on hand | | $ 7037 22 |\n\nNow the main text is split into two paragraphs defining what money belongs to \"A. & M. College\". The first paragraph describes what's *from* the college, and the second what's *for* the college. It looks like it is one sheet of paper (not two pages), with the text running continuously top to bottom (although in two distinct blocks). The original page has the \"From\" block at the top, and the \"For\" block underneath. Here's how the text breaks down:\n\n```\nFrom \"A & M College\" includes\nall money received other than\nfrom the State appropriation - Viz:\nFrom Students, Officers, Professors\nSales of Farm Produce &c &c,\n```\n\n```\nFor \"A. & M. College\" includes\nall money expended for\nthe maintenance of Students,\nincluding Board washing fuel lights\nmedical attendance, pay\nof all officers and employees\nexcept those hereinafter men-\ntioned as paid from the\ninterest on the Endowment\nfund and from portion of\nState Approp. of 19th Legis.\nand all other expenses\nincidental to the operation & mainten\nof the College\n```\n\nThe word \"Add\" looks a little messy, but it's clearly an addition, so that's how I'll transcribe it. The letters \"Viz\" looks like \"Viz-\". \"incidental to the operation & mainten\" is cut off at the edge. The word appears to be \"maintenance\" but the last few letters are missing. However, the next line has \"of the College\" and completes the sentence. The \"State Approp. of 19th Legis.\" are both abbreviated. And \"11\" represents ditto marks.\n\nThe numbers are all formatted the same.\n\nOverall, it's a straightforward transcription. I'm focusing on accuracy, capturing the handwritten details as precisely as I can, including the original line breaks, abbreviations, and any punctuation quirks.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/509/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

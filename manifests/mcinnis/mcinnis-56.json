@@ -1,210 +1,257 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-56.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. B. Yeager, October 4, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-10-04"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. B. Yeager, October 4, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 15 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/96eea831-de4c-334f-80cb-2d15d6e22934/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3704,
-            "width": 2357,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/290",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/289",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/96eea831-de4c-334f-80cb-2d15d6e22934/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3704,
-                                "width": 2357,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/96eea831-de4c-334f-80cb-2d15d6e22934",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/296",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/295",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>Office of<br>\n<b>A. B. YEAGER,</b><br>\n<small>DEALER IN</small><br>\nDry Goods, Notions, Boots, Shoes, Hats,<br>\n\u2014AND\u2014<br>\n=>GENTS' + FURNISHING + GOODS,<=</p>\n\n<p><i>Flatonia, Tex., Oct 4</i> 188<i>3.</i></p>\n\n<p><i>Prof L. L. McInnis,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir!</i></p>\n\n<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enclosed<br>\nyou will find one dollar for which<br>\nplease give me credit. I am under<br>\nobligations to you for informing<br>\nme of the fact that I owed the College<br>\n1.<small><sup>00</sup>/<sub>xx</sub></small> . I expect that I will never<br>\nsee any of that money that<br>\nMr Boggs owes me. I would like<br>\nto have gone to school this session<br>\nbut Lieut Crane's partiality dis\u2013<br>\ncouraged me \u2014. I know that<br>\nI knew my lessons as well as most<br>\nof the boys in that school and so far<br>\nas military was concerned I had not<br>\na great many demerits \u2014 but still no<br>\npromotion. \u2014 I received only 1 zero</i></p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/297",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts on Transcription**\n\nAlright, let's break this down. My task is to transcribe this document from an image, and I need to be precise, maintaining line breaks, spelling, and punctuation as they are. I'm acting as a professional transcriptionist, so I'm paying attention to the details. The source is a handwritten letter on letterhead, and the instructions are clear: only transcribe the text, nothing else.\n\nFirst, I examined the letterhead. It's got that classic, ornate style of the late 19th century, with a script \"Office of\" and \"A. B. YEAGER\" in a larger, decorative serif. \"DEALER IN\" is in small caps, with a list of goods below. Then, the Gents' furnishings line with the visual arrows on either side. The date section uses a mix of printed and handwritten elements. Now, the handwritten portion. I see the addressee, \"Prof L. L. McInnis,\" the salutation, and the body of the letter. The handwriting is cursive, influenced by Spencerian script, pretty legible, and the ink is purple.\n\nSome specific things jumped out: the stylized \"$1.00\" notation, the abbreviation \"Lieut,\" the word \"partiality,\" and the way \"dis-couraged\" is split across lines with a hyphen, and the final \"zero\". I made a mental note to address these precisely.\n\nI started sketching out a transcription, thinking about how I'd format it in HTML. I laid out the header, date, and salutation, and I'm preserving the original line breaks. Then, I tackled the body of the letter, ensuring the placement of each word matches the image. As I refined the draft, I started thinking about the formatting and how to handle it correctly.\n\nI decided to use HTML tags and kept to the instructions for text-based glyphs and characters. I will use a combination of text, `<br>`, and proper HTML elements to handle the formatting correctly.\n\nSo, for the header, I\u2019ll use bold for \"A. B. YEAGER,\" use `<small>` for \"DEALER IN\", and keep the rest as it is, maintaining the original line breaks with `<br>`. The arrows flanking \"GENTS'...\" I'll approximate with `=>` and `<=`. The date is a mix of printed and handwritten, so I will wrap the handwritten parts in `<i>`. With the body, I'll use `<i>` for the handwritten portion. The visual break \"Enclosed\" I will represent.\n\nThe tricky bit is that \"1.00\" amount. It looks like \"1\" with \"00\" over \"xx\". I will use `<sup>` and `<sub>` tags to represent it precisely as `1.<sup>00</sup>/<sub>xx</sub>`. And, as I reread the lines, I caught the hyphen in \"dis-couraged\".\n\nI reviewed against the image, double-checking every word, every punctuation mark, every line break, and making sure my HTML formatting matched the layout and any nuances of the writing.\n\nI looked at the final product, and I think it's spot on. Now, I will put it all together into the structured output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3704,
-            "width": 2357,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/292",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/291",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/d6e6ac52-e831-3e81-8e11-c48ea48d4a22/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3704,
-                                "width": 2357,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d6e6ac52-e831-3e81-8e11-c48ea48d4a22",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/299",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/298",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>during the four<sup>teen</sup> months that<br/>\nI was there._ If Mr Boggs returns<br/>\nto school this year and you have<br/>\na desire to collect it for me I<br/>\nwill give you 20%; - you will<br/>\ngreatly oblige Your Scholar.<br/>\nA. B. Yeager.</p>\n<p>P.S.<br/>\nSince I have decided not to return.<br/>\nIs a resignation necessary?</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/300",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's the Transcription of the Letter:**\n\nOkay, so I'm looking at this handwritten letter. My goal is to get a clean, accurate transcription. First, I need to understand what I'm looking at. It's the end of a letter, with a signature and a postscript. The handwriting is cursive, a little old-fashioned, but legible. The ink is either purple or a faded blue. The paper is lined and folded.\n\nNow, let's go line-by-line. The first line is tricky: it looks like \"during the four<sup>teen</sup> months that\". The word starts with \"four,\" and then there's something written above, it looks like \"teen,\" a correction. Then, the next line reads, \"I was there._ If Mr Boggs returns.\" Okay, \"If\" \"Mr. Boggs\" looks fine.\n\nThe next line reads \"to school this year and you have\". Straightforward, so far. Next: \"a desire to collect it for me I,\" that's clear enough. Then, \"will give you 20%; - you will\", 20 percent, semicolon, dash, got it. The next line says \"greatly oblige Your Scholar.\" Okay, \"Your Scholar.\" is clear.\n\nThen, there's the signature, \"A. B. Yeager.\" looks like a clear signature.\n\nThen, the postscript \"P.S.\" Okay, and after that, \"Since I have decided not to return.\" Seems clear. Then the last line, \"Is a resignation necessary?\" Okay, that's what it says.\n\nLet's refine that first word. \"Fourteen\" is the best interpretation of what's intended. \"Four\" and then \"teen\" superscripted. I will transcribe it as `four<sup>teen</sup>`.\n\nNow, let's put it all together. Here's what I've got:\n\n<p>during the four<sup>teen</sup> months that<br/>\nI was there._ If Mr Boggs returns<br/>\nto school this year and you have<br/>\na desire to collect it for me I<br/>\nwill give you 20%; - you will<br/>\ngreatly oblige Your Scholar.<br/>\nA. B. Yeager.</p>\n<p>P.S.<br/>\nSince I have decided not to return.<br/>\nIs a resignation necessary?</p>\n\nI think I've got a pretty good transcription. Time to move on!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-56.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. B. Yeager, October 4, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-10-04"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. B. Yeager, October 4, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 15 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Military education",
+          "Educational institutions--Texas",
+          "Debt collection",
+          "Student discipline",
+          "Military academies"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Yeager, A. B."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Boggs",
+          "Crane, Lieut"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A. B. Yeager, a merchant in Flatonia, Texas, writes to Professor Louis L. McInnis acknowledging a one-dollar debt owed to the college and requesting credit. Yeager expresses frustration over his experience at the military school, complaining about unfair treatment by Lieut. Crane and lack of promotion despite adequate academic performance and military conduct, which discouraged him from continuing his studies. He offers McInnis a twenty percent commission if the professor can collect a debt from Mr. Boggs and inquires whether a formal resignation is necessary since he has decided not to return to school."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/96eea831-de4c-334f-80cb-2d15d6e22934/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3704,
+      "width": 2357,
+      "items": [
+        {
+          "id": "http://example.org/iiif/290",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/289",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/96eea831-de4c-334f-80cb-2d15d6e22934/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3704,
+                "width": 2357,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/96eea831-de4c-334f-80cb-2d15d6e22934",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/296",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/295",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>Office of<br>\n<b>A. B. YEAGER,</b><br>\n<small>DEALER IN</small><br>\nDry Goods, Notions, Boots, Shoes, Hats,<br>\n—AND—<br>\n=>GENTS' + FURNISHING + GOODS,<=</p>\n\n<p><i>Flatonia, Tex., Oct 4</i> 188<i>3.</i></p>\n\n<p><i>Prof L. L. McInnis,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir!</i></p>\n\n<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enclosed<br>\nyou will find one dollar for which<br>\nplease give me credit. I am under<br>\nobligations to you for informing<br>\nme of the fact that I owed the College<br>\n1.<small><sup>00</sup>/<sub>xx</sub></small> . I expect that I will never<br>\nsee any of that money that<br>\nMr Boggs owes me. I would like<br>\nto have gone to school this session<br>\nbut Lieut Crane's partiality dis–<br>\ncouraged me —. I know that<br>\nI knew my lessons as well as most<br>\nof the boys in that school and so far<br>\nas military was concerned I had not<br>\na great many demerits — but still no<br>\npromotion. — I received only 1 zero</i></p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/297",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts on Transcription**\n\nAlright, let's break this down. My task is to transcribe this document from an image, and I need to be precise, maintaining line breaks, spelling, and punctuation as they are. I'm acting as a professional transcriptionist, so I'm paying attention to the details. The source is a handwritten letter on letterhead, and the instructions are clear: only transcribe the text, nothing else.\n\nFirst, I examined the letterhead. It's got that classic, ornate style of the late 19th century, with a script \"Office of\" and \"A. B. YEAGER\" in a larger, decorative serif. \"DEALER IN\" is in small caps, with a list of goods below. Then, the Gents' furnishings line with the visual arrows on either side. The date section uses a mix of printed and handwritten elements. Now, the handwritten portion. I see the addressee, \"Prof L. L. McInnis,\" the salutation, and the body of the letter. The handwriting is cursive, influenced by Spencerian script, pretty legible, and the ink is purple.\n\nSome specific things jumped out: the stylized \"$1.00\" notation, the abbreviation \"Lieut,\" the word \"partiality,\" and the way \"dis-couraged\" is split across lines with a hyphen, and the final \"zero\". I made a mental note to address these precisely.\n\nI started sketching out a transcription, thinking about how I'd format it in HTML. I laid out the header, date, and salutation, and I'm preserving the original line breaks. Then, I tackled the body of the letter, ensuring the placement of each word matches the image. As I refined the draft, I started thinking about the formatting and how to handle it correctly.\n\nI decided to use HTML tags and kept to the instructions for text-based glyphs and characters. I will use a combination of text, `<br>`, and proper HTML elements to handle the formatting correctly.\n\nSo, for the header, I’ll use bold for \"A. B. YEAGER,\" use `<small>` for \"DEALER IN\", and keep the rest as it is, maintaining the original line breaks with `<br>`. The arrows flanking \"GENTS'...\" I'll approximate with `=>` and `<=`. The date is a mix of printed and handwritten, so I will wrap the handwritten parts in `<i>`. With the body, I'll use `<i>` for the handwritten portion. The visual break \"Enclosed\" I will represent.\n\nThe tricky bit is that \"1.00\" amount. It looks like \"1\" with \"00\" over \"xx\". I will use `<sup>` and `<sub>` tags to represent it precisely as `1.<sup>00</sup>/<sub>xx</sub>`. And, as I reread the lines, I caught the hyphen in \"dis-couraged\".\n\nI reviewed against the image, double-checking every word, every punctuation mark, every line break, and making sure my HTML formatting matched the layout and any nuances of the writing.\n\nI looked at the final product, and I think it's spot on. Now, I will put it all together into the structured output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3704,
+      "width": 2357,
+      "items": [
+        {
+          "id": "http://example.org/iiif/292",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/291",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/d6e6ac52-e831-3e81-8e11-c48ea48d4a22/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3704,
+                "width": 2357,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/d6e6ac52-e831-3e81-8e11-c48ea48d4a22",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/299",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/298",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>during the four<sup>teen</sup> months that<br/>\nI was there._ If Mr Boggs returns<br/>\nto school this year and you have<br/>\na desire to collect it for me I<br/>\nwill give you 20%; - you will<br/>\ngreatly oblige Your Scholar.<br/>\nA. B. Yeager.</p>\n<p>P.S.<br/>\nSince I have decided not to return.<br/>\nIs a resignation necessary?</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/300",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's the Transcription of the Letter:**\n\nOkay, so I'm looking at this handwritten letter. My goal is to get a clean, accurate transcription. First, I need to understand what I'm looking at. It's the end of a letter, with a signature and a postscript. The handwriting is cursive, a little old-fashioned, but legible. The ink is either purple or a faded blue. The paper is lined and folded.\n\nNow, let's go line-by-line. The first line is tricky: it looks like \"during the four<sup>teen</sup> months that\". The word starts with \"four,\" and then there's something written above, it looks like \"teen,\" a correction. Then, the next line reads, \"I was there._ If Mr Boggs returns.\" Okay, \"If\" \"Mr. Boggs\" looks fine.\n\nThe next line reads \"to school this year and you have\". Straightforward, so far. Next: \"a desire to collect it for me I,\" that's clear enough. Then, \"will give you 20%; - you will\", 20 percent, semicolon, dash, got it. The next line says \"greatly oblige Your Scholar.\" Okay, \"Your Scholar.\" is clear.\n\nThen, there's the signature, \"A. B. Yeager.\" looks like a clear signature.\n\nThen, the postscript \"P.S.\" Okay, and after that, \"Since I have decided not to return.\" Seems clear. Then the last line, \"Is a resignation necessary?\" Okay, that's what it says.\n\nLet's refine that first word. \"Fourteen\" is the best interpretation of what's intended. \"Four\" and then \"teen\" superscripted. I will transcribe it as `four<sup>teen</sup>`.\n\nNow, let's put it all together. Here's what I've got:\n\n<p>during the four<sup>teen</sup> months that<br/>\nI was there._ If Mr Boggs returns<br/>\nto school this year and you have<br/>\na desire to collect it for me I<br/>\nwill give you 20%; - you will<br/>\ngreatly oblige Your Scholar.<br/>\nA. B. Yeager.</p>\n<p>P.S.<br/>\nSince I have decided not to return.<br/>\nIs a resignation necessary?</p>\n\nI think I've got a pretty good transcription. Time to move on!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/56/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

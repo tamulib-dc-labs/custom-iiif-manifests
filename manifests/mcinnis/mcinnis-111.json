@@ -1,139 +1,185 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-111.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from James Garrison, April 30, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-04-30"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from James Garrison, April 30, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/5eece860-19e1-39cf-9074-8d565b640adb/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3251,
-            "width": 2117,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/74",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/73",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5eece860-19e1-39cf-9074-8d565b640adb/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3251,
-                                "width": 2117,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5eece860-19e1-39cf-9074-8d565b640adb",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/77",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/76",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br>\nCAPITOL HOTEL,<br>\n<small>Jno. R. Mahone, Proprietor.</small></p>\n\n<p>Marshall, Texas, April 30<sup>th</sup> 1885</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas,</p>\n\n<p>Dear Sir:-</p>\n\n<p>Be kind<br>\nenough to order a suit<br>\nfor Cadet Garrison, and<br>\nI will pay for it.</p>\n\n<p>Your friend truly,<br>\n[Signature]<br>\nJas. E. Garrison</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/78",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Transcription Strategy: A Thoughtful Approach**\n\nOkay, here's my plan. First, I'm setting the stage: I'm a professional transcriptionist, and my job is to accurately reproduce the text from this image. The rules are clear: top-to-bottom reading, preserving every detail (spelling, punctuation \u2013 even if it's odd), and using specific HTML tags where specified. No commentary, just the text. I've got to stick to just those specified tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup` and Markdown tables if I need them.\n\nI'm starting by taking a good, hard look at this image. It's a handwritten letter on hotel stationery. I'm noting the key elements: the \"CAPITOL HOTEL\" header with \"Jno. R. Mahone, Proprietor.\" underneath, Marshall, Texas, and the date, \"April 30th 1885\". I'm also carefully noting the addressee (Prof. L. L. McInnis), the salutation (\"Dear Sir:-\"), the body of the letter, the closing (\"Your friend truly,\"), and the signature (\"Jas. E. Garrison\"). Underneath the signature, there is a line with two tick marks in the middle.\n\nNow for the nitty-gritty transcription. I know \"CAPITOL HOTEL\" is stylized, so I'll keep the capitalization, but treat it as plain text. The \"Jno. R. Mahone, Proprietor.\" will get the `<small>` treatment. The date line has a mix of printed and handwritten text; the \"th\" in \"30th\" gets a `<sup>` tag and I'll keep \"1885\" exactly as written.\n\nThe address is next: I'm pretty sure it's \"L. L. McInnis,\" given the historical context of Texas A&M, so I'm committing to that. The \"Texas,\" is a bit scrawled, but it's clearly \"Texas,\" with a comma. \"Dear Sir:-\" is straightforward.\n\nWhen I get to the body, I'm going to take it line by line: \"Be kind\", \"enough to order a suit\", \"for Cadet Garrison, and\", \"I will pay for it.\" I'll need to carefully examine the handwriting. The \"k\" in \"kind\" looks a bit like a \"16\", but based on context, it's definitely \"kind\". I will carefully note if parts of words or the full words appear merged; the goal is to make a faithful reproduction of the image.\n\nThe closing and signature are fairly clear: \"Your friend truly,\" and \"Jas. E. Garrison\". The \"E\" is a bit curly, but I'm reasonably confident it's an \"E\". I'll mark the signature with a label. The underlining with the tick marks will be transcribed as is.\n\nBefore I write any code, I need to make sure I'm using the right HTML tags. I'll use `<p>` tags to maintain paragraph structure and `<br>` tags to preserve line breaks within lines (like in the address and the header). The `<sup>` will be for \"th\", and I may consider `<i>` for the handwritten parts to highlight them, but I need to make sure I am interpreting the prompt accurately.\n\nNow, let's look at the structure and make sure I'm staying within the project parameters.\nI am double-checking that I haven't added any unnecessary tags.\nAll the requested tags are in use.\n\nNow, after carefully considering the layout and the nuances of the handwriting, I'll assemble my final output. I'm going to check and re-check my work against the guidelines to make sure it's perfect. This is where I can finally draft the HTML. I'll add the necessary `<p>` tags, handle line breaks, and add the labels. I need to be exact here.\n\nI'm now going back over it one last time, making sure I haven't missed any details. The commas are correct, the line breaks are preserved, and I'm confident in the overall transcription. Okay, I'm ready to render the final output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-111.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from James Garrison, April 30, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-04-30"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from James Garrison, April 30, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Military uniforms--Texas--History--19th century",
+          "Military academies--Texas",
+          "Clothing and dress--Texas--History--19th century",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Garrison, James E."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Garrison, Cadet (mentioned)",
+          "Mahone, Jno. R."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from James E. Garrison to Professor Louis L. McInnis dated April 30, 1885, requesting that McInnis order a suit for Cadet Garrison. Written from the Capitol Hotel in Marshall, Texas, the letter represents correspondence between a parent or sponsor and a college administrator regarding cadet uniform or clothing provisions. This document reflects the administrative practices and financial arrangements associated with military academy attendance in late nineteenth-century Texas."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/5eece860-19e1-39cf-9074-8d565b640adb/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3251,
+      "width": 2117,
+      "items": [
+        {
+          "id": "http://example.org/iiif/74",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/73",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5eece860-19e1-39cf-9074-8d565b640adb/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3251,
+                "width": 2117,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5eece860-19e1-39cf-9074-8d565b640adb",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/77",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/76",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br>\nCAPITOL HOTEL,<br>\n<small>Jno. R. Mahone, Proprietor.</small></p>\n\n<p>Marshall, Texas, April 30<sup>th</sup> 1885</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas,</p>\n\n<p>Dear Sir:-</p>\n\n<p>Be kind<br>\nenough to order a suit<br>\nfor Cadet Garrison, and<br>\nI will pay for it.</p>\n\n<p>Your friend truly,<br>\n[Signature]<br>\nJas. E. Garrison</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/78",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Transcription Strategy: A Thoughtful Approach**\n\nOkay, here's my plan. First, I'm setting the stage: I'm a professional transcriptionist, and my job is to accurately reproduce the text from this image. The rules are clear: top-to-bottom reading, preserving every detail (spelling, punctuation – even if it's odd), and using specific HTML tags where specified. No commentary, just the text. I've got to stick to just those specified tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup` and Markdown tables if I need them.\n\nI'm starting by taking a good, hard look at this image. It's a handwritten letter on hotel stationery. I'm noting the key elements: the \"CAPITOL HOTEL\" header with \"Jno. R. Mahone, Proprietor.\" underneath, Marshall, Texas, and the date, \"April 30th 1885\". I'm also carefully noting the addressee (Prof. L. L. McInnis), the salutation (\"Dear Sir:-\"), the body of the letter, the closing (\"Your friend truly,\"), and the signature (\"Jas. E. Garrison\"). Underneath the signature, there is a line with two tick marks in the middle.\n\nNow for the nitty-gritty transcription. I know \"CAPITOL HOTEL\" is stylized, so I'll keep the capitalization, but treat it as plain text. The \"Jno. R. Mahone, Proprietor.\" will get the `<small>` treatment. The date line has a mix of printed and handwritten text; the \"th\" in \"30th\" gets a `<sup>` tag and I'll keep \"1885\" exactly as written.\n\nThe address is next: I'm pretty sure it's \"L. L. McInnis,\" given the historical context of Texas A&M, so I'm committing to that. The \"Texas,\" is a bit scrawled, but it's clearly \"Texas,\" with a comma. \"Dear Sir:-\" is straightforward.\n\nWhen I get to the body, I'm going to take it line by line: \"Be kind\", \"enough to order a suit\", \"for Cadet Garrison, and\", \"I will pay for it.\" I'll need to carefully examine the handwriting. The \"k\" in \"kind\" looks a bit like a \"16\", but based on context, it's definitely \"kind\". I will carefully note if parts of words or the full words appear merged; the goal is to make a faithful reproduction of the image.\n\nThe closing and signature are fairly clear: \"Your friend truly,\" and \"Jas. E. Garrison\". The \"E\" is a bit curly, but I'm reasonably confident it's an \"E\". I'll mark the signature with a label. The underlining with the tick marks will be transcribed as is.\n\nBefore I write any code, I need to make sure I'm using the right HTML tags. I'll use `<p>` tags to maintain paragraph structure and `<br>` tags to preserve line breaks within lines (like in the address and the header). The `<sup>` will be for \"th\", and I may consider `<i>` for the handwritten parts to highlight them, but I need to make sure I am interpreting the prompt accurately.\n\nNow, let's look at the structure and make sure I'm staying within the project parameters.\nI am double-checking that I haven't added any unnecessary tags.\nAll the requested tags are in use.\n\nNow, after carefully considering the layout and the nuances of the handwriting, I'll assemble my final output. I'm going to check and re-check my work against the guidelines to make sure it's perfect. This is where I can finally draft the HTML. I'll add the necessary `<p>` tags, handle line breaks, and add the labels. I need to be exact here.\n\nI'm now going back over it one last time, making sure I haven't missed any details. The commas are correct, the line breaks are preserved, and I'm confident in the overall transcription. Okay, I'm ready to render the final output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/111/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

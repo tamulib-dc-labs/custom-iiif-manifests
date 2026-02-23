@@ -1,127 +1,170 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-485.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Gathright, Thomas S. December 31, 1879"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Gathright, Thomas S. December 31, 1879"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/bb4875b2-b19f-3498-b685-5c0b3a859a57/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 1126,
-            "width": 1916,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/bb4875b2-b19f-3498-b685-5c0b3a859a57/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1126,
-                                "width": 1916,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/bb4875b2-b19f-3498-b685-5c0b3a859a57",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Gathright, Thomas S., 1879, Dec. 31</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Analysis of the Image's Text**\n\nOkay, so I've got this image, and my task is to transcribe the text. It looks like a handwritten entry on a card or paper. The primary text jumps out at me: \"Gathright, Thomas S., 1879, Dec. 31.\" That's the main focus, obviously. The handwriting is clear enough for that part, cursive G in Gathright, all pretty straightforward.\n\nNow, there are some faint markings on the right. I need to make a judgment call here. The prompt emphasizes accurate transcription, and using [?] for uncertainty and [illegible] when necessary. I see something that could be \"305\" or \"30S\" stacked over something else \u2013 possibly a year, like \"1879\" \u2013 but it's *very* faint. Then, below that, there's another mark, maybe \"M-4801\" or \"M-1101\". Given my expertise, it's likely an archival reference code, a microfilm number, or something similar, but it's really bordering on illegible, and the prompt suggests accuracy first. I have to balance wanting to be thorough with the risk of misinterpreting the faint marks.\n\nI'm focusing back on the main text again. \"Gathright, Thomas S., 1879, Dec. 31\". The handwriting is legible.\n\nChecking it again. Yes, that faint stuff on the right is almost indistinguishable from the paper's texture. Sticking with the core text, I'm confident in the transcription: \"Gathright, Thomas S., 1879, Dec. 31\". The formatting is straight forward with a `<p>` tag, as it's a single line. Now, I'll go through it one more time...Yes, the \"S\" is definitely an \"S,\" not an \"L\". Comma after the year, period after \"Dec\" \u2013 all clear. Final answer is: <p>Gathright, Thomas S., 1879, Dec. 31</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-485.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Gathright, Thomas S. December 31, 1879"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Gathright, Thomas S. December 31, 1879"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "Diaries",
+          "19th century American history"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Gathright, Thomas S."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A document dated December 31, 1879, attributed to Thomas S. Gathright. The item is part of the Louis L. McInnis Papers collection, suggesting it may be correspondence or a diary entry from the late nineteenth century. The specific content and significance of this document require further examination of the full transcription."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/bb4875b2-b19f-3498-b685-5c0b3a859a57/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 1126,
+      "width": 1916,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/bb4875b2-b19f-3498-b685-5c0b3a859a57/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1126,
+                "width": 1916,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/bb4875b2-b19f-3498-b685-5c0b3a859a57",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Gathright, Thomas S., 1879, Dec. 31</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Analysis of the Image's Text**\n\nOkay, so I've got this image, and my task is to transcribe the text. It looks like a handwritten entry on a card or paper. The primary text jumps out at me: \"Gathright, Thomas S., 1879, Dec. 31.\" That's the main focus, obviously. The handwriting is clear enough for that part, cursive G in Gathright, all pretty straightforward.\n\nNow, there are some faint markings on the right. I need to make a judgment call here. The prompt emphasizes accurate transcription, and using [?] for uncertainty and [illegible] when necessary. I see something that could be \"305\" or \"30S\" stacked over something else – possibly a year, like \"1879\" – but it's *very* faint. Then, below that, there's another mark, maybe \"M-4801\" or \"M-1101\". Given my expertise, it's likely an archival reference code, a microfilm number, or something similar, but it's really bordering on illegible, and the prompt suggests accuracy first. I have to balance wanting to be thorough with the risk of misinterpreting the faint marks.\n\nI'm focusing back on the main text again. \"Gathright, Thomas S., 1879, Dec. 31\". The handwriting is legible.\n\nChecking it again. Yes, that faint stuff on the right is almost indistinguishable from the paper's texture. Sticking with the core text, I'm confident in the transcription: \"Gathright, Thomas S., 1879, Dec. 31\". The formatting is straight forward with a `<p>` tag, as it's a single line. Now, I'll go through it one more time...Yes, the \"S\" is definitely an \"S,\" not an \"L\". Comma after the year, period after \"Dec\" – all clear. Final answer is: <p>Gathright, Thomas S., 1879, Dec. 31</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/485/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

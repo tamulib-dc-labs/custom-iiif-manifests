@@ -1,139 +1,185 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-387.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. J. Rose, July 19, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-07-19"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. J. Rose, July 19, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4029,
-            "width": 3251,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/104",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/103",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4029,
-                                "width": 3251,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/107",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/106",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><b>State Agricultural and Mechanical College</b><br/>\nOF TEXAS.<br/>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p><small>A. J. ROSE, President Board of Directors, Salado Texas.<br/>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br/>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small></p>\n\n<p>Salado, Texas, July 19<sup>th</sup> 1890</p>\n\n<p>Louis L McInnis<br/>\nCollege Station Txas<br/>\nDear Prof</p>\n\n<p>I have your letter 17<sup>th</sup><br/>\nbefore me. In reply will say that I dont see<br/>\nhow I can add more than is contained in my<br/>\nletter of 18<sup>th</sup> I dont believe that the Board intended<br/>\nto do you a wrong dont think they have any<br/>\npersonal feelings against you whatever,<br/>\nplease state to me plainly what you think<br/>\nthe Board should do to relieve you from<br/>\nthe false impression in which you are placed<br/>\nover the State, I endeavored to explain to you as<br/>\nI understood it that the Board believed that<br/>\nthe best interest of the College prompted their<br/>\naction, I believe that all the members think<br/>\nkindly of you.</p>\n\n<p>With my kindest regards to<br/>\nyou and family<br/>\nI am yours Truly<br/>\nA. J. Rose</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/108",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's how I'm approaching this transcription:**\n\nAlright, I've got the image in front of me, and I'm ready to dive in. First, I need to make sure I'm following the instructions precisely. This means I'm acting as a professional transcriptionist, focusing on accuracy, interpreting the handwriting as best as possible, and sticking to the given HTML markup (a, b, br, i, img, p, small, span, sub, sup). No strikethrough tags, so I'll need to work around that. I will stick to what the user explicitly said. I'm avoiding any extra conversation; just the transcription.\n\nNow, let's break down the image itself. I see a header \"State Agricultural and Mechanical College OF TEXAS,\" with a sub-header, and a small printed list of names to the left. The date is right-aligned and handwritten, which will need careful attention. The salutation, address, and body text are all in cursive. I can see a few words or lines crossed out, and those will require careful handling given the HTML constraints.\n\nI'll start by making a mental draft, getting all the text down. I'll include all the characters. I'll put it in plain text first, then I'll start adding the formatting. Then, I'll pay close attention to the details: the \"th\" in the dates needs superscript. I'm checking the strikethrough, spelling, and punctuation. The handwriting can be tricky. Words like \"whatever\" are a little ambiguous, but I'll make sure to get it as close as possible to what's written. I need to be precise, especially with names like \"Louis L McInnis\". I see a closed 'o' that looks a bit like an 'i' in \"wring/wrong\", but the context makes \"wrong\" the right choice.\n\nThe instructions say to transcribe everything, so if a word looks like \"Txas\" rather than \"Texas,\" I will write \"Txas\". But then again the prompt says to interpret the handwritten text accurately, so I will write \"Txas\" and/or \"Texas\" as appropriate.\n\nRegarding the layout, I will use `<p>` tags for paragraph breaks. I will use `<small>` for the small print in the header. The struck-through text is a challenge. Since I can't use an actual strikethrough, I'll put the text in with the `<small>` tags.\n\nI'm double-checking the markup and spelling. I'm focusing on those superscripts, any potential abbreviations, and those tricky handwriting interpretations. The closing is straightforward, but I have to be careful with \"Truly\". I will confirm the date is 1890, the name is \"Louis\", etc.\n\nOne final check on the structure before I generate the final text, and I'm ready.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-387.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. J. Rose, July 19, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-07-19"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. J. Rose, July 19, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural colleges--Texas--History--19th century",
+          "College administration",
+          "Institutional governance",
+          "Boards of directors"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Rose, A. J."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Scott, T. M.",
+          "State Agricultural and Mechanical College of Texas"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from A. J. Rose, President of the Board of Directors of the State Agricultural and Mechanical College of Texas, to Louis L. McInnis, Secretary and Treasurer, responding to McInnis's concerns about impressions held against him by the Board. Rose assures McInnis that the Board harbors no personal ill will and that their actions were motivated by the college's best interests, while requesting clarification on what specific relief McInnis believes the Board should provide."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4029,
+      "width": 3251,
+      "items": [
+        {
+          "id": "http://example.org/iiif/104",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/103",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4029,
+                "width": 3251,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e7277db7-ad2a-36d8-8028-53e9c19843ba",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/107",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/106",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><b>State Agricultural and Mechanical College</b><br/>\nOF TEXAS.<br/>\n<small>(TECHNICAL BRANCH OF THE UNIVERSITY.)</small></p>\n\n<p><small>A. J. ROSE, President Board of Directors, Salado Texas.<br/>\nT. M. SCOTT, Agent of the Board, College Station, Texas.<br/>\nLOUIS L. McINNIS, Secretary and Treasurer, College Station, Texas.</small></p>\n\n<p>Salado, Texas, July 19<sup>th</sup> 1890</p>\n\n<p>Louis L McInnis<br/>\nCollege Station Txas<br/>\nDear Prof</p>\n\n<p>I have your letter 17<sup>th</sup><br/>\nbefore me. In reply will say that I dont see<br/>\nhow I can add more than is contained in my<br/>\nletter of 18<sup>th</sup> I dont believe that the Board intended<br/>\nto do you a wrong dont think they have any<br/>\npersonal feelings against you whatever,<br/>\nplease state to me plainly what you think<br/>\nthe Board should do to relieve you from<br/>\nthe false impression in which you are placed<br/>\nover the State, I endeavored to explain to you as<br/>\nI understood it that the Board believed that<br/>\nthe best interest of the College prompted their<br/>\naction, I believe that all the members think<br/>\nkindly of you.</p>\n\n<p>With my kindest regards to<br/>\nyou and family<br/>\nI am yours Truly<br/>\nA. J. Rose</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/108",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I'm approaching this transcription:**\n\nAlright, I've got the image in front of me, and I'm ready to dive in. First, I need to make sure I'm following the instructions precisely. This means I'm acting as a professional transcriptionist, focusing on accuracy, interpreting the handwriting as best as possible, and sticking to the given HTML markup (a, b, br, i, img, p, small, span, sub, sup). No strikethrough tags, so I'll need to work around that. I will stick to what the user explicitly said. I'm avoiding any extra conversation; just the transcription.\n\nNow, let's break down the image itself. I see a header \"State Agricultural and Mechanical College OF TEXAS,\" with a sub-header, and a small printed list of names to the left. The date is right-aligned and handwritten, which will need careful attention. The salutation, address, and body text are all in cursive. I can see a few words or lines crossed out, and those will require careful handling given the HTML constraints.\n\nI'll start by making a mental draft, getting all the text down. I'll include all the characters. I'll put it in plain text first, then I'll start adding the formatting. Then, I'll pay close attention to the details: the \"th\" in the dates needs superscript. I'm checking the strikethrough, spelling, and punctuation. The handwriting can be tricky. Words like \"whatever\" are a little ambiguous, but I'll make sure to get it as close as possible to what's written. I need to be precise, especially with names like \"Louis L McInnis\". I see a closed 'o' that looks a bit like an 'i' in \"wring/wrong\", but the context makes \"wrong\" the right choice.\n\nThe instructions say to transcribe everything, so if a word looks like \"Txas\" rather than \"Texas,\" I will write \"Txas\". But then again the prompt says to interpret the handwritten text accurately, so I will write \"Txas\" and/or \"Texas\" as appropriate.\n\nRegarding the layout, I will use `<p>` tags for paragraph breaks. I will use `<small>` for the small print in the header. The struck-through text is a challenge. Since I can't use an actual strikethrough, I'll put the text in with the `<small>` tags.\n\nI'm double-checking the markup and spelling. I'm focusing on those superscripts, any potential abbreviations, and those tricky handwriting interpretations. The closing is straightforward, but I have to be careful with \"Truly\". I will confirm the date is 1890, the name is \"Louis\", etc.\n\nOne final check on the structure before I generate the final text, and I'm ready.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/387/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

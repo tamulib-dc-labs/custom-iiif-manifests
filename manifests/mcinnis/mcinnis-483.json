@@ -1,127 +1,169 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-483.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Crisp, John C. July 21, 1880"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Crisp, John C. July 21, 1880"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/d682de6d-8f06-34d7-911d-e4c0a2758cfb/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 1126,
-            "width": 1916,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/212",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/211",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/d682de6d-8f06-34d7-911d-e4c0a2758cfb/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1126,
-                                "width": 1916,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d682de6d-8f06-34d7-911d-e4c0a2758cfb",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/215",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/214",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Crisp, John C., 1880, July 21,</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/216",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription & Formatting Process**\n\nOkay, let's break this image down methodically. My immediate goal is to get a clean transcription of that handwritten line at the top. First, I need to analyze the visual components. The image itself is pretty straightforward: a single line of text on plain paper, with a black circle at the bottom\u2014likely a hole punch.\n\nNow for the transcription itself. I'll read the text as if I were reading it. Let's see... the first word looks like \"Crisp,\" \u2013 a capital 'C', then 'r', 'i', 's', 'p', and a comma. Next, it's clearly \"John,\" with a capital 'J', then 'o', 'h', 'n'. The third looks like \"C.,\" with a capital 'C', a period, and another comma. After that, I see \"1880,\" a simple number followed by a comma, and then \"July 21,\" - with the number \"21\" and a comma. So the full string is \"Crisp, John C., 1880, July 21,\".\n\nNow, let's ensure I'm compliant with the guidelines. Reading order? Top-to-bottom, left-to-right - check. Accuracy? Yes, \"Crisp, John C., 1880, July 21,\" is an accurate match to the handwriting. Layout is a single line. No headers or footers, so the body text is the main element. Okay, on to HTML formatting. Since it\u2019s just one line, the `<p>` tag is the right choice.\n\nTherefore, the final output needs to be `<p>Crisp, John C., 1880, July 21,</p>`. This transcription accurately captures the text, is formatted correctly and is ready to go.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-483.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Crisp, John C. July 21, 1880"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Crisp, John C. July 21, 1880"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 3 Louis L. McInnis Papers/Box 3 Folder 18 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "United States--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Crisp, John C."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter or document dated July 21, 1880 from John C. Crisp, found within the Louis L. McInnis Papers collection. The document appears to be correspondence or a dated record from the post-Reconstruction era in American history. Its specific content and significance relate to the McInnis family or business records of the period."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/d682de6d-8f06-34d7-911d-e4c0a2758cfb/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 1126,
+      "width": 1916,
+      "items": [
+        {
+          "id": "http://example.org/iiif/212",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/211",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/d682de6d-8f06-34d7-911d-e4c0a2758cfb/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1126,
+                "width": 1916,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/d682de6d-8f06-34d7-911d-e4c0a2758cfb",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/215",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/214",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Crisp, John C., 1880, July 21,</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/216",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription & Formatting Process**\n\nOkay, let's break this image down methodically. My immediate goal is to get a clean transcription of that handwritten line at the top. First, I need to analyze the visual components. The image itself is pretty straightforward: a single line of text on plain paper, with a black circle at the bottom—likely a hole punch.\n\nNow for the transcription itself. I'll read the text as if I were reading it. Let's see... the first word looks like \"Crisp,\" – a capital 'C', then 'r', 'i', 's', 'p', and a comma. Next, it's clearly \"John,\" with a capital 'J', then 'o', 'h', 'n'. The third looks like \"C.,\" with a capital 'C', a period, and another comma. After that, I see \"1880,\" a simple number followed by a comma, and then \"July 21,\" - with the number \"21\" and a comma. So the full string is \"Crisp, John C., 1880, July 21,\".\n\nNow, let's ensure I'm compliant with the guidelines. Reading order? Top-to-bottom, left-to-right - check. Accuracy? Yes, \"Crisp, John C., 1880, July 21,\" is an accurate match to the handwriting. Layout is a single line. No headers or footers, so the body text is the main element. Okay, on to HTML formatting. Since it’s just one line, the `<p>` tag is the right choice.\n\nTherefore, the final output needs to be `<p>Crisp, John C., 1880, July 21,</p>`. This transcription accurately captures the text, is formatted correctly and is ready to go.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/483/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

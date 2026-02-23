@@ -1,210 +1,257 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-355.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from C. C. Garrett, June 25, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-06-25"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from C. C. Garrett, June 25, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e167a3b9-63ed-37f2-a802-dc295e5c0a53/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3660,
-            "width": 2293,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/50",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/49",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e167a3b9-63ed-37f2-a802-dc295e5c0a53/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3660,
-                                "width": 2293,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e167a3b9-63ed-37f2-a802-dc295e5c0a53",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/56",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/55",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><i>C. C. Garrett,</i><br>\n<small>JUDGE 21<sup>st</sup> JUDICIAL DISTRICT.</small></p>\n\n<p><i>Brenham, Texas,</i> June 25 1890</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nDear McInnis: Yours 21 inst rec'd.<br>\nI am very sorry to hear the news<br>\nfrom the College. I am afraid<br>\nthe Board has made a mis-<br>\ntake. I especially regret their<br>\ndropping you. If I can be of<br>\nany service to you, command me.<br>\nIf you will outline the points<br>\nthat you would like men-<br>\ntioned I will prepare the<br>\nletter requested. I have always<br>\nconsidered you as especially<br>\nvaluable to the College from<br>\nfrom your intimate and<br>\nintelligent knowledge of its<br>\naffairs, and of the status<br>\nof technical education<br>\nthroughout the United States.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/57",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Initial Thoughts on Transcription Project**\n\nOkay, here we go. I've got this image of a handwritten letter to transcribe. First, I need to analyze it. The header looks like it says *C. C. Garrett, JUDGE 21st JUDICIAL DISTRICT.*, with the *C. C. Garrett* in what appears to be a script font, and the \"JUDGE...\" in small caps. I should use `<i>` to handle the name, and `<small>` for the title, and `<br>` for line breaks and `<p>` for paragraphs. The date is \"Brenham, Texas, June 25 1890,\" which will need careful transcription. I'll need to preserve the handwritten aspect of the date. Next is the addressee, \"Prof. L. L. McInnis, College Station,\" then the salutation, \"Dear McInnis:\". Then comes the body, which looks like it's addressing some news from the college. It seems he's sorry to hear something, and it mentions the Board maybe making a mistake, especially regarding dropping the addressee. He offers his assistance and requests to be told what the addressee would like him to mention. It ends by saying he considers the addressee valuable to the College.\n\n**Diving into Transcription Strategy**\n\nNow, let's nail down the transcription strategy. The header is already addressed. The date line is straightforward, but it has a specific layout \"Brenham, Texas,\" on the first line, and \"June 25 1890\" on the second line. The text starts with \"Prof. L. L. McInnis, College Station,\" then \"Dear McInnis: Yours 21 inst rec'd.\" Okay, \"inst.\" probably means \"instant\" (current month) and \"rec'd.\" is short for \"received,\" standard for the time. Then, the letter dives into the main subject. I'll need to make sure the layout is preserved by using `<br>` for line breaks. I have to read carefully and render to HTML using the instructions. I will use `<p>` for new paragraphs. I will double-check the 'r' in \"rec'd\", and I will double-check the \"dropping\" \"command\", \"outline\", \"mentioned\", \"intimate\", \"intelligent\", \"technical\" and \"education\". I'll use italics for the name.\n\n**First Draft and Formatting Review**\n\nLet's do a first draft, now, and format the text. The header should be: `<i>C. C. Garrett,</i><br><small>JUDGE 21st JUDICIAL DISTRICT.</small>`. The date: `Brenham, Texas, June 25 1890`. And the body: `Prof. L. L. McInnis,<br>College Station,<br>Dear McInnis: Yours 21 inst rec'd.<br>I am very sorry to hear the news<br>from the College...`. Now that I have the text, I'll review and double-check, looking carefully at line breaks, and any unusual words or spellings. I have to make sure \"from / from\" is included.\n\n**Refining the Transcription and Image Check**\n\nOkay, time for a fine-tooth comb review. I notice the date has a dash \"June 25 - 1890\". The word \"from\" is written twice. It's a repetition error by the writer. I need to include that and preserve all the text as written. Double checking...Yes, Line 16 is \"from\". Double checking handwriting quality, it all appears as it should be. Let's re-examine \"inst\" and \"rec'd.\" in the context of the letter, and the dash. It is \"inst.\" and \"rec'd.\" There's no signature, so the transcription should end where the text ends. Double check line 16 for the duplicate word. It's repeated. Double checking the font of the header text, making sure everything is preserved exactly as it looks. I will use `<br>` to format line breaks. The word \"inst.\" and \"rec'd.\" are confirmed.\n\n**Final Formatting and Verification**\n\nOkay, ready to format the whole thing with HTML tags. I'll structure it like this: `<p><i>C. C. Garrett,</i><br><small>JUDGE 21st JUDICIAL DISTRICT.</small></p><p><i>Brenham, Texas,</i> June 25 - 1890</p><p>Prof. L. L. McInnis,<br>College Station,<br>Dear McInnis: Yours 21 inst rec'd.<br>I am very sorry...`.\n\nI am checking lines,\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3660,
-            "width": 2293,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/52",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/51",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/fa649959-b118-37eb-9bb9-de5974fa6d6f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3660,
-                                "width": 2293,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fa649959-b118-37eb-9bb9-de5974fa6d6f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/59",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/58",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>C. C. Garrett,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1890, June 25]<br>\nJUDGE 21<sup>st</sup> JUDICIAL DISTRICT.</p>\n\n<p>Brenham, Texas, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;189</p>\n\n<p>There is no vacancy that I can<br>\nnow recall that would suit you.<br>\nIt is not too late in life for you<br>\nto adopt some business pursuit<br>\nWhile teaching is an honorable<br>\ncalling, there are too many<br>\njust such episodes in a<br>\nteacher's life, that has<br>\noccurred to you. I wouldn't<br>\ngive the independence of the<br>\nlegal profession for any of<br>\nthem. You have my best<br>\nwishes for your Success -<br>\nPresent my kindest regards<br>\nto Mrs McInnis -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your friend,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. C. Garrett.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/60",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Handwritten Letter Transcription: Analysis and Interpretation**\n\nAs a seasoned expert in my field, I approach this task with a methodical eye, focusing on accurate transcription while also preserving the visual structure of the original document. My initial focus is to dissect the image, identifying key elements: the printed header with \"C. C. Garrett, JUDGE 21st JUDICIAL DISTRICT,\" the handwritten date, the incomplete date/location line, and the body of the letter itself. I pay particular attention to the handwritten text, noting the ink's clarity and the writing style. My goal is to capture every detail, from the overall layout to the subtle nuances of the handwriting.\n\nI then move into a detailed extraction phase, meticulously transcribing each word. I scrutinize each character, clarifying uncertain letters and verifying my interpretations within the context of the sentence. Bracketed notes denote archival annotations like \"[1890, June 25]\", which appears in pencil at the top right, indicating that it's likely a later addition. I transcribe the incomplete date/location as \"Brenham, Texas, 189\", recognizing the historical convention of leaving the year's last digits open.\n\nDuring this meticulous process, I acknowledge the cursive script's idiosyncrasies. For example, I need to interpret the characters in context: \"Ther\" becomes \"There\", and \"gire\" becomes \"give\". The handwriting can be a bit idiosyncratic, but I'm confident I can do this well. The possessive \"teacher's\" vs \"teachers\", the ligature at the end of \"any of\", the almost illegible \"occurred\" are all checked. Also the grammar of the author.\n\nAfter the transcription, I assess the flow. It includes the header, the body, and the closing. The date is a key. The layout is important.\n\nAfter the initial transcription is done, the refinement stage involves re-reading and re-examining the document. I verify that punctuation such as dashes, and commas, is correct. I also check for errors, such as in \"McInnis\" or \"occurred\". I apply HTML where indicated. I double-check \"of\" at the end of line 11. It's almost a squiggle, but context is \"any of\". The writing is a bit faded in parts, which is understandable. The flow is from top to bottom.\n\nFinally, the entire transcription is reviewed to ensure accuracy and fidelity to the original. I double-check punctuation and word choices. The goal is a faithful, readable, and accurately rendered representation of the handwritten letter.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-355.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from C. C. Garrett, June 25, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-06-25"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from C. C. Garrett, June 25, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 2 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "University administration",
+          "Academic employment",
+          "Texas A&M College--History",
+          "Technical education--United States",
+          "Letter writing",
+          "Educational institutions--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Garrett, C. C. (Judge, 21st Judicial District)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "McInnis, Mrs. (spouse)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Judge C. C. Garrett writes to Professor Louis L. McInnis expressing regret over McInnis's dismissal from Texas A&M College and offering support. Garrett praises McInnis's valuable knowledge of the college and technical education, offers to prepare a requested letter, and suggests exploring business ventures while wishing him success in future endeavors."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e167a3b9-63ed-37f2-a802-dc295e5c0a53/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3660,
+      "width": 2293,
+      "items": [
+        {
+          "id": "http://example.org/iiif/50",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/49",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e167a3b9-63ed-37f2-a802-dc295e5c0a53/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3660,
+                "width": 2293,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e167a3b9-63ed-37f2-a802-dc295e5c0a53",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/56",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/55",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><i>C. C. Garrett,</i><br>\n<small>JUDGE 21<sup>st</sup> JUDICIAL DISTRICT.</small></p>\n\n<p><i>Brenham, Texas,</i> June 25 1890</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nDear McInnis: Yours 21 inst rec'd.<br>\nI am very sorry to hear the news<br>\nfrom the College. I am afraid<br>\nthe Board has made a mis-<br>\ntake. I especially regret their<br>\ndropping you. If I can be of<br>\nany service to you, command me.<br>\nIf you will outline the points<br>\nthat you would like men-<br>\ntioned I will prepare the<br>\nletter requested. I have always<br>\nconsidered you as especially<br>\nvaluable to the College from<br>\nfrom your intimate and<br>\nintelligent knowledge of its<br>\naffairs, and of the status<br>\nof technical education<br>\nthroughout the United States.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/57",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Initial Thoughts on Transcription Project**\n\nOkay, here we go. I've got this image of a handwritten letter to transcribe. First, I need to analyze it. The header looks like it says *C. C. Garrett, JUDGE 21st JUDICIAL DISTRICT.*, with the *C. C. Garrett* in what appears to be a script font, and the \"JUDGE...\" in small caps. I should use `<i>` to handle the name, and `<small>` for the title, and `<br>` for line breaks and `<p>` for paragraphs. The date is \"Brenham, Texas, June 25 1890,\" which will need careful transcription. I'll need to preserve the handwritten aspect of the date. Next is the addressee, \"Prof. L. L. McInnis, College Station,\" then the salutation, \"Dear McInnis:\". Then comes the body, which looks like it's addressing some news from the college. It seems he's sorry to hear something, and it mentions the Board maybe making a mistake, especially regarding dropping the addressee. He offers his assistance and requests to be told what the addressee would like him to mention. It ends by saying he considers the addressee valuable to the College.\n\n**Diving into Transcription Strategy**\n\nNow, let's nail down the transcription strategy. The header is already addressed. The date line is straightforward, but it has a specific layout \"Brenham, Texas,\" on the first line, and \"June 25 1890\" on the second line. The text starts with \"Prof. L. L. McInnis, College Station,\" then \"Dear McInnis: Yours 21 inst rec'd.\" Okay, \"inst.\" probably means \"instant\" (current month) and \"rec'd.\" is short for \"received,\" standard for the time. Then, the letter dives into the main subject. I'll need to make sure the layout is preserved by using `<br>` for line breaks. I have to read carefully and render to HTML using the instructions. I will use `<p>` for new paragraphs. I will double-check the 'r' in \"rec'd\", and I will double-check the \"dropping\" \"command\", \"outline\", \"mentioned\", \"intimate\", \"intelligent\", \"technical\" and \"education\". I'll use italics for the name.\n\n**First Draft and Formatting Review**\n\nLet's do a first draft, now, and format the text. The header should be: `<i>C. C. Garrett,</i><br><small>JUDGE 21st JUDICIAL DISTRICT.</small>`. The date: `Brenham, Texas, June 25 1890`. And the body: `Prof. L. L. McInnis,<br>College Station,<br>Dear McInnis: Yours 21 inst rec'd.<br>I am very sorry to hear the news<br>from the College...`. Now that I have the text, I'll review and double-check, looking carefully at line breaks, and any unusual words or spellings. I have to make sure \"from / from\" is included.\n\n**Refining the Transcription and Image Check**\n\nOkay, time for a fine-tooth comb review. I notice the date has a dash \"June 25 - 1890\". The word \"from\" is written twice. It's a repetition error by the writer. I need to include that and preserve all the text as written. Double checking...Yes, Line 16 is \"from\". Double checking handwriting quality, it all appears as it should be. Let's re-examine \"inst\" and \"rec'd.\" in the context of the letter, and the dash. It is \"inst.\" and \"rec'd.\" There's no signature, so the transcription should end where the text ends. Double check line 16 for the duplicate word. It's repeated. Double checking the font of the header text, making sure everything is preserved exactly as it looks. I will use `<br>` to format line breaks. The word \"inst.\" and \"rec'd.\" are confirmed.\n\n**Final Formatting and Verification**\n\nOkay, ready to format the whole thing with HTML tags. I'll structure it like this: `<p><i>C. C. Garrett,</i><br><small>JUDGE 21st JUDICIAL DISTRICT.</small></p><p><i>Brenham, Texas,</i> June 25 - 1890</p><p>Prof. L. L. McInnis,<br>College Station,<br>Dear McInnis: Yours 21 inst rec'd.<br>I am very sorry...`.\n\nI am checking lines,\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3660,
+      "width": 2293,
+      "items": [
+        {
+          "id": "http://example.org/iiif/52",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/51",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/fa649959-b118-37eb-9bb9-de5974fa6d6f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3660,
+                "width": 2293,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/fa649959-b118-37eb-9bb9-de5974fa6d6f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/59",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/58",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>C. C. Garrett,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1890, June 25]<br>\nJUDGE 21<sup>st</sup> JUDICIAL DISTRICT.</p>\n\n<p>Brenham, Texas, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;189</p>\n\n<p>There is no vacancy that I can<br>\nnow recall that would suit you.<br>\nIt is not too late in life for you<br>\nto adopt some business pursuit<br>\nWhile teaching is an honorable<br>\ncalling, there are too many<br>\njust such episodes in a<br>\nteacher's life, that has<br>\noccurred to you. I wouldn't<br>\ngive the independence of the<br>\nlegal profession for any of<br>\nthem. You have my best<br>\nwishes for your Success -<br>\nPresent my kindest regards<br>\nto Mrs McInnis -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your friend,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. C. Garrett.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/60",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Handwritten Letter Transcription: Analysis and Interpretation**\n\nAs a seasoned expert in my field, I approach this task with a methodical eye, focusing on accurate transcription while also preserving the visual structure of the original document. My initial focus is to dissect the image, identifying key elements: the printed header with \"C. C. Garrett, JUDGE 21st JUDICIAL DISTRICT,\" the handwritten date, the incomplete date/location line, and the body of the letter itself. I pay particular attention to the handwritten text, noting the ink's clarity and the writing style. My goal is to capture every detail, from the overall layout to the subtle nuances of the handwriting.\n\nI then move into a detailed extraction phase, meticulously transcribing each word. I scrutinize each character, clarifying uncertain letters and verifying my interpretations within the context of the sentence. Bracketed notes denote archival annotations like \"[1890, June 25]\", which appears in pencil at the top right, indicating that it's likely a later addition. I transcribe the incomplete date/location as \"Brenham, Texas, 189\", recognizing the historical convention of leaving the year's last digits open.\n\nDuring this meticulous process, I acknowledge the cursive script's idiosyncrasies. For example, I need to interpret the characters in context: \"Ther\" becomes \"There\", and \"gire\" becomes \"give\". The handwriting can be a bit idiosyncratic, but I'm confident I can do this well. The possessive \"teacher's\" vs \"teachers\", the ligature at the end of \"any of\", the almost illegible \"occurred\" are all checked. Also the grammar of the author.\n\nAfter the transcription, I assess the flow. It includes the header, the body, and the closing. The date is a key. The layout is important.\n\nAfter the initial transcription is done, the refinement stage involves re-reading and re-examining the document. I verify that punctuation such as dashes, and commas, is correct. I also check for errors, such as in \"McInnis\" or \"occurred\". I apply HTML where indicated. I double-check \"of\" at the end of line 11. It's almost a squiggle, but context is \"any of\". The writing is a bit faded in parts, which is understandable. The flow is from top to bottom.\n\nFinally, the entire transcription is reviewed to ensure accuracy and fidelity to the original. I double-check punctuation and word choices. The goal is a faithful, readable, and accurately rendered representation of the handwritten letter.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/355/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

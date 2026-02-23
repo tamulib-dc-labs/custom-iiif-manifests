@@ -1,352 +1,405 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-244.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, February 16, 1880"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1880-02-16"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, February 16, 1880"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 5 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/df26beb7-0aab-36b2-8b0c-a1f2294c7dcf/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3165,
-            "width": 1902,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/488",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/487",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/df26beb7-0aab-36b2-8b0c-a1f2294c7dcf/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1902,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/df26beb7-0aab-36b2-8b0c-a1f2294c7dcf",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/500",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/499",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"right\">Brenham Tex.<br/>\nFeb 16<sup>th</sup> 1880.</p>\n\n<p>Dear Professor -<br/>\nYour good letter<br/>\nof 12<sup>th</sup> Inst reached me yesterday -<br/>\nIt was like ointment on<br/>\nAarons beard - I hope I<br/>\ncould not rejoice at the<br/>\nadversity of A &amp; M. C. Under<br/>\npresent circumstances, I am<br/>\nnot shout at its prosperity -<br/>\nI feel more &amp; more keenly the<br/>\nwrong done me in Nov. last -<br/>\nWould that I could forget it -<br/>\nIn my unoccupied hours<br/>\nit is ever present with me -<br/>\nIt marks a turn in my life<br/>\nI had never expected to make -</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/501",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription of the Letter**\n\nOkay, here's the deal. I've got this handwritten letter from Brenham, Texas, dated February 16th, 1880. It's addressed to \"Dear Professor,\" and, man, it's a bit of a puzzle. My main goal is to get a clean transcription.\n\nFirst, I take a good look at the handwriting. I can see the date and location in the top right. Salutation is clear. The writer starts by saying that a previous letter was good, like \"ointment on Aarons beard\". Then, things get interesting. I hope I could not rejoice at adversity of [a&m college]. So far so good. I can see what I think it says but one word is giving me a fit:\n\n> \"Under present circumstances, I am not *shout* at its prosperity\".\n\nThe word is really puzzling me, the text uses \"adversity\", \"prosperity\" - they seem like oppositional concepts. The text appears to suggest he's not rejoicing at their adversity, so it should be something opposed to rejoicing. The letters are definitely \"s-h-o-u-t\". But \"shout\" as a verb here doesn't make total sense. The grammar is odd. I am racking my brain to find the word he intended. \"Shout\" is not right. It looks like it, but it just feels so out of place. \"Shock\", \"hurt\", and \"sick\" seem possible based on the context and the feelings being conveyed. The person is hurt by past wrongs. It really looks like \"shout\". But does that make sense? What about \"short\"? \"shook\"?\n\nI'm making a comparison between the words in the letter and looking at handwriting styles. The word is the most awkward, so I feel like the writer may have been going for \"shout\", but maybe he didn't quite spell it how he intended, but I have to transcribe what is written.\n\nI keep looking at the word. Now I'm comparing it to \"short\", or \"ghost\". The writer is using \"shout\", but I wonder is that correct?\n\nThen, the letter gets really personal. It is full of feeling. \"I feel more & more keenly the wrong done me,\" He can't forget, it's always with him. It's a \"turn in my life.\" It's clear that something happened in November. He's bitter about it, but now he's getting the letter.\n\nI'm committed to transcribe what's there on the page. Therefore, I will transcribe \"shout\". I am using my expertise to parse out the letter. \n\nHere is the transcription:\n\n<p>Brenham Tex.<br/>\nFeb 16<sup>th</sup> 1880.</p>\n<p>Dear Professor -<br/>\nYour good letter<br/>\nof 12<sup>th</sup> Inst reached me yesterday -<br/>\nIt was like ointment on<br/>\nAarons beard - I hope I<br/>\ncould not rejoice at the<br/>\nadversity of A & M. C. Under<br/>\npresent circumstances, I am<br/>\nnot shout at its prosperity -<br/>\nI feel more & more keenly the<br/>\nwrong done me in Nov. last -<br/>\nWould that I could forget it -<br/>\nIn my unoccupied hours<br/>\nit is ever present with me -<br/>\nIt marks a turn in my life<br/>\nI had never expected to make -</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3165,
-            "width": 1902,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/490",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/489",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/80964e7f-0156-37ed-8cee-4490ec7145d7/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1902,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/80964e7f-0156-37ed-8cee-4490ec7145d7",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/503",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/502",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nleven I think I can see those<br/>\ntroubles, I would not murmur<br/>\nI had a letter some time ago<br/>\nfrom Peeler inviting me<br/>\nto call & see him, should I<br/>\nvisit Austin at any time -<br/>\nI see the papers mention<br/>\nLt Gov. Sayers, as having<br/>\nsome aspirations to the<br/>\nGovernorship - \"Upon what<br/>\nmeat hath Ceasar fed<br/>\nthat he has grown so great\"<br/>\nCan you tell? I am doing<br/>\nwrong to burden another<br/>\nwith my griefs - I forbear -<br/>\nI met a friend of yours<br/>\nhere - a Mr. Moore - a<br/>\nNewsie man - a clever<br/>\ngentleman I think -<br/>\nHe speaks very kindly of<br/>\nyou - I know not what\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/504",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3165,
-            "width": 1902,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/492",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/491",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7e825bbc-00a6-3aaf-be02-3e334dad630c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1902,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7e825bbc-00a6-3aaf-be02-3e334dad630c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/506",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/505",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nimpression I have made<br>\nhere - socially - unfavorable<br>\nI fear - I have made<br>\nbut few acquaintances -<br>\nSchool now numbers 425 -<br>\nPaul was burdened with the<br>\ncare of all the churches -<br>\nbut he never had the care<br>\nof 425 Texas youths -<br>\nI am doing the best I<br>\ncan under the circumstances -<br>\nI wish I was not quite<br>\nso close to Hempstead -<br>\nI take my preaching in<br>\nBrenham - \"Licking that<br>\ncalf\" again! When - how<br>\nlong! - Can you tell -<br>\nA letter last week from<br>\nPrs. G. He is despondent<br>\nin the extreme - Will not<br>\nremain at Henderson -<br>\nDid you see Gen. Les\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/507",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**The Transcription Process: A Deep Dive**\n\nOkay, so I'm presented with this handwritten text and my job is clear: transcribe it accurately, preserving its original form. I start by breaking down the request: I need to act as a transcriptionist, focusing on the text itself, not adding my own commentary. The goal is a faithful reproduction of the handwriting, including spelling and punctuation, and preserving the layout using HTML tags.\n\nFirst, I give the image a quick once-over. It's a letter, handwritten on lined paper. The script is cursive, flowing but a little rushed. The ink is dark, the paper is cream-colored, and there are no headers or footers, which suggests it might be the middle or end of the letter.\n\nNow for the line-by-line transcription. I start typing, line by line:\n\n*Line 1:* \"impression I have made.\" I notice a trailing stroke at the end of \"impression,\" and decide it's a messy \"n.\"\n\n*Line 2:* \"here - socially - unfavorable.\" The \"f\" in \"unfavorable\" is distinct.\n\n*Line 6:* \"Paul was burdened\" - Wait a minute, the 'e' in \"burdened\" looks like an 'u', but context points to \"burdened\". I will transcribe it as \"burdened.\"\n\n*Line 9:* \"Texas youths.\" The 'y' is looped in \"youths.\"\n\n*Line 10:* \"I am doing\". I note the distinct \"I.\"\n\n*Line 13:* \"so close to Hempstead.\" \"Hempstead\" is a town in Texas, near Brenham, as I recall.\n\n*Line 15:* \"Brenham.\" Confirms Texas geography, and I see the phrase \"Licking that\" starts a quote.\n\n*Line 19:* \"Prs. G.\" The first letter looks like 'P', followed by 'r', and then 's'. It looks like an abbreviation. Given the context of the letter, perhaps it's \"Prs.\" (President) G.?\n\n*Line 21:* \"remain at Henderson\". Henderson is another Texas town.\n\n*Line 22:* \"Did you see Gen. Les\". The last word has me stumped for a minute. Is it \"Gen. Les\" or \"Gen. Lee\"? It ends with a downward stroke, similar to an 's'. The context of the South and Texas makes \"Lee\" plausible, but the shape doesn't *quite* fit. I'll stick with \"Les,\" keeping the visual accuracy paramount, but I make a mental note to revisit it.\n\nI'm constantly refining as I transcribe. The biggest challenge is deciphering the handwriting, especially where loops are tight or strokes are unclear. I focus on interpreting the intention of the words rather than making educated guesses. I read each line back to myself.\n\nI'm making sure all the HTML tags I was asked to use are included (p, br, span, small, etc). Finally, I review the whole thing one last time. I notice again that that last letter in line 22 looks like a messy 's', confirming my interpretation of \"Les\".\n\nI'm ready. The transcription is complete, and it is a faithful reproduction of the letter.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3165,
-            "width": 1902,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/494",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/493",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/c483396f-5337-385d-a700-6112817dc446/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1902,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c483396f-5337-385d-a700-6112817dc446",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/509",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/508",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>\"Cara\" in Galveston [Harreale]!\nRich - Characteristic -\nWhen we meet I'll give you\na diagnosis of the old\nvagitus, I have never\ngiven to any one except\nmy betterhalf - Is Prof H.'s\nfamily at Whitney? What\njoy does he get? He'll get\nlitup - mark my words -\nMaj B, I learn from Berlin,\nis teaching - Do you suppose\nhe has an eye to the University\nin ovo! I have such a\nsurmise from his present\nchoice of locality -\nI trust my old Dept has\nnot forgotten me -\nMy young friend I am rather\ndull tonight & fear my letter\nwill be an infliction\nMay a kind providence ever\nguide you - Write me a letter\nYour friend J. Hand</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/510",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts & Transcription**\n\nOkay, here's the final breakdown.  I've wrestled with every word and letter, and after considerable analysis, this is the most accurate transcription I can confidently provide, along with my reasoning.  I'm using \"litup\", \"vagitus\", \"Harreale\" in the final transcription.\n\n\"Cara in Galveston [Harreale]!\nRich - Characteristic -\nWhen we meet I'll give you\na diagnosis of the old\nvagitus, I have never\ngiven to any one except\nmy betterhalf - Is Prof H.'s\nfamily at Whitney? What\njoy does he get? He'll get\nlitup - mark my words -\nMaj B, I learn from Berlin,\nis teaching - Do you suppose\nhe has an eye to the University\nin ovo! I have such a\nsurmise from his present\nchoice of locality -\nI trust my old Dept has\nnot forgotten me -\nMy young friend I am rather\ndull tonight & fear my letter\nwill be an infliction\nMay a kind providence ever\nguide you - Write me a letter\nYour friend J. Hand\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-244.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, February 16, 1880"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1880-02-16"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, February 16, 1880"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 5 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--History",
+          "Education--Texas--History--19th century",
+          "Letters--Personal correspondence",
+          "Academic life",
+          "Religious education",
+          "Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Sayers, Joseph Draper",
+          "Moore (Newsie man, mentioned)",
+          "Peeler (mentioned)",
+          "Paul (biblical reference)",
+          "Professor H. (mentioned)",
+          "Maj B. (mentioned)",
+          "Prs. G. (mentioned)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "In this personal letter dated February 16, 1880, J. T. Hand writes to Professor Louis L. McInnis from Brenham, Texas, expressing emotional distress over a wrong done to him in November while reflecting on his current circumstances. Hand discusses his work with a school of 425 students, his preaching responsibilities, and observations about mutual acquaintances and university matters in Texas. The letter reveals Hand's troubled state of mind and his desire for counsel and friendship during a difficult period of his life."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/df26beb7-0aab-36b2-8b0c-a1f2294c7dcf/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3165,
+      "width": 1902,
+      "items": [
+        {
+          "id": "http://example.org/iiif/488",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/487",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/df26beb7-0aab-36b2-8b0c-a1f2294c7dcf/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1902,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/df26beb7-0aab-36b2-8b0c-a1f2294c7dcf",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/500",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/499",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"right\">Brenham Tex.<br/>\nFeb 16<sup>th</sup> 1880.</p>\n\n<p>Dear Professor -<br/>\nYour good letter<br/>\nof 12<sup>th</sup> Inst reached me yesterday -<br/>\nIt was like ointment on<br/>\nAarons beard - I hope I<br/>\ncould not rejoice at the<br/>\nadversity of A &amp; M. C. Under<br/>\npresent circumstances, I am<br/>\nnot shout at its prosperity -<br/>\nI feel more &amp; more keenly the<br/>\nwrong done me in Nov. last -<br/>\nWould that I could forget it -<br/>\nIn my unoccupied hours<br/>\nit is ever present with me -<br/>\nIt marks a turn in my life<br/>\nI had never expected to make -</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/501",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription of the Letter**\n\nOkay, here's the deal. I've got this handwritten letter from Brenham, Texas, dated February 16th, 1880. It's addressed to \"Dear Professor,\" and, man, it's a bit of a puzzle. My main goal is to get a clean transcription.\n\nFirst, I take a good look at the handwriting. I can see the date and location in the top right. Salutation is clear. The writer starts by saying that a previous letter was good, like \"ointment on Aarons beard\". Then, things get interesting. I hope I could not rejoice at adversity of [a&m college]. So far so good. I can see what I think it says but one word is giving me a fit:\n\n> \"Under present circumstances, I am not *shout* at its prosperity\".\n\nThe word is really puzzling me, the text uses \"adversity\", \"prosperity\" - they seem like oppositional concepts. The text appears to suggest he's not rejoicing at their adversity, so it should be something opposed to rejoicing. The letters are definitely \"s-h-o-u-t\". But \"shout\" as a verb here doesn't make total sense. The grammar is odd. I am racking my brain to find the word he intended. \"Shout\" is not right. It looks like it, but it just feels so out of place. \"Shock\", \"hurt\", and \"sick\" seem possible based on the context and the feelings being conveyed. The person is hurt by past wrongs. It really looks like \"shout\". But does that make sense? What about \"short\"? \"shook\"?\n\nI'm making a comparison between the words in the letter and looking at handwriting styles. The word is the most awkward, so I feel like the writer may have been going for \"shout\", but maybe he didn't quite spell it how he intended, but I have to transcribe what is written.\n\nI keep looking at the word. Now I'm comparing it to \"short\", or \"ghost\". The writer is using \"shout\", but I wonder is that correct?\n\nThen, the letter gets really personal. It is full of feeling. \"I feel more & more keenly the wrong done me,\" He can't forget, it's always with him. It's a \"turn in my life.\" It's clear that something happened in November. He's bitter about it, but now he's getting the letter.\n\nI'm committed to transcribe what's there on the page. Therefore, I will transcribe \"shout\". I am using my expertise to parse out the letter. \n\nHere is the transcription:\n\n<p>Brenham Tex.<br/>\nFeb 16<sup>th</sup> 1880.</p>\n<p>Dear Professor -<br/>\nYour good letter<br/>\nof 12<sup>th</sup> Inst reached me yesterday -<br/>\nIt was like ointment on<br/>\nAarons beard - I hope I<br/>\ncould not rejoice at the<br/>\nadversity of A & M. C. Under<br/>\npresent circumstances, I am<br/>\nnot shout at its prosperity -<br/>\nI feel more & more keenly the<br/>\nwrong done me in Nov. last -<br/>\nWould that I could forget it -<br/>\nIn my unoccupied hours<br/>\nit is ever present with me -<br/>\nIt marks a turn in my life<br/>\nI had never expected to make -</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3165,
+      "width": 1902,
+      "items": [
+        {
+          "id": "http://example.org/iiif/490",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/489",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/80964e7f-0156-37ed-8cee-4490ec7145d7/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1902,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/80964e7f-0156-37ed-8cee-4490ec7145d7",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/503",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/502",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nleven I think I can see those<br/>\ntroubles, I would not murmur<br/>\nI had a letter some time ago<br/>\nfrom Peeler inviting me<br/>\nto call & see him, should I<br/>\nvisit Austin at any time -<br/>\nI see the papers mention<br/>\nLt Gov. Sayers, as having<br/>\nsome aspirations to the<br/>\nGovernorship - \"Upon what<br/>\nmeat hath Ceasar fed<br/>\nthat he has grown so great\"<br/>\nCan you tell? I am doing<br/>\nwrong to burden another<br/>\nwith my griefs - I forbear -<br/>\nI met a friend of yours<br/>\nhere - a Mr. Moore - a<br/>\nNewsie man - a clever<br/>\ngentleman I think -<br/>\nHe speaks very kindly of<br/>\nyou - I know not what\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/504",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3165,
+      "width": 1902,
+      "items": [
+        {
+          "id": "http://example.org/iiif/492",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/491",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7e825bbc-00a6-3aaf-be02-3e334dad630c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1902,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7e825bbc-00a6-3aaf-be02-3e334dad630c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/506",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/505",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nimpression I have made<br>\nhere - socially - unfavorable<br>\nI fear - I have made<br>\nbut few acquaintances -<br>\nSchool now numbers 425 -<br>\nPaul was burdened with the<br>\ncare of all the churches -<br>\nbut he never had the care<br>\nof 425 Texas youths -<br>\nI am doing the best I<br>\ncan under the circumstances -<br>\nI wish I was not quite<br>\nso close to Hempstead -<br>\nI take my preaching in<br>\nBrenham - \"Licking that<br>\ncalf\" again! When - how<br>\nlong! - Can you tell -<br>\nA letter last week from<br>\nPrs. G. He is despondent<br>\nin the extreme - Will not<br>\nremain at Henderson -<br>\nDid you see Gen. Les\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/507",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The Transcription Process: A Deep Dive**\n\nOkay, so I'm presented with this handwritten text and my job is clear: transcribe it accurately, preserving its original form. I start by breaking down the request: I need to act as a transcriptionist, focusing on the text itself, not adding my own commentary. The goal is a faithful reproduction of the handwriting, including spelling and punctuation, and preserving the layout using HTML tags.\n\nFirst, I give the image a quick once-over. It's a letter, handwritten on lined paper. The script is cursive, flowing but a little rushed. The ink is dark, the paper is cream-colored, and there are no headers or footers, which suggests it might be the middle or end of the letter.\n\nNow for the line-by-line transcription. I start typing, line by line:\n\n*Line 1:* \"impression I have made.\" I notice a trailing stroke at the end of \"impression,\" and decide it's a messy \"n.\"\n\n*Line 2:* \"here - socially - unfavorable.\" The \"f\" in \"unfavorable\" is distinct.\n\n*Line 6:* \"Paul was burdened\" - Wait a minute, the 'e' in \"burdened\" looks like an 'u', but context points to \"burdened\". I will transcribe it as \"burdened.\"\n\n*Line 9:* \"Texas youths.\" The 'y' is looped in \"youths.\"\n\n*Line 10:* \"I am doing\". I note the distinct \"I.\"\n\n*Line 13:* \"so close to Hempstead.\" \"Hempstead\" is a town in Texas, near Brenham, as I recall.\n\n*Line 15:* \"Brenham.\" Confirms Texas geography, and I see the phrase \"Licking that\" starts a quote.\n\n*Line 19:* \"Prs. G.\" The first letter looks like 'P', followed by 'r', and then 's'. It looks like an abbreviation. Given the context of the letter, perhaps it's \"Prs.\" (President) G.?\n\n*Line 21:* \"remain at Henderson\". Henderson is another Texas town.\n\n*Line 22:* \"Did you see Gen. Les\". The last word has me stumped for a minute. Is it \"Gen. Les\" or \"Gen. Lee\"? It ends with a downward stroke, similar to an 's'. The context of the South and Texas makes \"Lee\" plausible, but the shape doesn't *quite* fit. I'll stick with \"Les,\" keeping the visual accuracy paramount, but I make a mental note to revisit it.\n\nI'm constantly refining as I transcribe. The biggest challenge is deciphering the handwriting, especially where loops are tight or strokes are unclear. I focus on interpreting the intention of the words rather than making educated guesses. I read each line back to myself.\n\nI'm making sure all the HTML tags I was asked to use are included (p, br, span, small, etc). Finally, I review the whole thing one last time. I notice again that that last letter in line 22 looks like a messy 's', confirming my interpretation of \"Les\".\n\nI'm ready. The transcription is complete, and it is a faithful reproduction of the letter.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3165,
+      "width": 1902,
+      "items": [
+        {
+          "id": "http://example.org/iiif/494",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/493",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/c483396f-5337-385d-a700-6112817dc446/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1902,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/c483396f-5337-385d-a700-6112817dc446",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/509",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/508",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>\"Cara\" in Galveston [Harreale]!\nRich - Characteristic -\nWhen we meet I'll give you\na diagnosis of the old\nvagitus, I have never\ngiven to any one except\nmy betterhalf - Is Prof H.'s\nfamily at Whitney? What\njoy does he get? He'll get\nlitup - mark my words -\nMaj B, I learn from Berlin,\nis teaching - Do you suppose\nhe has an eye to the University\nin ovo! I have such a\nsurmise from his present\nchoice of locality -\nI trust my old Dept has\nnot forgotten me -\nMy young friend I am rather\ndull tonight & fear my letter\nwill be an infliction\nMay a kind providence ever\nguide you - Write me a letter\nYour friend J. Hand</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/510",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts & Transcription**\n\nOkay, here's the final breakdown.  I've wrestled with every word and letter, and after considerable analysis, this is the most accurate transcription I can confidently provide, along with my reasoning.  I'm using \"litup\", \"vagitus\", \"Harreale\" in the final transcription.\n\n\"Cara in Galveston [Harreale]!\nRich - Characteristic -\nWhen we meet I'll give you\na diagnosis of the old\nvagitus, I have never\ngiven to any one except\nmy betterhalf - Is Prof H.'s\nfamily at Whitney? What\njoy does he get? He'll get\nlitup - mark my words -\nMaj B, I learn from Berlin,\nis teaching - Do you suppose\nhe has an eye to the University\nin ovo! I have such a\nsurmise from his present\nchoice of locality -\nI trust my old Dept has\nnot forgotten me -\nMy young friend I am rather\ndull tonight & fear my letter\nwill be an infliction\nMay a kind providence ever\nguide you - Write me a letter\nYour friend J. Hand\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/244/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

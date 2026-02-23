@@ -1,139 +1,186 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-135.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from W. J. Swain, December 3, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-12-03"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from W. J. Swain, December 3, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ff59dd23-d853-3daa-953f-8d17d2f6c91e/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3993,
-            "width": 3147,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/656",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/655",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ff59dd23-d853-3daa-953f-8d17d2f6c91e/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3993,
-                                "width": 3147,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ff59dd23-d853-3daa-953f-8d17d2f6c91e",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/659",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/658",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"center\"><small>EXECUTIVE DEPARTMENT</small></p>\n<p align=\"center\"><h1><i>Office of Comptroller,</i></h1></p>\n\n<p>\n[Seal: THE STATE OF TEXAS]<br>\n<small>W. J. SWAIN, COMPTROLLER.<br>\nJOHN D. McCALL, CHIEF CLERK.</small>\n</p>\n\n<p align=\"right\">Austin, Dec 3<sup>d</sup> 1885</p>\n\n<p>Prof. L. L. McInnis<br>\nCollege Station<br>\nTexas</p>\n\n<p>Dear Sir</p>\n\n<p>I herewith hand St Dft<br>\non N.Y. for $57<sup><u>25</u></sup> to cover<br>\nyour account rendered,<br>\nplease receipt & return<br>\nMark wants to come home<br>\non 18<sup>th</sup> inst please see that he<br>\nGets leave &c</p>\n\n<p align=\"right\">Very Truly<br>\nW. J. Swain</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/660",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Ready:**\n\nAlright, I've got the document. First, I need to get a clean transcription. It starts with the header: \"EXECUTIVE DEPARTMENT,\" then \"Office of Comptroller,\" and the seal: \"THE STATE OF TEXAS.\" Under the seal, I see \"W. J. SWAIN, COMPTROLLER.\" and \"JOHN D. McCALL, CHIEF CLERK.\" The date is handwritten, \"Austin, Dec 3d 1885\".\n\nNext, I see the addressee: \"Prof. L. L. McInnis,\" \"College Station,\" \"Texas\". The salutation is \"Dear Sir\".\n\nNow, the body: it looks like \"I herewith hand St Dft,\" followed by \"on N.Y. for $57<sup><u>25</u></sup> to cover,\" and \"your account rendered,\" then \"please receipt & return.\" Next line: \"Mark wants to come home,\" and \"on 18th inst please see that he,\" and finally \"Gets leave &c\".\n\nThe closing is \"Very Truly,\" and the signature is \"W. J. Swain.\"\n\nLet me go back and double check my interpretation. \"St Dft\" is likely \"State Draft.\" \"N.Y.\" makes sense in the financial context, probably \"New York.\" The $57.25 looks clear. \"to cover\" seems the most likely fit for the context of an account payment, even though the handwriting has a loop at the beginning and could be \"earn.\" \"your account\" looks accurate, even though the \"your\" looks like \"you\". \"Mark wants to come home\" should be straightforward. \"18th inst\" (instant, meaning current month) seems clear, and \"Gets leave &c\" is plausible, suggesting the student, Mark, needs time off.\n\nAfter a few more checks, I think the transcription is good to go. I've preserved the line breaks and formatted it for clarity, and paid close attention to even the tiniest nuances in the handwriting. Ready to render!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-135.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from W. J. Swain, December 3, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-12-03"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from W. J. Swain, December 3, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "State finances--Texas",
+          "Comptroller's office--Texas",
+          "Financial transactions",
+          "Educational institutions--Texas",
+          "Leave of absence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Swain, W. J. (William J.), Comptroller of Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L., Professor",
+          "McCall, John D., Chief Clerk",
+          "Mark (person mentioned)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from W. J. Swain, Comptroller of the State of Texas, to Professor Louis L. McInnis at College Station regarding payment of an account in the amount of $57.25 via draft on New York. Swain also requests that McInnis grant leave to an individual named Mark to return home on the 18th of the month. This document reflects routine administrative and financial correspondence between state officials and educational institution personnel in 1885."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ff59dd23-d853-3daa-953f-8d17d2f6c91e/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3993,
+      "width": 3147,
+      "items": [
+        {
+          "id": "http://example.org/iiif/656",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/655",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ff59dd23-d853-3daa-953f-8d17d2f6c91e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3993,
+                "width": 3147,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ff59dd23-d853-3daa-953f-8d17d2f6c91e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/659",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/658",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"center\"><small>EXECUTIVE DEPARTMENT</small></p>\n<p align=\"center\"><h1><i>Office of Comptroller,</i></h1></p>\n\n<p>\n[Seal: THE STATE OF TEXAS]<br>\n<small>W. J. SWAIN, COMPTROLLER.<br>\nJOHN D. McCALL, CHIEF CLERK.</small>\n</p>\n\n<p align=\"right\">Austin, Dec 3<sup>d</sup> 1885</p>\n\n<p>Prof. L. L. McInnis<br>\nCollege Station<br>\nTexas</p>\n\n<p>Dear Sir</p>\n\n<p>I herewith hand St Dft<br>\non N.Y. for $57<sup><u>25</u></sup> to cover<br>\nyour account rendered,<br>\nplease receipt & return<br>\nMark wants to come home<br>\non 18<sup>th</sup> inst please see that he<br>\nGets leave &c</p>\n\n<p align=\"right\">Very Truly<br>\nW. J. Swain</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/660",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Ready:**\n\nAlright, I've got the document. First, I need to get a clean transcription. It starts with the header: \"EXECUTIVE DEPARTMENT,\" then \"Office of Comptroller,\" and the seal: \"THE STATE OF TEXAS.\" Under the seal, I see \"W. J. SWAIN, COMPTROLLER.\" and \"JOHN D. McCALL, CHIEF CLERK.\" The date is handwritten, \"Austin, Dec 3d 1885\".\n\nNext, I see the addressee: \"Prof. L. L. McInnis,\" \"College Station,\" \"Texas\". The salutation is \"Dear Sir\".\n\nNow, the body: it looks like \"I herewith hand St Dft,\" followed by \"on N.Y. for $57<sup><u>25</u></sup> to cover,\" and \"your account rendered,\" then \"please receipt & return.\" Next line: \"Mark wants to come home,\" and \"on 18th inst please see that he,\" and finally \"Gets leave &c\".\n\nThe closing is \"Very Truly,\" and the signature is \"W. J. Swain.\"\n\nLet me go back and double check my interpretation. \"St Dft\" is likely \"State Draft.\" \"N.Y.\" makes sense in the financial context, probably \"New York.\" The $57.25 looks clear. \"to cover\" seems the most likely fit for the context of an account payment, even though the handwriting has a loop at the beginning and could be \"earn.\" \"your account\" looks accurate, even though the \"your\" looks like \"you\". \"Mark wants to come home\" should be straightforward. \"18th inst\" (instant, meaning current month) seems clear, and \"Gets leave &c\" is plausible, suggesting the student, Mark, needs time off.\n\nAfter a few more checks, I think the transcription is good to go. I've preserved the line breaks and formatted it for clarity, and paid close attention to even the tiniest nuances in the handwriting. Ready to render!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/135/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

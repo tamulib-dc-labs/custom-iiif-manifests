@@ -1,352 +1,400 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-114.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from James E. Binkley, June 16, 1878"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1878-06-16"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from James E. Binkley, June 16, 1878"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 2 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e328b2bf-d2de-3da5-93f1-cfc18d4ccea9/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3165,
-            "width": 1975,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/422",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/421",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e328b2bf-d2de-3da5-93f1-cfc18d4ccea9/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1975,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e328b2bf-d2de-3da5-93f1-cfc18d4ccea9",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/434",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/433",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header: Embossed stamp of U.S. Capitol Building with text \"CONGRESS\"]\n\n<p>\nColumbus, Texas,<br>\nJune 16\", 1878\n</p>\n\n<p>\nFriend M:\n</p>\n\n<p>\nThough I feel very little like<br>\nwriting yet I must tell you the condition<br>\nI am in, and the feelings I experience.<br>\nThis can be nothing more than a note.<br>\nThe trains connected in Houston, and I ar-<br>\nrived safely at home yesterday at 2:10<br>\nP.M. As I anticipated I found my<br>\nfather in the wildest state of excite-<br>\nment, and the deepest throes of sorrow's<br>\nagony. 'Twas with the greatest effort<br>\nof my life that I controlled my<br>\noverflowing grief sufficiently to become<br>\na comforter to him. Ah! me, I may<br>\ncomfort him to some extent; myself to<br>\nnone. Grief is my portion & grief<br>\nI must bear. My little boy's body<br>\nis still in the river, or - but I'll\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/435",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here's how I'm approaching this transcription task. First, I need to understand the request itself. My mission is clear: I'm transcribing handwritten text from an image, and I need to do so *precisely*. I have to maintain the original spelling, punctuation, and, critically, the line breaks as they appear in the image. I'm also expected to identify and label structural elements like headers and preserve the layout. I'm working with HTML tags, specifically `p` for paragraphs and `<br>` for line breaks and possibly `img` if there is an image.\n\nNext up, I'm analyzing the image. It's a handwritten letter, that much is obvious. I'm scanning for clues: there's an embossed stamp, which I'll note as a header; a date and location at the top-right; the salutation \"Friend M\"; and the body of the letter. The handwriting is 19th-century cursive, fairly legible, thankfully.\n\nNow for the line-by-line transcription. I'm mentally mapping the image to text. The embossed stamp is a U.S. Capitol building, and I need to note the text, which appears to be \"CONGRESS.\" The date/location needs to be transcribed, being careful to note the comma and quote mark of \"June 16\"\". The salutation is next. The \"M\" is a bit tricky, and I'll need to use context to get that right. The body seems to be about someone returning home after a journey and a family tragedy. I'm focusing on the words, but also on the *structure* of the text.\n\nI'm now refining and formatting. Because the guidelines emphasize maintaining layout, preserving the line breaks is essential. I'm planning to use `<br>` tags at the end of each physical line within paragraphs to ensure the transcript mirrors the original. The header needs labeling, the date and location needs to be handled as a distinct paragraph, and the salutation also needs its own line. I have to read the text carefully to make sure my interpretation is correct. The context tells me \"Friend M\" is likely a name or initial, and I'm going to represent the punctuation as best as possible. The ampersand is straightforward, apostrophes are key, and the dash needs to be preserved.\n\nNow to craft the HTML structure. I'm starting with a `<p>` tag for the header, noting the embossed stamp. The date/location goes into its own `<p>` block, using `<br>` to maintain the line breaks. The salutation gets its own paragraph as well. The main body of the letter gets the bulk of my attention, again, using `<br>` to replicate the original line breaks.\n\nFinally, I'm performing a final review. I have to ensure I've only used the permitted HTML tags. Spelling? Check. Line order? Check. Handwriting interpretation? I'm confident I have it correct. Structural labeling? Added. Now I generate the output, confident that I've followed the instructions precisely.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3165,
-            "width": 1975,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/424",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/423",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/8f7bdb5d-b741-3a06-9ea6-8b8963f2fd36/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1975,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8f7bdb5d-b741-3a06-9ea6-8b8963f2fd36",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/437",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/436",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>not speak of it - horrible thought! They<br/>\nhave vainly sought the dear child, though<br/>\nnow lifeless, in every place & manner.</p>\n<p>I feel like a man adrift, yet I know<br/>\nI'm not friendless. In this I will send<br/>\nthe xamination marks of my Algebra,<br/>\nplease hand them in submitting the<br/>\nnecessary remarks. Should it so happen<br/>\nthat you leave before my return dont<br/>\nforget to give the Key to the Prest.</p>\n<p>I would return the last of this<br/>\nweek, but cannot if matters remain<br/>\nas they now are.</p>\n<p>I know that you appreciate my<br/>\nfeelings enough to think nothing wrong<br/>\nof this feeble attempt at composing<br/>\na letter. Give my regards to the<br/>\nProfs., especially our Prest. Be likewise<br/>\na medium through which I may send<br/>\nbest wishes, &c. to Mrs G. & the young<br/>\nladies. Enough for the present,</p>\n<p>[Signature]<br/>\nBindley</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/438",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis of the Handwritten Letter**\n\nI've been tasked with transcribing this handwritten letter, and my initial thought is the somber nature of the opening. It starts mid-sentence, the subject matter is clearly distressing: \"not speak of it - horrible thought! They have vainly sought the dear child, though now lifeless...\" The \"They\" likely refers to others desperately searching for a deceased child.\n\nI feel a profound sense of loss, like a man adrift, but I also find solace in knowing I'm not entirely alone. I intend to send you the \"xamination\" marks from my Algebra. I'm hoping you can review them and provide the necessary feedback.\n\nI'm unsure when I'll be able to return, but if you're leaving before my return, please make sure to give the Key to the President (or perhaps the Priest, or a Professor; \"Prest.\" is a very common 19th-century abbreviation). I had hoped to be back this week, but that's impossible given the situation.\n\nI trust you understand my feelings, that you don't think it wrong that I'm attempting this letter. Please give my regards to the Professors, particularly our President. I'm hoping you can act as a medium through which I can send my best wishes and so forth to Mrs. G and the young ladies. I'll conclude for now,\n<p>[Signature]<br/>Bindley</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3165,
-            "width": 1975,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/426",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/425",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ee3c4458-2f4d-365d-a04a-fb7969bf94eb/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1975,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ee3c4458-2f4d-365d-a04a-fb7969bf94eb",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/440",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/439",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Tuesday the 18\" - On the day of finishing the<br/>\nabove note Freddie's body was found<br/>\nin the river about fifteen miles below<br/>\nhere. 'Twas in a frightful condition,<br/>\nbut we managed to get him home<br/>\nand properly interred. The burial<br/>\noccurred yesterday morning at 10 oclock<br/>\nNo notices of a funeral were dis-<br/>\ntributed but many persons were<br/>\nout to witness the burial of my<br/>\nboy - then idolized, now I hope angeliz-<br/>\ned. Father seems better reconciled<br/>\nsince the recovery & burial of his<br/>\nlittle boy</p>\n\n<p>'Twill be the last of next week<br/>\nbefore I can return to the college,<br/>\nthen to remain not long. If you<br/>\nknow of anything you want of<br/>\nme let me know by letter, or<br/>\nif it comes to your mind too<br/>\nlate for that leave me a note<br/>\non our table</p>\n\n<p>Singley</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/441",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**A Transcriptionist's Process**\n\nAlright, let's break this down. As a seasoned transcriptionist, my mind immediately goes into a structured mode. First, I'm setting the stage: I'm transcribing handwritten text from an image, aiming for accuracy and adherence to specific HTML tagging rules. No markdown tables here; plain, IIIF-compliant HTML.\n\nNow, I'm analyzing the image. It's a cursive, handwritten letter\u2014likely from the late 19th or early 20th century, given the style. I note the faded ink, the lined paper, and the way the text is split but continuous. The goal here is to get every nuance of the writing as precisely as possible.\n\nThen, the nitty-gritty: a line-by-line transcription. I am treating the \"18\"\" as an abbreviation of the 18th. Also, it's definitely \"oclock,\" not \"o'clock.\" The ampersand in \"recovery & burial\" is kept, of course. Hyphenation at the end of the line, like \"angeliz-,\" will be maintained. A note that the word \"comes\" is definitely the intended word. The signature, after careful comparison of the letters, is most likely to be \"Singley\".\n\nFormatting with HTML follows, wrapping paragraphs and adding line breaks to mirror the visual layout. The whole process is about fidelity. Finally, double-checking everything. The final output is ready: clean, accurate, and faithful to the original.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3165,
-            "width": 1975,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/428",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/427",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/4b961368-0f58-3ee6-b24f-4d31e19c3e03/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3165,
-                                "width": 1975,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4b961368-0f58-3ee6-b24f-4d31e19c3e03",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/443",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/442",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><i>[Embossed stamp in upper right corner]</i></p>\n<p><i>[Blank page]</i></p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/444",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Initial Assessment and Problem Definition**\n\nOkay, here we go. The user wants me to transcribe text from an image. I see lined paper, fold lines, and a faint embossed stamp in the corner. Crucially, *there is no visible text*. This is a blank sheet of paper, likely the back of a letter or from a notebook. The guidelines say to \"transcribe all text\", and, crucially, to \"provide ONLY the transcribed text\" and that I need to \"Label structural elements\".\n\n**Navigating the Guidelines**\n\nSince there's no actual text to transcribe, I need to figure out the best way to handle this. Do I just return an empty response? Should I use a standard notation like \"[Blank page]\" or \"[No text]\"? The guidelines also tell me to label structural elements. I'll need to figure out the best solution given these contradictory requirements. There is a stamp; let's investigate. The stamp looks like a building with a dome, perhaps the Capitol. There appears to be text below, but it's illegible. This is going to be tricky. The prompt is strict on providing only the text. If I provide nothing, will that be understood? Usually, for a blank page, you'd note \u201c[Blank page]\u201d or something similar. But then, the guidelines. If I provide nothing, does that mean that I\u2019ve followed the directions?\n\n**Deep Dive and Decision-Making**\n\nOkay, let's look closer at the stamp. It is very faint. It's too faint to read clearly. Is it even readable? It's probably a Capitol brand mark. I've re-examined the watermark/stamp. It looks like \"CONGRESS\" might be part of it? Or a brand name? It looks like a building. \"CAPITOL\"? It's very hard to discern.\n\nIf I provide nothing, it could mean that I missed something. Is it a mistake to return an empty output? Standard practice suggests to offer something.\n\nGiven the prompt\u2019s constraints, I'll transcribe the existence of the stamp and the blankness of the page in the appropriate format. I'm going to mark the stamp.\n\n**Implementation and Refinement**\n\nLet's test this. Since there's no legible text, the transcription is essentially empty, or just descriptive tags. I'm going to follow the instructions and use HTML tags. The prompt implies there is text to transcribe. But there is clearly not! Okay, I will describe the blankness and the stamp, using HTML formatting. Refined plan: Identify the stamp, note the lack of other text, and format it as HTML. It\u2019s definitely a building with a dome. I'll stick to a more generic description.\n\n**Final Solution**\n\nSo, the stamp is in the top right, and it's a blank page. The safest approach is this:\n\n```html\n<p><i>[Embossed stamp in upper right corner]</i></p>\n<p><i>[Blank page]</i></p>\n```\nI'll check the output again. Is there *really* no text? Yes. This covers the visual element and the page state and follows the instructions. No faint pencil, no bleed-through, no page number, nothing. That's it!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-114.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from James E. Binkley, June 16, 1878"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1878-06-16"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from James E. Binkley, June 16, 1878"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 2 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Grief--Personal narratives",
+          "Death of children",
+          "Drowning",
+          "Family correspondence",
+          "College students--United States--19th century",
+          "Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Binkley, James E."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Binkley, Freddie",
+          "Binkley, Father"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A deeply personal letter from James E. Binkley to his friend Louis L. McInnis, written from Columbus, Texas in June 1878, describing the tragic drowning death of Binkley's young son, Freddie. The letter captures Binkley's profound grief as he returns home to support his father while dealing with the loss of his child, whose body is initially missing in the river before being discovered and buried. Binkley requests that McInnis submit examination marks for his Algebra coursework and handle administrative matters at the college during his extended absence."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e328b2bf-d2de-3da5-93f1-cfc18d4ccea9/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3165,
+      "width": 1975,
+      "items": [
+        {
+          "id": "http://example.org/iiif/422",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/421",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e328b2bf-d2de-3da5-93f1-cfc18d4ccea9/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1975,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e328b2bf-d2de-3da5-93f1-cfc18d4ccea9",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/434",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/433",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header: Embossed stamp of U.S. Capitol Building with text \"CONGRESS\"]\n\n<p>\nColumbus, Texas,<br>\nJune 16\", 1878\n</p>\n\n<p>\nFriend M:\n</p>\n\n<p>\nThough I feel very little like<br>\nwriting yet I must tell you the condition<br>\nI am in, and the feelings I experience.<br>\nThis can be nothing more than a note.<br>\nThe trains connected in Houston, and I ar-<br>\nrived safely at home yesterday at 2:10<br>\nP.M. As I anticipated I found my<br>\nfather in the wildest state of excite-<br>\nment, and the deepest throes of sorrow's<br>\nagony. 'Twas with the greatest effort<br>\nof my life that I controlled my<br>\noverflowing grief sufficiently to become<br>\na comforter to him. Ah! me, I may<br>\ncomfort him to some extent; myself to<br>\nnone. Grief is my portion & grief<br>\nI must bear. My little boy's body<br>\nis still in the river, or - but I'll\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/435",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here's how I'm approaching this transcription task. First, I need to understand the request itself. My mission is clear: I'm transcribing handwritten text from an image, and I need to do so *precisely*. I have to maintain the original spelling, punctuation, and, critically, the line breaks as they appear in the image. I'm also expected to identify and label structural elements like headers and preserve the layout. I'm working with HTML tags, specifically `p` for paragraphs and `<br>` for line breaks and possibly `img` if there is an image.\n\nNext up, I'm analyzing the image. It's a handwritten letter, that much is obvious. I'm scanning for clues: there's an embossed stamp, which I'll note as a header; a date and location at the top-right; the salutation \"Friend M\"; and the body of the letter. The handwriting is 19th-century cursive, fairly legible, thankfully.\n\nNow for the line-by-line transcription. I'm mentally mapping the image to text. The embossed stamp is a U.S. Capitol building, and I need to note the text, which appears to be \"CONGRESS.\" The date/location needs to be transcribed, being careful to note the comma and quote mark of \"June 16\"\". The salutation is next. The \"M\" is a bit tricky, and I'll need to use context to get that right. The body seems to be about someone returning home after a journey and a family tragedy. I'm focusing on the words, but also on the *structure* of the text.\n\nI'm now refining and formatting. Because the guidelines emphasize maintaining layout, preserving the line breaks is essential. I'm planning to use `<br>` tags at the end of each physical line within paragraphs to ensure the transcript mirrors the original. The header needs labeling, the date and location needs to be handled as a distinct paragraph, and the salutation also needs its own line. I have to read the text carefully to make sure my interpretation is correct. The context tells me \"Friend M\" is likely a name or initial, and I'm going to represent the punctuation as best as possible. The ampersand is straightforward, apostrophes are key, and the dash needs to be preserved.\n\nNow to craft the HTML structure. I'm starting with a `<p>` tag for the header, noting the embossed stamp. The date/location goes into its own `<p>` block, using `<br>` to maintain the line breaks. The salutation gets its own paragraph as well. The main body of the letter gets the bulk of my attention, again, using `<br>` to replicate the original line breaks.\n\nFinally, I'm performing a final review. I have to ensure I've only used the permitted HTML tags. Spelling? Check. Line order? Check. Handwriting interpretation? I'm confident I have it correct. Structural labeling? Added. Now I generate the output, confident that I've followed the instructions precisely.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3165,
+      "width": 1975,
+      "items": [
+        {
+          "id": "http://example.org/iiif/424",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/423",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/8f7bdb5d-b741-3a06-9ea6-8b8963f2fd36/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1975,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/8f7bdb5d-b741-3a06-9ea6-8b8963f2fd36",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/437",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/436",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>not speak of it - horrible thought! They<br/>\nhave vainly sought the dear child, though<br/>\nnow lifeless, in every place & manner.</p>\n<p>I feel like a man adrift, yet I know<br/>\nI'm not friendless. In this I will send<br/>\nthe xamination marks of my Algebra,<br/>\nplease hand them in submitting the<br/>\nnecessary remarks. Should it so happen<br/>\nthat you leave before my return dont<br/>\nforget to give the Key to the Prest.</p>\n<p>I would return the last of this<br/>\nweek, but cannot if matters remain<br/>\nas they now are.</p>\n<p>I know that you appreciate my<br/>\nfeelings enough to think nothing wrong<br/>\nof this feeble attempt at composing<br/>\na letter. Give my regards to the<br/>\nProfs., especially our Prest. Be likewise<br/>\na medium through which I may send<br/>\nbest wishes, &c. to Mrs G. & the young<br/>\nladies. Enough for the present,</p>\n<p>[Signature]<br/>\nBindley</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/438",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis of the Handwritten Letter**\n\nI've been tasked with transcribing this handwritten letter, and my initial thought is the somber nature of the opening. It starts mid-sentence, the subject matter is clearly distressing: \"not speak of it - horrible thought! They have vainly sought the dear child, though now lifeless...\" The \"They\" likely refers to others desperately searching for a deceased child.\n\nI feel a profound sense of loss, like a man adrift, but I also find solace in knowing I'm not entirely alone. I intend to send you the \"xamination\" marks from my Algebra. I'm hoping you can review them and provide the necessary feedback.\n\nI'm unsure when I'll be able to return, but if you're leaving before my return, please make sure to give the Key to the President (or perhaps the Priest, or a Professor; \"Prest.\" is a very common 19th-century abbreviation). I had hoped to be back this week, but that's impossible given the situation.\n\nI trust you understand my feelings, that you don't think it wrong that I'm attempting this letter. Please give my regards to the Professors, particularly our President. I'm hoping you can act as a medium through which I can send my best wishes and so forth to Mrs. G and the young ladies. I'll conclude for now,\n<p>[Signature]<br/>Bindley</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3165,
+      "width": 1975,
+      "items": [
+        {
+          "id": "http://example.org/iiif/426",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/425",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ee3c4458-2f4d-365d-a04a-fb7969bf94eb/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1975,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ee3c4458-2f4d-365d-a04a-fb7969bf94eb",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/440",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/439",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Tuesday the 18\" - On the day of finishing the<br/>\nabove note Freddie's body was found<br/>\nin the river about fifteen miles below<br/>\nhere. 'Twas in a frightful condition,<br/>\nbut we managed to get him home<br/>\nand properly interred. The burial<br/>\noccurred yesterday morning at 10 oclock<br/>\nNo notices of a funeral were dis-<br/>\ntributed but many persons were<br/>\nout to witness the burial of my<br/>\nboy - then idolized, now I hope angeliz-<br/>\ned. Father seems better reconciled<br/>\nsince the recovery & burial of his<br/>\nlittle boy</p>\n\n<p>'Twill be the last of next week<br/>\nbefore I can return to the college,<br/>\nthen to remain not long. If you<br/>\nknow of anything you want of<br/>\nme let me know by letter, or<br/>\nif it comes to your mind too<br/>\nlate for that leave me a note<br/>\non our table</p>\n\n<p>Singley</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/441",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**A Transcriptionist's Process**\n\nAlright, let's break this down. As a seasoned transcriptionist, my mind immediately goes into a structured mode. First, I'm setting the stage: I'm transcribing handwritten text from an image, aiming for accuracy and adherence to specific HTML tagging rules. No markdown tables here; plain, IIIF-compliant HTML.\n\nNow, I'm analyzing the image. It's a cursive, handwritten letter—likely from the late 19th or early 20th century, given the style. I note the faded ink, the lined paper, and the way the text is split but continuous. The goal here is to get every nuance of the writing as precisely as possible.\n\nThen, the nitty-gritty: a line-by-line transcription. I am treating the \"18\"\" as an abbreviation of the 18th. Also, it's definitely \"oclock,\" not \"o'clock.\" The ampersand in \"recovery & burial\" is kept, of course. Hyphenation at the end of the line, like \"angeliz-,\" will be maintained. A note that the word \"comes\" is definitely the intended word. The signature, after careful comparison of the letters, is most likely to be \"Singley\".\n\nFormatting with HTML follows, wrapping paragraphs and adding line breaks to mirror the visual layout. The whole process is about fidelity. Finally, double-checking everything. The final output is ready: clean, accurate, and faithful to the original.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3165,
+      "width": 1975,
+      "items": [
+        {
+          "id": "http://example.org/iiif/428",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/427",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4b961368-0f58-3ee6-b24f-4d31e19c3e03/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3165,
+                "width": 1975,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4b961368-0f58-3ee6-b24f-4d31e19c3e03",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/443",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/442",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><i>[Embossed stamp in upper right corner]</i></p>\n<p><i>[Blank page]</i></p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/444",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Initial Assessment and Problem Definition**\n\nOkay, here we go. The user wants me to transcribe text from an image. I see lined paper, fold lines, and a faint embossed stamp in the corner. Crucially, *there is no visible text*. This is a blank sheet of paper, likely the back of a letter or from a notebook. The guidelines say to \"transcribe all text\", and, crucially, to \"provide ONLY the transcribed text\" and that I need to \"Label structural elements\".\n\n**Navigating the Guidelines**\n\nSince there's no actual text to transcribe, I need to figure out the best way to handle this. Do I just return an empty response? Should I use a standard notation like \"[Blank page]\" or \"[No text]\"? The guidelines also tell me to label structural elements. I'll need to figure out the best solution given these contradictory requirements. There is a stamp; let's investigate. The stamp looks like a building with a dome, perhaps the Capitol. There appears to be text below, but it's illegible. This is going to be tricky. The prompt is strict on providing only the text. If I provide nothing, will that be understood? Usually, for a blank page, you'd note “[Blank page]” or something similar. But then, the guidelines. If I provide nothing, does that mean that I’ve followed the directions?\n\n**Deep Dive and Decision-Making**\n\nOkay, let's look closer at the stamp. It is very faint. It's too faint to read clearly. Is it even readable? It's probably a Capitol brand mark. I've re-examined the watermark/stamp. It looks like \"CONGRESS\" might be part of it? Or a brand name? It looks like a building. \"CAPITOL\"? It's very hard to discern.\n\nIf I provide nothing, it could mean that I missed something. Is it a mistake to return an empty output? Standard practice suggests to offer something.\n\nGiven the prompt’s constraints, I'll transcribe the existence of the stamp and the blankness of the page in the appropriate format. I'm going to mark the stamp.\n\n**Implementation and Refinement**\n\nLet's test this. Since there's no legible text, the transcription is essentially empty, or just descriptive tags. I'm going to follow the instructions and use HTML tags. The prompt implies there is text to transcribe. But there is clearly not! Okay, I will describe the blankness and the stamp, using HTML formatting. Refined plan: Identify the stamp, note the lack of other text, and format it as HTML. It’s definitely a building with a dome. I'll stick to a more generic description.\n\n**Final Solution**\n\nSo, the stamp is in the top right, and it's a blank page. The safest approach is this:\n\n```html\n<p><i>[Embossed stamp in upper right corner]</i></p>\n<p><i>[Blank page]</i></p>\n```\nI'll check the output again. Is there *really* no text? Yes. This covers the visual element and the page state and follows the instructions. No faint pencil, no bleed-through, no page number, nothing. That's it!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/114/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

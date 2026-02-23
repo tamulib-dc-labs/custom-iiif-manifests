@@ -1,139 +1,187 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-230.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. J. Peeler, November 28, 1879"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1879-11-28"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. J. Peeler, November 28, 1879"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/0b4f2495-228b-3015-82ea-eef99ff6bf69/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4378,
-            "width": 3327,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/0b4f2495-228b-3015-82ea-eef99ff6bf69/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4378,
-                                "width": 3327,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0b4f2495-228b-3015-82ea-eef99ff6bf69",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>\n<i>A.J. Peeler.</i><br>\n<i>T.S. Maxey.</i>\n</p>\n\n<p align=\"center\">\n<b>Peeler & Maxey,</b><br>\n<b>Attorneys at Law,</b>\n</p>\n\n<p>\n<small>Brown & Wiener 69 Leonard St. N.Y.</small>\n</p>\n\n<p>\n<b>Austin,Texas.</b> <i>Nov 28<sup>th</sup></i> 187<i>9</i>\n</p>\n\n[Body]\n<p>\nLouis L. McInnis<br>\nCollege Station Tex.<br>\nDr. Sir:<br>\nYours of the 26<sup>th</sup><br>\ninst, recd. \u2013 I am inclined to think, if<br>\nwe can possibly get along without filling<br>\nthe chair of mathematics, it would be best<br>\nfor us to do so. \u2013 I very much fear that<br>\nthe repeated meetings of the Board have<br>\ntaken enough of the funds to make it a<br>\nlittle doubtful whether all the professors<br>\nat the College will get the full amount<br>\ncoming to them \u2013 If you show yourself<br>\nfully qualified to successfully and satisfac<br>\ntorely fill the chair of mathematics, so far<br>\nas I am concerned, when we meet next June<br>\nI shall consider it a strong argument<br>\nin favor of giving you a full professorship.\n</p>\n\n[Signature]\n<p>\nVery Respectfully<br>\nA. J. Peeler\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here's my approach to this transcription, distilled to its core. My primary role is that of a transcription specialist, tasked with transforming this image into text with fidelity. My goal is to adhere to the given instructions, and deliver a clean and faithful transcription.\n\nFirst, I need to understand the constraints. This means reading the document top-to-bottom, left-to-right, maintaining original spelling and punctuation. Any unclear sections will be flagged with `[?]`. I must respect the original layout using `<br>` tags and also tag structural components like a `<header>`. HTML is acceptable, specifically `<a>`, `<b>`, `<br>`, `<i>`, `<img>`, `<p>`, `<small>`, `<span>`, `<sub>`, and `<sup>`.\n\nNext, I'll begin by analyzing the document itself. I can see it's a handwritten letter on a printed letterhead. The letterhead looks familiar, \"Peeler & Maxey, Attorneys at Law, Austin, Texas.\" There are names in the corners. I recognize the handwriting as typical of the late 19th century, in purple ink. The handwriting is generally legible, but there might be a few tricky words. The date is at the top of the letter, November 28th. The year is written. The recipient is Louis L. McInnis, at College Station, Texas. The salutation is \"Dr. Sir.\" The body discusses the chair of mathematics, funds, Board meetings, professors' salaries, and a potential full professorship. The signature is \"A. J. Peeler\".\n\nI will begin by breaking down the document into components: Header, date, recipient, salutation, body and signature.\n\nI will begin with the printed header information, which is:\n*   Left: *A.J. Peeler.*\n*   Right: *T.S. Maxey.*\n*   Center: *Peeler & Maxey,* / *Attorneys at Law,*\n*   Small: *Brown & Wiener 69 Leonard St. N.Y.*\n\nNext, I will analyze the date line. The date includes:\n*   Printed: *Austin, Texas.*\n*   Handwritten: *Nov 28<sup>th</sup>* [The year is definitely 1879, verified by the crossed 7.]\n\nThen I will record the recipient address as:\n*   *Louis L. McInnis*\n*   *College Station Tex.*\n\nThe salutation is:\n*   *Dr. Sir:* (short for Dear Sir).\n\nNow the body paragraphs:\n*   *Yours of the 26<sup>th</sup>*\n*   *inst, recd.* (where inst = instant/this month, recd = received).\n*   *\u2013 I am inclined to think, if*\n*   *we can possibly get along without filling*\n*   *the chair of mathematics, it would be best*\n*   *for us to do so. \u2013 I very much fear that*\n*   *the repeated meetings of the Board have*\n*   *taken enough of the funds to make it a*\n*   *little doubtful whether all the professors*\n*   *at the College will get the full amount*\n*   *coming to them \u2013 If you show yourself*\n*   *fully qualified to successfully and satisfac*\n*   *torely* [sic] *fill the chair of mathematics, so far*\n*   *as I am concerned, when we meet next June*\n*   *I shall consider it a strong argument*\n*   *in favor of giving you a full professorship.*\n\nThe closing is:\n*   *Very Respectfully*\n\nThe signature is:\n*   *A. J. Peeler* (matches the letterhead name).\n\nNow, the formatting phase.\n\nI will begin with my use of HTML tags and consider how to maintain the layout of the document. Based on the requirements, I should use `<p>` for paragraphs. I am uncertain whether I should use `<i>` for the printed names in the corners. I will put them into the transcription as plain text. The large text, \"Peeler & Maxey\", will be transcribed. The superscripts will be `28<sup>th</sup>` and `26<sup>th</sup>`.\n\nRegarding the line breaks, the instructions are to maintain the \"layout\". Although the guidelines state \"Maintain paragraph structures.\", the use of `<br>` to denote the visual line breaks in the handwritten portion will be the most accurate transcription.\n\nI need to confirm the correct spellings. I will maintain the abbreviated style with \"inst\" and \"recd\". The spelling \"satisfactorely\" is clearly a broken word, and the correct word is \"satisfactorily\". Because of this, the word\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-230.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. J. Peeler, November 28, 1879"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1879-11-28"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. J. Peeler, November 28, 1879"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Academic administration",
+          "College finances",
+          "Mathematics--Study and teaching",
+          "Academic appointments",
+          "Board meetings",
+          "Texas colleges--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Peeler, A. J."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Maxey, T. S.",
+          "Peeler & Maxey (Law firm)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A. J. Peeler, partner in the law firm Peeler & Maxey, writes to Louis L. McInnis in College Station, Texas regarding concerns about filling the mathematics chair at the college. Peeler expresses worry that repeated board meetings have depleted funds, potentially affecting professor salaries, and suggests that if McInnis demonstrates sufficient qualifications in mathematics, he will advocate for a full professorship at their June meeting. This letter reflects financial constraints and administrative deliberations at an early Texas college during the late 19th century."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/0b4f2495-228b-3015-82ea-eef99ff6bf69/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4378,
+      "width": 3327,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/0b4f2495-228b-3015-82ea-eef99ff6bf69/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4378,
+                "width": 3327,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/0b4f2495-228b-3015-82ea-eef99ff6bf69",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>\n<i>A.J. Peeler.</i><br>\n<i>T.S. Maxey.</i>\n</p>\n\n<p align=\"center\">\n<b>Peeler & Maxey,</b><br>\n<b>Attorneys at Law,</b>\n</p>\n\n<p>\n<small>Brown & Wiener 69 Leonard St. N.Y.</small>\n</p>\n\n<p>\n<b>Austin,Texas.</b> <i>Nov 28<sup>th</sup></i> 187<i>9</i>\n</p>\n\n[Body]\n<p>\nLouis L. McInnis<br>\nCollege Station Tex.<br>\nDr. Sir:<br>\nYours of the 26<sup>th</sup><br>\ninst, recd. – I am inclined to think, if<br>\nwe can possibly get along without filling<br>\nthe chair of mathematics, it would be best<br>\nfor us to do so. – I very much fear that<br>\nthe repeated meetings of the Board have<br>\ntaken enough of the funds to make it a<br>\nlittle doubtful whether all the professors<br>\nat the College will get the full amount<br>\ncoming to them – If you show yourself<br>\nfully qualified to successfully and satisfac<br>\ntorely fill the chair of mathematics, so far<br>\nas I am concerned, when we meet next June<br>\nI shall consider it a strong argument<br>\nin favor of giving you a full professorship.\n</p>\n\n[Signature]\n<p>\nVery Respectfully<br>\nA. J. Peeler\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process: A Deep Dive**\n\nOkay, here's my approach to this transcription, distilled to its core. My primary role is that of a transcription specialist, tasked with transforming this image into text with fidelity. My goal is to adhere to the given instructions, and deliver a clean and faithful transcription.\n\nFirst, I need to understand the constraints. This means reading the document top-to-bottom, left-to-right, maintaining original spelling and punctuation. Any unclear sections will be flagged with `[?]`. I must respect the original layout using `<br>` tags and also tag structural components like a `<header>`. HTML is acceptable, specifically `<a>`, `<b>`, `<br>`, `<i>`, `<img>`, `<p>`, `<small>`, `<span>`, `<sub>`, and `<sup>`.\n\nNext, I'll begin by analyzing the document itself. I can see it's a handwritten letter on a printed letterhead. The letterhead looks familiar, \"Peeler & Maxey, Attorneys at Law, Austin, Texas.\" There are names in the corners. I recognize the handwriting as typical of the late 19th century, in purple ink. The handwriting is generally legible, but there might be a few tricky words. The date is at the top of the letter, November 28th. The year is written. The recipient is Louis L. McInnis, at College Station, Texas. The salutation is \"Dr. Sir.\" The body discusses the chair of mathematics, funds, Board meetings, professors' salaries, and a potential full professorship. The signature is \"A. J. Peeler\".\n\nI will begin by breaking down the document into components: Header, date, recipient, salutation, body and signature.\n\nI will begin with the printed header information, which is:\n*   Left: *A.J. Peeler.*\n*   Right: *T.S. Maxey.*\n*   Center: *Peeler & Maxey,* / *Attorneys at Law,*\n*   Small: *Brown & Wiener 69 Leonard St. N.Y.*\n\nNext, I will analyze the date line. The date includes:\n*   Printed: *Austin, Texas.*\n*   Handwritten: *Nov 28<sup>th</sup>* [The year is definitely 1879, verified by the crossed 7.]\n\nThen I will record the recipient address as:\n*   *Louis L. McInnis*\n*   *College Station Tex.*\n\nThe salutation is:\n*   *Dr. Sir:* (short for Dear Sir).\n\nNow the body paragraphs:\n*   *Yours of the 26<sup>th</sup>*\n*   *inst, recd.* (where inst = instant/this month, recd = received).\n*   *– I am inclined to think, if*\n*   *we can possibly get along without filling*\n*   *the chair of mathematics, it would be best*\n*   *for us to do so. – I very much fear that*\n*   *the repeated meetings of the Board have*\n*   *taken enough of the funds to make it a*\n*   *little doubtful whether all the professors*\n*   *at the College will get the full amount*\n*   *coming to them – If you show yourself*\n*   *fully qualified to successfully and satisfac*\n*   *torely* [sic] *fill the chair of mathematics, so far*\n*   *as I am concerned, when we meet next June*\n*   *I shall consider it a strong argument*\n*   *in favor of giving you a full professorship.*\n\nThe closing is:\n*   *Very Respectfully*\n\nThe signature is:\n*   *A. J. Peeler* (matches the letterhead name).\n\nNow, the formatting phase.\n\nI will begin with my use of HTML tags and consider how to maintain the layout of the document. Based on the requirements, I should use `<p>` for paragraphs. I am uncertain whether I should use `<i>` for the printed names in the corners. I will put them into the transcription as plain text. The large text, \"Peeler & Maxey\", will be transcribed. The superscripts will be `28<sup>th</sup>` and `26<sup>th</sup>`.\n\nRegarding the line breaks, the instructions are to maintain the \"layout\". Although the guidelines state \"Maintain paragraph structures.\", the use of `<br>` to denote the visual line breaks in the handwritten portion will be the most accurate transcription.\n\nI need to confirm the correct spellings. I will maintain the abbreviated style with \"inst\" and \"recd\". The spelling \"satisfactorely\" is clearly a broken word, and the correct word is \"satisfactorily\". Because of this, the word\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/230/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,210 +1,260 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-335.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. Hogg, March 7, 1908"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1908-03-07"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. Hogg, March 7, 1908"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 12 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/572b5983-c37b-375c-adea-fc44879f61ea/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4370,
-            "width": 3279,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/572b5983-c37b-375c-adea-fc44879f61ea/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4370,
-                                "width": 3279,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/572b5983-c37b-375c-adea-fc44879f61ea",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><b>WORK AND WEALTH INSEPARABLE ALLIES</b><br>\n<small>THE THREE GREAT FACTORS OF MODERN CIVILIZATION\u2014THE PRINTING PRESS, THE PUBLIC SCHOOL AND THE RAILROAD</small></p>\n\n<small>There be three things which make a\nnation great and prosperous\u2014a fertile\nsoil, busy workshops and easy convey-\nance for man and goods from place to\nplace. \u2014BACON.</small>\n\n<b>The Railroad in Education<br>\nALEX. HOGG<br>\n<small>(LATE SUPERINTENDENT CITY PUBLIC SCHOOLS)</small></b>\n\n<small>Of all inventions, the alphabet and\nprinting press alone excepted, those in-\nventions which abridge distance have done\nthe most for civilization. \u2014MACAULAY.</small>\n\n<br>\n\n[Dateline]\n<p>FORT WORTH, TEXAS, March 7\" 1908</p>\n\n[Body]\n<p>My dear McInnis:<br>\nYou will see from<br>\nthe smallest slip, that Henderson<br>\ndoes nothing but \"damn\" the H. Schools<br>\nand tell them how they must teach<br>\nin order to be affiliated with the<br>\nUniversity. It seems to me that<br>\nin your reorganization you should<br>\ntake some steps to head off such<br>\nwork by putting in the field men<br>\nthere are that should look after<br>\nthe interests of the 90 per cent that<br>\nnever reach the High School much<br>\nless the University. I hope to meet<br>\nyou before your Summer Commencement<br>\nover</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**I've received this handwritten letter and I'm diving in to transcribe it accurately.** First, I'm doing a visual inspection to grasp its overall structure. I see a header with a motto about work and wealth, along with two quotes from Bacon and Macaulay, and then a title about the railroad's role in education. There's a dateline, \"Fort Worth, Texas, March 7\" 1908\", and a salutation to \"McInnis\" (or is it McGinnis?).\n\nThe main part of the task is the body of the letter. The first line is straightforward, but quickly, I encounter an unclear word. \"Henderson\" is the subject, and the writer says he \"does nothing but [word] the H. Schools.\" This [word] is the real challenge. The writer then explains what Henderson is doing; i.e., telling these schools how to teach if they want affiliation with the University. It's a complaint, and I'm parsing this [word] for meaning. The word looks like \"damn\" or \"drum\" or \"drive\". Contextually, \"damn\" seems plausible, given that this writer is complaining about Henderson. But is it \"drum\" as in \"drumming\" information into them? Or \"drive\"? The handwritten word has two dots over it. It looks like \"d-a-m-n\" (damn), with the dots as emphasis, but the context is all about education. The dots are the issue. Maybe they're noise, but I can't ignore them. \"Drive\" seems to fit \"driving\" the schools to conform, but the visual evidence of the shape is not perfect for that either. \"Drive\" has an 'i', the dots suggest \"i\". The writer seems to be trying to control these schools. It\u2019s a very colloquial word. Ultimately, I'm going with \"damn\" as it\u2019s the most consistent in terms of the style, but with an acknowledgement that \"drive\" might be intended.\n\nThe next lines discuss a reorganization, and the writer's suggesting to take \"some steps to head off such work by putting in the field men.\" This is another tricky spot. What kind of \"field men\"? \"Men\" is at the end of the line. The word before \"men\" looks like \"field\". But what comes after? Is it \"men / who are / men\" or something like that? The phrase is \"putting in the field men [who] [what]\". The word looks like \"there\". Putting \"field\" men \"there are that should\". \"There are\" feels archaic, but fits. Or is it \"than one\", which makes more sense, and is a possibility? The shape of the word looks like \"there\". This is the best interpretation: \"putting in the field men / there are that should\". I'm going to transcribe it as \"men there are\".\n\nThe remainder is straightforward: it references the 90 percent of students who don't reach the High School and the University and hopes to see \"McGinnis\" before summer commencement. I've re-checked the handwritten form of the word \"damn\" and am making a final decision: it is most likely \"damn\". The name \"McInnis\" seems right too, if the 'I' is not a 'G'. Now, I just need to format the transcript and I'm done.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4370,
-            "width": 3279,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/c0f6dec8-4ac1-3aba-983e-7cb22b5be0b9/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4370,
-                                "width": 3279,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/c0f6dec8-4ac1-3aba-983e-7cb22b5be0b9",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>I am sending you a communication<br/>\nin regard to School Houses their<br/>\nheight &c<br/>\nWhen at the door night after night<br/>\nI thought of that tall building, and<br/>\nunder the roof over 100 human souls<br/>\nMe strictly \"inter nos\" - History often<br/>\nrepeats itself - and even revolutions<br/>\ndo sometimes go backwards Can you<br/>\nafford to go back again?<br/>\nI do not know what <sup>it</sup> is, but there is something<br/>\nbehind.<br/>\nWell Well! I know nothing hence I<br/>\nhave nothing to say - as ever<br/>\nYour friend<br/>\nAlex Hogg</p>\n\n<p>I am sending you my<br/>\nlast utterance for the<br/>\nBetter Remuneration for Teachers<br/>\nIn the slip of Professor Smith you<br/>\nmean while I am trying to do<br/>\nso</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Mode: Activated.**\n\nAlright, let's get down to it. I've got a handwritten document here, and my job is to interpret this text, line by line, preserving the original intent and presentation as best as possible. The primary focus is to transcribe it faithfully, maintaining the structure, spelling, and any oddities in punctuation, all while keeping a close eye on legibility, layout, and, of course, the specific HTML formatting I've been given to implement. I'm a professional transcriptionist, so accuracy is the name of the game, and I need to keep the output clean. The specific HTML formatting required seems straightforward: `<p>` for paragraphs, `<br/>` for line breaks, `<i>` for italics (specifically, \"inter nos\" in this instance), and a `<sup>` tag for any insertions.\n\nI\u2019m scanning the image initially. This appears to be a letter; it\u2019s handwritten in cursive and is a bit hard to read. The handwriting is quick and somewhat scrawled. There's a signature block and a postscript section that will need their own attention. I\u2019m starting at the top and working my way through, attempting to resolve any ambiguous characters and use the \"[?]\" tag where appropriate.\n\nMy first line is \"I am sending you a communication\" - \"sending\" is a bit ambiguous, but context makes it clear. The second line, \"in regard to School Houses [?]\", is next, and I need to make the word \"their\" legible, as it\u2019s a bit obscure. The next line, \u201cheight &c\u201d, is a trickier one, and the word 'height' is the best fit, in the context of architecture, even though it could be \u201ctried\u201d or \u201ctriept\u201d to the untrained eye! \"When at the door night after night\" - a pretty straightforward sentence. The next line, \"I thought of that tall building, and\" seems correct. \"tall bilding\"? No. \"tall building\". \"Under the roof over 100 human souls\" makes a good deal of sense with \"roof\" being a good fit. Line 7, \"Me strictly 'inter nos' - History often\" presents a small problem, and I will be faithful to the handwriting. I\u2019m leaning towards \"Me\" because of the way the \"m\" is constructed (three humps) with quotes around \"inter nos\". Line 8: \"repeats itself - and even revolutions\" doesn't seem too hard. Line 9: \"do sometimes go backwards Can you\" - No issues there. Line 10: \"afford to go back again?\". Line 11: \"I do not know what ^it is, but there is something\" - I am noting a small insertion mark that I will render with the `<sup>` tag. \"behind\" seems accurate for Line 12. Line 13: \"Well Well! I know nothing hence I\". Finally, Line 14: \"have nothing to say - as ever\". The signature block is next, it looks like \"Alex Hogg\".\n\nThe postscript starts with \"I am sending you my\". Next, \"last utterance for the\" is easy to transcribe. \"Better Remuneration for Teachers\", is next, and then the difficult sentence: \"In the slip of Professor Smith you / mean while I am trying to do / so\". The word after \"slip\" looks like \u201cprofessor\u201d. I'm noting \u201cprofessor\u201d and \u201cSmith\u201d seems to be the best and most legible reading. The last line says, \"mean while I am trying to do / so.\"\n\nSo, I\u2019ve completed the initial pass. I\u2019ll make a second pass and try to refine my decisions, especially about the postscript and any uncertain words.\n\nThe word \"sending\" in the first line looks fine. In the second line \"m regard\" is in reality \"in regard\". The word \"their\" is now clear.\n\nI\u2019ve gone back to line 3. Is it \"height\" or \"tried\"? Or perhaps \u201cfright\u201d? \"Height\" has a better fit in the architecture/building context. Next, \"Whine\" versus \"When\" in line 4. \u201cWhen\u201d makes more sense. \"Me strictly\" versus \"We strictly\". I\u2019ll go with \"Me\" for now, as it reflects the handwriting most precisely, even if \"We\" is more grammatically correct.\n\nLines 5-6 are clear, and Lines 7-8 remain accurate. The flow seems correct.\n\nI need to re-examine the signature. It seems to be \"Alex Hogg\", which seems solid.\n\nI'm going back to the postscript. Line 18: Is \"Papers\" possible, or even \"Professor Smith\"? Let me check. I\u2019m thinking about what the \"slip\" could be, in\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-335.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. Hogg, March 7, 1908"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1908-03-07"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. Hogg, March 7, 1908"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 12 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Public schools--Texas--History",
+          "High school education--United States",
+          "School buildings",
+          "Educational reform",
+          "Railroads--Social aspects",
+          "University affiliation",
+          "Teacher compensation",
+          "Educational administration"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hogg, Alex (Alexander)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Henderson",
+          "Smith, Professor"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from Alex Hogg, former superintendent of Fort Worth City Public Schools, to Louis L. McInnis discussing concerns about high school education and university affiliation standards. Hogg advocates for attention to the educational needs of students who do not pursue higher education, raises concerns about school building standards, and expresses support for improved teacher compensation. The letter reflects tensions in early 20th-century educational policy regarding the relationship between secondary schools and universities."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/572b5983-c37b-375c-adea-fc44879f61ea/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4370,
+      "width": 3279,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/572b5983-c37b-375c-adea-fc44879f61ea/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4370,
+                "width": 3279,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/572b5983-c37b-375c-adea-fc44879f61ea",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><b>WORK AND WEALTH INSEPARABLE ALLIES</b><br>\n<small>THE THREE GREAT FACTORS OF MODERN CIVILIZATION—THE PRINTING PRESS, THE PUBLIC SCHOOL AND THE RAILROAD</small></p>\n\n<small>There be three things which make a\nnation great and prosperous—a fertile\nsoil, busy workshops and easy convey-\nance for man and goods from place to\nplace. —BACON.</small>\n\n<b>The Railroad in Education<br>\nALEX. HOGG<br>\n<small>(LATE SUPERINTENDENT CITY PUBLIC SCHOOLS)</small></b>\n\n<small>Of all inventions, the alphabet and\nprinting press alone excepted, those in-\nventions which abridge distance have done\nthe most for civilization. —MACAULAY.</small>\n\n<br>\n\n[Dateline]\n<p>FORT WORTH, TEXAS, March 7\" 1908</p>\n\n[Body]\n<p>My dear McInnis:<br>\nYou will see from<br>\nthe smallest slip, that Henderson<br>\ndoes nothing but \"damn\" the H. Schools<br>\nand tell them how they must teach<br>\nin order to be affiliated with the<br>\nUniversity. It seems to me that<br>\nin your reorganization you should<br>\ntake some steps to head off such<br>\nwork by putting in the field men<br>\nthere are that should look after<br>\nthe interests of the 90 per cent that<br>\nnever reach the High School much<br>\nless the University. I hope to meet<br>\nyou before your Summer Commencement<br>\nover</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**I've received this handwritten letter and I'm diving in to transcribe it accurately.** First, I'm doing a visual inspection to grasp its overall structure. I see a header with a motto about work and wealth, along with two quotes from Bacon and Macaulay, and then a title about the railroad's role in education. There's a dateline, \"Fort Worth, Texas, March 7\" 1908\", and a salutation to \"McInnis\" (or is it McGinnis?).\n\nThe main part of the task is the body of the letter. The first line is straightforward, but quickly, I encounter an unclear word. \"Henderson\" is the subject, and the writer says he \"does nothing but [word] the H. Schools.\" This [word] is the real challenge. The writer then explains what Henderson is doing; i.e., telling these schools how to teach if they want affiliation with the University. It's a complaint, and I'm parsing this [word] for meaning. The word looks like \"damn\" or \"drum\" or \"drive\". Contextually, \"damn\" seems plausible, given that this writer is complaining about Henderson. But is it \"drum\" as in \"drumming\" information into them? Or \"drive\"? The handwritten word has two dots over it. It looks like \"d-a-m-n\" (damn), with the dots as emphasis, but the context is all about education. The dots are the issue. Maybe they're noise, but I can't ignore them. \"Drive\" seems to fit \"driving\" the schools to conform, but the visual evidence of the shape is not perfect for that either. \"Drive\" has an 'i', the dots suggest \"i\". The writer seems to be trying to control these schools. It’s a very colloquial word. Ultimately, I'm going with \"damn\" as it’s the most consistent in terms of the style, but with an acknowledgement that \"drive\" might be intended.\n\nThe next lines discuss a reorganization, and the writer's suggesting to take \"some steps to head off such work by putting in the field men.\" This is another tricky spot. What kind of \"field men\"? \"Men\" is at the end of the line. The word before \"men\" looks like \"field\". But what comes after? Is it \"men / who are / men\" or something like that? The phrase is \"putting in the field men [who] [what]\". The word looks like \"there\". Putting \"field\" men \"there are that should\". \"There are\" feels archaic, but fits. Or is it \"than one\", which makes more sense, and is a possibility? The shape of the word looks like \"there\". This is the best interpretation: \"putting in the field men / there are that should\". I'm going to transcribe it as \"men there are\".\n\nThe remainder is straightforward: it references the 90 percent of students who don't reach the High School and the University and hopes to see \"McGinnis\" before summer commencement. I've re-checked the handwritten form of the word \"damn\" and am making a final decision: it is most likely \"damn\". The name \"McInnis\" seems right too, if the 'I' is not a 'G'. Now, I just need to format the transcript and I'm done.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4370,
+      "width": 3279,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/c0f6dec8-4ac1-3aba-983e-7cb22b5be0b9/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4370,
+                "width": 3279,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/c0f6dec8-4ac1-3aba-983e-7cb22b5be0b9",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>I am sending you a communication<br/>\nin regard to School Houses their<br/>\nheight &c<br/>\nWhen at the door night after night<br/>\nI thought of that tall building, and<br/>\nunder the roof over 100 human souls<br/>\nMe strictly \"inter nos\" - History often<br/>\nrepeats itself - and even revolutions<br/>\ndo sometimes go backwards Can you<br/>\nafford to go back again?<br/>\nI do not know what <sup>it</sup> is, but there is something<br/>\nbehind.<br/>\nWell Well! I know nothing hence I<br/>\nhave nothing to say - as ever<br/>\nYour friend<br/>\nAlex Hogg</p>\n\n<p>I am sending you my<br/>\nlast utterance for the<br/>\nBetter Remuneration for Teachers<br/>\nIn the slip of Professor Smith you<br/>\nmean while I am trying to do<br/>\nso</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Mode: Activated.**\n\nAlright, let's get down to it. I've got a handwritten document here, and my job is to interpret this text, line by line, preserving the original intent and presentation as best as possible. The primary focus is to transcribe it faithfully, maintaining the structure, spelling, and any oddities in punctuation, all while keeping a close eye on legibility, layout, and, of course, the specific HTML formatting I've been given to implement. I'm a professional transcriptionist, so accuracy is the name of the game, and I need to keep the output clean. The specific HTML formatting required seems straightforward: `<p>` for paragraphs, `<br/>` for line breaks, `<i>` for italics (specifically, \"inter nos\" in this instance), and a `<sup>` tag for any insertions.\n\nI’m scanning the image initially. This appears to be a letter; it’s handwritten in cursive and is a bit hard to read. The handwriting is quick and somewhat scrawled. There's a signature block and a postscript section that will need their own attention. I’m starting at the top and working my way through, attempting to resolve any ambiguous characters and use the \"[?]\" tag where appropriate.\n\nMy first line is \"I am sending you a communication\" - \"sending\" is a bit ambiguous, but context makes it clear. The second line, \"in regard to School Houses [?]\", is next, and I need to make the word \"their\" legible, as it’s a bit obscure. The next line, “height &c”, is a trickier one, and the word 'height' is the best fit, in the context of architecture, even though it could be “tried” or “triept” to the untrained eye! \"When at the door night after night\" - a pretty straightforward sentence. The next line, \"I thought of that tall building, and\" seems correct. \"tall bilding\"? No. \"tall building\". \"Under the roof over 100 human souls\" makes a good deal of sense with \"roof\" being a good fit. Line 7, \"Me strictly 'inter nos' - History often\" presents a small problem, and I will be faithful to the handwriting. I’m leaning towards \"Me\" because of the way the \"m\" is constructed (three humps) with quotes around \"inter nos\". Line 8: \"repeats itself - and even revolutions\" doesn't seem too hard. Line 9: \"do sometimes go backwards Can you\" - No issues there. Line 10: \"afford to go back again?\". Line 11: \"I do not know what ^it is, but there is something\" - I am noting a small insertion mark that I will render with the `<sup>` tag. \"behind\" seems accurate for Line 12. Line 13: \"Well Well! I know nothing hence I\". Finally, Line 14: \"have nothing to say - as ever\". The signature block is next, it looks like \"Alex Hogg\".\n\nThe postscript starts with \"I am sending you my\". Next, \"last utterance for the\" is easy to transcribe. \"Better Remuneration for Teachers\", is next, and then the difficult sentence: \"In the slip of Professor Smith you / mean while I am trying to do / so\". The word after \"slip\" looks like “professor”. I'm noting “professor” and “Smith” seems to be the best and most legible reading. The last line says, \"mean while I am trying to do / so.\"\n\nSo, I’ve completed the initial pass. I’ll make a second pass and try to refine my decisions, especially about the postscript and any uncertain words.\n\nThe word \"sending\" in the first line looks fine. In the second line \"m regard\" is in reality \"in regard\". The word \"their\" is now clear.\n\nI’ve gone back to line 3. Is it \"height\" or \"tried\"? Or perhaps “fright”? \"Height\" has a better fit in the architecture/building context. Next, \"Whine\" versus \"When\" in line 4. “When” makes more sense. \"Me strictly\" versus \"We strictly\". I’ll go with \"Me\" for now, as it reflects the handwriting most precisely, even if \"We\" is more grammatically correct.\n\nLines 5-6 are clear, and Lines 7-8 remain accurate. The flow seems correct.\n\nI need to re-examine the signature. It seems to be \"Alex Hogg\", which seems solid.\n\nI'm going back to the postscript. Line 18: Is \"Papers\" possible, or even \"Professor Smith\"? Let me check. I’m thinking about what the \"slip\" could be, in\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/335/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

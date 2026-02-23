@@ -1,139 +1,185 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-147.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Thos. R. Laughin (), April 13, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-04-13"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Thos. R. Laughin (), April 13, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ebdea756-cf0a-3f41-b619-e4ecefb9458f/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4153,
-            "width": 3147,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/92",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/91",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ebdea756-cf0a-3f41-b619-e4ecefb9458f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4153,
-                                "width": 3147,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ebdea756-cf0a-3f41-b619-e4ecefb9458f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/95",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/94",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>Ho Apr 13 1886\n\nMr. L. L. McInnis\nDear Sir\nWe send you\nby express the trunk ordered\nprice $13.75. In the letter pocket\nof the trunk you will find $35<sup>00</sup>\nin money please credit\nCadet Foster with 30<sup>00</sup> amount\ndue college & hand the balance\n5<sup>00</sup> to Foster. We have also taken\nthe liberty to put in a small\npk which we will be obliged\nif you will hand him\n\nRespt\nThos G. Franklin\nF.</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/96",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Image Analysis and Transcription: A Detailed Walkthrough**\n\nOkay, here's the deal. I'm looking at this image of a handwritten letter, and my goal is to produce a clean, accurate transcription. As an expert, I'm going to take a methodical approach, and here's my thought process:\n\nFirst things first: the date. Top right corner. I'm seeing \"Ho Apr 13 1886\". Or maybe \"St L\"? The first letter is a bit tricky, but given the context of the addressee (L.L. McInnis at Texas A&M) and the year (1886), a location like Houston or St. Louis are possible. Let's dig deeper. The \"H\" is distinctive. Looks like it has a loop. It looks less like the \"S\" in \"Sir\". Let's stick with \"Ho\" or \"St L\". Let's assume Houston.\n\nNow, the addressee. It's clearly \"Mr L L McInnis\". The handwriting's pretty neat, cursive, easy to make out. \"Mr. L. L. McInnis\".\n\nThe salutation is simple: \"Dear Sir\". That's a gimme.\n\nThe body of the letter is where things get interesting. I'll take it line by line:\n*   \"We send you\" - Clear.\n*   \"by express the trunk ordered\" - Also clear.\n*   \"price $13.75. In the letter pocket\" - Right, trunk price and setup. The amount looks accurate. Period after the price is there.\n*   \"of the trunk you will find $35<sup>00</sup>\" - Ah, now we're getting to the crux. The figure is messy. Is it $36.25? No. It's $35.00. The math will support this. The 3 and 5 are connected in handwriting. A bit of ink. Superscript.\n*   \"in money ~~which~~ please credit\" - Right. The word \"which\" is crossed out. So, as a professional, I'll transcribe \"in money please credit\".\n*   \"Cadet Foster with 30<sup>00</sup> amount\" - Cadet Foster, right. Looks like $30.00. That's good. Superscript.\n*   \"due college & hand the balance\" - Clear. Ampersand.\n*   \"5<sup>00</sup> to Foster. We have also taken\" - Okay, $5.00 to Foster. The numbers align, supporting $35.00 total. Superscript again.\n*   \"the liberty to put in a small\" - \"to put\" written as two words.\n*   \"pk which we will be obliged\" - \"pk\" is shorthand for \"package\". The word \"which\" is legible but unnecessary.\n*   \"if you will hand him\" - Simple.\n\nClosing: \"Respt\" (Respectfully).\nSignature: \"Thos G. Franklin\" - Middle initial looks like a 'G', with that cursive loop underneath. Last name \"Franklin\". Initial \"F\" underneath.\n\nLet's refine the location. It looks like \"Ho\" in the header. Or possibly \"St L\". Let's make \"Ho\".\nNow, let's look at formatting. Date at the top right. Left-align the salutation. Paragraphs, indentation for the signature.\n\nLet's look at the HTML tags. I'll use paragraph tags (`<p>`) for structure, line breaks (`<br>`) where needed, and the superscript tag (`<sup>`) for the cent signs in dollar amounts. We do not have the ability to use the strike-through tag, therefore, I will omit the crossed-out word \"which\".\n\nNow I am going to assemble the final transcription:\nHere is the Final transcription:\n\n```html\n<p>Ho Apr 13 1886</p>\n<p>Mr. L. L. McInnis<br>\n&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir</p>\n<p>We send you<br>\nby express the trunk ordered<br>\nprice $13.75. In the letter pocket<br>\nof the trunk you will find $35<sup>00</sup><br>\nin money please credit<br>\nCadet Foster with 30<sup>00</sup> amount<br>\ndue college & hand the balance<br>\n5<sup>00</sup> to Foster. We have also taken<br>\nthe liberty to put in a small<br>\npk which we will be obliged<br>\nif you will hand him</p>\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-147.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Thos. R. Laughin (), April 13, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-04-13"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Thos. R. Laughin (), April 13, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Trunks (Luggage)",
+          "Merchandise--Shipment",
+          "Money--Transfer",
+          "College expenses",
+          "Commercial correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Franklin, Thos. G."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Foster, Cadet"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A commercial letter from Thos. G. Franklin to Louis L. McInnis dated April 13, 1886, confirming shipment of an ordered trunk via express for $13.75. The letter instructs McInnis to distribute $35.00 found in the trunk's letter pocket, crediting $30.00 toward Cadet Foster's college debt and giving Foster the remaining $5.00, along with a small package included in the shipment."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ebdea756-cf0a-3f41-b619-e4ecefb9458f/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4153,
+      "width": 3147,
+      "items": [
+        {
+          "id": "http://example.org/iiif/92",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/91",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ebdea756-cf0a-3f41-b619-e4ecefb9458f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4153,
+                "width": 3147,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ebdea756-cf0a-3f41-b619-e4ecefb9458f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/95",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/94",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>Ho Apr 13 1886\n\nMr. L. L. McInnis\nDear Sir\nWe send you\nby express the trunk ordered\nprice $13.75. In the letter pocket\nof the trunk you will find $35<sup>00</sup>\nin money please credit\nCadet Foster with 30<sup>00</sup> amount\ndue college & hand the balance\n5<sup>00</sup> to Foster. We have also taken\nthe liberty to put in a small\npk which we will be obliged\nif you will hand him\n\nRespt\nThos G. Franklin\nF.</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/96",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Image Analysis and Transcription: A Detailed Walkthrough**\n\nOkay, here's the deal. I'm looking at this image of a handwritten letter, and my goal is to produce a clean, accurate transcription. As an expert, I'm going to take a methodical approach, and here's my thought process:\n\nFirst things first: the date. Top right corner. I'm seeing \"Ho Apr 13 1886\". Or maybe \"St L\"? The first letter is a bit tricky, but given the context of the addressee (L.L. McInnis at Texas A&M) and the year (1886), a location like Houston or St. Louis are possible. Let's dig deeper. The \"H\" is distinctive. Looks like it has a loop. It looks less like the \"S\" in \"Sir\". Let's stick with \"Ho\" or \"St L\". Let's assume Houston.\n\nNow, the addressee. It's clearly \"Mr L L McInnis\". The handwriting's pretty neat, cursive, easy to make out. \"Mr. L. L. McInnis\".\n\nThe salutation is simple: \"Dear Sir\". That's a gimme.\n\nThe body of the letter is where things get interesting. I'll take it line by line:\n*   \"We send you\" - Clear.\n*   \"by express the trunk ordered\" - Also clear.\n*   \"price $13.75. In the letter pocket\" - Right, trunk price and setup. The amount looks accurate. Period after the price is there.\n*   \"of the trunk you will find $35<sup>00</sup>\" - Ah, now we're getting to the crux. The figure is messy. Is it $36.25? No. It's $35.00. The math will support this. The 3 and 5 are connected in handwriting. A bit of ink. Superscript.\n*   \"in money ~~which~~ please credit\" - Right. The word \"which\" is crossed out. So, as a professional, I'll transcribe \"in money please credit\".\n*   \"Cadet Foster with 30<sup>00</sup> amount\" - Cadet Foster, right. Looks like $30.00. That's good. Superscript.\n*   \"due college & hand the balance\" - Clear. Ampersand.\n*   \"5<sup>00</sup> to Foster. We have also taken\" - Okay, $5.00 to Foster. The numbers align, supporting $35.00 total. Superscript again.\n*   \"the liberty to put in a small\" - \"to put\" written as two words.\n*   \"pk which we will be obliged\" - \"pk\" is shorthand for \"package\". The word \"which\" is legible but unnecessary.\n*   \"if you will hand him\" - Simple.\n\nClosing: \"Respt\" (Respectfully).\nSignature: \"Thos G. Franklin\" - Middle initial looks like a 'G', with that cursive loop underneath. Last name \"Franklin\". Initial \"F\" underneath.\n\nLet's refine the location. It looks like \"Ho\" in the header. Or possibly \"St L\". Let's make \"Ho\".\nNow, let's look at formatting. Date at the top right. Left-align the salutation. Paragraphs, indentation for the signature.\n\nLet's look at the HTML tags. I'll use paragraph tags (`<p>`) for structure, line breaks (`<br>`) where needed, and the superscript tag (`<sup>`) for the cent signs in dollar amounts. We do not have the ability to use the strike-through tag, therefore, I will omit the crossed-out word \"which\".\n\nNow I am going to assemble the final transcription:\nHere is the Final transcription:\n\n```html\n<p>Ho Apr 13 1886</p>\n<p>Mr. L. L. McInnis<br>\n&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir</p>\n<p>We send you<br>\nby express the trunk ordered<br>\nprice $13.75. In the letter pocket<br>\nof the trunk you will find $35<sup>00</sup><br>\nin money please credit<br>\nCadet Foster with 30<sup>00</sup> amount<br>\ndue college & hand the balance<br>\n5<sup>00</sup> to Foster. We have also taken<br>\nthe liberty to put in a small<br>\npk which we will be obliged<br>\nif you will hand him</p>\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/147/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

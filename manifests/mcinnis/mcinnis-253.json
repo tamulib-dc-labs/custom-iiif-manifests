@@ -1,139 +1,185 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-253.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Franie Gathright, June 10, 1880"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1880-06-10"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Franie Gathright, June 10, 1880"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/24c94588-7f02-3515-a2f9-9a9141c2e610/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3159,
-            "width": 1984,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/326",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/325",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/24c94588-7f02-3515-a2f9-9a9141c2e610/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3159,
-                                "width": 1984,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/24c94588-7f02-3515-a2f9-9a9141c2e610",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/329",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/328",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Henderson, Texas.<br>\nJune, 10,<sup>th</sup> 1880</p>\n\n<p>Mrs. L. L. McLanis,<br>\n &nbsp;&nbsp;&nbsp;&nbsp;Dear friend,</p>\n\n<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Ma requested<br>\nme to write and ask, if you knew the<br>\naddress of Hon. Jefferson Davis, if you<br>\ndo, please be so kind as to send it to her.</p>\n\n<p>Your true friend,<br>\nFronie Gathright.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/330",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process and Reasoning**\n\nOkay, here's how I'd approach transcribing this handwritten letter, walking through my thought process:\n\n1.  **Image Analysis Begins:** First, I'd get my bearings. I'm focusing on identifying key elements: the location and date (usually top right), the recipient's name and salutation (often left side), the body of the letter, the closing, and the signature (typically bottom right). I'd read these top to bottom.\n\n    *   **Location/Date:** I see \"Henderson, Texas.\" and \"June, 10th 1880\". I note the \"th\" is superscript. I pay close attention to the visual form of the numbers/letters. The comma is after the '10', and the th is a separate character, not attached.\n    *   **Recipient:** The name is \"Mrs. L. L. McLanis\". I focus on deciphering the last name. It's not immediately obvious; \"McLanis\" or \"McDanis\" initially. I have to zoom in, character by character, and consider common name variations. Does it start with an 'M'? It looks like it, then the 'c', then an 'L' or a 'D'. I carefully check if the 'L' is looped or if the cross makes it a 'D'. The loop looks very similar to the 'L' in \"L. L.\" This gives me some confidence. I'd then visually confirm the remaining letters. Could it be \"McInnis\"? \"McLaurin\"? I test variations and common names. The two humps on the 'n' help me distinguish it from an 'm'. I settle on \"McLanis\" as the most probable after reviewing similar letters in the text. I need to be sure the letter is correct, so I'm doing a double check.\n    *   **Salutation:** \"Dear friend,\" is clear.\n    *   **Body:** I read each line carefully, preserving the original wording and punctuation. I transcribe the following: \"My Ma requested,\" \"me to write and ask, if you knew the,\" \"address of Hon. Jefferson Davis, if you,\" \"do, please be so kind as to send it to her.\"\n    *   **Closing:** \"Your true friend,\" is readable.\n    *   **Signature:** \"Fronie Gathright.\" I recognize \"Gathright\" as a likely surname. \"Fronie\" appears to be an abbreviated form or nickname (like Sophronia). I'd check that \"Fronie\" is a legitimate abbreviation.\n\n2.  **Formatting Considerations:** I would get a mental note to preserve the original spelling, punctuation, and, critically, the line breaks to maintain the original visual layout of the handwritten text. The user's input asks me to use HTML tags and line breaks.\n\n3.  **Initial Transcription:** Based on the analysis, I draft the transcription. Initially, I'd maintain line breaks.\n\n4.  **Refining and Double-Checking:** I revisit each element to confirm my initial interpretation. This is where I double-check the \"th\" superscript, the specific letters in the names, and the punctuation. I'd verify that the \"McLanis\" looks the best. I may do a quick search (mental check) to confirm \"Fronie\" and \"Gathright\" as real.\n\n5.  **Final Check and HTML Structure:** I'd carefully review the text, ensuring accuracy, and then format it using the approved HTML tags. I'd need to pay attention to any special characters (like superscript) and line breaks. I have to avoid using CSS for alignment, and stick to HTML.\n\n    *   I keep the text blocks separate, preserving the original structure. I can't align the date, so it'll just be left-aligned. I'd use `br` for line breaks, not to change the formatting, to preserve line breaks, as well as `p` for paragraphs to maintain the structural formatting.\n\n    *   I'd go back to the name \"McLanis\" to make sure I am seeing the letters correctly. \"McInnis\", \"McLaurin\", etc., can be checked. The key is in those 'L' characters.\n    *   The comma after the \"10\" is distinct.\n\n6.  **Final Output:** This would be my final output, ensuring it adheres to all specifications.\n\n    *   I check for the comma and superscript. I preserve those carefully.\n\nI am confident, after this process, that the transcription is accurate and reflects the intent of the original handwritten letter.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-253.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Franie Gathright, June 10, 1880"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1880-06-10"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Franie Gathright, June 10, 1880"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence--United States--19th century",
+          "Jefferson Davis--Addresses",
+          "Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Gathright, Fronie"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "McInnis, Mrs. L. L.",
+          "Davis, Jefferson",
+          "Gathright, Ma"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A brief letter from Fronie Gathright in Henderson, Texas to Mrs. L. L. McInnis requesting assistance in locating the address of former Confederate president Jefferson Davis. Written on behalf of Gathright's mother, the letter demonstrates personal networking practices and the continued interest in Davis's whereabouts during the early Reconstruction era. This correspondence is part of the Louis L. McInnis Papers collection."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/24c94588-7f02-3515-a2f9-9a9141c2e610/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3159,
+      "width": 1984,
+      "items": [
+        {
+          "id": "http://example.org/iiif/326",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/325",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/24c94588-7f02-3515-a2f9-9a9141c2e610/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3159,
+                "width": 1984,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/24c94588-7f02-3515-a2f9-9a9141c2e610",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/329",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/328",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Henderson, Texas.<br>\nJune, 10,<sup>th</sup> 1880</p>\n\n<p>Mrs. L. L. McLanis,<br>\n &nbsp;&nbsp;&nbsp;&nbsp;Dear friend,</p>\n\n<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Ma requested<br>\nme to write and ask, if you knew the<br>\naddress of Hon. Jefferson Davis, if you<br>\ndo, please be so kind as to send it to her.</p>\n\n<p>Your true friend,<br>\nFronie Gathright.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/330",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process and Reasoning**\n\nOkay, here's how I'd approach transcribing this handwritten letter, walking through my thought process:\n\n1.  **Image Analysis Begins:** First, I'd get my bearings. I'm focusing on identifying key elements: the location and date (usually top right), the recipient's name and salutation (often left side), the body of the letter, the closing, and the signature (typically bottom right). I'd read these top to bottom.\n\n    *   **Location/Date:** I see \"Henderson, Texas.\" and \"June, 10th 1880\". I note the \"th\" is superscript. I pay close attention to the visual form of the numbers/letters. The comma is after the '10', and the th is a separate character, not attached.\n    *   **Recipient:** The name is \"Mrs. L. L. McLanis\". I focus on deciphering the last name. It's not immediately obvious; \"McLanis\" or \"McDanis\" initially. I have to zoom in, character by character, and consider common name variations. Does it start with an 'M'? It looks like it, then the 'c', then an 'L' or a 'D'. I carefully check if the 'L' is looped or if the cross makes it a 'D'. The loop looks very similar to the 'L' in \"L. L.\" This gives me some confidence. I'd then visually confirm the remaining letters. Could it be \"McInnis\"? \"McLaurin\"? I test variations and common names. The two humps on the 'n' help me distinguish it from an 'm'. I settle on \"McLanis\" as the most probable after reviewing similar letters in the text. I need to be sure the letter is correct, so I'm doing a double check.\n    *   **Salutation:** \"Dear friend,\" is clear.\n    *   **Body:** I read each line carefully, preserving the original wording and punctuation. I transcribe the following: \"My Ma requested,\" \"me to write and ask, if you knew the,\" \"address of Hon. Jefferson Davis, if you,\" \"do, please be so kind as to send it to her.\"\n    *   **Closing:** \"Your true friend,\" is readable.\n    *   **Signature:** \"Fronie Gathright.\" I recognize \"Gathright\" as a likely surname. \"Fronie\" appears to be an abbreviated form or nickname (like Sophronia). I'd check that \"Fronie\" is a legitimate abbreviation.\n\n2.  **Formatting Considerations:** I would get a mental note to preserve the original spelling, punctuation, and, critically, the line breaks to maintain the original visual layout of the handwritten text. The user's input asks me to use HTML tags and line breaks.\n\n3.  **Initial Transcription:** Based on the analysis, I draft the transcription. Initially, I'd maintain line breaks.\n\n4.  **Refining and Double-Checking:** I revisit each element to confirm my initial interpretation. This is where I double-check the \"th\" superscript, the specific letters in the names, and the punctuation. I'd verify that the \"McLanis\" looks the best. I may do a quick search (mental check) to confirm \"Fronie\" and \"Gathright\" as real.\n\n5.  **Final Check and HTML Structure:** I'd carefully review the text, ensuring accuracy, and then format it using the approved HTML tags. I'd need to pay attention to any special characters (like superscript) and line breaks. I have to avoid using CSS for alignment, and stick to HTML.\n\n    *   I keep the text blocks separate, preserving the original structure. I can't align the date, so it'll just be left-aligned. I'd use `br` for line breaks, not to change the formatting, to preserve line breaks, as well as `p` for paragraphs to maintain the structural formatting.\n\n    *   I'd go back to the name \"McLanis\" to make sure I am seeing the letters correctly. \"McInnis\", \"McLaurin\", etc., can be checked. The key is in those 'L' characters.\n    *   The comma after the \"10\" is distinct.\n\n6.  **Final Output:** This would be my final output, ensuring it adheres to all specifications.\n\n    *   I check for the comma and superscript. I preserve those carefully.\n\nI am confident, after this process, that the transcription is accurate and reflects the intent of the original handwritten letter.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/253/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,210 +1,257 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-157.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from S. Seaton, August 13, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-08-13"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from S. Seaton, August 13, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/be416a5a-0ba0-3169-98ff-21f525bdcfa8/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3195,
-            "width": 1976,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/be416a5a-0ba0-3169-98ff-21f525bdcfa8/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3195,
-                                "width": 1976,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/be416a5a-0ba0-3169-98ff-21f525bdcfa8",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header] Fort Worth Aug 13 . 80</p>\n\n<p>Friend M<sup><u>c</u></sup></p>\n\n<p>In my absence to Cal<br>\na line was rec<sup><u>d</u></sup> from you<br>\nand that you would likely<br>\nvisit our Section during vacation<br>\nif you do it is time you were<br>\nputting in appearance ,<br>\nYou hope Wade (Johnson) Seaton<br>\nwill return &c . Yes sir thats our<br>\nintention . I asked him<br>\nif he thought he could finish in<br>\n3y<sup>rs</sup> rather 2 more years . he thought<br>\nnot , I told him then I feared that<br>\nhe not deeply enough interested<br>\nor may be teachers too easy<br>\nI am leaing my boy wholly<br>\nwith you teacher , & I want<br>\nhim to have a good practical<br>\neducation .<br>\nWith best wishes for you & yours I<br>\nremain</p>\n\n<p>[Signature] T. Seaton</p>\n\n<p>[Margin: over]</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Interpretation**\n\nOkay, here's the deal. I've been tasked with transcribing this handwritten letter, and I've been meticulously going through it to make sure I get it right. First off, I'm carefully analyzing the image of the letter, starting with that header. It says \"Fort Worth Aug 13 . 80,\" or maybe '81' or '85', but I'm leaning toward '80' \u2013 the last digit's loop seems to close. I'm double checking to be certain.\n\nNext, I look at the salutation: \"Friend M<sup><u>c</u></sup>.\" The \"M\" is clear, and the small 'c' is superscripted with what looks like an underline. Probably short for something like \"McCrae.\"\n\nI'm reading through the body, line by line. I see \"In my absence to Cal\". Is that California? Or maybe a nickname? Could be. Then there's \"a line was rec<sup><u>d</u></sup> from you.\" The \"rec<sup>d</sup>\" means \"received.\" And \"and that you would likely\" - likely inserted above the line, I'll transcribe it inline. \"visit our Section during vacation.\" Okay, and then \"if you do it is time you were putting in appearance,\" - I'm noting the phrasing. There's a name, \"You hope Wade (Johnson) Seaton\". I see parentheses around \"Johnson,\" so I assume that's a middle name or perhaps a nickname for this \"Seaton\" fella. The signature looks like \"T. Seaton,\" or is it \"S\"? Looks like T. or maybe J. Let's see the 'S' in \"Section\" (line 4) and in \"Seaton\" (line 7). That looks distinct. This letter is most likely from T. Seaton.\n\nNow for my transcription strategy. I'm transcribing it line by line, ensuring I capture every detail. I will mark it with markup tags. I'm paying close attention to words like \"likely,\" inserted. \"rec<sup>d</sup>\" with the superscripted \"d\". The writer uses \"3y<sup>rs</sup>.\" I'm being faithful to the original spelling.\n\nI got to the word \"leaing\" (line 15). There's no \"v\" in there. So I am going to keep that original word as is. I have double checked it, there is no v! Looks like \"l-e-a-i-n-g\". \"leaing\". I'm making sure to put a note of that. And there is a small \"over\" in the bottom right corner of the document.\n\nLet's refine my transcription. The date's year \"80\" is what I'm going with. I'm certain that the year is 80, not 85 or 81. I'm going to make sure that the \"Friend Mc\" has a \"c\" which is underlined. That I have the superscripted d in received and \"leaing\". I am keeping those parts exactly.\n\nI'm analyzing again. The letter in the name Seaton. The S in the name. Then the signature. It looks like \"T. Seaton\" to me.\n\nI also have double checked the date again. I have relooked the word \"Cal\". Looks like a \"Cal\" not a \"Col\". The context matches that better.\n\nNow let's markup the transcription using HTML tags so it is easy to read.\n\nI'm marking with `p` for paragraphs and `br` for line breaks, `<sup>` for superscripts, and `<u>` for underlines. I will label the header as [Header], the signature as [Signature] and note the margin element. The final markup looks accurate.\n\nI'm verifying again.\n\nRe-checking the salutation. \"Friend M<sup>c</sup>\". The c is underlined. The year is \"80\". I will be accurate with that. And \"rec^d\". \"leaing\" is as is.\n\nI want to make sure I am placing the word likely in the text. I am certain of the phrasing now.\n\nI am re-evaluating each word. The signature is \"T. Seaton\". It matches the text!\n\nI have double checked the salutation again.\n\nI am checking the image for any anomalies.\n\nLet's look at line 16 again, \"with you teacher,\" versus \"with you teachers\". I am going to double check line 14 for the term \"teachers\" as a reference.\n\nLooking again, The word \"teacher\" looks like it has a comma at the end, and the term \"teachers\" in line 14 shows a clear plural. I am certain of my conclusion now. There is a comma after the word \"\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3195,
-            "width": 1976,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/0c598e7a-b9df-30fe-9d94-ff5db32a6cdf/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3195,
-                                "width": 1976,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/0c598e7a-b9df-30fe-9d94-ff5db32a6cdf",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>P S</p>\n<p>Do they require a deposit of $5.<sup>00</sup><br/>\nfor any possible damage <i>this term</i> ?<br/>\nas did last. I'll want to know<br/>\njust what to send by him.<br/>\nI been very hard run for year & my<br/>\ntrip to California made me still weaker.<br/>\nif wifes health dont improve I may have<br/>\nto move there.</p>\n<p>The monthly reports of my son reach<br/>\nup pretty high notch, and so they<br/>\ndid at a certain school, when in fact<br/>\nthe boy did not merit it. I mean<br/>\nthat they too often exaggerate, to please<br/>\nthe patrons, I need none of that,<br/>\nI believe in plain, fair, frank square<br/>\ndealing,</p>\n<p>[Signature]<br/>\nS G,</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I approached this transcription, breaking down each thought. First, I locked in my role as a professional and zeroed in on the specifics: transcribe, top-to-bottom, preserving everything exactly, no auto-correct, handle uncertainties with `[?]`, illegible bits with `[illegible]`, maintain paragraph structure, and label structural elements like `[Signature]` using the specified HTML tags. No commentary, just the text.\n\nThen, I shifted to analyzing the image. It's a handwritten postscript, old cursive, brown ink, lined paper, with a clear fold. I noted the style hints at a late 19th or early 20th-century piece.\n\nNow, into the transcription, line by line. First, the \"P S\" as a postscript `<p>P S</p>`.\n\nThen the first paragraph:  I carefully read \"Do they require a deposit of $5.00.\" I marked the `$5.00` using superscript, `$5.<sup>00</sup>` as a superscipt. Followed by \u201cfor any possible damage <u>this</u> <u>term</u>?\u201d, using italics as a substitute for underlining as the guideline only permits certain HTML tags, `<i>this term</i>`. I was certain it was a question mark, even though it looked a bit like a semicolon.  Continuing with \"as did last. I'll want to know.\" Then \"just what to send by him.\"  \u201cI been very hard run for year & my\u201d was next, understanding the colloquial \"been\" and noting the ampersand. I was careful not to misinterpret \"hard run\" and \u201cfor year\u201d.  I confirmed \"trip to California made me still weaker.\" Then I considered \"if wifes health dont improve I may have to move there.\" noting \"wifes\" without the apostrophe and \u201cdont\u201d.\n\nI moved onto the second paragraph, I carefully transcribed \"The monthly reports of my son reach\". Then \u201cup pretty high notch, and so they\u201d I made sure to check \u201cnotch\u201d.  I read \"did at a certain school, when in fact\" clearly. \u201cThe boy did not merit it. I mean\u201d, noting a possibly dot after 'weaker.'. \u201cthat they too often [crossed out char] exaggerate, to please\u201d was next. Here I had to parse the crossed-out letter. Since I can\u2019t use a strikethrough tag, and guidelines say to be as accurate as possible, I chose to omit the crossed-out character. The next bit \"the patrons, I need none of that,\" was straightforward. I carefully transcribed \"I believe in plain, fair, frank square\" and finished with \"dealing,\".\n\nFor the signature, I wrestled with whether it was \"S G\" or \"S S\" .  The second letter looked like a 'G', so I decided on  \"S G,\".\n\nNext, I focused on formatting: wrap paragraphs in `<p>`, use `<br/>` for line breaks, and  `$5.<sup>00</sup>` for the superscript on the price. Since `<u>` is not allowed for underlining, I decided to use italics `<i>this term</i>`. I re-evaluated the crossed-out character and opted to omit it as I can't use strikethrough. I am leaving \"exaggerate\" alone.\n\nI re-evaluated \"I been very hard run for year\", confident in that it read \u201cyear\u201d and not \u201cyears\u201d. I checked \u201cwifes\u201d and \u201cdont\u201d again and made sure there were no apostrophes. The \u201cmauthly\u201d I interpreted as \u201cmonthly\u201d.  The \u201c&\u201d was correctly transcribed, but will be omitted. The signature would be just \"S. G.\".\n\nMy thought shifted to line breaks, making sure to respect the image's layout. I worked to polish the text and HTML: \u201cP S\u201d, \u201cDo they require a deposit of $5.<sup>00</sup>\u201d, I have a faint dot after \"weaker.\".\n\nI had to decide if I\u2019m deleting the crossed-out character or transcribing it. The prompt says \"preserve\". If there's no way to mark deleted text, I'll delete it. The goal is to accurately show what the author intended.\n\nI had to choose between an `S G,` or `S S,` and choose `G`, since the handwriting is like a \u2018g\u2019. The O in \u2018monthly\u2019 might be sloppy. I see it as a \u2018y\u2019 but it is \u201cexaggerate.\u201d\n\nI reviewed the paragraph breaks, making sure \"to move there.\" gets its own line, keeping the main paragraph.\n\nAnd finally, to address the `[Signature]` tag, which the text needs around the initials.\n\nLast checks: Is it a semicolon or question mark?\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-157.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from S. Seaton, August 13, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-08-13"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from S. Seaton, August 13, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Education--United States--19th century",
+          "Boarding schools",
+          "Teacher-parent correspondence",
+          "Student assessment",
+          "Educational philosophy"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Seaton, S. G."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Johnson, Wade",
+          "Seaton, Wade Johnson"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from S. G. Seaton to Louis L. McInnis, a teacher, regarding his son's education and anticipated visit to the area during vacation. Seaton expresses concerns about the duration of his son's studies, the adequacy of his practical education, and the reliability of monthly school reports, advocating for honest rather than inflated assessments. He also inquires about deposit requirements and mentions personal hardship and potential relocation to California due to his wife's health."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/be416a5a-0ba0-3169-98ff-21f525bdcfa8/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3195,
+      "width": 1976,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/be416a5a-0ba0-3169-98ff-21f525bdcfa8/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3195,
+                "width": 1976,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/be416a5a-0ba0-3169-98ff-21f525bdcfa8",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header] Fort Worth Aug 13 . 80</p>\n\n<p>Friend M<sup><u>c</u></sup></p>\n\n<p>In my absence to Cal<br>\na line was rec<sup><u>d</u></sup> from you<br>\nand that you would likely<br>\nvisit our Section during vacation<br>\nif you do it is time you were<br>\nputting in appearance ,<br>\nYou hope Wade (Johnson) Seaton<br>\nwill return &c . Yes sir thats our<br>\nintention . I asked him<br>\nif he thought he could finish in<br>\n3y<sup>rs</sup> rather 2 more years . he thought<br>\nnot , I told him then I feared that<br>\nhe not deeply enough interested<br>\nor may be teachers too easy<br>\nI am leaing my boy wholly<br>\nwith you teacher , & I want<br>\nhim to have a good practical<br>\neducation .<br>\nWith best wishes for you & yours I<br>\nremain</p>\n\n<p>[Signature] T. Seaton</p>\n\n<p>[Margin: over]</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Interpretation**\n\nOkay, here's the deal. I've been tasked with transcribing this handwritten letter, and I've been meticulously going through it to make sure I get it right. First off, I'm carefully analyzing the image of the letter, starting with that header. It says \"Fort Worth Aug 13 . 80,\" or maybe '81' or '85', but I'm leaning toward '80' – the last digit's loop seems to close. I'm double checking to be certain.\n\nNext, I look at the salutation: \"Friend M<sup><u>c</u></sup>.\" The \"M\" is clear, and the small 'c' is superscripted with what looks like an underline. Probably short for something like \"McCrae.\"\n\nI'm reading through the body, line by line. I see \"In my absence to Cal\". Is that California? Or maybe a nickname? Could be. Then there's \"a line was rec<sup><u>d</u></sup> from you.\" The \"rec<sup>d</sup>\" means \"received.\" And \"and that you would likely\" - likely inserted above the line, I'll transcribe it inline. \"visit our Section during vacation.\" Okay, and then \"if you do it is time you were putting in appearance,\" - I'm noting the phrasing. There's a name, \"You hope Wade (Johnson) Seaton\". I see parentheses around \"Johnson,\" so I assume that's a middle name or perhaps a nickname for this \"Seaton\" fella. The signature looks like \"T. Seaton,\" or is it \"S\"? Looks like T. or maybe J. Let's see the 'S' in \"Section\" (line 4) and in \"Seaton\" (line 7). That looks distinct. This letter is most likely from T. Seaton.\n\nNow for my transcription strategy. I'm transcribing it line by line, ensuring I capture every detail. I will mark it with markup tags. I'm paying close attention to words like \"likely,\" inserted. \"rec<sup>d</sup>\" with the superscripted \"d\". The writer uses \"3y<sup>rs</sup>.\" I'm being faithful to the original spelling.\n\nI got to the word \"leaing\" (line 15). There's no \"v\" in there. So I am going to keep that original word as is. I have double checked it, there is no v! Looks like \"l-e-a-i-n-g\". \"leaing\". I'm making sure to put a note of that. And there is a small \"over\" in the bottom right corner of the document.\n\nLet's refine my transcription. The date's year \"80\" is what I'm going with. I'm certain that the year is 80, not 85 or 81. I'm going to make sure that the \"Friend Mc\" has a \"c\" which is underlined. That I have the superscripted d in received and \"leaing\". I am keeping those parts exactly.\n\nI'm analyzing again. The letter in the name Seaton. The S in the name. Then the signature. It looks like \"T. Seaton\" to me.\n\nI also have double checked the date again. I have relooked the word \"Cal\". Looks like a \"Cal\" not a \"Col\". The context matches that better.\n\nNow let's markup the transcription using HTML tags so it is easy to read.\n\nI'm marking with `p` for paragraphs and `br` for line breaks, `<sup>` for superscripts, and `<u>` for underlines. I will label the header as [Header], the signature as [Signature] and note the margin element. The final markup looks accurate.\n\nI'm verifying again.\n\nRe-checking the salutation. \"Friend M<sup>c</sup>\". The c is underlined. The year is \"80\". I will be accurate with that. And \"rec^d\". \"leaing\" is as is.\n\nI want to make sure I am placing the word likely in the text. I am certain of the phrasing now.\n\nI am re-evaluating each word. The signature is \"T. Seaton\". It matches the text!\n\nI have double checked the salutation again.\n\nI am checking the image for any anomalies.\n\nLet's look at line 16 again, \"with you teacher,\" versus \"with you teachers\". I am going to double check line 14 for the term \"teachers\" as a reference.\n\nLooking again, The word \"teacher\" looks like it has a comma at the end, and the term \"teachers\" in line 14 shows a clear plural. I am certain of my conclusion now. There is a comma after the word \"\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3195,
+      "width": 1976,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/0c598e7a-b9df-30fe-9d94-ff5db32a6cdf/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3195,
+                "width": 1976,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/0c598e7a-b9df-30fe-9d94-ff5db32a6cdf",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>P S</p>\n<p>Do they require a deposit of $5.<sup>00</sup><br/>\nfor any possible damage <i>this term</i> ?<br/>\nas did last. I'll want to know<br/>\njust what to send by him.<br/>\nI been very hard run for year & my<br/>\ntrip to California made me still weaker.<br/>\nif wifes health dont improve I may have<br/>\nto move there.</p>\n<p>The monthly reports of my son reach<br/>\nup pretty high notch, and so they<br/>\ndid at a certain school, when in fact<br/>\nthe boy did not merit it. I mean<br/>\nthat they too often exaggerate, to please<br/>\nthe patrons, I need none of that,<br/>\nI believe in plain, fair, frank square<br/>\ndealing,</p>\n<p>[Signature]<br/>\nS G,</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I approached this transcription, breaking down each thought. First, I locked in my role as a professional and zeroed in on the specifics: transcribe, top-to-bottom, preserving everything exactly, no auto-correct, handle uncertainties with `[?]`, illegible bits with `[illegible]`, maintain paragraph structure, and label structural elements like `[Signature]` using the specified HTML tags. No commentary, just the text.\n\nThen, I shifted to analyzing the image. It's a handwritten postscript, old cursive, brown ink, lined paper, with a clear fold. I noted the style hints at a late 19th or early 20th-century piece.\n\nNow, into the transcription, line by line. First, the \"P S\" as a postscript `<p>P S</p>`.\n\nThen the first paragraph:  I carefully read \"Do they require a deposit of $5.00.\" I marked the `$5.00` using superscript, `$5.<sup>00</sup>` as a superscipt. Followed by “for any possible damage <u>this</u> <u>term</u>?”, using italics as a substitute for underlining as the guideline only permits certain HTML tags, `<i>this term</i>`. I was certain it was a question mark, even though it looked a bit like a semicolon.  Continuing with \"as did last. I'll want to know.\" Then \"just what to send by him.\"  “I been very hard run for year & my” was next, understanding the colloquial \"been\" and noting the ampersand. I was careful not to misinterpret \"hard run\" and “for year”.  I confirmed \"trip to California made me still weaker.\" Then I considered \"if wifes health dont improve I may have to move there.\" noting \"wifes\" without the apostrophe and “dont”.\n\nI moved onto the second paragraph, I carefully transcribed \"The monthly reports of my son reach\". Then “up pretty high notch, and so they” I made sure to check “notch”.  I read \"did at a certain school, when in fact\" clearly. “The boy did not merit it. I mean”, noting a possibly dot after 'weaker.'. “that they too often [crossed out char] exaggerate, to please” was next. Here I had to parse the crossed-out letter. Since I can’t use a strikethrough tag, and guidelines say to be as accurate as possible, I chose to omit the crossed-out character. The next bit \"the patrons, I need none of that,\" was straightforward. I carefully transcribed \"I believe in plain, fair, frank square\" and finished with \"dealing,\".\n\nFor the signature, I wrestled with whether it was \"S G\" or \"S S\" .  The second letter looked like a 'G', so I decided on  \"S G,\".\n\nNext, I focused on formatting: wrap paragraphs in `<p>`, use `<br/>` for line breaks, and  `$5.<sup>00</sup>` for the superscript on the price. Since `<u>` is not allowed for underlining, I decided to use italics `<i>this term</i>`. I re-evaluated the crossed-out character and opted to omit it as I can't use strikethrough. I am leaving \"exaggerate\" alone.\n\nI re-evaluated \"I been very hard run for year\", confident in that it read “year” and not “years”. I checked “wifes” and “dont” again and made sure there were no apostrophes. The “mauthly” I interpreted as “monthly”.  The “&” was correctly transcribed, but will be omitted. The signature would be just \"S. G.\".\n\nMy thought shifted to line breaks, making sure to respect the image's layout. I worked to polish the text and HTML: “P S”, “Do they require a deposit of $5.<sup>00</sup>”, I have a faint dot after \"weaker.\".\n\nI had to decide if I’m deleting the crossed-out character or transcribing it. The prompt says \"preserve\". If there's no way to mark deleted text, I'll delete it. The goal is to accurately show what the author intended.\n\nI had to choose between an `S G,` or `S S,` and choose `G`, since the handwriting is like a ‘g’. The O in ‘monthly’ might be sloppy. I see it as a ‘y’ but it is “exaggerate.”\n\nI reviewed the paragraph breaks, making sure \"to move there.\" gets its own line, keeping the main paragraph.\n\nAnd finally, to address the `[Signature]` tag, which the text needs around the initials.\n\nLast checks: Is it a semicolon or question mark?\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/157/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

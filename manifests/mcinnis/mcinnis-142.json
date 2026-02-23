@@ -1,139 +1,190 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-142.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from John G. James, January 16, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-01-16"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from John G. James, January 16, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/8bc3777b-5529-3479-beea-503c67c36a09/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3668,
-            "width": 2301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/8bc3777b-5529-3479-beea-503c67c36a09/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3668,
-                                "width": 2301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/8bc3777b-5529-3479-beea-503c67c36a09",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\n<small>CAPITAL $ 50,000.</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nNo. 3200.\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<small>AUTHORIZED CAPITAL $ 200,000.</small>\n</p>\n\n<h1>Panhandle National Bank</h1>\n\n<p>\n<small>JOHN G. JAMES, Pres't</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<small>W. A. KNOTT, Vice Pres't</small>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<small>ASHBY S. JAMES, Cashier.</small>\n</p>\n\n<p>\n<i>All branches of Conservative Banking carefully conducted.</i><br>\n<i>Special attention given collections and investments in the Panhandle.</i><br>\n<small>NEAREST NATIONAL BANK</small><br>\n<small>TO</small><br>\nMOBEETIE, SEYMOUR, ARCHER VERNON, CLARENDON,<br>\nPEASE CITY AND ALL PANHANDLE POINTS.<br>\n<i>Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.</i>\n</p>\n\n<p>\n<b>CORRESPONDENTS.</b><br>\nHANOVER NATIONAL BANK ........................................................................ NEW YORK.<br>\nVALLEY NATIONAL BANK ........................................................................ ST. LOUIS.<br>\nBALL, HUTCHINGS & CO. ........................................................................ GALVESTON.\n</p>\n\n<hr>\n\n<p>\nWichita Falls, Tex. Jany 16/86 188\n</p>\n\n<p>\nProf L. L. McInnis - College Station Tex.\n</p>\n\n<p>\nDear McL. I enclose herein Certif # 122<br>\nStock Pan N. Bk for 4 shares ($400) favor<br>\nProf R. F. Smith, which kindly hand him, in<br>\nreturn for check in yours of 14<sup>th</sup>.\n</p>\n\n<p>\nPresent my best regards to him; - we are very<br>\nglad to have him in our circle.\n</p>\n\n<p>\nStock is selling briskly, and we will shortly<br>\nreach $90 000. In addition to $5000 lately sold Mr<br>\nAlbert Ball of Galveston (Ball, Hutchings & Co), I<br>\nnow have order for $2000 from his son Frank<br>\nBall. Your six shares are reserved for you.\n</p>\n\n<p>\nWith best wishes for yourself & family,<br>\nI am very faithfully Yrs<br>\nJno G. James<br>\nPresdt\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Initial Assessment and Planning**\n\nAlright, let's get down to it. The task is clear: transcribe this document, and do it professionally. I need to be meticulous, adhering to the provided guidelines like a seasoned typist. The document is a letterhead from the Panhandle National Bank with a handwritten letter, and my goal is to reproduce it accurately. I will maintain the layout, and use the correct HTML tags.\n\n**Diving into the Document**\n\nFirst, I'm taking a close look at the letterhead, noting all the key elements. The structured layout is the first thing I notice. There's the financial information at the top, the bank name, officer details, a map, and promotional text. Then, I see the date, the recipient's name, the body of the letter, the closing, and the signature.\n\n**Transcription Begins - Header First**\n\nI'm starting at the top left and systematically working my way down. It's: \"CAPITAL $ 50,000,\" followed by \"No. 3200\" in the center and \"AUTHORIZED CAPITAL $ 200,000\" on the right. Below that, the prominent \"Panhandle National Bank,\" then the officers' names: JOHN G. JAMES, W. A. KNOTT, and ASHBY S. JAMES. There's some promotional text next to the map, it's pretty standard banking jargon. Then, I've got a list of \"Correspondents\" - these are the banks the Panhandle National Bank does business with: Hanover, Valley, and Ball, Hutchings & Co.\n\n**Handwritten Text - The Heart of the Matter**\n\nNow, for the handwritten portion. This is where I have to be particularly careful. The date line reads \"Wichita Falls, Tex. Jany 16/86 188_\" and the \"188\" is pre-printed so I won't transcribe the empty space, though it's likely 1886. The salutation is to \"Prof L. L. McInnis - College Station Tex.\"\n\nThe letter begins \"Dear Mr L.\", then mentions a certificate for shares of Panhandle National Bank. There's talk of a Professor R. F. Smith, then an invitation, and the sales of the bank's stock. The writer references Frank Ball, son of Albert Ball, and reserves six shares for the recipient. The closing is friendly, and the signature, \"Jno G. James Presdt,\" is the last element.\n\n**Drafting and Fine-Tuning**\n\nOkay, time to build the transcription. I'm carefully transferring the details from my notes, formatting it using HTML tags. I'm focusing on the date, the address, and the letter's body. I'm using \"Jany 16/86 188\" for the date, because that's what's visible, and sticking with \"McL\" or \"Mr. L\" for the salutation.\n\n**Final Formatting and Double-Checking**\n\nI'm nearly there. I've used HTML tags for the structure, paying attention to preserving the original layout. Now, I have one last pass to confirm everything, making sure that I've captured every detail accurately. \"Pan N. Bk\" is, of course, \"Panhandle National Bank,\" and \"Certif # 122\" should be written out as \"Certificate\". With all of the formatting done, I'm ready to submit the final product.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-142.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from John G. James, January 16, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-01-16"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from John G. James, January 16, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Banking--Texas--History--19th century",
+          "Stock certificates",
+          "National banks--Texas",
+          "Panhandle (Tex.)--Economic history",
+          "Business correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "James, John G."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Smith, R. F.",
+          "Ball, Albert",
+          "Ball, Frank",
+          "Knott, W. A.",
+          "James, Ashby S.",
+          "Panhandle National Bank"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from John G. James, President of Panhandle National Bank in Wichita Falls, Texas, to Professor Louis L. McInnis regarding the transfer of stock certificates and bank operations. James encloses a certificate for four shares of Panhandle National Bank stock intended for Professor R. F. Smith and reports on active stock sales and new investor interest, including orders from Albert Ball of Galveston and his son Frank Ball. The letter reflects the bank's growth and James's effort to maintain business relationships and solicit accounts from prominent figures in the Texas Panhandle region."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/8bc3777b-5529-3479-beea-503c67c36a09/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3668,
+      "width": 2301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/8bc3777b-5529-3479-beea-503c67c36a09/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3668,
+                "width": 2301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/8bc3777b-5529-3479-beea-503c67c36a09",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\n<small>CAPITAL $ 50,000.</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nNo. 3200.\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<small>AUTHORIZED CAPITAL $ 200,000.</small>\n</p>\n\n<h1>Panhandle National Bank</h1>\n\n<p>\n<small>JOHN G. JAMES, Pres't</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<small>W. A. KNOTT, Vice Pres't</small>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<small>ASHBY S. JAMES, Cashier.</small>\n</p>\n\n<p>\n<i>All branches of Conservative Banking carefully conducted.</i><br>\n<i>Special attention given collections and investments in the Panhandle.</i><br>\n<small>NEAREST NATIONAL BANK</small><br>\n<small>TO</small><br>\nMOBEETIE, SEYMOUR, ARCHER VERNON, CLARENDON,<br>\nPEASE CITY AND ALL PANHANDLE POINTS.<br>\n<i>Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.</i>\n</p>\n\n<p>\n<b>CORRESPONDENTS.</b><br>\nHANOVER NATIONAL BANK ........................................................................ NEW YORK.<br>\nVALLEY NATIONAL BANK ........................................................................ ST. LOUIS.<br>\nBALL, HUTCHINGS & CO. ........................................................................ GALVESTON.\n</p>\n\n<hr>\n\n<p>\nWichita Falls, Tex. Jany 16/86 188\n</p>\n\n<p>\nProf L. L. McInnis - College Station Tex.\n</p>\n\n<p>\nDear McL. I enclose herein Certif # 122<br>\nStock Pan N. Bk for 4 shares ($400) favor<br>\nProf R. F. Smith, which kindly hand him, in<br>\nreturn for check in yours of 14<sup>th</sup>.\n</p>\n\n<p>\nPresent my best regards to him; - we are very<br>\nglad to have him in our circle.\n</p>\n\n<p>\nStock is selling briskly, and we will shortly<br>\nreach $90 000. In addition to $5000 lately sold Mr<br>\nAlbert Ball of Galveston (Ball, Hutchings & Co), I<br>\nnow have order for $2000 from his son Frank<br>\nBall. Your six shares are reserved for you.\n</p>\n\n<p>\nWith best wishes for yourself & family,<br>\nI am very faithfully Yrs<br>\nJno G. James<br>\nPresdt\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Initial Assessment and Planning**\n\nAlright, let's get down to it. The task is clear: transcribe this document, and do it professionally. I need to be meticulous, adhering to the provided guidelines like a seasoned typist. The document is a letterhead from the Panhandle National Bank with a handwritten letter, and my goal is to reproduce it accurately. I will maintain the layout, and use the correct HTML tags.\n\n**Diving into the Document**\n\nFirst, I'm taking a close look at the letterhead, noting all the key elements. The structured layout is the first thing I notice. There's the financial information at the top, the bank name, officer details, a map, and promotional text. Then, I see the date, the recipient's name, the body of the letter, the closing, and the signature.\n\n**Transcription Begins - Header First**\n\nI'm starting at the top left and systematically working my way down. It's: \"CAPITAL $ 50,000,\" followed by \"No. 3200\" in the center and \"AUTHORIZED CAPITAL $ 200,000\" on the right. Below that, the prominent \"Panhandle National Bank,\" then the officers' names: JOHN G. JAMES, W. A. KNOTT, and ASHBY S. JAMES. There's some promotional text next to the map, it's pretty standard banking jargon. Then, I've got a list of \"Correspondents\" - these are the banks the Panhandle National Bank does business with: Hanover, Valley, and Ball, Hutchings & Co.\n\n**Handwritten Text - The Heart of the Matter**\n\nNow, for the handwritten portion. This is where I have to be particularly careful. The date line reads \"Wichita Falls, Tex. Jany 16/86 188_\" and the \"188\" is pre-printed so I won't transcribe the empty space, though it's likely 1886. The salutation is to \"Prof L. L. McInnis - College Station Tex.\"\n\nThe letter begins \"Dear Mr L.\", then mentions a certificate for shares of Panhandle National Bank. There's talk of a Professor R. F. Smith, then an invitation, and the sales of the bank's stock. The writer references Frank Ball, son of Albert Ball, and reserves six shares for the recipient. The closing is friendly, and the signature, \"Jno G. James Presdt,\" is the last element.\n\n**Drafting and Fine-Tuning**\n\nOkay, time to build the transcription. I'm carefully transferring the details from my notes, formatting it using HTML tags. I'm focusing on the date, the address, and the letter's body. I'm using \"Jany 16/86 188\" for the date, because that's what's visible, and sticking with \"McL\" or \"Mr. L\" for the salutation.\n\n**Final Formatting and Double-Checking**\n\nI'm nearly there. I've used HTML tags for the structure, paying attention to preserving the original layout. Now, I have one last pass to confirm everything, making sure that I've captured every detail accurately. \"Pan N. Bk\" is, of course, \"Panhandle National Bank,\" and \"Certif # 122\" should be written out as \"Certificate\". With all of the formatting done, I'm ready to submit the final product.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/142/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

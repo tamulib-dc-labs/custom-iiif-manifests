@@ -1,210 +1,255 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-199.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from T. S. Maxey, July 10, 1888"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1888-07-10"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from T. S. Maxey, July 10, 1888"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 26 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/6de96c5b-4e24-3087-91fc-44271c84b54b/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4338,
-            "width": 3279,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/176",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/175",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/6de96c5b-4e24-3087-91fc-44271c84b54b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4338,
-                                "width": 3279,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6de96c5b-4e24-3087-91fc-44271c84b54b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/182",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/181",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]</p>\n<p><b>United States District Court,</b><br>\n<small>WESTERN DISTRICT OF TEXAS.</small></p>\n\n<p>T. S. Maxey<br>\n[crossed-out: E. B. TURNER, Judge.]</p>\n\n<p><i>Austin, Texas,</i> July 10<sup>th</sup> 1888.</p>\n\n<p>Prof. Louis L. McInnis<br>\nForest, Miss.<br>\nMy Dear Sir & Friend<br>\nThe intelligence conveyed by<br>\nyour valued favor of the 2<sup>d</sup> inst, was<br>\nquite surprising to me, and the more<br>\nso because I so little deserve the<br>\nhonor, which the University has con-<br>\nferred. It is, however, an honor and a<br>\ncompliment, which I prize very highly<br>\nand one, which rekindles, within my heart,<br>\nmy fervent love for the old state of my<br>\nnativity. Mississippi, like Texas, has<br>\never been more generous than just to<br>\nme, and I earnestly pray that it may<br>\nbe my good fortune, by devotion to duty<br>\nand a faithful discharge of my official<br>\ntrust, to merit the confidence that both<br>\nhave so liberally [illegible] reposed. Official<br>\nnotification has not yet been received, but<br>\nit will, doubtless, be forthcoming in a</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/183",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's how I approached this transcription task:**\n\nFirst, I had to clarify my role: I am a professional transcriptionist. My task is to accurately transcribe the text from this image of a letter, interpreting the handwriting and following specific formatting guidelines. The most important thing is to accurately capture the original text, including spelling, punctuation, and line breaks.\n\nI started by carefully examining the image. It's a letter written on what appears to be official stationery from the United States District Court, Western District of Texas. There's a printed header, a handwritten name replacing a crossed-out name, and then the date, the recipient's address, and the salutation. The main body is in cursive handwriting. The ink is a bit faded, and some letters are not perfectly clear, but I\u2019m going to focus and transcribe everything accurately.\n\nNext, I analyzed each element of the letter in detail. I double checked the header, with \"United States District Court\" and \"WESTERN DISTRICT OF TEXAS.\" The line with the Judge's name is crossed out and above it, is the name \u201cT. S. Maxey\u201d, I noted the correction. The date is \"July 10th, 1888\", with \"th\" superscripted. I checked the recipient's name (\"Prof. Louis L. McInnis, Forest, Miss.\") and double checked the spelling and what city. I made sure to check the salutation (\"My Dear Sir & Friend\").\n\nThen, I focused on the body of the letter itself. I had to decipher the handwriting, line by line. I thought about the words, looking at the letter shapes to ensure I get the words correct and I had to read carefully for words split across lines and to catch any phrases and context in order to transcribe correctly. I made notes on anything potentially unclear like the crossed-out section that was difficult to read and a word that I thought was \"inst.\" (which I recognized is short for \"instant\" or this month).\n\nI needed to decide how to handle the formatting. The instructions stated which HTML tags are permitted: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I chose to use bold tags (`<b>`) for the header text and the superscript tag (`<sup>`) for the \"th\" and \"d\" in the date and the \"2d.\" I decided to use `<br>` tags to preserve the line breaks from the original document. Also, I could not use the `<del>`, `<s` or `<strike>` HTML tags as this was not in the allowed list, so I needed to represent this text with a bracketed explanation.\n\nI then did a detailed, line-by-line transcription. I made sure to double-check my transcript against the image, verifying the spelling, punctuation, and use of HTML tags. I was particularly careful with names, dates, and any words that might have been ambiguous.\n\nFinally, I reviewed the transcription and all the formatting according to the provided instructions. I made sure I met all the constraints. I will ensure that the final output maintains the original meaning and layout as faithfully as possible, and I deliver accurate, clean, and well-formatted text.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4338,
-            "width": 3279,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/178",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/177",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ad559edd-79de-33c7-8eb9-839f542c055e/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4338,
-                                "width": 3279,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ad559edd-79de-33c7-8eb9-839f542c055e",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/185",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/184",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>few days.</p>\n<p>With assurance of my high<br/>\nesteem and warm appreciation of<br/>\nthe kind words your message con-<br/>\ntained, and regards to your family<br/>\nI am Very Truly Yrs.</p>\n<p>T. S. Maxey</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/186",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analyzing and Transcribing a Handwritten Document**\n\nOkay, here we go. I've got a handwritten document to transcribe. First things first, I need to analyze the image, looking at every detail. The most prominent thing is the handwriting in purple ink. It looks like the end of a letter. There\u2019s a faint letterhead at the top, but it's reversed. That means this is either the back of a page or there's bleed-through from the other side, or the letterhead is on the other side. My focus should be on the legible, right-reading text.\n\nSo, let's break this down line by line.\n\n*   **Header:** The letterhead is reversed: \"United States District Court,\" \"WESTERN DISTRICT OF TEXAS,\" \"E. B. TURNER, Judge,\" and \"Austin, Texas.\" Given the task is to transcribe what\u2019s visible, and it's there, I'll consider if it's relevant. If it is relevant, I will not include the content of the reverse text, as it doesn't belong to this view. It looks like the writer started the letter on the other side of the paper and continued it here. The prompt is to transcribe the image, and this reversed text is present. However, it's not the primary content. The primary content is the legible handwriting.\n\n*   **Handwriting:** The purple ink starts mid-sentence. It looks like a closing. The first line is \"few days.\" The next lines read: \"With assurance of my high\", \"esteem and warm appreciation of\", \"the kind words your message con-\", \"tained, and regards to your family\", \"I am Very Truly Yrs.\" with a \"T. S. Maxey\" signature below. The \"I am\" at the start of \"I am Very Truly Yrs.\" is on its own line. I will be sure to capture its format. The \"few days\" is also on its own line. Let's make sure the text is accurate.\n\n*   \"With assurance of my high\". I'll double-check this. It looks like \"assurance\" *not* \"assurances\" (singular).\n\n*   \"esteem and warm appreciation of.\" \"Warm\" looks okay.\n\n*   \"the kind words your message con-\". The hyphen is clear.\n\n*   \"tained, and regards to your family.\" \"Tained\" (ending of \"message con-\") and \"tained,\" with a comma.\n\n*   \"I am Very Truly Yrs.\" (closing). The \"I am\" should be indented to the right, separate from the previous line.\n\n*   \"T. S. Maxey.\" Signature. I know that Thomas S. Maxey was a US District Judge for the Western District of Texas. This signature and the reversed letterhead suggest that this document is likely an official court communication.\n\n*   **Format:** I need to use the right HTML tags: `<p>`, `<br>`, etc. I'll make sure the line breaks and indentations are as they appear in the image. I will not use `&nbsp;`, if not allowed.\n\nI will not transcribe the illegible text at the bottom. The prompt is to transcribe text \"from the attached image\", and that is faint, ghosted text from another page. Not this page. It creates noise, but not the content of this view.\n\n**Final Transcription:**\n\n```html\n<p>few days.</p>\n<p>With assurance of my high<br/>\nesteem and warm appreciation of<br/>\nthe kind words your message con-<br/>\ntained, and regards to your family<br/>\nI am Very Truly Yrs.</p>\n<p>T. S. Maxey</p>\n```\nI've checked the details and the formatting, and I'm ready to finalize.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-199.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from T. S. Maxey, July 10, 1888"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1888-07-10"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from T. S. Maxey, July 10, 1888"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 26 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "United States District Court--Texas",
+          "Judicial appointments",
+          "University honors",
+          "Official correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Maxey, T. S."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Turner, E. B."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from T. S. Maxey, judge of the United States District Court for the Western District of Texas, to Professor Louis L. McInnis expressing gratitude for an honor conferred by a university, likely an academic appointment or honorary degree. Maxey acknowledges the compliment with appreciation and reflects on his ties to Mississippi and Texas, expressing his commitment to fulfilling his official duties faithfully. The letter indicates that formal official notification of the honor is expected shortly."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/6de96c5b-4e24-3087-91fc-44271c84b54b/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4338,
+      "width": 3279,
+      "items": [
+        {
+          "id": "http://example.org/iiif/176",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/175",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/6de96c5b-4e24-3087-91fc-44271c84b54b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4338,
+                "width": 3279,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/6de96c5b-4e24-3087-91fc-44271c84b54b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/182",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/181",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]</p>\n<p><b>United States District Court,</b><br>\n<small>WESTERN DISTRICT OF TEXAS.</small></p>\n\n<p>T. S. Maxey<br>\n[crossed-out: E. B. TURNER, Judge.]</p>\n\n<p><i>Austin, Texas,</i> July 10<sup>th</sup> 1888.</p>\n\n<p>Prof. Louis L. McInnis<br>\nForest, Miss.<br>\nMy Dear Sir & Friend<br>\nThe intelligence conveyed by<br>\nyour valued favor of the 2<sup>d</sup> inst, was<br>\nquite surprising to me, and the more<br>\nso because I so little deserve the<br>\nhonor, which the University has con-<br>\nferred. It is, however, an honor and a<br>\ncompliment, which I prize very highly<br>\nand one, which rekindles, within my heart,<br>\nmy fervent love for the old state of my<br>\nnativity. Mississippi, like Texas, has<br>\never been more generous than just to<br>\nme, and I earnestly pray that it may<br>\nbe my good fortune, by devotion to duty<br>\nand a faithful discharge of my official<br>\ntrust, to merit the confidence that both<br>\nhave so liberally [illegible] reposed. Official<br>\nnotification has not yet been received, but<br>\nit will, doubtless, be forthcoming in a</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/183",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I approached this transcription task:**\n\nFirst, I had to clarify my role: I am a professional transcriptionist. My task is to accurately transcribe the text from this image of a letter, interpreting the handwriting and following specific formatting guidelines. The most important thing is to accurately capture the original text, including spelling, punctuation, and line breaks.\n\nI started by carefully examining the image. It's a letter written on what appears to be official stationery from the United States District Court, Western District of Texas. There's a printed header, a handwritten name replacing a crossed-out name, and then the date, the recipient's address, and the salutation. The main body is in cursive handwriting. The ink is a bit faded, and some letters are not perfectly clear, but I’m going to focus and transcribe everything accurately.\n\nNext, I analyzed each element of the letter in detail. I double checked the header, with \"United States District Court\" and \"WESTERN DISTRICT OF TEXAS.\" The line with the Judge's name is crossed out and above it, is the name “T. S. Maxey”, I noted the correction. The date is \"July 10th, 1888\", with \"th\" superscripted. I checked the recipient's name (\"Prof. Louis L. McInnis, Forest, Miss.\") and double checked the spelling and what city. I made sure to check the salutation (\"My Dear Sir & Friend\").\n\nThen, I focused on the body of the letter itself. I had to decipher the handwriting, line by line. I thought about the words, looking at the letter shapes to ensure I get the words correct and I had to read carefully for words split across lines and to catch any phrases and context in order to transcribe correctly. I made notes on anything potentially unclear like the crossed-out section that was difficult to read and a word that I thought was \"inst.\" (which I recognized is short for \"instant\" or this month).\n\nI needed to decide how to handle the formatting. The instructions stated which HTML tags are permitted: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I chose to use bold tags (`<b>`) for the header text and the superscript tag (`<sup>`) for the \"th\" and \"d\" in the date and the \"2d.\" I decided to use `<br>` tags to preserve the line breaks from the original document. Also, I could not use the `<del>`, `<s` or `<strike>` HTML tags as this was not in the allowed list, so I needed to represent this text with a bracketed explanation.\n\nI then did a detailed, line-by-line transcription. I made sure to double-check my transcript against the image, verifying the spelling, punctuation, and use of HTML tags. I was particularly careful with names, dates, and any words that might have been ambiguous.\n\nFinally, I reviewed the transcription and all the formatting according to the provided instructions. I made sure I met all the constraints. I will ensure that the final output maintains the original meaning and layout as faithfully as possible, and I deliver accurate, clean, and well-formatted text.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4338,
+      "width": 3279,
+      "items": [
+        {
+          "id": "http://example.org/iiif/178",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/177",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ad559edd-79de-33c7-8eb9-839f542c055e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4338,
+                "width": 3279,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ad559edd-79de-33c7-8eb9-839f542c055e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/185",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/184",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>few days.</p>\n<p>With assurance of my high<br/>\nesteem and warm appreciation of<br/>\nthe kind words your message con-<br/>\ntained, and regards to your family<br/>\nI am Very Truly Yrs.</p>\n<p>T. S. Maxey</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/186",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analyzing and Transcribing a Handwritten Document**\n\nOkay, here we go. I've got a handwritten document to transcribe. First things first, I need to analyze the image, looking at every detail. The most prominent thing is the handwriting in purple ink. It looks like the end of a letter. There’s a faint letterhead at the top, but it's reversed. That means this is either the back of a page or there's bleed-through from the other side, or the letterhead is on the other side. My focus should be on the legible, right-reading text.\n\nSo, let's break this down line by line.\n\n*   **Header:** The letterhead is reversed: \"United States District Court,\" \"WESTERN DISTRICT OF TEXAS,\" \"E. B. TURNER, Judge,\" and \"Austin, Texas.\" Given the task is to transcribe what’s visible, and it's there, I'll consider if it's relevant. If it is relevant, I will not include the content of the reverse text, as it doesn't belong to this view. It looks like the writer started the letter on the other side of the paper and continued it here. The prompt is to transcribe the image, and this reversed text is present. However, it's not the primary content. The primary content is the legible handwriting.\n\n*   **Handwriting:** The purple ink starts mid-sentence. It looks like a closing. The first line is \"few days.\" The next lines read: \"With assurance of my high\", \"esteem and warm appreciation of\", \"the kind words your message con-\", \"tained, and regards to your family\", \"I am Very Truly Yrs.\" with a \"T. S. Maxey\" signature below. The \"I am\" at the start of \"I am Very Truly Yrs.\" is on its own line. I will be sure to capture its format. The \"few days\" is also on its own line. Let's make sure the text is accurate.\n\n*   \"With assurance of my high\". I'll double-check this. It looks like \"assurance\" *not* \"assurances\" (singular).\n\n*   \"esteem and warm appreciation of.\" \"Warm\" looks okay.\n\n*   \"the kind words your message con-\". The hyphen is clear.\n\n*   \"tained, and regards to your family.\" \"Tained\" (ending of \"message con-\") and \"tained,\" with a comma.\n\n*   \"I am Very Truly Yrs.\" (closing). The \"I am\" should be indented to the right, separate from the previous line.\n\n*   \"T. S. Maxey.\" Signature. I know that Thomas S. Maxey was a US District Judge for the Western District of Texas. This signature and the reversed letterhead suggest that this document is likely an official court communication.\n\n*   **Format:** I need to use the right HTML tags: `<p>`, `<br>`, etc. I'll make sure the line breaks and indentations are as they appear in the image. I will not use `&nbsp;`, if not allowed.\n\nI will not transcribe the illegible text at the bottom. The prompt is to transcribe text \"from the attached image\", and that is faint, ghosted text from another page. Not this page. It creates noise, but not the content of this view.\n\n**Final Transcription:**\n\n```html\n<p>few days.</p>\n<p>With assurance of my high<br/>\nesteem and warm appreciation of<br/>\nthe kind words your message con-<br/>\ntained, and regards to your family<br/>\nI am Very Truly Yrs.</p>\n<p>T. S. Maxey</p>\n```\nI've checked the details and the formatting, and I'm ready to finalize.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/199/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

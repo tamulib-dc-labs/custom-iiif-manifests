@@ -1,151 +1,196 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-14.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Austin A. Scott, March 17, 1882"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1882-03-17"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Austin A. Scott, March 17, 1882"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ae79d804-f219-3738-8aae-50509517dd59/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3303,
-            "width": 2157,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ae79d804-f219-3738-8aae-50509517dd59/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3303,
-                                "width": 2157,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ae79d804-f219-3738-8aae-50509517dd59",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n[Image: Large building on the left]\n[Seal: Star with \"OF\" inside on the right]\n<b>STATE AGRICULTURAL AND MECHANICAL\nCOLLEGE</b>\nCollege Station, <i>March 17<sup>th</sup></i> 188<i>2</i>,\n\n<p>Dear Sir: at the<br>\nlast meeting of the Austin<br>\nLiterary Society I was in-<br>\nstructed, as Corresponding<br>\nSecretary, to inform <sup>you</sup> of its un-<br>\nnanamous decision, requesting<br>\nYou to deliver an address at<br>\na Public Debate to occur on<br>\nSaturday Evening April 8<sup>th</sup>.<br>\nPlease be so kind as to re-<br>\nply in time (if convenient) for me<br>\nto report Your decision to the<br>\nSociety, tomorrow evening,</p>\n\n<p>Very respectfully submitted<br>\nAustin L Scott.</p>\n\n<p>To L. L. McInnis<br>\nProf. Math. A and M. College.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription and Analysis of Handwritten Letter**\n\nAlright, let's break this down. I have a letter here, and my task is to produce a transcription, carefully noting all the details. We've got a letterhead that's pretty elaborate. The main part reads \"**STATE AGRICULTURAL AND MECHANICAL COLLEGE**\". Below that, we see \"College Station,\" followed by a date, written, \"March 17<sup>th</sup> 1882,\". The \"th\" is superscript, and the \"188\" looks printed, while the \"2\" is handwritten.\n\nNow to the main body. The salutation is \"Dear Sir:\". The text reads line by line:\n\"at the\",\n\"last meeting of the Austin\",\n\"Literary Society I was in-\",\n\"structed, as Corresponding\",\n\"Secretary, to inform <sup>you</sup> of its un-\", (Here, there's an insertion, \"inform you of\")\n\"nanamous decision, requesting\",\n\"you to deliver an address at\",\n\"a Public Debate to occur on\",\n\"Saturday Evening April 8<sup>th</sup>.\",\n\"Please be so kind as to re-\",\n\"ply in time (if convenient) for me\",\n\"to report Your decision to the\",\n\"Society, tomorrow evening,\".\n\nThe closing is simple, \"Very respectfully submitted\".\n\nThe signature reads \"Austin L Scott.\".\n\nFinally, the addressee information at the bottom left reads \"To L. L. McInnis\" and \"Prof. Math. A and M. College.\". Note that the second initial might look like 'P' or 'S' due to the cursive. However, the context of Louis L. McInnis, the Professor of Mathematics at the time, is strong.\n\nI've checked the HTML allowed tags, and the formatting is quite detailed here to maintain accuracy. The \"un-nanamous\" on two lines is a misspelling that I will keep as it appears. I will represent the inserted \"you\" as superscript. I will also make sure to capitalize all proper nouns and maintain paragraph structure, putting the addressee and closing information with proper alignment. Let's see... everything seems in order.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-14.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Austin A. Scott, March 17, 1882"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1882-03-17"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Austin A. Scott, March 17, 1882"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Literary societies--Texas",
+          "Public debates",
+          "Agricultural and Mechanical College (Tex.)--History",
+          "College addresses"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Scott, Austin A."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Austin Literary Society"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from Austin A. Scott, Corresponding Secretary of the Austin Literary Society at the Agricultural and Mechanical College (now Texas A&M University), to Professor Louis L. McInnis requesting his participation as a speaker in a public debate scheduled for Saturday evening, April 8, 1882. Scott conveys the Society's unanimous decision and requests a timely response so he may report McInnis's decision at the Society's meeting the following evening."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ae79d804-f219-3738-8aae-50509517dd59/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3303,
+      "width": 2157,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ae79d804-f219-3738-8aae-50509517dd59/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3303,
+                "width": 2157,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ae79d804-f219-3738-8aae-50509517dd59",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n[Image: Large building on the left]\n[Seal: Star with \"OF\" inside on the right]\n<b>STATE AGRICULTURAL AND MECHANICAL\nCOLLEGE</b>\nCollege Station, <i>March 17<sup>th</sup></i> 188<i>2</i>,\n\n<p>Dear Sir: at the<br>\nlast meeting of the Austin<br>\nLiterary Society I was in-<br>\nstructed, as Corresponding<br>\nSecretary, to inform <sup>you</sup> of its un-<br>\nnanamous decision, requesting<br>\nYou to deliver an address at<br>\na Public Debate to occur on<br>\nSaturday Evening April 8<sup>th</sup>.<br>\nPlease be so kind as to re-<br>\nply in time (if convenient) for me<br>\nto report Your decision to the<br>\nSociety, tomorrow evening,</p>\n\n<p>Very respectfully submitted<br>\nAustin L Scott.</p>\n\n<p>To L. L. McInnis<br>\nProf. Math. A and M. College.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription and Analysis of Handwritten Letter**\n\nAlright, let's break this down. I have a letter here, and my task is to produce a transcription, carefully noting all the details. We've got a letterhead that's pretty elaborate. The main part reads \"**STATE AGRICULTURAL AND MECHANICAL COLLEGE**\". Below that, we see \"College Station,\" followed by a date, written, \"March 17<sup>th</sup> 1882,\". The \"th\" is superscript, and the \"188\" looks printed, while the \"2\" is handwritten.\n\nNow to the main body. The salutation is \"Dear Sir:\". The text reads line by line:\n\"at the\",\n\"last meeting of the Austin\",\n\"Literary Society I was in-\",\n\"structed, as Corresponding\",\n\"Secretary, to inform <sup>you</sup> of its un-\", (Here, there's an insertion, \"inform you of\")\n\"nanamous decision, requesting\",\n\"you to deliver an address at\",\n\"a Public Debate to occur on\",\n\"Saturday Evening April 8<sup>th</sup>.\",\n\"Please be so kind as to re-\",\n\"ply in time (if convenient) for me\",\n\"to report Your decision to the\",\n\"Society, tomorrow evening,\".\n\nThe closing is simple, \"Very respectfully submitted\".\n\nThe signature reads \"Austin L Scott.\".\n\nFinally, the addressee information at the bottom left reads \"To L. L. McInnis\" and \"Prof. Math. A and M. College.\". Note that the second initial might look like 'P' or 'S' due to the cursive. However, the context of Louis L. McInnis, the Professor of Mathematics at the time, is strong.\n\nI've checked the HTML allowed tags, and the formatting is quite detailed here to maintain accuracy. The \"un-nanamous\" on two lines is a misspelling that I will keep as it appears. I will represent the inserted \"you\" as superscript. I will also make sure to capitalize all proper nouns and maintain paragraph structure, putting the addressee and closing information with proper alignment. Let's see... everything seems in order.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/14/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

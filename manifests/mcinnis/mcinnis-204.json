@@ -1,139 +1,187 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-204.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from George M. Dilley, March 18, 1889"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1889-03-18"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from George M. Dilley, March 18, 1889"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 27 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/4381d333-c25d-320d-8a03-8df8d07d3b4a/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4230,
-            "width": 3275,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/4381d333-c25d-320d-8a03-8df8d07d3b4a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4230,
-                                "width": 3275,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4381d333-c25d-320d-8a03-8df8d07d3b4a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><small>BEN. REYNOLDS, Gen'l Manager. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; J. A. HENRY, President. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GEO. M. DILLEY, Sec'y and Treas.</small></p>\n<p><small>-----OFFICE OF-----</small></p>\n<p><b><i>Reynolds & Henry Construction Co.</i></b></p>\n<p><small>HOUSTON, CENTRAL ARKANSAS & NORTHERN R. R.</small></p>\n<br>\n<p>Monroe, La. Mch 18<sup>th</sup> 1889</p>\n<p>Prof. L. L. McInnis<br>\nCollege Station<br>\nTex.</p>\n<p>Dear Prof.</p>\n<p>It was not because I personally<br>\nwanted to be out of the Board or from<br>\na want of interest felt in the success of<br>\nthe College that I tendered my resignation,<br>\non the contrary my associations with the Board<br>\nand faculty have always been so pleasant<br>\nthat it was a painfull duty. I felt that some<br>\none could be found with more time than<br>\nI would have for next two years and better<br>\nqualified, the success of<br>\nthe College advanced thereby. you are authorized<br>\nto destroy my resignation and God willing<br>\nI will meet with you all in June<br>\nwhen we can further consider the<br>\nmatter and decide in the interests<br>\nof the College what is best to be done</p>\n<p>Your Friend</p>\n<p>Geo M. Dilley</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Analysis and Transcription of the Handwritten Letter**\n\nAs an expert in my field, I approach this task with meticulous attention to detail. My initial step involves carefully analyzing the image of the handwritten letter, noting all visible elements. This includes the header, dateline, recipient information, salutation, body text, closing, and signature.\n\nThe header immediately captures my attention, with its distinct elements: the names and titles of the company officers (BEN. REYNOLDS, J. A. HENRY, GEO. M. DILLEY), the company's official office designation (\"---OFFICE OF---\"), and the prominent title, \"Reynolds & Henry Construction Co.\", beneath a subtitle indicating the railroad (\"HOUSTON, CENTRAL ARKANSAS & NORTHERN R. R.\").\n\nThe dateline provides crucial context, specifying the location (\"Monroe, La.\") and date (\"Mch 18th 1889\"). I then move to the recipient's address, meticulously recording the name (\"Prof. L. L. McInnis\"), and location (\"College Station, Tex.\").\n\nThe salutation (\"Dear Prof.\") sets a cordial tone, which is then elaborated upon in the body of the letter. This is where I encounter the first challenge: the presence of crossed-out text. The guidelines state, \"Preserve original spelling... Interpret handwritten text as accurately as possible.\" However, I must also adhere to the HTML tag constraints, which do not allow for a strikethrough element such as `<del>` or `<s>`. Therefore, I must use careful judgment.\n\nI review the crossed-out text to assess its legibility and potential for inclusion. I identify two instances: \"off\" or \"out\" (illegible) and \"could be found &\" (legible). Since a `<del>` tag isn't allowed, and my aim is an accurate, readable representation, I make a decision to omit the crossed-out text to avoid confusion or ambiguity in the final transcription. Instead of including confusing or indecipherable text, I will transcribe the final intended meaning of the text.\n\nI will use only the permitted HTML elements: `<b>`, `<i>`, `<br>`, `<p>`, `<small>`, `<span>`, `<sub>`, and `<sup>`. Since I cannot use a `style` attribute, formatting the layout is tricky. I must use line breaks effectively.\n\nI construct an HTML structure, ensuring that all elements are properly formatted and in the correct order. The formatting must be clean. I pay particular attention to spacing and line breaks, aiming to accurately replicate the visual appearance of the original letter. After the initial draft, I meticulously check the spelling and punctuation against my notes.\n\nI then check each piece of crossed-out text to be absolutely sure that I am following the instructions to transcribe the most legible text. I note \"off\" (scribble), \"could be found &\". I exclude these as the meaning is changed.\n\nMy goal is to capture the essence of the letter's content, while maintaining its original form as much as possible, given the constraints. Finally, I confirm that the transcription is complete and meets the requirements of the task.\n\n```html\n<p><small>BEN. REYNOLDS, Gen'l Manager. J. A. HENRY, President. GEO. M. DILLEY, Sec'y and Treas.</small></p>\n<p><small>-----OFFICE OF-----</small></p>\n<p><b><i>Reynolds & Henry Construction Co.</i></b></p>\n<p><small>HOUSTON, CENTRAL ARKANSAS & NORTHERN R. R.</small></p>\n<p>Monroe, La. Mch 18<sup>th</sup> 1889</p>\n<p>Prof. L. L. McInnis<br>\nCollege Station<br>\nTex.</p>\n<p>Dear Prof.</p>\n<p>It was not because I personally<br>\nwanted to be out of the Board or from<br>\na want of interest felt in the success of<br>\nthe College that I tendered my resignation,<br>\non the contrary my associations with the Board<br>\nand faculty have always been so pleasant<br>\nthat it was a painfull duty. I felt that some<br>\none could be found with more time than<br>\nI would have for next two years and better<br>\nqualified, the success of<br>\nthe College advanced thereby. you are authorized<br>\nto destroy my resignation and God willing<br>\nI will meet with you all in June<br>\nwhen we can further consider the<br>\nmatter and decide in the interests<br>\nof the College what is best to be done</p>\n<p>Your Friend</p>\n<p>Geo M. Dilley\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-204.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from George M. Dilley, March 18, 1889"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1889-03-18"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from George M. Dilley, March 18, 1889"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 27 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural colleges--Texas",
+          "College governance",
+          "Board of trustees",
+          "Railroad construction companies",
+          "Business correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Dilley, George M."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Reynolds & Henry Construction Co.",
+          "Reynolds, Ben.",
+          "Henry, J. A."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "George M. Dilley, Secretary and Treasurer of Reynolds & Henry Construction Co., writes to Professor Louis L. McInnis at Texas Agricultural College to withdraw his resignation from the College's Board. Dilley explains that his resignation was motivated by concern for the College's success rather than lack of interest, suggesting that someone with more available time could better serve the institution. He requests authorization to retract his resignation and proposes reconsidering the matter at an upcoming June meeting."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/4381d333-c25d-320d-8a03-8df8d07d3b4a/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4230,
+      "width": 3275,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4381d333-c25d-320d-8a03-8df8d07d3b4a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4230,
+                "width": 3275,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4381d333-c25d-320d-8a03-8df8d07d3b4a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><small>BEN. REYNOLDS, Gen'l Manager. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; J. A. HENRY, President. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GEO. M. DILLEY, Sec'y and Treas.</small></p>\n<p><small>-----OFFICE OF-----</small></p>\n<p><b><i>Reynolds & Henry Construction Co.</i></b></p>\n<p><small>HOUSTON, CENTRAL ARKANSAS & NORTHERN R. R.</small></p>\n<br>\n<p>Monroe, La. Mch 18<sup>th</sup> 1889</p>\n<p>Prof. L. L. McInnis<br>\nCollege Station<br>\nTex.</p>\n<p>Dear Prof.</p>\n<p>It was not because I personally<br>\nwanted to be out of the Board or from<br>\na want of interest felt in the success of<br>\nthe College that I tendered my resignation,<br>\non the contrary my associations with the Board<br>\nand faculty have always been so pleasant<br>\nthat it was a painfull duty. I felt that some<br>\none could be found with more time than<br>\nI would have for next two years and better<br>\nqualified, the success of<br>\nthe College advanced thereby. you are authorized<br>\nto destroy my resignation and God willing<br>\nI will meet with you all in June<br>\nwhen we can further consider the<br>\nmatter and decide in the interests<br>\nof the College what is best to be done</p>\n<p>Your Friend</p>\n<p>Geo M. Dilley</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Analysis and Transcription of the Handwritten Letter**\n\nAs an expert in my field, I approach this task with meticulous attention to detail. My initial step involves carefully analyzing the image of the handwritten letter, noting all visible elements. This includes the header, dateline, recipient information, salutation, body text, closing, and signature.\n\nThe header immediately captures my attention, with its distinct elements: the names and titles of the company officers (BEN. REYNOLDS, J. A. HENRY, GEO. M. DILLEY), the company's official office designation (\"---OFFICE OF---\"), and the prominent title, \"Reynolds & Henry Construction Co.\", beneath a subtitle indicating the railroad (\"HOUSTON, CENTRAL ARKANSAS & NORTHERN R. R.\").\n\nThe dateline provides crucial context, specifying the location (\"Monroe, La.\") and date (\"Mch 18th 1889\"). I then move to the recipient's address, meticulously recording the name (\"Prof. L. L. McInnis\"), and location (\"College Station, Tex.\").\n\nThe salutation (\"Dear Prof.\") sets a cordial tone, which is then elaborated upon in the body of the letter. This is where I encounter the first challenge: the presence of crossed-out text. The guidelines state, \"Preserve original spelling... Interpret handwritten text as accurately as possible.\" However, I must also adhere to the HTML tag constraints, which do not allow for a strikethrough element such as `<del>` or `<s>`. Therefore, I must use careful judgment.\n\nI review the crossed-out text to assess its legibility and potential for inclusion. I identify two instances: \"off\" or \"out\" (illegible) and \"could be found &\" (legible). Since a `<del>` tag isn't allowed, and my aim is an accurate, readable representation, I make a decision to omit the crossed-out text to avoid confusion or ambiguity in the final transcription. Instead of including confusing or indecipherable text, I will transcribe the final intended meaning of the text.\n\nI will use only the permitted HTML elements: `<b>`, `<i>`, `<br>`, `<p>`, `<small>`, `<span>`, `<sub>`, and `<sup>`. Since I cannot use a `style` attribute, formatting the layout is tricky. I must use line breaks effectively.\n\nI construct an HTML structure, ensuring that all elements are properly formatted and in the correct order. The formatting must be clean. I pay particular attention to spacing and line breaks, aiming to accurately replicate the visual appearance of the original letter. After the initial draft, I meticulously check the spelling and punctuation against my notes.\n\nI then check each piece of crossed-out text to be absolutely sure that I am following the instructions to transcribe the most legible text. I note \"off\" (scribble), \"could be found &\". I exclude these as the meaning is changed.\n\nMy goal is to capture the essence of the letter's content, while maintaining its original form as much as possible, given the constraints. Finally, I confirm that the transcription is complete and meets the requirements of the task.\n\n```html\n<p><small>BEN. REYNOLDS, Gen'l Manager. J. A. HENRY, President. GEO. M. DILLEY, Sec'y and Treas.</small></p>\n<p><small>-----OFFICE OF-----</small></p>\n<p><b><i>Reynolds & Henry Construction Co.</i></b></p>\n<p><small>HOUSTON, CENTRAL ARKANSAS & NORTHERN R. R.</small></p>\n<p>Monroe, La. Mch 18<sup>th</sup> 1889</p>\n<p>Prof. L. L. McInnis<br>\nCollege Station<br>\nTex.</p>\n<p>Dear Prof.</p>\n<p>It was not because I personally<br>\nwanted to be out of the Board or from<br>\na want of interest felt in the success of<br>\nthe College that I tendered my resignation,<br>\non the contrary my associations with the Board<br>\nand faculty have always been so pleasant<br>\nthat it was a painfull duty. I felt that some<br>\none could be found with more time than<br>\nI would have for next two years and better<br>\nqualified, the success of<br>\nthe College advanced thereby. you are authorized<br>\nto destroy my resignation and God willing<br>\nI will meet with you all in June<br>\nwhen we can further consider the<br>\nmatter and decide in the interests<br>\nof the College what is best to be done</p>\n<p>Your Friend</p>\n<p>Geo M. Dilley\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/204/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

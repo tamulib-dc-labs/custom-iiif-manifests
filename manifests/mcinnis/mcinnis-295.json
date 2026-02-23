@@ -1,281 +1,332 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-295.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, August 29, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-08-29"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, August 29, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/5c20a5be-d5ff-3623-ae4e-5b4a875e7129/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3732,
-            "width": 2301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/560",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/559",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5c20a5be-d5ff-3623-ae4e-5b4a875e7129/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5c20a5be-d5ff-3623-ae4e-5b4a875e7129",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/569",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/568",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br>\nBrenham Texas.<br>\nAug 29 - 88.</p>\n\n<p>My Dear Professor:<br>\nI have been<br>\nso thoroughly \"out of kelter\" since<br>\nI saw you that I have hesitated<br>\nto write anyone. I went<br>\nto Galveston on Tuesday after<br>\nyou left Brenham. Spent two<br>\ndays in the city - but was too<br>\nmuch unstrung to enjoy either<br>\nbusiness or pleasure.<br>\nHad a splendid drive & mag-<br>\nnificent breeze on the beach.<br>\nGalveston is beginning to get<br>\ninto a business stir.</p>\n\n<p>I looked at the water & RR<br>\nfacilities of Galveston, with<br>\nthe vast area of country<br>\ntributary to him & asked<br>\nmyself, Why is not Galveston<br>\nsuch a city as Baltimore?<br>\nIn the near future Texas<br>\ncan build up & support such</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/570",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Transcription and Analysis**\n\nAlright, let's get this done. I've got a handwritten letter from 1888 to transcribe. The image is a bit faded, and the handwriting is cursive \u2013 a bit hurried, but readable. My task is to produce a transcription, preserving the layout and line breaks as accurately as possible, and following the rules for HTML-like markup.\n\nFirst, I've got the header to handle: \"Brenham Texas\" and \"Aug 29 - 88\". Since I can't directly use style attributes, I'll put them on separate lines to roughly mirror the layout. I'm noting the lack of direct layout control as it's not in the guidelines for allowed tags. And those guidelines \u2013 a, b, br, i, img, p, small, span, sub, sup \u2013 are my only tools here. It says to preserve structural elements, so the date/location will go at the top as they are in the image.\n\nThe letter starts with \"My Dear Professor:\". That's a salutation and feels like a separate section. The body of the letter is clearly divided into paragraphs. I'll preserve that structure with `<p>` tags. And any line breaks within the paragraphs will be handled with `<br>`.\n\nThe first line of the body is \"I have been\", and the real challenge starts with \"so thoroughly 'out of kelter' since\". It looks like \"kelter\" and I believe that is the correct word. The word looks like \"k-e-l-t-e-r\". It is dialectal and fits the context. I'll make sure the quotes are there. The next lines seem straightforward: \"I saw you that I have hesitated / to write anyone. I went / to Galveston on Tuesday after / you left Brenham\". \"Tuesday\" looks like \"T-u-e-s-d-a-y\". \"Brenham\" is clear: \"B-r-e-n-h-a-m\". I am preserving the line breaks with `<br>`. It will be easy enough to wrap the lines in `<p>` tags.\n\nThen comes: \"Spent two / days in the city - but was too / much unstrung to enjoy either / business or pleasure. / Had a splendid drive & mag- / nificent breeze on the beach. / Galveston is beginning to get / into a business stir.\" \"Unstrung\" is correct: \"u-n-s-t-r-u-n-g\". \"Splendid\" is correct: \"s-p-l-e-n-d-i-d\". \"Mag-\" is easy enough, and \"nificent\" is a bit clearer. The rest of the line is a nice \"breeze\".\n\nThe next paragraph begins: \"I looked at the water & RR / facilities of Galveston, with / the vast area of country / tributary to him & asked / myself, Why is not Galveston / such a city as Baltimore? / In the near future Texas / can build up & support such\". There is a distinct line break, and that goes into another paragraph. Let's start a new `<p>`.\n\nAh, the trickier bits. The \"water & RR\" is underlined in the original, but, since I can't use `<u>`, I will transcribe that text as it is. It will just be written. I will note this in the transcription details. The final word on that line: It's \"him\". It's odd; in context, \"her\" or \"here\" might make more sense for a city but \"him\" is what is written. Let's assume it refers to a particular person, perhaps a male Galvestonian, or a peculiar choice. I'm not going to guess or change what's there. The next line, \"Why is not Galveston\" - the \"Why\" is capitalized. I will respect that. The last line is faded but looks like it ends with the word \"such\". There is no more. \"Texas\" is clear. I will end the transcription there. No more information.\n\nI'm ready to render:\n\n```html\n<p>\n[Header]<br>\nBrenham Texas.<br>\nAug 29 - 88.\n</p>\n\n<p>\nMy Dear Professor:<br>\nI have been<br>\nso thoroughly \"out of kelter\" since<br>\nI saw you that I have hesitated<br>\nto write anyone. I went<br>\nto Galveston on Tuesday after<br>\nyou left Brenham. Spent two<br>\ndays in the city - but was too<br>\nmuch unstrung to enjoy either<br>\nbusiness or pleasure.<br>\nHad a splendid drive & mag-<br>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3732,
-            "width": 2301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/562",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/561",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/4a64446f-370e-38f0-b7eb-b09e73db6619/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4a64446f-370e-38f0-b7eb-b09e73db6619",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/572",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/571",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p align=\"right\">[1881, Aug. 29]</p>\n\n<p>\nCoach two such cities as<br/>\nBaltimore. I found Capt<br/>\nBowen in the city & he was<br/>\nmost kind to me. as also<br/>\nCapt Rogers. Had I been<br/>\nwell I should have had<br/>\na delightful time<br/>\nI saw His Honor the Mayor Col<br/>\nFindlay, Col. Fulton, who are<br/>\nofficially connected with<br/>\nthe school interests of the<br/>\ncity - The city will vote on<br/>\nthe tax question 6th Sept -<br/>\nSome are sanguine that<br/>\nthe tax will carry _ others are<br/>\nin doubt. I don't say how<br/>\nI impressed the gentlemen<br/>\nnamed above - I was<br/>\ncertainly in bad condition<br/>\nto act the agreeable - Well I<br/>\nhave known men to overdo<br/>\nthe thing, which is little better<br/>\nthan to undo a thing.<br/>\n\"There is a divinity that shapes our ends\"\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/573",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcribing a Historical Letter: A Detailed Examination**\n\nOkay, so I've got this fascinating handwritten document, and my task is to get a perfect transcription. First, I need to understand what I\u2019m looking at. It's a single page of cursive handwriting, a bit faded and slanted, and there's a date right at the top, a penciled annotation: [1881, Aug. 29]. That immediately suggests this is something archival, like a letter. The handwriting looks like it would have been from someone educated, in the 19th Century. The writing isn't quite clear, but I can make out mentions of places like Baltimore, and some names like \"Capt Bowen,\" \"Capt Rogers,\" \"His Honor the Mayor,\" and figures like \"Col Findlay,\" and possibly \"Col Fulton,\" that is what I think it looks like. There\u2019s something about school interests, a tax vote, and some personal impressions.\n\nSo, I'm going to carefully read this line by line and try to interpret. \n\nLine one is a bit of a head scratcher. It starts with a capital 'C' then has a word that is hard to decipher. It looks like \"Coach\", but \"Coach two such cities as\". It doesn't make total sense but makes the most visual sense. I need to make some decisions, and \"Coach\" is the best transcription and I'll see if the rest of the text clarifies what is said. \n\nSo it sounds like \"Coach two such cities as Baltimore.\" Then I read the next lines that say \"...I found Capt Bowen in the city & he was / most kind to me. as also / Capt Rogers.\" So, the writer is visiting. This probably means \"Coach to such cities as...\".\n\nSo, I start transcribing, being as accurate as I can line by line. I have to read words multiple times, trying different interpretations. I'm really looking for clues in the letter. I'm considering \"Boast\", \"Count\" and \"Coast\" as well. I'm taking in the full visual context.\n\nThe second line starts with \"Baltimore\" so I can assume it is \"Coach two such cities as Baltimore.\" The \"Capt\" looks like the shortened \"Captain\". Then I go line by line, writing the letters as written.\n\nThen I am reading about \"Col. Findlay\" and the \"Mayor Col\".\n\nAfter reading about the voting on tax, I start to re-read the first line again. I am still uncertain.\n\nI am looking at \"coach\", \"coast\", \"count\" and \"catch\". \"Count two such cities as\". Visually, it is hard to say with certainty. It looks like \"Coach\" visually but I keep thinking that I can interpret \"Coach\" as \"Count\". However, I'll transcribe \"Coach two such cities as\" but I suspect it might be \"Count\".\n\nThen I keep going. \"Col. Fulton\" is another tough name. I'm looking at \"Col. Fenton\", but it looks more like \"Col. Fulton\" because of the way the \"l\" is written. \n\nIn general, the letter mentions \"Capt Bowen\", \"Col Findlay\" and \"Col Fulton\", so I should read it as a whole and trust the full context of the document.\n\nThen I read all the other letters carefully again, looking for any words that may have a different interpretation.\n\nThe transcription is ready.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3732,
-            "width": 2301,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/564",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/563",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/4ea639c6-2d94-3002-b39e-d368a4a67aec/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2301,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/4ea639c6-2d94-3002-b39e-d368a4a67aec",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/575",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/574",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br/>\n[1881, Aug. 29]</p>\n\n<p>Ye shades of Aristotle Pythagoras!<br/>\nThe ninteenth Century is full<br/>\nsurprises - What next?<br/>\nSuppose you have seen<br/>\nHoggs \"Paper on the University of<br/>\nTexas\". I am sure the Board<br/>\nof Regents will give him a<br/>\nvote of thanks - if they do not<br/>\nmake him Chancellor.<br/>\nHe has completed their<br/>\nwork for them. From pit to<br/>\ndome - Incorrigible, impossible<br/>\nmy vocabulary fails - He is a<br/>\nwonder - a startle & will<br/>\nyet \"turn up\" -<br/>\nNo doubt you have had<br/>\na pleasant time - wish I<br/>\ncould take just such<br/>\na trip - but impecuniosity -<br/>\nWhat a cruel tyrant!<br/>\nMrs H is at Galveston - Rest of the<br/>\nfamily in reasonable health -<br/>\nI am rather \"under the weather\" -<br/>\nLet me hear from you. Your friend<br/>\n[Signature]<br/>\nJ. S. Hanna</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/576",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts Before Transcription**\n\nAlright, let's get this done. I've broken down the request, analyzed the image \u2013 it's a handwritten letter from 1881, faded cursive on lined paper. My job is to be faithful to the original, spelling and all, and only use approved HTML tags.\n\nFirst, I'll transcribe line by line. Top right is the date: `[1881, Aug. 29]`. Then comes the body, with each line being carefully reviewed. I'm noting any uncertainty with `[?]` and marking illegible sections as `[illegible]`. I'll preserve the layout as best as I can, line breaks and all. I'll flag spelling peculiarities \u2013 like \"ninteenth\" \u2013 and maintain the intended meaning. I am looking carefully at \"Galveston\". It looks like Galveston. The handwriting is a bit rough in places \u2013 \"reasonable\" for instance. Also, \"impecuniosity\" is clear, and the signature will be transcribed to the best of my ability, as \"J. S. Hanna\".\n\nNow I format with the HTML, using `<p>` for blocks, `<br>` for line breaks. I'll double-check for any missed details or formatting errors and then cross-check the HTML tags used. Then I will submit the transcription. Here we go.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-295.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, August 29, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-08-29"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, August 29, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 9 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Galveston (Tex.)--History--19th century",
+          "Texas--Economic conditions--19th century",
+          "University of Texas--History",
+          "Education--Texas--History--19th century",
+          "City planning--Texas",
+          "School taxation--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hanna, J. S."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Bowen, Captain",
+          "Rogers, Captain",
+          "Findlay, Colonel",
+          "Fulton, Colonel",
+          "Hogg"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "J. S. Hanna writes to Professor Louis L. McInnis from Brenham, Texas, describing his recent visit to Galveston and reflecting on the city's potential for commercial and economic growth comparable to Baltimore. The letter discusses local civic matters including an upcoming school tax vote and mentions educational figures involved in the University of Texas, particularly praising Hogg's work on behalf of the institution. Hanna also expresses his poor health during his travels and his admiration for Hogg's contributions to the university's development."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/5c20a5be-d5ff-3623-ae4e-5b4a875e7129/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3732,
+      "width": 2301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/560",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/559",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5c20a5be-d5ff-3623-ae4e-5b4a875e7129/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5c20a5be-d5ff-3623-ae4e-5b4a875e7129",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/569",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/568",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br>\nBrenham Texas.<br>\nAug 29 - 88.</p>\n\n<p>My Dear Professor:<br>\nI have been<br>\nso thoroughly \"out of kelter\" since<br>\nI saw you that I have hesitated<br>\nto write anyone. I went<br>\nto Galveston on Tuesday after<br>\nyou left Brenham. Spent two<br>\ndays in the city - but was too<br>\nmuch unstrung to enjoy either<br>\nbusiness or pleasure.<br>\nHad a splendid drive & mag-<br>\nnificent breeze on the beach.<br>\nGalveston is beginning to get<br>\ninto a business stir.</p>\n\n<p>I looked at the water & RR<br>\nfacilities of Galveston, with<br>\nthe vast area of country<br>\ntributary to him & asked<br>\nmyself, Why is not Galveston<br>\nsuch a city as Baltimore?<br>\nIn the near future Texas<br>\ncan build up & support such</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/570",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Transcription and Analysis**\n\nAlright, let's get this done. I've got a handwritten letter from 1888 to transcribe. The image is a bit faded, and the handwriting is cursive – a bit hurried, but readable. My task is to produce a transcription, preserving the layout and line breaks as accurately as possible, and following the rules for HTML-like markup.\n\nFirst, I've got the header to handle: \"Brenham Texas\" and \"Aug 29 - 88\". Since I can't directly use style attributes, I'll put them on separate lines to roughly mirror the layout. I'm noting the lack of direct layout control as it's not in the guidelines for allowed tags. And those guidelines – a, b, br, i, img, p, small, span, sub, sup – are my only tools here. It says to preserve structural elements, so the date/location will go at the top as they are in the image.\n\nThe letter starts with \"My Dear Professor:\". That's a salutation and feels like a separate section. The body of the letter is clearly divided into paragraphs. I'll preserve that structure with `<p>` tags. And any line breaks within the paragraphs will be handled with `<br>`.\n\nThe first line of the body is \"I have been\", and the real challenge starts with \"so thoroughly 'out of kelter' since\". It looks like \"kelter\" and I believe that is the correct word. The word looks like \"k-e-l-t-e-r\". It is dialectal and fits the context. I'll make sure the quotes are there. The next lines seem straightforward: \"I saw you that I have hesitated / to write anyone. I went / to Galveston on Tuesday after / you left Brenham\". \"Tuesday\" looks like \"T-u-e-s-d-a-y\". \"Brenham\" is clear: \"B-r-e-n-h-a-m\". I am preserving the line breaks with `<br>`. It will be easy enough to wrap the lines in `<p>` tags.\n\nThen comes: \"Spent two / days in the city - but was too / much unstrung to enjoy either / business or pleasure. / Had a splendid drive & mag- / nificent breeze on the beach. / Galveston is beginning to get / into a business stir.\" \"Unstrung\" is correct: \"u-n-s-t-r-u-n-g\". \"Splendid\" is correct: \"s-p-l-e-n-d-i-d\". \"Mag-\" is easy enough, and \"nificent\" is a bit clearer. The rest of the line is a nice \"breeze\".\n\nThe next paragraph begins: \"I looked at the water & RR / facilities of Galveston, with / the vast area of country / tributary to him & asked / myself, Why is not Galveston / such a city as Baltimore? / In the near future Texas / can build up & support such\". There is a distinct line break, and that goes into another paragraph. Let's start a new `<p>`.\n\nAh, the trickier bits. The \"water & RR\" is underlined in the original, but, since I can't use `<u>`, I will transcribe that text as it is. It will just be written. I will note this in the transcription details. The final word on that line: It's \"him\". It's odd; in context, \"her\" or \"here\" might make more sense for a city but \"him\" is what is written. Let's assume it refers to a particular person, perhaps a male Galvestonian, or a peculiar choice. I'm not going to guess or change what's there. The next line, \"Why is not Galveston\" - the \"Why\" is capitalized. I will respect that. The last line is faded but looks like it ends with the word \"such\". There is no more. \"Texas\" is clear. I will end the transcription there. No more information.\n\nI'm ready to render:\n\n```html\n<p>\n[Header]<br>\nBrenham Texas.<br>\nAug 29 - 88.\n</p>\n\n<p>\nMy Dear Professor:<br>\nI have been<br>\nso thoroughly \"out of kelter\" since<br>\nI saw you that I have hesitated<br>\nto write anyone. I went<br>\nto Galveston on Tuesday after<br>\nyou left Brenham. Spent two<br>\ndays in the city - but was too<br>\nmuch unstrung to enjoy either<br>\nbusiness or pleasure.<br>\nHad a splendid drive & mag-<br>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3732,
+      "width": 2301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/562",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/561",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4a64446f-370e-38f0-b7eb-b09e73db6619/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4a64446f-370e-38f0-b7eb-b09e73db6619",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/572",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/571",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"right\">[1881, Aug. 29]</p>\n\n<p>\nCoach two such cities as<br/>\nBaltimore. I found Capt<br/>\nBowen in the city & he was<br/>\nmost kind to me. as also<br/>\nCapt Rogers. Had I been<br/>\nwell I should have had<br/>\na delightful time<br/>\nI saw His Honor the Mayor Col<br/>\nFindlay, Col. Fulton, who are<br/>\nofficially connected with<br/>\nthe school interests of the<br/>\ncity - The city will vote on<br/>\nthe tax question 6th Sept -<br/>\nSome are sanguine that<br/>\nthe tax will carry _ others are<br/>\nin doubt. I don't say how<br/>\nI impressed the gentlemen<br/>\nnamed above - I was<br/>\ncertainly in bad condition<br/>\nto act the agreeable - Well I<br/>\nhave known men to overdo<br/>\nthe thing, which is little better<br/>\nthan to undo a thing.<br/>\n\"There is a divinity that shapes our ends\"\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/573",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcribing a Historical Letter: A Detailed Examination**\n\nOkay, so I've got this fascinating handwritten document, and my task is to get a perfect transcription. First, I need to understand what I’m looking at. It's a single page of cursive handwriting, a bit faded and slanted, and there's a date right at the top, a penciled annotation: [1881, Aug. 29]. That immediately suggests this is something archival, like a letter. The handwriting looks like it would have been from someone educated, in the 19th Century. The writing isn't quite clear, but I can make out mentions of places like Baltimore, and some names like \"Capt Bowen,\" \"Capt Rogers,\" \"His Honor the Mayor,\" and figures like \"Col Findlay,\" and possibly \"Col Fulton,\" that is what I think it looks like. There’s something about school interests, a tax vote, and some personal impressions.\n\nSo, I'm going to carefully read this line by line and try to interpret. \n\nLine one is a bit of a head scratcher. It starts with a capital 'C' then has a word that is hard to decipher. It looks like \"Coach\", but \"Coach two such cities as\". It doesn't make total sense but makes the most visual sense. I need to make some decisions, and \"Coach\" is the best transcription and I'll see if the rest of the text clarifies what is said. \n\nSo it sounds like \"Coach two such cities as Baltimore.\" Then I read the next lines that say \"...I found Capt Bowen in the city & he was / most kind to me. as also / Capt Rogers.\" So, the writer is visiting. This probably means \"Coach to such cities as...\".\n\nSo, I start transcribing, being as accurate as I can line by line. I have to read words multiple times, trying different interpretations. I'm really looking for clues in the letter. I'm considering \"Boast\", \"Count\" and \"Coast\" as well. I'm taking in the full visual context.\n\nThe second line starts with \"Baltimore\" so I can assume it is \"Coach two such cities as Baltimore.\" The \"Capt\" looks like the shortened \"Captain\". Then I go line by line, writing the letters as written.\n\nThen I am reading about \"Col. Findlay\" and the \"Mayor Col\".\n\nAfter reading about the voting on tax, I start to re-read the first line again. I am still uncertain.\n\nI am looking at \"coach\", \"coast\", \"count\" and \"catch\". \"Count two such cities as\". Visually, it is hard to say with certainty. It looks like \"Coach\" visually but I keep thinking that I can interpret \"Coach\" as \"Count\". However, I'll transcribe \"Coach two such cities as\" but I suspect it might be \"Count\".\n\nThen I keep going. \"Col. Fulton\" is another tough name. I'm looking at \"Col. Fenton\", but it looks more like \"Col. Fulton\" because of the way the \"l\" is written. \n\nIn general, the letter mentions \"Capt Bowen\", \"Col Findlay\" and \"Col Fulton\", so I should read it as a whole and trust the full context of the document.\n\nThen I read all the other letters carefully again, looking for any words that may have a different interpretation.\n\nThe transcription is ready.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3732,
+      "width": 2301,
+      "items": [
+        {
+          "id": "http://example.org/iiif/564",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/563",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/4ea639c6-2d94-3002-b39e-d368a4a67aec/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2301,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/4ea639c6-2d94-3002-b39e-d368a4a67aec",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/575",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/574",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br/>\n[1881, Aug. 29]</p>\n\n<p>Ye shades of Aristotle Pythagoras!<br/>\nThe ninteenth Century is full<br/>\nsurprises - What next?<br/>\nSuppose you have seen<br/>\nHoggs \"Paper on the University of<br/>\nTexas\". I am sure the Board<br/>\nof Regents will give him a<br/>\nvote of thanks - if they do not<br/>\nmake him Chancellor.<br/>\nHe has completed their<br/>\nwork for them. From pit to<br/>\ndome - Incorrigible, impossible<br/>\nmy vocabulary fails - He is a<br/>\nwonder - a startle & will<br/>\nyet \"turn up\" -<br/>\nNo doubt you have had<br/>\na pleasant time - wish I<br/>\ncould take just such<br/>\na trip - but impecuniosity -<br/>\nWhat a cruel tyrant!<br/>\nMrs H is at Galveston - Rest of the<br/>\nfamily in reasonable health -<br/>\nI am rather \"under the weather\" -<br/>\nLet me hear from you. Your friend<br/>\n[Signature]<br/>\nJ. S. Hanna</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/576",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts Before Transcription**\n\nAlright, let's get this done. I've broken down the request, analyzed the image – it's a handwritten letter from 1881, faded cursive on lined paper. My job is to be faithful to the original, spelling and all, and only use approved HTML tags.\n\nFirst, I'll transcribe line by line. Top right is the date: `[1881, Aug. 29]`. Then comes the body, with each line being carefully reviewed. I'm noting any uncertainty with `[?]` and marking illegible sections as `[illegible]`. I'll preserve the layout as best as I can, line breaks and all. I'll flag spelling peculiarities – like \"ninteenth\" – and maintain the intended meaning. I am looking carefully at \"Galveston\". It looks like Galveston. The handwriting is a bit rough in places – \"reasonable\" for instance. Also, \"impecuniosity\" is clear, and the signature will be transcribed to the best of my ability, as \"J. S. Hanna\".\n\nNow I format with the HTML, using `<p>` for blocks, `<br>` for line breaks. I'll double-check for any missed details or formatting errors and then cross-check the HTML tags used. Then I will submit the transcription. Here we go.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/295/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,352 +1,412 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-395.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Mrs. McInnis from R. H. G. (Mrs. F. A. Gulley), July 31, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1890-07-31"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Mrs. McInnis from R. H. G. (Mrs. F. A. Gulley), July 31, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/dbab0933-6c6e-302d-a957-81746b86b383/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4402,
-            "width": 3348,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/188",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/187",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/dbab0933-6c6e-302d-a957-81746b86b383/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4402,
-                                "width": 3348,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/dbab0933-6c6e-302d-a957-81746b86b383",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/200",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/199",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<b>TEXAS</b>\n<b>Agricultural <small>&#10018;</small> Experiment <small>&#10018;</small> Station,</b>\nAgricultural <sup>and</sup> Mechanical College.\n\n| STATION STAFF. | BOARD OF CONTROL. |\n| :--- | :--- |\n| F. A. GULLEY, M. Sc. Director. | BOARD OF DIRECTORS, |\n| G. W. CURTIS, M. S. A., Agriculturist. | Agricultural and Mechanical College. |\n| H. H. HARRINGTON, M. Sc., Chemist. | EXPERIMENT STATION COUNCIL, |\n| T. L. BRUNK, B. Sc., Horticulturalist. | L. L. McINNIS, |\n| M. FRANCIS, D. V. M., Veterinarian. | Chairman of Faculty. |\n| W. WIPPRECHT, B. S. A., Asst. Chem. | T. M. SCOTT, |\n| D. ADRIANCE, Asst. Chemist. | Agent of the Board. |\n| J. W. CARSON, Asst. to Director. | F. A. GULLEY, |\n| J. M. CARSON, Asst. to Agriculturist. | Director of the Station. |\n| C. K. FUQUA, B. Sc., Sugar Chemist. | |\n| <small>HARLEM, FORT BEND CO.</small> | |\n\n<p align=\"center\"><small>ADDRESS ALL COMMUNICATIONS TO EXPERIMENT STATION.</small></p>\n\nCollege Station, Texas <i>July 31st</i> 18<i>90</i>\n\nMy dear Mrs McInnis,\n<br>Your very kind letter came\n<br>yesterday, I suppose about the same time you\n<br>received mine, I must just write you a line to\n<br>tell you what Mrs Bringhurst said last night\n<br>I intimated to her that I knew about your\n<br>conference and she says \"tell Mrs McI that I\n<br>have written nothing for the papers, for the\n<br>reason that Mr McI has given me no statement\n<br>and I understood her that I was not to come out in\n<br>public without his consent, but I induced Major\n<br>B_ to go and see Cavitt - and Mr. B_ thinks\n<br>that Cavitt could be won over - but Mr Adriance\n<br>could not.\" and just about here she remarked\n<br>that it was the poorest thing for the College when\n<br>Mr Adriance and his father were retained, the one\n<br>on the Board and the other in College.\n<br>Perhaps you know of Mr Harrington's getting up a paper\n<br>asking for Mr McI to be retained, that Major B_\n<br>sent with a letter to Major Rose, and Major B_ tells\n<br>his wife that he has rec'd an answer to that letter\n<br>and that there is a gleam of hope in it for Mr\n<br>McI_ now that differs seriously with a letter your</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/201",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Comprehensive Transcription Thought Process**\n\nAlright, let's break down this transcription. First, I need to understand the task: I'm a professional transcriber, my job is to accurately reproduce the text from this image. The guidelines are pretty specific: top-to-bottom, left-to-right, preserve everything including spelling and punctuation, and use \"[?]\" for uncertain characters. I need to use Markdown tables and only those specific HTML tags that were provided. The main constraint is that I can only provide the transcribed text.\n\nNow, let's analyze the source: it's a handwritten letter on official letterhead from the \"Texas Agricultural Experiment Station.\" It seems like a letter about internal politics or personnel at the station. There is a header, and two sidebars - one with Station Staff, and one with the Board of Control. The date is \"College Station, Texas July 31st 1890\". The handwriting is cursive and a little faded, so careful deciphering is required. The content appears to be a personal/professional letter to \"My dear Mrs McInnis\" regarding \"Mr McI\", \"Mrs Bringhurst\", \"Major B\", \"Cavitt\", \"Mr Adriance\", \"Mr Harrington\", and \"Major Rose\".\n\nI will do this in stages. First, I need to transcribe the header. The header includes the name of the station, which is large and center. Then a title and address. Then the sidebars, which I will present in Markdown tables. Then the date line. And finally, the body of the letter.\n\nSo let\u2019s start with the header section: the visual structure of the document suggests a top-down, left-to-right approach, but the image is a bit complex. The title is \"TEXAS, Agricultural Experiment Station, Agricultural and Mechanical College\". Then below that is the address line. Then the sidebars. I'll arrange the header in a Markdown table.\n\nNow for the sidebars. The left sidebar lists the Station Staff, and the right sidebar lists the Board of Control. I\u2019ll make separate Markdown tables for them to preserve the formatting from the image.\n\nNext, I need to transcribe the date: \"College Station, Texas July 31st 1890\". It's mostly printed, but the \"July 31st\" and \"90\" are handwritten.\n\nFinally, I\u2019ll transcribe the body of the letter. I\u2019ll go through it line by line, paying close attention to the handwriting. I\u2019ll note my mental draft first and then refine it. It seems to have a good deal of internal discussion. There are some names and abbreviations, like \"Mr McI,\" \"Major B,\" and \"Cavitt\" that need careful attention. I will use the staff and board lists for any clues on the names.\n\nLet's begin: The salutation is \"My dear Mrs McInnis\". The first part of the letter talks about a \"very kind letter\" and then details a conversation between the author and \"Mrs Bringhurst\" about \"Mr McI\". Then something about \u201cMajor B\u201d and \u201cCavitt\u201d and \u201cMr Adriance\u201d and \u201cMr Harrington\u201d and \u201cMajor Rose.\u201d The letter seems to trail off at the bottom.\n\nI will double-check the handwriting: \"Mrs McInnis\" looks right, given that it's addressed to Mrs. McInnis. \"Mrs Bringhurst\" looks right. \"Major B\" seems clear. \"Cavitt\" is legible, and \"Mr Adriance\" is also clear - it's on the staff list. \"Mr Harrington\" is also on the staff list. \"Major Rose\" is the President of the board.\n\nNow, let's re-format this and ensure I'm using the HTML tags to structure the document. Based on the guidelines, I can use `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`. The Markdown table will take care of the sidebars. The \"TEXAS\" is probably best in `<b>` for bold. \"and\" in the header will be `<sup>`. The handwritten parts of the date will be `<i>`. I'll use `br` for line breaks inside the paragraphs to maintain the visual layout.\n\nI\u2019m also seeing a specific request to \"Preserve line breaks,\" so I\u2019ll be careful to keep all the original line breaks in the text. I\u2019ll add `<br>` tags to make sure the breaks are rendered.\n\nNow, I will work on the final construction, piece by piece, incorporating all the formatting and HTML. I'll put the \"TEXAS\" header first, then the table for the staff/board, and then the address, and the date. Finally, I will transcribe the body of the letter.\n\nI'll double-check\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4402,
-            "width": 3348,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/190",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/189",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/42b8dda4-fab9-3723-9dd1-c3addee125ee/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4402,
-                                "width": 3348,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/42b8dda4-fab9-3723-9dd1-c3addee125ee",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/203",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/202",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nHusband had lately from Major Rose, saying that<br/>\n\"the Board\" considered his chair vacant, plague<br/>\ntake them, Mr Gulley saw Major Rose this<br/>\nweek and he told him a man by the name<br/>\nof Pritchard, <sup>I believe</sup> of Huntsville, had the ch. of Mathematics<br/>\nI dont suppose Major <sup>B-</sup> is very confidential or<br/>\ntruthful to his wife, and I have no confidence<br/>\nin him when he says he would like to have<br/>\nMr McI_ back, I think he desires it about as<br/>\nmuch as our neighbor at the end of the row<br/>\nwould like to see Mr G. remain. You know<br/>\nexactly how Mrs Bringhurst talks and goes<br/>\non, she said beautiful things about you and<br/>\nMr McI_ and about us and I think with you<br/>\nthat she feels badly and wishes the matter<br/>\ncould be adjusted, but it cannot and we<br/>\nmust bear it. You have every thing to<br/>\nbe rejoiced over. It is no come down for Mr<br/>\nMcInnis, to be made Vice President, and Teller,<br/>\nof such a bank as the one in Bryan, and<br/>\nyou will realize it when he gets to work &<br/>\nhis mind runs in a different channel, and<br/>\nthen he is so near, he can get even with<br/>\nthose men that have been so influential in<br/>\nundermining him. I am so glad for you<br/>\nI wish we were as fortunate. Our fate is<br/>\nstill undecided. We probably go to Tennessee.\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/204",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**The Transcriptionist's Inner Monologue**\n\nOkay, here's the task: I need to transcribe this handwritten letter, preserving its original form and formatting. I'm a professional, so accuracy and attention to detail are paramount. No markdown tables, just HTML tags. Right, let's dive in.\n\nThe image shows a cursive letter, likely from the 19th or early 20th century. The paper is old and creased. Based on the mention of \"Major,\" \"Vice President,\" and a \"bank,\" it certainly seems old. The handwriting is flowing, but legible enough. Time to get to work, line by line.\n\n*Line 1:* \"Husband had lately...\" Yep, that's what it looks like. Let's make sure it's capitalized.\n\n*Line 2:* \"the Board\" looks like it's quoted. \"plague,\"... that's a bit harsh but seems to be the word, and likely an idiom.\n\n*Line 3:* \"Mr Gulley\" and \"Major Rose,\" here we go. It flows, so far.\n\n*Line 4:* \"week\"... or \"walk\"? No, considering the context, it must be \"week.\"\n\n*Line 5:* \"Pritchard, I believe, of Huntsville\". This looks like an insertion. Need to tag that. \"ch. of Mathematics\" - short for chair, I presume.\n\n*Line 6:* \"Major B- is\"... Hmm, there's a superscript B- over 'is'. Is that \"Rose\" badly written? It's really hard to tell but it looks like a \"B-\".\n\n*Line 7:* Simple enough.\n\n*Line 8:* Still going.\n\n*Line 9:* \"Mr McI_\" (dash at the end).\n\n*Line 10:* This is progressing.\n\n*Line 11:* \"Mr G.\" (Gulley, again), and let's go.\n\n*Line 12:* Mrs Bringhurst. No problem.\n\n*Line 13:* Smoothly.\n\n*Line 14:* \"Mr McI_,\" again.\n\n*Line 15:* Context is slowly emerging.\n\n*Line 16:* Bear it, okay.\n\n*Line 17:* \"every thing,\" two words.\n\n*Line 18:* No \"come down\".\n\n*Line 19:* \"Vice President, and Teller, Mr McInnis\" (full name!), and so on...\n\n*Line 20:* In \"Bryan,\" that is.\n\n*Line 21:* \"gets to work &\"... an ampersand, I see.\n\n*Line 22:* \"runs in a different channel,\" got it.\n\n*Line 23:* This letter... sounds like it may not be great news for someone.\n\n*Line 24:* Those influential men.\n\n*Line 25:* Glad for you.\n\n*Line 26:* Wish we were as fortunate.\n\n*Line 27:* \"Tennessee\", with a capital \"T\".\n\nRight, now the transcription is done. Time to format it correctly in HTML. Need to add the `<p>` tags and `<br>` for the line breaks. That insertion is important, so let's use `<sup>`. \"Major B-\", the superscript needs to be there. And \"Mr. McI_\". And that's all. Double-checking, and let's go. Okay, one last look, and here's the result.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 4402,
-            "width": 3348,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/192",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/191",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/26af6063-a66f-3390-a723-5b0284971e8a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4402,
-                                "width": 3348,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/26af6063-a66f-3390-a723-5b0284971e8a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/206",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/205",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>| | | |\n| :--- | :---: | :--- |\n| STATION STAFF.<br>F. A. GULLEY, M. Sc. Director.<br>G. W. CURTIS, M. S. A., Agriculturist.<br>H. H. HARRINGTON, M. Sc., Chemist.<br>T. L. BRUNK, B. Sc., Horticulturalist.<br>M. FRANCIS, D. V. M., Veterinarian.<br>W. WIPPRECHT, B. S. A., Asst. Chem.<br>D. ADRIANCE, Asst. Chemist.<br>J. W. CARSON, Asst. to Director.<br>J. M. CARSON, Asst. to Agriculturist.<br>C. K. FUQUA, B. Sc., Sugar Chemist.<br><small>HARLEM, FORT BEND CO.</small> | 1890, July 31st<br><b>TEXAS<br>Agricultural Experiment Station,<br>Agricultural and Mechanical College.</b><br><small>ADDRESS ALL COMMUNICATIONS TO EXPERIMENT STATION.</small> | BOARD OF CONTROL.<br>BOARD OF DIRECTORS,<br>Agricultural and Mechanical College.<br>EXPERIMENT STATION COUNCIL,<br>L. L. McINNIS,<br>Chairman of Faculty.<br>T. M. SCOTT,<br>Agent of the Board.<br>F. A. GULLEY,<br>Director of the Station. |\n\n<p>College Station, Texas..................................................................18........</p>\n\n<p>We have the choice, Virginia & Tenn, for the<br>\nchair of Agriculture, not quite what Mr.<br>\nG. wanted. The University of Tenn, <sub>College</sub> we consider<br>\non a better footing than the one in Va.<br>\nand for that reason prefer it, but we have<br>\nto hear again from there before we decide.<br>\nThe Whitlocks are getting anxious for the<br>\nhouse. I was furious, when they enquired of Mr<br>\nG. <sub>yesterday</sub> about it, but on reflection, I think they<br>\nfear the Board will meet again, and will<br>\nnot let them have the house, unless they are<br>\nin it. So I shall tell Mrs W when I go to<br>\nmail this letter, if they want to move in now<br>\nthey can, It will not be so pleasant for either<br>\nparty, but I am willing to put up with it, if<br>\nthey are. Mr G. is in Dallas -<br>\nIt pleases me very much that Malcolm<br>\nand Lila Graham remember me - and I hope<br>\nyou will not let them forget me. It is too bad<br>\nthat we must be separated, I wonder if this is<br>\nmy fate, to go around the world, making friends</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/207",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Thoughts**\n\nOkay, here\u2019s how I\u2019m approaching this transcription task, as a seasoned professional. I need to take this image of a letterhead and text and transform it into a perfectly accurate, well-formatted transcription. First, I\u2019m breaking the whole thing into a few key steps. I start by analyzing the requests and understanding the constraints. Then, I dive into the image itself, looking closely at every detail. The letterhead is elaborate, with columns of information, a handwritten date, and a dateline. The handwriting itself will be the biggest challenge, but I'm ready to tackle that, taking it line by line.\n\nI'm thinking to structure the transcription in distinct blocks. The layout needs to be precise, preserving the original formatting and any handwritten details. I am aware of the correct HTML tags to label the structural elements. My goal is to capture everything accurately \u2013 spelling, punctuation, capitalization \u2013 while respecting the original text. I'll need to use Markdown tables for lists, like those in the header section.\n\nNext, I'm carefully transcribing the image, keeping a close eye on the handwriting. I am noticing there are a few interlineations that must be captured. The letter uses a late 19th-century cursive style. While generally legible, some words are tricky. I'll need to make use of `[?]` and `[illegible]` where needed, and note marginalia with `[Margin: text]`.\n\nThen, I'm putting it all together. I'm taking the header columns and rendering them into an HTML-compliant format. For the tabular data, I'm going to follow the instructions to use Markdown tables. The most complex part is capturing the relationships between the columns. I'll check my HTML, and Markdown to make sure it's valid.\n\nAs I'm transcribing, I'm going to double check for handwriting specifics, like that handwritten \"1890, July 31st\" and the word \"College\" written under \"Tenn\". I'll format insertions using `<sup >` and `<sub >` tags to keep track of that. I am re-evaluating each word and punctuation mark, taking into account the context and my best interpretation. I'm focusing on the overall flow of the text.\n\nI'll finalize it by checking against constraints, like correct HTML, spelling, and punctuation. Any ambiguous or tricky parts, I will double-check. The image looks reasonably good. I'll be sure the transcription is accurate and readable. All that remains is to format it properly. I will make a table for the header info.\n\nI'm making sure it's perfect, checking every detail and putting it into the final output. The main goal here is a clean, accurate, and completely faithful transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 4402,
-            "width": 3348,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/194",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/193",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2ee4041d-7761-3aa6-a0b7-fe7dc9d62b7d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4402,
-                                "width": 3348,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2ee4041d-7761-3aa6-a0b7-fe7dc9d62b7d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/209",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/208",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nand parting with them, I dread it so much,<br/>\nstarting in again, and Knoxville will not<br/>\nbe like going to a College Campus. I don't<br/>\nsuppose they feel obliged to call <sup>cultivate</sup> on the<br/>\nProf- wives, especially as they have other<br/>\nsociety, and I expect to be very lonely for<br/>\na while, You see, my dear, the advantages<br/>\nyou have, you are known and thought<br/>\nmuch of. I am wondering what you will<br/>\ndo about Ch, can you sit in the same<br/>\nhouse with Major Cariel and worship.<br/>\nBut I must hurry or I will not be in<br/>\ntime for the mail, I am so glad for<br/>\nyou, that you have got to a haven of<br/>\nrest, where there are plenty of rocking<br/>\nchairs, and now you must cheer up, and<br/>\ndwell upon your blessings past and<br/>\npresent. the future has every thing for you<br/>\nLove to your Father & Mother and kisses for<br/>\nthe children, and write soon again to<br/>\nme your friend B.A.G. [Mrs. F.A. Gulley ?]<br/>\nI have not seen Mrs Curtis, but am sure if Larthin<br/>\nLamas husband was not very sick in bed here, she would<br/>\nhave worked some scheme to have gotten her, Mrs Hayes drags<br/>\n[Margin: out the chairs every night. which always excited my risibles -]\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/210",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription of the Handwritten Letter**\n\n<p>\nand parting with them, I dread it so much,<br/>\nstarting in again, and Knoxville will not<br/>\nbe like going to a College Campus. I don't<br/>\nsuppose they feel obliged to call <sup>cultivate</sup> on the<br/>\nProf- wives, especially as they have other<br/>\nsociety, and I expect to be very lonely for<br/>\na while, You see, my dear, the advantages<br/>\nyou have, you are known and thought<br/>\nmuch of. I am wondering what you will<br/>\ndo about Ch, can you sit in the same<br/>\nhouse with Major Cariel and worship.<br/>\nBut I must hurry or I will not be in<br/>\ntime for the mail, I am so glad for<br/>\nyou, that you have got to a haven of<br/>\nrest, where there are plenty of rocking<br/>\nchairs, and now you must cheer up, and<br/>\ndwell upon your blessings past and<br/>\npresent. the future has every thing for you<br/>\nLove to your Father & Mother and kisses for<br/>\nthe children, and write soon again to<br/>\nme your friend B.A.G. [Mrs. F.A. Gulley ?]<br/>\nI have not seen Mrs Curtis, but am sure if Larthin<br/>\nLamas husband was not very sick in bed here, she would<br/>\nhave worked some scheme to have gotten her, Mrs Hayes drags [Margin: out the chairs every night. which always excited my risibles -]\n</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-395.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Mrs. McInnis from R. H. G. (Mrs. F. A. Gulley), July 31, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1890-07-31"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Mrs. McInnis from R. H. G. (Mrs. F. A. Gulley), July 31, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 3 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural education--Texas--History--19th century",
+          "Texas Agricultural Experiment Station--History",
+          "Agricultural and Mechanical College of Texas--History",
+          "Academic employment--United States--19th century",
+          "Faculty--Institutional relocation",
+          "Higher education--Administration--History",
+          "Personnel matters--Academic institutions"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Gulley, Mrs. F. A. (R. H. G.)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Mrs. (recipient)",
+          "McInnis, L. L.",
+          "Bringhurst, Mrs.",
+          "Gulley, F. A.",
+          "Adriance, D.",
+          "Rose, Major",
+          "Harrington, H. H.",
+          "Curtis, G. W.",
+          "Whitlock, Mrs.",
+          "Graham, Malcolm",
+          "Graham, Lila",
+          "Cariel, Major",
+          "Curtis, Mrs.",
+          "Hayes, Mrs."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from Mrs. F. A. Gulley (R. H. G.) to Mrs. McInnis dated July 31, 1890, discussing institutional politics and personnel matters at the Texas Agricultural Experiment Station and Agricultural and Mechanical College. The letter reports on academic dismissals, potential rehiring prospects, and relocation decisions affecting faculty families, including the Gulleys' consideration of positions in Tennessee and Virginia. Written during a period of significant administrative upheaval at the college, the letter provides insight into nineteenth-century academic politics and the personal impact of institutional change on faculty families."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/dbab0933-6c6e-302d-a957-81746b86b383/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4402,
+      "width": 3348,
+      "items": [
+        {
+          "id": "http://example.org/iiif/188",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/187",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/dbab0933-6c6e-302d-a957-81746b86b383/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4402,
+                "width": 3348,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/dbab0933-6c6e-302d-a957-81746b86b383",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/200",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/199",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<b>TEXAS</b>\n<b>Agricultural <small>&#10018;</small> Experiment <small>&#10018;</small> Station,</b>\nAgricultural <sup>and</sup> Mechanical College.\n\n| STATION STAFF. | BOARD OF CONTROL. |\n| :--- | :--- |\n| F. A. GULLEY, M. Sc. Director. | BOARD OF DIRECTORS, |\n| G. W. CURTIS, M. S. A., Agriculturist. | Agricultural and Mechanical College. |\n| H. H. HARRINGTON, M. Sc., Chemist. | EXPERIMENT STATION COUNCIL, |\n| T. L. BRUNK, B. Sc., Horticulturalist. | L. L. McINNIS, |\n| M. FRANCIS, D. V. M., Veterinarian. | Chairman of Faculty. |\n| W. WIPPRECHT, B. S. A., Asst. Chem. | T. M. SCOTT, |\n| D. ADRIANCE, Asst. Chemist. | Agent of the Board. |\n| J. W. CARSON, Asst. to Director. | F. A. GULLEY, |\n| J. M. CARSON, Asst. to Agriculturist. | Director of the Station. |\n| C. K. FUQUA, B. Sc., Sugar Chemist. | |\n| <small>HARLEM, FORT BEND CO.</small> | |\n\n<p align=\"center\"><small>ADDRESS ALL COMMUNICATIONS TO EXPERIMENT STATION.</small></p>\n\nCollege Station, Texas <i>July 31st</i> 18<i>90</i>\n\nMy dear Mrs McInnis,\n<br>Your very kind letter came\n<br>yesterday, I suppose about the same time you\n<br>received mine, I must just write you a line to\n<br>tell you what Mrs Bringhurst said last night\n<br>I intimated to her that I knew about your\n<br>conference and she says \"tell Mrs McI that I\n<br>have written nothing for the papers, for the\n<br>reason that Mr McI has given me no statement\n<br>and I understood her that I was not to come out in\n<br>public without his consent, but I induced Major\n<br>B_ to go and see Cavitt - and Mr. B_ thinks\n<br>that Cavitt could be won over - but Mr Adriance\n<br>could not.\" and just about here she remarked\n<br>that it was the poorest thing for the College when\n<br>Mr Adriance and his father were retained, the one\n<br>on the Board and the other in College.\n<br>Perhaps you know of Mr Harrington's getting up a paper\n<br>asking for Mr McI to be retained, that Major B_\n<br>sent with a letter to Major Rose, and Major B_ tells\n<br>his wife that he has rec'd an answer to that letter\n<br>and that there is a gleam of hope in it for Mr\n<br>McI_ now that differs seriously with a letter your</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/201",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Comprehensive Transcription Thought Process**\n\nAlright, let's break down this transcription. First, I need to understand the task: I'm a professional transcriber, my job is to accurately reproduce the text from this image. The guidelines are pretty specific: top-to-bottom, left-to-right, preserve everything including spelling and punctuation, and use \"[?]\" for uncertain characters. I need to use Markdown tables and only those specific HTML tags that were provided. The main constraint is that I can only provide the transcribed text.\n\nNow, let's analyze the source: it's a handwritten letter on official letterhead from the \"Texas Agricultural Experiment Station.\" It seems like a letter about internal politics or personnel at the station. There is a header, and two sidebars - one with Station Staff, and one with the Board of Control. The date is \"College Station, Texas July 31st 1890\". The handwriting is cursive and a little faded, so careful deciphering is required. The content appears to be a personal/professional letter to \"My dear Mrs McInnis\" regarding \"Mr McI\", \"Mrs Bringhurst\", \"Major B\", \"Cavitt\", \"Mr Adriance\", \"Mr Harrington\", and \"Major Rose\".\n\nI will do this in stages. First, I need to transcribe the header. The header includes the name of the station, which is large and center. Then a title and address. Then the sidebars, which I will present in Markdown tables. Then the date line. And finally, the body of the letter.\n\nSo let’s start with the header section: the visual structure of the document suggests a top-down, left-to-right approach, but the image is a bit complex. The title is \"TEXAS, Agricultural Experiment Station, Agricultural and Mechanical College\". Then below that is the address line. Then the sidebars. I'll arrange the header in a Markdown table.\n\nNow for the sidebars. The left sidebar lists the Station Staff, and the right sidebar lists the Board of Control. I’ll make separate Markdown tables for them to preserve the formatting from the image.\n\nNext, I need to transcribe the date: \"College Station, Texas July 31st 1890\". It's mostly printed, but the \"July 31st\" and \"90\" are handwritten.\n\nFinally, I’ll transcribe the body of the letter. I’ll go through it line by line, paying close attention to the handwriting. I’ll note my mental draft first and then refine it. It seems to have a good deal of internal discussion. There are some names and abbreviations, like \"Mr McI,\" \"Major B,\" and \"Cavitt\" that need careful attention. I will use the staff and board lists for any clues on the names.\n\nLet's begin: The salutation is \"My dear Mrs McInnis\". The first part of the letter talks about a \"very kind letter\" and then details a conversation between the author and \"Mrs Bringhurst\" about \"Mr McI\". Then something about “Major B” and “Cavitt” and “Mr Adriance” and “Mr Harrington” and “Major Rose.” The letter seems to trail off at the bottom.\n\nI will double-check the handwriting: \"Mrs McInnis\" looks right, given that it's addressed to Mrs. McInnis. \"Mrs Bringhurst\" looks right. \"Major B\" seems clear. \"Cavitt\" is legible, and \"Mr Adriance\" is also clear - it's on the staff list. \"Mr Harrington\" is also on the staff list. \"Major Rose\" is the President of the board.\n\nNow, let's re-format this and ensure I'm using the HTML tags to structure the document. Based on the guidelines, I can use `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`. The Markdown table will take care of the sidebars. The \"TEXAS\" is probably best in `<b>` for bold. \"and\" in the header will be `<sup>`. The handwritten parts of the date will be `<i>`. I'll use `br` for line breaks inside the paragraphs to maintain the visual layout.\n\nI’m also seeing a specific request to \"Preserve line breaks,\" so I’ll be careful to keep all the original line breaks in the text. I’ll add `<br>` tags to make sure the breaks are rendered.\n\nNow, I will work on the final construction, piece by piece, incorporating all the formatting and HTML. I'll put the \"TEXAS\" header first, then the table for the staff/board, and then the address, and the date. Finally, I will transcribe the body of the letter.\n\nI'll double-check\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4402,
+      "width": 3348,
+      "items": [
+        {
+          "id": "http://example.org/iiif/190",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/189",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/42b8dda4-fab9-3723-9dd1-c3addee125ee/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4402,
+                "width": 3348,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/42b8dda4-fab9-3723-9dd1-c3addee125ee",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/203",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/202",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nHusband had lately from Major Rose, saying that<br/>\n\"the Board\" considered his chair vacant, plague<br/>\ntake them, Mr Gulley saw Major Rose this<br/>\nweek and he told him a man by the name<br/>\nof Pritchard, <sup>I believe</sup> of Huntsville, had the ch. of Mathematics<br/>\nI dont suppose Major <sup>B-</sup> is very confidential or<br/>\ntruthful to his wife, and I have no confidence<br/>\nin him when he says he would like to have<br/>\nMr McI_ back, I think he desires it about as<br/>\nmuch as our neighbor at the end of the row<br/>\nwould like to see Mr G. remain. You know<br/>\nexactly how Mrs Bringhurst talks and goes<br/>\non, she said beautiful things about you and<br/>\nMr McI_ and about us and I think with you<br/>\nthat she feels badly and wishes the matter<br/>\ncould be adjusted, but it cannot and we<br/>\nmust bear it. You have every thing to<br/>\nbe rejoiced over. It is no come down for Mr<br/>\nMcInnis, to be made Vice President, and Teller,<br/>\nof such a bank as the one in Bryan, and<br/>\nyou will realize it when he gets to work &<br/>\nhis mind runs in a different channel, and<br/>\nthen he is so near, he can get even with<br/>\nthose men that have been so influential in<br/>\nundermining him. I am so glad for you<br/>\nI wish we were as fortunate. Our fate is<br/>\nstill undecided. We probably go to Tennessee.\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/204",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The Transcriptionist's Inner Monologue**\n\nOkay, here's the task: I need to transcribe this handwritten letter, preserving its original form and formatting. I'm a professional, so accuracy and attention to detail are paramount. No markdown tables, just HTML tags. Right, let's dive in.\n\nThe image shows a cursive letter, likely from the 19th or early 20th century. The paper is old and creased. Based on the mention of \"Major,\" \"Vice President,\" and a \"bank,\" it certainly seems old. The handwriting is flowing, but legible enough. Time to get to work, line by line.\n\n*Line 1:* \"Husband had lately...\" Yep, that's what it looks like. Let's make sure it's capitalized.\n\n*Line 2:* \"the Board\" looks like it's quoted. \"plague,\"... that's a bit harsh but seems to be the word, and likely an idiom.\n\n*Line 3:* \"Mr Gulley\" and \"Major Rose,\" here we go. It flows, so far.\n\n*Line 4:* \"week\"... or \"walk\"? No, considering the context, it must be \"week.\"\n\n*Line 5:* \"Pritchard, I believe, of Huntsville\". This looks like an insertion. Need to tag that. \"ch. of Mathematics\" - short for chair, I presume.\n\n*Line 6:* \"Major B- is\"... Hmm, there's a superscript B- over 'is'. Is that \"Rose\" badly written? It's really hard to tell but it looks like a \"B-\".\n\n*Line 7:* Simple enough.\n\n*Line 8:* Still going.\n\n*Line 9:* \"Mr McI_\" (dash at the end).\n\n*Line 10:* This is progressing.\n\n*Line 11:* \"Mr G.\" (Gulley, again), and let's go.\n\n*Line 12:* Mrs Bringhurst. No problem.\n\n*Line 13:* Smoothly.\n\n*Line 14:* \"Mr McI_,\" again.\n\n*Line 15:* Context is slowly emerging.\n\n*Line 16:* Bear it, okay.\n\n*Line 17:* \"every thing,\" two words.\n\n*Line 18:* No \"come down\".\n\n*Line 19:* \"Vice President, and Teller, Mr McInnis\" (full name!), and so on...\n\n*Line 20:* In \"Bryan,\" that is.\n\n*Line 21:* \"gets to work &\"... an ampersand, I see.\n\n*Line 22:* \"runs in a different channel,\" got it.\n\n*Line 23:* This letter... sounds like it may not be great news for someone.\n\n*Line 24:* Those influential men.\n\n*Line 25:* Glad for you.\n\n*Line 26:* Wish we were as fortunate.\n\n*Line 27:* \"Tennessee\", with a capital \"T\".\n\nRight, now the transcription is done. Time to format it correctly in HTML. Need to add the `<p>` tags and `<br>` for the line breaks. That insertion is important, so let's use `<sup>`. \"Major B-\", the superscript needs to be there. And \"Mr. McI_\". And that's all. Double-checking, and let's go. Okay, one last look, and here's the result.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 4402,
+      "width": 3348,
+      "items": [
+        {
+          "id": "http://example.org/iiif/192",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/191",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/26af6063-a66f-3390-a723-5b0284971e8a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4402,
+                "width": 3348,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/26af6063-a66f-3390-a723-5b0284971e8a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/206",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/205",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>| | | |\n| :--- | :---: | :--- |\n| STATION STAFF.<br>F. A. GULLEY, M. Sc. Director.<br>G. W. CURTIS, M. S. A., Agriculturist.<br>H. H. HARRINGTON, M. Sc., Chemist.<br>T. L. BRUNK, B. Sc., Horticulturalist.<br>M. FRANCIS, D. V. M., Veterinarian.<br>W. WIPPRECHT, B. S. A., Asst. Chem.<br>D. ADRIANCE, Asst. Chemist.<br>J. W. CARSON, Asst. to Director.<br>J. M. CARSON, Asst. to Agriculturist.<br>C. K. FUQUA, B. Sc., Sugar Chemist.<br><small>HARLEM, FORT BEND CO.</small> | 1890, July 31st<br><b>TEXAS<br>Agricultural Experiment Station,<br>Agricultural and Mechanical College.</b><br><small>ADDRESS ALL COMMUNICATIONS TO EXPERIMENT STATION.</small> | BOARD OF CONTROL.<br>BOARD OF DIRECTORS,<br>Agricultural and Mechanical College.<br>EXPERIMENT STATION COUNCIL,<br>L. L. McINNIS,<br>Chairman of Faculty.<br>T. M. SCOTT,<br>Agent of the Board.<br>F. A. GULLEY,<br>Director of the Station. |\n\n<p>College Station, Texas..................................................................18........</p>\n\n<p>We have the choice, Virginia & Tenn, for the<br>\nchair of Agriculture, not quite what Mr.<br>\nG. wanted. The University of Tenn, <sub>College</sub> we consider<br>\non a better footing than the one in Va.<br>\nand for that reason prefer it, but we have<br>\nto hear again from there before we decide.<br>\nThe Whitlocks are getting anxious for the<br>\nhouse. I was furious, when they enquired of Mr<br>\nG. <sub>yesterday</sub> about it, but on reflection, I think they<br>\nfear the Board will meet again, and will<br>\nnot let them have the house, unless they are<br>\nin it. So I shall tell Mrs W when I go to<br>\nmail this letter, if they want to move in now<br>\nthey can, It will not be so pleasant for either<br>\nparty, but I am willing to put up with it, if<br>\nthey are. Mr G. is in Dallas -<br>\nIt pleases me very much that Malcolm<br>\nand Lila Graham remember me - and I hope<br>\nyou will not let them forget me. It is too bad<br>\nthat we must be separated, I wonder if this is<br>\nmy fate, to go around the world, making friends</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/207",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Thoughts**\n\nOkay, here’s how I’m approaching this transcription task, as a seasoned professional. I need to take this image of a letterhead and text and transform it into a perfectly accurate, well-formatted transcription. First, I’m breaking the whole thing into a few key steps. I start by analyzing the requests and understanding the constraints. Then, I dive into the image itself, looking closely at every detail. The letterhead is elaborate, with columns of information, a handwritten date, and a dateline. The handwriting itself will be the biggest challenge, but I'm ready to tackle that, taking it line by line.\n\nI'm thinking to structure the transcription in distinct blocks. The layout needs to be precise, preserving the original formatting and any handwritten details. I am aware of the correct HTML tags to label the structural elements. My goal is to capture everything accurately – spelling, punctuation, capitalization – while respecting the original text. I'll need to use Markdown tables for lists, like those in the header section.\n\nNext, I'm carefully transcribing the image, keeping a close eye on the handwriting. I am noticing there are a few interlineations that must be captured. The letter uses a late 19th-century cursive style. While generally legible, some words are tricky. I'll need to make use of `[?]` and `[illegible]` where needed, and note marginalia with `[Margin: text]`.\n\nThen, I'm putting it all together. I'm taking the header columns and rendering them into an HTML-compliant format. For the tabular data, I'm going to follow the instructions to use Markdown tables. The most complex part is capturing the relationships between the columns. I'll check my HTML, and Markdown to make sure it's valid.\n\nAs I'm transcribing, I'm going to double check for handwriting specifics, like that handwritten \"1890, July 31st\" and the word \"College\" written under \"Tenn\". I'll format insertions using `<sup >` and `<sub >` tags to keep track of that. I am re-evaluating each word and punctuation mark, taking into account the context and my best interpretation. I'm focusing on the overall flow of the text.\n\nI'll finalize it by checking against constraints, like correct HTML, spelling, and punctuation. Any ambiguous or tricky parts, I will double-check. The image looks reasonably good. I'll be sure the transcription is accurate and readable. All that remains is to format it properly. I will make a table for the header info.\n\nI'm making sure it's perfect, checking every detail and putting it into the final output. The main goal here is a clean, accurate, and completely faithful transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 4402,
+      "width": 3348,
+      "items": [
+        {
+          "id": "http://example.org/iiif/194",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/193",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2ee4041d-7761-3aa6-a0b7-fe7dc9d62b7d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4402,
+                "width": 3348,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2ee4041d-7761-3aa6-a0b7-fe7dc9d62b7d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/209",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/208",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nand parting with them, I dread it so much,<br/>\nstarting in again, and Knoxville will not<br/>\nbe like going to a College Campus. I don't<br/>\nsuppose they feel obliged to call <sup>cultivate</sup> on the<br/>\nProf- wives, especially as they have other<br/>\nsociety, and I expect to be very lonely for<br/>\na while, You see, my dear, the advantages<br/>\nyou have, you are known and thought<br/>\nmuch of. I am wondering what you will<br/>\ndo about Ch, can you sit in the same<br/>\nhouse with Major Cariel and worship.<br/>\nBut I must hurry or I will not be in<br/>\ntime for the mail, I am so glad for<br/>\nyou, that you have got to a haven of<br/>\nrest, where there are plenty of rocking<br/>\nchairs, and now you must cheer up, and<br/>\ndwell upon your blessings past and<br/>\npresent. the future has every thing for you<br/>\nLove to your Father & Mother and kisses for<br/>\nthe children, and write soon again to<br/>\nme your friend B.A.G. [Mrs. F.A. Gulley ?]<br/>\nI have not seen Mrs Curtis, but am sure if Larthin<br/>\nLamas husband was not very sick in bed here, she would<br/>\nhave worked some scheme to have gotten her, Mrs Hayes drags<br/>\n[Margin: out the chairs every night. which always excited my risibles -]\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/210",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription of the Handwritten Letter**\n\n<p>\nand parting with them, I dread it so much,<br/>\nstarting in again, and Knoxville will not<br/>\nbe like going to a College Campus. I don't<br/>\nsuppose they feel obliged to call <sup>cultivate</sup> on the<br/>\nProf- wives, especially as they have other<br/>\nsociety, and I expect to be very lonely for<br/>\na while, You see, my dear, the advantages<br/>\nyou have, you are known and thought<br/>\nmuch of. I am wondering what you will<br/>\ndo about Ch, can you sit in the same<br/>\nhouse with Major Cariel and worship.<br/>\nBut I must hurry or I will not be in<br/>\ntime for the mail, I am so glad for<br/>\nyou, that you have got to a haven of<br/>\nrest, where there are plenty of rocking<br/>\nchairs, and now you must cheer up, and<br/>\ndwell upon your blessings past and<br/>\npresent. the future has every thing for you<br/>\nLove to your Father & Mother and kisses for<br/>\nthe children, and write soon again to<br/>\nme your friend B.A.G. [Mrs. F.A. Gulley ?]<br/>\nI have not seen Mrs Curtis, but am sure if Larthin<br/>\nLamas husband was not very sick in bed here, she would<br/>\nhave worked some scheme to have gotten her, Mrs Hayes drags [Margin: out the chairs every night. which always excited my risibles -]\n</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/395/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

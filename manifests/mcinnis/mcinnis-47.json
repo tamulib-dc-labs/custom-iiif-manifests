@@ -1,210 +1,259 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-47.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. Smith, June 18, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-06-18"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. Smith, June 18, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/2b3144ab-28e1-336a-8ea5-121b264d3d19/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3448,
-            "width": 2119,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2b3144ab-28e1-336a-8ea5-121b264d3d19/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3448,
-                                "width": 2119,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2b3144ab-28e1-336a-8ea5-121b264d3d19",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Stamp: CONGRESS]</p>\n\n<p>Evergreen<br>\nCedar Bayou P.O.<br>\nHarris Cy. Texas<br>\nJune 18\" 1883</p>\n\n<p>Professor M<sup>c</sup> Innis<br>\netc \u2014\u2014 etc \u2014\u2014 etc</p>\n\n<p>My dear Sir,</p>\n\n<p>Many thanks for the<br>\ninvitation to the Commencement Exercises<br>\nof the A. and M.</p>\n\n<p>It would give me sincere pleasure<br>\nto be present with you. I take a great<br>\nand real interest in the prosperity of<br>\nyour institution; I would show it by<br>\nmeeting with you. In my opinion such<br>\nattendance is the duty of gentlemen who<br>\nclaim to be friends of higher education.<br>\nIn reference to the present case, I find</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3448,
-            "width": 2119,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/87e9f824-7301-3ca6-9557-35549be89827/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3448,
-                                "width": 2119,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/87e9f824-7301-3ca6-9557-35549be89827",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>I am booked for the Teachers Convention<br>\nat Galveston and for the 27<sup>th</sup> instant. The<br>\nsubject assigned to me is the University of<br>\nTexas, and it is intimated that I am<br>\nalone depended on in behalf of the<br>\nUniversity.</p>\n\n<p>I am I fear destined to another<br>\ndisappointment\u2014 I have accepted the<br>\ninvitation to make the closing Address<br>\nto the students of the Prairie View Normal<br>\nSchool; which address I will gladly make<br>\nif in my power, having regard to time in<br>\nreaching Prairie View.</p>\n\n<p>With best compliments and thanks to<br>\nyourself, and hearty wishes for the prosperity<br>\nof the A. and M. I am<br>\nfaithfully<br>\nYours<br>\n[Signature] Ashbel Smith</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription of Ashbel Smith's Letter**\n\nI've analyzed this handwritten letter, identifying it as a piece of cursive script from the late 19th or early 20th century. The content, while not perfectly pristine, is largely legible. It appears to be a letter from Ashbel Smith regarding his commitments to various educational engagements.\n\nI begin with the first paragraph:\n\n`<p>I am booked for the Teachers Convention<br>\nat Galveston and for the 27<sup>th</sup> instant. The<br>\nsubject assigned to me is the University of<br>\nTexas, and it is intimated that I am<br>\nalone depended on in behalf of the<br>\nUniversity.</p>`\n\nIt seems I'm scheduled for the Teachers Convention in Galveston on the 27th. The topic assigned to me is the University of Texas, and it sounds like I'm the only one representing the University.\n\nNext comes the second:\n\n`<p>I am I fear destined to another<br>\ndisappointment\u2014 I have accepted the<br>\ninvitation to make the closing Address<br>\nto the students of the Prairie View Normal<br>\nSchool; which address I will gladly make<br>\nif in my power, having regard to time in<br>\nreaching Prairie View.</p>`\n\nI'm apprehensive, fearing another letdown, but I have accepted an invitation to give the closing address to the students at Prairie View Normal School. I'll gladly do it, time permitting, considering the travel to Prairie View.\n\nAnd finally, the last:\n\n`<p>With best compliments and thanks to<br>\nyourself, and hearty wishes for the prosperity<br>\nof the A. and M. I am<br>\n<br>\nfaithfully<br>\nYours<br>\n[Signature] Ashbel Smith</p>`\n\nI extend my best compliments, thanks, and wishes for the prosperity of A. and M. (Agricultural and Mechanical College, likely Texas A&M) and sign my name.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-47.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. Smith, June 18, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-06-18"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. Smith, June 18, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--Commencement",
+          "Higher education--Texas--History--19th century",
+          "Teachers--Congresses",
+          "University of Texas--History",
+          "Prairie View Normal School",
+          "Educational institutions--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Smith, Ashbel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Agricultural and Mechanical College of Texas",
+          "University of Texas",
+          "Prairie View Normal School"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from Ashbel Smith to Louis L. McInnis expressing appreciation for an invitation to the Agricultural and Mechanical College commencement exercises but declining attendance due to prior commitments. Smith explains his conflicts with a Teachers Convention at Galveston scheduled for June 27th, where he is assigned to speak on the University of Texas, and a commitment to deliver the closing address at Prairie View Normal School. The letter reflects Smith's genuine interest in supporting higher education institutions in Texas during the late 19th century."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/2b3144ab-28e1-336a-8ea5-121b264d3d19/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3448,
+      "width": 2119,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2b3144ab-28e1-336a-8ea5-121b264d3d19/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3448,
+                "width": 2119,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2b3144ab-28e1-336a-8ea5-121b264d3d19",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Stamp: CONGRESS]</p>\n\n<p>Evergreen<br>\nCedar Bayou P.O.<br>\nHarris Cy. Texas<br>\nJune 18\" 1883</p>\n\n<p>Professor M<sup>c</sup> Innis<br>\netc —— etc —— etc</p>\n\n<p>My dear Sir,</p>\n\n<p>Many thanks for the<br>\ninvitation to the Commencement Exercises<br>\nof the A. and M.</p>\n\n<p>It would give me sincere pleasure<br>\nto be present with you. I take a great<br>\nand real interest in the prosperity of<br>\nyour institution; I would show it by<br>\nmeeting with you. In my opinion such<br>\nattendance is the duty of gentlemen who<br>\nclaim to be friends of higher education.<br>\nIn reference to the present case, I find</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3448,
+      "width": 2119,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/87e9f824-7301-3ca6-9557-35549be89827/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3448,
+                "width": 2119,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/87e9f824-7301-3ca6-9557-35549be89827",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>I am booked for the Teachers Convention<br>\nat Galveston and for the 27<sup>th</sup> instant. The<br>\nsubject assigned to me is the University of<br>\nTexas, and it is intimated that I am<br>\nalone depended on in behalf of the<br>\nUniversity.</p>\n\n<p>I am I fear destined to another<br>\ndisappointment— I have accepted the<br>\ninvitation to make the closing Address<br>\nto the students of the Prairie View Normal<br>\nSchool; which address I will gladly make<br>\nif in my power, having regard to time in<br>\nreaching Prairie View.</p>\n\n<p>With best compliments and thanks to<br>\nyourself, and hearty wishes for the prosperity<br>\nof the A. and M. I am<br>\nfaithfully<br>\nYours<br>\n[Signature] Ashbel Smith</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription of Ashbel Smith's Letter**\n\nI've analyzed this handwritten letter, identifying it as a piece of cursive script from the late 19th or early 20th century. The content, while not perfectly pristine, is largely legible. It appears to be a letter from Ashbel Smith regarding his commitments to various educational engagements.\n\nI begin with the first paragraph:\n\n`<p>I am booked for the Teachers Convention<br>\nat Galveston and for the 27<sup>th</sup> instant. The<br>\nsubject assigned to me is the University of<br>\nTexas, and it is intimated that I am<br>\nalone depended on in behalf of the<br>\nUniversity.</p>`\n\nIt seems I'm scheduled for the Teachers Convention in Galveston on the 27th. The topic assigned to me is the University of Texas, and it sounds like I'm the only one representing the University.\n\nNext comes the second:\n\n`<p>I am I fear destined to another<br>\ndisappointment— I have accepted the<br>\ninvitation to make the closing Address<br>\nto the students of the Prairie View Normal<br>\nSchool; which address I will gladly make<br>\nif in my power, having regard to time in<br>\nreaching Prairie View.</p>`\n\nI'm apprehensive, fearing another letdown, but I have accepted an invitation to give the closing address to the students at Prairie View Normal School. I'll gladly do it, time permitting, considering the travel to Prairie View.\n\nAnd finally, the last:\n\n`<p>With best compliments and thanks to<br>\nyourself, and hearty wishes for the prosperity<br>\nof the A. and M. I am<br>\n<br>\nfaithfully<br>\nYours<br>\n[Signature] Ashbel Smith</p>`\n\nI extend my best compliments, thanks, and wishes for the prosperity of A. and M. (Agricultural and Mechanical College, likely Texas A&M) and sign my name.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/47/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

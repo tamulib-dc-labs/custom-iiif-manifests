@@ -1,139 +1,191 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-86.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from George Pfeuffer, November 18, 1884"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1884-11-18"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from George Pfeuffer, November 18, 1884"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 18 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/55d36b31-be67-3a96-8386-43c57e3df980/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4262,
-            "width": 3243,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/55d36b31-be67-3a96-8386-43c57e3df980/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4262,
-                                "width": 3243,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/55d36b31-be67-3a96-8386-43c57e3df980",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><b>OFFICE OF<br/>\nGEO. PFEUFFER<br/>\nDEALER IN<br/>\nLUMBER & SHINGLES.<br/>\nYARDS AT<br/>\nNEW BRAUNFELS,<br/>\nCOTULLA,<br/>\nLAREDO,<br/>\n& NUEVO LAREDO, MEX.</b><br/>\n<small>M. STRICKLAND & CO. GALVESTON, TEX.</small></p>\n\n<p>New Braunfels July 18 1884</p>\n\n<p>Prof L McInnis.</p>\n\n<p>My Dear Sir!</p>\n\n<p>In reply to your favor of 15th say that the Board will have<br/>\nto decide the question about the increase of Prof Smiths<br/>\nsalary and if his services are worth it I have no<br/>\ndoubt but what it will be allowed.<br/>\nWhy was it that the demand for an increase was not<br/>\nlayed before the Board?<br/>\nDid you or Dinwiddie not know while the Board<br/>\nwas in session that Smith wanted more than he<br/>\ngot former sessions?<br/>\nI do not think that the authority given the Chairman<br/>\nof the faculty or the Professor to employ assistants<br/>\nis broad enough to increase the salary ad<br/>\nlibitum</p>\n\n<p>Please say to Genl Hardeman that I am negotiating<br/>\nfor the Mutton and am waiting for freight rates<br/>\non the Sunset and International and will report<br/>\nresult at an early date Regards to Mrs McI</p>\n\n<p>Yours truly<br/>\nGeo Pfeuffer</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analyzing this transcription, I'm struck by the precision required. The initial task involves dissecting the image\u2014identifying the letterhead's details, the date, salutation, and, crucially, each word within the body. It\u2019s a process of deciphering and validating. The header, with its multiple lines and small print, demands careful attention to detail and I have to be particularly precise here, preserving the exact layout. Dates and names require scrutiny for accuracy.**\n\n**The core of the work, though, lies in interpreting the handwritten text. There are several spelling and word choices that stand out, the challenge is to determine whether these are deliberate or mistakes. The use of \"layed\" for \"laid\" requires careful comparison, and context is key \u2013 understanding the time period and the likely author\u2019s intent is crucial. The Latin phrase \"ad libitum\" is easy, however. The phrase \"Prof Smiths\" is clear - no apostrophe. Identifying figures like Dinwiddie, Genl Hardeman, and Prof. McInnis necessitates external knowledge to confirm their relevance to the letter and the time. \"Mutton\" is a challenge - The word is clear to read, but given the sender's profession, could be \"Mules\" but is definitely Mutton. The user knows this.**\n\n**The process is more than simple transcription; it\u2019s about making informed choices based on the available information. Finally, there's the task of structuring the transcription using HTML tags to maintain the original layout and paragraph structures as best as possible. This involves balancing accuracy with clarity, and choosing whether `<br>` or `<p>` will be used. It's a delicate balance of technical skill and interpretive judgement.**\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-86.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from George Pfeuffer, November 18, 1884"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1884-11-18"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from George Pfeuffer, November 18, 1884"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 18 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Salary negotiations",
+          "Educational administration",
+          "Faculty management",
+          "Lumber industry",
+          "Texas--History--19th century",
+          "Freight rates",
+          "Railroads--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Pfeuffer, George"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Smith (Professor)",
+          "Dinwiddie",
+          "Hardeman, General",
+          "Strickland, M. & Co.",
+          "Mrs. McInnis"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "George Pfeuffer writes to Professor Louis L. McInnis regarding a request for Professor Smith's salary increase, stating that the Board must decide whether Smith's services warrant the additional compensation and questioning why the request was not formally presented during the Board's session. The letter also mentions Pfeuffer's negotiations for mutton and his inquiry into freight rates for the Sunset and International railroads."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/55d36b31-be67-3a96-8386-43c57e3df980/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4262,
+      "width": 3243,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/55d36b31-be67-3a96-8386-43c57e3df980/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4262,
+                "width": 3243,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/55d36b31-be67-3a96-8386-43c57e3df980",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><b>OFFICE OF<br/>\nGEO. PFEUFFER<br/>\nDEALER IN<br/>\nLUMBER & SHINGLES.<br/>\nYARDS AT<br/>\nNEW BRAUNFELS,<br/>\nCOTULLA,<br/>\nLAREDO,<br/>\n& NUEVO LAREDO, MEX.</b><br/>\n<small>M. STRICKLAND & CO. GALVESTON, TEX.</small></p>\n\n<p>New Braunfels July 18 1884</p>\n\n<p>Prof L McInnis.</p>\n\n<p>My Dear Sir!</p>\n\n<p>In reply to your favor of 15th say that the Board will have<br/>\nto decide the question about the increase of Prof Smiths<br/>\nsalary and if his services are worth it I have no<br/>\ndoubt but what it will be allowed.<br/>\nWhy was it that the demand for an increase was not<br/>\nlayed before the Board?<br/>\nDid you or Dinwiddie not know while the Board<br/>\nwas in session that Smith wanted more than he<br/>\ngot former sessions?<br/>\nI do not think that the authority given the Chairman<br/>\nof the faculty or the Professor to employ assistants<br/>\nis broad enough to increase the salary ad<br/>\nlibitum</p>\n\n<p>Please say to Genl Hardeman that I am negotiating<br/>\nfor the Mutton and am waiting for freight rates<br/>\non the Sunset and International and will report<br/>\nresult at an early date Regards to Mrs McI</p>\n\n<p>Yours truly<br/>\nGeo Pfeuffer</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analyzing this transcription, I'm struck by the precision required. The initial task involves dissecting the image—identifying the letterhead's details, the date, salutation, and, crucially, each word within the body. It’s a process of deciphering and validating. The header, with its multiple lines and small print, demands careful attention to detail and I have to be particularly precise here, preserving the exact layout. Dates and names require scrutiny for accuracy.**\n\n**The core of the work, though, lies in interpreting the handwritten text. There are several spelling and word choices that stand out, the challenge is to determine whether these are deliberate or mistakes. The use of \"layed\" for \"laid\" requires careful comparison, and context is key – understanding the time period and the likely author’s intent is crucial. The Latin phrase \"ad libitum\" is easy, however. The phrase \"Prof Smiths\" is clear - no apostrophe. Identifying figures like Dinwiddie, Genl Hardeman, and Prof. McInnis necessitates external knowledge to confirm their relevance to the letter and the time. \"Mutton\" is a challenge - The word is clear to read, but given the sender's profession, could be \"Mules\" but is definitely Mutton. The user knows this.**\n\n**The process is more than simple transcription; it’s about making informed choices based on the available information. Finally, there's the task of structuring the transcription using HTML tags to maintain the original layout and paragraph structures as best as possible. This involves balancing accuracy with clarity, and choosing whether `<br>` or `<p>` will be used. It's a delicate balance of technical skill and interpretive judgement.**\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/86/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

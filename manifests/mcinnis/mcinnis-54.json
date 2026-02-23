@@ -1,210 +1,260 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-54.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-06 (circa)"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3740,
-            "width": 2341,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3740,
-                                "width": 2341,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p style=\"text-align: right;\">3</p>\n<p style=\"text-align: right;\">[1883, June 30]</p>\n\n<p>\nBy the by this reminds me of the fact<br/>\nthat your College is prospectively<br/>\nwithout a head. I know not the<br/>\ninspiration of Col J.'s resignation,<br/>\nbut I am not surprised at it.<br/>\nWere I a <i>single man</i> &ndash; as he is I<br/>\nwould forever abandon the school<br/>\nroom, for some employment which<br/>\npromises better remuneration for<br/>\ntoil & labor. Is or is not the cause<br/>\nof his resignation an open secret?<br/>\nAnd just at this point allow me<br/>\nto ask: Will your directors fall<br/>\ninto line & emphasize the dogma that<br/>\nwe have no school men in Texas?<br/>\nWhat is your opinion?<br/>\nTrust you had a pleasant visit to your<br/>\nold home. Christmas passed without<br/>\nincident to me &ndash; I failed to attend<br/>\nSupts. Association in Houston.<br/>\nWell enough perhaps &ndash; for the papers<br/>\nnotably Austin Statesman went through<br/>\nthem rather savagely. Prof H.<br/>\nwas there &ndash; as he is every where &ndash;<br/>\nthe man without a model &ndash;\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of My Transcription Process**\n\nOkay, here's what I've been thinking while transcribing this handwritten document. My primary goal, as always, is accuracy and adherence to the provided instructions. First, I carefully analyzed the image, noting the handwriting style (cursive, somewhat idiosyncratic), the presence of a \"3\" in the top right, and the penciled date of \"[1883, June 30]\". I immediately recognized this as a letter and realized the transcription task at hand.\n\nMy immediate task was to provide a transcription that is both accurate and reflects the intent of the original writer as closely as possible, using ONLY specified HTML tags. Initially, I noted the main areas to transcribe: header, the main body of the letter, and any details or specific marks. I began by reading the letter in its entirety to understand the context.\n\nI then went line by line, painstakingly transcribing each word and punctuation mark, paying close attention to any ambiguous letter formations. I wrestled with specific words, like \"secret\" (which appeared a little unclear in the handwriting), and double-checked common abbreviations like \"Supts.\" (Superintendents) and proper nouns like \"Austin Statesman\". I cross-referenced ambiguous letter formations against the other instances of that letter in the text. I was conscious of preserving the writer's style and intentions, even as I needed to correct for my own assumptions.\n\nI noticed a potential discrepancy regarding the date: the text mentions Christmas, which logically implies a date later in the year, or referring back to it. The penciled date of June 30th seemed out of sync, and I flagged it as a possible archival notation, focusing on providing a clean transcription of the pencil date as it appeared on the document. I tried to consider other options, like the letter *referring* back to Christmas.\n\nThroughout the process, I had to repeatedly review the allowed HTML elements. I decided to use *i* tags to convey emphasis on the word \"single man\" which was underlined in the original document. I knew that I was not able to use the <u> tag. Because the prompt provided strict guidelines on which tags to use, I had to adhere to the given list.\n\nI knew to use the `<p>` tag for paragraph breaks as instructed. The inclusion of marginalia in the instructions required me to take note of and transcribe the \u201c3\u201d in the upper right. I then structured the HTML to include the transcription itself, while being consistent throughout. I re-read the transcribed text several times, looking for any inconsistencies or areas that needed further refinement, and making sure all punctuation was accurate. Finally, after several rounds of refinement and double-checking, I generated the final HTML transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3740,
-            "width": 2341,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3740,
-                                "width": 2341,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>My family have all been sick<br/>\nwith fearful colds - bordering<br/>\non neumonia. All better now - in<br/>\nfact all up - Mrs H left this<br/>\nmorning for a visit of 2 or 3 weeks<br/>\nto seek recuperate her health at<br/>\nCleburne. Mrs Lambard & babies<br/>\nspent some 3 weeks with us &<br/>\nreturned to Cleburne this morning.<br/>\nI wish you could see our two<br/>\nlittle grand babies. I really<br/>\nthink their pranks & chattering<br/>\nsaved me a spell of neumonia.<br/>\nWhen Mrs H returns will you<br/>\nnot pay us that long<br/>\npromised visit? I think you<br/>\nought.<br/>\nWrite me a long letter soon<br/>\nI trust with a continuance of<br/>\nopen weather my cold will<br/>\ngive way & \"Richard may be<br/>\nhimself again\"</p>\n<p>Your friend<br/>\n[Signature] J. F. Hand</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's the transcription, as I see it, incorporating the thought process used:**\n\nOkay, here we go. My task is to transcribe this handwritten letter, line by line, preserving the original intent and layout as closely as possible. First, I need to analyze the handwriting. It's cursive, a bit quirky, but mostly legible. The structure seems straightforward: body paragraphs, a closing, and a signature. Now, let's look closer.\n\nMy family have all been sick\nwith fearful colds - bordering\non neumonia. All better now - in\nfact all up - Mrs H left this\nmorning for a visit of 2 or 3 weeks\nto seek recuperate her health at\nCleburne. Mrs Lambard & babies\nspent some 3 weeks with us &\nreturned to Cleburne this morning.\nI wish you could see our two\nlittle grand babies. I really\nthink their pranks & chattering\nsaved me a spell of neumonia.\nWhen Mrs H returns will you\nnot pay us that long\npromised visit? I think you\nought.\nWrite me a long letter soon\nI trust with a continuance of\nopen weather my cold will\ngive way & \"Richard may be\nhimself again\"\nYour friend\n[Signature] J. F. Hand\n\nNow, let's unpack this step-by-step. First, \"My family have all been sick\" is straightforward. Then \"with fearful colds - bordering.\" Again, clear. Next, \"on neumonia.\" Okay, interesting, the writer has spelled \"pneumonia\" phonetically. I need to keep that spelling. All better now - in fact all up - Mrs H left this morning for a visit of 2 or 3 weeks.\" Clear. Now, \"to help recuperate her health.\" The word before recuperate. It is unclear. I have to figure out what that word is. It looks like it could be \"seek,\" grammatically awkward though. The writer continues to Cleburne.\" Okay. \"Mrs Lambard & babies spent some 3 weeks with us &.\" That's easy enough. \"Returned to Cleburne this morning.\" Got it.\n\n\"I wish you could see our two little grand babies. I really think their.\" Okay, now we are on that mysterious word. I have to figure it out by looking at its letters and compare with other words. It could be pranks, presence, or manner, or noise. Let's look at the letters one by one. I am pretty confident with \"pranks.\" The letters fit best given handwriting and context, as they make sense for what babies do. Okay, let's go with \"pranks.\" And \"chattering\" is clear. \"Saved me a spell of neumonia.\" Clear. Again, the unusual spelling of \"pneumonia.\"\n\nNext, \"When Mrs H returns will you not pay us that long promised visit? I think you ought.\" Fine. \"Write me a long letter soon. I trust with a continuance of open weather my cold will give way & \"Richard may be himself again.\"\" The Richard part is a quote, so I'll keep the quotation marks. Okay, next. \"Your friend.\" That is the closing. And the signature, \"J. F. Hand\". That seems right. I will label the signature in the format requested.\n\nOkay, let me review to double-check. It's all there, accurately transcribed, and the original layout has been preserved as best as possible. The spelling and phrasing are exact. The punctuation is as in the original. I believe this transcription is accurate. I am ready to submit it now.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-54.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-06 (circa)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Education--Texas--History--19th century",
+          "College administration",
+          "Teacher resignations",
+          "School personnel",
+          "Educational policy--Texas",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. F."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Colonel J. (person mentioned)",
+          "Professor H. (person mentioned)",
+          "Mrs. H. (person mentioned)",
+          "Mrs. Lambard (person mentioned)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "J. F. Hand writes to Louis L. McInnis discussing the resignation of a college head (Colonel J.) and questioning whether Texas has adequate school administrators, while expressing sympathy for those seeking better employment opportunities. The letter also contains personal updates about Hand's family's recent illnesses, his wife's visit to Cleburne for recuperation, and an invitation for McInnis to visit. The correspondence reflects mid-19th century educational concerns in Texas and offers insight into professional and personal relationships among educators of the period."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3740,
+      "width": 2341,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3740,
+                "width": 2341,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p style=\"text-align: right;\">3</p>\n<p style=\"text-align: right;\">[1883, June 30]</p>\n\n<p>\nBy the by this reminds me of the fact<br/>\nthat your College is prospectively<br/>\nwithout a head. I know not the<br/>\ninspiration of Col J.'s resignation,<br/>\nbut I am not surprised at it.<br/>\nWere I a <i>single man</i> &ndash; as he is I<br/>\nwould forever abandon the school<br/>\nroom, for some employment which<br/>\npromises better remuneration for<br/>\ntoil & labor. Is or is not the cause<br/>\nof his resignation an open secret?<br/>\nAnd just at this point allow me<br/>\nto ask: Will your directors fall<br/>\ninto line & emphasize the dogma that<br/>\nwe have no school men in Texas?<br/>\nWhat is your opinion?<br/>\nTrust you had a pleasant visit to your<br/>\nold home. Christmas passed without<br/>\nincident to me &ndash; I failed to attend<br/>\nSupts. Association in Houston.<br/>\nWell enough perhaps &ndash; for the papers<br/>\nnotably Austin Statesman went through<br/>\nthem rather savagely. Prof H.<br/>\nwas there &ndash; as he is every where &ndash;<br/>\nthe man without a model &ndash;\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of My Transcription Process**\n\nOkay, here's what I've been thinking while transcribing this handwritten document. My primary goal, as always, is accuracy and adherence to the provided instructions. First, I carefully analyzed the image, noting the handwriting style (cursive, somewhat idiosyncratic), the presence of a \"3\" in the top right, and the penciled date of \"[1883, June 30]\". I immediately recognized this as a letter and realized the transcription task at hand.\n\nMy immediate task was to provide a transcription that is both accurate and reflects the intent of the original writer as closely as possible, using ONLY specified HTML tags. Initially, I noted the main areas to transcribe: header, the main body of the letter, and any details or specific marks. I began by reading the letter in its entirety to understand the context.\n\nI then went line by line, painstakingly transcribing each word and punctuation mark, paying close attention to any ambiguous letter formations. I wrestled with specific words, like \"secret\" (which appeared a little unclear in the handwriting), and double-checked common abbreviations like \"Supts.\" (Superintendents) and proper nouns like \"Austin Statesman\". I cross-referenced ambiguous letter formations against the other instances of that letter in the text. I was conscious of preserving the writer's style and intentions, even as I needed to correct for my own assumptions.\n\nI noticed a potential discrepancy regarding the date: the text mentions Christmas, which logically implies a date later in the year, or referring back to it. The penciled date of June 30th seemed out of sync, and I flagged it as a possible archival notation, focusing on providing a clean transcription of the pencil date as it appeared on the document. I tried to consider other options, like the letter *referring* back to Christmas.\n\nThroughout the process, I had to repeatedly review the allowed HTML elements. I decided to use *i* tags to convey emphasis on the word \"single man\" which was underlined in the original document. I knew that I was not able to use the <u> tag. Because the prompt provided strict guidelines on which tags to use, I had to adhere to the given list.\n\nI knew to use the `<p>` tag for paragraph breaks as instructed. The inclusion of marginalia in the instructions required me to take note of and transcribe the “3” in the upper right. I then structured the HTML to include the transcription itself, while being consistent throughout. I re-read the transcribed text several times, looking for any inconsistencies or areas that needed further refinement, and making sure all punctuation was accurate. Finally, after several rounds of refinement and double-checking, I generated the final HTML transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3740,
+      "width": 2341,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3740,
+                "width": 2341,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>My family have all been sick<br/>\nwith fearful colds - bordering<br/>\non neumonia. All better now - in<br/>\nfact all up - Mrs H left this<br/>\nmorning for a visit of 2 or 3 weeks<br/>\nto seek recuperate her health at<br/>\nCleburne. Mrs Lambard & babies<br/>\nspent some 3 weeks with us &<br/>\nreturned to Cleburne this morning.<br/>\nI wish you could see our two<br/>\nlittle grand babies. I really<br/>\nthink their pranks & chattering<br/>\nsaved me a spell of neumonia.<br/>\nWhen Mrs H returns will you<br/>\nnot pay us that long<br/>\npromised visit? I think you<br/>\nought.<br/>\nWrite me a long letter soon<br/>\nI trust with a continuance of<br/>\nopen weather my cold will<br/>\ngive way & \"Richard may be<br/>\nhimself again\"</p>\n<p>Your friend<br/>\n[Signature] J. F. Hand</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's the transcription, as I see it, incorporating the thought process used:**\n\nOkay, here we go. My task is to transcribe this handwritten letter, line by line, preserving the original intent and layout as closely as possible. First, I need to analyze the handwriting. It's cursive, a bit quirky, but mostly legible. The structure seems straightforward: body paragraphs, a closing, and a signature. Now, let's look closer.\n\nMy family have all been sick\nwith fearful colds - bordering\non neumonia. All better now - in\nfact all up - Mrs H left this\nmorning for a visit of 2 or 3 weeks\nto seek recuperate her health at\nCleburne. Mrs Lambard & babies\nspent some 3 weeks with us &\nreturned to Cleburne this morning.\nI wish you could see our two\nlittle grand babies. I really\nthink their pranks & chattering\nsaved me a spell of neumonia.\nWhen Mrs H returns will you\nnot pay us that long\npromised visit? I think you\nought.\nWrite me a long letter soon\nI trust with a continuance of\nopen weather my cold will\ngive way & \"Richard may be\nhimself again\"\nYour friend\n[Signature] J. F. Hand\n\nNow, let's unpack this step-by-step. First, \"My family have all been sick\" is straightforward. Then \"with fearful colds - bordering.\" Again, clear. Next, \"on neumonia.\" Okay, interesting, the writer has spelled \"pneumonia\" phonetically. I need to keep that spelling. All better now - in fact all up - Mrs H left this morning for a visit of 2 or 3 weeks.\" Clear. Now, \"to help recuperate her health.\" The word before recuperate. It is unclear. I have to figure out what that word is. It looks like it could be \"seek,\" grammatically awkward though. The writer continues to Cleburne.\" Okay. \"Mrs Lambard & babies spent some 3 weeks with us &.\" That's easy enough. \"Returned to Cleburne this morning.\" Got it.\n\n\"I wish you could see our two little grand babies. I really think their.\" Okay, now we are on that mysterious word. I have to figure it out by looking at its letters and compare with other words. It could be pranks, presence, or manner, or noise. Let's look at the letters one by one. I am pretty confident with \"pranks.\" The letters fit best given handwriting and context, as they make sense for what babies do. Okay, let's go with \"pranks.\" And \"chattering\" is clear. \"Saved me a spell of neumonia.\" Clear. Again, the unusual spelling of \"pneumonia.\"\n\nNext, \"When Mrs H returns will you not pay us that long promised visit? I think you ought.\" Fine. \"Write me a long letter soon. I trust with a continuance of open weather my cold will give way & \"Richard may be himself again.\"\" The Richard part is a quote, so I'll keep the quotation marks. Okay, next. \"Your friend.\" That is the closing. And the signature, \"J. F. Hand\". That seems right. I will label the signature in the format requested.\n\nOkay, let me review to double-check. It's all there, accurately transcribed, and the original layout has been preserved as best as possible. The spelling and phrasing are exact. The punctuation is as in the original. I believe this transcription is accurate. I am ready to submit it now.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

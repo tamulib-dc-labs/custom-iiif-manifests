@@ -1,281 +1,334 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-267.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, October 17, 1880"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1880-10-17"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, October 17, 1880"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 7 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/af08ebb9-e84b-3e4f-b6dd-1468d85d49cf/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3877,
-            "width": 3023,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/af08ebb9-e84b-3e4f-b6dd-1468d85d49cf/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3877,
-                                "width": 3023,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/af08ebb9-e84b-3e4f-b6dd-1468d85d49cf",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Brenham Texas.<br>\nOct 17 - 1880</p>\n\n<p>My Dear Professor</p>\n\n<p>Your letter came to \"hand\"<br>\nsome days since - Its perusal gave<br>\nus pleasure - I have not been well<br>\nfor ten days or more - though mechanically<br>\nI go through the routine - I suppose ere<br>\nthis you are Medias res - Well, we<br>\nstruggle into the world - find it full<br>\nof activities - struggle through it, & struggle<br>\nout of it - often solicitous about our<br>\nname & our fame - which pass away<br>\nwith our bodies - A few hasty spades<br>\nof earth are thrown over them - a few<br>\nsorrowing friends drop a warm sym-<br>\npathetic tear - then join the busy throng<br>\n& struggle on - in turn drop out & the<br>\nworld still moves on in its appointed<br>\nsphere - Two things at least seem to be<br>\ncertain - We will reach our end at<br>\nthe appointed time, & our sins will find us<br>\nout unless we are covered from the storm -</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription Process**\n\nOkay, here we go. First, I need to get the header: \"Brenham Texas,\" and the date, \"Oct 17 - 1880.\" Right, that\u2019s set. Now, the salutation, \"My Dear Professor.\" It\u2019s a formal letter. Next, to the body. \"Your letter came to 'hand'.\" Okay, the word \"hand\" is in quotes. Must be important. It says, \"some days since - Its perusal gave us pleasure - I have not been well for ten days or more - though mechanically I go through the routine - I suppose ere this you are Medias res - Well, we struggle into the world - find it full of activities - struggle through it, & struggle out of it - often solicitous about our name & our fame - which pass away with our bodies - A few hasty spades of earth are thrown over them - a few sorrowing friends drop a warm sym- pathetic tear - then join the busy throng & struggle on - in turn drop out & the world still moves on in its appointed sphere - Two things at least seem to be certain - We will reach our end at the appointed time, & our sins will find us out unless we are covered from the storm -\".\n\nThe handwriting is cursive, a bit faded. The writer seems to be reflecting on life, death, and the fleeting nature of fame, really. The Latin phrase \"Medias res\" stands out; the writer is clearly someone of learning. The letter conveys a certain weariness, but also a sense of acceptance. It's an interesting bit of history. I think I've got it, let's format it nicely.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3877,
-            "width": 3023,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/16",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b4ed7a9a-91bd-35dd-815e-b51994c4d81e/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3877,
-                                "width": 3023,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b4ed7a9a-91bd-35dd-815e-b51994c4d81e",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/26",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/25",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[1880, Oct 17]</p>\n<p>I see from the papers that Dixon is dead \u2013<br>\nHe had some good impulses \u2013 but lacked<br>\nmoral stamina to resist bad influences \u2013<br>\nWhatever good name or fame he may<br>\nhave achieved, I would not tarnish \u2013<br>\nHe has gone to his reward \u2013 he has<br>\n\"decapitated\" his last man \u2013 I trust ere<br>\nhis summons came he saw his oppression<br>\nhis sin against innocent men \u2013 & obtained<br>\npardon \u2013 Had it been the <i>head</i> instead<br>\nof the tail of the kite, it were better \u2013<br>\nReason philosophy & common sense teach<br>\nus to look well to our own orderings &<br>\nto the things that are <i>before</i> us \u2013 but<br>\nyou know how deeply I feel an<br>\ninjury done me \u2013 I forbear \u2013<br>\nYou see from the papers that Clopper<br>\nof Houston died suddenly a few days ago<br>\nThe <i>irrepressible</i> Alex. H. is making<br>\napplication for the vacancy \u2013 has in<br>\nperson made an exhaustive canvass<br>\nof the city \u2013 Would not be surprised<br>\nif he be successful</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/27",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Thought Summary for Transcription**\n\nOkay, here's how I'm going to approach this transcription. First, I need to understand the assignment. I'm a transcriptionist, and my task is to accurately reproduce the text from the image, following specific guidelines. I need to maintain the original spelling and punctuation, even if it's unusual, and preserve the line breaks. I'm also expected to deal with the handwriting, using \"[?]\" for anything I'm uncertain about. The client has specified *very* strict HTML tags - only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` are allowed.\n\nNow, I'll start with a scan of the image. It's a handwritten letter on lined paper. The handwriting is cursive and somewhat rushed, but mostly legible. There's a date in brackets at the top right, probably added later. The content appears to be about someone named \"Dixon\" who has died, some moral reflections, and news about someone named \"Clopper\" and \"Alex H.\"\n\nI'll proceed line by line. The date, which is \"[1880, Oct 17]\", seems like a pencil addition. I need to remember the HTML restriction for this.\n\n*   **Line 1:** \"I see from the papers that Dixon is dead \u2013\" - seems clear.\n*   **Line 2:** \"He had some good impulses \u2013 but lacked\" - also clear.\n*   **Line 3:** \"moral stamina to resist bad influences \u2013\" - clear.\n*   **Line 4:** \"Whatever good name or fame he may\"\n*   **Line 5:** \"have achieved, I would not tarnish \u2013\"\n*   **Line 6:** \"He has gone to his reward \u2013 he has\"\n*   **Line 7:** \"\\\"decapitated\\\" his last man \u2013 I trust ere\" - the quotes are part of the original, \"ere\" means \"before.\"\n*   **Line 8:** \"his summons came he saw his oppression\"\n*   **Line 9:** \"his sin against innocent men \u2013 & obtained\" - the ampersand is as written.\n*   **Line 10:** \"pardon \u2013 Had it been the <u>head</u> instead\" - emphasis. I have to use `<i>` for emphasis because `<u>` is forbidden.\n*   **Line 11:** \"of the tail of the kite, it were better \u2013\"\n*   **Line 12:** \"Reason philosophy & common sense teach\"\n*   **Line 13:** \"us to look well to our own orderings &\" - the ampersand is as written.\n*   **Line 14:** \"to the things that are <u>before</u> us \u2013 but\" - also emphasis, so this gets `<i>` as well.\n*   **Line 15:** \"you know how deeply I feel an\"\n*   **Line 16:** \"injury done me \u2013 I forbear \u2013\"\n*   **Line 17:** \"You see from the papers that Clopper\" - I think it is \"Clopper\". This seems to make the most sense in context.\n*   **Line 18:** \"of Houston died suddenly a few days ago\" - It looks like the end word might be slightly unclear, but \"ago\" seems the most likely.\n*   **Line 19:** \"The <u>irrepressible</u> Alex. H. is making\" - Definitely emphasis on \"irrepressible\". It could be \"Alex, H.\" or \"Alex. H.\", but the period is more likely.\n*   **Line 20:** \"application for the vacancy \u2013 has in\"\n*   **Line 21:** \"person made an exhaustive canvass\" - \"canvass\" not \"canvas\".\n*   **Line 22:** \"of the city \u2013 Would not be surprised\"\n*   **Line 23:** \"if he be successful\"\n\nI need to apply the HTML formatting now. I should use `<p>` for the date. It is the only way to adhere to strict formatting. The instructions explicitly disallow `align`.\n\nI must use `<br>` to preserve the original line breaks.\n\nNow, I have to re-read and double-check, looking for potential errors. Everything seems accurate, and I have addressed all guidelines.\n\nI will now build the final output. The main body of text will be in a single paragraph, with `<br>` tags to represent the line breaks.\n\nReady to submit.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3877,
-            "width": 3023,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/18",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/17",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e98a563d-528e-3fae-9dd3-143e2de570a6/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3877,
-                                "width": 3023,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e98a563d-528e-3fae-9dd3-143e2de570a6",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/29",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/28",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[1880, Oct 17]</p>\n\n<p>Tommie Enckright has been here for<br>\n10 or 12 days \u2013 looking for a place \u2013<br>\nI have done what I can to get him<br>\na place \u2013 but Brenham has many<br>\nmore applicants than places \u2013<br>\nI fear Tom left home in a mad fit \u2013<br>\nLet me know how the A &amp; M C. is doing \u2013<br>\nWhat is your enrollment &amp; what is the<br>\nnumber in the Dept. by sufferance,<br>\nof Anct Languages? How is the <i>industrial</i><br>\nfeature likely to develop?<br>\nI feel rather gloomy over affairs<br>\nin Louisiana \u2013 My work is pleasant<br>\nhere in many respects \u2013 Still, I am<br>\ninclined to prepare for an emergency \u2013<br>\nwhich may present itself at some time \u2013<br>\nCan you send me those MSS you have<br>\non Eng. Literature? I will return<br>\nthem after examination \u2013<br>\nAll in usual health except myself \u2013<br>\nPardon my delay &amp; do not likewise<br>\nOur friend Moore is quite well \u2013</p>\n\n<p>[Signature] Your friend J. T. Hand</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/30",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the transcription. I've taken a good, long look at the image and the handwriting. My primary goal, as always, is to provide the most accurate representation of what's on the page. I've broken it down into a clear, formatted text.\n\n<p>[Header] [1880, Oct 17]</p>\n\n<p>\nTommie Enckright has been here for<br>\n10 or 12 days \u2013 looking for a place \u2013<br>\nI have done what I can to get him<br>\na place \u2013 but Brenham has many<br>\nmore applicants than places \u2013<br>\nI fear Tom left home in a mad fit \u2013<br>\nLet me know how the A & M C. is doing \u2013<br>\nWhat is your enrollment & what is the<br>\nnumber in the Dept. by sufferance,<br>\nof Anct Languages? How is the <i>industrial</i><br>\nfeature likely to develop?<br>\nI feel rather gloomy over affairs<br>\nin Louisiana \u2013 My work is pleasant<br>\nhere in many respects \u2013 Still, I am<br>\ninclined to prepare for an emergency \u2013<br>\nwhich may present itself at some time \u2013<br>\nCan you send me those MSS you have<br>\non Eng. Literature? I will return<br>\nthem after examination \u2013<br>\nAll in usual health except myself \u2013<br>\nPardon my delay & do not likewise<br>\nOur friend Moore is quite well \u2013\n</p>\n<p>[Signature] Your friend J. T. Hand</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-267.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, October 17, 1880"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1880-10-17"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, October 17, 1880"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 7 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "Education--Texas",
+          "Agricultural and Mechanical College of Texas",
+          "Ancient languages--Study and teaching",
+          "English literature--Manuscripts",
+          "Death notices",
+          "Philosophy--19th century",
+          "Personal correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Dixon",
+          "Clopper",
+          "Alex. H.",
+          "Tommie Enckright",
+          "Moore"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "In this letter dated October 17, 1880, J. T. Hand writes to Professor Louis L. McInnis from Brenham, Texas, sharing philosophical reflections on mortality and human achievement. Hand discusses the recent deaths of Dixon and Clopper, comments on the application of Alex H. for a vacancy in Houston, inquires about Tommie Enckright's employment prospects, and requests information about enrollment and programs at the Agricultural and Mechanical College of Texas, including the status of the Ancient Languages department and manuscript materials on English literature."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/af08ebb9-e84b-3e4f-b6dd-1468d85d49cf/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3877,
+      "width": 3023,
+      "items": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/af08ebb9-e84b-3e4f-b6dd-1468d85d49cf/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3877,
+                "width": 3023,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/af08ebb9-e84b-3e4f-b6dd-1468d85d49cf",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Brenham Texas.<br>\nOct 17 - 1880</p>\n\n<p>My Dear Professor</p>\n\n<p>Your letter came to \"hand\"<br>\nsome days since - Its perusal gave<br>\nus pleasure - I have not been well<br>\nfor ten days or more - though mechanically<br>\nI go through the routine - I suppose ere<br>\nthis you are Medias res - Well, we<br>\nstruggle into the world - find it full<br>\nof activities - struggle through it, & struggle<br>\nout of it - often solicitous about our<br>\nname & our fame - which pass away<br>\nwith our bodies - A few hasty spades<br>\nof earth are thrown over them - a few<br>\nsorrowing friends drop a warm sym-<br>\npathetic tear - then join the busy throng<br>\n& struggle on - in turn drop out & the<br>\nworld still moves on in its appointed<br>\nsphere - Two things at least seem to be<br>\ncertain - We will reach our end at<br>\nthe appointed time, & our sins will find us<br>\nout unless we are covered from the storm -</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription Process**\n\nOkay, here we go. First, I need to get the header: \"Brenham Texas,\" and the date, \"Oct 17 - 1880.\" Right, that’s set. Now, the salutation, \"My Dear Professor.\" It’s a formal letter. Next, to the body. \"Your letter came to 'hand'.\" Okay, the word \"hand\" is in quotes. Must be important. It says, \"some days since - Its perusal gave us pleasure - I have not been well for ten days or more - though mechanically I go through the routine - I suppose ere this you are Medias res - Well, we struggle into the world - find it full of activities - struggle through it, & struggle out of it - often solicitous about our name & our fame - which pass away with our bodies - A few hasty spades of earth are thrown over them - a few sorrowing friends drop a warm sym- pathetic tear - then join the busy throng & struggle on - in turn drop out & the world still moves on in its appointed sphere - Two things at least seem to be certain - We will reach our end at the appointed time, & our sins will find us out unless we are covered from the storm -\".\n\nThe handwriting is cursive, a bit faded. The writer seems to be reflecting on life, death, and the fleeting nature of fame, really. The Latin phrase \"Medias res\" stands out; the writer is clearly someone of learning. The letter conveys a certain weariness, but also a sense of acceptance. It's an interesting bit of history. I think I've got it, let's format it nicely.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3877,
+      "width": 3023,
+      "items": [
+        {
+          "id": "http://example.org/iiif/16",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b4ed7a9a-91bd-35dd-815e-b51994c4d81e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3877,
+                "width": 3023,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b4ed7a9a-91bd-35dd-815e-b51994c4d81e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/26",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[1880, Oct 17]</p>\n<p>I see from the papers that Dixon is dead –<br>\nHe had some good impulses – but lacked<br>\nmoral stamina to resist bad influences –<br>\nWhatever good name or fame he may<br>\nhave achieved, I would not tarnish –<br>\nHe has gone to his reward – he has<br>\n\"decapitated\" his last man – I trust ere<br>\nhis summons came he saw his oppression<br>\nhis sin against innocent men – & obtained<br>\npardon – Had it been the <i>head</i> instead<br>\nof the tail of the kite, it were better –<br>\nReason philosophy & common sense teach<br>\nus to look well to our own orderings &<br>\nto the things that are <i>before</i> us – but<br>\nyou know how deeply I feel an<br>\ninjury done me – I forbear –<br>\nYou see from the papers that Clopper<br>\nof Houston died suddenly a few days ago<br>\nThe <i>irrepressible</i> Alex. H. is making<br>\napplication for the vacancy – has in<br>\nperson made an exhaustive canvass<br>\nof the city – Would not be surprised<br>\nif he be successful</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/27",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Thought Summary for Transcription**\n\nOkay, here's how I'm going to approach this transcription. First, I need to understand the assignment. I'm a transcriptionist, and my task is to accurately reproduce the text from the image, following specific guidelines. I need to maintain the original spelling and punctuation, even if it's unusual, and preserve the line breaks. I'm also expected to deal with the handwriting, using \"[?]\" for anything I'm uncertain about. The client has specified *very* strict HTML tags - only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` are allowed.\n\nNow, I'll start with a scan of the image. It's a handwritten letter on lined paper. The handwriting is cursive and somewhat rushed, but mostly legible. There's a date in brackets at the top right, probably added later. The content appears to be about someone named \"Dixon\" who has died, some moral reflections, and news about someone named \"Clopper\" and \"Alex H.\"\n\nI'll proceed line by line. The date, which is \"[1880, Oct 17]\", seems like a pencil addition. I need to remember the HTML restriction for this.\n\n*   **Line 1:** \"I see from the papers that Dixon is dead –\" - seems clear.\n*   **Line 2:** \"He had some good impulses – but lacked\" - also clear.\n*   **Line 3:** \"moral stamina to resist bad influences –\" - clear.\n*   **Line 4:** \"Whatever good name or fame he may\"\n*   **Line 5:** \"have achieved, I would not tarnish –\"\n*   **Line 6:** \"He has gone to his reward – he has\"\n*   **Line 7:** \"\\\"decapitated\\\" his last man – I trust ere\" - the quotes are part of the original, \"ere\" means \"before.\"\n*   **Line 8:** \"his summons came he saw his oppression\"\n*   **Line 9:** \"his sin against innocent men – & obtained\" - the ampersand is as written.\n*   **Line 10:** \"pardon – Had it been the <u>head</u> instead\" - emphasis. I have to use `<i>` for emphasis because `<u>` is forbidden.\n*   **Line 11:** \"of the tail of the kite, it were better –\"\n*   **Line 12:** \"Reason philosophy & common sense teach\"\n*   **Line 13:** \"us to look well to our own orderings &\" - the ampersand is as written.\n*   **Line 14:** \"to the things that are <u>before</u> us – but\" - also emphasis, so this gets `<i>` as well.\n*   **Line 15:** \"you know how deeply I feel an\"\n*   **Line 16:** \"injury done me – I forbear –\"\n*   **Line 17:** \"You see from the papers that Clopper\" - I think it is \"Clopper\". This seems to make the most sense in context.\n*   **Line 18:** \"of Houston died suddenly a few days ago\" - It looks like the end word might be slightly unclear, but \"ago\" seems the most likely.\n*   **Line 19:** \"The <u>irrepressible</u> Alex. H. is making\" - Definitely emphasis on \"irrepressible\". It could be \"Alex, H.\" or \"Alex. H.\", but the period is more likely.\n*   **Line 20:** \"application for the vacancy – has in\"\n*   **Line 21:** \"person made an exhaustive canvass\" - \"canvass\" not \"canvas\".\n*   **Line 22:** \"of the city – Would not be surprised\"\n*   **Line 23:** \"if he be successful\"\n\nI need to apply the HTML formatting now. I should use `<p>` for the date. It is the only way to adhere to strict formatting. The instructions explicitly disallow `align`.\n\nI must use `<br>` to preserve the original line breaks.\n\nNow, I have to re-read and double-check, looking for potential errors. Everything seems accurate, and I have addressed all guidelines.\n\nI will now build the final output. The main body of text will be in a single paragraph, with `<br>` tags to represent the line breaks.\n\nReady to submit.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3877,
+      "width": 3023,
+      "items": [
+        {
+          "id": "http://example.org/iiif/18",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/17",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e98a563d-528e-3fae-9dd3-143e2de570a6/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3877,
+                "width": 3023,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e98a563d-528e-3fae-9dd3-143e2de570a6",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/29",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[1880, Oct 17]</p>\n\n<p>Tommie Enckright has been here for<br>\n10 or 12 days – looking for a place –<br>\nI have done what I can to get him<br>\na place – but Brenham has many<br>\nmore applicants than places –<br>\nI fear Tom left home in a mad fit –<br>\nLet me know how the A &amp; M C. is doing –<br>\nWhat is your enrollment &amp; what is the<br>\nnumber in the Dept. by sufferance,<br>\nof Anct Languages? How is the <i>industrial</i><br>\nfeature likely to develop?<br>\nI feel rather gloomy over affairs<br>\nin Louisiana – My work is pleasant<br>\nhere in many respects – Still, I am<br>\ninclined to prepare for an emergency –<br>\nwhich may present itself at some time –<br>\nCan you send me those MSS you have<br>\non Eng. Literature? I will return<br>\nthem after examination –<br>\nAll in usual health except myself –<br>\nPardon my delay &amp; do not likewise<br>\nOur friend Moore is quite well –</p>\n\n<p>[Signature] Your friend J. T. Hand</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/30",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the transcription. I've taken a good, long look at the image and the handwriting. My primary goal, as always, is to provide the most accurate representation of what's on the page. I've broken it down into a clear, formatted text.\n\n<p>[Header] [1880, Oct 17]</p>\n\n<p>\nTommie Enckright has been here for<br>\n10 or 12 days – looking for a place –<br>\nI have done what I can to get him<br>\na place – but Brenham has many<br>\nmore applicants than places –<br>\nI fear Tom left home in a mad fit –<br>\nLet me know how the A & M C. is doing –<br>\nWhat is your enrollment & what is the<br>\nnumber in the Dept. by sufferance,<br>\nof Anct Languages? How is the <i>industrial</i><br>\nfeature likely to develop?<br>\nI feel rather gloomy over affairs<br>\nin Louisiana – My work is pleasant<br>\nhere in many respects – Still, I am<br>\ninclined to prepare for an emergency –<br>\nwhich may present itself at some time –<br>\nCan you send me those MSS you have<br>\non Eng. Literature? I will return<br>\nthem after examination –<br>\nAll in usual health except myself –<br>\nPardon my delay & do not likewise<br>\nOur friend Moore is quite well –\n</p>\n<p>[Signature] Your friend J. T. Hand</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/267/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

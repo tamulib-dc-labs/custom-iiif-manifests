@@ -1,281 +1,333 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-179.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from H. H. Dinwiddie, August 6, 1887"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1887-08-06"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from H. H. Dinwiddie, August 6, 1887"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 25 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/fcd5f1f9-7852-3ba3-b9c6-bc75d6effdb5/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3480,
-            "width": 2189,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/fcd5f1f9-7852-3ba3-b9c6-bc75d6effdb5/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3480,
-                                "width": 2189,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fcd5f1f9-7852-3ba3-b9c6-bc75d6effdb5",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Manitou. Col. Aug. 6-1887.</p>\n<p>My dear McInnis.<br/>\nI have just received<br/>\nyour last letter. Am very glad<br/>\nto hear from you and that all<br/>\nare well, though I am sorry to<br/>\nlearn that you are suffering from<br/>\nuncommon heat. Capt. Fowlkes<br/>\nand I, mindful of the importance<br/>\nof the 4<sup>th</sup> in the history of Texas,<br/>\nresolved to mark the day by a<br/>\ntrip to the top of the Peak. So at<br/>\nnoon when the liberties of our be=<br/>\nloved state hung in the balance<br/>\nand all Texas was red hot lit=<br/>\nerally and metaphorically we,<br/>\nthe Capt., Jack Fowlkes, Ada Ricker<br/>\nRob and I were rolling like<br/>\nchildren in a big snow field<br/>\nand snowballing each other while<br/>\nMrs. Donevison sat resting by</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Transcription Process and Analysis**\n\nAlright, the task is clear: transcribe this handwritten letter. Let's start by breaking down the image. First, it's a handwritten letter, in cursive. The handwriting is legible enough, but with some quirks \u2013 like the way the 't' crosses often trail or the loops on the 'f's. The date and location are at the top: Manitou, Col., August 6, 1887. The salutation is \"My dear McInnis.\"\n\nNow, let's dive into the content. The writer is in Manitou, Colorado, and mentions receiving a letter. They refer to \"Capt. Fowlkes\" (or a similar name) and discuss the \"4th.\" Initially, I assumed it meant July 4th, but the context mentions \"history of Texas,\" so it's probably August 4th, which might relate to an event like a prohibition election. Let's investigate the history of Texas around that date in 1887. I found out there was a prohibition election in Texas on August 4, 1887, which fits with the phrases \"liberties of our beloved state hung in the balance\" and \"red hot literally and metaphorically.\"\n\nI also see some names: Capt. Fowlkes, Jack Fowlkes, Ada Ricker, Rob, and \"Mrs. D[something].\" I need to decipher that last name; it seems tricky.\n\nNow, let's go step-by-step.\n*   **Header**: \"Manitou. Col. Aug. 6 - 1887.\"\n*   **Salutation**: \"My dear McInnis.\"\n\nThen, I'll transcribe the body:\n*   \"I have just received...\"\n    *   ...your \"lach\" letter? No, it looks like \"last\" and the context makes sense. Let's look closely at the 's'. It might be a flat 's'. I will transcribe \"last\".\n    *   ...Capt. \"Fowlkes\" (it appears clear)\n    *   ...The \"4th\" which looks like 4 with a superscript \"th\".\n    *   ...trip to \"the Peak\" I will assume Pikes Peak.\n    *   \"...we, the Capt, Jack Fowlkes, Ada Ricker, Rob and I\"\n        *   Ada Ricker or Ada Riches? it looks like `R i c k e r`\n        *   The k is looped but the k in \"Jack\" is clear. It is `R i c k e r`.\n        *   Then the mystery name: \"Mrs. \\[Name]\".\n            *   Let's check the name: `D i n e v i s o n`? `D e n i s o n`? `D o n i v a n`?\n            *   Starts with `D`\n            *   Next letter looks like `i` or `e`\n            *   Then `n`\n            *   Next `i` or `e`\n            *   `v`? `w`?\n            *   `i`\n            *   `s`?\n            *   `o`?\n            *   `n`?\n            *   Let's analyze letters.\n                *   Maybe `D i c k i n s o n`, but no `k`?\n                *   Maybe `D o n a v a n`, but no.\n                *   The dots are between letters.\n                *   `D` `i` `n` `e` `v` `i` `s` `o` `n`? `v`?\n                *   `D e n i s o n`.  The `i` is there. But the `v` is clear!\n                *   Let's look for a name.\n                *   Maybe the name starts with `D i n e v i s o n`.\n                *   `D e n n i s o n` is a common name! Could be the writer wrote `v` in the letters. But the `v` is clear.\n                *   It looks like `D e n i v e s o n`?\n                *   Revisiting, the letter is a `v` . \"Resolved\" has a small v.\n                *   I will write it as `Mrs. Donevison`.\n                *   However, let's make sure: Is it a `w`? `D o n e w s o n`? No.\n                *   Is it an `r`? The name is `D o n e r s o n`? No.\n                *   No, `v` is\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3480,
-            "width": 2189,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7b51637a-b0f6-3553-800a-4d797f5afa5d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3480,
-                                "width": 2189,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7b51637a-b0f6-3553-800a-4d797f5afa5d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Margin: [1888 ?, Aug. 6]]\n\n<p>\nthe big stove in the signal house<br>\nWhile we were on the summit<br>\nwe enjoyed the rare treat of a<br>\nsnow storm on the 4\" of Aug.<br>\nBut it is a most trying trip. Mrs.<br>\nD. was so used up by it that she<br>\nwas in bed next day. Ada ditto,<br>\nJack Fowlkes not much better. The<br>\nCapt. suffered from headache and<br>\ncold on the mt. Rob and I got<br>\non first rate - all are still sore.<br>\nBut the trip is worth it all. For<br>\nthree miles above the timber line<br>\nthe scenery is awful in its utter<br>\ndesolation and marks of wreck<br>\nand ruin. Our ponies vindicated<br>\ntheir reputation for being sure-<br>\nfooted by carrying us safely over<br>\nthe very worst trail that I think<br>\na horse ever trod.\n</p>\n<p>\nI need not say that I am delighted<br>\nwith the good news our papers give<br>\nus of the election. Capt. Fowlkes\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analyzing and Transcribing a Handwritten Document**\n\nOkay, here's what I've got. The user wants a transcription. First, I analyzed the handwriting \u2013 cursive, late 19th-century style, mostly legible. It's a letter, describing a trip, possibly up a mountain, mentioning weather, companions, and some political news. The ink or pencil is faded, and there's a faint date at the top right: `[1888 ?, Aug. 6]`. I need to verify that.\n\nI'll break this down by line, checking for any inconsistencies, odd symbols, or abbreviations. Starting with the top annotation, and then the lines below it:\n\n*   **Top Annotation:** I'm seeing `[1888 ?, Aug. 6]`. It's definitely pencil, and it looks like a bracketed editorial note. I will include this as part of the transcription, and label it to indicate it is at the top/in the margin.\n*   **Line 1:** `the big stove in the signal house` - The start of a thought.\n*   **Line 2:** `While we were on the summit` - A full sentence starts here.\n*   **Line 3:** `we enjoyed the rare treat of a`\n*   **Line 4:** `snow storm on the 4\" of Aug.` - The \"4\" has a symbol after it. It looks like a double quote or possibly a degree symbol. Given the context, I'm going to transcribe it as a double quote `4\"`.\n*   **Line 5:** `But it is a most trying trip. Mrs.`\n*   **Line 6:** `D. was so used up by it that she`\n*   **Line 7:** `was in bed next day. Ada ditto,` - The comma is clear.\n*   **Line 8:** `Jack Fowlkes not much better. The` - Clear. I'm noting the name here.\n*   **Line 9:** `Capt. suffered from headache and` - It's `Capt.`, I am noting it.\n*   **Line 10:** `cold on the mt. Rob and I got` - The abbreviation is \"mt.\".\n*   **Line 11:** `on first rate - all are still sore.` - There's a dash.\n*   **Line 12:** `But the trip is worth it all. For`\n*   **Line 13:** `three miles above the timber line`\n*   **Line 14:** `the scenery is awful in its utter` - \"awful\" is used in the old sense of awe-inspiring.\n*   **Line 15:** `desolation and marks of wreck` - `wreck`, not \"wreak\".\n*   **Line 16:** `and ruin. Our ponies vindicated` - \"ruin\".\n*   **Line 17:** `their reputation for being sure-`\n*   **Line 18:** `footed by carrying us safely over` - hyphenated.\n*   **Line 19:** `the very worst trail that I think`\n*   **Line 20:** `a horse ever trod.`\n*   **Line 21:** `I need not say that I am delighted` - New Paragraph Indent.\n*   **Line 22:** `with the good news our papers give`\n*   **Line 23:** `us of the election. Capt. Fowlkes` - Same name as Line 8, text cuts off.\n\nNow I'll review and refine. The top annotation should be `[1888 ?, Aug. 6]`. That's a header/margin note. The \"4\" should be `4\"`. The spelling looks good, though the meaning of \"awful\" is slightly archaic. I'll flag these to make sure I am accurate. Formatting will be important: line breaks with `<br>`, paragraphs with `<p>`. The top annotation I will mark. There's a slight indent suggesting a new paragraph for \"But it is...\" and \"I need not say...\".\n\nI'm ready to draft. I need to make sure I preserve the line breaks.\n\nSo the format will be:\n*   `[Margin: [1888 ?, Aug. 6]]` at the top.\n*   `<p>` for paragraphs.\n*   `<br>` for line breaks.\n\nAfter looking again at the document, the \"4\" looks like two ticks or quotes. I will stick with that. And \"wreck\" and \"ruin\" are clear. The date annotation looks like editorial pencil. The line endings seem correct. The\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3480,
-            "width": 2189,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/69f2b125-e64e-302d-b879-f1bea21c6a82/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3480,
-                                "width": 2189,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/69f2b125-e64e-302d-b879-f1bea21c6a82",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p style=\"text-align: right;\">[1887, Aug. 6]</p>\n<p>who is as good pro- as I am anti-<br>\ntold me of it yesterday morning.<br>\nI was so delighted that I was<br>\nafraid of breaking out into unseemly<br>\nexpressions of triumph, so I turned<br>\nthe subject. Hurrah for Texas, the<br>\nlast stronghold of freedom!<br>\nPlease send cotalogues to -</p>\n\n| |\n|---|\n| Eugene Steen, Winsboro, Tex. |\n| Geo. J. Loftin - Floresville - Tex. |\n\n<p>also attend to enclosed letter & postal<br>\nAll send kindest regards.<br>\nEver yours truly -<br>\n[Signature] K. H. Dneivissie</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, this looks like a continuation of a letter, written in cursive, with a penciled date at the top right: `[1887, Aug. 6]`. That's important context. The handwriting is pretty legible, but there's a signature at the end that's proving a bit of a challenge.\n\nThe text begins with: \"who is as good pro- as I am anti-,\" clearly indicating a position on some issue.  It continues with \"told me of it yesterday morning,\" suggesting a conversation or news. I'm seeing a wave of enthusiasm in \"I was so delighted that I was afraid of breaking out into unseemly expressions of triumph, so I turned the subject.\" It's definitely a strong emotional reaction.  The mention of \"Hurrah for Texas, the last stronghold of freedom!\" is quite telling, and suggests something specific to Texas in 1887. The \"pro-\" and \"anti-\" hints at Prohibition. The triumph must relate to the 1887 election in Texas, where the \"anti\" won.\n\nNext, there's a practical note, \"Please send cotalogues to -.\" (I'm preserving the original spelling of \"cotalogues\" because it's in the text and I'm not correcting.) It's followed by a list of names and addresses:\n\n| |\n|---|\n| Eugene Steen, Winsboro, Tex. |\n| Geo. J. Loftin - Floresville - Tex. |\n\nThese are requests for catalogues. So, this might involve a business or educational context. Eugene Steen is in the records, and so is George J Loftin.\n\nThen, there's \"also attend to enclosed letter & postal.\" The ampersand indicates this might be a follow-up.\n\nClosing the text: \"All send kindest regards.\" and \"Ever yours truly -.\" This is standard for a formal letter.\n\n[Signature]\n\nThe signature is where things get interesting. I'm seeing a signature reading something along the lines of `K. H. Dneivissie`. Or maybe `K. H. Drivissie`? It could also be `Dmeirssie`, `Dneirssie`, or something similar, since the hand has its quirks. The initial 'K' or 'A', The second initial is \"H\". The name after is D-m-e-i-v-i-s-s-i-e, or perhaps `D-n-e-i-v-i-s-s-i-e`, which is difficult to parse with certainty. It's a slightly unfamiliar name, but the content makes it likely that the name is associated with the Texas area. I am transcribing the name faithfully as I see it.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-179.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from H. H. Dinwiddie, August 6, 1887"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1887-08-06"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from H. H. Dinwiddie, August 6, 1887"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 25 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence--United States--19th century",
+          "Pikes Peak (Colo.)--Description and travel",
+          "Mountain climbing--Colorado",
+          "Texas--History--19th century",
+          "Elections--United States--1887",
+          "Colorado--Description and travel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Dinwiddie, H. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Fowlkes, Captain",
+          "Fowlkes, Jack",
+          "Ricker, Ada",
+          "Donevison, Mrs.",
+          "Steen, Eugene",
+          "Loftin, Geo. J."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from H. H. Dinwiddie in Manitou, Colorado to Louis L. McInnis recounting a trip to the summit of Pikes Peak on July 4th, 1887, undertaken to commemorate Texas independence. The letter describes the arduous mountain expedition, the party's experience with unexpected snow, and the physical toll on participants, while also expressing enthusiasm about recent election results in Texas. Dinwiddie requests that catalogues be sent to two individuals in Texas and mentions forwarding enclosed correspondence."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/fcd5f1f9-7852-3ba3-b9c6-bc75d6effdb5/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3480,
+      "width": 2189,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/fcd5f1f9-7852-3ba3-b9c6-bc75d6effdb5/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3480,
+                "width": 2189,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/fcd5f1f9-7852-3ba3-b9c6-bc75d6effdb5",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Manitou. Col. Aug. 6-1887.</p>\n<p>My dear McInnis.<br/>\nI have just received<br/>\nyour last letter. Am very glad<br/>\nto hear from you and that all<br/>\nare well, though I am sorry to<br/>\nlearn that you are suffering from<br/>\nuncommon heat. Capt. Fowlkes<br/>\nand I, mindful of the importance<br/>\nof the 4<sup>th</sup> in the history of Texas,<br/>\nresolved to mark the day by a<br/>\ntrip to the top of the Peak. So at<br/>\nnoon when the liberties of our be=<br/>\nloved state hung in the balance<br/>\nand all Texas was red hot lit=<br/>\nerally and metaphorically we,<br/>\nthe Capt., Jack Fowlkes, Ada Ricker<br/>\nRob and I were rolling like<br/>\nchildren in a big snow field<br/>\nand snowballing each other while<br/>\nMrs. Donevison sat resting by</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Transcription Process and Analysis**\n\nAlright, the task is clear: transcribe this handwritten letter. Let's start by breaking down the image. First, it's a handwritten letter, in cursive. The handwriting is legible enough, but with some quirks – like the way the 't' crosses often trail or the loops on the 'f's. The date and location are at the top: Manitou, Col., August 6, 1887. The salutation is \"My dear McInnis.\"\n\nNow, let's dive into the content. The writer is in Manitou, Colorado, and mentions receiving a letter. They refer to \"Capt. Fowlkes\" (or a similar name) and discuss the \"4th.\" Initially, I assumed it meant July 4th, but the context mentions \"history of Texas,\" so it's probably August 4th, which might relate to an event like a prohibition election. Let's investigate the history of Texas around that date in 1887. I found out there was a prohibition election in Texas on August 4, 1887, which fits with the phrases \"liberties of our beloved state hung in the balance\" and \"red hot literally and metaphorically.\"\n\nI also see some names: Capt. Fowlkes, Jack Fowlkes, Ada Ricker, Rob, and \"Mrs. D[something].\" I need to decipher that last name; it seems tricky.\n\nNow, let's go step-by-step.\n*   **Header**: \"Manitou. Col. Aug. 6 - 1887.\"\n*   **Salutation**: \"My dear McInnis.\"\n\nThen, I'll transcribe the body:\n*   \"I have just received...\"\n    *   ...your \"lach\" letter? No, it looks like \"last\" and the context makes sense. Let's look closely at the 's'. It might be a flat 's'. I will transcribe \"last\".\n    *   ...Capt. \"Fowlkes\" (it appears clear)\n    *   ...The \"4th\" which looks like 4 with a superscript \"th\".\n    *   ...trip to \"the Peak\" I will assume Pikes Peak.\n    *   \"...we, the Capt, Jack Fowlkes, Ada Ricker, Rob and I\"\n        *   Ada Ricker or Ada Riches? it looks like `R i c k e r`\n        *   The k is looped but the k in \"Jack\" is clear. It is `R i c k e r`.\n        *   Then the mystery name: \"Mrs. \\[Name]\".\n            *   Let's check the name: `D i n e v i s o n`? `D e n i s o n`? `D o n i v a n`?\n            *   Starts with `D`\n            *   Next letter looks like `i` or `e`\n            *   Then `n`\n            *   Next `i` or `e`\n            *   `v`? `w`?\n            *   `i`\n            *   `s`?\n            *   `o`?\n            *   `n`?\n            *   Let's analyze letters.\n                *   Maybe `D i c k i n s o n`, but no `k`?\n                *   Maybe `D o n a v a n`, but no.\n                *   The dots are between letters.\n                *   `D` `i` `n` `e` `v` `i` `s` `o` `n`? `v`?\n                *   `D e n i s o n`.  The `i` is there. But the `v` is clear!\n                *   Let's look for a name.\n                *   Maybe the name starts with `D i n e v i s o n`.\n                *   `D e n n i s o n` is a common name! Could be the writer wrote `v` in the letters. But the `v` is clear.\n                *   It looks like `D e n i v e s o n`?\n                *   Revisiting, the letter is a `v` . \"Resolved\" has a small v.\n                *   I will write it as `Mrs. Donevison`.\n                *   However, let's make sure: Is it a `w`? `D o n e w s o n`? No.\n                *   Is it an `r`? The name is `D o n e r s o n`? No.\n                *   No, `v` is\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3480,
+      "width": 2189,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7b51637a-b0f6-3553-800a-4d797f5afa5d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3480,
+                "width": 2189,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7b51637a-b0f6-3553-800a-4d797f5afa5d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Margin: [1888 ?, Aug. 6]]\n\n<p>\nthe big stove in the signal house<br>\nWhile we were on the summit<br>\nwe enjoyed the rare treat of a<br>\nsnow storm on the 4\" of Aug.<br>\nBut it is a most trying trip. Mrs.<br>\nD. was so used up by it that she<br>\nwas in bed next day. Ada ditto,<br>\nJack Fowlkes not much better. The<br>\nCapt. suffered from headache and<br>\ncold on the mt. Rob and I got<br>\non first rate - all are still sore.<br>\nBut the trip is worth it all. For<br>\nthree miles above the timber line<br>\nthe scenery is awful in its utter<br>\ndesolation and marks of wreck<br>\nand ruin. Our ponies vindicated<br>\ntheir reputation for being sure-<br>\nfooted by carrying us safely over<br>\nthe very worst trail that I think<br>\na horse ever trod.\n</p>\n<p>\nI need not say that I am delighted<br>\nwith the good news our papers give<br>\nus of the election. Capt. Fowlkes\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analyzing and Transcribing a Handwritten Document**\n\nOkay, here's what I've got. The user wants a transcription. First, I analyzed the handwriting – cursive, late 19th-century style, mostly legible. It's a letter, describing a trip, possibly up a mountain, mentioning weather, companions, and some political news. The ink or pencil is faded, and there's a faint date at the top right: `[1888 ?, Aug. 6]`. I need to verify that.\n\nI'll break this down by line, checking for any inconsistencies, odd symbols, or abbreviations. Starting with the top annotation, and then the lines below it:\n\n*   **Top Annotation:** I'm seeing `[1888 ?, Aug. 6]`. It's definitely pencil, and it looks like a bracketed editorial note. I will include this as part of the transcription, and label it to indicate it is at the top/in the margin.\n*   **Line 1:** `the big stove in the signal house` - The start of a thought.\n*   **Line 2:** `While we were on the summit` - A full sentence starts here.\n*   **Line 3:** `we enjoyed the rare treat of a`\n*   **Line 4:** `snow storm on the 4\" of Aug.` - The \"4\" has a symbol after it. It looks like a double quote or possibly a degree symbol. Given the context, I'm going to transcribe it as a double quote `4\"`.\n*   **Line 5:** `But it is a most trying trip. Mrs.`\n*   **Line 6:** `D. was so used up by it that she`\n*   **Line 7:** `was in bed next day. Ada ditto,` - The comma is clear.\n*   **Line 8:** `Jack Fowlkes not much better. The` - Clear. I'm noting the name here.\n*   **Line 9:** `Capt. suffered from headache and` - It's `Capt.`, I am noting it.\n*   **Line 10:** `cold on the mt. Rob and I got` - The abbreviation is \"mt.\".\n*   **Line 11:** `on first rate - all are still sore.` - There's a dash.\n*   **Line 12:** `But the trip is worth it all. For`\n*   **Line 13:** `three miles above the timber line`\n*   **Line 14:** `the scenery is awful in its utter` - \"awful\" is used in the old sense of awe-inspiring.\n*   **Line 15:** `desolation and marks of wreck` - `wreck`, not \"wreak\".\n*   **Line 16:** `and ruin. Our ponies vindicated` - \"ruin\".\n*   **Line 17:** `their reputation for being sure-`\n*   **Line 18:** `footed by carrying us safely over` - hyphenated.\n*   **Line 19:** `the very worst trail that I think`\n*   **Line 20:** `a horse ever trod.`\n*   **Line 21:** `I need not say that I am delighted` - New Paragraph Indent.\n*   **Line 22:** `with the good news our papers give`\n*   **Line 23:** `us of the election. Capt. Fowlkes` - Same name as Line 8, text cuts off.\n\nNow I'll review and refine. The top annotation should be `[1888 ?, Aug. 6]`. That's a header/margin note. The \"4\" should be `4\"`. The spelling looks good, though the meaning of \"awful\" is slightly archaic. I'll flag these to make sure I am accurate. Formatting will be important: line breaks with `<br>`, paragraphs with `<p>`. The top annotation I will mark. There's a slight indent suggesting a new paragraph for \"But it is...\" and \"I need not say...\".\n\nI'm ready to draft. I need to make sure I preserve the line breaks.\n\nSo the format will be:\n*   `[Margin: [1888 ?, Aug. 6]]` at the top.\n*   `<p>` for paragraphs.\n*   `<br>` for line breaks.\n\nAfter looking again at the document, the \"4\" looks like two ticks or quotes. I will stick with that. And \"wreck\" and \"ruin\" are clear. The date annotation looks like editorial pencil. The line endings seem correct. The\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3480,
+      "width": 2189,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/69f2b125-e64e-302d-b879-f1bea21c6a82/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3480,
+                "width": 2189,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/69f2b125-e64e-302d-b879-f1bea21c6a82",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p style=\"text-align: right;\">[1887, Aug. 6]</p>\n<p>who is as good pro- as I am anti-<br>\ntold me of it yesterday morning.<br>\nI was so delighted that I was<br>\nafraid of breaking out into unseemly<br>\nexpressions of triumph, so I turned<br>\nthe subject. Hurrah for Texas, the<br>\nlast stronghold of freedom!<br>\nPlease send cotalogues to -</p>\n\n| |\n|---|\n| Eugene Steen, Winsboro, Tex. |\n| Geo. J. Loftin - Floresville - Tex. |\n\n<p>also attend to enclosed letter & postal<br>\nAll send kindest regards.<br>\nEver yours truly -<br>\n[Signature] K. H. Dneivissie</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. First, this looks like a continuation of a letter, written in cursive, with a penciled date at the top right: `[1887, Aug. 6]`. That's important context. The handwriting is pretty legible, but there's a signature at the end that's proving a bit of a challenge.\n\nThe text begins with: \"who is as good pro- as I am anti-,\" clearly indicating a position on some issue.  It continues with \"told me of it yesterday morning,\" suggesting a conversation or news. I'm seeing a wave of enthusiasm in \"I was so delighted that I was afraid of breaking out into unseemly expressions of triumph, so I turned the subject.\" It's definitely a strong emotional reaction.  The mention of \"Hurrah for Texas, the last stronghold of freedom!\" is quite telling, and suggests something specific to Texas in 1887. The \"pro-\" and \"anti-\" hints at Prohibition. The triumph must relate to the 1887 election in Texas, where the \"anti\" won.\n\nNext, there's a practical note, \"Please send cotalogues to -.\" (I'm preserving the original spelling of \"cotalogues\" because it's in the text and I'm not correcting.) It's followed by a list of names and addresses:\n\n| |\n|---|\n| Eugene Steen, Winsboro, Tex. |\n| Geo. J. Loftin - Floresville - Tex. |\n\nThese are requests for catalogues. So, this might involve a business or educational context. Eugene Steen is in the records, and so is George J Loftin.\n\nThen, there's \"also attend to enclosed letter & postal.\" The ampersand indicates this might be a follow-up.\n\nClosing the text: \"All send kindest regards.\" and \"Ever yours truly -.\" This is standard for a formal letter.\n\n[Signature]\n\nThe signature is where things get interesting. I'm seeing a signature reading something along the lines of `K. H. Dneivissie`. Or maybe `K. H. Drivissie`? It could also be `Dmeirssie`, `Dneirssie`, or something similar, since the hand has its quirks. The initial 'K' or 'A', The second initial is \"H\". The name after is D-m-e-i-v-i-s-s-i-e, or perhaps `D-n-e-i-v-i-s-s-i-e`, which is difficult to parse with certainty. It's a slightly unfamiliar name, but the content makes it likely that the name is associated with the Texas area. I am transcribing the name faithfully as I see it.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/179/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

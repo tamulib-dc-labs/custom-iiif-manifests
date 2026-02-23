@@ -1,151 +1,202 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-5.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from C. D. Snead, October 21, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-10-21"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from C. D. Snead, October 21, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/57c7fc30-453b-31ba-94c4-a11395f16f88/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4374,
-            "width": 3303,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/57c7fc30-453b-31ba-94c4-a11395f16f88/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4374,
-                                "width": 3303,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/57c7fc30-453b-31ba-94c4-a11395f16f88",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>ALBERT MANTOOTH, President,<br/>\nC. N. SNEED, Secretary.</p>\n\n<p>J. D. GANN, Cor. Secretary.<br/>\n<small>&#10165; OFFICE OF &#10167;</small></p>\n\n<p>JOSEPH KERR, Vice-President.<br/>\nC. MANTOOTH, Treasurer.</p>\n\n<p><b>ANGELI[NA] IMMIGRATION SOCIETY.</b></p>\n\n<p>Homer, Texas, Oct 21\" 1881</p>\n\n[Body]\n<p>Pres. James<br/>\nA.M. College<br/>\nDear Sir<br/>\nWe have a small<br/>\nparcel of land in the shape of the diagram<br/>\nbelow, which we desire to divide in two equal<br/>\nparts by a line running parallel to the<br/>\nbase. I have worked the example, and, as I<br/>\nknew to be correct, but other parties are<br/>\nnot satisfied with the solution, so, it<br/>\nis agreed to ask you to solve the prob-<br/>\nlem for us. Please let the work remain in<br/>\nfull - so that the work will be as plain as<br/>\npossible - I hope to return the favor</p>\n\n[Signature]\n<p>Yours truly C. N. Sneed</p>\n\n[Diagram]\n<p>A 4 chains B<br/>\n24 chains<br/>\nE<br/>\nD 12 chains C</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's the transcription, as I see it, incorporating the visual details and my analysis:**\n\nI'm looking at this letterhead and trying to make sense of everything.\n\nFirst, the header at the top is broken into columns. There's a left column with \"ALBERT MANTOOTH, President,<br>C. N. SNEED, Secretary.\", a center column with \"J. D. GANN, Cor. Secretary.\", with a little scribble above \"Cor.\" (maybe \"Ex\"?) and \">> OFFICE OF <<\". On the right, it reads \"JOSEPH KERR, Vice-President.<br>C. MANTOOTH, Treasurer.\" The main title, partially obscured by some tape or a censor bar, is \"ANGELI[NA] IMMIGRATION SOCIETY.\" I'm sure it's Angelina. Then the date line reads \"Homer, Texas, Oct 21\" 1881\".\n\nThe letter is addressed to \"Pres. James, A.M. College, Dear Sir\". Then comes the body, which reads: \"We have a small parcel of land in the shape of the diagram below, which we desire to divide in two equal parts by a line running parallel to the base. I have worked the example, and, as I knew to be correct, but other parties are not satisfied with the solution, so, it is agreed to ask you to solve the prob- lem for us. Please let the work remain in full - so that the work will be as plain as possible - I hope to return the favor.\"\n\nThe signature at the bottom looks like \"Yours truly C. N. Sneed,\" which matches the printed name.\n\nThen there is a hand-drawn diagram. It's a trapezoid. The top is labeled \"A 4 chains B\". There's a vertical drop on the right side labeled \"24 chains\". The bottom is labeled \"D 12 chains C\". There's a horizontal line drawn across the middle labeled \"E ... F\". The \"F\" might be a squiggle.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-5.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from C. D. Snead, October 21, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-10-21"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from C. D. Snead, October 21, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Mathematics--Problems, exercises, etc.",
+          "Land subdivision",
+          "Geometry",
+          "Immigration societies--Texas",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Sneed, C. N."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Angelina Immigration Society",
+          "James A.M. College",
+          "Mantooth, Albert",
+          "Kerr, Joseph",
+          "Mantooth, C.",
+          "Gann, J. D."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from C. N. Sneed, secretary of the Angelina Immigration Society in Homer, Texas, to President James A.M. College requesting assistance in solving a mathematical problem involving the division of a parcel of land into two equal parts by a line parallel to the base. The correspondence includes a geometric diagram with measurements in chains and reflects a dispute among society members regarding the correct solution to the surveying problem."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/57c7fc30-453b-31ba-94c4-a11395f16f88/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4374,
+      "width": 3303,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/57c7fc30-453b-31ba-94c4-a11395f16f88/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4374,
+                "width": 3303,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/57c7fc30-453b-31ba-94c4-a11395f16f88",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>ALBERT MANTOOTH, President,<br/>\nC. N. SNEED, Secretary.</p>\n\n<p>J. D. GANN, Cor. Secretary.<br/>\n<small>&#10165; OFFICE OF &#10167;</small></p>\n\n<p>JOSEPH KERR, Vice-President.<br/>\nC. MANTOOTH, Treasurer.</p>\n\n<p><b>ANGELI[NA] IMMIGRATION SOCIETY.</b></p>\n\n<p>Homer, Texas, Oct 21\" 1881</p>\n\n[Body]\n<p>Pres. James<br/>\nA.M. College<br/>\nDear Sir<br/>\nWe have a small<br/>\nparcel of land in the shape of the diagram<br/>\nbelow, which we desire to divide in two equal<br/>\nparts by a line running parallel to the<br/>\nbase. I have worked the example, and, as I<br/>\nknew to be correct, but other parties are<br/>\nnot satisfied with the solution, so, it<br/>\nis agreed to ask you to solve the prob-<br/>\nlem for us. Please let the work remain in<br/>\nfull - so that the work will be as plain as<br/>\npossible - I hope to return the favor</p>\n\n[Signature]\n<p>Yours truly C. N. Sneed</p>\n\n[Diagram]\n<p>A 4 chains B<br/>\n24 chains<br/>\nE<br/>\nD 12 chains C</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's the transcription, as I see it, incorporating the visual details and my analysis:**\n\nI'm looking at this letterhead and trying to make sense of everything.\n\nFirst, the header at the top is broken into columns. There's a left column with \"ALBERT MANTOOTH, President,<br>C. N. SNEED, Secretary.\", a center column with \"J. D. GANN, Cor. Secretary.\", with a little scribble above \"Cor.\" (maybe \"Ex\"?) and \">> OFFICE OF <<\". On the right, it reads \"JOSEPH KERR, Vice-President.<br>C. MANTOOTH, Treasurer.\" The main title, partially obscured by some tape or a censor bar, is \"ANGELI[NA] IMMIGRATION SOCIETY.\" I'm sure it's Angelina. Then the date line reads \"Homer, Texas, Oct 21\" 1881\".\n\nThe letter is addressed to \"Pres. James, A.M. College, Dear Sir\". Then comes the body, which reads: \"We have a small parcel of land in the shape of the diagram below, which we desire to divide in two equal parts by a line running parallel to the base. I have worked the example, and, as I knew to be correct, but other parties are not satisfied with the solution, so, it is agreed to ask you to solve the prob- lem for us. Please let the work remain in full - so that the work will be as plain as possible - I hope to return the favor.\"\n\nThe signature at the bottom looks like \"Yours truly C. N. Sneed,\" which matches the printed name.\n\nThen there is a hand-drawn diagram. It's a trapezoid. The top is labeled \"A 4 chains B\". There's a vertical drop on the right side labeled \"24 chains\". The bottom is labeled \"D 12 chains C\". There's a horizontal line drawn across the middle labeled \"E ... F\". The \"F\" might be a squiggle.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/5/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

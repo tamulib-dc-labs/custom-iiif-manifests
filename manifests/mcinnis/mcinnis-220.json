@@ -1,210 +1,256 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-220.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from James E. Binkley, July 1, 1879"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1879-07-01"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from James E. Binkley, July 1, 1879"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 3 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/1147778d-38cc-3e4b-8f98-6fc4d54a6333/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3167,
-            "width": 1968,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/80",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/79",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/1147778d-38cc-3e4b-8f98-6fc4d54a6333/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3167,
-                                "width": 1968,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/1147778d-38cc-3e4b-8f98-6fc4d54a6333",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/86",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/85",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p style=\"text-align: right;\">\nLeesville, Texas<br>\nJuly 1\", 1879.\n</p>\n\n<p>\nProf L. L. McInnis,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;College Station.\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr Prof.:-\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By my<br>\nlong silence one might deem me dead,<br>\nbut I am not, nor do I intend steal<br>\ning away forever with money that's<br>\nborrowed. Though I can not pay<br>\nnow, yet in the Fall will I be<br>\nmore able. You may expect your<br>\ndues then, for if I am too poor to<br>\npay, father has promised to pay you<br>\nin full & take the debt himself. I<br>\ntake it as granted that this is sat<br>\nisfactory. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have now a request<br>\nto make; viz., that you will give to<br>\nthe Prest. what books you and\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/87",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcribing a Handwritten Letter**\n\nAlright, let's get down to business. My task is to transcribe this handwritten letter. First, I need to understand the document: it's a letter, clearly, and judging by the style, it's from the late 19th century. The date and location are at the top: Leesville, Texas, July 1st, 1879. The recipient is Prof. L.L. McInnis at College Station. The salutation is \"Dr Prof.:-\". The content seems to be an apology for a late payment, and a request for some books. The handwriting is cursive and generally legible. I see some interesting details: a ditto-mark-style double quote after the \"1\", which I will note. The \"Dr\" is most likely \"Dear\" given the \"Prof.\" title. I should start by drafting a basic transcription.\n\nOkay, here's what I've got so far:\n\n<p style=\"text-align: right;\">Leesville, Texas<br>July 1\", 1879.</p>\n<p>Prof L. L. McInnis,<br>College Station.</p>\n<p>Dr Prof.:-</p>\n<p>By my<br>long silence one might deem me dead,<br>but I am not, nor do I intend steal<br>ing away forever with money that's<br>borrowed. Though I can not pay<br>now, yet in the Fall will I be<br>more able. You may expect your<br>dues then, for if I am too poor to<br>pay, father has promised to pay you<br>in full & take the debt himself. I<br>take it as granted that this is sat<br>isfactory. I have now a request<br>to make; viz., that you will give to<br>the Prest. what books you and</p>\n\nNow, let's go over the specifics. The date uses a double quote, so that's what I'll transcribe. The 'c' in McInnis is slightly superscripted but standard. The \"Dr Prof.:-\" likely means Dear Professor and will be transcribed as such. \"That's\" appears to be \"that's\" or \"thats\". \"Prest.\" is most likely \"President\" given the context. The \"viz., \" is easy: *videlicet*.\n\nI need to format this transcription properly. I'll maintain the original paragraph and line breaks as best I can. Let's make sure the lines are properly marked with HTML tags for later use. The main section will be marked with `<p>` and line breaks will be `<br>`.\n\nChecking for the last time. Okay, now I'm ready to render the final result.\n\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3167,
-            "width": 1968,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/82",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/81",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e10c461a-a3e9-360e-bd24-381eb8ddebf8/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3167,
-                                "width": 1968,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e10c461a-a3e9-360e-bd24-381eb8ddebf8",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/89",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/88",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Gen L. Love that belong to me,<br>\nThinking I've said enough, I<br>\nshall now close.<br>\nMost Truly<br>\nJas . E . Binkley<br>\nColumbus x.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/90",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. My task is to transcribe this handwritten text, and, importantly, understand the intended meaning even when the handwriting is a bit fuzzy. This image shows a letter's closing, and I need to extract every detail, including those little ambiguous flourishes, which are key to understanding the intention.\n\nMy initial thought is that I should transcribe the text as it is. Here we go:\n\n*   **Line 1:** \"Gen L. have that belong to me,\"\n\n    Here the handwriting makes the most sense. The first word is a bit unclear, but it looks like \"Gen.\" Then \"L.\", probably a person's initial. I can see the \"L\" is definitely \"L\"\n    The word \"have\". I see it too, with a loop at the beginning but no hump on the h, which makes it look more like an \"l\".\n    \"belong\" - b-e-l-o-n-g.\n    \"to me\" - t-o m-e.\n\n    The sentence is odd, but I'll write it down.\n*   **Line 2:** \"Thinking I've said enough, I shall\"\n*   **Line 3:** \"now close.\"\n*   **Line 4:** \"Most Truly\"\n*   **Line 5:** \"Jas . E . Binkley\"\n*   **Line 6:** \"Columbus x.\"\n\nNow, \"Columbus x.\" This is a tricky one. The \"x\" could be anything. A dash. Abbreviation for a state. A flourish. I am not able to clearly see what the exact intention of the writer is. I'll represent that as \"Columbus x.\"\n\nNow let's examine what the sentence might mean. It's obviously an incomplete thought. The word after \"Gen L.\" is key. Could it be \"Gen. S. Love\"? Or \"Gen L. Love\"? That \"love\" could be a name. I can see what I would write down as \"Love\", especially if the writing is quick or casual. Also, a General John Love was an Indiana General. So, \"Gen L. Love\". That fits the handwriting.\n\nI'm thinking of \"Gen. S. Love\" and if I am going to have to make an assumption. The person's name would explain the fragment. I will transcribe \"Gen L. Love\" and go from there. So, \"Gen L. Love that belong to me\".\n\nHere is the final rendering:\n\n*   Gen L. Love that belong to me,\n*   Thinking I've said enough, I\n*   shall now close.\n*   Most Truly\n*   Jas . E . Binkley\n*   Columbus x.\n\nThat's my final answer.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-220.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from James E. Binkley, July 1, 1879"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1879-07-01"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from James E. Binkley, July 1, 1879"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 3 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Debt--Texas--History--19th century",
+          "Correspondence",
+          "Personal finance",
+          "Education--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Binkley, James E."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Love, Gen",
+          "Binkley, James E. (father)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from James E. Binkley to Professor Louis L. McInnis dated July 1, 1879, addressing an outstanding debt. Binkley acknowledges his delayed payment and assures McInnis that he will settle his dues in the fall, with his father prepared to assume the debt if necessary. The letter also requests that McInnis return books belonging to Binkley and General L. Love to the college president."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/1147778d-38cc-3e4b-8f98-6fc4d54a6333/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3167,
+      "width": 1968,
+      "items": [
+        {
+          "id": "http://example.org/iiif/80",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/79",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/1147778d-38cc-3e4b-8f98-6fc4d54a6333/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3167,
+                "width": 1968,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/1147778d-38cc-3e4b-8f98-6fc4d54a6333",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/86",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/85",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p style=\"text-align: right;\">\nLeesville, Texas<br>\nJuly 1\", 1879.\n</p>\n\n<p>\nProf L. L. McInnis,<br>\n&nbsp;&nbsp;&nbsp;&nbsp;College Station.\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr Prof.:-\n</p>\n\n<p>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By my<br>\nlong silence one might deem me dead,<br>\nbut I am not, nor do I intend steal<br>\ning away forever with money that's<br>\nborrowed. Though I can not pay<br>\nnow, yet in the Fall will I be<br>\nmore able. You may expect your<br>\ndues then, for if I am too poor to<br>\npay, father has promised to pay you<br>\nin full & take the debt himself. I<br>\ntake it as granted that this is sat<br>\nisfactory. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have now a request<br>\nto make; viz., that you will give to<br>\nthe Prest. what books you and\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/87",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcribing a Handwritten Letter**\n\nAlright, let's get down to business. My task is to transcribe this handwritten letter. First, I need to understand the document: it's a letter, clearly, and judging by the style, it's from the late 19th century. The date and location are at the top: Leesville, Texas, July 1st, 1879. The recipient is Prof. L.L. McInnis at College Station. The salutation is \"Dr Prof.:-\". The content seems to be an apology for a late payment, and a request for some books. The handwriting is cursive and generally legible. I see some interesting details: a ditto-mark-style double quote after the \"1\", which I will note. The \"Dr\" is most likely \"Dear\" given the \"Prof.\" title. I should start by drafting a basic transcription.\n\nOkay, here's what I've got so far:\n\n<p style=\"text-align: right;\">Leesville, Texas<br>July 1\", 1879.</p>\n<p>Prof L. L. McInnis,<br>College Station.</p>\n<p>Dr Prof.:-</p>\n<p>By my<br>long silence one might deem me dead,<br>but I am not, nor do I intend steal<br>ing away forever with money that's<br>borrowed. Though I can not pay<br>now, yet in the Fall will I be<br>more able. You may expect your<br>dues then, for if I am too poor to<br>pay, father has promised to pay you<br>in full & take the debt himself. I<br>take it as granted that this is sat<br>isfactory. I have now a request<br>to make; viz., that you will give to<br>the Prest. what books you and</p>\n\nNow, let's go over the specifics. The date uses a double quote, so that's what I'll transcribe. The 'c' in McInnis is slightly superscripted but standard. The \"Dr Prof.:-\" likely means Dear Professor and will be transcribed as such. \"That's\" appears to be \"that's\" or \"thats\". \"Prest.\" is most likely \"President\" given the context. The \"viz., \" is easy: *videlicet*.\n\nI need to format this transcription properly. I'll maintain the original paragraph and line breaks as best I can. Let's make sure the lines are properly marked with HTML tags for later use. The main section will be marked with `<p>` and line breaks will be `<br>`.\n\nChecking for the last time. Okay, now I'm ready to render the final result.\n\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3167,
+      "width": 1968,
+      "items": [
+        {
+          "id": "http://example.org/iiif/82",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/81",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e10c461a-a3e9-360e-bd24-381eb8ddebf8/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3167,
+                "width": 1968,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e10c461a-a3e9-360e-bd24-381eb8ddebf8",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/89",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/88",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Gen L. Love that belong to me,<br>\nThinking I've said enough, I<br>\nshall now close.<br>\nMost Truly<br>\nJas . E . Binkley<br>\nColumbus x.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/90",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Interpretation**\n\nAlright, let's break this down. My task is to transcribe this handwritten text, and, importantly, understand the intended meaning even when the handwriting is a bit fuzzy. This image shows a letter's closing, and I need to extract every detail, including those little ambiguous flourishes, which are key to understanding the intention.\n\nMy initial thought is that I should transcribe the text as it is. Here we go:\n\n*   **Line 1:** \"Gen L. have that belong to me,\"\n\n    Here the handwriting makes the most sense. The first word is a bit unclear, but it looks like \"Gen.\" Then \"L.\", probably a person's initial. I can see the \"L\" is definitely \"L\"\n    The word \"have\". I see it too, with a loop at the beginning but no hump on the h, which makes it look more like an \"l\".\n    \"belong\" - b-e-l-o-n-g.\n    \"to me\" - t-o m-e.\n\n    The sentence is odd, but I'll write it down.\n*   **Line 2:** \"Thinking I've said enough, I shall\"\n*   **Line 3:** \"now close.\"\n*   **Line 4:** \"Most Truly\"\n*   **Line 5:** \"Jas . E . Binkley\"\n*   **Line 6:** \"Columbus x.\"\n\nNow, \"Columbus x.\" This is a tricky one. The \"x\" could be anything. A dash. Abbreviation for a state. A flourish. I am not able to clearly see what the exact intention of the writer is. I'll represent that as \"Columbus x.\"\n\nNow let's examine what the sentence might mean. It's obviously an incomplete thought. The word after \"Gen L.\" is key. Could it be \"Gen. S. Love\"? Or \"Gen L. Love\"? That \"love\" could be a name. I can see what I would write down as \"Love\", especially if the writing is quick or casual. Also, a General John Love was an Indiana General. So, \"Gen L. Love\". That fits the handwriting.\n\nI'm thinking of \"Gen. S. Love\" and if I am going to have to make an assumption. The person's name would explain the fragment. I will transcribe \"Gen L. Love\" and go from there. So, \"Gen L. Love that belong to me\".\n\nHere is the final rendering:\n\n*   Gen L. Love that belong to me,\n*   Thinking I've said enough, I\n*   shall now close.\n*   Most Truly\n*   Jas . E . Binkley\n*   Columbus x.\n\nThat's my final answer.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/220/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

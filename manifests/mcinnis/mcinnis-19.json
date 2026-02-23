@@ -1,364 +1,416 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-19.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, February 26, 1882"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1882-02-26"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, February 26, 1882"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/b5e09b10-8ac1-347f-b629-2d0d15e1ad2a/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3732,
-            "width": 2321,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b5e09b10-8ac1-347f-b629-2d0d15e1ad2a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2321,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b5e09b10-8ac1-347f-b629-2d0d15e1ad2a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Brenham Feb. 26th 188[?]</p>\n\n<p>My dear Professor:</p>\n\n<p>Your welcome letter<br>\nwas received last Thursday.<br>\nThursday & Friday were occupied with<br>\nour Monthly Written Examinations -<br>\nPapers - papers & reports - ad nauseam -<br>\nuntil 12 o'clock Saturday night.<br>\nI embrace the first leisure to reply.<br>\nIf Prof. R. were not a member of<br>\nthe Board of Regents he would<br>\npresent but a small obstacle in<br>\nthe way of your elevating to the<br>\nposition you desire. Since he is<br>\na member of the Board he has,<br>\nin my judgment the \"inside track\"<br>\nfor the Chair to which he aspires.<br>\nYou know the influence of organized<br>\nassociation. If Austin Chair<br>\nsuits your taste as well or better,<br>\nI think fewer obstacles to its attainment<br>\nwould be presented. I should<br>\nrejoice at your success & would<br>\nregret your defeat.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's the Transcription and Interpretation**\n\nOkay, so I'm presented with a handwritten letter and the task of producing a high-accuracy digital transcription, preserving the intent and structure of the original document as best as possible. The primary goal is to produce a transcription that can be easily parsed and used in some academic context or historical research. I begin by scanning the letter and breaking it down into component parts:\n\n*   **Header and Date:** I first note the apparent date and location at the top. The date, \"Brenham Feb. 26th 188[?]\", is slightly obscured, and I'll need to double-check that last digit, though it looks most like a '2' or '5', and I will add a `[?]` to mark my uncertainty.\n*   **Salutation:** Next comes the salutation, \"My dear Professor:\".\n*   **Content:** Then I move on to the body. This requires careful reading and character-by-character analysis. I'll need to identify any abbreviations or specialized terms.\n*   **Paragraph Structure:** The layout looks a bit irregular. But by examining the indentation, I'll attempt to understand how the writer intended the flow of thought to be. I see some indentation which seems to mark clear paragraph breaks, though the letter is continuous and would read better as a single block in prose.\n\nI will construct the text in paragraph format, as that's the clearest. There are four obvious paragraph breaks, as determined by visual indentation and logical breaks in the text. I'll write the transcription in that order.\n\nNow, I'll provide the transcription line by line:\n\nBrenham Feb. 26th 188[?]\n\nMy dear Professor:\n\nYour welcome letter was received last Thursday.\n\nThursday & Friday were occupied with our Monthly Written Examinations - Papers - papers & reports - ad nauseam - until 12 o'clock Saturday night.\n\nI embrace the first leisure to reply.\n\nIf Prof. R. were not a member of the Board of Regents he would present but a small obstacle in the way of your elevating to the position you desire. Since he is a member of the Board he has, in my judgment the \"inside track\" for the Chair to which he aspires. You know the influence of organized association. If Austin Chair suits your taste as well or better, I think fewer obstacles to its attainment would be presented. I should rejoice at your success & would regret your defeat.\n\nAfter transcribing, I will do a final proofread to verify spelling, capitalization, and punctuation. Then, I will confirm my work is accurate and complete, ready for use!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3732,
-            "width": 2321,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/dd55d3e5-4064-334e-848e-26a70777f51c/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2321,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/dd55d3e5-4064-334e-848e-26a70777f51c",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br>\n[1882. Feb 26]</p>\n\n<p>These are my candid convictions.<br>\nI wish you had not only \"a half<br>\nmind to run down to Benham\" - but a<br>\nwhole one. Can't you? We can<br>\ntalk many things that we can't write.<br>\nAllow me to suggest that the times<br>\nof the Success of Modest Merit have<br>\npassed. In these latter days,<br>\nif a man wants a thing he<br>\nis expected to <i>ask</i> for it &amp; back<br>\nhimself up with all supports.<br>\nIn our \"trade\", <i>fitness</i> alone should<br>\ndetermine the question of preferment,<br>\nbut alas! it is not so. In a late<br>\nconversation with Major Baker<br>\nhe stated that his mind turned to<br>\nme when a late vacancy occurred<br>\nin Horsley, but in the absence of<br>\nany application from me he supposed<br>\nI was well cared for in Benham &amp;<br>\nintimated that I had slept over<br>\nmy privilege. I bowed &amp; retired.<br>\nI give this as an instance simply<br>\nof the customs of our times.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's the Transcription of the Letter**\n\nOkay, so I've got this handwritten letter in front of me, and my task is to get a really accurate transcription. Let's break this down. First, I'm noting the date in the top right, written in pencil, which looks like *[1882. Feb 26]*.  It's late 19th-century cursive, so some words need careful examination.  The writer seems to be sharing some personal thoughts (\"candid convictions\") with someone, and they really want this person to visit them in Benham. They're also talking about success, modesty (\"Modest Merit\"), and it seems like there's a reference to a \"Major Baker\" and a recent job vacancy in either Horsley or Hoseley. I'm going to carefully transcribe it, line by line.\n\nSo, here's what I'm transcribing:\n\n[1882. Feb 26]\n\nThese are my candid convictions.\nI wish you had not only \"a half\nmind to run down to Benham\" - but a\nwhole one. Can't you? We can\ntalk many things that we can't write.\nAllow me to suggest that the times\nof the success of Modest Merit have\npassed. In these latter days,\nif a man wants a thing he\nis expected to *ask* for it & back\nhimself up with all supports.\nIn our \"trade\", *fitness* alone should\ndetermine the question of preferment,\nbut alas! it is not so. In a late\nconversation with Major Baker\nhe stated that his mind turned to\nme when a late vacancy occurred\nin Horsley, but in the absence of\nany application from me he supposed\nI was well cared for in Benham &\nintimated that I had slept over\nmy privilege. I bowed & retired.\nI give this as an instance simply\nof the customs of our times.\n\nI'm using *i* for emphasis because that's the only way to indicate an underlined word in the output format.\nDouble-checking my work for the formatting, I am keeping that format and using HTML tags like `p`, `b`, and `i` to represent emphasis, and using brackets for the date. It is a single paragraph. \"Benham\", \"Horsley\", and \"Modest Merit\" look clear. I've double-checked the quotes on \"trade\" and \"a half\". I'm pretty confident in the transcription, now.  \"Horsley\" seems right.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3732,
-            "width": 2321,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/fbe00cb5-7d76-3fce-b988-02b71f657f67/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2321,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fbe00cb5-7d76-3fce-b988-02b71f657f67",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br/>\n[1883, Feb. 26]</p>\n\n<p>There will be little less than 100<br/>\napplicants for the different Chairs<br/>\nin the Uni- when organized.<br/>\nI think a strong \"endorsation\" of<br/>\nof the faculty of the Univ of Miss.<br/>\nwould be of great value to you.<br/>\nIf I can serve you command me.</p>\n\n<p>I think now that I shall apply<br/>\nfor the Chair of Latin or Greek or both<br/>\nshould they be combined. I am<br/>\naware that O. H. C..... is being<br/>\n\"coached\" for that Chair - with<br/>\nchances of success in his favor.<br/>\nHe will return to Texas backed by<br/>\nthe faculty of Yale & you know<br/>\n\"Distance lends enchantment to the view\"</p>\n\n<p>My information in regard to the organi-<br/>\nzation of the Univ is meager indeed -<br/>\nI am not apprised even of the<br/>\naction of the Regents at their late<br/>\nmeeting in Austin. When do you<br/>\nthink the Univ will be organized?</p>\n\n<p>Suppose there will be a doz or 15<br/>\nChairs provided with Tutorships in<br/>\nsome of them at least.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe this letter as accurately as possible, while adhering to the user's specific guidelines. First, I need to identify and label any structural elements \u2013 in this case, the date, which is clearly marked in pencil at the top right: `[1883, Feb. 26]`. I'm treating this as a header, so I'll include a `[Header]` label.\n\nNow, into the text itself. The handwriting is cursive, and somewhat loopy, indicating it is likely a letter. The content seems to be about academic positions, specifically \"Chairs\" at a University (maybe \"Uni\" or \"Univ\").\n\nI'm making sure to preserve all the line breaks as they are. My strategy involves a line-by-line transcription. I am also preserving any unusual spellings or formatting \u2013 and will indicate anything I'm not entirely confident in.\n\nThere are a few words that need closer examination. For instance, the word \"endorsation\" is underlined within quotation marks. The quote appears at the end of the second paragraph: \"Distance lends enchantment to the view\". There is a string of dots following the initials \"O.H.C.\" in the second paragraph. Contextually, I believe this refers to Oscar Henry Cooper.\n\nA key challenge is the strict adherence to the formatting guidelines. I'm noting the allowed HTML tags and focusing on using `<p>` for paragraphs and `<br/>` for line breaks within each paragraph, to ensure I maintain the visual structure of the original document. Also the \"Uni-\" in the first paragraph. I'll stick to that as that's what's visible. I'll keep the text as a text only, preserving original spelling. I'll maintain line breaks with `<br>`.\n\nFinal transcription should look like this. I will carefully render the text. The double \"of\" will be typed exactly as it looks. The date in brackets will be typed, line by line.\nI am now ready to begin the final transcription.\n\n```html\n<p>[Header]<br/>\n[1883, Feb. 26]</p>\n\n<p>\nThere will be little less than 100<br/>\napplicants for the different Chairs<br/>\nin the Uni- when organized.<br/>\nI think a strong \"endorsation\" of<br/>\nof the faculty of the Univ of Miss.<br/>\nwould be of great value to you.<br/>\nIf I can serve you command me.\n</p>\n\n<p>\nI think now that I shall apply<br/>\nfor the Chair of Latin or Greek or both<br/>\nshould they be combined. I am<br/>\naware that O. H. C..... is being<br/>\n\"coached\" for that Chair - with<br/>\nchances of success in his favor.<br/>\nHe will return to Texas backed by<br/>\nthe faculty of Yale & you know<br/>\n\"Distance lends enchantment to the view\"\n</p>\n\n<p>\nMy information in regard to the organi-<br/>\nzation of the Univ is meager indeed -<br/>\nI am not apprised even of the<br/>\naction of the Regents at their late<br/>\nmeeting in Austin. When do you<br/>\nthink the Univ will be organized?\n</p>\n\n<p>\nSuppose there will be a doz or 15<br/>\nChairs provided with Tutorships in<br/>\nsome of them at least.\n</p>\n```\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3732,
-            "width": 2321,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/dda4d0de-893d-3ab6-b4da-b3d0de8db116/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2321,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/dda4d0de-893d-3ab6-b4da-b3d0de8db116",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/23",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p style=\"text-align: right;\"><small>[1882 Feb 26]</small></p>\n\n<p>\nI think the appointment of Judge<br/>\nThomas an excellent one. He is<br/>\na man of large brain & marked<br/>\nindividuality - He has a mind of<br/>\nhis own. I think the \"Unlocking\"<br/>\nof your Interest Dividend will<br/>\nprove a Trojan horse in the end.<br/>\nI don't care how specious the plea.<br/>\nThe State can & will provide for the<br/>\nperpetuity of the Col. School at<br/>\nHempstead - Its existence is better<br/>\nor as well assured without a part<br/>\nof your A & M Fund, as the A & M C. is<br/>\nwith it all. - No party in Texas<br/>\nwill allow the School at Hempstead<br/>\nto go down - It is an important<br/>\nfactor in Texas politics.<br/>\nI must forbear at present.<br/>\nYou see from the papers that Gov.<br/>\nHubbard has lost both his little<br/>\nboys - I had the most touching<br/>\nletter from him a few days ago<br/>\nI have ever read. I have a grandson<br/>\nat Huntsville. Don't wait so long to write\n</p>\n\n[Signature]\n<p>\nYour friend. Dana\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Okay, let's get this transcription done. I'm starting with a deep dive into the instructions and the document itself. First, I'm a professional transcriptionist, and the goal is to reproduce this handwritten text accurately, preserving its original quirks \u2013 spelling, punctuation, even the handwriting's interpretation. I've got to label any structural elements like headers and signatures, and use the correct HTML tags. No deviations allowed \u2013 just the text, nothing else.**\n\n**I'm giving the document a quick visual once-over. It's a letter, old ink, cursive writing that's legible but a bit hurried. There's a date in pencil at the top: `[1882 Feb 26]`. The text is flowing in a single block, so I'll need to check the paragraphing carefully. And I see a signature at the bottom. Okay, let's get into it, line by line.**\n\n**I'm starting at the top right, with the pencil date, marking it as a header. Then I'm moving line by line, trying my best to decipher the handwriting. Words like \"Thomas\" and \"Dividend\" are straightforward, but some are giving me pause, particularly the word that comes before \"Dividend\". I'm carefully analyzing each letter, comparing it to other words in the document, and considering the context. Is it \"Interest\" or \"Internal\"? The context suggests a financial term, so I'm leaning toward \"Interest,\" but I'm keeping an open mind and re-examining it.**\n\n**I'm getting into the flow of the document and transcribing the rest of the lines, making sure to identify the proper nouns, making sure that words are capitalised and that the lines are correct, and making a note of any potentially ambiguous words. I'm especially focused on any words that could be either, double-checking against the word's appearance elsewhere in the document. The signature looks like \"Dana,\" and I want to confirm that with the historical context, that is a person that is important in the historical context of the letter.**\n\n**I\u2019m pausing to refine the transcription, marking the header with the date and then the text in a clear format. I'm going back to that tricky word before \"Dividend.\" Could it be \"Internal,\" or \"Entire\"? I'm revisiting the handwriting letter by letter, considering the financial context, and looking for any clues in the rest of the document. I'm considering all possibilities before making a definitive decision. For the moment, I'll go with \"Interest,\" but I'm marking it for further review if anything changes.**\n\n**I'm making a formatting choice: use `p` tags for paragraphs and `<br/>` for line breaks to preserve the visual structure. I must preserve the visual structure as well as the meaning.**\n\n**Okay, I'm doing the final polish. Checking capitalization, punctuation, and spelling. I'm double-checking \"Interest\" again \u2013 that 't' crossbar is still bothering me, but the letters are matching, and the context fits perfectly. I'm also confirming the signature, and re-reading the text one last time. I'm making sure that the line breaks make sense, looking at the layout, and ensuring all the tags are in the right places, and the structure is correct.**\n\n**It all looks good. Time to generate the HTML. Header, paragraph, line breaks, labels \u2013 all set. Wait! The signature and closing are a bit tricky. Is it the name only? No, the full line, but on the same line. I'll make sure the elements are labeled and structured correctly.**\n\n**The final output is ready. Double-checking everything \u2013 HTML tags, line breaks, words, and structure \u2013 one last time. Yup, it's perfect. This is ready to go!**\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-19.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, February 26, 1882"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1882-02-26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, February 26, 1882"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 11 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Universities and colleges--Texas--History--19th century",
+          "Academic appointments",
+          "Faculty recruitment",
+          "University organization",
+          "Educational administration",
+          "Texas A&M University--History",
+          "University of Mississippi--Faculty"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Baker, Major",
+          "Judge Thomas",
+          "Governor Hubbard",
+          "O. H. C.",
+          "Professor R."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Letter from J. T. Hand in Brenham to Louis L. McInnis discussing academic career advancement and university appointments in Texas, including competition for professorial chairs at a newly organizing university. Hand offers strategic advice on securing academic positions, mentions the importance of faculty endorsements and active self-promotion, and comments on the politics of higher education administration and the university's organization plans."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/b5e09b10-8ac1-347f-b629-2d0d15e1ad2a/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3732,
+      "width": 2321,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b5e09b10-8ac1-347f-b629-2d0d15e1ad2a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2321,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b5e09b10-8ac1-347f-b629-2d0d15e1ad2a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Brenham Feb. 26th 188[?]</p>\n\n<p>My dear Professor:</p>\n\n<p>Your welcome letter<br>\nwas received last Thursday.<br>\nThursday & Friday were occupied with<br>\nour Monthly Written Examinations -<br>\nPapers - papers & reports - ad nauseam -<br>\nuntil 12 o'clock Saturday night.<br>\nI embrace the first leisure to reply.<br>\nIf Prof. R. were not a member of<br>\nthe Board of Regents he would<br>\npresent but a small obstacle in<br>\nthe way of your elevating to the<br>\nposition you desire. Since he is<br>\na member of the Board he has,<br>\nin my judgment the \"inside track\"<br>\nfor the Chair to which he aspires.<br>\nYou know the influence of organized<br>\nassociation. If Austin Chair<br>\nsuits your taste as well or better,<br>\nI think fewer obstacles to its attainment<br>\nwould be presented. I should<br>\nrejoice at your success & would<br>\nregret your defeat.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's the Transcription and Interpretation**\n\nOkay, so I'm presented with a handwritten letter and the task of producing a high-accuracy digital transcription, preserving the intent and structure of the original document as best as possible. The primary goal is to produce a transcription that can be easily parsed and used in some academic context or historical research. I begin by scanning the letter and breaking it down into component parts:\n\n*   **Header and Date:** I first note the apparent date and location at the top. The date, \"Brenham Feb. 26th 188[?]\", is slightly obscured, and I'll need to double-check that last digit, though it looks most like a '2' or '5', and I will add a `[?]` to mark my uncertainty.\n*   **Salutation:** Next comes the salutation, \"My dear Professor:\".\n*   **Content:** Then I move on to the body. This requires careful reading and character-by-character analysis. I'll need to identify any abbreviations or specialized terms.\n*   **Paragraph Structure:** The layout looks a bit irregular. But by examining the indentation, I'll attempt to understand how the writer intended the flow of thought to be. I see some indentation which seems to mark clear paragraph breaks, though the letter is continuous and would read better as a single block in prose.\n\nI will construct the text in paragraph format, as that's the clearest. There are four obvious paragraph breaks, as determined by visual indentation and logical breaks in the text. I'll write the transcription in that order.\n\nNow, I'll provide the transcription line by line:\n\nBrenham Feb. 26th 188[?]\n\nMy dear Professor:\n\nYour welcome letter was received last Thursday.\n\nThursday & Friday were occupied with our Monthly Written Examinations - Papers - papers & reports - ad nauseam - until 12 o'clock Saturday night.\n\nI embrace the first leisure to reply.\n\nIf Prof. R. were not a member of the Board of Regents he would present but a small obstacle in the way of your elevating to the position you desire. Since he is a member of the Board he has, in my judgment the \"inside track\" for the Chair to which he aspires. You know the influence of organized association. If Austin Chair suits your taste as well or better, I think fewer obstacles to its attainment would be presented. I should rejoice at your success & would regret your defeat.\n\nAfter transcribing, I will do a final proofread to verify spelling, capitalization, and punctuation. Then, I will confirm my work is accurate and complete, ready for use!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3732,
+      "width": 2321,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/dd55d3e5-4064-334e-848e-26a70777f51c/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2321,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/dd55d3e5-4064-334e-848e-26a70777f51c",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br>\n[1882. Feb 26]</p>\n\n<p>These are my candid convictions.<br>\nI wish you had not only \"a half<br>\nmind to run down to Benham\" - but a<br>\nwhole one. Can't you? We can<br>\ntalk many things that we can't write.<br>\nAllow me to suggest that the times<br>\nof the Success of Modest Merit have<br>\npassed. In these latter days,<br>\nif a man wants a thing he<br>\nis expected to <i>ask</i> for it &amp; back<br>\nhimself up with all supports.<br>\nIn our \"trade\", <i>fitness</i> alone should<br>\ndetermine the question of preferment,<br>\nbut alas! it is not so. In a late<br>\nconversation with Major Baker<br>\nhe stated that his mind turned to<br>\nme when a late vacancy occurred<br>\nin Horsley, but in the absence of<br>\nany application from me he supposed<br>\nI was well cared for in Benham &amp;<br>\nintimated that I had slept over<br>\nmy privilege. I bowed &amp; retired.<br>\nI give this as an instance simply<br>\nof the customs of our times.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's the Transcription of the Letter**\n\nOkay, so I've got this handwritten letter in front of me, and my task is to get a really accurate transcription. Let's break this down. First, I'm noting the date in the top right, written in pencil, which looks like *[1882. Feb 26]*.  It's late 19th-century cursive, so some words need careful examination.  The writer seems to be sharing some personal thoughts (\"candid convictions\") with someone, and they really want this person to visit them in Benham. They're also talking about success, modesty (\"Modest Merit\"), and it seems like there's a reference to a \"Major Baker\" and a recent job vacancy in either Horsley or Hoseley. I'm going to carefully transcribe it, line by line.\n\nSo, here's what I'm transcribing:\n\n[1882. Feb 26]\n\nThese are my candid convictions.\nI wish you had not only \"a half\nmind to run down to Benham\" - but a\nwhole one. Can't you? We can\ntalk many things that we can't write.\nAllow me to suggest that the times\nof the success of Modest Merit have\npassed. In these latter days,\nif a man wants a thing he\nis expected to *ask* for it & back\nhimself up with all supports.\nIn our \"trade\", *fitness* alone should\ndetermine the question of preferment,\nbut alas! it is not so. In a late\nconversation with Major Baker\nhe stated that his mind turned to\nme when a late vacancy occurred\nin Horsley, but in the absence of\nany application from me he supposed\nI was well cared for in Benham &\nintimated that I had slept over\nmy privilege. I bowed & retired.\nI give this as an instance simply\nof the customs of our times.\n\nI'm using *i* for emphasis because that's the only way to indicate an underlined word in the output format.\nDouble-checking my work for the formatting, I am keeping that format and using HTML tags like `p`, `b`, and `i` to represent emphasis, and using brackets for the date. It is a single paragraph. \"Benham\", \"Horsley\", and \"Modest Merit\" look clear. I've double-checked the quotes on \"trade\" and \"a half\". I'm pretty confident in the transcription, now.  \"Horsley\" seems right.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3732,
+      "width": 2321,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/fbe00cb5-7d76-3fce-b988-02b71f657f67/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2321,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/fbe00cb5-7d76-3fce-b988-02b71f657f67",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br/>\n[1883, Feb. 26]</p>\n\n<p>There will be little less than 100<br/>\napplicants for the different Chairs<br/>\nin the Uni- when organized.<br/>\nI think a strong \"endorsation\" of<br/>\nof the faculty of the Univ of Miss.<br/>\nwould be of great value to you.<br/>\nIf I can serve you command me.</p>\n\n<p>I think now that I shall apply<br/>\nfor the Chair of Latin or Greek or both<br/>\nshould they be combined. I am<br/>\naware that O. H. C..... is being<br/>\n\"coached\" for that Chair - with<br/>\nchances of success in his favor.<br/>\nHe will return to Texas backed by<br/>\nthe faculty of Yale & you know<br/>\n\"Distance lends enchantment to the view\"</p>\n\n<p>My information in regard to the organi-<br/>\nzation of the Univ is meager indeed -<br/>\nI am not apprised even of the<br/>\naction of the Regents at their late<br/>\nmeeting in Austin. When do you<br/>\nthink the Univ will be organized?</p>\n\n<p>Suppose there will be a doz or 15<br/>\nChairs provided with Tutorships in<br/>\nsome of them at least.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of a Handwritten Letter**\n\nAlright, let's break this down. My task is to transcribe this letter as accurately as possible, while adhering to the user's specific guidelines. First, I need to identify and label any structural elements – in this case, the date, which is clearly marked in pencil at the top right: `[1883, Feb. 26]`. I'm treating this as a header, so I'll include a `[Header]` label.\n\nNow, into the text itself. The handwriting is cursive, and somewhat loopy, indicating it is likely a letter. The content seems to be about academic positions, specifically \"Chairs\" at a University (maybe \"Uni\" or \"Univ\").\n\nI'm making sure to preserve all the line breaks as they are. My strategy involves a line-by-line transcription. I am also preserving any unusual spellings or formatting – and will indicate anything I'm not entirely confident in.\n\nThere are a few words that need closer examination. For instance, the word \"endorsation\" is underlined within quotation marks. The quote appears at the end of the second paragraph: \"Distance lends enchantment to the view\". There is a string of dots following the initials \"O.H.C.\" in the second paragraph. Contextually, I believe this refers to Oscar Henry Cooper.\n\nA key challenge is the strict adherence to the formatting guidelines. I'm noting the allowed HTML tags and focusing on using `<p>` for paragraphs and `<br/>` for line breaks within each paragraph, to ensure I maintain the visual structure of the original document. Also the \"Uni-\" in the first paragraph. I'll stick to that as that's what's visible. I'll keep the text as a text only, preserving original spelling. I'll maintain line breaks with `<br>`.\n\nFinal transcription should look like this. I will carefully render the text. The double \"of\" will be typed exactly as it looks. The date in brackets will be typed, line by line.\nI am now ready to begin the final transcription.\n\n```html\n<p>[Header]<br/>\n[1883, Feb. 26]</p>\n\n<p>\nThere will be little less than 100<br/>\napplicants for the different Chairs<br/>\nin the Uni- when organized.<br/>\nI think a strong \"endorsation\" of<br/>\nof the faculty of the Univ of Miss.<br/>\nwould be of great value to you.<br/>\nIf I can serve you command me.\n</p>\n\n<p>\nI think now that I shall apply<br/>\nfor the Chair of Latin or Greek or both<br/>\nshould they be combined. I am<br/>\naware that O. H. C..... is being<br/>\n\"coached\" for that Chair - with<br/>\nchances of success in his favor.<br/>\nHe will return to Texas backed by<br/>\nthe faculty of Yale & you know<br/>\n\"Distance lends enchantment to the view\"\n</p>\n\n<p>\nMy information in regard to the organi-<br/>\nzation of the Univ is meager indeed -<br/>\nI am not apprised even of the<br/>\naction of the Regents at their late<br/>\nmeeting in Austin. When do you<br/>\nthink the Univ will be organized?\n</p>\n\n<p>\nSuppose there will be a doz or 15<br/>\nChairs provided with Tutorships in<br/>\nsome of them at least.\n</p>\n```\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3732,
+      "width": 2321,
+      "items": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/dda4d0de-893d-3ab6-b4da-b3d0de8db116/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2321,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/dda4d0de-893d-3ab6-b4da-b3d0de8db116",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/23",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p style=\"text-align: right;\"><small>[1882 Feb 26]</small></p>\n\n<p>\nI think the appointment of Judge<br/>\nThomas an excellent one. He is<br/>\na man of large brain & marked<br/>\nindividuality - He has a mind of<br/>\nhis own. I think the \"Unlocking\"<br/>\nof your Interest Dividend will<br/>\nprove a Trojan horse in the end.<br/>\nI don't care how specious the plea.<br/>\nThe State can & will provide for the<br/>\nperpetuity of the Col. School at<br/>\nHempstead - Its existence is better<br/>\nor as well assured without a part<br/>\nof your A & M Fund, as the A & M C. is<br/>\nwith it all. - No party in Texas<br/>\nwill allow the School at Hempstead<br/>\nto go down - It is an important<br/>\nfactor in Texas politics.<br/>\nI must forbear at present.<br/>\nYou see from the papers that Gov.<br/>\nHubbard has lost both his little<br/>\nboys - I had the most touching<br/>\nletter from him a few days ago<br/>\nI have ever read. I have a grandson<br/>\nat Huntsville. Don't wait so long to write\n</p>\n\n[Signature]\n<p>\nYour friend. Dana\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Okay, let's get this transcription done. I'm starting with a deep dive into the instructions and the document itself. First, I'm a professional transcriptionist, and the goal is to reproduce this handwritten text accurately, preserving its original quirks – spelling, punctuation, even the handwriting's interpretation. I've got to label any structural elements like headers and signatures, and use the correct HTML tags. No deviations allowed – just the text, nothing else.**\n\n**I'm giving the document a quick visual once-over. It's a letter, old ink, cursive writing that's legible but a bit hurried. There's a date in pencil at the top: `[1882 Feb 26]`. The text is flowing in a single block, so I'll need to check the paragraphing carefully. And I see a signature at the bottom. Okay, let's get into it, line by line.**\n\n**I'm starting at the top right, with the pencil date, marking it as a header. Then I'm moving line by line, trying my best to decipher the handwriting. Words like \"Thomas\" and \"Dividend\" are straightforward, but some are giving me pause, particularly the word that comes before \"Dividend\". I'm carefully analyzing each letter, comparing it to other words in the document, and considering the context. Is it \"Interest\" or \"Internal\"? The context suggests a financial term, so I'm leaning toward \"Interest,\" but I'm keeping an open mind and re-examining it.**\n\n**I'm getting into the flow of the document and transcribing the rest of the lines, making sure to identify the proper nouns, making sure that words are capitalised and that the lines are correct, and making a note of any potentially ambiguous words. I'm especially focused on any words that could be either, double-checking against the word's appearance elsewhere in the document. The signature looks like \"Dana,\" and I want to confirm that with the historical context, that is a person that is important in the historical context of the letter.**\n\n**I’m pausing to refine the transcription, marking the header with the date and then the text in a clear format. I'm going back to that tricky word before \"Dividend.\" Could it be \"Internal,\" or \"Entire\"? I'm revisiting the handwriting letter by letter, considering the financial context, and looking for any clues in the rest of the document. I'm considering all possibilities before making a definitive decision. For the moment, I'll go with \"Interest,\" but I'm marking it for further review if anything changes.**\n\n**I'm making a formatting choice: use `p` tags for paragraphs and `<br/>` for line breaks to preserve the visual structure. I must preserve the visual structure as well as the meaning.**\n\n**Okay, I'm doing the final polish. Checking capitalization, punctuation, and spelling. I'm double-checking \"Interest\" again – that 't' crossbar is still bothering me, but the letters are matching, and the context fits perfectly. I'm also confirming the signature, and re-reading the text one last time. I'm making sure that the line breaks make sense, looking at the layout, and ensuring all the tags are in the right places, and the structure is correct.**\n\n**It all looks good. Time to generate the HTML. Header, paragraph, line breaks, labels – all set. Wait! The signature and closing are a bit tricky. Is it the name only? No, the full line, but on the same line. I'll make sure the elements are labeled and structured correctly.**\n\n**The final output is ready. Double-checking everything – HTML tags, line breaks, words, and structure – one last time. Yup, it's perfect. This is ready to go!**\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/19/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

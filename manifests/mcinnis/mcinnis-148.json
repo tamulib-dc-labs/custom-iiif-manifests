@@ -1,210 +1,257 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-148.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from W. L. Bringhurst, July 8, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-07-08"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from W. L. Bringhurst, July 8, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/87e8b1b2-280c-3650-829c-43cf24f87588/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3496,
-            "width": 3139,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/87e8b1b2-280c-3650-829c-43cf24f87588/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3496,
-                                "width": 3139,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/87e8b1b2-280c-3650-829c-43cf24f87588",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>College Sta. Tex. July 8. 86</p>\n\n<p>My dear Professor:<br>\nIt gives me pleasure to acknowledge<br>\nyour piece of a letter. We are all well here. Not<br>\nmuch news. Catalogues just out. We sent you<br>\n3 yesterday. The Convention at Austin was a<br>\ngrand success - About 300 of teachers present<br>\nwere women & not a good-looking one among<br>\nthem. When a woman is too ugly or strong-minded<br>\nto marry she goes to schoolteaching. You ought<br>\nto have seen me playing the agreeable to the<br>\nyounger sisters.</p>\n\n<p>Are you going to apply for chair of<br>\nMath, at Oxford? Put me down for the<br>\nGreek, or Latin, or Eng. professorship. I'll<br>\ncome for $3000 and a house - \"Satisfac-<br>\ntion guaranteed\" - By the way, Wooldridge<br>\nand I have bridged the bloody chasm -<br>\nand I am negotiating for a building-<br>\nsite near <i>his university</i> -</p>\n\n<p>I saw Col. Cole at the Convention.<br>\nHe says he is doing splendid[illegible]t Abilene</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**[Header]**\n<p>College Sta. Tex. July 8. 86</p>\n\n<p>My dear Professor:<br>\nIt gives me pleasure to acknowledge<br>\nyour piece of a letter. We are all well here. Not<br>\nmuch news. Catalogues just out. We sent you<br>\n3 yesterday. The Convention at Austin was a<br>\ngrand success - About 300 of teachers present<br>\nwere women & not a good-looking one among<br>\nthem. When a woman is too ugly or strong-minded<br>\nto marry she goes to schoolteaching. You ought<br>\nto have seen me playing the agreeable to the<br>\nyounger sisters.</p>\n\n<p>Are you going to apply for chair of<br>\nMath, at Oxford? Put me down for the<br>\nGreek, or Latin, or Eng. professorship. I'll<br>\ncome for $3000 and a house - \"Satisfac-<br>\ntion guaranteed\" - By the way, Wooldridge<br>\nand I have bridged the bloody chasm -<br>\nand I am negotiating for a building-<br>\nsite near <i>his university</i> -</p>\n\n<p>I saw Col. Cole at the Convention.<br>\nHe says he is doing splendid[ly at] Abilene</p>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3496,
-            "width": 3139,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5f5cab61-de3a-35bb-b91f-c0b95af57e5b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3496,
-                                "width": 3139,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5f5cab61-de3a-35bb-b91f-c0b95af57e5b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>saving money, and got another<br>\nbaby - He evidently doesn't believe<br>\nin the doctrine of limiting population.<br>\nThe theory is easier than the practice -<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drop me another line & let<br>\nme know something about the Oxford<br>\nrumpus -<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please present my regards, & Mrs<br>\nB's to your wife -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The thermometer<br>\nin this country has been up to 110 in the<br>\nshade - You can see the effects on this<br>\nink -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faithfully Yours<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W. L. Bringhurst.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcribing a Handwritten Letter**\n\nOkay, so I have a handwritten document here, a letter on lined paper. The script is cursive, typical of the late 19th or early 20th century. The ink has a brownish tint, which I should note. Overall, the handwriting is quite legible, although I will need to take extra care with some words.\n\nI'll proceed line by line. First line reads \"saving money, and got another baby - He evidently doesn't believe in the doctrine of limiting population. The theory is easier than the practice -\" Then \"Drop me another line & let me know something about the Oxford rumpus -\" Next is \"Please present my regards, & Mrs B's to your wife -\". The next section reads, \"The thermometer in this country has been up to 110 in the shade - You can see the effects on this ink -\". The closing is \"Faithfully Yours\". Then, the signature looks to be \"W. L. Bringhurst.\"\n\nI need to transcribe this into HTML, using `<p>` for paragraphs and `<br>` for line breaks where appropriate to keep the same visual layout. I need to make sure to pay attention to where the indents are. I'll need to double check the capitalization and punctuation. I also need to be certain about the signature. The ampersand looks like a plus sign or cross.\n\nLet's begin.\n\n<p>saving money, and got another<br>\nbaby - He evidently doesn't believe<br>\nin the doctrine of limiting population.<br>\nThe theory is easier than the practice -</p>\n\n<p>Drop me another line & let<br>\nme know something about the Oxford<br>\nrumpus -</p>\n\n<p>Please present my regards, & Mrs<br>\nB's to your wife -</p>\n\n<p>The thermometer<br>\nin this country has been up to 110 in the<br>\nshade - You can see the effects on this<br>\nink -</p>\n\n<p>Faithfully Yours<br>\nW. L. Bringhurst.</p>\n\nOkay, I've used the approved HTML tags. Now, I should double check some words to make sure the transcription is correct.\n\n\"evidently\" - yes.\n\"doctrine\" - yes.\n\"limiting\" - yes.\n\"rumpus\" - yes.\n\"Mrs B's\" - yes. It looks like the signature 'B' on the signature.\n\"thermometer\" - yes.\n\"Bringhurst\" - yes, the handwriting is clear, and the signature matches.\n\nThe indentation in the original document looks like the start of new paragraphs.\n\nOkay, I think this is it. Ready to go.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-148.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from W. L. Bringhurst, July 8, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-07-08"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from W. L. Bringhurst, July 8, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 22 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Education--Texas--History--19th century",
+          "Teachers--United States",
+          "Universities and colleges--Texas",
+          "Academic positions",
+          "Educational conventions"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Bringhurst, W. L."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Wooldridge",
+          "Cole, Colonel"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Personal letter from W. L. Bringhurst at College Station, Texas to Professor Louis L. McInnis discussing academic matters, including commentary on a teachers' convention in Austin and speculation about professorial positions at Oxford. The letter also mentions Bringhurst's reconciliation with Wooldridge and negotiations for a building site, along with local observations about weather and acquaintances."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/87e8b1b2-280c-3650-829c-43cf24f87588/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3496,
+      "width": 3139,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/87e8b1b2-280c-3650-829c-43cf24f87588/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3496,
+                "width": 3139,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/87e8b1b2-280c-3650-829c-43cf24f87588",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>College Sta. Tex. July 8. 86</p>\n\n<p>My dear Professor:<br>\nIt gives me pleasure to acknowledge<br>\nyour piece of a letter. We are all well here. Not<br>\nmuch news. Catalogues just out. We sent you<br>\n3 yesterday. The Convention at Austin was a<br>\ngrand success - About 300 of teachers present<br>\nwere women & not a good-looking one among<br>\nthem. When a woman is too ugly or strong-minded<br>\nto marry she goes to schoolteaching. You ought<br>\nto have seen me playing the agreeable to the<br>\nyounger sisters.</p>\n\n<p>Are you going to apply for chair of<br>\nMath, at Oxford? Put me down for the<br>\nGreek, or Latin, or Eng. professorship. I'll<br>\ncome for $3000 and a house - \"Satisfac-<br>\ntion guaranteed\" - By the way, Wooldridge<br>\nand I have bridged the bloody chasm -<br>\nand I am negotiating for a building-<br>\nsite near <i>his university</i> -</p>\n\n<p>I saw Col. Cole at the Convention.<br>\nHe says he is doing splendid[illegible]t Abilene</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**[Header]**\n<p>College Sta. Tex. July 8. 86</p>\n\n<p>My dear Professor:<br>\nIt gives me pleasure to acknowledge<br>\nyour piece of a letter. We are all well here. Not<br>\nmuch news. Catalogues just out. We sent you<br>\n3 yesterday. The Convention at Austin was a<br>\ngrand success - About 300 of teachers present<br>\nwere women & not a good-looking one among<br>\nthem. When a woman is too ugly or strong-minded<br>\nto marry she goes to schoolteaching. You ought<br>\nto have seen me playing the agreeable to the<br>\nyounger sisters.</p>\n\n<p>Are you going to apply for chair of<br>\nMath, at Oxford? Put me down for the<br>\nGreek, or Latin, or Eng. professorship. I'll<br>\ncome for $3000 and a house - \"Satisfac-<br>\ntion guaranteed\" - By the way, Wooldridge<br>\nand I have bridged the bloody chasm -<br>\nand I am negotiating for a building-<br>\nsite near <i>his university</i> -</p>\n\n<p>I saw Col. Cole at the Convention.<br>\nHe says he is doing splendid[ly at] Abilene</p>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3496,
+      "width": 3139,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5f5cab61-de3a-35bb-b91f-c0b95af57e5b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3496,
+                "width": 3139,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5f5cab61-de3a-35bb-b91f-c0b95af57e5b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>saving money, and got another<br>\nbaby - He evidently doesn't believe<br>\nin the doctrine of limiting population.<br>\nThe theory is easier than the practice -<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drop me another line & let<br>\nme know something about the Oxford<br>\nrumpus -<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please present my regards, & Mrs<br>\nB's to your wife -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The thermometer<br>\nin this country has been up to 110 in the<br>\nshade - You can see the effects on this<br>\nink -</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faithfully Yours<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W. L. Bringhurst.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcribing a Handwritten Letter**\n\nOkay, so I have a handwritten document here, a letter on lined paper. The script is cursive, typical of the late 19th or early 20th century. The ink has a brownish tint, which I should note. Overall, the handwriting is quite legible, although I will need to take extra care with some words.\n\nI'll proceed line by line. First line reads \"saving money, and got another baby - He evidently doesn't believe in the doctrine of limiting population. The theory is easier than the practice -\" Then \"Drop me another line & let me know something about the Oxford rumpus -\" Next is \"Please present my regards, & Mrs B's to your wife -\". The next section reads, \"The thermometer in this country has been up to 110 in the shade - You can see the effects on this ink -\". The closing is \"Faithfully Yours\". Then, the signature looks to be \"W. L. Bringhurst.\"\n\nI need to transcribe this into HTML, using `<p>` for paragraphs and `<br>` for line breaks where appropriate to keep the same visual layout. I need to make sure to pay attention to where the indents are. I'll need to double check the capitalization and punctuation. I also need to be certain about the signature. The ampersand looks like a plus sign or cross.\n\nLet's begin.\n\n<p>saving money, and got another<br>\nbaby - He evidently doesn't believe<br>\nin the doctrine of limiting population.<br>\nThe theory is easier than the practice -</p>\n\n<p>Drop me another line & let<br>\nme know something about the Oxford<br>\nrumpus -</p>\n\n<p>Please present my regards, & Mrs<br>\nB's to your wife -</p>\n\n<p>The thermometer<br>\nin this country has been up to 110 in the<br>\nshade - You can see the effects on this<br>\nink -</p>\n\n<p>Faithfully Yours<br>\nW. L. Bringhurst.</p>\n\nOkay, I've used the approved HTML tags. Now, I should double check some words to make sure the transcription is correct.\n\n\"evidently\" - yes.\n\"doctrine\" - yes.\n\"limiting\" - yes.\n\"rumpus\" - yes.\n\"Mrs B's\" - yes. It looks like the signature 'B' on the signature.\n\"thermometer\" - yes.\n\"Bringhurst\" - yes, the handwriting is clear, and the signature matches.\n\nThe indentation in the original document looks like the start of new paragraphs.\n\nOkay, I think this is it. Ready to go.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/148/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

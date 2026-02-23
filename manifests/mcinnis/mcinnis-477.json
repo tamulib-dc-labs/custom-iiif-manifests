@@ -1,127 +1,171 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-477.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Marriage Announcement for Dr. Mark Francis and Anna Scott, September 10, 1890"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Marriage Announcement for Dr. Mark Francis and Anna Scott, September 10, 1890"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 3 Louis L. McInnis Papers/Box 3 Folder 16 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/913333cf-45b6-3035-a1f5-fb99e5a1197b/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 2469,
-            "width": 1635,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/392",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/391",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/913333cf-45b6-3035-a1f5-fb99e5a1197b/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2469,
-                                "width": 1635,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/913333cf-45b6-3035-a1f5-fb99e5a1197b",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/395",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/394",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Married,</p>\n<p>Dr. Mark Francis</p>\n<p><small>and</small></p>\n<p>Anna J. Scott,</p>\n<p>Wednesday, September tenth,</p>\n<p>New London, Ohio.</p>\n<p>1890.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/396",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Image Transcription Process**\n\nOkay, so I've got this image, and my task is to transcribe what it shows, specifically a wedding announcement. First, I need to get a handle on the visual elements. The text is formal, the font is elegant script, and the layout is centered. There's also a crease in the paper, which I'll keep in mind.\n\nNow for the content itself. I've broken it down line by line: \"Married,\" \"Dr. Mark Francis,\" \"and,\" \"Anna J. Scott,\" \"Wednesday, September tenth,\" \"New London, Ohio,\" and \"1890.\"\n\nThe prompt wants me to use `<p>` tags for lines, and to center them. Though I can't directly use an `align` attribute, I'll transcribe them one line per `<p>`. The \"and\" is quite small, I will use `<small>`. I need to ensure accuracy with punctuation and capitalization; I'm reading the image from top to bottom, as usual. The visual style is script, so it's not strictly handwriting, but I'll treat it similarly by checking each letter and character carefully. The instructions say no other structural styling is necessary. There are no non-text elements aside from the paper texture.\n\nMy first thought was to represent the text in a single paragraph, and use `<br>` tags to handle the line breaks, but the guidelines say to use `<p>` tags for each line, so that's the way I'll handle it.\n\nSo, I'll start with this:\n\n```html\n<p>Married,</p>\n<p>Dr. Mark Francis</p>\n<p><small>and</small></p>\n<p>Anna J. Scott,</p>\n<p>Wednesday, September tenth,</p>\n<p>New London, Ohio.</p>\n<p>1890.</p>\n```\n\nI've already triple-checked the punctuation: commas after \"Married,\" \"Scott,\" \"Wednesday,\" \"tenth\", and \"London,\" periods after \"Dr.\" \"J.\" and \"Ohio.\", and a final period after \"1890\". I verified the spelling of all the names and places. I confirmed that \"and\" is significantly smaller than the other text and marked it with `<small>`. The script is uniform, just varying in size. It's the most robust format given the instructions.\n\nSo, I'm happy with this; the visual aspects are all accounted for, and it's accurate and clearly formatted.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-477.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Marriage Announcement for Dr. Mark Francis and Anna Scott, September 10, 1890"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Marriage Announcement for Dr. Mark Francis and Anna Scott, September 10, 1890"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 3 Louis L. McInnis Papers/Box 3 Folder 16 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Marriages--Ohio--History--19th century",
+          "Wedding announcements",
+          "New London (Ohio)--History"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Francis, Mark",
+          "Scott, Anna J."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A marriage announcement recording the wedding of Dr. Mark Francis and Anna J. Scott on September 10, 1890, in New London, Ohio. This document is part of the Louis L. McInnis Papers and represents a record of a significant social event from late 19th-century Ohio. The announcement provides documentation of a professional marriage during this historical period."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/913333cf-45b6-3035-a1f5-fb99e5a1197b/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 2469,
+      "width": 1635,
+      "items": [
+        {
+          "id": "http://example.org/iiif/392",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/391",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/913333cf-45b6-3035-a1f5-fb99e5a1197b/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2469,
+                "width": 1635,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/913333cf-45b6-3035-a1f5-fb99e5a1197b",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/395",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/394",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Married,</p>\n<p>Dr. Mark Francis</p>\n<p><small>and</small></p>\n<p>Anna J. Scott,</p>\n<p>Wednesday, September tenth,</p>\n<p>New London, Ohio.</p>\n<p>1890.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/396",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Image Transcription Process**\n\nOkay, so I've got this image, and my task is to transcribe what it shows, specifically a wedding announcement. First, I need to get a handle on the visual elements. The text is formal, the font is elegant script, and the layout is centered. There's also a crease in the paper, which I'll keep in mind.\n\nNow for the content itself. I've broken it down line by line: \"Married,\" \"Dr. Mark Francis,\" \"and,\" \"Anna J. Scott,\" \"Wednesday, September tenth,\" \"New London, Ohio,\" and \"1890.\"\n\nThe prompt wants me to use `<p>` tags for lines, and to center them. Though I can't directly use an `align` attribute, I'll transcribe them one line per `<p>`. The \"and\" is quite small, I will use `<small>`. I need to ensure accuracy with punctuation and capitalization; I'm reading the image from top to bottom, as usual. The visual style is script, so it's not strictly handwriting, but I'll treat it similarly by checking each letter and character carefully. The instructions say no other structural styling is necessary. There are no non-text elements aside from the paper texture.\n\nMy first thought was to represent the text in a single paragraph, and use `<br>` tags to handle the line breaks, but the guidelines say to use `<p>` tags for each line, so that's the way I'll handle it.\n\nSo, I'll start with this:\n\n```html\n<p>Married,</p>\n<p>Dr. Mark Francis</p>\n<p><small>and</small></p>\n<p>Anna J. Scott,</p>\n<p>Wednesday, September tenth,</p>\n<p>New London, Ohio.</p>\n<p>1890.</p>\n```\n\nI've already triple-checked the punctuation: commas after \"Married,\" \"Scott,\" \"Wednesday,\" \"tenth\", and \"London,\" periods after \"Dr.\" \"J.\" and \"Ohio.\", and a final period after \"1890\". I verified the spelling of all the names and places. I confirmed that \"and\" is significantly smaller than the other text and marked it with `<small>`. The script is uniform, just varying in size. It's the most robust format given the instructions.\n\nSo, I'm happy with this; the visual aspects are all accounted for, and it's accurate and clearly formatted.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/477/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

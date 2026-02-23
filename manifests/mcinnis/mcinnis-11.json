@@ -1,222 +1,268 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-11.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from M. Marsh, October 8, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-10-08"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from M. Marsh, October 8, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/f4324c6c-77ff-3d66-967d-f8a2be3af0da/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3528,
-            "width": 2249,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/f4324c6c-77ff-3d66-967d-f8a2be3af0da/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3528,
-                                "width": 2249,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f4324c6c-77ff-3d66-967d-f8a2be3af0da",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><small>Twenty-five cents for examining each Survey. Please remit in Advance.</small></p>\n\n<p>[Seal: THE STATE OF TEXAS]</p>\n\n<p><b>General Land Office</b></p>\n\n<p>Austin, Oct 7 1881</p>\n\n<p>Prof L. L. McInnis<br>\nCollege Station &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dear Sir<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In reply to<br>\nyours of 4 inst I regret to say that<br>\nI do not know of any printed<br>\nwork containing the information<br>\nyou desire relative to the Spanish<br>\nSystem of Surveying. Some years<br>\nago I undertook the compilation<br>\nof a digest of our land laws<br>\nand prepared a large amount<br>\nof data, but the necessity of<br>\n\"bread winning\" forced me to<br>\npostpone it until some more<br>\nsuitable occasion - which is<br>\nas far in the future I fear as ever,</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Comprehensive Transcription Analysis: A Detailed Breakdown**\n\nAlright, let's dissect this handwritten letter meticulously. My first step is a holistic view. I\u2019m starting with the obvious: the \"State of Texas\" seal on the left and the \"Twenty-five cents...\" notice in the upper right. Then, my focus zeroes in on the header, the ornate \"General Land Office\" \u2013 which certainly catches the eye. Next, I observe the date: \"Austin, Oct 7 1881.\"\n\nNow, let's move to the addressee. It's addressed to \"Prof L. L. McInnis, College Station, Dear Sir.\"  I note a heavy scribble next to \"College Station\" \u2013 which could be important or could be purely decorative; I'll deal with it later. The salutation is standard: \"Dear Sir\".\n\nHere's where the real transcription work begins, diving into the body:\n\n*   \"In reply to yours of 4 inst...\" The problematic character is here. It looks like a crossed stroke. This is where precision becomes crucial. I have to deduce the value with a very fine-toothed comb. Is it 4? Is it 10 (X)? No, \"inst\" suggests current month. That indicates \"4\".\n*   \"I regret to say that I do not know of any printed work containing the information you desire relative to the Spanish System of Surveying.\"  The capitalization of \"System\" is noted.\n*   \"Some years ago I undertook the compilation of a digest of our land laws and prepared a large amount of data...\"\n*   \"...but the necessity of 'bread winning' forced me to postpone it until some more suitable occasion - which is as far in the future I fear as ever,\".\n\nI\u2019m breaking down words, and checking each letter. I want to build a perfect transcription. I'm focusing on \"yours of 4 inst\", the key to interpreting that mark. Then comes \"System\" with the capital, and then \"bread winning\" with the quotation marks. The word \"suitable\" looks like two words \"suita ble.\" \"occasion\". \"suitable occasion\" needs re-checking. I will pay attention to line breaks.\n\nSo let\u2019s build a transcription strategy. The top right text: \"Twenty-five cents for examining each Survey. Please remit in Advance.\" The logo is described as \"[Seal: The State of Texas]\". The main header is \"General Land Office\". Then the date, \"Austin, Oct 7 1881.\" Addressee \"Prof L. L. McInnis, College Station\". The scribble is [illegible] or ignored. \"Dear Sir.\"\n\nNow the body: I will transcribe all, preserving the line breaks.\n\nAfter careful evaluation, here\u2019s my plan for each element. The formatting: I'll use standard HTML, and note the font is Gothic. The layout is a standard letterhead. I'll take a look at the \"inst\". The glyph is difficult. I'm going with '4'. I\u2019ll be paying close attention to that spiral doodle. The scribble next to \"Station\" is a coil. I\u2019m going to omit.\n\nFor \"yours of 4 inst\", after several analyses, the \"4\" looks correct. \"bread winning\" has quotes. \"System of Surveying\" has capital S. \"suitable occasion\". The word \"suitable\" is a bit messy. I\u2019ll go with what makes sense in the context. Also, \"I fear\" is connected. \"as ever,\" has a comma.\n\nNow the final look. The final output needs to match exactly. I'll check my plan for elements.\nThe format: `<small>`, `<p>`, `<b>` and line breaks.\n\nHere is the final HTML structure:\n```html\n<p><small>Twenty-five cents for examining each Survey. Please remit in Advance.</small></p>\n<p>[Seal: THE STATE OF TEXAS]</p>\n<p><b>General Land Office</b></p>\n<p>Austin, Oct 7 1881</p>\n<p>Prof L. L. McInnis<br>\nCollege Station Dear Sir</p>\n<p>In reply to<br>\nyours of 4 inst I regret to say that<br>\nI do not know of any printed<br>\nwork containing the information<br>\nyou desire relative to the Spanish<br>\nSystem of Surveying. Some years<br>\nago I undertook the compilation<br>\nof a digest of our land laws<br>\nand prepared a large amount<br>\nof data, but the necessity of<br>\n\"bread winning\" forced me to<br>\npostpone it until some more<br>\nsuitable\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3528,
-            "width": 2249,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3421d28d-9af1-3fc1-b621-d1d4c5e2f85f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3528,
-                                "width": 2249,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3421d28d-9af1-3fc1-b621-d1d4c5e2f85f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>If however you will prepare<br/>\na series of questions, eliciting<br/>\nthe information you desire, I<br/>\nwill cheerfully, for your pur-<br/>\nposes, answer them as fully<br/>\nas my Knowledge will per-<br/>\nmit.</p>\n<p>These answers will be of<br/>\nservice to you Chiefly of Course<br/>\nin indicating where you may<br/>\nseek for a thorough Knowledge<br/>\nof the System</p>\n<p>Yours Respecty<br/>\nM C Marsh</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Final Thoughts Before Transcription**\n\nAlright, let's get this done. I've broken down the image into manageable chunks and meticulously worked through each word, line by line. It's a 19th-century or early 20th-century cursive script, and while mostly clear, it requires careful attention to those stylized loops and letter formations. The goal is to accurately represent every character, every capitalization, every punctuation mark, and the intended paragraph structure, while adhering to the user's instructions.\n\nThe process has been incredibly detailed. I started by analyzing the handwriting style, checking for readability, and making sure to accurately render all the text. I've re-evaluated any ambiguous words, checked letter formations against other instances of the same letter within the text, and I've paid special attention to the capitalization and the signature, making sure I interpreted it exactly as the image. I've also re-checked the line breaks.\n\nAfter looking at \"knowledge\" and \"System\", I checked several instances of letters against the rest of the text. I am very confident of the transcript. I then checked the whole transcription against the instructions one last time, making sure I followed everything.\n\nThe final HTML structure will follow the specified instructions and maintain the visual organization of the document. I think I've covered everything.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-11.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from M. Marsh, October 8, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-10-08"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from M. Marsh, October 8, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 10 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Land surveying--Texas--History",
+          "Spanish land grants--Texas",
+          "Land laws--Texas",
+          "Texas General Land Office",
+          "Surveying--Methodology"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "M. C. Marsh"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis",
+          "Texas General Land Office"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from M. C. Marsh of the Texas General Land Office to Professor Louis L. McInnis at College Station, dated October 7–8, 1881, responding to McInnis's inquiry about the Spanish system of surveying in Texas. Marsh indicates he is unaware of published works on the subject but offers to answer a series of prepared questions to assist McInnis's research, noting that he had previously attempted to compile a digest of Texas land laws but was unable to complete it."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/f4324c6c-77ff-3d66-967d-f8a2be3af0da/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3528,
+      "width": 2249,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/f4324c6c-77ff-3d66-967d-f8a2be3af0da/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3528,
+                "width": 2249,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/f4324c6c-77ff-3d66-967d-f8a2be3af0da",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><small>Twenty-five cents for examining each Survey. Please remit in Advance.</small></p>\n\n<p>[Seal: THE STATE OF TEXAS]</p>\n\n<p><b>General Land Office</b></p>\n\n<p>Austin, Oct 7 1881</p>\n\n<p>Prof L. L. McInnis<br>\nCollege Station &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dear Sir<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In reply to<br>\nyours of 4 inst I regret to say that<br>\nI do not know of any printed<br>\nwork containing the information<br>\nyou desire relative to the Spanish<br>\nSystem of Surveying. Some years<br>\nago I undertook the compilation<br>\nof a digest of our land laws<br>\nand prepared a large amount<br>\nof data, but the necessity of<br>\n\"bread winning\" forced me to<br>\npostpone it until some more<br>\nsuitable occasion - which is<br>\nas far in the future I fear as ever,</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Comprehensive Transcription Analysis: A Detailed Breakdown**\n\nAlright, let's dissect this handwritten letter meticulously. My first step is a holistic view. I’m starting with the obvious: the \"State of Texas\" seal on the left and the \"Twenty-five cents...\" notice in the upper right. Then, my focus zeroes in on the header, the ornate \"General Land Office\" – which certainly catches the eye. Next, I observe the date: \"Austin, Oct 7 1881.\"\n\nNow, let's move to the addressee. It's addressed to \"Prof L. L. McInnis, College Station, Dear Sir.\"  I note a heavy scribble next to \"College Station\" – which could be important or could be purely decorative; I'll deal with it later. The salutation is standard: \"Dear Sir\".\n\nHere's where the real transcription work begins, diving into the body:\n\n*   \"In reply to yours of 4 inst...\" The problematic character is here. It looks like a crossed stroke. This is where precision becomes crucial. I have to deduce the value with a very fine-toothed comb. Is it 4? Is it 10 (X)? No, \"inst\" suggests current month. That indicates \"4\".\n*   \"I regret to say that I do not know of any printed work containing the information you desire relative to the Spanish System of Surveying.\"  The capitalization of \"System\" is noted.\n*   \"Some years ago I undertook the compilation of a digest of our land laws and prepared a large amount of data...\"\n*   \"...but the necessity of 'bread winning' forced me to postpone it until some more suitable occasion - which is as far in the future I fear as ever,\".\n\nI’m breaking down words, and checking each letter. I want to build a perfect transcription. I'm focusing on \"yours of 4 inst\", the key to interpreting that mark. Then comes \"System\" with the capital, and then \"bread winning\" with the quotation marks. The word \"suitable\" looks like two words \"suita ble.\" \"occasion\". \"suitable occasion\" needs re-checking. I will pay attention to line breaks.\n\nSo let’s build a transcription strategy. The top right text: \"Twenty-five cents for examining each Survey. Please remit in Advance.\" The logo is described as \"[Seal: The State of Texas]\". The main header is \"General Land Office\". Then the date, \"Austin, Oct 7 1881.\" Addressee \"Prof L. L. McInnis, College Station\". The scribble is [illegible] or ignored. \"Dear Sir.\"\n\nNow the body: I will transcribe all, preserving the line breaks.\n\nAfter careful evaluation, here’s my plan for each element. The formatting: I'll use standard HTML, and note the font is Gothic. The layout is a standard letterhead. I'll take a look at the \"inst\". The glyph is difficult. I'm going with '4'. I’ll be paying close attention to that spiral doodle. The scribble next to \"Station\" is a coil. I’m going to omit.\n\nFor \"yours of 4 inst\", after several analyses, the \"4\" looks correct. \"bread winning\" has quotes. \"System of Surveying\" has capital S. \"suitable occasion\". The word \"suitable\" is a bit messy. I’ll go with what makes sense in the context. Also, \"I fear\" is connected. \"as ever,\" has a comma.\n\nNow the final look. The final output needs to match exactly. I'll check my plan for elements.\nThe format: `<small>`, `<p>`, `<b>` and line breaks.\n\nHere is the final HTML structure:\n```html\n<p><small>Twenty-five cents for examining each Survey. Please remit in Advance.</small></p>\n<p>[Seal: THE STATE OF TEXAS]</p>\n<p><b>General Land Office</b></p>\n<p>Austin, Oct 7 1881</p>\n<p>Prof L. L. McInnis<br>\nCollege Station Dear Sir</p>\n<p>In reply to<br>\nyours of 4 inst I regret to say that<br>\nI do not know of any printed<br>\nwork containing the information<br>\nyou desire relative to the Spanish<br>\nSystem of Surveying. Some years<br>\nago I undertook the compilation<br>\nof a digest of our land laws<br>\nand prepared a large amount<br>\nof data, but the necessity of<br>\n\"bread winning\" forced me to<br>\npostpone it until some more<br>\nsuitable\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3528,
+      "width": 2249,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3421d28d-9af1-3fc1-b621-d1d4c5e2f85f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3528,
+                "width": 2249,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3421d28d-9af1-3fc1-b621-d1d4c5e2f85f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>If however you will prepare<br/>\na series of questions, eliciting<br/>\nthe information you desire, I<br/>\nwill cheerfully, for your pur-<br/>\nposes, answer them as fully<br/>\nas my Knowledge will per-<br/>\nmit.</p>\n<p>These answers will be of<br/>\nservice to you Chiefly of Course<br/>\nin indicating where you may<br/>\nseek for a thorough Knowledge<br/>\nof the System</p>\n<p>Yours Respecty<br/>\nM C Marsh</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Final Thoughts Before Transcription**\n\nAlright, let's get this done. I've broken down the image into manageable chunks and meticulously worked through each word, line by line. It's a 19th-century or early 20th-century cursive script, and while mostly clear, it requires careful attention to those stylized loops and letter formations. The goal is to accurately represent every character, every capitalization, every punctuation mark, and the intended paragraph structure, while adhering to the user's instructions.\n\nThe process has been incredibly detailed. I started by analyzing the handwriting style, checking for readability, and making sure to accurately render all the text. I've re-evaluated any ambiguous words, checked letter formations against other instances of the same letter within the text, and I've paid special attention to the capitalization and the signature, making sure I interpreted it exactly as the image. I've also re-checked the line breaks.\n\nAfter looking at \"knowledge\" and \"System\", I checked several instances of letters against the rest of the text. I am very confident of the transcript. I then checked the whole transcription against the instructions one last time, making sure I followed everything.\n\nThe final HTML structure will follow the specified instructions and maintain the visual organization of the document. I think I've covered everything.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/11/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,363 +1,406 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-150-coords.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. P. Woolridge, December 21, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-12-21"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. P. Woolridge, December 21, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3732,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3732,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b36349f6-9848-3ee7-bcab-65bc8ba8be34/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3732,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b36349f6-9848-3ee7-bcab-65bc8ba8be34",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "A. P. WOOLDRIDGE, President.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=56,58,400,85"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "EDWARD CHRISTIAN, Vice Prest.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=880,58,520,85"
-                        },
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "M. C. MILLER, Cashier.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1830,58,400,85"
-                        },
-                        {
-                            "id": "http://example.org/iiif/11",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "[1886, Dec. 21]",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1380,110,600,140"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "THE CITY NATIONAL BANK",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=250,260,1850,210"
-                        },
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Austin, Texas",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=770,710,680,120"
-                        },
-                        {
-                            "id": "http://example.org/iiif/14",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "188",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=2080,750,150,70"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "your President M. Carell",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=100,900,2150,150"
-                        },
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "were here at that time I",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=50,1060,2200,150"
-                        },
-                        {
-                            "id": "http://example.org/iiif/17",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "think a personal interview",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=60,1230,2200,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "would be productive of",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=70,1390,2200,180"
-                        },
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "much good to all parties.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=80,1580,2100,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/20",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Yours truly,",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1000,1720,800,150"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "A.P. Wooldridge",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=950,1850,1300,350"
-                        },
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Pr.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1680,2150,150,100"
-                        },
-                        {
-                            "id": "http://example.org/iiif/23",
-                            "type": "Annotation",
-                            "creator": "gemini-3-pro-preview",
-                            "generator": "iiif-paleography@v0.1.0",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**The Task at Hand: Transcribing and Formatting a Historical Document**\n\nAlright, let's get down to brass tacks. I've got a digital image here, and the goal is to extract the text, paying very close attention to detail, and reformat it according to the \"TOON\" guidelines. This looks like a letterhead from the City National Bank in Austin, Texas \u2013 fascinating! I immediately start analyzing the image dimensions; it\u2019s a sizable image, 2325 pixels wide and 3732 pixels high. The initial visual assessment confirms handwritten elements in the cursive script \u2013 it appears to be a draft, which means there might be some crossed-out words and revisions. There's also a pencil-written date in the top right, `[1886, Dec. 21]`, which is the first piece of contextual information I'm focusing on.\n\nMy primary task becomes one of careful textual archaeology. I've got to segment the image into discrete text lines and accurately identify the characters. I start with the printed header, easily discerning the roles of the bank officers: `A. P. WOOLDRIDGE, President.`, `EDWARD CHRISTIAN, Vice Prest.`, and `M. C. MILLER, Cashier.`. The main banner reads `THE CITY NATIONAL BANK`. Then I turn my attention to the script.\n\nThe location and date are given as `Austin, Texas` and `188`, which is partially printed. The body of the letter, the crucial part, starts with some tricky handwriting. I'm focusing in closely here. The first line looks to begin with \"your President M. Cavett\". Wait, there's another name under. It is \"Carell\" is likely, I think, based on the shape of the strokes, or possibly Cavett. There is a lot of ink, and some overwriting. It looks like the original text said \"your President M. Carell\" and was then corrected. There is also the line \"were here at that time I\" written between the \"Austin, Texas\" line and the line beginning with \"think...\". The text in the letter has a very specific structure. It looks like the writer first wrote \"your President M. Carell,\" then wrote \"were here at that time I\" underneath it. There seems to be an insertion of sorts. Based on the writing, I will transcribe \"your President M. Carell\".\n\nI evaluate the ink density, and how the words overlap. I think the author started to write the first sentence, then needed to edit, or include some more information. The line is meant to flow and read, so I need to find the full sentence or at least how the sentences work. The writer added the line \"were here at that time I\", perhaps in between another thought. Then, the body of the letter reads like \"think a personal interview would be productive of much good to all parties.\" \u2013 or at least, that's what it *should* read. The word \"productive\" is very unclear, and it looks like a word was over-written.\n\nHere's the visual breakdown:\n\n*   Line 1: `your President M. Carell`\n*   Line 2: `were here at that time I`\n*   Line 3: `think a personal interview`\n*   Line 4: `would be productive of`\n*   Line 5: `much good to all parties.`\n\nI have to carefully evaluate the shape and formation of the letters to determine their true intent. The closing is simply \"Yours truly,\" and the signature is \"A. P. Wooldridge\" with the title below, \"Pr.\". Wait, is that a capital \"Q\"? No. Given the President is listed on the top line, I'll transcribe this as \"Pr.\" for brevity.\n\nNow, I'm calculating the coordinates for each text block. We're working with pixel coordinates, the most accurate way of mapping out the content. I'm noting the X and Y coordinates, and the width and height of each text block. I'll need these coordinates later on for formatting the output.\n\nAfter the initial estimation, I refined those coordinates by double-checking them. For example, the `THE CITY NATIONAL BANK` banner covers a large area, so the X and Y coordinate, along with the width and height will need to reflect the size of that area. I make several more passes over each line and carefully look at each line again.\n\nI zoom in on the handwriting. I must interpret the letter shapes and context. The writer's penmanship is not overly precise, but the goal is accuracy. I'm meticulously breaking down each line, considering ambiguous characters, and making a call that is faithful to the image.\n\nThe word \"Carell\" has been giving me a bit of trouble. I'm taking the time to\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-150-coords.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. P. Woolridge, December 21, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-12-21"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. P. Woolridge, December 21, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "Business letters",
+          "19th century American correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Woolridge, A. P."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from A. P. Woolridge to Louis L. McInnis dated December 21, 1886. Without access to the full transcription, the specific contents and purpose of this correspondence cannot be determined, but it represents personal or professional communication from the late 19th century. This item is part of the Louis L. McInnis Papers collection."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3732,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ab5676bf-4446-3245-9f3e-d9c58f606409",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3732,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b36349f6-9848-3ee7-bcab-65bc8ba8be34/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3732,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b36349f6-9848-3ee7-bcab-65bc8ba8be34",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "A. P. WOOLDRIDGE, President.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=56,58,400,85"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "EDWARD CHRISTIAN, Vice Prest.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=880,58,520,85"
+            },
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "M. C. MILLER, Cashier.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1830,58,400,85"
+            },
+            {
+              "id": "http://example.org/iiif/11",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "[1886, Dec. 21]",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1380,110,600,140"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "THE CITY NATIONAL BANK",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=250,260,1850,210"
+            },
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Austin, Texas",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=770,710,680,120"
+            },
+            {
+              "id": "http://example.org/iiif/14",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "188",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=2080,750,150,70"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "your President M. Carell",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=100,900,2150,150"
+            },
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "were here at that time I",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=50,1060,2200,150"
+            },
+            {
+              "id": "http://example.org/iiif/17",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "think a personal interview",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=60,1230,2200,160"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "would be productive of",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=70,1390,2200,180"
+            },
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "much good to all parties.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=80,1580,2100,160"
+            },
+            {
+              "id": "http://example.org/iiif/20",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Yours truly,",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1000,1720,800,150"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "A.P. Wooldridge",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=950,1850,1300,350"
+            },
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Pr.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1#xywh=1680,2150,150,100"
+            },
+            {
+              "id": "http://example.org/iiif/23",
+              "type": "Annotation",
+              "creator": "gemini-3-pro-preview",
+              "generator": "iiif-paleography@v0.1.0",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The Task at Hand: Transcribing and Formatting a Historical Document**\n\nAlright, let's get down to brass tacks. I've got a digital image here, and the goal is to extract the text, paying very close attention to detail, and reformat it according to the \"TOON\" guidelines. This looks like a letterhead from the City National Bank in Austin, Texas – fascinating! I immediately start analyzing the image dimensions; it’s a sizable image, 2325 pixels wide and 3732 pixels high. The initial visual assessment confirms handwritten elements in the cursive script – it appears to be a draft, which means there might be some crossed-out words and revisions. There's also a pencil-written date in the top right, `[1886, Dec. 21]`, which is the first piece of contextual information I'm focusing on.\n\nMy primary task becomes one of careful textual archaeology. I've got to segment the image into discrete text lines and accurately identify the characters. I start with the printed header, easily discerning the roles of the bank officers: `A. P. WOOLDRIDGE, President.`, `EDWARD CHRISTIAN, Vice Prest.`, and `M. C. MILLER, Cashier.`. The main banner reads `THE CITY NATIONAL BANK`. Then I turn my attention to the script.\n\nThe location and date are given as `Austin, Texas` and `188`, which is partially printed. The body of the letter, the crucial part, starts with some tricky handwriting. I'm focusing in closely here. The first line looks to begin with \"your President M. Cavett\". Wait, there's another name under. It is \"Carell\" is likely, I think, based on the shape of the strokes, or possibly Cavett. There is a lot of ink, and some overwriting. It looks like the original text said \"your President M. Carell\" and was then corrected. There is also the line \"were here at that time I\" written between the \"Austin, Texas\" line and the line beginning with \"think...\". The text in the letter has a very specific structure. It looks like the writer first wrote \"your President M. Carell,\" then wrote \"were here at that time I\" underneath it. There seems to be an insertion of sorts. Based on the writing, I will transcribe \"your President M. Carell\".\n\nI evaluate the ink density, and how the words overlap. I think the author started to write the first sentence, then needed to edit, or include some more information. The line is meant to flow and read, so I need to find the full sentence or at least how the sentences work. The writer added the line \"were here at that time I\", perhaps in between another thought. Then, the body of the letter reads like \"think a personal interview would be productive of much good to all parties.\" – or at least, that's what it *should* read. The word \"productive\" is very unclear, and it looks like a word was over-written.\n\nHere's the visual breakdown:\n\n*   Line 1: `your President M. Carell`\n*   Line 2: `were here at that time I`\n*   Line 3: `think a personal interview`\n*   Line 4: `would be productive of`\n*   Line 5: `much good to all parties.`\n\nI have to carefully evaluate the shape and formation of the letters to determine their true intent. The closing is simply \"Yours truly,\" and the signature is \"A. P. Wooldridge\" with the title below, \"Pr.\". Wait, is that a capital \"Q\"? No. Given the President is listed on the top line, I'll transcribe this as \"Pr.\" for brevity.\n\nNow, I'm calculating the coordinates for each text block. We're working with pixel coordinates, the most accurate way of mapping out the content. I'm noting the X and Y coordinates, and the width and height of each text block. I'll need these coordinates later on for formatting the output.\n\nAfter the initial estimation, I refined those coordinates by double-checking them. For example, the `THE CITY NATIONAL BANK` banner covers a large area, so the X and Y coordinate, along with the width and height will need to reflect the size of that area. I make several more passes over each line and carefully look at each line again.\n\nI zoom in on the handwriting. I must interpret the letter shapes and context. The writer's penmanship is not overly precise, but the goal is accuracy. I'm meticulously breaking down each line, considering ambiguous characters, and making a call that is faithful to the image.\n\nThe word \"Carell\" has been giving me a bit of trouble. I'm taking the time to\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/150/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,281 +1,330 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-40.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. Gartner, March 21, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-03-21"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. Gartner, March 21, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/45ee27e4-1a73-3854-94c0-03773ad84eaa/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3079,
-            "width": 1954,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/45ee27e4-1a73-3854-94c0-03773ad84eaa/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3079,
-                                "width": 1954,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/45ee27e4-1a73-3854-94c0-03773ad84eaa",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p align=\"right\">Mar, 21st 1883.</p>\n\n[Body]\n<p>Prof. N. C. Tennis:<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your kind letter I<br/>\nreceived, & was glad to learn that<br/>\nI had left that Policy with you,<br/>\nfor I really did not remember what<br/>\nI had done with it. The agent<br/>\nhas been up to see me, & says<br/>\nthe Policy must be signed by<br/>\nme, & given over to him, so I<br/>\nwill be under many obligations, if<br/>\nyou will forward it to me, as<br/>\nsoon as possible. _______</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I must thank you again, for<br/>\nyour kindness in attending to my<br/>\nbusiness matters for me, & hope I<br/>\nhave not troubled you too much.<br/>\nWe were glad to know the cause</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process**\n\nAlright, let's get down to transcribing this handwritten letter. My initial assessment is that it's dated \"Mar, 21st 1883\" and seems to be addressed to a \"Prof. H.C. [Something]\", which requires some careful deciphering. The handwriting is cursive, which means I need to pay close attention to the letter forms.\n\nFirst, I examine the recipient's name closely. It looks like it could be \"Dennis,\" \"Jernis,\" or even \"Tennis.\" I begin by comparing the shape of the initial capital letter in the surname to other capital letters within the text. The 'T' in \"The\" gives me a point of comparison, and it does look like the surname starts with a 'T.' The shape of the loop in that initial letter is a critical visual cue. Comparing other instances of 'T' in the letter, and the way the stem curves over, the 'Tennis' is a plausible candidate. The other possibilities begin to fade on review.\n\nI read the letter\u2019s content for context. The sender mentions a \"Policy\" that needs signing and refers to an \"agent\". The letter contains a formal tone and expresses gratitude, and confirms that I need to be exact in the transcription.\n\nI return to the recipient's name. I begin to piece together \"Prof. N. C. Tennis.\" The \"N\" is not a \"W\", it looks more like a \"N\" or an \"M\". The initials become \"N. C.\" from the overall shape.\n\nI now focus on transcribing the body of the letter. This is where I can apply my understanding of old-fashioned letter writing to the process. I am careful to preserve the original line breaks and any indentation, making sure to preserve the flow.\n\nAs I transcribe, I constantly re-evaluate my initial interpretations of specific letter forms. For example, I compare the 'T' in \"Tennis\" to the 'T' in \"The\" and to other uses of T in the document. I compare the way a handwritten \"e\" is formed. I confirm each letter in the name \"Tennis\", comparing it with other letters in the text to be sure I am as accurate as possible.\n\nI note the embossed stamp in the top-left corner but it is too faint to be certain of its contents. I recognize that I must only transcribe what I can visually confirm.\n\nI then move to generate a draft:\n\n```\n[Header: Embossed stamp top left, illegible mostly]\n[Date:] Mar, 21st 1883.\n\nProf. N. C. [or M.C.] Tennis [or Fernis]:\nDear Sir;\nYour kind letter I\nreceived, & was glad to learn that\nI had left that Policy with you,\nfor I really did not remember what\nI had done with it. The agent\nhas been up to see me, & says\nthe Policy must be signed by\nme, & given over to him, so I\nwill be under many obligations, if\nyou will forward it to me, as\nsoon as possible. ______\nI must thank you again, for\nyour kindness in attending to my\nbusiness matters for me, & hope I\nhave not troubled you too much.\nWe were glad to know the cause\n```\n\nI return again to the recipient's name to solidify my reading. I re-examine each letter and the patterns of cursive to identify a match. I consider several names and rule them out. I carefully look at the stroke and the count of downstrokes of the first letter. Given the form of the cursive, and comparing it to the handwriting, I am confident that it reads \"Prof. N. C. Tennis\". I use the final reading for a final draft:\n\n```\n[Header]\n<p align=\"right\">Mar, 21st 1883.</p>\n<p>Prof. N. C. Tennis:<br/>\nDear Sir;</p>\n<p>Your kind letter I<br/>\nreceived, & was glad to learn that<br/>\nI had left that Policy with you,<br/>\nfor I really did not remember what<br/>\nI had done with it. The agent<br/>\nhas been up to see me, & says<br/>\nthe Policy must be signed by<br/>\nme, & given over to him, so I<br/>\nwill be under many obligations, if<br/>\nyou will forward it to me, as<br/>\nsoon as possible. _______</p>\n<p>I must thank you again, for<br/>\nyour kindness in attending to my<br/>\nbusiness matters for me, & hope I<br/>\nhave not troubled you too much.<br/>\nWe were glad to know the cause\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3079,
-            "width": 1954,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7d0ec2a8-1d2d-3ed7-8e2d-a6850fc9f97f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3079,
-                                "width": 1954,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7d0ec2a8-1d2d-3ed7-8e2d-a6850fc9f97f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>of that disagreeable odor, in the<br/>\nhouse,\u2014 How are all of our<br/>\nfriends at College? We often<br/>\nthink of them. Please remember<br/>\nme very kindly to Prof. Van Winkle,<br/>\n& the James family. Tell M<sup>rs</sup> James,<br/>\n(the old lady), that I have been<br/>\nwanting to write to her, but my<br/>\nhealth is still <i>so</i> miserable, that<br/>\nI am not able. I have been having<br/>\nchills constantly, & it seems<br/>\nimpossible to break them up : I<br/>\nhave almost despaired. \u2014</p>\n<p>The baby is very well indeed, & is<br/>\nbeing terribly spoiled by his <i>Grandma</i>.<br/>\nMother & sister send kindest regards<br/>\nto you, & the baby sends a <i>Kiss</i>.</p>\n<p>We will always be glad to hear from<br/>\nyou.</p>\n<p>Sincerely your friend<br/>\nT. Gartner. \u2014</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Summary of Transcription Process**\n\nOkay, here's the deal. I've got this handwritten letter in front of me, and my job is to get it down as text, preserving its feel. First, I had to figure out what kind of document it was \u2013 a letter, for sure. The handwriting's a bit old-fashioned, maybe 19th or early 20th century. I get a sense of what it's about: someone's writing about their health, college pals, a few specific people, and family news. It's got that standard paragraph structure you'd expect. There's a stamp in the corner, but it's too blurry to read, so I'm skipping it \u2013 the instructions said to transcribe \"all text,\" so I'm focusing on the handwritten part.\n\nThen, I went line by line. I have to make sure every word is spot-on. I'm keeping the original layout, and I'll use `<br>` tags to signal the line breaks. Underlined words \u2013 those are important. The prompt mentions a restricted set of HTML tags. I will use `<i>` for underlining, for now, so it still indicates emphasis. I'm taking the words as they appear: some of the text is a bit tricky, but I'm getting the gist, and I will be accurate. The prompt requires accuracy. The overall style is standard.\n\nI'm keeping an eye out for capitalization, too \u2013 \"College,\" \"Prof.,\" names, \"Grandma,\" etc. Also, this `M<sup>rs</sup>` thing. The dot is very low, below the superscript. The punctuation at the end of each line? It is key for later. I am keeping everything.\n\nThen, I'm just reading it through. I'll make sure there are three distinct parts, and then the signature. I'll also add `<p>` to begin paragraphs. I am using all tags as requested. The indentation on some lines suggests new sections, and I'll format that using paragraphs. Overall, I think I've got a good handle on it now. I will preserve the original text as it is, as best as I can.\n\nHere's the final output:\n\n```html\n<p>of that disagreeable odor, in the<br/>house,\u2014 How are all of our<br/>friends at College? We often<br/>think of them. Please remember<br/>me very kindly to Prof. Van Winkle,<br/>& the James family. Tell M<sup>rs</sup> James,<br/>(the old lady), that I have been<br/>wanting to write to her, but my<br/>health is still <i>so</i> miserable, that<br/>I am not able. I have been having<br/>chills constantly, & it seems<br/>impossible to break them up : I<br/>have almost despaired. \u2014</p>\n<p>The baby is very well indeed, & is<br/>being terribly spoiled by his <i>Grandma</i>.<br/>Mother & sister send kindest regards<br/>to you, & the baby sends a <i>Kiss</i>.<br/>We will always be glad to hear from<br/>you.</p>\n<p>Sincerely your friend<br/>T. Gartner. \u2014</p>\n```\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3079,
-            "width": 1954,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/a20aedb1-2358-3ebc-91f1-aa3a572b69ff/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3079,
-                                "width": 1954,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a20aedb1-2358-3ebc-91f1-aa3a572b69ff",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>S.G.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription Process**\n\nAlright, let's get to work. First, I need to transcribe the image provided. I can see a faintly embossed stamp in the top left corner, but it's illegible; I'll skip that since it's not text. Then, I see handwritten text, so let's break that down: \"P.S.\", \"I received the papers & Magazines all\", \"right.\", and \"S.G.\". Simple enough.\n\nI am analyzing the handwriting; \"P.S.\" is clear, cursive but readable. \"I received\" is standard cursive, same with \"the papers\". The \"&\" is the usual ampersand. I see the capital \"M\" in \"Magazines\", with a heavier stroke there. \"all\" and \"right.\" are also standard. The initials \"S.G.\" look like a classic \"S\" and \"G\" in cursive. I'll need to double-check that \"S\" to be sure, comparing it to the \"I\" in \"I received\", but I'm confident it's an \"S\".\n\nNow, I will keep the format: the \"P.S.\" is on its own line. Then comes the rest of the message, and then the initials. The \"right.\" is indented slightly. Let's verify that the \"I received the papers & Magazines all\" is correct, and so is \"right.\". Okay, all looks correct. I see a heavier mark on the 'M' in \"Magazines\". Ampersand is the plus sign style.\n\nI need to keep the HTML constraints in mind, only these tags are allowed: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I can't use `&nbsp;`. No commentary allowed, so I'll stay focused on the text. I'll use line breaks to maintain the original layout. I see I can use a `<p>` for a paragraph.\n\nSo, here's my first draft:\n\n<p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>S.G.</p>\n\nI see \"right.\" is indented in the image, so should I indent the signature? Or should it be on its own line? I'll put it on its own line and consider that a signature block. The guidelines want structural elements labeled. So, I will label the initials as [Signature].\n\nI should verify the text again: \"I received the papers & Magazines all\" -> Yes. \"right.\" -> Yes. \"S.G.\" -> Yes. The heavy \"M\", it's present. The ampersand is the plus style.\n\nOkay, let's keep the format strictly as a short note.\n<p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>[Signature] S.G.</p>\n\nI will add the label, to make it clear. But is it a true signature block? Yes, given the context.\n\nLet's look closely at the \"S.G.\" It could potentially be \"I.G.\", but the 'I' in \"I received\" is a clear loop. This one has the telltale loops for a cursive \"S\". And I'm certain it's S.G.\n\nAlright, let's be super thorough. The embossed seal in the top left is not relevant to the transcription. The paper has lines.\n\nFinal Transcription:\n\n<p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>[Signature] S.G.</p>\n\nI'm confident this is the best, most accurate, and compliant transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-40.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. Gartner, March 21, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-03-21"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. Gartner, March 21, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 13 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Insurance--Policies",
+          "Correspondence",
+          "Personal correspondence",
+          "Health--19th century",
+          "College life--19th century",
+          "Family relationships"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Gartner, T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Tennis, N. C.",
+          "Van Winkle",
+          "James family"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from T. Gartner to Louis L. McInnis dated March 21, 1883, requesting that an insurance policy be forwarded to him for signature and return to an agent. Gartner expresses gratitude for McInnis's assistance with business matters and inquires about mutual friends at a college, while also mentioning his ongoing health problems and fondly recalling the college community. The letter includes personal remarks about family members and acknowledgment of received periodicals."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/45ee27e4-1a73-3854-94c0-03773ad84eaa/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3079,
+      "width": 1954,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/45ee27e4-1a73-3854-94c0-03773ad84eaa/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3079,
+                "width": 1954,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/45ee27e4-1a73-3854-94c0-03773ad84eaa",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"right\">Mar, 21st 1883.</p>\n\n[Body]\n<p>Prof. N. C. Tennis:<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your kind letter I<br/>\nreceived, & was glad to learn that<br/>\nI had left that Policy with you,<br/>\nfor I really did not remember what<br/>\nI had done with it. The agent<br/>\nhas been up to see me, & says<br/>\nthe Policy must be signed by<br/>\nme, & given over to him, so I<br/>\nwill be under many obligations, if<br/>\nyou will forward it to me, as<br/>\nsoon as possible. _______</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I must thank you again, for<br/>\nyour kindness in attending to my<br/>\nbusiness matters for me, & hope I<br/>\nhave not troubled you too much.<br/>\nWe were glad to know the cause</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process**\n\nAlright, let's get down to transcribing this handwritten letter. My initial assessment is that it's dated \"Mar, 21st 1883\" and seems to be addressed to a \"Prof. H.C. [Something]\", which requires some careful deciphering. The handwriting is cursive, which means I need to pay close attention to the letter forms.\n\nFirst, I examine the recipient's name closely. It looks like it could be \"Dennis,\" \"Jernis,\" or even \"Tennis.\" I begin by comparing the shape of the initial capital letter in the surname to other capital letters within the text. The 'T' in \"The\" gives me a point of comparison, and it does look like the surname starts with a 'T.' The shape of the loop in that initial letter is a critical visual cue. Comparing other instances of 'T' in the letter, and the way the stem curves over, the 'Tennis' is a plausible candidate. The other possibilities begin to fade on review.\n\nI read the letter’s content for context. The sender mentions a \"Policy\" that needs signing and refers to an \"agent\". The letter contains a formal tone and expresses gratitude, and confirms that I need to be exact in the transcription.\n\nI return to the recipient's name. I begin to piece together \"Prof. N. C. Tennis.\" The \"N\" is not a \"W\", it looks more like a \"N\" or an \"M\". The initials become \"N. C.\" from the overall shape.\n\nI now focus on transcribing the body of the letter. This is where I can apply my understanding of old-fashioned letter writing to the process. I am careful to preserve the original line breaks and any indentation, making sure to preserve the flow.\n\nAs I transcribe, I constantly re-evaluate my initial interpretations of specific letter forms. For example, I compare the 'T' in \"Tennis\" to the 'T' in \"The\" and to other uses of T in the document. I compare the way a handwritten \"e\" is formed. I confirm each letter in the name \"Tennis\", comparing it with other letters in the text to be sure I am as accurate as possible.\n\nI note the embossed stamp in the top-left corner but it is too faint to be certain of its contents. I recognize that I must only transcribe what I can visually confirm.\n\nI then move to generate a draft:\n\n```\n[Header: Embossed stamp top left, illegible mostly]\n[Date:] Mar, 21st 1883.\n\nProf. N. C. [or M.C.] Tennis [or Fernis]:\nDear Sir;\nYour kind letter I\nreceived, & was glad to learn that\nI had left that Policy with you,\nfor I really did not remember what\nI had done with it. The agent\nhas been up to see me, & says\nthe Policy must be signed by\nme, & given over to him, so I\nwill be under many obligations, if\nyou will forward it to me, as\nsoon as possible. ______\nI must thank you again, for\nyour kindness in attending to my\nbusiness matters for me, & hope I\nhave not troubled you too much.\nWe were glad to know the cause\n```\n\nI return again to the recipient's name to solidify my reading. I re-examine each letter and the patterns of cursive to identify a match. I consider several names and rule them out. I carefully look at the stroke and the count of downstrokes of the first letter. Given the form of the cursive, and comparing it to the handwriting, I am confident that it reads \"Prof. N. C. Tennis\". I use the final reading for a final draft:\n\n```\n[Header]\n<p align=\"right\">Mar, 21st 1883.</p>\n<p>Prof. N. C. Tennis:<br/>\nDear Sir;</p>\n<p>Your kind letter I<br/>\nreceived, & was glad to learn that<br/>\nI had left that Policy with you,<br/>\nfor I really did not remember what<br/>\nI had done with it. The agent<br/>\nhas been up to see me, & says<br/>\nthe Policy must be signed by<br/>\nme, & given over to him, so I<br/>\nwill be under many obligations, if<br/>\nyou will forward it to me, as<br/>\nsoon as possible. _______</p>\n<p>I must thank you again, for<br/>\nyour kindness in attending to my<br/>\nbusiness matters for me, & hope I<br/>\nhave not troubled you too much.<br/>\nWe were glad to know the cause\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3079,
+      "width": 1954,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7d0ec2a8-1d2d-3ed7-8e2d-a6850fc9f97f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3079,
+                "width": 1954,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7d0ec2a8-1d2d-3ed7-8e2d-a6850fc9f97f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>of that disagreeable odor, in the<br/>\nhouse,— How are all of our<br/>\nfriends at College? We often<br/>\nthink of them. Please remember<br/>\nme very kindly to Prof. Van Winkle,<br/>\n& the James family. Tell M<sup>rs</sup> James,<br/>\n(the old lady), that I have been<br/>\nwanting to write to her, but my<br/>\nhealth is still <i>so</i> miserable, that<br/>\nI am not able. I have been having<br/>\nchills constantly, & it seems<br/>\nimpossible to break them up : I<br/>\nhave almost despaired. —</p>\n<p>The baby is very well indeed, & is<br/>\nbeing terribly spoiled by his <i>Grandma</i>.<br/>\nMother & sister send kindest regards<br/>\nto you, & the baby sends a <i>Kiss</i>.</p>\n<p>We will always be glad to hear from<br/>\nyou.</p>\n<p>Sincerely your friend<br/>\nT. Gartner. —</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Summary of Transcription Process**\n\nOkay, here's the deal. I've got this handwritten letter in front of me, and my job is to get it down as text, preserving its feel. First, I had to figure out what kind of document it was – a letter, for sure. The handwriting's a bit old-fashioned, maybe 19th or early 20th century. I get a sense of what it's about: someone's writing about their health, college pals, a few specific people, and family news. It's got that standard paragraph structure you'd expect. There's a stamp in the corner, but it's too blurry to read, so I'm skipping it – the instructions said to transcribe \"all text,\" so I'm focusing on the handwritten part.\n\nThen, I went line by line. I have to make sure every word is spot-on. I'm keeping the original layout, and I'll use `<br>` tags to signal the line breaks. Underlined words – those are important. The prompt mentions a restricted set of HTML tags. I will use `<i>` for underlining, for now, so it still indicates emphasis. I'm taking the words as they appear: some of the text is a bit tricky, but I'm getting the gist, and I will be accurate. The prompt requires accuracy. The overall style is standard.\n\nI'm keeping an eye out for capitalization, too – \"College,\" \"Prof.,\" names, \"Grandma,\" etc. Also, this `M<sup>rs</sup>` thing. The dot is very low, below the superscript. The punctuation at the end of each line? It is key for later. I am keeping everything.\n\nThen, I'm just reading it through. I'll make sure there are three distinct parts, and then the signature. I'll also add `<p>` to begin paragraphs. I am using all tags as requested. The indentation on some lines suggests new sections, and I'll format that using paragraphs. Overall, I think I've got a good handle on it now. I will preserve the original text as it is, as best as I can.\n\nHere's the final output:\n\n```html\n<p>of that disagreeable odor, in the<br/>house,— How are all of our<br/>friends at College? We often<br/>think of them. Please remember<br/>me very kindly to Prof. Van Winkle,<br/>& the James family. Tell M<sup>rs</sup> James,<br/>(the old lady), that I have been<br/>wanting to write to her, but my<br/>health is still <i>so</i> miserable, that<br/>I am not able. I have been having<br/>chills constantly, & it seems<br/>impossible to break them up : I<br/>have almost despaired. —</p>\n<p>The baby is very well indeed, & is<br/>being terribly spoiled by his <i>Grandma</i>.<br/>Mother & sister send kindest regards<br/>to you, & the baby sends a <i>Kiss</i>.<br/>We will always be glad to hear from<br/>you.</p>\n<p>Sincerely your friend<br/>T. Gartner. —</p>\n```\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3079,
+      "width": 1954,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/a20aedb1-2358-3ebc-91f1-aa3a572b69ff/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3079,
+                "width": 1954,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/a20aedb1-2358-3ebc-91f1-aa3a572b69ff",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>S.G.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription Process**\n\nAlright, let's get to work. First, I need to transcribe the image provided. I can see a faintly embossed stamp in the top left corner, but it's illegible; I'll skip that since it's not text. Then, I see handwritten text, so let's break that down: \"P.S.\", \"I received the papers & Magazines all\", \"right.\", and \"S.G.\". Simple enough.\n\nI am analyzing the handwriting; \"P.S.\" is clear, cursive but readable. \"I received\" is standard cursive, same with \"the papers\". The \"&\" is the usual ampersand. I see the capital \"M\" in \"Magazines\", with a heavier stroke there. \"all\" and \"right.\" are also standard. The initials \"S.G.\" look like a classic \"S\" and \"G\" in cursive. I'll need to double-check that \"S\" to be sure, comparing it to the \"I\" in \"I received\", but I'm confident it's an \"S\".\n\nNow, I will keep the format: the \"P.S.\" is on its own line. Then comes the rest of the message, and then the initials. The \"right.\" is indented slightly. Let's verify that the \"I received the papers & Magazines all\" is correct, and so is \"right.\". Okay, all looks correct. I see a heavier mark on the 'M' in \"Magazines\". Ampersand is the plus sign style.\n\nI need to keep the HTML constraints in mind, only these tags are allowed: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I can't use `&nbsp;`. No commentary allowed, so I'll stay focused on the text. I'll use line breaks to maintain the original layout. I see I can use a `<p>` for a paragraph.\n\nSo, here's my first draft:\n\n<p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>S.G.</p>\n\nI see \"right.\" is indented in the image, so should I indent the signature? Or should it be on its own line? I'll put it on its own line and consider that a signature block. The guidelines want structural elements labeled. So, I will label the initials as [Signature].\n\nI should verify the text again: \"I received the papers & Magazines all\" -> Yes. \"right.\" -> Yes. \"S.G.\" -> Yes. The heavy \"M\", it's present. The ampersand is the plus style.\n\nOkay, let's keep the format strictly as a short note.\n<p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>[Signature] S.G.</p>\n\nI will add the label, to make it clear. But is it a true signature block? Yes, given the context.\n\nLet's look closely at the \"S.G.\" It could potentially be \"I.G.\", but the 'I' in \"I received\" is a clear loop. This one has the telltale loops for a cursive \"S\". And I'm certain it's S.G.\n\nAlright, let's be super thorough. The embossed seal in the top left is not relevant to the transcription. The paper has lines.\n\nFinal Transcription:\n\n<p>P.S.<br>\nI received the papers & Magazines all<br>\nright.</p>\n<p>[Signature] S.G.</p>\n\nI'm confident this is the best, most accurate, and compliant transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/40/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

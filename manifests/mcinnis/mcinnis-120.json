@@ -1,281 +1,335 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-120.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from George Curtis, July 26, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-07-26"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from George Curtis, July 26, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 20 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e8143bb2-d2e0-31ab-8743-7020d302fca1/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4242,
-            "width": 2189,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/308",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/307",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e8143bb2-d2e0-31ab-8743-7020d302fca1/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4242,
-                                "width": 2189,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e8143bb2-d2e0-31ab-8743-7020d302fca1",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/317",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/316",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n\n<p align=\"center\"><b>Agricultural and Mechanical College</b><br>\n\u2014:\u2014 OF TEXAS. \u2014:\u2014</p>\n\n<p align=\"center\"><b>Department Agriculture and Horticulture</b><br>\n[Image: Star]<br>\nGEO. W. CURTIS, B. S. A.</p>\n\n<p><small>CORRESPONDENCE<br>\nON MATTERS RELATING TO COLLEGE<br>\nPROPER SHOULD BE ADDRESSED TO<br>\nTHE CHAIRMAN.<br>\nWE INVITE CONSULTATION WITH<br>\nTHE HEAD OF THIS DEPARTMENT; ON<br>\nANY AND ALL TOPICS RELATING TO<br>\nAGRICULTURE AND HORTICULTURE.<br>\nWE MAKE A SPECIALTY OF FINE<br>\nSTOCK.</small></p>\n\n<p align=\"right\"><small>FACULTY.<br>\nCHAIRMAN :<br>\nH. H. DINWIDDIE.<br>\nTREASURER :<br>\nL. L. McINNIS.<br>\nJ. R. COLE. R. WIPPRECHT;<br>\nW. L. BRINGHURST,<br>\nGEO. W. CURTIS,<br>\nR. H. WHITLOCK,<br>\nR. F SMITH.</small></p>\n\n<p>Anamosa, Iowa<br>\nCollege Station, Brazos Co., Texas, July 26\" 1883.</p>\n\n<p>My Dear Prof.: \u2014 Yours of 7/17/83<br>\nfound here on my return from Inde-<br>\npendence. where we have been visiting<br>\nfor the past week. My! we were<br>\nabout used up running around<br>\nso much. Someway it tires<br>\nme more to travel on the cars<br>\nthan to work all day <small>and Florence</small><br>\nagrees to Ditto. I dont know<br>\nabout the girl \u2013 The one we spoke<br>\nof last year cannot come now<br>\nas she is a mother. and I do not<br>\nknow of another one whom<br>\nI would recommend. Cole wants<br>\nto sell me his stuff which he<br>\nhas put around his house<br>\nbut I dont want any such<br>\nproperty. I wrote him that I<br>\nwould pay him interest on his<br>\ninvestment yearly if I should<br>\noccupy the house; but I will<br>\ntell you Professor \u2013 we hardly<br>\nknow whether to take the house</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/318",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I'm approaching this task. First, I'm setting the stage: I'm a transcriptionist, my job is to accurately reproduce the text from this image. The ground rules are pretty straightforward: go top to bottom, left to right, preserve everything \u2013 spelling, punctuation, even the line breaks \u2013 as closely as possible. If the handwriting's fuzzy, I use the \"[?]\" notation. Layout matters, so I'm paying attention to headings, footers, and any special formatting in the source. And the only tools I have at my disposal are HTML tags listed in the prompt; no fancy tricks. The sole output is the transcription itself.\n\nNow, let's dissect the image. It's a handwritten letter on official letterhead. The letterhead gives me a lot to work with. It's from the \"Agricultural and Mechanical College of Texas.\" There's a curved sub-header \"Department Agriculture and Horticulture\", a star graphic, and columns. The left column says \"CORRESPONDENCE\" along with specific instructions in fine print; the right one lists \"FACULTY\" members. And there's a name at the bottom: \"GEO. W. CURTIS, B. S. A.\"\n\nThen comes the handwriting itself. It's cursive and slanted, which I need to get as clear as possible. The location is handwritten \"Anamosa, Iowa\" *over* the printed \"College Station, Brazos Co., Texas,\". The date is \"July 26\" 1883.\" The salutation is \"My Dear Prof.:\" and then the main text. I need to make sure I transcribe everything precisely.\n\nI'm thinking about the transcription in stages. First, the header section. I need to get the main title (\"Agricultural and Mechanical College\"), the subtitle (\"OF TEXAS\"), and then the contents of the columns right. The left column, \"CORRESPONDENCE\", is important: \"ON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN.\" etc. The right column, with the FACULTY list, requires careful transcription of names: H. H. Dinwiddie, L. L. McInnis, J. R. Cole, R. Wipprecht, W. L. Bringhurst, Geo. W. Curtis, R. H. Whitlock, and R. F. Smith. And finally, the name at the bottom, GEO. W. CURTIS, B. S. A.\n\nNext, I look at the dateline. The \"College Station...\" text is crossed out, but I'll transcribe it. The handwriting above it says \"Anamosa, Iowa\". It is more important than the printed text. The date is \"July 26\" 1883\".\n\nThe salutation is straightforward: \"My Dear Prof.: \u2014\".\n\nNow the body. Paragraph by paragraph:\n\n*   \"Yours of 7/17/83\"\n*   \"found here on my return from Independence,\"\n*   \"where we have been visiting\"\n*   \"for the past week.\"\n*   \"My! we were\"\n*   \"about used up running around\"\n*   \"so much. Someway it tires\"\n*   \"me more to travel on the cars\"\n*   \"than to work all day and Florence agrees to Ditto.\"\n*   \"I dont know about the girl \u2013 The one we spoke\"\n*   \"of last year cannot come now as she is a mother. and I do not\"\n*   \"know of another one whom I would recommend.\"\n\nThat's the first paragraph. The second paragraph:\n\n*   \"Cole wants\"\n*   \"to sell me his stuff which he\"\n*   \"has put around his house\"\n*   \"but I dont want any such\"\n*   \"property. I wrote him that I\"\n*   \"would pay him interest on his\"\n*   \"investment yearly if I should\"\n*   \"occupy the house; but I will tell you Professor \u2013 we hardly\"\n*   \"know whether to take the house\"\n\nNow comes the formatting: I'll use `<p>` for paragraphs, `<b>` for bold headers, and `<small>` for fine print. I can't use `<s>` for strikethrough, so I'll just transcribe the text as it is, possibly by placing the written text above the printed text. I'll need to double-check that this is permitted.\n\nI'm centering the main text of the header visually via line breaks, since the prompt only specifies certain allowed HTML elements. I can't use `<table>` for layout, but I can separate columns with breaks.\n\nI'm now re-reading the handwriting very closely\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4242,
-            "width": 2189,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/310",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/309",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/ab9f785a-43e7-3ec0-be18-398748fee27a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4242,
-                                "width": 2189,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/ab9f785a-43e7-3ec0-be18-398748fee27a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/320",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/319",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"right\">[1885, July 26]</p>\n\n<b>Agricultural and Mechanical College</b>\n<p>--- OF TEXAS. ---</p>\n\n| | | |\n| :--- | :---: | :--- |\n| <small><b>CORRESPONDENCE</b><br><br>ON MATTERS RELATING TO COLLEGE<br>PROPER SHOULD BE ADDRESSED TO<br>THE CHAIRMAN.<br>WE INVITE CONSULTATION WITH<br>THE HEAD OF THIS DEPARTMENT, ON<br>ANY AND ALL TOPICS RELATING TO<br>AGRICULTURE AND HORTICULTURE.<br>WE MAKE A SPECIALTY OF FINE<br>STOCK.</small> | <b>Department Agriculture and Horticulture</b><br><br>\u2605<br><br><b>GEO. W. CURTIS, B. S. A.</b> | <small><b>FACULTY.</b><br><br>CHAIRMAN :<br>H. H. DINWIDDIE.<br>TREASURER :<br>L. L. McINNIS.<br>J. R. COLE. R. WIPPRECHT,<br>W. L. BRINGHURST,<br>GEO. W. CURTIS,<br>R. H. WHITLOCK,<br>R. F. SMITH.</small> |\n\n<br>\n\n<p><i>College Station, Brazos Co., Texas,</i> ..................... <i>188</i></p>\n\n[Margin: L.L. McI<br>2]\n\n<p>or not. We dont like the<br>\nhouse in the first place and<br>\nit is terribly used up from<br>\nhaving so many youthful<br>\nscions growing up around<br>\nIt is not like Dinwiddie's and of course there<br>\nwould be no prospect of getting<br>\nDinwiddie to change<br>\nThen in the second place<br>\nwe have our rooms comfortably<br>\nfixed where we are and if we<br>\nchange it will cost a good deal<br>\nto fix up the house so as to be<br>\nhabitable and then to get outfit to<br>\nstart to housekeeping. I declare<br>\nI dont know what to do. I<br>\nknow I should like it better<br>\nto keep house: but it would<br>\nthrow more care & responsibility<br>\non Mrs. C. Well we are going<br>\nto ruminate on it any way<br>\nand if we can find one girl<br>\nwho is willing to go for you we will<br>\nengage her subject to your<br>\napproval by letter whether we<br>\ngo to housekeeping or not.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/321",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Refinement**\n\nOkay, here's what I've got. I've received an image of a handwritten letter on official letterhead from the Agricultural and Mechanical College of Texas, and my task is to produce a transcription of the text, focusing on accuracy and layout. I've broken down my process into several stages.\n\nFirst, the *header*. I carefully analyzed the header elements, noting the handwritten date \"[1885, July 26]\" in pencil at the top right, the main title \"Agricultural and Mechanical College,\" the subtitle \"--- OF TEXAS. ---,\" and the departmental information. I used a Markdown table to preserve the intended column layout for the correspondence rules, faculty list, and the central department information. I made sure to capture all the text, even the small print and the graphics, like the star. I looked up to compare the faculty member's names with the image to ensure accuracy.\n\nNext, I turned my attention to the *dateline* and the *body text*. I observed the dateline, \"College Station, Brazos Co., Texas, ... 188...\" and the marginal note \"L.L. McI\" with a \"2\" underneath, suggesting it's page 2 of a letter. The body text presented a few challenges. I paid close attention to the handwriting, noting the cursive script. I'm going to transcribe everything faithfully, including any insertions or strikethroughs (though the prompts limits my ways to address it). I made sure to capture the original text, interpret the deletions, and try to preserve the spirit of the writer's intent, given the restrictions. The guidelines said I should \"Preserve original spelling... Interpret handwritten text\".\n\nHere's how I handled specific text features:\n\n*   **Strikethroughs:** I've been given a restricted list of HTML tags I can use. I can't directly use tags like `<s>` or `<del>` to denote strikethroughs. However, I can still transcribe the text as it's written. I've re-examined and carefully considered the crossed-out words in line 1 (\"We dont [crossed out word] like the\"). I'm choosing to transcribe the text as \"We dont like the\", since that seems to be the final intent.\n\n*   **Insertions:** I've noted any inserted words or phrases (e.g., \"and\" inserted into a sentence). I've transcribed these as they appear in the text. I will use only text, in order, from the image.\n\n*   **Marginalia:** The \"L.L. McI\" and \"2\" notes (likely page 2 indicator) are transcribed accurately. The handwriting in the marginalia is not legible but will be kept.\n\n*   **Questionable words:** I carefully examined words that were potentially unclear, such as \"ruminate\" or words with corrections, using context and letter comparison. Line 22 \"to ruminate\" caused me some doubt, but through context and letter comparison, I verified this. I decided it could be.\n\nRegarding the *layout*, I'll use Markdown to represent the header structure (table for columns) and paragraphs for the body. I will stick to allowed tags to maintain readability.\n\nI've also made a few linguistic observations:\n\n*   The \"scions\" reference indicates the writer is talking about many children.\n*   The \"Mrs. C\" likely refers to Mrs. Curtis, as the letter is written by \"GEO. W. CURTIS\".\n*   The letter mentions H. H. Dinwiddie, the chairman, and L. L. McInnis, the Treasurer.\n\nThe final transcription is designed to be as accurate as possible, within the given constraints, and to reflect the original text's nuances and layout.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 4242,
-            "width": 2189,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/312",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/311",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b8aa6f94-500d-3205-aad8-316b906219ca/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4242,
-                                "width": 2189,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b8aa6f94-500d-3205-aad8-316b906219ca",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/323",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/322",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p align=\"right\"><small>[1885, July 26]</small></p>\n<p align=\"center\"><b><big>Agricultural and Mechanical College</big></b><br>\n<small><b>&#x26AC;&#x26AC;&#x26AC;&#x26AC; OF TEXAS. &#x26AC;&#x26AC;&#x26AC;&#x26AC;</b></small></p>\n\n<p><b>CORRESPONDENCE</b><br>\n<small>ON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN.<br>\nWE INVITE CONSULTATION WITH THE HEAD OF THIS DEPARTMENT, ON ANY AND ALL TOPICS RELATING TO AGRICULTURE AND HORTICULTURE.<br>\nWE MAKE A SPECIALTY OF FINE STOCK.</small></p>\n\n<p align=\"center\"><b>Department Agriculture and Horticulture</b><br>\n[Graphic: Star]</p>\n\n<p align=\"right\"><b>FACULTY.</b><br>\n<small>CHAIRMAN :<br>\nH. H. DINWIDDIE.<br>\nTREASURER :<br>\nL. L. McINNIS.<br>\nJ. R. COLE. R. WIPPRECHT,<br>\nW. L. BRINGHURST,<br>\nGEO. W. CURTIS,<br>\nR. H. WHITLOCK,<br>\nR. F SMITH.</small></p>\n\n<p align=\"center\"><b>GEO. W. CURTIS, B. S. A.</b></p>\n[/Header]\n\n[Margin: L McI 3]\n\n<p>College Station, Brazos Co., Texas, ________________ 188_</p>\n\n<p>You may appreciate our indecision in the matter. So many things are to be considered</p>\n<p>Many thanks for your help in trying to get part of my expenses paid to Washington Of course I do not know how it happened but I think I can guess pretty closely When we meet we can talk some things over.</p>\n<p>Am glad you are going to attend St. Grange. watch things carefully, wish I could be there too: hope you may be able to establish the belief that we have something else at <sup>in sympathy with the Grange</sup> College, besides a Chairman. Well I am going to church - Can you say as much?</p>\n<p>Mrs Curtis joins in Love to \"Miss McI\" and kindest wishes for all of our friends at Forest</p>\n\n<p>Ever truly<br>\nGeo. W. Curtis</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/324",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Letter Transcription Analysis: A Deep Dive**\n\nAlright, let's break this down. My goal here is to get a clean transcription of this letter, making sure to capture the nuances of the handwriting and layout, while also paying close attention to the historical context.\n\nFirst, the letterhead. It's the \"Agricultural and Mechanical College OF TEXAS,\" with the pencil date \"[1885, July 26]\" penciled in at the top. The organization of the letterhead text is as follows:\n\n*   **Left Column (Correspondence)** is where we have: \"CORRESPONDENCE,\" then some guidelines, \"ON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN,\" followed by \"WE INVITE CONSULTATION WITH THE HEAD OF THIS DEPARTMENT, ON ANY AND ALL TOPICS RELATING TO AGRICULTURE AND HORTICULTURE,\" and finally, \"WE MAKE A SPECIALTY OF FINE STOCK.\"\n\n*   **Center Graphic:** A graphic or image with \"Department Agriculture and Horticulture\" in an arc over a star. This likely signifies the specific department.\n\n*   **Right Column (Faculty)** has the \"FACULTY\" heading, then the names: \"CHAIRMAN : H. H. DINWIDDIE.\", \"TREASURER : L. L. McINNIS.\", \"J. R. COLE. R. WIPPRECHT,\", \"W. L. BRINGHURST,\", \"GEO. W. CURTIS,\", \"R. H. WHITLOCK,\", \"R. F SMITH.\".\n\n*   **Bottom Center:** \"GEO. W. CURTIS, B. S. A.\" \u2013 his signature and designation.\n\nNow, let's dig into the handwritten portion. The standard format:\n\n*   **Date Line:** \"College Station, Brazos Co., Texas, _______________ 188_\" \u2013 the year is incomplete. Note that the date at the top is very likely the completed date. The blank space indicates it wasn't filled in at the time.\n\n*   **Margin Note:** \"L McI\" and \"3\" \u2013 this is important. \"L McI\" likely relates to L. L. McInnis, the Treasurer listed on the letterhead. It's a filing reference, or an indicator of priority.\n\n*   **Body of the Letter:**\n\n    *   The first paragraph, the writer is saying, \"You may appreciate our indecision in the matter. So many things are to be considered.\"\n    *   Next, \"Many thanks for your help in trying to get part of my expenses paid to Washington Of course I do not know how it happened but I think I can guess pretty closely When we meet we can talk some things over.\" There is a reference to some help, and \"Washington\" (I believe it's capitalized).\n    *   Then, \"Am glad you are going to attend St. Grange. watch things carefully, wish I could be there too: hope you may be able to establish the belief that we have something else at <sup>in sympathy with the Grange</sup> College, besides a Chairman. Well I am going to church - Can you say as much?\" This is interesting. \"St. Grange\" could be \"State Grange\". But, I will record the \"St.\", or State, or St. Grange, given that it's likely an abbreviated reference to an agricultural organization or meeting. The \"in sympathy with the Grange\" text is inserted.\n    *   Finally, there is \"Mrs Curtis joins in Love to \"Miss McI\" and kindest wishes for all of our friends at Forest Ever truly Geo. W. Curtis\". The reference to \"Miss McI\" is in quotes. Given the \"L McI\" filing note, it is probably in reference to L.L. McInnis. Or maybe a relative or friend of Mr. McInnis. \"Forest\" is likely a place, or friend.\n\nNow the transcription itself:\n\n```html\n[Header]\n[1885, July 26]\nAgricultural and Mechanical College\nOF TEXAS.\n\n<p style=\"text-align: left;\">\nCORRESPONDENCE\n<br>\nON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN.\n<br>\nWE INVITE CONSULTATION WITH THE HEAD OF THIS DEPARTMENT, ON ANY AND ALL TOPICS RELATING TO AGRICULTURE AND HORTICULTURE.\n<br>\nWE MAKE A SPECIALTY OF FINE STOCK.</p>\n\n<p style=\"text-align: center;\">Department Agriculture and Horticulture [Graphic: Star]</p>\n\n<p style=\"text-align: right;\">FACULTY.<br>\nCHAIRMAN : H. H. DINWIDDIE.<br>\nTREASURER : L. L. McINNIS.<br>\nJ. R. COLE. R. WIPPRECHT,<br>\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-120.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from George Curtis, July 26, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-07-26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from George Curtis, July 26, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 20 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural education--Texas--History--19th century",
+          "Texas A&M University--History",
+          "Agriculture--Study and teaching",
+          "Horticulture--Study and teaching",
+          "College faculty--Texas",
+          "Domestic life--19th century",
+          "Housing--Texas--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Curtis, George W. (George William), 1852-1927"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Dinwiddie, H. H.",
+          "Cole, J. R.",
+          "Wipprecht, R.",
+          "Bringhurst, W. L.",
+          "Whitlock, R. H.",
+          "Smith, R. F.",
+          "Curtis, Mrs. (Florence)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Personal letter from George W. Curtis, professor of agriculture at Texas Agricultural and Mechanical College, to Louis L. McInnis, the college treasurer, dated July 26, 1885. Curtis discusses his recent travels, his indecision about accepting faculty housing, domestic arrangements and household help, and expresses interest in attending the State Grange meeting. The letter reflects both professional collegial concerns and personal domestic matters of a faculty family during the early development of Texas A&M."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e8143bb2-d2e0-31ab-8743-7020d302fca1/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4242,
+      "width": 2189,
+      "items": [
+        {
+          "id": "http://example.org/iiif/308",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/307",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e8143bb2-d2e0-31ab-8743-7020d302fca1/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4242,
+                "width": 2189,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e8143bb2-d2e0-31ab-8743-7020d302fca1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/317",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/316",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n\n<p align=\"center\"><b>Agricultural and Mechanical College</b><br>\n—:— OF TEXAS. —:—</p>\n\n<p align=\"center\"><b>Department Agriculture and Horticulture</b><br>\n[Image: Star]<br>\nGEO. W. CURTIS, B. S. A.</p>\n\n<p><small>CORRESPONDENCE<br>\nON MATTERS RELATING TO COLLEGE<br>\nPROPER SHOULD BE ADDRESSED TO<br>\nTHE CHAIRMAN.<br>\nWE INVITE CONSULTATION WITH<br>\nTHE HEAD OF THIS DEPARTMENT; ON<br>\nANY AND ALL TOPICS RELATING TO<br>\nAGRICULTURE AND HORTICULTURE.<br>\nWE MAKE A SPECIALTY OF FINE<br>\nSTOCK.</small></p>\n\n<p align=\"right\"><small>FACULTY.<br>\nCHAIRMAN :<br>\nH. H. DINWIDDIE.<br>\nTREASURER :<br>\nL. L. McINNIS.<br>\nJ. R. COLE. R. WIPPRECHT;<br>\nW. L. BRINGHURST,<br>\nGEO. W. CURTIS,<br>\nR. H. WHITLOCK,<br>\nR. F SMITH.</small></p>\n\n<p>Anamosa, Iowa<br>\nCollege Station, Brazos Co., Texas, July 26\" 1883.</p>\n\n<p>My Dear Prof.: — Yours of 7/17/83<br>\nfound here on my return from Inde-<br>\npendence. where we have been visiting<br>\nfor the past week. My! we were<br>\nabout used up running around<br>\nso much. Someway it tires<br>\nme more to travel on the cars<br>\nthan to work all day <small>and Florence</small><br>\nagrees to Ditto. I dont know<br>\nabout the girl – The one we spoke<br>\nof last year cannot come now<br>\nas she is a mother. and I do not<br>\nknow of another one whom<br>\nI would recommend. Cole wants<br>\nto sell me his stuff which he<br>\nhas put around his house<br>\nbut I dont want any such<br>\nproperty. I wrote him that I<br>\nwould pay him interest on his<br>\ninvestment yearly if I should<br>\noccupy the house; but I will<br>\ntell you Professor – we hardly<br>\nknow whether to take the house</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/318",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process Deep Dive**\n\nOkay, here's how I'm approaching this task. First, I'm setting the stage: I'm a transcriptionist, my job is to accurately reproduce the text from this image. The ground rules are pretty straightforward: go top to bottom, left to right, preserve everything – spelling, punctuation, even the line breaks – as closely as possible. If the handwriting's fuzzy, I use the \"[?]\" notation. Layout matters, so I'm paying attention to headings, footers, and any special formatting in the source. And the only tools I have at my disposal are HTML tags listed in the prompt; no fancy tricks. The sole output is the transcription itself.\n\nNow, let's dissect the image. It's a handwritten letter on official letterhead. The letterhead gives me a lot to work with. It's from the \"Agricultural and Mechanical College of Texas.\" There's a curved sub-header \"Department Agriculture and Horticulture\", a star graphic, and columns. The left column says \"CORRESPONDENCE\" along with specific instructions in fine print; the right one lists \"FACULTY\" members. And there's a name at the bottom: \"GEO. W. CURTIS, B. S. A.\"\n\nThen comes the handwriting itself. It's cursive and slanted, which I need to get as clear as possible. The location is handwritten \"Anamosa, Iowa\" *over* the printed \"College Station, Brazos Co., Texas,\". The date is \"July 26\" 1883.\" The salutation is \"My Dear Prof.:\" and then the main text. I need to make sure I transcribe everything precisely.\n\nI'm thinking about the transcription in stages. First, the header section. I need to get the main title (\"Agricultural and Mechanical College\"), the subtitle (\"OF TEXAS\"), and then the contents of the columns right. The left column, \"CORRESPONDENCE\", is important: \"ON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN.\" etc. The right column, with the FACULTY list, requires careful transcription of names: H. H. Dinwiddie, L. L. McInnis, J. R. Cole, R. Wipprecht, W. L. Bringhurst, Geo. W. Curtis, R. H. Whitlock, and R. F. Smith. And finally, the name at the bottom, GEO. W. CURTIS, B. S. A.\n\nNext, I look at the dateline. The \"College Station...\" text is crossed out, but I'll transcribe it. The handwriting above it says \"Anamosa, Iowa\". It is more important than the printed text. The date is \"July 26\" 1883\".\n\nThe salutation is straightforward: \"My Dear Prof.: —\".\n\nNow the body. Paragraph by paragraph:\n\n*   \"Yours of 7/17/83\"\n*   \"found here on my return from Independence,\"\n*   \"where we have been visiting\"\n*   \"for the past week.\"\n*   \"My! we were\"\n*   \"about used up running around\"\n*   \"so much. Someway it tires\"\n*   \"me more to travel on the cars\"\n*   \"than to work all day and Florence agrees to Ditto.\"\n*   \"I dont know about the girl – The one we spoke\"\n*   \"of last year cannot come now as she is a mother. and I do not\"\n*   \"know of another one whom I would recommend.\"\n\nThat's the first paragraph. The second paragraph:\n\n*   \"Cole wants\"\n*   \"to sell me his stuff which he\"\n*   \"has put around his house\"\n*   \"but I dont want any such\"\n*   \"property. I wrote him that I\"\n*   \"would pay him interest on his\"\n*   \"investment yearly if I should\"\n*   \"occupy the house; but I will tell you Professor – we hardly\"\n*   \"know whether to take the house\"\n\nNow comes the formatting: I'll use `<p>` for paragraphs, `<b>` for bold headers, and `<small>` for fine print. I can't use `<s>` for strikethrough, so I'll just transcribe the text as it is, possibly by placing the written text above the printed text. I'll need to double-check that this is permitted.\n\nI'm centering the main text of the header visually via line breaks, since the prompt only specifies certain allowed HTML elements. I can't use `<table>` for layout, but I can separate columns with breaks.\n\nI'm now re-reading the handwriting very closely\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4242,
+      "width": 2189,
+      "items": [
+        {
+          "id": "http://example.org/iiif/310",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/309",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/ab9f785a-43e7-3ec0-be18-398748fee27a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4242,
+                "width": 2189,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/ab9f785a-43e7-3ec0-be18-398748fee27a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/320",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/319",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"right\">[1885, July 26]</p>\n\n<b>Agricultural and Mechanical College</b>\n<p>--- OF TEXAS. ---</p>\n\n| | | |\n| :--- | :---: | :--- |\n| <small><b>CORRESPONDENCE</b><br><br>ON MATTERS RELATING TO COLLEGE<br>PROPER SHOULD BE ADDRESSED TO<br>THE CHAIRMAN.<br>WE INVITE CONSULTATION WITH<br>THE HEAD OF THIS DEPARTMENT, ON<br>ANY AND ALL TOPICS RELATING TO<br>AGRICULTURE AND HORTICULTURE.<br>WE MAKE A SPECIALTY OF FINE<br>STOCK.</small> | <b>Department Agriculture and Horticulture</b><br><br>★<br><br><b>GEO. W. CURTIS, B. S. A.</b> | <small><b>FACULTY.</b><br><br>CHAIRMAN :<br>H. H. DINWIDDIE.<br>TREASURER :<br>L. L. McINNIS.<br>J. R. COLE. R. WIPPRECHT,<br>W. L. BRINGHURST,<br>GEO. W. CURTIS,<br>R. H. WHITLOCK,<br>R. F. SMITH.</small> |\n\n<br>\n\n<p><i>College Station, Brazos Co., Texas,</i> ..................... <i>188</i></p>\n\n[Margin: L.L. McI<br>2]\n\n<p>or not. We dont like the<br>\nhouse in the first place and<br>\nit is terribly used up from<br>\nhaving so many youthful<br>\nscions growing up around<br>\nIt is not like Dinwiddie's and of course there<br>\nwould be no prospect of getting<br>\nDinwiddie to change<br>\nThen in the second place<br>\nwe have our rooms comfortably<br>\nfixed where we are and if we<br>\nchange it will cost a good deal<br>\nto fix up the house so as to be<br>\nhabitable and then to get outfit to<br>\nstart to housekeeping. I declare<br>\nI dont know what to do. I<br>\nknow I should like it better<br>\nto keep house: but it would<br>\nthrow more care & responsibility<br>\non Mrs. C. Well we are going<br>\nto ruminate on it any way<br>\nand if we can find one girl<br>\nwho is willing to go for you we will<br>\nengage her subject to your<br>\napproval by letter whether we<br>\ngo to housekeeping or not.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/321",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Refinement**\n\nOkay, here's what I've got. I've received an image of a handwritten letter on official letterhead from the Agricultural and Mechanical College of Texas, and my task is to produce a transcription of the text, focusing on accuracy and layout. I've broken down my process into several stages.\n\nFirst, the *header*. I carefully analyzed the header elements, noting the handwritten date \"[1885, July 26]\" in pencil at the top right, the main title \"Agricultural and Mechanical College,\" the subtitle \"--- OF TEXAS. ---,\" and the departmental information. I used a Markdown table to preserve the intended column layout for the correspondence rules, faculty list, and the central department information. I made sure to capture all the text, even the small print and the graphics, like the star. I looked up to compare the faculty member's names with the image to ensure accuracy.\n\nNext, I turned my attention to the *dateline* and the *body text*. I observed the dateline, \"College Station, Brazos Co., Texas, ... 188...\" and the marginal note \"L.L. McI\" with a \"2\" underneath, suggesting it's page 2 of a letter. The body text presented a few challenges. I paid close attention to the handwriting, noting the cursive script. I'm going to transcribe everything faithfully, including any insertions or strikethroughs (though the prompts limits my ways to address it). I made sure to capture the original text, interpret the deletions, and try to preserve the spirit of the writer's intent, given the restrictions. The guidelines said I should \"Preserve original spelling... Interpret handwritten text\".\n\nHere's how I handled specific text features:\n\n*   **Strikethroughs:** I've been given a restricted list of HTML tags I can use. I can't directly use tags like `<s>` or `<del>` to denote strikethroughs. However, I can still transcribe the text as it's written. I've re-examined and carefully considered the crossed-out words in line 1 (\"We dont [crossed out word] like the\"). I'm choosing to transcribe the text as \"We dont like the\", since that seems to be the final intent.\n\n*   **Insertions:** I've noted any inserted words or phrases (e.g., \"and\" inserted into a sentence). I've transcribed these as they appear in the text. I will use only text, in order, from the image.\n\n*   **Marginalia:** The \"L.L. McI\" and \"2\" notes (likely page 2 indicator) are transcribed accurately. The handwriting in the marginalia is not legible but will be kept.\n\n*   **Questionable words:** I carefully examined words that were potentially unclear, such as \"ruminate\" or words with corrections, using context and letter comparison. Line 22 \"to ruminate\" caused me some doubt, but through context and letter comparison, I verified this. I decided it could be.\n\nRegarding the *layout*, I'll use Markdown to represent the header structure (table for columns) and paragraphs for the body. I will stick to allowed tags to maintain readability.\n\nI've also made a few linguistic observations:\n\n*   The \"scions\" reference indicates the writer is talking about many children.\n*   The \"Mrs. C\" likely refers to Mrs. Curtis, as the letter is written by \"GEO. W. CURTIS\".\n*   The letter mentions H. H. Dinwiddie, the chairman, and L. L. McInnis, the Treasurer.\n\nThe final transcription is designed to be as accurate as possible, within the given constraints, and to reflect the original text's nuances and layout.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 4242,
+      "width": 2189,
+      "items": [
+        {
+          "id": "http://example.org/iiif/312",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/311",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b8aa6f94-500d-3205-aad8-316b906219ca/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4242,
+                "width": 2189,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b8aa6f94-500d-3205-aad8-316b906219ca",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/323",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/322",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p align=\"right\"><small>[1885, July 26]</small></p>\n<p align=\"center\"><b><big>Agricultural and Mechanical College</big></b><br>\n<small><b>&#x26AC;&#x26AC;&#x26AC;&#x26AC; OF TEXAS. &#x26AC;&#x26AC;&#x26AC;&#x26AC;</b></small></p>\n\n<p><b>CORRESPONDENCE</b><br>\n<small>ON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN.<br>\nWE INVITE CONSULTATION WITH THE HEAD OF THIS DEPARTMENT, ON ANY AND ALL TOPICS RELATING TO AGRICULTURE AND HORTICULTURE.<br>\nWE MAKE A SPECIALTY OF FINE STOCK.</small></p>\n\n<p align=\"center\"><b>Department Agriculture and Horticulture</b><br>\n[Graphic: Star]</p>\n\n<p align=\"right\"><b>FACULTY.</b><br>\n<small>CHAIRMAN :<br>\nH. H. DINWIDDIE.<br>\nTREASURER :<br>\nL. L. McINNIS.<br>\nJ. R. COLE. R. WIPPRECHT,<br>\nW. L. BRINGHURST,<br>\nGEO. W. CURTIS,<br>\nR. H. WHITLOCK,<br>\nR. F SMITH.</small></p>\n\n<p align=\"center\"><b>GEO. W. CURTIS, B. S. A.</b></p>\n[/Header]\n\n[Margin: L McI 3]\n\n<p>College Station, Brazos Co., Texas, ________________ 188_</p>\n\n<p>You may appreciate our indecision in the matter. So many things are to be considered</p>\n<p>Many thanks for your help in trying to get part of my expenses paid to Washington Of course I do not know how it happened but I think I can guess pretty closely When we meet we can talk some things over.</p>\n<p>Am glad you are going to attend St. Grange. watch things carefully, wish I could be there too: hope you may be able to establish the belief that we have something else at <sup>in sympathy with the Grange</sup> College, besides a Chairman. Well I am going to church - Can you say as much?</p>\n<p>Mrs Curtis joins in Love to \"Miss McI\" and kindest wishes for all of our friends at Forest</p>\n\n<p>Ever truly<br>\nGeo. W. Curtis</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/324",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Letter Transcription Analysis: A Deep Dive**\n\nAlright, let's break this down. My goal here is to get a clean transcription of this letter, making sure to capture the nuances of the handwriting and layout, while also paying close attention to the historical context.\n\nFirst, the letterhead. It's the \"Agricultural and Mechanical College OF TEXAS,\" with the pencil date \"[1885, July 26]\" penciled in at the top. The organization of the letterhead text is as follows:\n\n*   **Left Column (Correspondence)** is where we have: \"CORRESPONDENCE,\" then some guidelines, \"ON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN,\" followed by \"WE INVITE CONSULTATION WITH THE HEAD OF THIS DEPARTMENT, ON ANY AND ALL TOPICS RELATING TO AGRICULTURE AND HORTICULTURE,\" and finally, \"WE MAKE A SPECIALTY OF FINE STOCK.\"\n\n*   **Center Graphic:** A graphic or image with \"Department Agriculture and Horticulture\" in an arc over a star. This likely signifies the specific department.\n\n*   **Right Column (Faculty)** has the \"FACULTY\" heading, then the names: \"CHAIRMAN : H. H. DINWIDDIE.\", \"TREASURER : L. L. McINNIS.\", \"J. R. COLE. R. WIPPRECHT,\", \"W. L. BRINGHURST,\", \"GEO. W. CURTIS,\", \"R. H. WHITLOCK,\", \"R. F SMITH.\".\n\n*   **Bottom Center:** \"GEO. W. CURTIS, B. S. A.\" – his signature and designation.\n\nNow, let's dig into the handwritten portion. The standard format:\n\n*   **Date Line:** \"College Station, Brazos Co., Texas, _______________ 188_\" – the year is incomplete. Note that the date at the top is very likely the completed date. The blank space indicates it wasn't filled in at the time.\n\n*   **Margin Note:** \"L McI\" and \"3\" – this is important. \"L McI\" likely relates to L. L. McInnis, the Treasurer listed on the letterhead. It's a filing reference, or an indicator of priority.\n\n*   **Body of the Letter:**\n\n    *   The first paragraph, the writer is saying, \"You may appreciate our indecision in the matter. So many things are to be considered.\"\n    *   Next, \"Many thanks for your help in trying to get part of my expenses paid to Washington Of course I do not know how it happened but I think I can guess pretty closely When we meet we can talk some things over.\" There is a reference to some help, and \"Washington\" (I believe it's capitalized).\n    *   Then, \"Am glad you are going to attend St. Grange. watch things carefully, wish I could be there too: hope you may be able to establish the belief that we have something else at <sup>in sympathy with the Grange</sup> College, besides a Chairman. Well I am going to church - Can you say as much?\" This is interesting. \"St. Grange\" could be \"State Grange\". But, I will record the \"St.\", or State, or St. Grange, given that it's likely an abbreviated reference to an agricultural organization or meeting. The \"in sympathy with the Grange\" text is inserted.\n    *   Finally, there is \"Mrs Curtis joins in Love to \"Miss McI\" and kindest wishes for all of our friends at Forest Ever truly Geo. W. Curtis\". The reference to \"Miss McI\" is in quotes. Given the \"L McI\" filing note, it is probably in reference to L.L. McInnis. Or maybe a relative or friend of Mr. McInnis. \"Forest\" is likely a place, or friend.\n\nNow the transcription itself:\n\n```html\n[Header]\n[1885, July 26]\nAgricultural and Mechanical College\nOF TEXAS.\n\n<p style=\"text-align: left;\">\nCORRESPONDENCE\n<br>\nON MATTERS RELATING TO COLLEGE PROPER SHOULD BE ADDRESSED TO THE CHAIRMAN.\n<br>\nWE INVITE CONSULTATION WITH THE HEAD OF THIS DEPARTMENT, ON ANY AND ALL TOPICS RELATING TO AGRICULTURE AND HORTICULTURE.\n<br>\nWE MAKE A SPECIALTY OF FINE STOCK.</p>\n\n<p style=\"text-align: center;\">Department Agriculture and Horticulture [Graphic: Star]</p>\n\n<p style=\"text-align: right;\">FACULTY.<br>\nCHAIRMAN : H. H. DINWIDDIE.<br>\nTREASURER : L. L. McINNIS.<br>\nJ. R. COLE. R. WIPPRECHT,<br>\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/120/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

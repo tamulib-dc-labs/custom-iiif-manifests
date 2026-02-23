@@ -1,139 +1,188 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-275.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from George Pfeuffer, February 23, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-02-23"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from George Pfeuffer, February 23, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/5b9a7088-a595-3a60-842d-af67643f6c6d/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4338,
-            "width": 3336,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/272",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/271",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/5b9a7088-a595-3a60-842d-af67643f6c6d/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4338,
-                                "width": 3336,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/5b9a7088-a595-3a60-842d-af67643f6c6d",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/275",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/274",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><b>CALLIOPEAN LITERARY SOCIETY,</b><br>\n<b>A. &amp; M. C.</b></p>\n\n<p>College Station, Texas, Feb 23<sup>rd</sup> 1881.</p>\n\n<p>Pr. Mc Innis.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sir.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You are respectfully<br>\nsolicited to attend the public exercises<br>\nto be given by the Calliopean Society<br>\nat their hall on the night of the 26' inst</p>\n\n<p>Committee<br>\n{ Drope <sup>Ch</sup><br>\nKempner.<br>\nWyse.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/276",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcribing the Calliopean Literary Society Document**\n\nAlright, let's get down to brass tacks. I've got this handwritten document from the Calliopean Literary Society, and my job is to produce an accurate transcription. I can't directly use HTML, but will apply some standard HTML tags to enhance readability.\n\nFirst things first, I've got to break down the visual components. The headers jump out at me: \"CALLIOPEAN LITERARY SOCIETY,\" followed by \"A. & M. C.\" which I'm taking to stand for the Agricultural & Mechanical College. Then there's the date and location: \"College Station, Texas, Feb 23rd 1881.\" The handwriting is clear enough, even if some of the forms are a bit older.\n\nThe salutation is addressed to \"Pr. Mc Innis. Sir.\" - it took me a moment, but that first letter looks like a cursive 'P', so it's most likely Professor McInnis, given his role at A&M. I'll make a note that the handwritten \"Pr.\" (or \"Dr.\") is worth keeping in mind. The \"Mc Innis\" is written, then a space, then \"Innis\".\n\nThe main body of the letter reads: \"You are respectfully solicited to attend the public exercises to be given by the Calliopean Society at their hall on the night of the 26' inst.\" Everything seems pretty straightforward in the main text.\n\nNow, for the signature block. This is where things get a touch more interesting because of the handwriting. There's a bracket and the word \"Committee\" written to the left of the names. And here are the names:\nCommittee\nDrope <sup>Ch</sup>\nKempner.\nWyse.\n\nThere you have it.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-275.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from George Pfeuffer, February 23, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-02-23"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from George Pfeuffer, February 23, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Literary societies--Texas",
+          "Agricultural and Mechanical College of Texas",
+          "Public exercises",
+          "Social organizations--19th century",
+          "College Station (Tex.)--History"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "George Pfeuffer"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis",
+          "Calliopean Literary Society",
+          "Drope",
+          "Ch Kempner",
+          "Wyse"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A formal invitation from George Pfeuffer on behalf of the Calliopean Literary Society at Agricultural and Mechanical College in College Station, Texas, soliciting Louis L. McInnis's attendance at public exercises held at their hall on February 26, 1881. The letter was issued by a committee comprising Drope, Ch Kempner, and Wyse. This document reflects the social and intellectual activities of college literary societies during the late 19th century."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/5b9a7088-a595-3a60-842d-af67643f6c6d/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4338,
+      "width": 3336,
+      "items": [
+        {
+          "id": "http://example.org/iiif/272",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/271",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/5b9a7088-a595-3a60-842d-af67643f6c6d/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4338,
+                "width": 3336,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/5b9a7088-a595-3a60-842d-af67643f6c6d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/275",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/274",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><b>CALLIOPEAN LITERARY SOCIETY,</b><br>\n<b>A. &amp; M. C.</b></p>\n\n<p>College Station, Texas, Feb 23<sup>rd</sup> 1881.</p>\n\n<p>Pr. Mc Innis.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sir.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You are respectfully<br>\nsolicited to attend the public exercises<br>\nto be given by the Calliopean Society<br>\nat their hall on the night of the 26' inst</p>\n\n<p>Committee<br>\n{ Drope <sup>Ch</sup><br>\nKempner.<br>\nWyse.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/276",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcribing the Calliopean Literary Society Document**\n\nAlright, let's get down to brass tacks. I've got this handwritten document from the Calliopean Literary Society, and my job is to produce an accurate transcription. I can't directly use HTML, but will apply some standard HTML tags to enhance readability.\n\nFirst things first, I've got to break down the visual components. The headers jump out at me: \"CALLIOPEAN LITERARY SOCIETY,\" followed by \"A. & M. C.\" which I'm taking to stand for the Agricultural & Mechanical College. Then there's the date and location: \"College Station, Texas, Feb 23rd 1881.\" The handwriting is clear enough, even if some of the forms are a bit older.\n\nThe salutation is addressed to \"Pr. Mc Innis. Sir.\" - it took me a moment, but that first letter looks like a cursive 'P', so it's most likely Professor McInnis, given his role at A&M. I'll make a note that the handwritten \"Pr.\" (or \"Dr.\") is worth keeping in mind. The \"Mc Innis\" is written, then a space, then \"Innis\".\n\nThe main body of the letter reads: \"You are respectfully solicited to attend the public exercises to be given by the Calliopean Society at their hall on the night of the 26' inst.\" Everything seems pretty straightforward in the main text.\n\nNow, for the signature block. This is where things get a touch more interesting because of the handwriting. There's a bracket and the word \"Committee\" written to the left of the names. And here are the names:\nCommittee\nDrope <sup>Ch</sup>\nKempner.\nWyse.\n\nThere you have it.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/275/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,139 +1,187 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-273.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Frank Reichardt, June 14, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-06-14"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Frank Reichardt, June 14, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/b796929a-1182-3fe7-a7cd-edc32aa30393/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4382,
-            "width": 3352,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/164",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/163",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/b796929a-1182-3fe7-a7cd-edc32aa30393/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4382,
-                                "width": 3352,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/b796929a-1182-3fe7-a7cd-edc32aa30393",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/167",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/166",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p align=\"center\"><b>J. J. BURROUGHS'</b><br>\n<b>Drug Store.</b></p>\n\n<p><small>~ No 86 MAIN STREET. ~</small></p>\n\n<p align=\"right\">Houston, Texas, June 14<sup>th</sup> 1881</p>\n\n<p>Prof L. L. Mc Innis<br>\nA & M. College</p>\n\n<p align=\"center\">Dear Professor</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you probably<br>\nhave seen from the postal I sent you, we have se-<br>\ncured the Hon Jno C Walker of Galveston to address<br>\nthe Assn. I do not know the exact time, that he<br>\nwill arrive at the College, but will you do us the<br>\nkindness & make arrangements for his accomodation<br>\nat the College. I ask this favor of you, because you<br>\nhave ever taken a great interest in our association,<br>\nand to you we feel chiefly indebted, for the courtesies,<br>\n& good will shown us by the faculty.<br>\nI have received quite a number of replies from Ex Cadets<br>\nstating their desire & intention of attending the reunion,<br>\n& I feel very hopeful that this meeting will prove<br>\na success, & that means success to the Assn. Believe<br>\nme.\u2014</p>\n\n<p align=\"right\">Sincerely Yours<br>\nFrank A. Reichardt</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/168",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis: A Detailed Examination**\n\nRight, let's break this down systematically. First, the visual structure: we have a letterhead, \"J. J. BURROUGHS', Drug Store\" arched at the top, followed by \"No 86 MAIN STREET.\" in smaller type. The date, \"Houston, Texas, June 14<sup>th</sup> 1881,\" is handwritten, and the recipient, \"Prof L. L. Mc Innis, A & M. College,\" is clearly addressed. The salutation, \"Dear Professor,\" is next.\n\nNow, the body. The writer, Frank A. Reichardt, requests that Professor McInnis make accommodation arrangements for the Hon. Jno C. Walker of Galveston, who will be addressing the association. Reichardt mentions he's received positive responses from \"Ex Cadets\" regarding the reunion, expressing optimism for its success. He closes with \"Sincerely Yours\" and his signature.\n\nLet's dissect this further. The letterhead font is noteworthy; \"Drug Store\" is in a rather gothic typeface, while \"No 86 MAIN STREET.\" is a clean sans-serif. The date, \"June 14<sup>th</sup> 1881,\" is a bit messy - the \"th\" is superscript, and the \"1881\" might be mistaken for \"11881\" at first glance, but context makes it clear. The recipient is \"Prof L. L. Mc Innis\", and the middle initial and the joining of 'M' and 'c' are typical of the era.\n\nThe main text requires careful reading. \"Jno\" is John's shorthand, and \"Assn\" is a standard abbreviation for Association. The spelling \"accomodation\" is with one 'm', which I'll preserve. \"Ex Cadets\" is a capitalized phrase, but there's a connection between 'x' and 'c' that I must interpret, and I'm certain that the writer intends \"Ex Cadets,\" referring to former students of the A&M College. \"Reichardt,\" the signature, has a flourish, but the individual letters are readable.\n\nFormatting is also key. Standard HTML tags are appropriate here. The letterhead should be centered, the date right-aligned, the recipient left-aligned, and the body text in paragraphs. The signature should also be right-aligned. \"Jno C Walker\" - The middle initial is definitely \"C.\" \"Ex Cadets\" \u2013 that's correct, as the connection between the letters is simply cursive. I'll maintain the spelling \"accomodation\" with one \"m\".\n\nSo, the HTML would look something like this:\n\n```html\n<p align=\"center\"><b>J. J. BURROUGHS'</b><br>\n<b>Drug Store.</b></p>\n<p><small>No 86 MAIN STREET.</small></p>\n<p align=\"right\">Houston, Texas, June 14<sup>th</sup> 1881</p>\n<p>Prof L. L. Mc Innis<br>\nA & M. College</p>\n<p align=\"center\">Dear Professor</p>\n<p>As you probably<br>\nhave seen from the postal I sent you, we have se-<br>\ncured the Hon Jno C Walker of Galveston to address<br>\nthe Assn. I do not know the exact time, that he<br>\nwill arrive at the College, but will you do us the<br>\nkindness & make arrangements for his accomodation<br>\nat the College. I ask this favor of you, because you<br>\nhave ever taken a great interest in our association,<br>\nand to you we feel chiefly indebted, for the courtesies,<br>\n& good will shown us by the faculty.<br>\nI have received quite a number of replies from Ex Cadets<br>\nstating their desire & intention of attending the reunion,<br>\n& I feel very hopeful that this meeting will prove<br>\na success, & that means success to the Assn. Believe<br>\nme.\u2014</p>\n<p align=\"right\">Sincerely Yours<br>\nFrank A. Reichardt</p>\n```\n\nFinally, a note about context: Frank A. Reichardt was a real person, and his association with a drug store confirms this historical setting. The letter seems ready to go!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-273.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Frank Reichardt, June 14, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-06-14"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Frank Reichardt, June 14, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College--History",
+          "Alumni associations",
+          "Reunions",
+          "Ex-cadets",
+          "Texas--History--19th century",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Reichardt, Frank A."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Walker, John C.",
+          "Burroughs, J. J."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Frank Reichardt writes to Professor Louis L. McInnis at Agricultural and Mechanical College requesting assistance in arranging lodging for Hon. John C. Walker of Galveston, who has been secured as a speaker for an ex-cadets association meeting. Reichardt expresses confidence in the upcoming reunion and acknowledges McInnis's instrumental role in securing faculty cooperation and support for the association."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/b796929a-1182-3fe7-a7cd-edc32aa30393/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4382,
+      "width": 3352,
+      "items": [
+        {
+          "id": "http://example.org/iiif/164",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/163",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/b796929a-1182-3fe7-a7cd-edc32aa30393/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4382,
+                "width": 3352,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/b796929a-1182-3fe7-a7cd-edc32aa30393",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/167",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/166",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p align=\"center\"><b>J. J. BURROUGHS'</b><br>\n<b>Drug Store.</b></p>\n\n<p><small>~ No 86 MAIN STREET. ~</small></p>\n\n<p align=\"right\">Houston, Texas, June 14<sup>th</sup> 1881</p>\n\n<p>Prof L. L. Mc Innis<br>\nA & M. College</p>\n\n<p align=\"center\">Dear Professor</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As you probably<br>\nhave seen from the postal I sent you, we have se-<br>\ncured the Hon Jno C Walker of Galveston to address<br>\nthe Assn. I do not know the exact time, that he<br>\nwill arrive at the College, but will you do us the<br>\nkindness & make arrangements for his accomodation<br>\nat the College. I ask this favor of you, because you<br>\nhave ever taken a great interest in our association,<br>\nand to you we feel chiefly indebted, for the courtesies,<br>\n& good will shown us by the faculty.<br>\nI have received quite a number of replies from Ex Cadets<br>\nstating their desire & intention of attending the reunion,<br>\n& I feel very hopeful that this meeting will prove<br>\na success, & that means success to the Assn. Believe<br>\nme.—</p>\n\n<p align=\"right\">Sincerely Yours<br>\nFrank A. Reichardt</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/168",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis: A Detailed Examination**\n\nRight, let's break this down systematically. First, the visual structure: we have a letterhead, \"J. J. BURROUGHS', Drug Store\" arched at the top, followed by \"No 86 MAIN STREET.\" in smaller type. The date, \"Houston, Texas, June 14<sup>th</sup> 1881,\" is handwritten, and the recipient, \"Prof L. L. Mc Innis, A & M. College,\" is clearly addressed. The salutation, \"Dear Professor,\" is next.\n\nNow, the body. The writer, Frank A. Reichardt, requests that Professor McInnis make accommodation arrangements for the Hon. Jno C. Walker of Galveston, who will be addressing the association. Reichardt mentions he's received positive responses from \"Ex Cadets\" regarding the reunion, expressing optimism for its success. He closes with \"Sincerely Yours\" and his signature.\n\nLet's dissect this further. The letterhead font is noteworthy; \"Drug Store\" is in a rather gothic typeface, while \"No 86 MAIN STREET.\" is a clean sans-serif. The date, \"June 14<sup>th</sup> 1881,\" is a bit messy - the \"th\" is superscript, and the \"1881\" might be mistaken for \"11881\" at first glance, but context makes it clear. The recipient is \"Prof L. L. Mc Innis\", and the middle initial and the joining of 'M' and 'c' are typical of the era.\n\nThe main text requires careful reading. \"Jno\" is John's shorthand, and \"Assn\" is a standard abbreviation for Association. The spelling \"accomodation\" is with one 'm', which I'll preserve. \"Ex Cadets\" is a capitalized phrase, but there's a connection between 'x' and 'c' that I must interpret, and I'm certain that the writer intends \"Ex Cadets,\" referring to former students of the A&M College. \"Reichardt,\" the signature, has a flourish, but the individual letters are readable.\n\nFormatting is also key. Standard HTML tags are appropriate here. The letterhead should be centered, the date right-aligned, the recipient left-aligned, and the body text in paragraphs. The signature should also be right-aligned. \"Jno C Walker\" - The middle initial is definitely \"C.\" \"Ex Cadets\" – that's correct, as the connection between the letters is simply cursive. I'll maintain the spelling \"accomodation\" with one \"m\".\n\nSo, the HTML would look something like this:\n\n```html\n<p align=\"center\"><b>J. J. BURROUGHS'</b><br>\n<b>Drug Store.</b></p>\n<p><small>No 86 MAIN STREET.</small></p>\n<p align=\"right\">Houston, Texas, June 14<sup>th</sup> 1881</p>\n<p>Prof L. L. Mc Innis<br>\nA & M. College</p>\n<p align=\"center\">Dear Professor</p>\n<p>As you probably<br>\nhave seen from the postal I sent you, we have se-<br>\ncured the Hon Jno C Walker of Galveston to address<br>\nthe Assn. I do not know the exact time, that he<br>\nwill arrive at the College, but will you do us the<br>\nkindness & make arrangements for his accomodation<br>\nat the College. I ask this favor of you, because you<br>\nhave ever taken a great interest in our association,<br>\nand to you we feel chiefly indebted, for the courtesies,<br>\n& good will shown us by the faculty.<br>\nI have received quite a number of replies from Ex Cadets<br>\nstating their desire & intention of attending the reunion,<br>\n& I feel very hopeful that this meeting will prove<br>\na success, & that means success to the Assn. Believe<br>\nme.—</p>\n<p align=\"right\">Sincerely Yours<br>\nFrank A. Reichardt</p>\n```\n\nFinally, a note about context: Frank A. Reichardt was a real person, and his association with a drug store confirms this historical setting. The letter seems ready to go!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/273/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

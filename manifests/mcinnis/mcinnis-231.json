@@ -1,139 +1,186 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-231.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Charles Ragan, December 1, 1879"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1879-12-01"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Charles Ragan, December 1, 1879"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/27efedc0-022e-3f16-a0b3-6fc1fca0553f/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4194,
-            "width": 3223,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/27efedc0-022e-3f16-a0b3-6fc1fca0553f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4194,
-                                "width": 3223,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/27efedc0-022e-3f16-a0b3-6fc1fca0553f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p><small>OFFICE OF</small><br>\n<b>Clerk County Court,</b><br>\nLee County,<br>\nJAMES H. FRY, Clerk</p>\n\n<p>Giddings, Texas, Decbr 1<sup>st</sup> 1879</p>\n\n<p>Prof. L. L. McInnis.<br>\nCollege Station,<br>\nDear Prof.</p>\n\n<p>Will you please at-<br>\ntend to the Diploma's of last session and send mine<br>\nto me. They are certainly not doing any of us any good<br>\nwhere they are now, and as you remember I have paid<br>\nfor mine and would be pleased to have it, if it<br>\nwill not put you to any trouble to send it. I wrote to<br>\nthe President last Summer in regard to it, but he<br>\nsaid it had not been signed by the Governor. If<br>\nthat is the case now, please be kind enough to men-<br>\ntion it to Col. James, and ask him to have them sign-<br>\ned and forwarded to us. By complying with the above<br>\nrequest I will be greatly indebted to you.</p>\n\n<p>With my kindest regards I am<br>\nYours very respectfully</p>\n\n[Signature]\n<p>Charles Rogan.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process: A Deep Dive**\n\nOkay, so here's how I'm approaching this transcription task. First, I need to figure out what's being asked of me. My role is that of a transcriptionist, so the task is to transcribe text from an image. I've got to do it properly: top-to-bottom, keeping the spelling and punctuation accurate, and trying to make sense of any handwriting. I also need to pay attention to the layout. The instructions say I should label structural elements like \"Header,\" \"Footer,\" or \"Signature,\" and I'm limited to specific IIIF-compatible HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. And importantly, no commentary or extra stuff; just the transcription itself.\n\nNext, I need to look at this image. Looks like a handwritten letter on some official letterhead. The letterhead says, \"OFFICE OF,\" \"Clerk County Court,\" \"Lee County,\" and \"JAMES H. FRY, Clerk.\" The location and date look like \"Giddings, Texas, Decbr 1st 1879.\" The letter is addressed to \"Prof. L. L. McInnis. College Station.\" The greeting is \"Dear Prof.\" Then comes the body of the letter. It seems like a request for diplomas from last session, mentioning payment, contacting the President, the Governor, and Col. James. The closing is \"With my kindest regards I am Yours very respectfully,\" and the signature is \"Charles Rogan.\"\n\nNow, let's start mentally drafting the transcription. I'm imagining the header: a small \"OFFICE OF\" in a sort of arc at the top, the main title in a decorative font \"Clerk County Court,\" the subtitle \"Lee County,\" and the name \"JAMES H. FRY, Clerk\" on the left side. The dateline will be \"Giddings, Texas, Decbr 1st 1879.\" Then I'll have the address: \"Prof. L. L. McInnis. College Station,\" and the salutation \"Dear Prof.\"\n\nThe body will read something like this: \"Will you please at- tend to the Diploma's of last session and send mine to me. They are certainly not doing any of us any good where they are now, and as you remember I have paid for mine and would be pleased to have it, if it will not put you to any trouble to send it. I wrote to the President last Summer in regard to it, but he said it had not been signed by the Governor. If that is the case now, please be kind enough to mention it to Col. James, and ask him to have them signed and forwarded to us. By complying with the above request I will be greatly indebted to you.\" Then the closing: \"With my kindest regards I am Yours very respectfully,\" and the signature \"Charles Rogan.\" Wait... I think I've heard the name Charles Rogan before in the context of Texas A&M. Fits!\n\nNow, for formatting, I'll use the HTML tags. `<p>` for paragraphs, `<br>` for line breaks in the header or address. I'll use `<sup>` for the \"st\" in \"1st\". I need to decide what to use for the letterhead, whether I'll use `<i>` or if I'll just treat the whole text as text. The prompt asks for structural labels like [Header].\n\nOkay, time to refine this. Let's make sure everything is perfect and double-check against those HTML tags. I'll start with the header, then go line by line through everything.\n\n*   *Header*: I see `[Header]` and start to format with the correct tags.\n*   *Dateline*: Here's how to write this using the specified tags.\n*   *Body*: The salutation.\n*   *Body*: Using `<br>` for the line breaks in this letter's transcription.\n*   *Closing*: Using a `<br>` here as well.\n*   *Signature*: Here is the `[Signature]` tag.\n\nNow, let's look at the constraints. The allowed tags are: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I've used `p`, `small`, `br`, `b`, and `sup`, so I'm good. There's no commentary, it's in reading order, and I kept all the original spelling. \"Diploma's\" and \"Decbr\" are preserved. Looks good! Ready to generate the final output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-231.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Charles Ragan, December 1, 1879"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1879-12-01"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Charles Ragan, December 1, 1879"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 4 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Diplomas--Texas",
+          "Educational institutions--Texas",
+          "Correspondence",
+          "College administration"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Ragan, Charles"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Fry, James H.",
+          "James, Col. (Colonel)",
+          "Texas Governor (unnamed)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Charles Ragan writes to Professor Louis L. McInnis requesting assistance in obtaining diplomas from the previous academic session, specifically his own diploma which he has already paid for. Ragan notes that the diplomas have not yet been signed by the Governor and asks McInnis to contact Colonel James to ensure they are signed and forwarded to the recipients. The letter demonstrates the administrative processes and delays involved in diploma distribution at a Texas educational institution in 1879."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/27efedc0-022e-3f16-a0b3-6fc1fca0553f/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4194,
+      "width": 3223,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/27efedc0-022e-3f16-a0b3-6fc1fca0553f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4194,
+                "width": 3223,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/27efedc0-022e-3f16-a0b3-6fc1fca0553f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p><small>OFFICE OF</small><br>\n<b>Clerk County Court,</b><br>\nLee County,<br>\nJAMES H. FRY, Clerk</p>\n\n<p>Giddings, Texas, Decbr 1<sup>st</sup> 1879</p>\n\n<p>Prof. L. L. McInnis.<br>\nCollege Station,<br>\nDear Prof.</p>\n\n<p>Will you please at-<br>\ntend to the Diploma's of last session and send mine<br>\nto me. They are certainly not doing any of us any good<br>\nwhere they are now, and as you remember I have paid<br>\nfor mine and would be pleased to have it, if it<br>\nwill not put you to any trouble to send it. I wrote to<br>\nthe President last Summer in regard to it, but he<br>\nsaid it had not been signed by the Governor. If<br>\nthat is the case now, please be kind enough to men-<br>\ntion it to Col. James, and ask him to have them sign-<br>\ned and forwarded to us. By complying with the above<br>\nrequest I will be greatly indebted to you.</p>\n\n<p>With my kindest regards I am<br>\nYours very respectfully</p>\n\n[Signature]\n<p>Charles Rogan.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process: A Deep Dive**\n\nOkay, so here's how I'm approaching this transcription task. First, I need to figure out what's being asked of me. My role is that of a transcriptionist, so the task is to transcribe text from an image. I've got to do it properly: top-to-bottom, keeping the spelling and punctuation accurate, and trying to make sense of any handwriting. I also need to pay attention to the layout. The instructions say I should label structural elements like \"Header,\" \"Footer,\" or \"Signature,\" and I'm limited to specific IIIF-compatible HTML tags: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. And importantly, no commentary or extra stuff; just the transcription itself.\n\nNext, I need to look at this image. Looks like a handwritten letter on some official letterhead. The letterhead says, \"OFFICE OF,\" \"Clerk County Court,\" \"Lee County,\" and \"JAMES H. FRY, Clerk.\" The location and date look like \"Giddings, Texas, Decbr 1st 1879.\" The letter is addressed to \"Prof. L. L. McInnis. College Station.\" The greeting is \"Dear Prof.\" Then comes the body of the letter. It seems like a request for diplomas from last session, mentioning payment, contacting the President, the Governor, and Col. James. The closing is \"With my kindest regards I am Yours very respectfully,\" and the signature is \"Charles Rogan.\"\n\nNow, let's start mentally drafting the transcription. I'm imagining the header: a small \"OFFICE OF\" in a sort of arc at the top, the main title in a decorative font \"Clerk County Court,\" the subtitle \"Lee County,\" and the name \"JAMES H. FRY, Clerk\" on the left side. The dateline will be \"Giddings, Texas, Decbr 1st 1879.\" Then I'll have the address: \"Prof. L. L. McInnis. College Station,\" and the salutation \"Dear Prof.\"\n\nThe body will read something like this: \"Will you please at- tend to the Diploma's of last session and send mine to me. They are certainly not doing any of us any good where they are now, and as you remember I have paid for mine and would be pleased to have it, if it will not put you to any trouble to send it. I wrote to the President last Summer in regard to it, but he said it had not been signed by the Governor. If that is the case now, please be kind enough to mention it to Col. James, and ask him to have them signed and forwarded to us. By complying with the above request I will be greatly indebted to you.\" Then the closing: \"With my kindest regards I am Yours very respectfully,\" and the signature \"Charles Rogan.\" Wait... I think I've heard the name Charles Rogan before in the context of Texas A&M. Fits!\n\nNow, for formatting, I'll use the HTML tags. `<p>` for paragraphs, `<br>` for line breaks in the header or address. I'll use `<sup>` for the \"st\" in \"1st\". I need to decide what to use for the letterhead, whether I'll use `<i>` or if I'll just treat the whole text as text. The prompt asks for structural labels like [Header].\n\nOkay, time to refine this. Let's make sure everything is perfect and double-check against those HTML tags. I'll start with the header, then go line by line through everything.\n\n*   *Header*: I see `[Header]` and start to format with the correct tags.\n*   *Dateline*: Here's how to write this using the specified tags.\n*   *Body*: The salutation.\n*   *Body*: Using `<br>` for the line breaks in this letter's transcription.\n*   *Closing*: Using a `<br>` here as well.\n*   *Signature*: Here is the `[Signature]` tag.\n\nNow, let's look at the constraints. The allowed tags are: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, `sup`. I've used `p`, `small`, `br`, `b`, and `sup`, so I'm good. There's no commentary, it's in reading order, and I kept all the original spelling. \"Diploma's\" and \"Decbr\" are preserved. Looks good! Ready to generate the final output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/231/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

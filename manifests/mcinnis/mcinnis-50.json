@@ -1,210 +1,257 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-50.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from H. H. Dinwiddie, July 13, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-07-13"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from H. H. Dinwiddie, July 13, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/3aa82bdc-edcc-39b3-916a-093a4fdb7a1a/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 1323,
-            "width": 2377,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3aa82bdc-edcc-39b3-916a-093a4fdb7a1a/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1323,
-                                "width": 2377,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3aa82bdc-edcc-39b3-916a-093a4fdb7a1a",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><i>Return to</i><br/>\n<b>COLLEGE STATION BRAZOS CO. TEX.</b><br/>\nIF NOT CALLED FOR IN 10 DAYS</p>\n\n<p><small>M.STRICKLAND LITH. GALVESTON.</small></p>\n\n<p><b>STATE AGRICULTURAL<br/>\nAND MECHANICAL COLLEGE<br/>\nOF TEXAS</b></p>\n\n<p>Prof. L. L. Mc Innis<br/>\nPresent.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription Plan**\n\nAlright, let's break this down. The task is to transcribe the text from this envelope image, and I need to be precise. My first step is a visual analysis. I'm noting the printed elements: the \"Return to\" information at the top, a graphic of what looks like Old Main at Texas A&M, the lithographer's credit, and the college's name. There's also the handwritten address, which is key. I'll need to pay close attention to the characters in that section. I see a red \"X\" under \"Prof.\", but that's a mark; I'll transcribe all *text*, so I'll set that aside for now.\n\nNow, I'm thinking about the order of reading. Top left is the return address, the building graphic is center-left, and the handwritten address is center-right. It\u2019s pretty straightforward visually. I'll need to capture the formatting, too. The \"Return to\" is italicized, the main return address is in what looks like a bold sans-serif font, and the \"IF NOT CALLED FOR...\" line is in all caps on a curve. The graphic area has really small print for the lithographer and the college name in a bold banner, or a decorative font. The address is standard cursive. I'll use `<i>`, `<b>`, and line breaks (`<br/>`) within paragraph tags (`<p>`) to reflect that. The prompt allows `a, b, br, i, img, p, small, span, sub, sup` and I am focusing on text.\n\nI need to extract the text systematically, then format it. The \"Return to\" section is: `<i>Return to</i>`, `<b>COLLEGE STATION BRAZOS CO. TEX.</b>`, `IF NOT CALLED FOR IN 10 DAYS`. Under the graphic I have the tiny print, then the banners. I'm seeing it's: `<small>M.STRICKLAND LITH. GALVESTON.</small>`, then the banner is: `<b>STATE AGRICULTURAL</b>`, `<b>AND MECHANICAL COLLEGE</b>`, `<b>OF TEXAS</b>`. And finally, the handwritten part is: `Prof. L. L. Mc Innis` and `Present.`. I will organize each of these into blocks.\n\nNow I am going to organize this into logical blocks. Top left, then center-left, then center-right.\n\nThe top left:\n\n```html\n<p><i>Return to</i><br/>\n<b>COLLEGE STATION BRAZOS CO. TEX.</b><br/>\nIF NOT CALLED FOR IN 10 DAYS</p>\n```\n\nThen I have the graphic area, which is in two sections. First the lithographer text, and then the college banner.\n\n```html\n<p><small>M.STRICKLAND LITH. GALVESTON.</small></p>\n<p><b>STATE AGRICULTURAL<br/>\nAND MECHANICAL COLLEGE<br/>\nOF TEXAS</b></p>\n```\n\nThen I have the handwritten text.\n\n```html\n<p>Prof. L. L. Mc Innis<br/>\nPresent.</p>\n```\n\nLet me check the spelling of the handwriting. I can see the \"Mc Innis\" clearly. Now I'm checking, the \"Mc Innis\" looks correct based on my knowledge of the institution.\n\nI'm checking the output flow to ensure it matches the image reading order, from top-left to right, and then the lower areas. The graphic is below. The handwritten address is to the right. I'm grouping the related items together. The lithographer is right under the building, which is above the college banner, but below the return address. That order makes sense.\n\nSo the final order and transcription, with all components, is:\n\n```html\n<p><i>Return to</i><br/>\n<b>COLLEGE STATION BRAZOS CO. TEX.</b><br/>\nIF NOT CALLED FOR IN 10 DAYS</p>\n\n<p><small>M.STRICKLAND LITH. GALVESTON.</small></p>\n\n<p><b>STATE AGRICULTURAL<br/>\nAND MECHANICAL COLLEGE<br/>\nOF TEXAS</b></p>\n\n<p>Prof. L. L. Mc Innis<br/>\nPresent.</p>\n```\n\nI'm ready to present the final, formatted transcription. I've considered all the visual cues in the image, and I think I've captured everything accurately.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 4350,
-            "width": 3340,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/da31a1e1-372f-3409-9e88-5cbcd687db63/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4350,
-                                "width": 3340,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/da31a1e1-372f-3409-9e88-5cbcd687db63",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<i>College Station, Texas, July 13 1883</i></p>\n\n<p>My dear McInnis.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Board has been called<br/>\nfor the 19 <sup><u>.</u></sup> I am going up today to telegraph<br/>\nyou. Things are warming up here. Col. Cole<br/>\nhas gone down the road without saying a word to<br/>\nme. I suppose he is &quot;working&quot;. I write this<br/>\nfearing that the telegram may miss you.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yours hastily<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H. H. Dinwiddie.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's how I'm approaching this transcription task, as a seasoned professional:**\n\nFirst, I'm setting the stage. I understand the task is to transcribe, with high accuracy, a handwritten document from an image. I need to preserve the layout, punctuation, and handwriting style using only specific HTML tags like `<p>`, `small`, `br`, `i`, and the like. This isn't just about getting the words right, it's about reflecting the original document's structure.\n\nI'm starting by carefully analyzing the image. I've identified the document type as a letter on official stationery, specifically from the \"Agricultural and Mechanical College of Texas.\" The image reveals a header with a script font and a printed department heading, along with a handwritten date. The body is in cursive, and I'll need to interpret the author's handwriting to the best of my ability.\n\nMy process will be step-by-step. I'll begin by transcribing the header, noting that the college name is in script and the department info is in a smaller font. I'll pay close attention to the date, which includes some printed elements with handwritten additions. The main body of the letter is where the real work begins. I'll read and transcribe each line, carefully interpreting the cursive. I'm noting specific words like \"McInnis,\" \"Dinwiddie,\" and the tricky title \"Col. Cole.\" I'll also be mindful of unusual marks, such as the superscript dash-like mark after \"19.\"\n\nI'll refine the transcription as I go, checking for any ambiguities in the handwriting. I'm focusing on historical accuracy and the visual representation of the original text. I am making judgements based on context, too. For instance, while \"Cal\" could be possible, given the context of the time and official correspondence, \"Col.\" is highly likely. I will also be looking closely at the letter shapes.\n\nThe critical phase involves formatting the output using only the allowed HTML tags. I'll use `<p>` tags for paragraphs and lines, `<small>` for the department heading, and `<br/>` where line breaks exist. I'll also think about the best way to represent the layout, even without CSS. While an `align` attribute on `<p>` would seem useful, it's not in the IIIF list, so I'll just present the document in reading order with line breaks.\n\nFinally, a meticulous polish. I'll check my transcription for any spelling errors, correct punctuation, and ensure that the formatted output faithfully reflects the original document's layout and content. I'm aiming for a transcription that is both accurate and visually representative of the historical source.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-50.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from H. H. Dinwiddie, July 13, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-07-13"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from H. H. Dinwiddie, July 13, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--History",
+          "Chemistry--Study and teaching--19th century",
+          "Physics--Study and teaching--19th century",
+          "University administration--Texas",
+          "Correspondence--Educational institutions"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Dinwiddie, H. H."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Cole, Col.",
+          "Strickland, M."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A brief letter from H. H. Dinwiddie, professor in the Department of Chemistry and Physics at the Agricultural and Mechanical College of Texas, to fellow faculty member Louis L. McInnis dated July 13, 1883. Dinwiddie notifies McInnis that the Board has been called for July 19 and indicates his intention to telegraph additional information. The letter reflects internal institutional dynamics and suggests ongoing administrative activities at the college during this period."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/3aa82bdc-edcc-39b3-916a-093a4fdb7a1a/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 1323,
+      "width": 2377,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3aa82bdc-edcc-39b3-916a-093a4fdb7a1a/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1323,
+                "width": 2377,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3aa82bdc-edcc-39b3-916a-093a4fdb7a1a",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><i>Return to</i><br/>\n<b>COLLEGE STATION BRAZOS CO. TEX.</b><br/>\nIF NOT CALLED FOR IN 10 DAYS</p>\n\n<p><small>M.STRICKLAND LITH. GALVESTON.</small></p>\n\n<p><b>STATE AGRICULTURAL<br/>\nAND MECHANICAL COLLEGE<br/>\nOF TEXAS</b></p>\n\n<p>Prof. L. L. Mc Innis<br/>\nPresent.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription Plan**\n\nAlright, let's break this down. The task is to transcribe the text from this envelope image, and I need to be precise. My first step is a visual analysis. I'm noting the printed elements: the \"Return to\" information at the top, a graphic of what looks like Old Main at Texas A&M, the lithographer's credit, and the college's name. There's also the handwritten address, which is key. I'll need to pay close attention to the characters in that section. I see a red \"X\" under \"Prof.\", but that's a mark; I'll transcribe all *text*, so I'll set that aside for now.\n\nNow, I'm thinking about the order of reading. Top left is the return address, the building graphic is center-left, and the handwritten address is center-right. It’s pretty straightforward visually. I'll need to capture the formatting, too. The \"Return to\" is italicized, the main return address is in what looks like a bold sans-serif font, and the \"IF NOT CALLED FOR...\" line is in all caps on a curve. The graphic area has really small print for the lithographer and the college name in a bold banner, or a decorative font. The address is standard cursive. I'll use `<i>`, `<b>`, and line breaks (`<br/>`) within paragraph tags (`<p>`) to reflect that. The prompt allows `a, b, br, i, img, p, small, span, sub, sup` and I am focusing on text.\n\nI need to extract the text systematically, then format it. The \"Return to\" section is: `<i>Return to</i>`, `<b>COLLEGE STATION BRAZOS CO. TEX.</b>`, `IF NOT CALLED FOR IN 10 DAYS`. Under the graphic I have the tiny print, then the banners. I'm seeing it's: `<small>M.STRICKLAND LITH. GALVESTON.</small>`, then the banner is: `<b>STATE AGRICULTURAL</b>`, `<b>AND MECHANICAL COLLEGE</b>`, `<b>OF TEXAS</b>`. And finally, the handwritten part is: `Prof. L. L. Mc Innis` and `Present.`. I will organize each of these into blocks.\n\nNow I am going to organize this into logical blocks. Top left, then center-left, then center-right.\n\nThe top left:\n\n```html\n<p><i>Return to</i><br/>\n<b>COLLEGE STATION BRAZOS CO. TEX.</b><br/>\nIF NOT CALLED FOR IN 10 DAYS</p>\n```\n\nThen I have the graphic area, which is in two sections. First the lithographer text, and then the college banner.\n\n```html\n<p><small>M.STRICKLAND LITH. GALVESTON.</small></p>\n<p><b>STATE AGRICULTURAL<br/>\nAND MECHANICAL COLLEGE<br/>\nOF TEXAS</b></p>\n```\n\nThen I have the handwritten text.\n\n```html\n<p>Prof. L. L. Mc Innis<br/>\nPresent.</p>\n```\n\nLet me check the spelling of the handwriting. I can see the \"Mc Innis\" clearly. Now I'm checking, the \"Mc Innis\" looks correct based on my knowledge of the institution.\n\nI'm checking the output flow to ensure it matches the image reading order, from top-left to right, and then the lower areas. The graphic is below. The handwritten address is to the right. I'm grouping the related items together. The lithographer is right under the building, which is above the college banner, but below the return address. That order makes sense.\n\nSo the final order and transcription, with all components, is:\n\n```html\n<p><i>Return to</i><br/>\n<b>COLLEGE STATION BRAZOS CO. TEX.</b><br/>\nIF NOT CALLED FOR IN 10 DAYS</p>\n\n<p><small>M.STRICKLAND LITH. GALVESTON.</small></p>\n\n<p><b>STATE AGRICULTURAL<br/>\nAND MECHANICAL COLLEGE<br/>\nOF TEXAS</b></p>\n\n<p>Prof. L. L. Mc Innis<br/>\nPresent.</p>\n```\n\nI'm ready to present the final, formatted transcription. I've considered all the visual cues in the image, and I think I've captured everything accurately.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 4350,
+      "width": 3340,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/da31a1e1-372f-3409-9e88-5cbcd687db63/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4350,
+                "width": 3340,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/da31a1e1-372f-3409-9e88-5cbcd687db63",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><i>Agricultural and Mechanical College of Texas,</i></p>\n\n<p><small>DEPARTMENT OF<br/>\nCHEMISTRY AND PHYSICS.<br/>\nH. H. DINWIDDIE.</small>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n<i>College Station, Texas, July 13 1883</i></p>\n\n<p>My dear McInnis.<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Board has been called<br/>\nfor the 19 <sup><u>.</u></sup> I am going up today to telegraph<br/>\nyou. Things are warming up here. Col. Cole<br/>\nhas gone down the road without saying a word to<br/>\nme. I suppose he is &quot;working&quot;. I write this<br/>\nfearing that the telegram may miss you.</p>\n\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yours hastily<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H. H. Dinwiddie.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I'm approaching this transcription task, as a seasoned professional:**\n\nFirst, I'm setting the stage. I understand the task is to transcribe, with high accuracy, a handwritten document from an image. I need to preserve the layout, punctuation, and handwriting style using only specific HTML tags like `<p>`, `small`, `br`, `i`, and the like. This isn't just about getting the words right, it's about reflecting the original document's structure.\n\nI'm starting by carefully analyzing the image. I've identified the document type as a letter on official stationery, specifically from the \"Agricultural and Mechanical College of Texas.\" The image reveals a header with a script font and a printed department heading, along with a handwritten date. The body is in cursive, and I'll need to interpret the author's handwriting to the best of my ability.\n\nMy process will be step-by-step. I'll begin by transcribing the header, noting that the college name is in script and the department info is in a smaller font. I'll pay close attention to the date, which includes some printed elements with handwritten additions. The main body of the letter is where the real work begins. I'll read and transcribe each line, carefully interpreting the cursive. I'm noting specific words like \"McInnis,\" \"Dinwiddie,\" and the tricky title \"Col. Cole.\" I'll also be mindful of unusual marks, such as the superscript dash-like mark after \"19.\"\n\nI'll refine the transcription as I go, checking for any ambiguities in the handwriting. I'm focusing on historical accuracy and the visual representation of the original text. I am making judgements based on context, too. For instance, while \"Cal\" could be possible, given the context of the time and official correspondence, \"Col.\" is highly likely. I will also be looking closely at the letter shapes.\n\nThe critical phase involves formatting the output using only the allowed HTML tags. I'll use `<p>` tags for paragraphs and lines, `<small>` for the department heading, and `<br/>` where line breaks exist. I'll also think about the best way to represent the layout, even without CSS. While an `align` attribute on `<p>` would seem useful, it's not in the IIIF list, so I'll just present the document in reading order with line breaks.\n\nFinally, a meticulous polish. I'll check my transcription for any spelling errors, correct punctuation, and ensure that the formatted output faithfully reflects the original document's layout and content. I'm aiming for a transcription that is both accurate and visually representative of the historical source.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/50/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

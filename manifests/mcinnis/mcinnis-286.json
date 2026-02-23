@@ -1,210 +1,256 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-286.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Postcard to Louis L. McInnis from J. N. Clark, June 25, 1881"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1881-06-25"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Postcard to Louis L. McInnis from J. N. Clark, June 25, 1881"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/e71d9448-ec15-3d3d-a2f7-b473fc7c2fa7/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 1744,
-            "width": 3019,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/20",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/e71d9448-ec15-3d3d-a2f7-b473fc7c2fa7/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1744,
-                                "width": 3019,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/e71d9448-ec15-3d3d-a2f7-b473fc7c2fa7",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/26",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/25",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><b>POSTAL CARD</b></p>\n\n[Stamp: U.S. POSTAGE ONE CENT]\n[Postmark: ABINGDON VA. JUN 25 1 PM]\n[Postmark: COLLEGE STATION TEX. JUN 28]\n\n<p><small>WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER</small></p>\n\n[Margin: Answered<br/>\nAug 8 1881]\n\n<p>Prof. Louis L. McInnis,<br/>\nState A. &amp; M. College,<br/>\nCollege Station,<br/>\nTexas.</p>\n\n<p>Canton Miss.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/27",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's my analysis of the US Postal Card, ready for transcription:**\n\nI've carefully examined this vintage postal card, noting every detail. First, the printed elements: the bold \"POSTAL CARD\" header (a US monogram is hinted in the background), the \"U.S. POSTAGE ONE CENT\" stamp, and the clear instruction \"WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER.\" I see two postmarks: one from Abingdon, VA, dated JUN 25 with a time of 1 PM (the year is unclear but probably in the 1880s based on the card's design and profile of Liberty) and a second \"COLLEGE STATION TEX. JUN 28\", confirming delivery. The Abingdon postmark is the sender's.\n\nNow, the handwritten address is critical: It reads \"Prof. Louis L. McInnis, State A. & M. College, College Station, Texas.\" I've double-checked the spelling of McInnis and confirmed \"A. & M.\" represents \"Agricultural & Mechanical,\" standard for the era and Texas A&M College. I've noted a curious addition: \"Canton Miss.\" is written at the bottom left, seemingly part of the address. It's in the same handwriting, so it's not a correction, but its function is unclear. It may have been a prior address or a note on the sender's origin (Louis McInnis was from Mississippi, which fits).\n\nFinally, I've deciphered the marginalia on the left edge. It says \"Answered / Aug 8 1881\". This is likely a docketing note from the recipient, so the date is probably 1881. The layout is: address, bottom left note, and vertical note (the docketing). I've checked the \"Ans\" word and it is \"Ans\" or \"Answered\". I've checked \"1881\" and it looks like 1881.\n\nI've decided to transcribe the text, in the following format, to reflect the spatial layout:\nPostal card header.\nPostmarks and stamp.\nPrinted instructions.\n[Margin] for the docketing.\nAddress.\nThen the extra \"Canton Miss.\" line.\nI'm ready to render a clean, accurate transcription, focusing on visual accuracy and including relevant context (especially for ambiguous glyphs like the ampersand) to the user.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 1744,
-            "width": 3019,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/22",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/30272562-9794-3285-81fa-1fa893449e07/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 1744,
-                                "width": 3019,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/30272562-9794-3285-81fa-1fa893449e07",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/29",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/28",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>Abingdon, Va,<br>\nJune 25/88</p>\n<p>Dear Friend:<br>\nYour p.c. of 6<sup>th</sup> inst<br>\nwas forwarded to me from N<br>\nI regret very much I was not<br>\nable to be with you C \u2014 I trust<br>\nyou had a pleasant time anyhow<br>\nGive my heartfelt sympathies<br>\nto Prof. G \u2014 I hope he will be Gay<br>\nHad a splendid journey home &<br>\nam now having the best time imagin-<br>\nable here. Eat, Sleep, read and think of her<br>\nengage all my time. Sometimes write<br>\nalso. Are you going home to Miss Lou<br>\nI may return about the 1<sup>st</sup> Sept.<br>\nare you going to take a job? Let me<br>\nknow & I will be there. Yrs. truly,<br>\nDr. Clark</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/30",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis Complete**\n\nAlright, let's see, I've got a handwritten document here that needs transcribing. The paper's aged, brownish, looks like it's from the late 19th or early 20th century. Abingdon, Virginia, June 25th, 1888, that's what the date looks like. The handwriting is a bit messy cursive, a bit difficult to decipher. I'll need to pay close attention to the letter forms and context.\n\nThe salutation is \"Dear Friend:\". The first line of the body mentions a \"p.c.\" of the \"6th inst,\" which I'm taking to mean postal card from the 6th of this month. It was forwarded from \"N,\" possibly New York, but it's hard to be certain. The writer expresses regret for not being able to be \"with you C \u2014\". Is this a place, a person's initial, or part of a phrase? Hmm, the writing before and after the \"C\" makes me think maybe \"C \u2014\" is a location, or maybe the person they are writing to. Then the line \"you had a pleasant time anyhow\". Wait, it's not \"pleasant\". The word is somewhat scrawled; it looks like \"pleasant\" is the best guess. Then there's \"Give my heartfelt sympathies to Prof. G \u2014 I hope he will be Gay.\" \"Gay\"? I think that it fits the letter structure. The writer seems to be wishing Prof. G well or wishing \"Gayness\" on Prof. G. Then, \"Had a splendid journey home & am now having the best time imagin-able here. Eat, Sleep, read and think of her engage all my time.\" \"Her\"? It's not clear. Is it \"Her\" or another word like \"them\", \"etc.\", or \"all\"? Seems to be a person, possibly romantic. Then they write: \"engage all my time. Sometimes write also. Are you going home to Miss Lou\" (Or Sue?) \"I may return about the 1st Sept.\" Then there's the key question, \"are you going to take a job? Let me know & I will be there. Yrs. truly, Dr. Clark\". What is the [?] word? Is it \"trip\" or a \"job\"? \"Take a sub\"? \"Take a job\" is possible. Or take a teaching assignment. Or a job in a school? Looking at the letters, the best fit is \"job\". Now, Let's see how I can transcribe it as best as possible.\n\nThe document should be transcribed as follows:\n```html\n<p>Abingdon, Va,<br>\nJune 25/88</p>\n<p>Dear Friend:<br>\nYour p.c. of 6<sup>th</sup> inst<br>\nwas forwarded to me from N<br>\nI regret very much I was not<br>\nable to be with you C \u2014 I trust<br>\nyou had a pleasant time anyhow<br>\nGive my heartfelt sympathies<br>\nto Prof. G \u2014 I hope he will be Gay<br>\nHad a splendid journey home &<br>\nam now having the best time imagin-<br>\nable here. Eat, Sleep, read and think of her<br>\nengage all my time. Sometimes write<br>\nalso. Are you going home to Miss Lou<br>\nI may return about the 1<sup>st</sup> Sept.<br>\nare you going to take a job? Let me<br>\nknow & I will be there. Yrs. truly,</p>\n<p>Dr. Clark</p>\n```\nThe transcription keeps the formatting and the line breaks and structure of the document as much as possible, with all the words transcribed according to my best efforts. I've used HTML tags for the different sections.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-286.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Postcard to Louis L. McInnis from J. N. Clark, June 25, 1881"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1881-06-25"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Postcard to Louis L. McInnis from J. N. Clark, June 25, 1881"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 8 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Postcards",
+          "Correspondence",
+          "Academic life--United States--19th century",
+          "Travel--United States--19th century",
+          "Agricultural and mechanical colleges"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Clark, J. N. (Dr.)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Professor G. (mentioned)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A postcard from Dr. J. N. Clark to Professor Louis L. McInnis at Texas A&M College, dated June 25, 1881 (though written as 1888), describing Clark's journey home to Abingdon, Virginia and inquiring about McInnis's plans for the summer, including whether he intends to return to Mississippi or accept employment. The message conveys friendly greetings and references to shared acquaintances in the academic community."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/e71d9448-ec15-3d3d-a2f7-b473fc7c2fa7/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 1744,
+      "width": 3019,
+      "items": [
+        {
+          "id": "http://example.org/iiif/20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/e71d9448-ec15-3d3d-a2f7-b473fc7c2fa7/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1744,
+                "width": 3019,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/e71d9448-ec15-3d3d-a2f7-b473fc7c2fa7",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/26",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/25",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><b>POSTAL CARD</b></p>\n\n[Stamp: U.S. POSTAGE ONE CENT]\n[Postmark: ABINGDON VA. JUN 25 1 PM]\n[Postmark: COLLEGE STATION TEX. JUN 28]\n\n<p><small>WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER</small></p>\n\n[Margin: Answered<br/>\nAug 8 1881]\n\n<p>Prof. Louis L. McInnis,<br/>\nState A. &amp; M. College,<br/>\nCollege Station,<br/>\nTexas.</p>\n\n<p>Canton Miss.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/27",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's my analysis of the US Postal Card, ready for transcription:**\n\nI've carefully examined this vintage postal card, noting every detail. First, the printed elements: the bold \"POSTAL CARD\" header (a US monogram is hinted in the background), the \"U.S. POSTAGE ONE CENT\" stamp, and the clear instruction \"WRITE THE ADDRESS ON THIS SIDE-THE MESSAGE ON THE OTHER.\" I see two postmarks: one from Abingdon, VA, dated JUN 25 with a time of 1 PM (the year is unclear but probably in the 1880s based on the card's design and profile of Liberty) and a second \"COLLEGE STATION TEX. JUN 28\", confirming delivery. The Abingdon postmark is the sender's.\n\nNow, the handwritten address is critical: It reads \"Prof. Louis L. McInnis, State A. & M. College, College Station, Texas.\" I've double-checked the spelling of McInnis and confirmed \"A. & M.\" represents \"Agricultural & Mechanical,\" standard for the era and Texas A&M College. I've noted a curious addition: \"Canton Miss.\" is written at the bottom left, seemingly part of the address. It's in the same handwriting, so it's not a correction, but its function is unclear. It may have been a prior address or a note on the sender's origin (Louis McInnis was from Mississippi, which fits).\n\nFinally, I've deciphered the marginalia on the left edge. It says \"Answered / Aug 8 1881\". This is likely a docketing note from the recipient, so the date is probably 1881. The layout is: address, bottom left note, and vertical note (the docketing). I've checked the \"Ans\" word and it is \"Ans\" or \"Answered\". I've checked \"1881\" and it looks like 1881.\n\nI've decided to transcribe the text, in the following format, to reflect the spatial layout:\nPostal card header.\nPostmarks and stamp.\nPrinted instructions.\n[Margin] for the docketing.\nAddress.\nThen the extra \"Canton Miss.\" line.\nI'm ready to render a clean, accurate transcription, focusing on visual accuracy and including relevant context (especially for ambiguous glyphs like the ampersand) to the user.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 1744,
+      "width": 3019,
+      "items": [
+        {
+          "id": "http://example.org/iiif/22",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/30272562-9794-3285-81fa-1fa893449e07/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1744,
+                "width": 3019,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/30272562-9794-3285-81fa-1fa893449e07",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/29",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/28",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>Abingdon, Va,<br>\nJune 25/88</p>\n<p>Dear Friend:<br>\nYour p.c. of 6<sup>th</sup> inst<br>\nwas forwarded to me from N<br>\nI regret very much I was not<br>\nable to be with you C — I trust<br>\nyou had a pleasant time anyhow<br>\nGive my heartfelt sympathies<br>\nto Prof. G — I hope he will be Gay<br>\nHad a splendid journey home &<br>\nam now having the best time imagin-<br>\nable here. Eat, Sleep, read and think of her<br>\nengage all my time. Sometimes write<br>\nalso. Are you going home to Miss Lou<br>\nI may return about the 1<sup>st</sup> Sept.<br>\nare you going to take a job? Let me<br>\nknow & I will be there. Yrs. truly,<br>\nDr. Clark</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/30",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis Complete**\n\nAlright, let's see, I've got a handwritten document here that needs transcribing. The paper's aged, brownish, looks like it's from the late 19th or early 20th century. Abingdon, Virginia, June 25th, 1888, that's what the date looks like. The handwriting is a bit messy cursive, a bit difficult to decipher. I'll need to pay close attention to the letter forms and context.\n\nThe salutation is \"Dear Friend:\". The first line of the body mentions a \"p.c.\" of the \"6th inst,\" which I'm taking to mean postal card from the 6th of this month. It was forwarded from \"N,\" possibly New York, but it's hard to be certain. The writer expresses regret for not being able to be \"with you C —\". Is this a place, a person's initial, or part of a phrase? Hmm, the writing before and after the \"C\" makes me think maybe \"C —\" is a location, or maybe the person they are writing to. Then the line \"you had a pleasant time anyhow\". Wait, it's not \"pleasant\". The word is somewhat scrawled; it looks like \"pleasant\" is the best guess. Then there's \"Give my heartfelt sympathies to Prof. G — I hope he will be Gay.\" \"Gay\"? I think that it fits the letter structure. The writer seems to be wishing Prof. G well or wishing \"Gayness\" on Prof. G. Then, \"Had a splendid journey home & am now having the best time imagin-able here. Eat, Sleep, read and think of her engage all my time.\" \"Her\"? It's not clear. Is it \"Her\" or another word like \"them\", \"etc.\", or \"all\"? Seems to be a person, possibly romantic. Then they write: \"engage all my time. Sometimes write also. Are you going home to Miss Lou\" (Or Sue?) \"I may return about the 1st Sept.\" Then there's the key question, \"are you going to take a job? Let me know & I will be there. Yrs. truly, Dr. Clark\". What is the [?] word? Is it \"trip\" or a \"job\"? \"Take a sub\"? \"Take a job\" is possible. Or take a teaching assignment. Or a job in a school? Looking at the letters, the best fit is \"job\". Now, Let's see how I can transcribe it as best as possible.\n\nThe document should be transcribed as follows:\n```html\n<p>Abingdon, Va,<br>\nJune 25/88</p>\n<p>Dear Friend:<br>\nYour p.c. of 6<sup>th</sup> inst<br>\nwas forwarded to me from N<br>\nI regret very much I was not<br>\nable to be with you C — I trust<br>\nyou had a pleasant time anyhow<br>\nGive my heartfelt sympathies<br>\nto Prof. G — I hope he will be Gay<br>\nHad a splendid journey home &<br>\nam now having the best time imagin-<br>\nable here. Eat, Sleep, read and think of her<br>\nengage all my time. Sometimes write<br>\nalso. Are you going home to Miss Lou<br>\nI may return about the 1<sup>st</sup> Sept.<br>\nare you going to take a job? Let me<br>\nknow & I will be there. Yrs. truly,</p>\n<p>Dr. Clark</p>\n```\nThe transcription keeps the formatting and the line breaks and structure of the document as much as possible, with all the words transcribed according to my best efforts. I've used HTML tags for the different sections.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/286/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

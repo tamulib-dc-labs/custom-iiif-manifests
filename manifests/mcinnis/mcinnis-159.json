@@ -1,139 +1,186 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-159.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from T. M. Scott, October 1, 1886"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1886-10-01"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from T. M. Scott, October 1, 1886"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/fcafbad4-bf6c-3a9b-8f68-12777ce6627e/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3724,
-            "width": 2297,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/98",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/97",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/fcafbad4-bf6c-3a9b-8f68-12777ce6627e/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3724,
-                                "width": 2297,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/fcafbad4-bf6c-3a9b-8f68-12777ce6627e",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/101",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/100",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>J. H. COFFMAN,<br>\n<i>Dry Goods, Groceries,</i><br>\nHARDWARE AND DRUGS.<br>\nMelissa, Texas, Oct 1st 1886</p>\n\n<p>Prof. S. S. McInnis<br>\nCollege Station, Tex.</p>\n\n<p>There is quite an<br>\ninteresting Election to come off tomor-<br>\nrow in Melissa School Dist. The question<br>\nof voting a tax to suppliment the School<br>\nfund appropriated to the Dist.</p>\n\n<p>I may conclude to remain<br>\nto the election, as I am appointed<br>\nthe presiding Officer, and if I stay<br>\nover, I will be at the College on<br>\nthe noon train Sunday.</p>\n\n<p>Your Friend<br>\nT. M. Scott.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/102",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**The Transcriptionist's Mindset: A Deep Dive**\n\nOkay, here's how I'm going to approach this transcription. First, I need to understand *exactly* what's being asked of me. I see the task: transcribe text from an image. I'm a professional, so accuracy is key. I need to faithfully reproduce the text, including the spelling and punctuation as it appears, even if there are errors. I must interpret the handwriting, and I need to try to maintain the original layout (paragraphs, etc.). Structural elements should be labeled as instructed, and the output needs to use those specific HTML tags. I will be sure to apply these rules. There's also the constraint: I provide *only* the transcribed text, nothing else. No commentary, no corrections, just the text.\n\nNow, let's analyze the image itself. I can see it's a handwritten letter on letterhead. The letterhead looks like it has a header that's visually distinct and will require special attention. The date and addressee are clearly visible. The handwriting looks like a bit of a challenge in places.\n\nRight, the header first. It says \"J. H. COFFMAN,\" in a curved, printed style. Below that, I see a decorative line. Then, \"Dry Goods, Groceries\" in a script font which I'll render with `<i>` tags. Below that is \"HARDWARE AND DRUGS\" in what looks like a printed sans-serif font. Then there's another decorative line. Lastly, \"Melissa, Texas\" and the date \"Oct 1st 1886\" written below.\n\nThe addressee is where it gets interesting. It reads \"Prof. S. S. McInnis\" or \"Prof. L. L. McInnis\", or perhaps even \"Prof. S. S. McInnis\". I see a Prof. L. L. McInnis is associated with Texas A&M. However, I must transcribe what is *visible*. These initials... they're looped at top and bottom. Let me check the handwriting of the letter 'S' elsewhere in the text. I need to look closely at those 'S's; do they look printed, or like a cursive 'S'? Comparing the letters, it really looks like \"S. S.\" or \"L. L.\" is intended here. The letters loop back on themselves and are looped. The context would suggest the person meant \"L. L.\", given the location, but I need to go by the visible evidence. The letters on the initials have a loop at the top and the bottom, so I am confident I should transcribe \"S. S.\" or \"L. L.\" until I can be 100% certain it's \"L. L.\". Looking at the context, it might be \"L. L.\". It *looks* most like \"S. S.\" to me, even if a historian would insist on \"L. L.\" given the destination of College Station.\n\nNow to the main body of the letter. I can make out \"College Station, Tex.\" (Tex. with a period, from what I can see), then \"There is quite an interesting Election to come off tomor- row in Melissa School Dist. The question of voting a tax to suppliment the School fund appropriated to the Dist. I may conclude to remain to the election, as I am appointed the presiding Officer, and if I stay over, I will be at the College on the noon train Sunday.\" Okay. I can see spelling errors. I will transcribe it as \"suppliment\".\n\nFinally, the closing. \"Your Friend\" and \"T. M. Scott.\" (with what looks like a flourish).\n\nI'll use `<p>` for paragraphs. `<br>` will handle line breaks in the header and address to keep the layout correct. I'll use `<i>` for the \"Dry Goods, Groceries\" part of the header. I'll use `[Header]` and `[Signature]` to mark those sections. That's the plan.\n\nI think I'll go through the text and refine. \"J. H. COFFMAN,\" is arched. The date is a bit squished. \"Prof. S. S. McInnis\" is still my best guess, but I'll continue to check the shape of those letters. Okay, the spelling of \"interesting\" is correct. The hyphenation \"tomor- row\" needs to be preserved. \"Melissa School Dist.\" looks right, the abbreviation is clear. Now, let's see, \"suppliment\". Yes, it has the \"i\". It *looks* like \"i\". This is what I must transcribe. Capitalization is consistent; proper nouns are capitalized. \"Your Friend\" looks good. \"T. M. Scott.\" is the signature.\n\nLet'\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-159.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from T. M. Scott, October 1, 1886"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1886-10-01"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from T. M. Scott, October 1, 1886"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 23 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Education--Texas--History--19th century",
+          "School elections",
+          "School funding",
+          "Local taxation",
+          "Melissa (Tex.)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Scott, T. M."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, S. S.",
+          "McInnis, Louis L.",
+          "Coffman, J. H."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from T. M. Scott to Professor S. S. McInnis written from Melissa, Texas, informing him of an upcoming school district election to vote on a local tax to supplement state school appropriations. Scott indicates he may remain in Melissa to serve as presiding officer for the election and, if he does, will return to College Station on the Sunday noon train."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/fcafbad4-bf6c-3a9b-8f68-12777ce6627e/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3724,
+      "width": 2297,
+      "items": [
+        {
+          "id": "http://example.org/iiif/98",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/97",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/fcafbad4-bf6c-3a9b-8f68-12777ce6627e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3724,
+                "width": 2297,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/fcafbad4-bf6c-3a9b-8f68-12777ce6627e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/101",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/100",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>J. H. COFFMAN,<br>\n<i>Dry Goods, Groceries,</i><br>\nHARDWARE AND DRUGS.<br>\nMelissa, Texas, Oct 1st 1886</p>\n\n<p>Prof. S. S. McInnis<br>\nCollege Station, Tex.</p>\n\n<p>There is quite an<br>\ninteresting Election to come off tomor-<br>\nrow in Melissa School Dist. The question<br>\nof voting a tax to suppliment the School<br>\nfund appropriated to the Dist.</p>\n\n<p>I may conclude to remain<br>\nto the election, as I am appointed<br>\nthe presiding Officer, and if I stay<br>\nover, I will be at the College on<br>\nthe noon train Sunday.</p>\n\n<p>Your Friend<br>\nT. M. Scott.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/102",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**The Transcriptionist's Mindset: A Deep Dive**\n\nOkay, here's how I'm going to approach this transcription. First, I need to understand *exactly* what's being asked of me. I see the task: transcribe text from an image. I'm a professional, so accuracy is key. I need to faithfully reproduce the text, including the spelling and punctuation as it appears, even if there are errors. I must interpret the handwriting, and I need to try to maintain the original layout (paragraphs, etc.). Structural elements should be labeled as instructed, and the output needs to use those specific HTML tags. I will be sure to apply these rules. There's also the constraint: I provide *only* the transcribed text, nothing else. No commentary, no corrections, just the text.\n\nNow, let's analyze the image itself. I can see it's a handwritten letter on letterhead. The letterhead looks like it has a header that's visually distinct and will require special attention. The date and addressee are clearly visible. The handwriting looks like a bit of a challenge in places.\n\nRight, the header first. It says \"J. H. COFFMAN,\" in a curved, printed style. Below that, I see a decorative line. Then, \"Dry Goods, Groceries\" in a script font which I'll render with `<i>` tags. Below that is \"HARDWARE AND DRUGS\" in what looks like a printed sans-serif font. Then there's another decorative line. Lastly, \"Melissa, Texas\" and the date \"Oct 1st 1886\" written below.\n\nThe addressee is where it gets interesting. It reads \"Prof. S. S. McInnis\" or \"Prof. L. L. McInnis\", or perhaps even \"Prof. S. S. McInnis\". I see a Prof. L. L. McInnis is associated with Texas A&M. However, I must transcribe what is *visible*. These initials... they're looped at top and bottom. Let me check the handwriting of the letter 'S' elsewhere in the text. I need to look closely at those 'S's; do they look printed, or like a cursive 'S'? Comparing the letters, it really looks like \"S. S.\" or \"L. L.\" is intended here. The letters loop back on themselves and are looped. The context would suggest the person meant \"L. L.\", given the location, but I need to go by the visible evidence. The letters on the initials have a loop at the top and the bottom, so I am confident I should transcribe \"S. S.\" or \"L. L.\" until I can be 100% certain it's \"L. L.\". Looking at the context, it might be \"L. L.\". It *looks* most like \"S. S.\" to me, even if a historian would insist on \"L. L.\" given the destination of College Station.\n\nNow to the main body of the letter. I can make out \"College Station, Tex.\" (Tex. with a period, from what I can see), then \"There is quite an interesting Election to come off tomor- row in Melissa School Dist. The question of voting a tax to suppliment the School fund appropriated to the Dist. I may conclude to remain to the election, as I am appointed the presiding Officer, and if I stay over, I will be at the College on the noon train Sunday.\" Okay. I can see spelling errors. I will transcribe it as \"suppliment\".\n\nFinally, the closing. \"Your Friend\" and \"T. M. Scott.\" (with what looks like a flourish).\n\nI'll use `<p>` for paragraphs. `<br>` will handle line breaks in the header and address to keep the layout correct. I'll use `<i>` for the \"Dry Goods, Groceries\" part of the header. I'll use `[Header]` and `[Signature]` to mark those sections. That's the plan.\n\nI think I'll go through the text and refine. \"J. H. COFFMAN,\" is arched. The date is a bit squished. \"Prof. S. S. McInnis\" is still my best guess, but I'll continue to check the shape of those letters. Okay, the spelling of \"interesting\" is correct. The hyphenation \"tomor- row\" needs to be preserved. \"Melissa School Dist.\" looks right, the abbreviation is clear. Now, let's see, \"suppliment\". Yes, it has the \"i\". It *looks* like \"i\". This is what I must transcribe. Capitalization is consistent; proper nouns are capitalized. \"Your Friend\" looks good. \"T. M. Scott.\" is the signature.\n\nLet'\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/159/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

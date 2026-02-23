@@ -1,281 +1,328 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-122.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. E. Edmond, July 18, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-07-18"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. E. Edmond, July 18, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 20 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/19ec2df5-1749-3cba-b9bf-252cf82eb22f/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3053,
-            "width": 1804,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/19ec2df5-1749-3cba-b9bf-252cf82eb22f/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3053,
-                                "width": 1804,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/19ec2df5-1749-3cba-b9bf-252cf82eb22f",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nKingsbury. Texas<br>\n18 July 1885\n</p>\n\n<p>\nProf L L McInnis-\n</p>\n\n<p>\nSir<br>\nI am very much obliged for<br>\nyour sending me Catalogue<br>\nof your College. When I wrote<br>\nthe Hon<sup>l</sup> M<sup>r</sup> Pfeuffer I was<br>\nunder the impression yours was<br>\na State aided School and<br>\nthat farmers like myself could<br>\nfor a moderate sum get their<br>\nboys a good education but<br>\nmy surprise was great to find<br>\nyour terms were higher than<br>\nthe first Class English or<br>\nIrish Schools where when<br>\nat home I could no more\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My Transcription Process for the Handwritten Letter**\n\nOkay, here's how I'm approaching this transcription, keeping in mind best practices for historical documents and digital preservation. First, I'm noting the document's characteristics: it's a handwritten letter. I identify the key elements: the date and location \"Kingsbury. Texas, 18 July 1885,\" the recipient \"Prof L L McInnis-,\" the salutation \"Sir,\" and the body of the letter. I can see the writer is expressing gratitude for receiving a college catalogue and expressing some surprise at the tuition fees.\n\nI am paying attention to handwriting quirks to ensure accuracy. For instance, \"Honl\" is likely a shortened form of \"Honorable,\" and I will account for it when formatting, using `<sup>` tags to denote the elevated letter, given the rules. Similarly, \"Pfeuffer\" needs careful transcription, especially given its historical significance. I am also aware that the \"sum\" might appear unusual, but context tells me it is the correct transcription, not \"2um\". I will also denote the distinctive capital \"I\" in \"Irish\".\n\nI will follow these steps:\n1.  **Format the Header**: I'll transcribe the header, including the location and date.\n2.  **Transcribe Recipient**: Then the recipient's information.\n3.  **Transcribe Salutation**: The salutation.\n4.  **Transcribe the Body**: I am then going to transcribe the body, line by line, preserving the line breaks.\n\nI am taking care to preserve the original layout and line breaks from the image and will denote this using `<br>`. My preferred tags will be `<p>`, `<br>`, and allowed modifiers like `<sup>`. I'll also ensure that I use the correct case, like the capitalized \"I\" in \"Irish\" or the capitalized letters in \"English\" and \"Schools.\"\n\nDuring the transcription, I'm refining my understanding of individual words, checking things like \"Honl\" is really H-o-n-l not H-o-n-b-l-e. The `Hon<sup>l</sup>` notation is correct. I am then checking \"Hon<sup>l</sup> Mr Pfeuffer\". And then \"July\" not \"Jany\". Then checking \"sum\" instead of \"2um\". Then checking line 11, \"State aided School\", to make sure the case is right on \"School\". It looks like \"School\" and \"State\" are capitalized.\n\nI've also double-checked the allowed tags. I'm ready to produce the final transcription, adhering to the specified formatting constraints.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3053,
-            "width": 1804,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/70e33880-19bf-39f1-9a08-d9c9f91526cb/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3053,
-                                "width": 1804,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/70e33880-19bf-39f1-9a08-d9c9f91526cb",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/14",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nthan to your institution afford<br>\nto send my three sons - I can<br>\nin the fall send my boy<br>\nhome to Ireland nearly 7000<br>\nmiles, pay his fare and one<br>\nyear at School and as<br>\ngood a one as yours could<br>\npossibly be all for not<br>\nmore than one half what<br>\nit would cost me at Bryan<br>\nIf this is state aid to Education<br>\nwhat must it be to send<br>\na boy to a non-endowed<br>\nSchool? I could have my<br>\nboy educated in Trinity<br>\nCollege Dublin boarding out<br>\nfor a sum not more than<br>\nyou charge, and a Trinity<br>\ndegree is a passport all<br>\nover the world - I will now\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Project: A Deep Dive**\n\nOkay, so I've got this handwritten document, and my task is to produce a clean transcription. It seems to be a letter, judging by the content and the mid-sentence start, which means it's likely a continuation from a previous page. The handwriting is cursive, generally legible, but there are definitely some messy spots, which is typical for handwritten documents. I can decipher that the language is English, and it seems the author is lamenting the cost of education. Specifically, they are comparing the expenses of sending their sons to \"Bryan\" \u2013 I'm assuming a college or educational institution, though I'll need to confirm that \u2013 versus sending them to Trinity College Dublin in Ireland.\n\nFirst, I conducted a thorough line-by-line transcription. I am checking the text for any areas that could be unclear, or easily mistaken, and cross-referencing to confirm.\n\n*   **Line 1:** \"than to your institution afford\" \u2013 That looks pretty straightforward.\n*   **Line 2:** \"to send my three sons - I can\" \u2013 And the dash after \"sons\" is clear.\n*   **Line 3:** \"in the fall send my boy\" \u2013 No issues there.\n*   **Line 4:** \"home to Ireland nearly 7000\" \u2013 I can see \"7000\".\n*   **Line 5:** \"miles, pay his fare and one\" \u2013 The comma after \"miles\" is present.\n*   **Line 6:** \"year at School and as\" \u2013 \"School\" is capitalized, as it should be.\n*   **Line 7:** \"good a one as yours could\" \u2013 No problems.\n*   **Line 8:** \"possibly be all for not\" \u2013 The word is \"not\".\n*   **Line 9:** \"more than one half what\" \u2013 Got it.\n*   **Line 10:** \"it would cost me at Bryan\" \u2013 That's \"Bryan\". It could refer to William Jennings Bryan or an institution.\n*   **Line 11:** \"If this is state aid to Education\" \u2013 \"Education\" is also capitalized.\n*   **Line 12:** \"what must it be to send\" \u2013 Clear.\n*   **Line 13:** \"a boy to a non-endowed\" \u2013 The mark looks like a hyphen, which is standard.\n*   **Line 14:** \"School? I could have my\" \u2013 The question mark is correct and \"School\" is capitalized.\n*   **Line 15:** \"boy educated in Trinity\" \u2013 No issues.\n*   **Line 16:** \"College Dublin boarding out\" \u2013 Let me scrutinize that. Yes, there's a comma after \"Dublin\".\n*   **Line 17:** \"for a sum not more than\" \u2013 The ink blot here is significant, but I can read \"not\".\n*   **Line 18:** \"you charge, and a Trinity\" \u2013 Good.\n*   **Line 19:** \"degree is a passport all\" \u2013 Clear.\n*   **Line 20:** \"over the world - I will now\" \u2013 The dash after \"world\" is there.\n\nI've ensured consistent capitalization and punctuation, including the capitalization of \"School\", \"Education\", \"Bryan\", and \"Trinity College Dublin.\" The comma in line 16 and hyphen in 13 are correctly transcribed. Also, I noted the ink blot, but I can read the intended word. The structure is simple: a single paragraph body of text, and no complex HTML required. The output is ready to go!\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3053,
-            "width": 1804,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/6",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/5",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3c40695e-85a0-3bba-a554-07cdbb51b6e7/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3053,
-                                "width": 1804,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3c40695e-85a0-3bba-a554-07cdbb51b6e7",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/17",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>send my boy to our Irish Masonic School where<br/>\nI can Keep him well for one hundred dollars<br/>\na year - you will excuse me writing thus<br/>\nplain but I do it with every respect for<br/>\nyourself and your College.</p>\n\n[Signature]\n<p>Yr obdt<br/>\nJ. E. Edmond</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's how I approached this transcription task:**\n\nFirst, I assessed the situation: I'm a professional transcriber, my task is to decipher and transcribe this handwritten text from an image, adhering to IIIF v3 guidelines and preserving the original style. The image is a letter, rotated sideways, and the handwriting is cursive. My goal is to produce accurate text that is both readable and visually accurate to the original image.\n\nMy initial scan of the image told me that I was at the end of a letter, but the handwriting was going to take some deciphering. I knew the image had been rotated, which would impact my method, so I needed to read it from top-to-bottom, left-to-right, but with the correct visual orientation. I started by reading each line carefully, breaking down each word, and analyzing each letter. I noted that some words were capitalized (\"Irish Masonic School,\" \"Keep,\" \"College,\" \"You\") and that the punctuation was clear. I made special note of the signature and the concluding phrase, \"Yr obdt\", which is a common abbreviation, but even this needed careful examination.\n\nAs I transcribed, I looked closely at each letter to identify the right characters. For example, the initial of the name looked like a 'J' but I needed to compare it to the examples of 'H' and 'I' in the text, to be sure. I checked the spelling throughout the text, and looked at the overall structure to ensure the formatting made sense.\n\nI made several passes, constantly refining my analysis, and carefully checking the characters in the sign-off, to ensure the best possible rendering of each word. For the final stage, I carefully checked my interpretation of \"Yr obdt\" and confirmed that it's \"Your obedient\". I then looked at the text around the signature. I verified the spelling of \"Edmond\" and double-checked the capitalisation of each of the key words.\n\nFinally, I formatted the text with `<p>` and `<br>` tags to preserve the original layout and structure. I was careful to label the structural element. This was to allow easy interpretation of the text to a user.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-122.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. E. Edmond, July 18, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-07-18"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. E. Edmond, July 18, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 20 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Education--United States--19th century",
+          "Agricultural education",
+          "College costs and expenses",
+          "Educational institutions--Texas",
+          "International education",
+          "Correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Edmond, J. E."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Pfeuffer, Hon. M. R."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from J. E. Edmond of Kingsbury, Texas to Professor Louis L. McInnis dated July 18, 1885, expressing concern about the high tuition costs at McInnis's college relative to other educational institutions. Edmond compares the college's fees unfavorably to schools in England, Ireland, and Trinity College Dublin, arguing that he could send his son to Ireland for half the cost. The letter reflects 19th-century debates over agricultural education accessibility and state-aided versus private educational institutions in Texas."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/19ec2df5-1749-3cba-b9bf-252cf82eb22f/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3053,
+      "width": 1804,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/19ec2df5-1749-3cba-b9bf-252cf82eb22f/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3053,
+                "width": 1804,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/19ec2df5-1749-3cba-b9bf-252cf82eb22f",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nKingsbury. Texas<br>\n18 July 1885\n</p>\n\n<p>\nProf L L McInnis-\n</p>\n\n<p>\nSir<br>\nI am very much obliged for<br>\nyour sending me Catalogue<br>\nof your College. When I wrote<br>\nthe Hon<sup>l</sup> M<sup>r</sup> Pfeuffer I was<br>\nunder the impression yours was<br>\na State aided School and<br>\nthat farmers like myself could<br>\nfor a moderate sum get their<br>\nboys a good education but<br>\nmy surprise was great to find<br>\nyour terms were higher than<br>\nthe first Class English or<br>\nIrish Schools where when<br>\nat home I could no more\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My Transcription Process for the Handwritten Letter**\n\nOkay, here's how I'm approaching this transcription, keeping in mind best practices for historical documents and digital preservation. First, I'm noting the document's characteristics: it's a handwritten letter. I identify the key elements: the date and location \"Kingsbury. Texas, 18 July 1885,\" the recipient \"Prof L L McInnis-,\" the salutation \"Sir,\" and the body of the letter. I can see the writer is expressing gratitude for receiving a college catalogue and expressing some surprise at the tuition fees.\n\nI am paying attention to handwriting quirks to ensure accuracy. For instance, \"Honl\" is likely a shortened form of \"Honorable,\" and I will account for it when formatting, using `<sup>` tags to denote the elevated letter, given the rules. Similarly, \"Pfeuffer\" needs careful transcription, especially given its historical significance. I am also aware that the \"sum\" might appear unusual, but context tells me it is the correct transcription, not \"2um\". I will also denote the distinctive capital \"I\" in \"Irish\".\n\nI will follow these steps:\n1.  **Format the Header**: I'll transcribe the header, including the location and date.\n2.  **Transcribe Recipient**: Then the recipient's information.\n3.  **Transcribe Salutation**: The salutation.\n4.  **Transcribe the Body**: I am then going to transcribe the body, line by line, preserving the line breaks.\n\nI am taking care to preserve the original layout and line breaks from the image and will denote this using `<br>`. My preferred tags will be `<p>`, `<br>`, and allowed modifiers like `<sup>`. I'll also ensure that I use the correct case, like the capitalized \"I\" in \"Irish\" or the capitalized letters in \"English\" and \"Schools.\"\n\nDuring the transcription, I'm refining my understanding of individual words, checking things like \"Honl\" is really H-o-n-l not H-o-n-b-l-e. The `Hon<sup>l</sup>` notation is correct. I am then checking \"Hon<sup>l</sup> Mr Pfeuffer\". And then \"July\" not \"Jany\". Then checking \"sum\" instead of \"2um\". Then checking line 11, \"State aided School\", to make sure the case is right on \"School\". It looks like \"School\" and \"State\" are capitalized.\n\nI've also double-checked the allowed tags. I'm ready to produce the final transcription, adhering to the specified formatting constraints.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3053,
+      "width": 1804,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/70e33880-19bf-39f1-9a08-d9c9f91526cb/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3053,
+                "width": 1804,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/70e33880-19bf-39f1-9a08-d9c9f91526cb",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/14",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nthan to your institution afford<br>\nto send my three sons - I can<br>\nin the fall send my boy<br>\nhome to Ireland nearly 7000<br>\nmiles, pay his fare and one<br>\nyear at School and as<br>\ngood a one as yours could<br>\npossibly be all for not<br>\nmore than one half what<br>\nit would cost me at Bryan<br>\nIf this is state aid to Education<br>\nwhat must it be to send<br>\na boy to a non-endowed<br>\nSchool? I could have my<br>\nboy educated in Trinity<br>\nCollege Dublin boarding out<br>\nfor a sum not more than<br>\nyou charge, and a Trinity<br>\ndegree is a passport all<br>\nover the world - I will now\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Project: A Deep Dive**\n\nOkay, so I've got this handwritten document, and my task is to produce a clean transcription. It seems to be a letter, judging by the content and the mid-sentence start, which means it's likely a continuation from a previous page. The handwriting is cursive, generally legible, but there are definitely some messy spots, which is typical for handwritten documents. I can decipher that the language is English, and it seems the author is lamenting the cost of education. Specifically, they are comparing the expenses of sending their sons to \"Bryan\" – I'm assuming a college or educational institution, though I'll need to confirm that – versus sending them to Trinity College Dublin in Ireland.\n\nFirst, I conducted a thorough line-by-line transcription. I am checking the text for any areas that could be unclear, or easily mistaken, and cross-referencing to confirm.\n\n*   **Line 1:** \"than to your institution afford\" – That looks pretty straightforward.\n*   **Line 2:** \"to send my three sons - I can\" – And the dash after \"sons\" is clear.\n*   **Line 3:** \"in the fall send my boy\" – No issues there.\n*   **Line 4:** \"home to Ireland nearly 7000\" – I can see \"7000\".\n*   **Line 5:** \"miles, pay his fare and one\" – The comma after \"miles\" is present.\n*   **Line 6:** \"year at School and as\" – \"School\" is capitalized, as it should be.\n*   **Line 7:** \"good a one as yours could\" – No problems.\n*   **Line 8:** \"possibly be all for not\" – The word is \"not\".\n*   **Line 9:** \"more than one half what\" – Got it.\n*   **Line 10:** \"it would cost me at Bryan\" – That's \"Bryan\". It could refer to William Jennings Bryan or an institution.\n*   **Line 11:** \"If this is state aid to Education\" – \"Education\" is also capitalized.\n*   **Line 12:** \"what must it be to send\" – Clear.\n*   **Line 13:** \"a boy to a non-endowed\" – The mark looks like a hyphen, which is standard.\n*   **Line 14:** \"School? I could have my\" – The question mark is correct and \"School\" is capitalized.\n*   **Line 15:** \"boy educated in Trinity\" – No issues.\n*   **Line 16:** \"College Dublin boarding out\" – Let me scrutinize that. Yes, there's a comma after \"Dublin\".\n*   **Line 17:** \"for a sum not more than\" – The ink blot here is significant, but I can read \"not\".\n*   **Line 18:** \"you charge, and a Trinity\" – Good.\n*   **Line 19:** \"degree is a passport all\" – Clear.\n*   **Line 20:** \"over the world - I will now\" – The dash after \"world\" is there.\n\nI've ensured consistent capitalization and punctuation, including the capitalization of \"School\", \"Education\", \"Bryan\", and \"Trinity College Dublin.\" The comma in line 16 and hyphen in 13 are correctly transcribed. Also, I noted the ink blot, but I can read the intended word. The structure is simple: a single paragraph body of text, and no complex HTML required. The output is ready to go!\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3053,
+      "width": 1804,
+      "items": [
+        {
+          "id": "http://example.org/iiif/6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3c40695e-85a0-3bba-a554-07cdbb51b6e7/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3053,
+                "width": 1804,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3c40695e-85a0-3bba-a554-07cdbb51b6e7",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/17",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>send my boy to our Irish Masonic School where<br/>\nI can Keep him well for one hundred dollars<br/>\na year - you will excuse me writing thus<br/>\nplain but I do it with every respect for<br/>\nyourself and your College.</p>\n\n[Signature]\n<p>Yr obdt<br/>\nJ. E. Edmond</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I approached this transcription task:**\n\nFirst, I assessed the situation: I'm a professional transcriber, my task is to decipher and transcribe this handwritten text from an image, adhering to IIIF v3 guidelines and preserving the original style. The image is a letter, rotated sideways, and the handwriting is cursive. My goal is to produce accurate text that is both readable and visually accurate to the original image.\n\nMy initial scan of the image told me that I was at the end of a letter, but the handwriting was going to take some deciphering. I knew the image had been rotated, which would impact my method, so I needed to read it from top-to-bottom, left-to-right, but with the correct visual orientation. I started by reading each line carefully, breaking down each word, and analyzing each letter. I noted that some words were capitalized (\"Irish Masonic School,\" \"Keep,\" \"College,\" \"You\") and that the punctuation was clear. I made special note of the signature and the concluding phrase, \"Yr obdt\", which is a common abbreviation, but even this needed careful examination.\n\nAs I transcribed, I looked closely at each letter to identify the right characters. For example, the initial of the name looked like a 'J' but I needed to compare it to the examples of 'H' and 'I' in the text, to be sure. I checked the spelling throughout the text, and looked at the overall structure to ensure the formatting made sense.\n\nI made several passes, constantly refining my analysis, and carefully checking the characters in the sign-off, to ensure the best possible rendering of each word. For the final stage, I carefully checked my interpretation of \"Yr obdt\" and confirmed that it's \"Your obedient\". I then looked at the text around the signature. I verified the spelling of \"Edmond\" and double-checked the capitalisation of each of the key words.\n\nFinally, I formatted the text with `<p>` and `<br>` tags to preserve the original layout and structure. I was careful to label the structural element. This was to allow easy interpretation of the text to a user.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/122/pages/page_2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

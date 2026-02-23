@@ -1,517 +1,559 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-54-coords.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1883-06 (circa)"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3740,
-            "width": 2341,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3740,
-                                "width": 2341,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "3",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=1978,26,68,62"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "[1883, June 30]",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=1290,126,810,110"
-                        },
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "By the by this reminds me of the fact",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,526,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/11",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "that your College is prospectively",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,651,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "without a head. I know not the",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,776,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "inspiration of Dr J.'s resignation,",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,901,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/14",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "but I am not surprised at it.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1026,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Were I a single man - as he is I",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1151,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "would forever abandon the school",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1276,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/17",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "room, for some employment which",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1401,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "promises better remuneration for",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1526,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "toil & labor. Is or is not the cause",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1651,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/20",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "of his resignation an open secret?",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1776,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "And just at this point allow me",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1901,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "to ask. Will your directors fall",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2026,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/23",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "into line & emphasize the dogma that",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2151,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/24",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "we have no school men in Texas?",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2276,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/25",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "What is your opinion!",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2401,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/26",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Trust you had a pleasant visit to your",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2526,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/27",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "old home. Christmas passed without",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2651,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/28",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "incident to me - I failed to attend",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2776,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/29",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Supts. Association at Houston.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2901,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/30",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Well enough perhaps - for the papers",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3026,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/31",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "notably Austin Statesman went through",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3151,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/32",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "them rather savagely. Prof H.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3276,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/33",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "was there - as he is every where -",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3401,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/34",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "the man without a model -",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3526,2185,125"
-                        },
-                        {
-                            "id": "http://example.org/iiif/35",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Image to TOON Transcription: My Thought Process**\n\nAlright, let's break this down. First, I\u2019ve got a high-resolution image of a handwritten letter, and I need to get it into a specific TOON format. I can see the handwriting is cursive, probably from the late 19th century, given the date notation \"[1883, June 30]\". The image is 2341 pixels wide by 3740 pixels high.\n\nThe core of the task is segmenting the text and mapping it to coordinates, which I\u2019ll do line by line. I'll need an (x, y, w, h) for each line.\n\nSo, here's my transcription process:\n\n1.  **Start with the basics:** The top right corner has a \"3,\" likely a page number. Then, the date \"[1883, June 30]\". I will note that these have a starting Y-value of roughly 50px-150px.\n\n2.  **Line by line, I try my best with the text.** I read through the first line, \"By the by this reminds me of the fact\".\n\n3.  **Ambiguity resolution:** I have some ambiguity at Line 4: \"inspiration of Dr J.'s resignation\". I see something that could be \"Dr\" or \"Col.\" Given the context of a college, \"Dr\" seems more plausible. I\u2019m also making sure I\u2019m correct about the J with June. It could also be \"Col J\", but for now, \"Dr J.\" seems right after inspecting the text again.\n\n4.  **Checking again:** Also at line 7, the word \"would\". It can also mean \"wd\" but the full word is implied. So I will add that.\n\n5.  **Let's think:** With Line 12, \"And just at this point allow me\", that word \"point\" has me thinking. It looks a bit like \"pinch\". \"At this pinch\" versus \"At this point\" - and as an expert I want to use my intuition to determine this. But at this point is super common, so I will select \"point.\"\n\n6.  **I make some assumptions:** \"Supts.\" is \"Superintendents\", which is obvious in context.\n\n7.  **Finalizing it:** At line 23, \"Prof H.\" It looks like an \"H\".\n\n8.  **Coordinates:** Given the 3740 pixels height, I start to do some arithmetic to give coordinates for each line. I will double check these. I estimate where the text begins, 520px in the Y-direction, and that each line is 150px apart. I verify, double-checking line counts, and making some adjustments for accuracy.\n\n9.  **Verification:** With the last lines I am double-checking, ensuring the spacing and line height is reasonable. I check these last lines, and all the previous lines, and make sure that the image's height is accommodated for.\n\nNow that I have my transcript with my notes of ambiguity, and my pixel coordinates ready, I will generate the output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3740,
-            "width": 2341,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3740,
-                                "width": 2341,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-54-coords.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1883-06 (circa)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from J. T. Hand, circa June 30, 1883"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 14 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "Personal correspondence--United States--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Hand, J. T."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal letter from J. T. Hand to Louis L. McInnis dated circa June 30, 1883. The document is part of the Louis L. McInnis Papers collection and represents private correspondence from the late nineteenth century. Without access to the full transcription, the specific contents and purpose of the letter cannot be determined, but it represents an example of period correspondence maintained in the McInnis archival collection."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3740,
+      "width": 2341,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3740,
+                "width": 2341,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/f89534a5-5f96-304d-812d-26d46fe1c3a5",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "3",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=1978,26,68,62"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "[1883, June 30]",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=1290,126,810,110"
+            },
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "By the by this reminds me of the fact",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,526,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/11",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "that your College is prospectively",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,651,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "without a head. I know not the",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,776,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "inspiration of Dr J.'s resignation,",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,901,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/14",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "but I am not surprised at it.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1026,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Were I a single man - as he is I",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1151,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "would forever abandon the school",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1276,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/17",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "room, for some employment which",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1401,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "promises better remuneration for",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1526,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "toil & labor. Is or is not the cause",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1651,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/20",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "of his resignation an open secret?",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1776,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "And just at this point allow me",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,1901,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "to ask. Will your directors fall",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2026,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/23",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "into line & emphasize the dogma that",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2151,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/24",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "we have no school men in Texas?",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2276,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/25",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "What is your opinion!",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2401,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/26",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Trust you had a pleasant visit to your",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2526,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/27",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "old home. Christmas passed without",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2651,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/28",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "incident to me - I failed to attend",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2776,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/29",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Supts. Association at Houston.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,2901,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/30",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Well enough perhaps - for the papers",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3026,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/31",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "notably Austin Statesman went through",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3151,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/32",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "them rather savagely. Prof H.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3276,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/33",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "was there - as he is every where -",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3401,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/34",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "the man without a model -",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0#xywh=85,3526,2185,125"
+            },
+            {
+              "id": "http://example.org/iiif/35",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Image to TOON Transcription: My Thought Process**\n\nAlright, let's break this down. First, I’ve got a high-resolution image of a handwritten letter, and I need to get it into a specific TOON format. I can see the handwriting is cursive, probably from the late 19th century, given the date notation \"[1883, June 30]\". The image is 2341 pixels wide by 3740 pixels high.\n\nThe core of the task is segmenting the text and mapping it to coordinates, which I’ll do line by line. I'll need an (x, y, w, h) for each line.\n\nSo, here's my transcription process:\n\n1.  **Start with the basics:** The top right corner has a \"3,\" likely a page number. Then, the date \"[1883, June 30]\". I will note that these have a starting Y-value of roughly 50px-150px.\n\n2.  **Line by line, I try my best with the text.** I read through the first line, \"By the by this reminds me of the fact\".\n\n3.  **Ambiguity resolution:** I have some ambiguity at Line 4: \"inspiration of Dr J.'s resignation\". I see something that could be \"Dr\" or \"Col.\" Given the context of a college, \"Dr\" seems more plausible. I’m also making sure I’m correct about the J with June. It could also be \"Col J\", but for now, \"Dr J.\" seems right after inspecting the text again.\n\n4.  **Checking again:** Also at line 7, the word \"would\". It can also mean \"wd\" but the full word is implied. So I will add that.\n\n5.  **Let's think:** With Line 12, \"And just at this point allow me\", that word \"point\" has me thinking. It looks a bit like \"pinch\". \"At this pinch\" versus \"At this point\" - and as an expert I want to use my intuition to determine this. But at this point is super common, so I will select \"point.\"\n\n6.  **I make some assumptions:** \"Supts.\" is \"Superintendents\", which is obvious in context.\n\n7.  **Finalizing it:** At line 23, \"Prof H.\" It looks like an \"H\".\n\n8.  **Coordinates:** Given the 3740 pixels height, I start to do some arithmetic to give coordinates for each line. I will double check these. I estimate where the text begins, 520px in the Y-direction, and that each line is 150px apart. I verify, double-checking line counts, and making some adjustments for accuracy.\n\n9.  **Verification:** With the last lines I am double-checking, ensuring the spacing and line height is reasonable. I check these last lines, and all the previous lines, and make sure that the image's height is accommodated for.\n\nNow that I have my transcript with my notes of ambiguity, and my pixel coordinates ready, I will generate the output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3740,
+      "width": 2341,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3740,
+                "width": 2341,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2c06a4bf-b220-3f00-a501-813488ebe0ff",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/54/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

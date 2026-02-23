@@ -1,127 +1,178 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-429.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from E. B. Cushing, April 2, 1891"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from E. B. Cushing, April 2, 1891"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 2 Louis L. McInnis Papers/Box 2 Folder 6 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/61ac266f-39da-371d-806b-9b940afdf337/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4382,
-            "width": 3291,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/224",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/223",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/61ac266f-39da-371d-806b-9b940afdf337/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4382,
-                                "width": 3291,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/61ac266f-39da-371d-806b-9b940afdf337",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/227",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/226",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Margin: I think you Could get Cols agree to any petition among the boys. When Foster goes on the Commission his place will be vacant]\n\n<p>\n(G. H.) M. 18\u00bd.<br>\nGALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.<br>\nTEXAS & NEW ORLEANS RAILROAD CO.<br>\n<br>\nTo <br>\nSubject <br>\n<br>\nOffice of<br>\n</p>\n\n<p>\nLozier Pecos Co Tx April 2<sup>d</sup> 1891\n</p>\n\n<p>\nMy dear Sir:<br>\nYour letter 29<sup>th</sup> inst was forwarded to<br>\nme here - I have written to night to have the<br>\npetition started in Houston \u2013 Will write to<br>\nthe boys elsewhere also tomorrow \u2013 I will be<br>\nin Houston in about a week when I will give<br>\nthe matter personal attention and rush it all<br>\nI can \u2013 I have mentioned the matter to several<br>\nof the boys and they have all seemed willing to<br>\nsign the paper and all express hope that<br>\nyou may be appointed tho several thought<br>\nit useless to proceed as you likely would<br>\nnot accept the appointment \u2013 I told them that<br>\nyou would very likely accept if offered to<br>\nyou on a/c of your interest in the School<br>\nWalter Moore would qualify his signature<br>\n\"Provided Mr M<sup>c</sup>Innis will agree not to make<br>\nwar on Gov. Ross\" \u2013 I told him I should ask<br>\nyou no questions even if I failed to get his influence<br>\nStrange how silly some men can be with a head full<br>\nof brains. Speaking to a gentleman of the<br>\nidea he said he would sign the petition and<br>\nget Col Hutchenson to do so hence I will have<br>\nhim get up a \"letter\" to the Gov & have a<br>\nfew leading men in Ho sign it \u2013 Will rush the mat<br>\nter as I can get back \u2013 Sorry I have to be absent now\n</p>\n\n<p>\nYours Truly<br>\nE B Cushing\n</p>\n\n<p>\nTo L. L. M<sup>c</sup>Innis Esq.\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/228",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**A Deep Dive into Transcription: From Image to Text**\n\nOkay, here's the deal: I'm staring at this image, and I need to get this right.  My immediate task is clear: transcribing this handwritten letter. But I'm not just typing \u2013 I'm thinking, analyzing, and interpreting every stroke.\n\nFirst, I need to understand the framework. I am a professional transcriptionist, which means accuracy is paramount, and I need to handle all these HTML tags properly. This means the structure and readability must be perfect. I need to make sure I get the headers, footers, and margins labeled properly, too.\n\nI begin by analyzing the image itself. I can see this is a handwritten letter on company stationery. I see the header \"M. 18 1/2\". I see \"Lozier Pecos Co Tx April 2d 1891\". The handwriting looks a bit rushed, but it is readable. I note the salutation, \"My dear Sir,\" and the bottom-left addressee, \"To L. L. McInnis Esq.\"\n\nNow, I start to transcribe, line by line, remembering to use the specified HTML tags. I must also interpret the faint ink spots. At the top of the page, written upside down, is some marginal text.  I need to figure out what that says. After rotating the text in my head, I read \"I think you could get...\" The next word is unclear.\n\nI carefully transcribe the printed header and the dateline. Then I move into the body of the letter.\n\nI am transcribing this sentence by sentence, and correcting my own reading.\n\nThere are names involved, like \"Walter Moore\", \"Gov Ross\", and \"Col Hutchenson.\" There's also the mention of a \"School\" and a \"petition,\" plus references to \"Houston.\"  I'm reading closely and making sure I do not misinterpret any letters.\n\nAs I go, I'm already refining the transcription. I'm using HTML tags for formatting. I'm using the `<sup>` tag where needed, such as with \"2d\" and \"29th.\" I check the spelling, looking out for abbreviations like \"inst\" and \"a/c.\" I will make sure the text follows all the instructions I was given.\n\nI now need to make certain I get the upside-down text correct. I read the letters, one at a time, and go back and re-read them.\n\nThe upside-down text looks like:  \"I think you could get [?] agree to any petition among the boys.\" The [?] word begins with a C, but the handwriting is strange. It could be \"Cols,\" implying \"Colonels,\" which fits with the other references. Or maybe it is \"Couls?\" I will carefully read the handwritten text to be certain. After repeated checks, and because I see an association with the title \"Col\" (Colonel), I'm going to put `Cols`.\n\nAfter reading through the whole text, I start the final editing, and make adjustments. The word at the end of the text is slightly unclear. I will re-read and edit and adjust. I must accurately capture the handwriting. I decide to keep `ter`, even though it looks scribbled. I am sure I must include that scrawled part of the word, as the word \"soon\" is also implied.\n\nNow, all I need to do is format it all using the proper tags and send.  The text should be perfect.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-429.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from E. B. Cushing, April 2, 1891"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from E. B. Cushing, April 2, 1891"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 2 Louis L. McInnis Papers/Box 2 Folder 6 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Petitions",
+          "Appointments--Texas",
+          "Railroad companies--Texas",
+          "Government officials--Texas",
+          "Education--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Cushing, E. B."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Foster",
+          "Moore, Walter",
+          "Hutchenson, Colonel",
+          "Ross, Governor",
+          "Galveston, Harrisburg & San Antonio Railway Company",
+          "Texas & New Orleans Railroad Company"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "E. B. Cushing writes to Louis L. McInnis regarding efforts to circulate a petition supporting McInnis's appointment to an unspecified position. Cushing reports on his communications with various influential men in Houston and elsewhere who have agreed to sign the petition, though some doubt McInnis would accept the appointment. The letter indicates Cushing's plan to return to Houston within a week to personally advance the matter and secure additional support, including from Colonel Hutchenson."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/61ac266f-39da-371d-806b-9b940afdf337/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4382,
+      "width": 3291,
+      "items": [
+        {
+          "id": "http://example.org/iiif/224",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/223",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/61ac266f-39da-371d-806b-9b940afdf337/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4382,
+                "width": 3291,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/61ac266f-39da-371d-806b-9b940afdf337",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/227",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/226",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Margin: I think you Could get Cols agree to any petition among the boys. When Foster goes on the Commission his place will be vacant]\n\n<p>\n(G. H.) M. 18½.<br>\nGALVESTON, HARRISBURG & SAN ANTONIO RAILWAY CO.<br>\nTEXAS & NEW ORLEANS RAILROAD CO.<br>\n<br>\nTo <br>\nSubject <br>\n<br>\nOffice of<br>\n</p>\n\n<p>\nLozier Pecos Co Tx April 2<sup>d</sup> 1891\n</p>\n\n<p>\nMy dear Sir:<br>\nYour letter 29<sup>th</sup> inst was forwarded to<br>\nme here - I have written to night to have the<br>\npetition started in Houston – Will write to<br>\nthe boys elsewhere also tomorrow – I will be<br>\nin Houston in about a week when I will give<br>\nthe matter personal attention and rush it all<br>\nI can – I have mentioned the matter to several<br>\nof the boys and they have all seemed willing to<br>\nsign the paper and all express hope that<br>\nyou may be appointed tho several thought<br>\nit useless to proceed as you likely would<br>\nnot accept the appointment – I told them that<br>\nyou would very likely accept if offered to<br>\nyou on a/c of your interest in the School<br>\nWalter Moore would qualify his signature<br>\n\"Provided Mr M<sup>c</sup>Innis will agree not to make<br>\nwar on Gov. Ross\" – I told him I should ask<br>\nyou no questions even if I failed to get his influence<br>\nStrange how silly some men can be with a head full<br>\nof brains. Speaking to a gentleman of the<br>\nidea he said he would sign the petition and<br>\nget Col Hutchenson to do so hence I will have<br>\nhim get up a \"letter\" to the Gov & have a<br>\nfew leading men in Ho sign it – Will rush the mat<br>\nter as I can get back – Sorry I have to be absent now\n</p>\n\n<p>\nYours Truly<br>\nE B Cushing\n</p>\n\n<p>\nTo L. L. M<sup>c</sup>Innis Esq.\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/228",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**A Deep Dive into Transcription: From Image to Text**\n\nOkay, here's the deal: I'm staring at this image, and I need to get this right.  My immediate task is clear: transcribing this handwritten letter. But I'm not just typing – I'm thinking, analyzing, and interpreting every stroke.\n\nFirst, I need to understand the framework. I am a professional transcriptionist, which means accuracy is paramount, and I need to handle all these HTML tags properly. This means the structure and readability must be perfect. I need to make sure I get the headers, footers, and margins labeled properly, too.\n\nI begin by analyzing the image itself. I can see this is a handwritten letter on company stationery. I see the header \"M. 18 1/2\". I see \"Lozier Pecos Co Tx April 2d 1891\". The handwriting looks a bit rushed, but it is readable. I note the salutation, \"My dear Sir,\" and the bottom-left addressee, \"To L. L. McInnis Esq.\"\n\nNow, I start to transcribe, line by line, remembering to use the specified HTML tags. I must also interpret the faint ink spots. At the top of the page, written upside down, is some marginal text.  I need to figure out what that says. After rotating the text in my head, I read \"I think you could get...\" The next word is unclear.\n\nI carefully transcribe the printed header and the dateline. Then I move into the body of the letter.\n\nI am transcribing this sentence by sentence, and correcting my own reading.\n\nThere are names involved, like \"Walter Moore\", \"Gov Ross\", and \"Col Hutchenson.\" There's also the mention of a \"School\" and a \"petition,\" plus references to \"Houston.\"  I'm reading closely and making sure I do not misinterpret any letters.\n\nAs I go, I'm already refining the transcription. I'm using HTML tags for formatting. I'm using the `<sup>` tag where needed, such as with \"2d\" and \"29th.\" I check the spelling, looking out for abbreviations like \"inst\" and \"a/c.\" I will make sure the text follows all the instructions I was given.\n\nI now need to make certain I get the upside-down text correct. I read the letters, one at a time, and go back and re-read them.\n\nThe upside-down text looks like:  \"I think you could get [?] agree to any petition among the boys.\" The [?] word begins with a C, but the handwriting is strange. It could be \"Cols,\" implying \"Colonels,\" which fits with the other references. Or maybe it is \"Couls?\" I will carefully read the handwritten text to be certain. After repeated checks, and because I see an association with the title \"Col\" (Colonel), I'm going to put `Cols`.\n\nAfter reading through the whole text, I start the final editing, and make adjustments. The word at the end of the text is slightly unclear. I will re-read and edit and adjust. I must accurately capture the handwriting. I decide to keep `ter`, even though it looks scribbled. I am sure I must include that scrawled part of the word, as the word \"soon\" is also implied.\n\nNow, all I need to do is format it all using the proper tags and send.  The text should be perfect.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/429/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

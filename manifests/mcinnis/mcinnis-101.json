@@ -1,139 +1,186 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-101.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from James Garrison, May 28, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-05-28"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from James Garrison, May 28, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/d96db873-567f-3dd2-b883-63e60b4406ad/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3223,
-            "width": 2105,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/68",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/67",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/d96db873-567f-3dd2-b883-63e60b4406ad/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3223,
-                                "width": 2105,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d96db873-567f-3dd2-b883-63e60b4406ad",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/71",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/70",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p><b>CAPITOL HOTEL,</b><br>\n<small>Jno. R. Mahone, Proprietor.</small></p>\n\n<p><i>Marshall, Texas,</i> May 28<sup>th</sup> 1885.</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas.</p>\n\n<p>My dear Sir:-<br>\nBe kind enough<br>\nto inform the Board of<br>\nDirectors of the A. & M. College<br>\nthat my official duties<br>\nas District Attorney for-<br>\nbid my presence at the<br>\nannual meeting of the<br>\nBoard, June 1. 1885. Assure<br>\nthe members of my regret.<br>\nYours truly.<br>\nJas. G. Garrison,</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/72",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**A Deep Dive into a Historical Transcription**\n\nAlright, let's break this down. My task is to transcribe a handwritten letter, and I'm treating it like a careful archaeological dig. First, the visual analysis: the letterhead, \"CAPITOL HOTEL,\" and below it, \"Jno. R. Mahone, Proprietor,\" set the scene. I can see the \"Marshall, Texas\" location and the handwritten date, \"May 28th 1885,\" complete with that little superscript \"th\" and some flourishes. The letter's addressed to \"Prof. L. L. McInnis, / College Station, / Texas.\"\n\nThe salutation, \"My dear Sir:-\" starts the formal tone. Now for the body. The writer, Jas. G. Garrison, is making a formal notification: He's informing the \"Board of Directors of the A. & M. College\" that his \"official duties as District Attorney\" prevent his attendance at their annual meeting on \"June 1. 1885.\" It's written that his duties \"for- / bid\" his presence, which is how the word split, over the lines. He assures the members of his regret, and the letter closes with \"Yours truly.\" and his signature, \"Jas. G. Garrison,\".\n\nNow the formatting. I'm going to use HTML tags as requested. The \"th\" in the date gets the `<sup>` treatment. The character between A and M is ambiguous, It looks like a plus sign but I'm going to interpret it and write `A. & M.` or `A. + M.`? It's clearer in the context of it being Texas A&M. I'll represent it using `A. & M.` to represent the meaning and intent rather than just the visual shorthand that was common in writing the time.\n\nSo, here's my final draft. I've re-checked the text against the image, the font styles, and the nuances of the handwriting itself. I've considered the line breaks. I'm making sure it's all accurate and properly formatted according to the guidelines. I've polished the HTML structure as I transcribe. The text and the meaning need to be perfect.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-101.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from James Garrison, May 28, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-05-28"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from James Garrison, May 28, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 19 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Agricultural and Mechanical College of Texas--Administration",
+          "Boards of directors",
+          "District attorneys--Texas",
+          "Official correspondence",
+          "Meeting attendance"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Garrison, James G."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Board of Directors, Agricultural & Mechanical College of Texas",
+          "Mahone, John R."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A formal letter from James G. Garrison, District Attorney, to Professor Louis L. McInnis at Agricultural & Mechanical College in College Station, Texas, dated May 28, 1885. Garrison regrets his inability to attend the Board of Directors' annual meeting scheduled for June 1, 1885, due to his official duties as District Attorney. The letter requests McInnis to convey this apology and absence notification to the Board members."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/d96db873-567f-3dd2-b883-63e60b4406ad/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3223,
+      "width": 2105,
+      "items": [
+        {
+          "id": "http://example.org/iiif/68",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/67",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/d96db873-567f-3dd2-b883-63e60b4406ad/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3223,
+                "width": 2105,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/d96db873-567f-3dd2-b883-63e60b4406ad",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/71",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/70",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p><b>CAPITOL HOTEL,</b><br>\n<small>Jno. R. Mahone, Proprietor.</small></p>\n\n<p><i>Marshall, Texas,</i> May 28<sup>th</sup> 1885.</p>\n\n<p>Prof. L. L. McInnis,<br>\nCollege Station,<br>\nTexas.</p>\n\n<p>My dear Sir:-<br>\nBe kind enough<br>\nto inform the Board of<br>\nDirectors of the A. & M. College<br>\nthat my official duties<br>\nas District Attorney for-<br>\nbid my presence at the<br>\nannual meeting of the<br>\nBoard, June 1. 1885. Assure<br>\nthe members of my regret.<br>\nYours truly.<br>\nJas. G. Garrison,</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/72",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**A Deep Dive into a Historical Transcription**\n\nAlright, let's break this down. My task is to transcribe a handwritten letter, and I'm treating it like a careful archaeological dig. First, the visual analysis: the letterhead, \"CAPITOL HOTEL,\" and below it, \"Jno. R. Mahone, Proprietor,\" set the scene. I can see the \"Marshall, Texas\" location and the handwritten date, \"May 28th 1885,\" complete with that little superscript \"th\" and some flourishes. The letter's addressed to \"Prof. L. L. McInnis, / College Station, / Texas.\"\n\nThe salutation, \"My dear Sir:-\" starts the formal tone. Now for the body. The writer, Jas. G. Garrison, is making a formal notification: He's informing the \"Board of Directors of the A. & M. College\" that his \"official duties as District Attorney\" prevent his attendance at their annual meeting on \"June 1. 1885.\" It's written that his duties \"for- / bid\" his presence, which is how the word split, over the lines. He assures the members of his regret, and the letter closes with \"Yours truly.\" and his signature, \"Jas. G. Garrison,\".\n\nNow the formatting. I'm going to use HTML tags as requested. The \"th\" in the date gets the `<sup>` treatment. The character between A and M is ambiguous, It looks like a plus sign but I'm going to interpret it and write `A. & M.` or `A. + M.`? It's clearer in the context of it being Texas A&M. I'll represent it using `A. & M.` to represent the meaning and intent rather than just the visual shorthand that was common in writing the time.\n\nSo, here's my final draft. I've re-checked the text against the image, the font styles, and the nuances of the handwriting itself. I've considered the line breaks. I'm making sure it's all accurate and properly formatted according to the guidelines. I've polished the HTML structure as I transcribe. The text and the meaning need to be perfect.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/101/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

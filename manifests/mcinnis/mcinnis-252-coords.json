@@ -1,361 +1,404 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-252-coords.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1880-06-10"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 4338,
-            "width": 3327,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 4338,
-                                "width": 3327,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "A.J. Peeler.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=58,113,283,70"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "T.S. Maxey.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2876,93,350,70"
-                        },
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Peeler & Maxey,",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=760,190,1660,190"
-                        },
-                        {
-                            "id": "http://example.org/iiif/8",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Attorneys at Law,",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1160,420,900,95"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Austin, Texas.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1270,650,660,100"
-                        },
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Jan 10th 1880",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1960,560,1230,180"
-                        },
-                        {
-                            "id": "http://example.org/iiif/11",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Prof L.L. McInnis",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=190,780,1450,180"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "College Station",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1130,930,1000,130"
-                        },
-                        {
-                            "id": "http://example.org/iiif/13",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Tex.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1880,1050,350,120"
-                        },
-                        {
-                            "id": "http://example.org/iiif/14",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Dr Sr -",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2060,1120,450,150"
-                        },
-                        {
-                            "id": "http://example.org/iiif/15",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Yr kind favor",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2450,1200,800,150"
-                        },
-                        {
-                            "id": "http://example.org/iiif/16",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "of 8th inst asking me to stop with you when",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1350,3050,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/17",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "I come to the College recd - I accept with",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1480,3050,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/18",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "pleasure your invitation, but cannot",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1610,2950,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/19",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "now say what day I will reach the",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1740,2950,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/20",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "College - perhaps not until morning.",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1870,2850,160"
-                        },
-                        {
-                            "id": "http://example.org/iiif/21",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "Resply &c",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2060,1950,600,150"
-                        },
-                        {
-                            "id": "http://example.org/iiif/22",
-                            "type": "Annotation",
-                            "motivation": "tagging",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "A. J. Peeler",
-                                "format": "text/plain",
-                                "language": "en",
-                                "purpose": "transcribing"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2200,2050,1000,300"
-                        },
-                        {
-                            "id": "http://example.org/iiif/23",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Analysis and Transcription of Handwritten Letter (TOON Format)**\n\nOkay, here's the plan. I've got this image of a letter to transcribe into a TOON format. It's got to be precise, especially with the coordinates. The image is 3327 pixels wide and 4338 pixels high, which helps with the calculations.\n\nFirst, I need to break down the image. I see printed text in the top corners: \"A.J. Peeler\" on the left and \"T.S. Maxey\" on the right. Then there's the main header: \"Peeler & Maxey,\" with \"Attorneys at Law,\" underneath it. There's also some small print at the bottom left which *looks* like a lithographer's mark, \"Ramsey & Millett Lith St Louis\", but it's really blurry, so I'll be conservative and omit it.\n\nNext, I need to locate the location and date. It says \"Austin, Texas.\" and then, in handwriting, \"Jan 10th 1880\" (or maybe 1886, but 1880 seems more likely, given the partnership). Below that is the address: \"Prof L.L. McInnis\", \"College Station\", \"Tex.\".\n\nThe body of the letter starts with \"Dr Sr -\", followed by \"Yr kind favor\" above the main body, and then the actual text, which seems to be about an invitation. The final lines are \"Resply &c\" and the signature \"A. J. Peeler\".\n\nI will estimate the bounding boxes for each text element, refining my estimates using the grid to get precise coordinates. After carefully considering each line's position, I'm going to start constructing the output. There are 18 lines.\n\nI will be careful about handwriting versus printed text, spacing, and any unusual formatting. I've got to make sure all that info goes into the TOON format and that I'm spot on with the coordinates. Finally, I'll double-check everything, especially the date, name, and any abbreviations or special characters to ensure everything is perfect before delivering the output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-252-coords.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1880-06-10"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from A. J. Peeler, June 10, 1880"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 6 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Correspondence",
+          "Personal correspondence--19th century",
+          "Business correspondence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Peeler, A. J."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L."
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A personal or business letter written by A. J. Peeler to Louis L. McInnis dated June 10, 1880. The letter is part of the McInnis Papers collection and represents correspondence from the late 19th century. Without access to the letter's transcription, the specific subject matter and purpose remain undetermined, though it likely concerns personal or commercial matters of interest to the McInnis family or business."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 4338,
+      "width": 3327,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 4338,
+                "width": 3327,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/d3904e94-77bf-38da-86d5-b4fd2eee2f23",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "A.J. Peeler.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=58,113,283,70"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "T.S. Maxey.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2876,93,350,70"
+            },
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Peeler & Maxey,",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=760,190,1660,190"
+            },
+            {
+              "id": "http://example.org/iiif/8",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Attorneys at Law,",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1160,420,900,95"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Austin, Texas.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1270,650,660,100"
+            },
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Jan 10th 1880",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1960,560,1230,180"
+            },
+            {
+              "id": "http://example.org/iiif/11",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Prof L.L. McInnis",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=190,780,1450,180"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "College Station",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1130,930,1000,130"
+            },
+            {
+              "id": "http://example.org/iiif/13",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Tex.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=1880,1050,350,120"
+            },
+            {
+              "id": "http://example.org/iiif/14",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Dr Sr -",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2060,1120,450,150"
+            },
+            {
+              "id": "http://example.org/iiif/15",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Yr kind favor",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2450,1200,800,150"
+            },
+            {
+              "id": "http://example.org/iiif/16",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "of 8th inst asking me to stop with you when",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1350,3050,160"
+            },
+            {
+              "id": "http://example.org/iiif/17",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "I come to the College recd - I accept with",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1480,3050,160"
+            },
+            {
+              "id": "http://example.org/iiif/18",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "pleasure your invitation, but cannot",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1610,2950,160"
+            },
+            {
+              "id": "http://example.org/iiif/19",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "now say what day I will reach the",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1740,2950,160"
+            },
+            {
+              "id": "http://example.org/iiif/20",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "College - perhaps not until morning.",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=130,1870,2850,160"
+            },
+            {
+              "id": "http://example.org/iiif/21",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Resply &c",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2060,1950,600,150"
+            },
+            {
+              "id": "http://example.org/iiif/22",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "A. J. Peeler",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "transcribing"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0#xywh=2200,2050,1000,300"
+            },
+            {
+              "id": "http://example.org/iiif/23",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Analysis and Transcription of Handwritten Letter (TOON Format)**\n\nOkay, here's the plan. I've got this image of a letter to transcribe into a TOON format. It's got to be precise, especially with the coordinates. The image is 3327 pixels wide and 4338 pixels high, which helps with the calculations.\n\nFirst, I need to break down the image. I see printed text in the top corners: \"A.J. Peeler\" on the left and \"T.S. Maxey\" on the right. Then there's the main header: \"Peeler & Maxey,\" with \"Attorneys at Law,\" underneath it. There's also some small print at the bottom left which *looks* like a lithographer's mark, \"Ramsey & Millett Lith St Louis\", but it's really blurry, so I'll be conservative and omit it.\n\nNext, I need to locate the location and date. It says \"Austin, Texas.\" and then, in handwriting, \"Jan 10th 1880\" (or maybe 1886, but 1880 seems more likely, given the partnership). Below that is the address: \"Prof L.L. McInnis\", \"College Station\", \"Tex.\".\n\nThe body of the letter starts with \"Dr Sr -\", followed by \"Yr kind favor\" above the main body, and then the actual text, which seems to be about an invitation. The final lines are \"Resply &c\" and the signature \"A. J. Peeler\".\n\nI will estimate the bounding boxes for each text element, refining my estimates using the grid to get precise coordinates. After carefully considering each line's position, I'm going to start constructing the output. There are 18 lines.\n\nI will be careful about handwriting versus printed text, spacing, and any unusual formatting. I've got to make sure all that info goes into the TOON format and that I'm spot on with the coordinates. Finally, I'll double-check everything, especially the date, name, and any abbreviations or special characters to ensure everything is perfect before delivering the output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/252/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

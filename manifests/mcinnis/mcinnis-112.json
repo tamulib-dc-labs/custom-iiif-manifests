@@ -1,210 +1,261 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-112.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from an unknown sender, June 8, 1878"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1878-06-08"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from an unknown sender, June 8, 1878"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 2 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/7f384ff5-c990-3e37-a282-5a7cdc0e3151/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3195,
-            "width": 1976,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7f384ff5-c990-3e37-a282-5a7cdc0e3151/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3195,
-                                "width": 1976,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7f384ff5-c990-3e37-a282-5a7cdc0e3151",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/8",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/7",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>A. & M. College<br/>\nJune 8<sup>th</sup> 1878.</p>\n\n<p>You are appointed as one of a<br/>\ncommittee to attend the following Examndns:</p>\n\n| | | | | |\n|---|---|---|---|---|\n| Int. French | by Prof. Banks. | Monday | 10<sup>th</sup> | 8 1/2 a.m |\n| Horace | by Prof Hand | Tuesday | 11<sup>th</sup> | 8 1/2 a.m |\n| Nat. Hist | by Prof Martin | \" \" | 11 | 2 P.M |\n| Horace | by Prof Hand | Thursday | 13 | <sup>2 1/2</sup> 8 a.m |\n| Int. Gen. | by Prof Banks | Wednesday | 12 | 2 P.M |\n| Memorabilia | by Prof Hand | Friday | 14<sup>th</sup> | 8 a.m. |\n| Caesar | by \" \" | Monday | 17<sup>th</sup> | 8 a.m. |\n| Latin Begin. | by \" \" | Tuesday | 18<sup>th</sup> | 2 1/2 P.M. |\n| Chemistry | by Prof Martin | Wednesday | 19<sup>th</sup> | 8, a.m. |\n| Grammar | by Prof Brilly | Thursday | 20 | 2 1/2 P.M |\n| History | by Pres Gattright | Friday | 21 | 8 a.m. |\n| Surveying | by Prof Morris | \" | 21 | 2 1/2 P.M. |\n\n<p>By order of Comm -<br/>\nLouis McInnis<br/>\nSecty.</p>\n\n<p>To:-<br/>\nProf McInnis</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/9",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Here's how I approached this transcription, step by step:**\n\nFirst, I established my role as a transcriptionist and defined the task: to create an accurate rendition of the handwritten document using specific HTML and Markdown elements, and respecting the structure and content. I noted the constraints: to deliver *only* the transcribed text.\n\nI then analyzed the image itself. I saw a handwritten note, likely a schedule of examinations, on lined paper, dated June 8th, 1878, from A. & M. College. I identified a clear structure: a header, an introductory sentence, a table-like list of exams, and a closing with a signature and an addressee.\n\nMentally, or on scratchpad I started to transcribe, paying close attention to the visual form of each word. I began with the header: *A. & M. College, June 8th 1878*. The \"A\" and \"M\" were large, though the strokes were closer to lowercase; I decided to transcribe them as `A. & M.` to represent the intent (but I debated this!) Then the introductory paragraph \"You are appointed as one of a committee to attend the following\". The key challenge was the abbreviated word at the end: I worked to decipher the handwriting, going back and forth, from *Exam^ns* to *Examndns* (the word likely stands for Examinations, abbreviated). I wanted to capture the visual representation and make a best guess.\n\nNext, I tackled the table. I focused on extracting the information into rows and columns: Subject, Professor, Day, Date, Time. I carefully noted each detail, including the specific \"1/2\" format, as fractions were commonly handled in handwritten lists. A key area of detail for this work. In the section for *Horace*, I meticulously noted a small \"2 1/2\" written above the time, debating whether it was a duration, a correction, or just a small note above \"8 a.m.\". I carefully formatted this with `<sup>` tags to represent its position, finally transcribing it as `<sup>2 1/2</sup> 8 a.m.`. I also identified any \"ditto\" marks and names. I used the existing professor name format from the text itself. In all cases, I tried to stay faithful to the original, even if the dates seemed out of order, or if names seemed unusual. For the \"Brilly\" versus \"Briley\" conundrum, I carefully analyzed the letterforms, erring on the side of \"Brilly\". The final closing section and addressee were straightforward.\n\nThen, I focused on refining the transcription using HTML and Markdown to represent the original format. I used `<p>` tags for paragraphs and `<br/>` for line breaks within the paragraph. The dates \"8th\", \"10th\", \"14th\", \"17th\", \"18th\", and fractions, like \"1/2\", I represented with `<sup>` to represent the superscript nature of these details. I decided to use markdown tables to organize the lists.\n\nI returned to review the key details (e.g. the handwritten \"Examndns\" to make sure the transcription was as accurate as possible). \"Int.\" was short for \"Intermediate\". \"Nat. Hist\" for \"Natural History\". I took special note of names and abbreviations and cross-referenced with known details of Texas A&M. I re-evaluated the word \"Examndns\". The word is \"Examination\". The characters look like `E x a m n d n s`. I will stick to transcription as is. I confirmed details such as names and date formats. The \"1/2\" I chose to write as `1/2`.\n\nAfter all these checks, I constructed the final output using a markdown table. I rechecked every detail: the structure, the HTML tags, the fractions, and the header and footer. I put the \"2 1/2\" in the proper place, as an interlinear addition. Everything looks good.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3195,
-            "width": 1976,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/4",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/3",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/2929f695-7efc-338e-be60-c2d8de3a8e2e/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3195,
-                                "width": 1976,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/2929f695-7efc-338e-be60-c2d8de3a8e2e",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/11",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/10",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>[Header]<br>\nA. & M, College<br>\nJune 8<sup>th</sup> 1878.</p>\n\n<p>You are appointed as one<br>\nof the committee to attend<br>\nthe following examinations:</p>\n\n<p>Prof. McInnis</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/12",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the plan. I need to transcribe this handwritten document, being very precise about the text and the layout, and then wrap it in the allowed HTML elements. First, let's analyze the image. I see \"A. & M. College\" at the top, a date \"June 8th 1878.\", and body text that starts with \"You are appointed...\" and ends with \"the following examinations:\". At the bottom, there's \"Prof. McInnis\".\n\nNext, the handwriting. I've got to break it down. \"A. & M. College\": The ampersand is interesting \u2013 it's stylised, looking almost like a \"+\" but given the context of colleges, \"A. & M.\" (Agricultural and Mechanical) is a safe bet. The \"th\" in \"8th\" is superscript. All the letters in the main text are clear enough. \"Prof. McInnis\" looks right: \"McInnis\" is a common surname.\n\nNow, let's format. The guidelines state HTML is needed. Line breaks must be preserved, and the \"th\" needs `<sup>th</sup>`. The layout's got the location and date either right-aligned or centered, the body is a paragraph, and the name's at the bottom with a clear gap (fold lines).\n\nI'll start with a draft:\nA. & M. College\nJune 8<sup>th</sup> 1878.\nYou are appointed as one\nof the committee to attend\nthe following examinations:\n\n[Gap]\n\nProf. McInnis\n\nI need to transcribe \"A. & M.\" as `&` since it refers to A&M College. \"June 8th\" is clear. \"Prof. McInnis\" is the address.\n\nLet's look at the \"A. & M.\" symbol again. It's a cross-stroke. It could be `+` or `&`. But in the context of a proper noun, it's an \"&\".\n\nNow for the HTML:\n<p align=\"right\">\nA. & M. College<br>\nJune 8<sup>th</sup> 1878.\n</p>\n<p>\nYou are appointed as one<br>\nof the committee to attend<br>\nthe following examinations:\n</p>\n<br>\n<br>\n<p>\nProf. McInnis\n</p>\n\nWait, `align=\"right\"` isn't allowed. It is an attribute, but usually simple HTML tags are best. Let's just transcribe the text.\n\nLine by line with breaks:\nLine 1: A. & M. College\nLine 2: June 8<sup>th</sup> 1878.\nLine 3: You are appointed as one\nLine 4: of the committee to attend\nLine 5: the following examinations:\n...\nLine X: Prof. McInnis\n\nLet's spell-check \"McInnis\". It looks right. The guidelines want structural element labels. The top is a header. The bottom is an addressee or footer. I can use the labels.\n\nThe top part is a header.\nThe bottom part is the addressee, footer.\n\nSo,\n<p>[Header]<br>\nA. & M. College<br>\nJune 8<sup>th</sup> 1878.</p>\n\n<p>You are appointed as one<br>\nof the committee to attend<br>\nthe following examinations:</p>\n\n<p>Prof. McInnis</p>\n\nIs \"Prof. McInnis\" a signature? It is at the bottom, but the paper seems to be a notification. But the name is at the end, so I'll put it in a `<p>` tag.\n\nThe guidelines say I can use `[Header], [Footer], and [Signature]`.\nIt is not a signature. It looks like an addressee on the outside of a tri-fold letter, or just at the bottom. The guidelines do say \"Label structural elements and wrap...\". It doesn't look like a signature.\n\nThe date is right-aligned. I can't align it but can use `<br>`.\nOkay:\n[Header]\nA. & M. College\nJune 8<sup>th</sup> 1878.\n\n[Body]\nYou are appointed as one\nof the committee to attend\nthe following examinations:\n\n[Footer/Addressee]\nProf. McInnis\n\nNow, I'll use the HTML tags and labels. It's safe to add labels. I will insert `[Header]` at the start and just wrap the parts.\n\nA. &\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-112.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from an unknown sender, June 8, 1878"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1878-06-08"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from an unknown sender, June 8, 1878"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 2 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Examinations--A&M College",
+          "Academic committees",
+          "Classical languages--Study and teaching",
+          "Science education--19th century",
+          "College curricula--1870s"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Unknown sender"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "Louis L. McInnis",
+          "Professor Banks",
+          "Professor Hand",
+          "Professor Martin",
+          "Professor Brilly",
+          "Professor Morris",
+          "President Gattright"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "An official notification letter from A&M College dated June 8, 1878, appointing Louis L. McInnis to serve on an examination committee. The document lists twelve scheduled examinations across various subjects including classical languages (French, Horace, Caesar, Latin), natural history, chemistry, grammar, history, and surveying, with specific dates, times, and examining professors identified. This administrative record reflects the structure and curriculum of late 19th-century agricultural and mechanical college education."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/7f384ff5-c990-3e37-a282-5a7cdc0e3151/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3195,
+      "width": 1976,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7f384ff5-c990-3e37-a282-5a7cdc0e3151/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3195,
+                "width": 1976,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7f384ff5-c990-3e37-a282-5a7cdc0e3151",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/7",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>A. & M. College<br/>\nJune 8<sup>th</sup> 1878.</p>\n\n<p>You are appointed as one of a<br/>\ncommittee to attend the following Examndns:</p>\n\n| | | | | |\n|---|---|---|---|---|\n| Int. French | by Prof. Banks. | Monday | 10<sup>th</sup> | 8 1/2 a.m |\n| Horace | by Prof Hand | Tuesday | 11<sup>th</sup> | 8 1/2 a.m |\n| Nat. Hist | by Prof Martin | \" \" | 11 | 2 P.M |\n| Horace | by Prof Hand | Thursday | 13 | <sup>2 1/2</sup> 8 a.m |\n| Int. Gen. | by Prof Banks | Wednesday | 12 | 2 P.M |\n| Memorabilia | by Prof Hand | Friday | 14<sup>th</sup> | 8 a.m. |\n| Caesar | by \" \" | Monday | 17<sup>th</sup> | 8 a.m. |\n| Latin Begin. | by \" \" | Tuesday | 18<sup>th</sup> | 2 1/2 P.M. |\n| Chemistry | by Prof Martin | Wednesday | 19<sup>th</sup> | 8, a.m. |\n| Grammar | by Prof Brilly | Thursday | 20 | 2 1/2 P.M |\n| History | by Pres Gattright | Friday | 21 | 8 a.m. |\n| Surveying | by Prof Morris | \" | 21 | 2 1/2 P.M. |\n\n<p>By order of Comm -<br/>\nLouis McInnis<br/>\nSecty.</p>\n\n<p>To:-<br/>\nProf McInnis</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/9",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Here's how I approached this transcription, step by step:**\n\nFirst, I established my role as a transcriptionist and defined the task: to create an accurate rendition of the handwritten document using specific HTML and Markdown elements, and respecting the structure and content. I noted the constraints: to deliver *only* the transcribed text.\n\nI then analyzed the image itself. I saw a handwritten note, likely a schedule of examinations, on lined paper, dated June 8th, 1878, from A. & M. College. I identified a clear structure: a header, an introductory sentence, a table-like list of exams, and a closing with a signature and an addressee.\n\nMentally, or on scratchpad I started to transcribe, paying close attention to the visual form of each word. I began with the header: *A. & M. College, June 8th 1878*. The \"A\" and \"M\" were large, though the strokes were closer to lowercase; I decided to transcribe them as `A. & M.` to represent the intent (but I debated this!) Then the introductory paragraph \"You are appointed as one of a committee to attend the following\". The key challenge was the abbreviated word at the end: I worked to decipher the handwriting, going back and forth, from *Exam^ns* to *Examndns* (the word likely stands for Examinations, abbreviated). I wanted to capture the visual representation and make a best guess.\n\nNext, I tackled the table. I focused on extracting the information into rows and columns: Subject, Professor, Day, Date, Time. I carefully noted each detail, including the specific \"1/2\" format, as fractions were commonly handled in handwritten lists. A key area of detail for this work. In the section for *Horace*, I meticulously noted a small \"2 1/2\" written above the time, debating whether it was a duration, a correction, or just a small note above \"8 a.m.\". I carefully formatted this with `<sup>` tags to represent its position, finally transcribing it as `<sup>2 1/2</sup> 8 a.m.`. I also identified any \"ditto\" marks and names. I used the existing professor name format from the text itself. In all cases, I tried to stay faithful to the original, even if the dates seemed out of order, or if names seemed unusual. For the \"Brilly\" versus \"Briley\" conundrum, I carefully analyzed the letterforms, erring on the side of \"Brilly\". The final closing section and addressee were straightforward.\n\nThen, I focused on refining the transcription using HTML and Markdown to represent the original format. I used `<p>` tags for paragraphs and `<br/>` for line breaks within the paragraph. The dates \"8th\", \"10th\", \"14th\", \"17th\", \"18th\", and fractions, like \"1/2\", I represented with `<sup>` to represent the superscript nature of these details. I decided to use markdown tables to organize the lists.\n\nI returned to review the key details (e.g. the handwritten \"Examndns\" to make sure the transcription was as accurate as possible). \"Int.\" was short for \"Intermediate\". \"Nat. Hist\" for \"Natural History\". I took special note of names and abbreviations and cross-referenced with known details of Texas A&M. I re-evaluated the word \"Examndns\". The word is \"Examination\". The characters look like `E x a m n d n s`. I will stick to transcription as is. I confirmed details such as names and date formats. The \"1/2\" I chose to write as `1/2`.\n\nAfter all these checks, I constructed the final output using a markdown table. I rechecked every detail: the structure, the HTML tags, the fractions, and the header and footer. I put the \"2 1/2\" in the proper place, as an interlinear addition. Everything looks good.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3195,
+      "width": 1976,
+      "items": [
+        {
+          "id": "http://example.org/iiif/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/2929f695-7efc-338e-be60-c2d8de3a8e2e/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3195,
+                "width": 1976,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/2929f695-7efc-338e-be60-c2d8de3a8e2e",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/11",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/10",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>[Header]<br>\nA. & M, College<br>\nJune 8<sup>th</sup> 1878.</p>\n\n<p>You are appointed as one<br>\nof the committee to attend<br>\nthe following examinations:</p>\n\n<p>Prof. McInnis</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/12",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Analysis and Formatting**\n\nOkay, here's the plan. I need to transcribe this handwritten document, being very precise about the text and the layout, and then wrap it in the allowed HTML elements. First, let's analyze the image. I see \"A. & M. College\" at the top, a date \"June 8th 1878.\", and body text that starts with \"You are appointed...\" and ends with \"the following examinations:\". At the bottom, there's \"Prof. McInnis\".\n\nNext, the handwriting. I've got to break it down. \"A. & M. College\": The ampersand is interesting – it's stylised, looking almost like a \"+\" but given the context of colleges, \"A. & M.\" (Agricultural and Mechanical) is a safe bet. The \"th\" in \"8th\" is superscript. All the letters in the main text are clear enough. \"Prof. McInnis\" looks right: \"McInnis\" is a common surname.\n\nNow, let's format. The guidelines state HTML is needed. Line breaks must be preserved, and the \"th\" needs `<sup>th</sup>`. The layout's got the location and date either right-aligned or centered, the body is a paragraph, and the name's at the bottom with a clear gap (fold lines).\n\nI'll start with a draft:\nA. & M. College\nJune 8<sup>th</sup> 1878.\nYou are appointed as one\nof the committee to attend\nthe following examinations:\n\n[Gap]\n\nProf. McInnis\n\nI need to transcribe \"A. & M.\" as `&` since it refers to A&M College. \"June 8th\" is clear. \"Prof. McInnis\" is the address.\n\nLet's look at the \"A. & M.\" symbol again. It's a cross-stroke. It could be `+` or `&`. But in the context of a proper noun, it's an \"&\".\n\nNow for the HTML:\n<p align=\"right\">\nA. & M. College<br>\nJune 8<sup>th</sup> 1878.\n</p>\n<p>\nYou are appointed as one<br>\nof the committee to attend<br>\nthe following examinations:\n</p>\n<br>\n<br>\n<p>\nProf. McInnis\n</p>\n\nWait, `align=\"right\"` isn't allowed. It is an attribute, but usually simple HTML tags are best. Let's just transcribe the text.\n\nLine by line with breaks:\nLine 1: A. & M. College\nLine 2: June 8<sup>th</sup> 1878.\nLine 3: You are appointed as one\nLine 4: of the committee to attend\nLine 5: the following examinations:\n...\nLine X: Prof. McInnis\n\nLet's spell-check \"McInnis\". It looks right. The guidelines want structural element labels. The top is a header. The bottom is an addressee or footer. I can use the labels.\n\nThe top part is a header.\nThe bottom part is the addressee, footer.\n\nSo,\n<p>[Header]<br>\nA. & M. College<br>\nJune 8<sup>th</sup> 1878.</p>\n\n<p>You are appointed as one<br>\nof the committee to attend<br>\nthe following examinations:</p>\n\n<p>Prof. McInnis</p>\n\nIs \"Prof. McInnis\" a signature? It is at the bottom, but the paper seems to be a notification. But the name is at the end, so I'll put it in a `<p>` tag.\n\nThe guidelines say I can use `[Header], [Footer], and [Signature]`.\nIt is not a signature. It looks like an addressee on the outside of a tri-fold letter, or just at the bottom. The guidelines do say \"Label structural elements and wrap...\". It doesn't look like a signature.\n\nThe date is right-aligned. I can't align it but can use `<br>`.\nOkay:\n[Header]\nA. & M. College\nJune 8<sup>th</sup> 1878.\n\n[Body]\nYou are appointed as one\nof the committee to attend\nthe following examinations:\n\n[Footer/Addressee]\nProf. McInnis\n\nNow, I'll use the HTML tags and labels. It's safe to add labels. I will insert `[Header]` at the start and just wrap the parts.\n\nA. &\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/112/pages/page_1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

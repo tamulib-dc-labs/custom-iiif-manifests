@@ -1,151 +1,196 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-3.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from C. B. Martin, June 14, 1877"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1877-06-14"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "rights"
-                ]
-            },
-            "value": {
-                "none": [
-                    "http://rightsstatements.org/vocab/NoC-US/1.0/"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from C. B. Martin, June 14, 1877"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 1 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/a47ebaf1-926f-3198-8af7-05edd30d77df/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 2097,
-            "width": 3095,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/2",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/1",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/a47ebaf1-926f-3198-8af7-05edd30d77df/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 2097,
-                                "width": 3095,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/a47ebaf1-926f-3198-8af7-05edd30d77df",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/5",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/4",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span>[Header]\n<p>A and M College<br/>\nJune 14 / 77</p>\n\n[Body]\n<p>Prof M<sup>c</sup>Innis<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir<br/>\nI sent you a notification some<br/>\ntime since of your election, as an honorary<br/>\nmember of our society, but through a<br/>\ncareless omission of mine you<br/>\nwere not made acquanted with the name<br/>\nof the socity I represented.- and<br/>\nhoping to correct my mistake by<br/>\ninforming you that the honor was<br/>\ntendered you by the Stephen F Austin Society</p>\n\n[Signature]\n<p>I am Very Resp \u2014<br/>\nC O Martin Cor. Sec<br/>\nAustin Soc.</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/6",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Detailed Analysis and Transcription of a Handwritten Letter**\n\nOkay, here's what I've got. This letter is a pretty straightforward transcription task, but I need to be meticulous. First, I have a faded handwritten letter on lined paper. The goal is to get an accurate transcription of the text. I'll break this down methodically.\n\n1.  **Image Analysis:** I've identified the key elements: a handwritten letter on lined paper, ink that looks faded brown or sepia-toned, and a clear date/location in the top right: \"A and M College\" and \"June 14 / 77\" (meaning June 14, 1877). The recipient, \"Prof McInnis,\" is in the top left. The salutation is \"Dear Sir.\"\n\n2.  **Text Extraction:** Now, let's pull the text line by line.\n\n    *   The header reads: \"A and M College\" and \"June 14 / 77\".\n    *   Recipient: \"Prof McInnis\". The \"c\" in McInnis is superscript - small and raised.\n    *   Salutation: \"Dear Sir\".\n    *   Body:\n        *   \"I sent you a notification some\"\n        *   \"time since of your election, as an honorary\"\n        *   \"member of our society, but through a\"\n        *   \"careless omission of mine you\"\n        *   \"were not made acquanted with the name\"\n        *   \"of the socity I represented.- and\"\n        *   \"hoping to correct my mistake by\"\n        *   \"informing you that the honor was\"\n        *   \"tendered you by the Stephen F Austin Society\"\n    *   Closing/Signature:\n        *   \"I am Very Resp \u2014\" (Looks like \"Very Respectfully\" abbreviated, and a long dash after it)\n        *   \"C O Martin Cor. Sec\" (C O Martin, Corresponding Secretary)\n        *   \"Austin Soc.\" (Austin Society)\n\n3.  **Detailed Transcription Notes:** Now for the critical details. I'm paying extra attention to any potential ambiguity.\n\n    *   I've double-checked the spelling of \"acquanted.\" It's definitely missing the \"i.\" The writer wrote \"acquanted.\" I'll transcribe as written.\n    *   The word \"socity\" looks like it could be a typo or sloppy writing, but it's clearly missing the \"e.\" I need to be faithful to the text, so \"socity\" it is.\n    *   The \"F\" in \"Stephen F Austin\" is a little unclear, but with some experience, I know the person is \"Stephen F. Austin,\" \"Father of Texas.\"\n    *   The \"Cor. Sec\" looks like \"Cor. Sec\". The period after \"Cor\" is faint, the second one is faint, too. I'll keep the periods. The text says \"Cor. Sec\".\n    *   \"Austin Soc.\" is faint in the lower right.\n\n    Okay, I've got that.\n\n4.  **HTML Formatting (According to Guidelines):** Let's organize this transcription using the HTML tags as described, maintaining line breaks and spelling errors. The format will be straightforward:\n\n    *   Header and Signature sections will use labels as requested.\n\nHere's the final transcription:\n\n[Header]\n<p>A and M College<br/>\nJune 14 / 77</p>\n\n[Body]\n<p>Prof M<sup>c</sup>Innis<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir<br/>\nI sent you a notification some<br/>\ntime since of your election, as an honorary<br/>\nmember of our society, but through a<br/>\ncareless omission of mine you<br/>\nwere not made acquanted with the name<br/>\nof the socity I represented.- and<br/>\nhoping to correct my mistake by<br/>\ninforming you that the honor was<br/>\ntendered you by the Stephen F Austin Society</p>\n\n[Signature]\n<p>I am Very Resp \u2014<br/>\nC O Martin Cor. Sec<br/>\nAustin Soc.</p>\n\nThat's it. It may seem like a lot of work for a simple letter, but I am making sure the transcription is exactly what the author wrote. Now I am confident that is an exact transcription of this letter.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-3.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from C. B. Martin, June 14, 1877"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1877-06-14"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "rights"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://rightsstatements.org/vocab/NoC-US/1.0/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from C. B. Martin, June 14, 1877"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 1 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Honorary memberships",
+          "Academic societies",
+          "Correspondence",
+          "Educational institutions--Texas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "Martin, C. B."
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "Stephen F Austin Society"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from C. B. Martin, Corresponding Secretary of the Stephen F Austin Society at A and M College, to Professor Louis L. McInnis notifying him of his election as an honorary member. Martin apologizes for an earlier omission in which he failed to identify the society extending the honor. The letter formally corrects this oversight and confirms McInnis's membership in the Stephen F Austin Society."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/a47ebaf1-926f-3198-8af7-05edd30d77df/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 2097,
+      "width": 3095,
+      "items": [
+        {
+          "id": "http://example.org/iiif/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/a47ebaf1-926f-3198-8af7-05edd30d77df/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2097,
+                "width": 3095,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/a47ebaf1-926f-3198-8af7-05edd30d77df",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/4",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span>[Header]\n<p>A and M College<br/>\nJune 14 / 77</p>\n\n[Body]\n<p>Prof M<sup>c</sup>Innis<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir<br/>\nI sent you a notification some<br/>\ntime since of your election, as an honorary<br/>\nmember of our society, but through a<br/>\ncareless omission of mine you<br/>\nwere not made acquanted with the name<br/>\nof the socity I represented.- and<br/>\nhoping to correct my mistake by<br/>\ninforming you that the honor was<br/>\ntendered you by the Stephen F Austin Society</p>\n\n[Signature]\n<p>I am Very Resp —<br/>\nC O Martin Cor. Sec<br/>\nAustin Soc.</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Detailed Analysis and Transcription of a Handwritten Letter**\n\nOkay, here's what I've got. This letter is a pretty straightforward transcription task, but I need to be meticulous. First, I have a faded handwritten letter on lined paper. The goal is to get an accurate transcription of the text. I'll break this down methodically.\n\n1.  **Image Analysis:** I've identified the key elements: a handwritten letter on lined paper, ink that looks faded brown or sepia-toned, and a clear date/location in the top right: \"A and M College\" and \"June 14 / 77\" (meaning June 14, 1877). The recipient, \"Prof McInnis,\" is in the top left. The salutation is \"Dear Sir.\"\n\n2.  **Text Extraction:** Now, let's pull the text line by line.\n\n    *   The header reads: \"A and M College\" and \"June 14 / 77\".\n    *   Recipient: \"Prof McInnis\". The \"c\" in McInnis is superscript - small and raised.\n    *   Salutation: \"Dear Sir\".\n    *   Body:\n        *   \"I sent you a notification some\"\n        *   \"time since of your election, as an honorary\"\n        *   \"member of our society, but through a\"\n        *   \"careless omission of mine you\"\n        *   \"were not made acquanted with the name\"\n        *   \"of the socity I represented.- and\"\n        *   \"hoping to correct my mistake by\"\n        *   \"informing you that the honor was\"\n        *   \"tendered you by the Stephen F Austin Society\"\n    *   Closing/Signature:\n        *   \"I am Very Resp —\" (Looks like \"Very Respectfully\" abbreviated, and a long dash after it)\n        *   \"C O Martin Cor. Sec\" (C O Martin, Corresponding Secretary)\n        *   \"Austin Soc.\" (Austin Society)\n\n3.  **Detailed Transcription Notes:** Now for the critical details. I'm paying extra attention to any potential ambiguity.\n\n    *   I've double-checked the spelling of \"acquanted.\" It's definitely missing the \"i.\" The writer wrote \"acquanted.\" I'll transcribe as written.\n    *   The word \"socity\" looks like it could be a typo or sloppy writing, but it's clearly missing the \"e.\" I need to be faithful to the text, so \"socity\" it is.\n    *   The \"F\" in \"Stephen F Austin\" is a little unclear, but with some experience, I know the person is \"Stephen F. Austin,\" \"Father of Texas.\"\n    *   The \"Cor. Sec\" looks like \"Cor. Sec\". The period after \"Cor\" is faint, the second one is faint, too. I'll keep the periods. The text says \"Cor. Sec\".\n    *   \"Austin Soc.\" is faint in the lower right.\n\n    Okay, I've got that.\n\n4.  **HTML Formatting (According to Guidelines):** Let's organize this transcription using the HTML tags as described, maintaining line breaks and spelling errors. The format will be straightforward:\n\n    *   Header and Signature sections will use labels as requested.\n\nHere's the final transcription:\n\n[Header]\n<p>A and M College<br/>\nJune 14 / 77</p>\n\n[Body]\n<p>Prof M<sup>c</sup>Innis<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;Dear Sir<br/>\nI sent you a notification some<br/>\ntime since of your election, as an honorary<br/>\nmember of our society, but through a<br/>\ncareless omission of mine you<br/>\nwere not made acquanted with the name<br/>\nof the socity I represented.- and<br/>\nhoping to correct my mistake by<br/>\ninforming you that the honor was<br/>\ntendered you by the Stephen F Austin Society</p>\n\n[Signature]\n<p>I am Very Resp —<br/>\nC O Martin Cor. Sec<br/>\nAustin Soc.</p>\n\nThat's it. It may seem like a lot of work for a simple letter, but I am making sure the transcription is exactly what the author wrote. Now I am confident that is an exact transcription of this letter.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/3/pages/page_0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

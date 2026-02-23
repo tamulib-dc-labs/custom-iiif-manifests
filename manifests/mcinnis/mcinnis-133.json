@@ -1,352 +1,406 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-133.json",
-    "type": "Manifest",
-    "label": {
-        "none": [
-            "Letter to Louis L. McInnis from Sims (), December 14, 1885"
-        ]
-    },
-    "metadata": [
-        {
-            "label": {
-                "none": [
-                    "date"
-                ]
-            },
-            "value": {
-                "none": [
-                    "1885-12-14"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "title"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Letter to Louis L. McInnis from Sims (), December 14, 1885"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "isPartOf"
-                ]
-            },
-            "value": {
-                "none": [
-                    "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
-                ]
-            }
-        },
-        {
-            "label": {
-                "none": [
-                    "context"
-                ]
-            },
-            "value": {
-                "none": [
-                    "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133"
-                ]
-            }
-        }
-    ],
-    "thumbnail": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif/2/6e37c81a-0594-38fb-9e98-641a917239d4/full/pct:25/0/default.jpg",
-            "type": "Image"
-        }
-    ],
-    "items": [
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 0"
-                ]
-            },
-            "height": 3688,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/86",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/85",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/6e37c81a-0594-38fb-9e98-641a917239d4/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3688,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/6e37c81a-0594-38fb-9e98-641a917239d4",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/98",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/97",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><small>CAPITAL $ 50,000.</small>\n<small>No. 3200.</small>\n<small>AUTHORIZED CAPITAL $ 200,000.</small>\n\n<p align=\"center\">\n  <b><big><big><big>Panhandle National Bank</big></big></big></b>\n</p>\n\n<p>\n<small>JOHN G. JAMES Pres<sup>t</sup></small><br>\n<small>ASHBY S. JAMES, Cashier.</small><br>\n<small>W. A. KNOTT. Vice Pres<sup>t</sup></small>\n</p>\n\n<p>\n<i>All branches of Conservative Banking carefully conducted.</i><br>\n<i>Special attention given collections and investments in the Panhandle.</i>\n</p>\n\n<p>\n<small>NEAREST NATIONAL BANK TO<br>\nMOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON,<br>\nPEASE CITY AND ALL PANHANDLE POINTS.</small>\n</p>\n\n<p>\n<i>Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.</i>\n</p>\n\n<p><b>CORRESPONDENTS.</b></p>\n\n| | |\n| :--- | :--- |\n| HANOVER NATIONAL BANK | NEW YORK. |\n| VALLEY NATIONAL BANK | ST. LOUIS. |\n| BALL, HUTCHINGS & CO. | GALVESTON. |\n\n<br>\n\n<p align=\"right\">Wichita Falls, Tex. Decr 14 1885</p>\n\n<p>Prof L. L. McInnis.</p>\n\n<p>Dear Sir: your letter duly to hand \u2013 am<br>\nsorry to hear of your injury to your hand, but<br>\nhope it is entirely well by now.</p>\n\n<p>In regard to Bank-stock. Will be pleased to<br>\nhave you take the $ 500 or $ 1000, as may suit<br>\nyou, and will at any rate reserve the $ 1000<br>\nfor you until after Jany 15<sup>th</sup> /86. We are now<br>\nhaving the stock rapidly engaged, and before<br>\nFeby 1, the maximum am't stock intended to<br>\nbe issued will doubtless have been issued.<br>\n$ 100 000<sup>00</sup> Capital is all we now contemplate<br>\nissuing for years, if we ever issue more.<br>\nOur policy will be to hold the capital at that<br>\nfigure and steadily increase (from profits) the</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0"
-                        },
-                        {
-                            "id": "http://example.org/iiif/99",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcription Process for Panhandle National Bank Letter**\n\nAs a transcriptionist, my task is to accurately transcribe a handwritten letter, adhering to specific guidelines. First, I analyzed the request, noting my role as a transcriptionist and the need to preserve spelling, punctuation, and reading order, interpreting handwriting carefully. I must use layout indicators, structural element labels, and specific HTML tags to render the final transcript.\n\nI then examined the image itself. I noted the document's structure: a letterhead from \"Panhandle National Bank,\" including an elaborate header with bank officers, financial details, and location information, including a map. I also noted the handwritten date \"Wichita Falls, Tex. Decr 14 1885,\" the addressee \"Prof L. L. McInnis,\" and the 19th-century cursive handwriting style. The content of the letter discusses \"Bank-stock\" details, financial amounts, dates, and future capital plans.\n\nMy transcription strategy involves section-by-section processing:\n\n*   **Header Section:** I'd render the header text as follows:\n    *   CAPITAL $ 50,000. ... No. 3200 ... AUTHORIZED CAPITAL $ 200,000.\n*   **Main Title:** The main title is `<b>Panhandle National Bank</b>`.\n*   **Officers:** I'll transcribe the officers:\n    *   JOHN G. JAMES Pres<sup>t</sup> ... W. A. KNOTT. Vice Pres<sup>t</sup>\n    *   ASHBY S. JAMES, Cashier.\n*   **Graphic/Map Area:** I'll transcribe the text:\n    *   <i>All branches of Conservative Banking carefully conducted.</i>\n    *   <i>Special attention given collections and investments in the Panhandle.</i>\n    *   NEAREST NATIONAL BANK TO MOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON, PEASE CITY AND ALL PANHANDLE POINTS.\n    *   <i>Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.</i>\n    *   CORRESPONDENTS.\n    *   \\[A Markdown Table will be inserted here for the correspondents].\n*   **Handwritten Content:**\n\n    *   I'll note the dateline: Wichita Falls, Tex. Decr 14 1885\n    *   The salutation: Prof L. L. McInnis. Dear Sir:\n    *   The Body: I'll transcribe each paragraph carefully, accounting for potential scrawls, such as: \"your letter duly to hand \u2013 am sorry to hear of your injury to your hand, but hope it is entirely well by now. In regard to Bank-stock. Will be pleased to have you take the $ 500 or $ 1000, as may suit you, and will at any rate reserve the $ 1000 for you until after Jany 15<sup>th</sup> /86. We are now having the stock rapidly engaged, and before Feby 1, the maximum am't stock intended to be issued will doubtless have been issued. $ 100 000<sup>00</sup> Capital is all we now contemplate issuing for years, if we ever issue more. Our policy will be to hold the capital at that figure and steadily increase (from profits) the\"\n\n    I am ready to produce the transcription now.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 1"
-                ]
-            },
-            "height": 3688,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/88",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/87",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7e641bcc-ee2c-3aad-878c-b9a0fae874ab/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3688,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7e641bcc-ee2c-3aad-878c-b9a0fae874ab",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/101",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/100",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>\nSurplus, until it reaches <sup>$</sup>100 000 also. We will, therefore,<br>\npay only 6% <i>semi annual</i> dividends, for some years to<br>\ncome, and carry all rest of profits to Surplus<br>\nFund. This of course belongs to stock-holders.<br>\nWe will net Jany 1. about 9% for the six<br>\nmonths, and the stock, after dividends are<br>\npaid will be worth between 103 & 104 - I will<br>\nagree now to put it, though, at 103 for you.<br>\nI feel reasonably sure that the stock will net<br>\nnot less than 20% in next twelve months - and<br>\nas Surplus increases, and we compound the profits,<br>\nthe stock will annually do better and better.\n</p>\n<p>\nWe are having a very fine business now,<br>\nour line of customers steadily increasing, and<br>\nour deposits have gone up to near <sup>$</sup>80 000.<br>\nHave sold considerable stock to friends in Houston &<br>\nGalveston - Expect to sell <sup>$</sup>5000 or more Jany 1. to<br>\nyoung Mr. Ball, of Ball, Hutchings & Co. He came<br>\nup to see us a few days since, & was much pleased.\n</p>\n<p>\nIn remitting, if you send Galveston, Houston, Austin, F.W.<br>\nDallas, New York or St Louis, we can use <i>at<br>\npar for you</i>. Expect you can now get N.Y.<br>\nin Bryan at par, on acct of cotton Exchange being so<br>\nlarge. We have now all except about <sup>$</sup>15000 stock<br>\nplaced, & I am sure my Eastern stock holders will<br>\ntake it all after January. Bringhurst spoke of taking<br>\nsome stock this winter - / If you see Jasper, you might<br>\ngive him the substance of this letter. The stock once\n</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1"
-                        },
-                        {
-                            "id": "http://example.org/iiif/102",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**My immediate focus here is on meticulously converting this handwritten text into a digital format, adhering strictly to the provided guidelines.** I'm approaching this as a professional, so I'm paying close attention to every detail: the line breaks, the punctuation, the spelling, and the handwriting itself, treating each mark on the page as significant.\n\nMy process starts with a thorough analysis of the instructions, making sure I know the acceptable HTML tags and the expected transcription style. Then, I go line-by-line through the image, transcribing each word and symbol carefully. Any uncertainties are noted. I make a special note of words that are underlined or potentially deleted, paying close attention to the way the ink flows on the page to accurately capture the author's intent. My expert eye is evaluating the letter's business-like tone and handwriting which hints at its late 19th or early 20th-century origins, but my focus remains on accurate transcription, not interpretation.\n\nI handle the nuances with care: superscripts for the dollar signs, and italics for the underlined words. I'm choosing to render the crossed-out word since I'm told to preserve, even if it might alter the intent. I recognize the formatting demands, paying attention to paragraph breaks, line breaks, and any unusual structure. I'm treating the document as a series of visual blocks with precise line breaks within.\n\nFinally, I review the text to make sure everything's correct and that I'm fully compliant with the instructions. I'm focusing on the quality of my output by carefully checking the transcription against the handwritten source, ensuring no detail is missed. The focus is always on producing a highly accurate, compliant, and professional transcription.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 2"
-                ]
-            },
-            "height": 3688,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/90",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/89",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/3eb38887-44dc-3524-a442-6e16db53a346/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3688,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/3eb38887-44dc-3524-a442-6e16db53a346",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/104",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/103",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><small>[Margin: [1885] Dec 14]</small>\n<b>CAPITAL $ 50,000.</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. 3200. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>AUTHORIZED CAPITAL $ 200,000.</b>\n\n# Panhandle National Bank\n\nJOHN G. JAMES Pres<sup>t</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W. A. KNOTT, Vice Pres<sup>t</sup>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ASHBY S. JAMES, Cashier.\n\n[Map: PANHANDLE OF TEXAS, INDIAN TERRITORY, NEW MEXICO]\n\n<i>All branches of Conservative Banking carefully conducted.</i>\n<i>Special attention given collections and investments in the Panhandle.</i>\n\nNEAREST NATIONAL BANK TO\nMOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON,\nPEASE CITY AND ALL PANHANDLE POINTS.\n\n<i>Accounts of Stockmen, Land-Dealers, Merchants and\nother business men respectfully solicited.</i>\n\nCORRESPONDENTS.\n\n| | |\n| :--- | :--- |\n| HANOVER NATIONAL BANK | NEW YORK. |\n| VALLEY NATIONAL BANK | ST. LOUIS. |\n| BALL, HUTCHINGS & CO. | GALVESTON. |\n\n<br>\n\nWichita Falls, Tex. ___________________ 188\n\nissued, is going to be very hard to get, and at\nhigh figure.\n\nThis country is getting a large stream\nof immigration now, and our county will\nquadruple its farmers this coming winter.\nLands selling briskly. Since you were here I\nhave become interested in two large bodies of\nland, which we are now trying to colonize.\nOne is 18000 acres on Red River, and I am now\nputting families on it, having it cut into 160\nacre farms. The other is 3 miles from town\nin Wichita Valley, 7000 acres. We hope to\nsettle them in next two years, & will I\nbelieve make something out of them.\n\nOur family has been made sad by the death</span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2"
-                        },
-                        {
-                            "id": "http://example.org/iiif/105",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Transcriptionist's Mindset: A Detailed Walkthrough**\n\nAlright, let's break this down. My task is to transcribe this image, a letterhead from Panhandle National Bank. I need to be precise, preserve spelling, interpret handwriting, and use some specific HTML tags. I see two main parts: a printed header with a map and handwritten text below.\n\nMy first thought is to divide the document. I see a header with all the bank info, a date line, and the body of the letter. I will proceed methodically, starting with the printed header, then the handwritten content.\n\n**Breaking Down the Header:**\n\nThe header looks like this:\n*   **Top Left**: \"$50,000.\"\n*   **Top Center**: \"No. 3200.\"\n*   **Top Right**: \"$200,000.\", with \"[1885] Dec 14\" handwritten at the very top, which I need to note.\n*   **Main Title**: \"Panhandle National Bank,\" in a stylized font.\n*   **Officers**: I can see \"JOHN G. JAMES Pres<sup\\>t</sup\\>\", \"W. A. KNOTT, Vice Pres<sup\\>t</sup\\>\", and \"ASHBY S. JAMES, Cashier.\"\n\nI'm now onto the bank's marketing copy:\n\n*   \"All branches of Conservative Banking carefully conducted.\"\n*   \"Special attention given collections and investments in the Panhandle.\"\n*   \"NEAREST NATIONAL BANK TO MOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON, PEASE CITY AND ALL PANHANDLE POINTS.\"\n*   \"Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.\"\n\nI will note the map is present, with the words \"PANHANDLE OF TEXAS\" across it. I'll describe the map, which includes the Texas Panhandle, even if it's just a general statement about the region.\n\nThen the correspondents.\n\n*   \"CORRESPONDENTS.\"\n*   \"HANOVER NATIONAL BANK ........................ NEW YORK.\"\n*   \"VALLEY NATIONAL BANK ........................... ST. LOUIS.\"\n*   \"BALL, HUTCHINGS & CO. .......................... GALVESTON.\"\n\n**Focusing on the Handwritten Content:**\n\nThe handwritten part is the body of a letter, starting with a date and location: \"Wichita Falls, Tex. _________ 188\". I see the handwritten year \"188\".\n\nNow the text:\n\n*   \"issued, is going to be very hard to get, and at\"\n*   \"high figure.\"\n*   \"This country is getting a large stream\"\n*   \"of immigration now, and our county will\"\n*   \"quadruple its farmers this coming winter.\"\n*   \"Lands selling briskly. Since you were here I\"\n*   \"have become interested in two large bodies of\"\n*   \"land, which we are now trying to colonize.\"\n*   \"One is 18000 acres on Red River, and I am now\"\n*   \"putting families on it, having it cut into 160\"\n*   \"acre farms. The other is 3 miles from town\"\n*   \"in Wichita Valley, 7000 acres. We hope to\"\n*   \"settle them in next two years, & will I\"\n*   \"believe make something out of them.\"\n*   \"Our family has been made sad by the death\"\n\nI will need to ensure the use of HTML tags and formatting to match the structure in the provided text, while adhering to spelling. I will note \"Accaunts\" is likely \"Accounts\" but I'll write \"Accounts\" as the official word and mention the ambiguity. I will be careful on handwriting interpretation and note all corrections.\n\n**Double-Checking and Formatting:**\n\nI am now reviewing each part against the guidelines, including the specific HTML tags. I will ensure the formatting of the header matches the original layout, likely using HTML tags.\n\nI will also make a final check on the handwritten content, especially for any ambiguous words. I double check the spelling, particularly of numbers and place names.\n\nFor the word I was debating, I will go with \"family\" because the context fits the letter better, and it better matches the handwritten word\u2019s overall shape even if the \"f\" is weird. I did re-read this letter several times.\n\n**Preparing the Output:**\n\nI will create the final output by combining the accurately transcribed parts.\n\nThe entire header looks like this:\n\n```html\n<p>\n  <span>CAPITAL $ 50,000.</span>\n  <span>No.\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3",
-            "type": "Canvas",
-            "label": {
-                "none": [
-                    "Page 3"
-                ]
-            },
-            "height": 3688,
-            "width": 2325,
-            "items": [
-                {
-                    "id": "http://example.org/iiif/92",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/91",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://api-pre.library.tamu.edu/iiif/2/7f6707d0-2cb3-32fd-8dfb-ab9a995f19cc/full/full/0/default.jpg",
-                                "type": "Image",
-                                "height": 3688,
-                                "width": 2325,
-                                "service": [
-                                    {
-                                        "@id": "https://api-pre.library.tamu.edu/iiif/2/7f6707d0-2cb3-32fd-8dfb-ab9a995f19cc",
-                                        "@type": "ImageService2",
-                                        "profile": "http://iiif.io/api/image/2/level2.json"
-                                    }
-                                ],
-                                "format": "image/jpeg"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [
-                {
-                    "id": "http://example.org/iiif/107",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "http://example.org/iiif/106",
-                            "type": "Annotation",
-                            "motivation": "transcribing",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "<span><p>of my sister Betty, who died Nov 27. of<br>\nconsumption - the disease culminating in a<br>\nprofuse hemorrhage which carried her off.<br>\nShe was buried at Weatherfd beside her<br>\nhusband, my eldest brother. I never saw<br>\na purer more consistent Christian life,<br>\nand her sufferings, which were great, were<br>\nborne with the greatest cheerfulness and<br>\nresignation. We feel that she is far better off,<br>\nand as much as we regret her departure, we<br>\ncannot wish her back again to all the suffering<br>\nshe had to bear.</p>\n\n<p>Had letter yesterday from Cole - he was in<br>\ngood spirits - expects to visit Sherman Xmas.<br>\nwill not come by here.</p>\n\n<p>I hope you are getting along pleasantly at<br>\nthe College, and that matters in general are<br>\nprospering.</p>\n\n<p>My wife has been confined to her bed some days<br>\nbut is better now. She unites with me in<br>\nbest wishes & regards for yourself and Mrs<br>\nMcL.</p>\n\n<p>you can remit for the $500 stock now, or after<br>\nJany 1. as may best suit your convenience<br>\nYrs sincerely Ch. W. James</p></span>",
-                                "format": "text/html",
-                                "language": "en"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3"
-                        },
-                        {
-                            "id": "http://example.org/iiif/108",
-                            "type": "Annotation",
-                            "motivation": "commenting",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "**Finalizing the Transcription: A Thought Process**\n\nAlright, let's get this done. The task is to transcribe this handwritten letter, preserving its original formatting, spelling, and using the specified HTML tags \u2013 nothing fancy, just pure, accurate transcription. I'm seeing a mid-19th to early 20th-century cursive style, dark ink on aged paper. This is a personal letter \u2013 dealing with a recent death, funeral plans, a letter from someone named \"Cole,\" and some personal and financial matters.\n\nFirst, I'm working through each line, carefully analyzing the handwriting. Context is key! \"Died Nov 27\" \u2013 looks solid. \"Consumption\" \u2013 yep, tuberculosis. Euphemisms, like \"carried her off,\" are typical for the era. The trickiest part is always place names and names. \"Weathersfd\" \u2013 hmm. It *looks* like that, maybe \"Weathersfield,\" but I'm sticking to what's visible. I'll need to recheck that one. The husband/brother relationship is a little confusing \u2013 it *could* imply incest, but given the time, it's more likely a brother-in-law or even an appositive. I'll stick with what's written. Spelling is generally good, but I'm checking every letter, especially any ambiguous ones.\n\nI'm making a note of any questionable words and going back to refine them. I am going to double-check \"Weatherfd\". And the \"McL.\" or \"McC.\" abbreviation is a bit unclear, but based on the context, \"McL.\" seems the most likely. The signature is tricky as well. Is it \"H\" or \"W\"? It is more like \"W\" as the writer writes the letter. I am checking \"now\" and confirm it.\n\nFormatting is next. Preserving the line breaks using `<br>` seems the most appropriate here to maintain the structure of the handwritten text. Paragraphs will be marked with `<p>`.\n\nI've drafted the entire text, going back again to check. \"Weatherfd\" is still the issue. It's written \"Weatherfd\". And \"Cole\" and \"Sherman\" are readable. The \"McL\" at the end looks like \"McL\", not anything else. Double-checking \"Betty\" (line 1), \"Jany\" (line 24), \"remit\" (line 23), \"$500\" (line 23). The text is well done. The alignment of the \"Yrs\" and the signature are important to preserve.\n\nI am finalizing the transcription. Now checking the name abbreviations. The \"McL.\" is probably it. \"Weatherfd\" is what is written. Signature: \"Ch. W. James\" - the W is clear. The indentation is good. The text flow is correct. Everything is very clear now. I can verify each word. I think it looks right and is ready to output.\n\n\n",
-                                "format": "text/markdown",
-                                "language": "none"
-                            },
-                            "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3"
-                        }
-                    ]
-                }
-            ]
-        }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/mcinnis/mcinnis-133.json",
+  "type": "Manifest",
+  "label": {
+    "none": [
+      "Letter to Louis L. McInnis from Sims (), December 14, 1885"
     ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "date"
+        ]
+      },
+      "value": {
+        "none": [
+          "1885-12-14"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Letter to Louis L. McInnis from Sims (), December 14, 1885"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "isPartOf"
+        ]
+      },
+      "value": {
+        "none": [
+          "Box 1 Louis L. McInnis Papers/Box 1 Folder 21 Louis L. McInnis Papers"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "context"
+        ]
+      },
+      "value": {
+        "none": [
+          "bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "none": [
+          "Banks--Texas--History--19th century",
+          "Bank stocks--Texas",
+          "Banking--Panhandle Region (Texas and Oklahoma)",
+          "Financial investments--Texas",
+          "Land colonization--Texas",
+          "Immigration--Texas--History--19th century"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Creators"
+        ]
+      },
+      "value": {
+        "none": [
+          "James, Ch. W. (Charles W.)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Contributors"
+        ]
+      },
+      "value": {
+        "none": [
+          "McInnis, Louis L.",
+          "James, John G.",
+          "James, Ashby S.",
+          "Knott, W. A.",
+          "Ball, Hutchings & Co.",
+          "Bringhurst",
+          "Jasper",
+          "Cole",
+          "Ball, Mr. (Young)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "A letter from C. W. James of the Panhandle National Bank in Wichita Falls, Texas to Professor Louis L. McInnis regarding the purchase of bank stock. James outlines the bank's financial strategy, capital structure, projected dividends, and business growth, while also inviting McInnis to invest in bank shares and discussing land colonization efforts in the Panhandle region. The letter includes personal remarks about family matters, including the death of James's sister, and extends social regards to McInnis and his wife."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/6e37c81a-0594-38fb-9e98-641a917239d4/full/pct:25/0/default.jpg",
+      "type": "Image"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 0"
+        ]
+      },
+      "height": 3688,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/86",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/85",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/6e37c81a-0594-38fb-9e98-641a917239d4/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3688,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/6e37c81a-0594-38fb-9e98-641a917239d4",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/98",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/97",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><small>CAPITAL $ 50,000.</small>\n<small>No. 3200.</small>\n<small>AUTHORIZED CAPITAL $ 200,000.</small>\n\n<p align=\"center\">\n  <b><big><big><big>Panhandle National Bank</big></big></big></b>\n</p>\n\n<p>\n<small>JOHN G. JAMES Pres<sup>t</sup></small><br>\n<small>ASHBY S. JAMES, Cashier.</small><br>\n<small>W. A. KNOTT. Vice Pres<sup>t</sup></small>\n</p>\n\n<p>\n<i>All branches of Conservative Banking carefully conducted.</i><br>\n<i>Special attention given collections and investments in the Panhandle.</i>\n</p>\n\n<p>\n<small>NEAREST NATIONAL BANK TO<br>\nMOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON,<br>\nPEASE CITY AND ALL PANHANDLE POINTS.</small>\n</p>\n\n<p>\n<i>Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.</i>\n</p>\n\n<p><b>CORRESPONDENTS.</b></p>\n\n| | |\n| :--- | :--- |\n| HANOVER NATIONAL BANK | NEW YORK. |\n| VALLEY NATIONAL BANK | ST. LOUIS. |\n| BALL, HUTCHINGS & CO. | GALVESTON. |\n\n<br>\n\n<p align=\"right\">Wichita Falls, Tex. Decr 14 1885</p>\n\n<p>Prof L. L. McInnis.</p>\n\n<p>Dear Sir: your letter duly to hand – am<br>\nsorry to hear of your injury to your hand, but<br>\nhope it is entirely well by now.</p>\n\n<p>In regard to Bank-stock. Will be pleased to<br>\nhave you take the $ 500 or $ 1000, as may suit<br>\nyou, and will at any rate reserve the $ 1000<br>\nfor you until after Jany 15<sup>th</sup> /86. We are now<br>\nhaving the stock rapidly engaged, and before<br>\nFeby 1, the maximum am't stock intended to<br>\nbe issued will doubtless have been issued.<br>\n$ 100 000<sup>00</sup> Capital is all we now contemplate<br>\nissuing for years, if we ever issue more.<br>\nOur policy will be to hold the capital at that<br>\nfigure and steadily increase (from profits) the</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0"
+            },
+            {
+              "id": "http://example.org/iiif/99",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcription Process for Panhandle National Bank Letter**\n\nAs a transcriptionist, my task is to accurately transcribe a handwritten letter, adhering to specific guidelines. First, I analyzed the request, noting my role as a transcriptionist and the need to preserve spelling, punctuation, and reading order, interpreting handwriting carefully. I must use layout indicators, structural element labels, and specific HTML tags to render the final transcript.\n\nI then examined the image itself. I noted the document's structure: a letterhead from \"Panhandle National Bank,\" including an elaborate header with bank officers, financial details, and location information, including a map. I also noted the handwritten date \"Wichita Falls, Tex. Decr 14 1885,\" the addressee \"Prof L. L. McInnis,\" and the 19th-century cursive handwriting style. The content of the letter discusses \"Bank-stock\" details, financial amounts, dates, and future capital plans.\n\nMy transcription strategy involves section-by-section processing:\n\n*   **Header Section:** I'd render the header text as follows:\n    *   CAPITAL $ 50,000. ... No. 3200 ... AUTHORIZED CAPITAL $ 200,000.\n*   **Main Title:** The main title is `<b>Panhandle National Bank</b>`.\n*   **Officers:** I'll transcribe the officers:\n    *   JOHN G. JAMES Pres<sup>t</sup> ... W. A. KNOTT. Vice Pres<sup>t</sup>\n    *   ASHBY S. JAMES, Cashier.\n*   **Graphic/Map Area:** I'll transcribe the text:\n    *   <i>All branches of Conservative Banking carefully conducted.</i>\n    *   <i>Special attention given collections and investments in the Panhandle.</i>\n    *   NEAREST NATIONAL BANK TO MOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON, PEASE CITY AND ALL PANHANDLE POINTS.\n    *   <i>Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.</i>\n    *   CORRESPONDENTS.\n    *   \\[A Markdown Table will be inserted here for the correspondents].\n*   **Handwritten Content:**\n\n    *   I'll note the dateline: Wichita Falls, Tex. Decr 14 1885\n    *   The salutation: Prof L. L. McInnis. Dear Sir:\n    *   The Body: I'll transcribe each paragraph carefully, accounting for potential scrawls, such as: \"your letter duly to hand – am sorry to hear of your injury to your hand, but hope it is entirely well by now. In regard to Bank-stock. Will be pleased to have you take the $ 500 or $ 1000, as may suit you, and will at any rate reserve the $ 1000 for you until after Jany 15<sup>th</sup> /86. We are now having the stock rapidly engaged, and before Feby 1, the maximum am't stock intended to be issued will doubtless have been issued. $ 100 000<sup>00</sup> Capital is all we now contemplate issuing for years, if we ever issue more. Our policy will be to hold the capital at that figure and steadily increase (from profits) the\"\n\n    I am ready to produce the transcription now.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 1"
+        ]
+      },
+      "height": 3688,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/88",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/87",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7e641bcc-ee2c-3aad-878c-b9a0fae874ab/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3688,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7e641bcc-ee2c-3aad-878c-b9a0fae874ab",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/101",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/100",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>\nSurplus, until it reaches <sup>$</sup>100 000 also. We will, therefore,<br>\npay only 6% <i>semi annual</i> dividends, for some years to<br>\ncome, and carry all rest of profits to Surplus<br>\nFund. This of course belongs to stock-holders.<br>\nWe will net Jany 1. about 9% for the six<br>\nmonths, and the stock, after dividends are<br>\npaid will be worth between 103 & 104 - I will<br>\nagree now to put it, though, at 103 for you.<br>\nI feel reasonably sure that the stock will net<br>\nnot less than 20% in next twelve months - and<br>\nas Surplus increases, and we compound the profits,<br>\nthe stock will annually do better and better.\n</p>\n<p>\nWe are having a very fine business now,<br>\nour line of customers steadily increasing, and<br>\nour deposits have gone up to near <sup>$</sup>80 000.<br>\nHave sold considerable stock to friends in Houston &<br>\nGalveston - Expect to sell <sup>$</sup>5000 or more Jany 1. to<br>\nyoung Mr. Ball, of Ball, Hutchings & Co. He came<br>\nup to see us a few days since, & was much pleased.\n</p>\n<p>\nIn remitting, if you send Galveston, Houston, Austin, F.W.<br>\nDallas, New York or St Louis, we can use <i>at<br>\npar for you</i>. Expect you can now get N.Y.<br>\nin Bryan at par, on acct of cotton Exchange being so<br>\nlarge. We have now all except about <sup>$</sup>15000 stock<br>\nplaced, & I am sure my Eastern stock holders will<br>\ntake it all after January. Bringhurst spoke of taking<br>\nsome stock this winter - / If you see Jasper, you might<br>\ngive him the substance of this letter. The stock once\n</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1"
+            },
+            {
+              "id": "http://example.org/iiif/102",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**My immediate focus here is on meticulously converting this handwritten text into a digital format, adhering strictly to the provided guidelines.** I'm approaching this as a professional, so I'm paying close attention to every detail: the line breaks, the punctuation, the spelling, and the handwriting itself, treating each mark on the page as significant.\n\nMy process starts with a thorough analysis of the instructions, making sure I know the acceptable HTML tags and the expected transcription style. Then, I go line-by-line through the image, transcribing each word and symbol carefully. Any uncertainties are noted. I make a special note of words that are underlined or potentially deleted, paying close attention to the way the ink flows on the page to accurately capture the author's intent. My expert eye is evaluating the letter's business-like tone and handwriting which hints at its late 19th or early 20th-century origins, but my focus remains on accurate transcription, not interpretation.\n\nI handle the nuances with care: superscripts for the dollar signs, and italics for the underlined words. I'm choosing to render the crossed-out word since I'm told to preserve, even if it might alter the intent. I recognize the formatting demands, paying attention to paragraph breaks, line breaks, and any unusual structure. I'm treating the document as a series of visual blocks with precise line breaks within.\n\nFinally, I review the text to make sure everything's correct and that I'm fully compliant with the instructions. I'm focusing on the quality of my output by carefully checking the transcription against the handwritten source, ensuring no detail is missed. The focus is always on producing a highly accurate, compliant, and professional transcription.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 2"
+        ]
+      },
+      "height": 3688,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/90",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/89",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/3eb38887-44dc-3524-a442-6e16db53a346/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3688,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/3eb38887-44dc-3524-a442-6e16db53a346",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/104",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/103",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><small>[Margin: [1885] Dec 14]</small>\n<b>CAPITAL $ 50,000.</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. 3200. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>AUTHORIZED CAPITAL $ 200,000.</b>\n\n# Panhandle National Bank\n\nJOHN G. JAMES Pres<sup>t</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W. A. KNOTT, Vice Pres<sup>t</sup>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ASHBY S. JAMES, Cashier.\n\n[Map: PANHANDLE OF TEXAS, INDIAN TERRITORY, NEW MEXICO]\n\n<i>All branches of Conservative Banking carefully conducted.</i>\n<i>Special attention given collections and investments in the Panhandle.</i>\n\nNEAREST NATIONAL BANK TO\nMOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON,\nPEASE CITY AND ALL PANHANDLE POINTS.\n\n<i>Accounts of Stockmen, Land-Dealers, Merchants and\nother business men respectfully solicited.</i>\n\nCORRESPONDENTS.\n\n| | |\n| :--- | :--- |\n| HANOVER NATIONAL BANK | NEW YORK. |\n| VALLEY NATIONAL BANK | ST. LOUIS. |\n| BALL, HUTCHINGS & CO. | GALVESTON. |\n\n<br>\n\nWichita Falls, Tex. ___________________ 188\n\nissued, is going to be very hard to get, and at\nhigh figure.\n\nThis country is getting a large stream\nof immigration now, and our county will\nquadruple its farmers this coming winter.\nLands selling briskly. Since you were here I\nhave become interested in two large bodies of\nland, which we are now trying to colonize.\nOne is 18000 acres on Red River, and I am now\nputting families on it, having it cut into 160\nacre farms. The other is 3 miles from town\nin Wichita Valley, 7000 acres. We hope to\nsettle them in next two years, & will I\nbelieve make something out of them.\n\nOur family has been made sad by the death</span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2"
+            },
+            {
+              "id": "http://example.org/iiif/105",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Transcriptionist's Mindset: A Detailed Walkthrough**\n\nAlright, let's break this down. My task is to transcribe this image, a letterhead from Panhandle National Bank. I need to be precise, preserve spelling, interpret handwriting, and use some specific HTML tags. I see two main parts: a printed header with a map and handwritten text below.\n\nMy first thought is to divide the document. I see a header with all the bank info, a date line, and the body of the letter. I will proceed methodically, starting with the printed header, then the handwritten content.\n\n**Breaking Down the Header:**\n\nThe header looks like this:\n*   **Top Left**: \"$50,000.\"\n*   **Top Center**: \"No. 3200.\"\n*   **Top Right**: \"$200,000.\", with \"[1885] Dec 14\" handwritten at the very top, which I need to note.\n*   **Main Title**: \"Panhandle National Bank,\" in a stylized font.\n*   **Officers**: I can see \"JOHN G. JAMES Pres<sup\\>t</sup\\>\", \"W. A. KNOTT, Vice Pres<sup\\>t</sup\\>\", and \"ASHBY S. JAMES, Cashier.\"\n\nI'm now onto the bank's marketing copy:\n\n*   \"All branches of Conservative Banking carefully conducted.\"\n*   \"Special attention given collections and investments in the Panhandle.\"\n*   \"NEAREST NATIONAL BANK TO MOBEETIE SEYMOUR, ARCHER VERNON, CLARENDON, PEASE CITY AND ALL PANHANDLE POINTS.\"\n*   \"Accounts of Stockmen, Land-Dealers, Merchants and other business men respectfully solicited.\"\n\nI will note the map is present, with the words \"PANHANDLE OF TEXAS\" across it. I'll describe the map, which includes the Texas Panhandle, even if it's just a general statement about the region.\n\nThen the correspondents.\n\n*   \"CORRESPONDENTS.\"\n*   \"HANOVER NATIONAL BANK ........................ NEW YORK.\"\n*   \"VALLEY NATIONAL BANK ........................... ST. LOUIS.\"\n*   \"BALL, HUTCHINGS & CO. .......................... GALVESTON.\"\n\n**Focusing on the Handwritten Content:**\n\nThe handwritten part is the body of a letter, starting with a date and location: \"Wichita Falls, Tex. _________ 188\". I see the handwritten year \"188\".\n\nNow the text:\n\n*   \"issued, is going to be very hard to get, and at\"\n*   \"high figure.\"\n*   \"This country is getting a large stream\"\n*   \"of immigration now, and our county will\"\n*   \"quadruple its farmers this coming winter.\"\n*   \"Lands selling briskly. Since you were here I\"\n*   \"have become interested in two large bodies of\"\n*   \"land, which we are now trying to colonize.\"\n*   \"One is 18000 acres on Red River, and I am now\"\n*   \"putting families on it, having it cut into 160\"\n*   \"acre farms. The other is 3 miles from town\"\n*   \"in Wichita Valley, 7000 acres. We hope to\"\n*   \"settle them in next two years, & will I\"\n*   \"believe make something out of them.\"\n*   \"Our family has been made sad by the death\"\n\nI will need to ensure the use of HTML tags and formatting to match the structure in the provided text, while adhering to spelling. I will note \"Accaunts\" is likely \"Accounts\" but I'll write \"Accounts\" as the official word and mention the ambiguity. I will be careful on handwriting interpretation and note all corrections.\n\n**Double-Checking and Formatting:**\n\nI am now reviewing each part against the guidelines, including the specific HTML tags. I will ensure the formatting of the header matches the original layout, likely using HTML tags.\n\nI will also make a final check on the handwritten content, especially for any ambiguous words. I double check the spelling, particularly of numbers and place names.\n\nFor the word I was debating, I will go with \"family\" because the context fits the letter better, and it better matches the handwritten word’s overall shape even if the \"f\" is weird. I did re-read this letter several times.\n\n**Preparing the Output:**\n\nI will create the final output by combining the accurately transcribed parts.\n\nThe entire header looks like this:\n\n```html\n<p>\n  <span>CAPITAL $ 50,000.</span>\n  <span>No.\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Page 3"
+        ]
+      },
+      "height": 3688,
+      "width": 2325,
+      "items": [
+        {
+          "id": "http://example.org/iiif/92",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/91",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/7f6707d0-2cb3-32fd-8dfb-ab9a995f19cc/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3688,
+                "width": 2325,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/7f6707d0-2cb3-32fd-8dfb-ab9a995f19cc",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://example.org/iiif/107",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/106",
+              "type": "Annotation",
+              "motivation": "transcribing",
+              "body": {
+                "type": "TextualBody",
+                "value": "<span><p>of my sister Betty, who died Nov 27. of<br>\nconsumption - the disease culminating in a<br>\nprofuse hemorrhage which carried her off.<br>\nShe was buried at Weatherfd beside her<br>\nhusband, my eldest brother. I never saw<br>\na purer more consistent Christian life,<br>\nand her sufferings, which were great, were<br>\nborne with the greatest cheerfulness and<br>\nresignation. We feel that she is far better off,<br>\nand as much as we regret her departure, we<br>\ncannot wish her back again to all the suffering<br>\nshe had to bear.</p>\n\n<p>Had letter yesterday from Cole - he was in<br>\ngood spirits - expects to visit Sherman Xmas.<br>\nwill not come by here.</p>\n\n<p>I hope you are getting along pleasantly at<br>\nthe College, and that matters in general are<br>\nprospering.</p>\n\n<p>My wife has been confined to her bed some days<br>\nbut is better now. She unites with me in<br>\nbest wishes & regards for yourself and Mrs<br>\nMcL.</p>\n\n<p>you can remit for the $500 stock now, or after<br>\nJany 1. as may best suit your convenience<br>\nYrs sincerely Ch. W. James</p></span>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3"
+            },
+            {
+              "id": "http://example.org/iiif/108",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "**Finalizing the Transcription: A Thought Process**\n\nAlright, let's get this done. The task is to transcribe this handwritten letter, preserving its original formatting, spelling, and using the specified HTML tags – nothing fancy, just pure, accurate transcription. I'm seeing a mid-19th to early 20th-century cursive style, dark ink on aged paper. This is a personal letter – dealing with a recent death, funeral plans, a letter from someone named \"Cole,\" and some personal and financial matters.\n\nFirst, I'm working through each line, carefully analyzing the handwriting. Context is key! \"Died Nov 27\" – looks solid. \"Consumption\" – yep, tuberculosis. Euphemisms, like \"carried her off,\" are typical for the era. The trickiest part is always place names and names. \"Weathersfd\" – hmm. It *looks* like that, maybe \"Weathersfield,\" but I'm sticking to what's visible. I'll need to recheck that one. The husband/brother relationship is a little confusing – it *could* imply incest, but given the time, it's more likely a brother-in-law or even an appositive. I'll stick with what's written. Spelling is generally good, but I'm checking every letter, especially any ambiguous ones.\n\nI'm making a note of any questionable words and going back to refine them. I am going to double-check \"Weatherfd\". And the \"McL.\" or \"McC.\" abbreviation is a bit unclear, but based on the context, \"McL.\" seems the most likely. The signature is tricky as well. Is it \"H\" or \"W\"? It is more like \"W\" as the writer writes the letter. I am checking \"now\" and confirm it.\n\nFormatting is next. Preserving the line breaks using `<br>` seems the most appropriate here to maintain the structure of the handwritten text. Paragraphs will be marked with `<p>`.\n\nI've drafted the entire text, going back again to check. \"Weatherfd\" is still the issue. It's written \"Weatherfd\". And \"Cole\" and \"Sherman\" are readable. The \"McL\" at the end looks like \"McL\", not anything else. Double-checking \"Betty\" (line 1), \"Jany\" (line 24), \"remit\" (line 23), \"$500\" (line 23). The text is well done. The alignment of the \"Yrs\" and the signature are important to preserve.\n\nI am finalizing the transcription. Now checking the name abbreviations. The \"McL.\" is probably it. \"Weatherfd\" is what is written. Signature: \"Ch. W. James\" - the W is clear. The indentation is good. The text flow is correct. Everything is very clear now. I can verify each word. I think it looks right and is ready to output.\n\n\n",
+                "format": "text/markdown",
+                "language": "none"
+              },
+              "target": "https://api-pre.library.tamu.edu/iiif-service/fedora/canvas/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/mcinnis_objects/133/pages/page_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
