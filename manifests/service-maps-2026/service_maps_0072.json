@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0072.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Operations of First United States Army in Europe, June 6, 1944 to May 9, 1945"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240419_0006_First-US-Army-June-6-1944-May-9-1945.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Parent Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0072"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G5701.S7 1945 .L37"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Theater"
+        ]
+      },
+      "value": {
+        "en": [
+          "ETO"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Branch"
+        ]
+      },
+      "value": {
+        "en": [
+          "Army"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Size"
+        ]
+      },
+      "value": {
+        "en": [
+          "Medium"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "New Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0072_0001.jp2"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0072/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas 1"
+        ]
+      },
+      "height": 8409,
+      "width": 9406,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDcyXzAwMDEuanAy/full/1176,/0/default.jpg",
+          "type": "Image",
+          "height": 1051,
+          "width": 1176,
+          "service": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDcyXzAwMDEuanAy",
+              "@type": "http://iiif.io/api/image/2/context.json",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0072/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0072/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDcyXzAwMDEuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8409,
+                "width": 9406,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDcyXzAwMDEuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0072/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

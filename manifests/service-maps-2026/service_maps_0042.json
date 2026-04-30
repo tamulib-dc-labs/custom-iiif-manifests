@@ -1,0 +1,199 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Route of B Company, 136 Ordnance Maintenance Battalion, France-Germany, 22 November 1944 to 6 May 1945"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240813_0035_Route-of-B-Company-a.tif",
+          "20240813_0035_Route-of-B-Company-b.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Parent Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0042"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G5831.S7 1945 .R68"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Theater"
+        ]
+      },
+      "value": {
+        "en": [
+          "ETO"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Size"
+        ]
+      },
+      "value": {
+        "en": [
+          "Small"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "New Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0042_0001.jp2",
+          "service_maps_0042_0002.jp2"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas 1"
+        ]
+      },
+      "height": 5640,
+      "width": 6784,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDEuanAy/full/1696,/0/default.jpg",
+          "type": "Image",
+          "height": 1410,
+          "width": 1696,
+          "service": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDEuanAy",
+              "@type": "http://iiif.io/api/image/2/context.json",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDEuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5640,
+                "width": 6784,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDEuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas 2"
+        ]
+      },
+      "height": 5618,
+      "width": 6785,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8xL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDIuanAy/full/1696,/0/default.jpg",
+          "type": "Image",
+          "height": 1405,
+          "width": 1696,
+          "service": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8xL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDIuanAy",
+              "@type": "http://iiif.io/api/image/2/context.json",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/2/annotation/2/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/2/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8xL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDIuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 5618,
+                "width": 6785,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvNDMvcGFnZXMvcGFnZV8xL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDQyXzAwMDIuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0042/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

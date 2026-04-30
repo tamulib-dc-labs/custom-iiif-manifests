@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0025.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Roer River crossing at Julich by 1104th Engr. Combat Group"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240422_0018_1104-Engr-Roer-River.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Parent Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0025"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G6296.S7 1945 .R64"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Theater"
+        ]
+      },
+      "value": {
+        "en": [
+          "ETO"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Size"
+        ]
+      },
+      "value": {
+        "en": [
+          "Medium-Large"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "New Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0025_0001.jp2"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0025/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas 1"
+        ]
+      },
+      "height": 8499,
+      "width": 10063,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMjYvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDI1XzAwMDEuanAy/full/1258,/0/default.jpg",
+          "type": "Image",
+          "height": 1062,
+          "width": 1258,
+          "service": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMjYvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDI1XzAwMDEuanAy",
+              "@type": "http://iiif.io/api/image/2/context.json",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0025/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0025/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMjYvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDI1XzAwMDEuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8499,
+                "width": 10063,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMjYvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDI1XzAwMDEuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0025/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

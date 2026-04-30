@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0032.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Advance of One Hundred Seventy-Third Field Artillery Group, England to Austria, July 20 1944 to May 8 1945"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240813_0026_One Hundred Seventy-Third Field Artillery Group.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Parent Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0032"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G5721.S7 1945 .O36"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Theater"
+        ]
+      },
+      "value": {
+        "en": [
+          "ETO"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Size"
+        ]
+      },
+      "value": {
+        "en": [
+          "Medium-Long"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "New Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0032_0001.jp2"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0032/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas 1"
+        ]
+      },
+      "height": 6264,
+      "width": 12002,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMyXzAwMDEuanAy/full/3001,/0/default.jpg",
+          "type": "Image",
+          "height": 1566,
+          "width": 3001,
+          "service": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMyXzAwMDEuanAy",
+              "@type": "http://iiif.io/api/image/2/context.json",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0032/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0032/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMyXzAwMDEuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 6264,
+                "width": 12002,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzMvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMyXzAwMDEuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0032/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

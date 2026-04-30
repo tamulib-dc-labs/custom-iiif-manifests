@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0031.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Merry Christmas 1944 V Corps Artillery"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240422_0020_Merry-Christmas-1944-V-Corps.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Parent Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0031"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G5721.S7 1944 .M47"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Theater"
+        ]
+      },
+      "value": {
+        "en": [
+          "ETO"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Size"
+        ]
+      },
+      "value": {
+        "en": [
+          "Large"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "New Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "service_maps_0031_0001.jp2"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0031/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas 1"
+        ]
+      },
+      "height": 9168,
+      "width": 12007,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzIvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMxXzAwMDEuanAy/full/1501,/0/default.jpg",
+          "type": "Image",
+          "height": 1146,
+          "width": 1501,
+          "service": [
+            {
+              "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzIvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMxXzAwMDEuanAy",
+              "@type": "http://iiif.io/api/image/2/context.json",
+              "profile": "http://iiif.io/api/image/2/level2.json"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0031/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0031/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzIvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMxXzAwMDEuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 9168,
+                "width": 12007,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmF0Y2gtc2VydmljZS1tYXBzLXRlc3RzX29iamVjdHMvMzIvcGFnZXMvcGFnZV8wL2ZpbGVzL3NlcnZpY2VfbWFwc18wMDMxXzAwMDEuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/service_maps_demo/service_maps_0031/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
