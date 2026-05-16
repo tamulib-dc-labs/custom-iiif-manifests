@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/cattle-brands/jefferson.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Texas Cattle Brands from Jefferson County"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/jefferson/canvas/p1",
+      "type": "Canvas",
+      "height": 2550,
+      "width": 1650,
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/jefferson/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/jefferson/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9vYWt0cnVzdC5saWJyYXJ5LnRhbXUuZWR1L3NlcnZlci9hcGkvY29yZS9iaXRzdHJlYW1zLzNjNWIxOTI4LTZiOWYtNGVlZi1iYTRhLTk1NWNlYWI1NjNlMi9jb250ZW50/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2550,
+                "width": 1650,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9vYWt0cnVzdC5saWJyYXJ5LnRhbXUuZWR1L3NlcnZlci9hcGkvY29yZS9iaXRzdHJlYW1zLzNjNWIxOTI4LTZiOWYtNGVlZi1iYTRhLTk1NWNlYWI1NjNlMi9jb250ZW50",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/manifests/jefferson/canvas/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
