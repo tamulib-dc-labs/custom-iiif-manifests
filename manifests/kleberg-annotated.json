@@ -1,0 +1,90 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "label"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas/p1",
+      "type": "Canvas",
+      "height": 3600,
+      "width": 2345,
+      "items": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/3/att-klebergcenter-0016-edit%2FATT_klebergcenter_0016_edit.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 3600,
+                "width": 2345,
+                "service": [
+                  {
+                    "id": "https://iiif.archive.org/image/iiif/3/att-klebergcenter-0016-edit%2FATT_klebergcenter_0016_edit.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas-1/annopage-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas-1/annopage-2/anno-0",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "<a href=\"JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZleGFtcGxlLm9yZyUyRmltcG9ydCUyRjElMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQW5ub3RhdGlvbiUyMiUyQyUyMm1vdGl2YXRpb24lMjIlM0ElNUIlMjJjb250ZW50U3RhdGUlMjIlNUQlMkMlMjJ0YXJnZXQlMjIlM0ElN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGdGFtdWxpYi1kYy1sYWJzLmdpdGh1Yi5pbyUyRmN1c3RvbS1paWlmLW1hbmlmZXN0cyUyRm1hbmlmZXN0cyUyRmhpZGFsZ28lMkZjYW52YXMlMkZwMSUyM3h5d2glM0QxNDA1JTJDNTEwJTJDMTI5JTJDNjclMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQ2FudmFzJTIyJTJDJTIycGFydE9mJTIyJTNBJTVCJTdCJTIyaWQlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnRhbXVsaWItZGMtbGFicy5naXRodWIuaW8lMkZjdXN0b20taWlpZi1tYW5pZmVzdHMlMkZtYW5pZmVzdHMlMkZjYXR0bGUtYnJhbmRzJTJGaGlkYWxnby5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTdE\">McAllen Ranch - 1898</a>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas/p1#xywh=2148,1643,130,78"
+            },
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "<a href=\"JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZleGFtcGxlLm9yZyUyRmltcG9ydCUyRjElMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQW5ub3RhdGlvbiUyMiUyQyUyMm1vdGl2YXRpb24lMjIlM0ElNUIlMjJjb250ZW50U3RhdGUlMjIlNUQlMkMlMjJ0YXJnZXQlMjIlM0ElN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGdGFtdWxpYi1kYy1sYWJzLmdpdGh1Yi5pbyUyRmN1c3RvbS1paWlmLW1hbmlmZXN0cyUyRm1hbmlmZXN0cyUyRmhpZGFsZ28lMkZjYW52YXMlMkZwMSUyM3h5d2glM0QxNDA2JTJDNTg3JTJDMTI5JTJDNjclMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQ2FudmFzJTIyJTJDJTIycGFydE9mJTIyJTNBJTVCJTdCJTIyaWQlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnRhbXVsaWItZGMtbGFicy5naXRodWIuaW8lMkZjdXN0b20taWlpZi1tYW5pZmVzdHMlMkZtYW5pZmVzdHMlMkZjYXR0bGUtYnJhbmRzJTJGaGlkYWxnby5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTdE\">D.V. Guerra & Sons Ranch - 1910</a>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas/p1#xywh=2142,1727,129,86"
+            },
+            {
+              "id": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas-1/annopage-2/anno-2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "<a href=\"JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZleGFtcGxlLm9yZyUyRmltcG9ydCUyRjElMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQW5ub3RhdGlvbiUyMiUyQyUyMm1vdGl2YXRpb24lMjIlM0ElNUIlMjJjb250ZW50U3RhdGUlMjIlNUQlMkMlMjJ0YXJnZXQlMjIlM0ElN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGdGFtdWxpYi1kYy1sYWJzLmdpdGh1Yi5pbyUyRmN1c3RvbS1paWlmLW1hbmlmZXN0cyUyRm1hbmlmZXN0cyUyRmhpZGFsZ28lMkZjYW52YXMlMkZwMSUyM3h5d2glM0QxNDA2JTJDNjYxJTJDMTI5JTJDNjclMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQ2FudmFzJTIyJTJDJTIycGFydE9mJTIyJTNBJTVCJTdCJTIyaWQlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnRhbXVsaWItZGMtbGFicy5naXRodWIuaW8lMkZjdXN0b20taWlpZi1tYW5pZmVzdHMlMkZtYW5pZmVzdHMlMkZjYXR0bGUtYnJhbmRzJTJGaGlkYWxnby5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTdE\">Guerra Bothers - 1890</a>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "https://tamulib-dc-labs.github.io/custom-iiif-manifests/kleberg-annotated/canvas/p1#xywh=2142,1727,129,86"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
